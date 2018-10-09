@@ -5,14 +5,14 @@
     version="3.0">
 <!--2018-06-21 ebb: Bridge Edition Constructor Part 1: This first phase up-converts to TEI and adds xml:ids to each <app> element in the output collation. In the event that the collation process broke apart the self-closed elements into two tags, this stylesheet catches these and restores them to single tags.  -->
 <xsl:output method="xml" indent="yes"/>    
-    <xsl:variable name="collFiles" as="document-node()+" select="collection('Full_xmlOutput')"/>
+    <xsl:variable name="collFiles" as="document-node()+" select="collection('collated-data')"/>
     
     <xsl:variable name="witnesses" as="xs:string+" select="distinct-values($collFiles//@wit)"/>
    <xsl:template match="/">    
        <xsl:for-each select="$collFiles//root"> 
            <xsl:variable name="chunk" as="xs:string" select="substring-after(substring-before(tokenize(base-uri(), '/')[last()], '.'), '_')"/>
-           <xsl:result-document method="xml" indent="yes" href="bridge-P1/bridge-P1_{$chunk}.xml">
-           <TEI xml:id="bridgeP1-{$chunk}">
+           <xsl:result-document method="xml" indent="yes" href="P1-output/P1_{$chunk}.xml">
+           <TEI xml:id="P1-{$chunk}">
             <teiHeader>
                 <fileDesc>
                     <titleStmt>
@@ -49,12 +49,14 @@
   
 <xsl:template match="app">
     <xsl:param name="chunk" tunnel="yes"/>
-   <xsl:choose><xsl:when test="@type"> <app type="{@type}" xml:id="{$chunk}_app{count(preceding::app) + 1}"><xsl:apply-templates/></app></xsl:when>
-   <xsl:otherwise>
-       <app xml:id="{$chunk}_app{count(preceding::app) + 1}"><xsl:apply-templates select="rdg"/></app>
-   </xsl:otherwise>
-   </xsl:choose>
+   <app  xml:id="{$chunk}_app{count(preceding::app) + 1}" n="{@n}"><xsl:apply-templates>
+       <xsl:with-param name="chunk" select="$chunk" tunnel="yes"/>
+   </xsl:apply-templates></app>
 </xsl:template>
+    <xsl:template match="rdgGrp">
+        <xsl:param name="chunk" tunnel="yes"/>
+        <rdgGrp xml:id="{$chunk}_{count(preceding::app) + 1}_rg{count(preceding-sibling::rdgGrp) + 1}"><xsl:apply-templates select="rdgGrp"/></rdgGrp>
+    </xsl:template>
     <xsl:template match="rdg">
         <rdg wit="{@wit}"><xsl:analyze-string select="." regex="&lt;([^/]+?)&gt;\s*&lt;/\1&gt;">
           <xsl:matching-substring>
