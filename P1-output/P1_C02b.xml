@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+     xml:id="P1-C02b">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bridge Phase 1: Collation unit C02b</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Frankenstein Variorum Project</authority>
+            <date>2018</date>
+            <availability>
+               <licence>Distributed under a Creative Commons
+                                Attribution-ShareAlike 3.0 Unported License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Produced from collation output: 2018-10-03 19:23:51.102012 </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab type="alignmentChunk">
+            <app xml:id="C02b_app1" n="">
+		             <rdgGrp xml:id="C02b_1_rg1">
+			               <rdg wit="fMS"> </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C02b_1_rg2">
+			               <rdg wit="fThomas">&lt;del sID="novel1_letter1_div1_p3_del1"/&gt;for ever&lt;del eID="novel1_letter1_div1_p3_del1"/&gt;constantly </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C02b_1_rg3">
+			               <rdg wit="f1818">for ever </rdg>
+			               <rdg wit="f1823">for ever </rdg>
+			               <rdg wit="f1831">for ever </rdg>
+		             </rdgGrp>
+	           </app>
+         </ab>
+      </body>
+   </text>
+</TEI>
