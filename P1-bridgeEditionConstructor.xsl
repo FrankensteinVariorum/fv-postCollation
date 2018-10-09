@@ -56,7 +56,7 @@
 </xsl:template>
     <xsl:template match="rdgGrp">
         <xsl:param name="chunk" tunnel="yes"/>
-        <rdgGrp xml:id="{$chunk}_{count(preceding::app) + 1}_rg{count(preceding-sibling::rdgGrp) + 1}" n="{@n}"><xsl:apply-templates/></rdgGrp>
+        <rdgGrp xml:id="{$chunk}_app{count(preceding::app) + 1}_rg{count(preceding-sibling::rdgGrp) + 1}" n="{@n}"><xsl:apply-templates/></rdgGrp>
     </xsl:template>
     <xsl:template match="rdg">
         <rdg wit="{@wit}"><xsl:analyze-string select="." regex="&lt;([^/]+?)&gt;\s*&lt;/\1&gt;">
