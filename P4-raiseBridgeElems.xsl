@@ -18,7 +18,7 @@
     <!--2018-07-23 ebb: I've updated this stylesheet to work with the th:raise function as expressed in raise_deep.xsl. -->
     <xsl:variable name="novel-coll"
         as="document-node()+"
-        select="collection('bridge-P3')"/>    
+        select="collection('P3.5-output/?select=*.xml')"/>    
     <!--* Experimental:  try adding a key *-->
   <!--2018-07-23 ebb: This isn't working, and I'm not sure why not. This stylesheet has the recursion function run over a container element, rather than an  entire document node, and I think that must be the problem. Commenting it out for now.   <xsl:key name="start-markers" match="$C10-coll//*[@th:sID]" use="@th:sID"/>
     <xsl:key name="end-markers" match="$C10-coll//*[@th:eID]" use="@th:eID"/>-->
@@ -61,7 +61,7 @@
 			 select="substring-after(substring-before(tokenize(base-uri(), '/')[last()], '.'), '_')"/> 
            <xsl:result-document method="xml"
 				indent="yes"
-				href="bridge-P4/{$filename}">
+				href="P4-output/{$filename}">
                <TEI>
 		   <xsl:apply-templates select="descendant::teiHeader"/>
 		   <text>
