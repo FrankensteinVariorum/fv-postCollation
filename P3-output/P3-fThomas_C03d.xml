@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:mith="http://mith.umd.edu/sc/ns1#"
+     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bridge Phase 3:  Witness fThomas, Collation unit C03d</title>
+         </titleStmt>
+         <publicationStmt xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+            <authority>Frankenstein Variorum Project</authority>
+            <date>2018</date>
+            <availability>
+               <licence>Distributed under a Creative Commons
+                                Attribution-ShareAlike 3.0 Unported License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+            <p>Produced from collation output: 2018-10-03 19:23:51.102012 </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="collation" xml:id="C03d">
+            <seg xml:id="C03d_app1-fThomas_start"/>has passed all his life on board a vessel, and has scarcely an idea beyond the <seg xml:id="C03d_app1-fThomas_end"/>
+            <seg xml:id="C03d_app2-fThomas_start"/>
+            <del th:sID="novel1_letter2_div2_p5_del2"/>rope<del th:eID="novel1_letter2_div2_p5_del2"/>ship <seg xml:id="C03d_app2-fThomas_end"/>
+            <seg xml:id="C03d_app3-fThomas_start"/>and <seg xml:id="C03d_app3-fThomas_end"/>
+            <seg xml:id="C03d_app4-fThomas_start"/>the<del th:sID="novel1_letter2_div2_p5_del3"/>shroud<del th:eID="novel1_letter2_div2_p5_del3"/>crew.<p th:eID="novel1_letter2_div2_p5"/> 
+            <seg xml:id="C03d_app4-fThomas_end"/>
+         </div>
+      </body>
+   </text>
+</TEI>

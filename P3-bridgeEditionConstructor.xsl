@@ -8,17 +8,17 @@
     exclude-result-prefixes="xs" version="3.0">
 
   <xsl:mode on-no-match="shallow-copy"/>
-    <xsl:variable name="P2-BridgeColl" as="document-node()+" select="collection('bridge-P2')"/>
-    <xsl:variable name="testerDoc" as="document-node()" select="doc('bridge-P2/bridge-P2_f1818_C10.xml')"/>
+    <xsl:variable name="P2-Coll" as="document-node()+" select="collection('P2-output/?select=*.xml')"/>
+    <xsl:variable name="testerDoc" as="document-node()" select="doc('P2-output/P2_f1818_C10.xml')"/>
 <!--In Bridge Construction Phase 3, we are up-converting the text-converted tags in the edition files into self-closed elements. We add the th: namespace prefix to "trojan horse" attributes used for markers.-->   
    <xsl:template match="/">
-       <xsl:for-each select="$P2-BridgeColl//TEI">
+       <xsl:for-each select="$P2-Coll//TEI">
            <xsl:variable name="currentP2File" as="element()" select="current()"/>
            <xsl:variable name="filename">
-              <xsl:text>P3-</xsl:text><xsl:value-of select="tokenize(base-uri(), '/')[last()] ! tokenize(., 'bridge-P2_')[last()]"/>
+              <xsl:text>P3-</xsl:text><xsl:value-of select="tokenize(base-uri(), '/')[last()] ! tokenize(., 'P2_')[last()]"/>
            </xsl:variable>
          <xsl:variable name="chunk" as="xs:string" select="tokenize($filename, '_')[last()]"/>          
-           <xsl:result-document method="xml" indent="yes" href="bridge-P3/{$filename}">
+           <xsl:result-document method="xml" indent="yes" href="P3-output/{$filename}">
                <TEI>
            <xsl:apply-templates/>
                </TEI>

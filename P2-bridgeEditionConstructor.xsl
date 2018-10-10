@@ -11,7 +11,7 @@
     -->
 <xsl:output method="xml" indent="yes"/>  
 
-    <xsl:variable name="P1Files" as="document-node()+" select="collection('P1-output')"/>
+    <xsl:variable name="P1Files" as="document-node()+" select="collection('P1-output/?select=*.xml')"/>
     <xsl:variable name="witnesses" as="xs:string+" select="distinct-values($P1Files//@wit)"/>
     
    <xsl:template match="/">

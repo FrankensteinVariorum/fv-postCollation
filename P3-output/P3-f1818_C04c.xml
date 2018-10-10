@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:mith="http://mith.umd.edu/sc/ns1#"
+     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bridge Phase 3:  Witness f1818, Collation unit C04c</title>
+         </titleStmt>
+         <publicationStmt xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+            <authority>Frankenstein Variorum Project</authority>
+            <date>2018</date>
+            <availability>
+               <licence>Distributed under a Creative Commons
+                                Attribution-ShareAlike 3.0 Unported License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+            <p>Produced from collation output: 2018-10-03 19:23:51.102012 </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="collation" xml:id="C04c">
+            <seg xml:id="C04c_app1-f1818_start"/>
+            <p th:sID="novel1_letter3_div3_p7"/>Most affectionately <seg xml:id="C04c_app1-f1818_end"/>
+            <seg xml:id="C04c_app2-f1818_start"/>yours,<p th:eID="novel1_letter3_div3_p7"/>
+            <p th:sID="novel1_letter3_div3_p8"/>R.W.<p th:eID="novel1_letter3_div3_p8"/>
+            <pb n="021" xml:id="F1818_v1_033"/>
+            <milestone n="3" type="end" unit="letter"/> 
+            <seg xml:id="C04c_app2-f1818_end"/>
+         </div>
+      </body>
+   </text>
+</TEI>
