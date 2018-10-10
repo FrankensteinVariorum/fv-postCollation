@@ -6,7 +6,7 @@ xmlns:mith="http://mith.umd.edu/sc/ns1#"  xmlns:th="http://www.blackmesatech.com
     xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs" version="3.0">
 
 <xsl:mode on-no-match="shallow-copy"/>
-    <xsl:variable name="P4-BridgeColl" as="document-node()+" select="collection('bridge-P4')"/> 
+    <xsl:variable name="P4-Coll" as="document-node()+" select="collection('P4-output/?select=*.xml')"/> 
 <!--2018-07-29: Bridge Construction Phase 5: What we need to do:      
        *  where the end markers of seg elements are marked we reconstruct them in pieces. 
         * raise the <seg> marker elements marking hotspots
@@ -14,7 +14,7 @@ xmlns:mith="http://mith.umd.edu/sc/ns1#"  xmlns:th="http://www.blackmesatech.com
     In this first stage of Part 5, we are converting the seg elements into Trojan markers using the th:namespace, and explicitly designating those that are fragments (that will break hierarchy if raised) as parts by adding a part attribute. This should help to ease the handling of these in the next stage as we adapt CMSpMq's left-to-right sibling traversal for raising flattened elements.  
     -->    
    <xsl:template match="/">
-       <xsl:for-each select="$P4-BridgeColl//TEI">
+       <xsl:for-each select="$P4-Coll//TEI">
            <xsl:variable name="currentP4File" as="element()" select="current()"/>
            <xsl:variable name="filename">
               <xsl:text>P5-</xsl:text><xsl:value-of select="tokenize(base-uri(), '/')[last()] ! substring-after(., 'P4-')"/>
