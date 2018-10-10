@@ -21,7 +21,7 @@ xmlns:mith="http://mith.umd.edu/sc/ns1#"  xmlns:th="http://www.blackmesatech.com
            </xsl:variable>
          <xsl:variable name="chunk" as="xs:string" select="tokenize(base-uri(), '/')[last()] ! substring-before(., '.') ! substring-after(., '_')"/> 
 
-           <xsl:result-document method="xml" indent="yes" href="bridge-P5A/{$filename}">
+           <xsl:result-document method="xml" indent="yes" href="preP5a-output/{$filename}">
                <TEI xmlns="http://www.tei-c.org/ns/1.0"                 xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein" xmlns:mith="http://mith.umd.edu/sc/ns1#"  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
             <xsl:apply-templates select="descendant::teiHeader"/>
         <text>
@@ -64,8 +64,8 @@ xmlns:mith="http://mith.umd.edu/sc/ns1#"  xmlns:th="http://www.blackmesatech.com
               <xsl:otherwise>
                   <xsl:variable name="endID" as="xs:string" select="substring-before(@xml:id, '_end')"/> 
                <xsl:choose>
-                   <xsl:when test="preceding-sibling::seg[1][contains(@xml:id, '_start') and substring-before(@xml:id, '_start') eq $endID]">   
-                   <seg th:eID="{substring-before(@xml:id, '_end')}"/>
+                   <xsl:when test="preceding-sibling::seg[1][contains(@xml:id, '_start') and substring-before(@xml:id, '_start') eq $endID]">
+<seg th:eID="{substring-before(@xml:id, '_end')}"/>
                    </xsl:when>
                <xsl:otherwise>
                    <seg th:eID="{substring-before(@xml:id, '_end')}__Pt2" part="F"/>
@@ -73,9 +73,5 @@ xmlns:mith="http://mith.umd.edu/sc/ns1#"  xmlns:th="http://www.blackmesatech.com
                </xsl:choose>
               </xsl:otherwise>
           </xsl:choose>
-          
       </xsl:template>
-
 </xsl:stylesheet>
-
-
