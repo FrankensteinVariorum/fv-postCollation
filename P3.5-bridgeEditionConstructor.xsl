@@ -13,7 +13,7 @@
    <xsl:template match="/">
        <xsl:for-each-group select="$P3-Coll" group-by="tokenize(base-uri(), '-f')[last()] ! tokenize(., '[a-z]?\.xml')[1]">
            <xsl:variable name="filename" select="concat('P3-f', current-grouping-key(), '.xml')"/>  
-           <xsl:variable name="witness" select="tokenize($filename, '-')[1] ! concat('f', .)"/>
+           <xsl:variable name="witness" select="tokenize($filename, '-')[last()] ! substring-before(., '_')"/>
            <xsl:variable name="chunk" select="tokenize($filename, '_')[last()] ! substring-before(., '.xml')"/>
            <xsl:result-document method="xml" indent="yes" href="P3.5-output/{$filename}">
           <TEI>
