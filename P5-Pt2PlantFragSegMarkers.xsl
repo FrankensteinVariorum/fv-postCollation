@@ -7,11 +7,7 @@ xmlns:mith="http://mith.umd.edu/sc/ns1#"  xmlns:th="http://www.blackmesatech.com
 
 <xsl:mode on-no-match="shallow-copy"/>
     <xsl:variable name="preP5a-coll" as="document-node()+" select="collection('preP5a-output/?select=*.xml')"/> 
-<!--2018-07-29: Bridge Construction Phase 5: What we need to do:      
-       *  where the end markers of seg elements are marked we reconstruct them in pieces. 
-        * raise the <seg> marker elements marking hotspots
-       *  deliver seg identifying locations to the Spinal Column file.
-    In this first stage of Part 5, we are converting the seg elements into Trojan markers using the th:namespace, and explicitly designating those that are fragments (that will break hierarchy if raised) as parts by adding a part attribute. This should help to ease the handling of these in the next stage as we adapt CMSpMq's left-to-right sibling traversal for raising flattened elements.  
+<!--2018-10-10 ebb: Bridge Construction Phase 5b: Here we are dealing with "stranded" or fragmented segs that are in between up-raised elements in the edition files. This XSLT plants medial <seg/> start or end "marker" tags prior to upraising the seg elements.
     -->    
    <xsl:template match="/">
        <xsl:for-each select="$preP5a-coll//TEI">
@@ -19,7 +15,7 @@ xmlns:mith="http://mith.umd.edu/sc/ns1#"  xmlns:th="http://www.blackmesatech.com
            <xsl:variable name="filename" as="xs:string" select="tokenize(base-uri(), '/')[last()]"/>
          <xsl:variable name="chunk" as="xs:string" select="tokenize(base-uri(), '/')[last()] ! substring-before(., '.') ! substring-after(., '_')"/> 
 
-           <xsl:result-document method="xml" indent="yes" href="bridge-P5B/{$filename}">
+           <xsl:result-document method="xml" indent="yes" href="preP5b-output/{$filename}">
                <TEI xmlns="http://www.tei-c.org/ns/1.0"                 xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein" xmlns:mith="http://mith.umd.edu/sc/ns1#"  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
          <xsl:copy-of select="descendant::teiHeader" copy-namespaces="no"/>
         <text>
@@ -31,15 +27,19 @@ xmlns:mith="http://mith.umd.edu/sc/ns1#"  xmlns:th="http://www.blackmesatech.com
          </xsl:result-document>
        </xsl:for-each>      
    </xsl:template>
- 
-      <xsl:template match="*[child::seg[@part]]">
+    <xsl:template match="*[child::seg[@part]]">
           <xsl:element name="{name()}">
               <xsl:copy-of select="@*"/>
           <xsl:if test="child::seg[1][@part and @th:eID]">
               <seg th:sID="{child::seg[1][@part and @th:eID]/@th:eID}" part="{child::seg[1][@part and @th:eID]/@part}"/>
+              <xsl:apply-templates select="child::seg[1][@part and @th:eID]/preceding-sibling::node()"/>
+             
+              <xsl:apply-templates select="child::seg[1][@part and @th:eID]"/>
+              <xsl:apply-templates select="child::seg[1][@part and @th:eID]/following-sibling::node()[not(seg[last() and @part and @th:sID]) and not(preceding-sibling::seg[@part and @th:sID and not(following-sibling::seg[@part and @th:eID])])]"/>
           </xsl:if>
-          <xsl:apply-templates/>
-              <xsl:if test="child::seg[last()][@part and @th:sID]">
+              <xsl:if test="child::seg[last()][@part and @th:sID]"> 
+     <xsl:apply-templates select="child::seg[last() and @part and @th:sID]"/>
+                  <xsl:apply-templates select="child::seg[last() and @part and @th:sID]/following-sibling::node()"/>
                   <seg th:eID="{child::seg[last()][@part and @th:sID]/@th:sID}" part="{child::seg[last()][@part and @th:sID]/@part}"/>
               </xsl:if>
           </xsl:element>
