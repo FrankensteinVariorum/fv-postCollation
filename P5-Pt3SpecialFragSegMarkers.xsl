@@ -30,7 +30,7 @@ xmlns:mith="http://mith.umd.edu/sc/ns1#"  xmlns:th="http://www.blackmesatech.com
          </xsl:result-document>
        </xsl:for-each>      
    </xsl:template>
-    <xsl:template match="text()[preceding-sibling::seg[1][@part and @th:sID][not(@th:sID = following-sibling::seg[@part]/@th:eID)]][following-sibling::node()[1][seg/substring-before(@th:eID, '__') = preceding-sibling::seg[1][@part and @th:sID]/substring-before(@th:sID, '__')]]">
+    <xsl:template match="node()[preceding-sibling::seg[1][@part and @th:sID][not(@th:sID = following-sibling::seg[@part]/@th:eID)]][following::seg/substring-before(@th:eID, '__') = preceding-sibling::seg[1][@part and @th:sID]/substring-before(@th:sID, '__')]">
         <xsl:copy-of select="current()" copy-namespaces="no"/>
         <seg th:eID="{preceding-sibling::seg[1][@part and @th:sID]/@th:sID}" part="{preceding-sibling::seg[1][@part and @th:sID]/@part}"/> 
     </xsl:template>

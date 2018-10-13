@@ -11,7 +11,9 @@ xmlns:mith="http://mith.umd.edu/sc/ns1#"  xmlns:th="http://www.blackmesatech.com
        *  where the end markers of seg elements are marked we reconstruct them in pieces. 
         * raise the <seg> marker elements marking hotspots
        *  deliver seg identifying locations to the Spinal Column file.
-    In this first stage of Part 5, we are converting the seg elements into Trojan markers using the th:namespace, and explicitly designating those that are fragments (that will break hierarchy if raised) as parts by adding a part attribute. This should help to ease the handling of these in the next stage as we adapt CMSpMq's left-to-right sibling traversal for raising flattened elements.  
+    In this first stage of Part 5, we are converting the seg elements into Trojan markers using the th:namespace, and explicitly designating those that are fragments (that will break hierarchy if raised) as parts by adding a part attribute. 
+    In the next stage, we will need to add additional seg elements to handle fragmented hotspots that break across the edition element hierarchy.
+    In the last stage of this process, we adapt CMSpMq's left-to-right sibling traversal for raising flattened elements.  
     -->    
    <xsl:template match="/">
        <xsl:for-each select="$P4-Coll//TEI">
@@ -51,24 +53,32 @@ xmlns:mith="http://mith.umd.edu/sc/ns1#"  xmlns:th="http://www.blackmesatech.com
  
       <xsl:template match="seg">
           <xsl:choose>
+              <!--segs with START IDs -->
               <xsl:when test="contains(@xml:id, '_start')"> 
                   <xsl:variable name="startID" as="xs:string" select="substring-before(@xml:id, '_start')"/> 
-            <xsl:choose><xsl:when test="following-sibling::seg[1][contains(@xml:id, '_end') and substring-before(@xml:id, '_end') eq $startID]">
+            <xsl:choose>
+                <!--for simple segs with START IDS that have following-sibling ends -->
+                <xsl:when test="following-sibling::seg[1][contains(@xml:id, '_end') and substring-before(@xml:id, '_end') eq $startID]">
                 <seg th:sID="{substring-before(@xml:id, '_start')}"/>  
             </xsl:when>
+         <!--for fragmented segs with START IDs. -->
                 <xsl:when test="not(following-sibling::seg[1][contains(@xml:id, '_end') and substring-before(@xml:id, '_end') eq $startID])">
-                    <seg th:sID="{substring-before(@xml:id, '_start')}__Pt1" part="I"/>
+                    <seg th:sID="{substring-before(@xml:id, '_start')}__I" part="I"/>
                 </xsl:when>
             </xsl:choose>
+                  
               </xsl:when>
+       <!--segs with END IDs -->       
               <xsl:otherwise>
                   <xsl:variable name="endID" as="xs:string" select="substring-before(@xml:id, '_end')"/> 
                <xsl:choose>
+          <!--for simple segs where end IDS have a preceding-sibling start ID. -->
                    <xsl:when test="preceding-sibling::seg[1][contains(@xml:id, '_start') and substring-before(@xml:id, '_start') eq $endID]">
 <seg th:eID="{substring-before(@xml:id, '_end')}"/>
                    </xsl:when>
+                   <!--for fragmented end IDs that don't have a preceding-sibling start ID. -->
                <xsl:otherwise>
-                   <seg th:eID="{substring-before(@xml:id, '_end')}__Pt2" part="F"/>
+                   <seg th:eID="{substring-before(@xml:id, '_end')}__F" part="F"/>
                </xsl:otherwise>
                </xsl:choose>
               </xsl:otherwise>
