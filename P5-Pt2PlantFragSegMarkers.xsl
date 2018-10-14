@@ -41,8 +41,13 @@ xmlns:mith="http://mith.umd.edu/sc/ns1#"  xmlns:th="http://www.blackmesatech.com
      <seg th:eID="{@th:sID}" part="{@part}"/>
                <xsl:apply-templates select="following-sibling::*[seg[@part='F' and substring-before(@th:eID, '__') = $matchID]]"/>
                <xsl:apply-templates select="following-sibling::*[seg[@part='F' and substring-before(@th:eID, '__') = $matchID]]/following-sibling::node()"/>
-         </xsl:when>  
-           
+         </xsl:when>
+           <!--2018-10-13 ebb: SOMEHOW I'M DUPLICATING A TEXT NODE(). -->
+           <!--When the START ID sits a level below the matching END marker (END marker is the following sibling of the start marker's ancestor), OR END marker is a child of the ancestor's following-sibling.  --> 
+           <xsl:when test="ancestor::*[following-sibling::seg[@part='F' and substring-before(@th:eID, '__') = $matchID]]">
+         <xsl:apply-templates select="following-sibling::node()"/>      
+             <seg th:eID="{@th:sID}" part="{@part}"/> 
+           </xsl:when>
        </xsl:choose> 
         
     </xsl:template>
