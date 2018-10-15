@@ -7,7 +7,7 @@ xmlns:mith="http://mith.umd.edu/sc/ns1#"  xmlns:th="http://www.blackmesatech.com
 
 <xsl:mode on-no-match="shallow-copy"/>
     <xsl:variable name="preP5a-coll" as="document-node()+" select="collection('preP5a-output/?select=*.xml')"/> 
-<!--2018-10-10 ebb: This XSLT plants seg part start and end markers at uneven levels of the hierarchy. 
+<!--2018-10-15 ebb: This XSLT plants medial seg markers to surround multiple element nodes in between fragmented seg start-pairs and end-pairs  
     -->    
    <xsl:template match="/">
        <xsl:for-each select="$preP5a-coll//TEI">
@@ -30,16 +30,9 @@ xmlns:mith="http://mith.umd.edu/sc/ns1#"  xmlns:th="http://www.blackmesatech.com
          </xsl:result-document>
        </xsl:for-each>      
    </xsl:template>
-    <xsl:template match="node()[preceding-sibling::seg[1][@part and @th:sID][not(@th:sID = following-sibling::seg[@part]/@th:eID)]][following::seg/substring-before(@th:eID, '__') = preceding-sibling::seg[1][@part and @th:sID]/substring-before(@th:sID, '__')]">
-        <xsl:copy-of select="current()" copy-namespaces="no"/>
-        <seg th:eID="{preceding-sibling::seg[1][@part and @th:sID]/@th:sID}" part="{preceding-sibling::seg[1][@part and @th:sID]/@part}"/> 
-    </xsl:template>
-   
-    <xsl:template match="text()[following-sibling::seg[1][@part and @th:eID][not(@th:eID = preceding-sibling::seg[1][@part]/@th:sID)]][preceding-sibling::node()[1]/seg[last()][substring-before(@th:eID, '__') = following::seg[1][@part and @th:eID]/substring-before(@th:eID, '__')]][1]">
-        <seg th:sID="{following-sibling::seg[1][@part and @th:eID]/@th:eID}" part="{following-sibling::seg[1][@part and @th:eID]/@part}"/>
-        <xsl:copy-of select="current()" copy-namespaces="no"/>
-   </xsl:template>
-        
+    <!--Setting MEDIAL marker pairs. THESE MUST SURROUND INTERVENING ELEMENT NODES IN BETWEEN START PAIRS AND END PAIRS. 
+        Find where there is an element following a first preceding start-pair (seg part="I" and @eID). See if it has one or more elements on the following-sibling axis that precede a following end-pair (seg part="F" and @sID). These intermediary elements would not themselves contain segs.  
+       -->
  
 </xsl:stylesheet>
             
