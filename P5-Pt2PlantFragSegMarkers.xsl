@@ -34,11 +34,11 @@ xmlns:mith="http://mith.umd.edu/sc/ns1#"  xmlns:th="http://www.blackmesatech.com
     <xsl:template match="seg[@part='I' and @th:sID]">
 <xsl:copy-of select="."/>
         <xsl:variable name="matchID" as="xs:string" select="substring-before(@th:sID, '__')"/>
-           <!--end marker is on the following axis. It always will be. -->
+           <!--End marker will always be on the following:: axis, but placement of the close marker depends on position of start-marker in the hierarchy, whether it's in the level above or below the start-marker. -->
  <xsl:copy-of select="following-sibling::node()[following::seg[@part='F' and substring-before(@th:eID, '__') = $matchID]]"/>
      <seg th:eID="{@th:sID}" part="{@part}"/>
     </xsl:template>
-  <xsl:template match="node()[preceding-sibling::*[1][self::seg[@part='I' and @th:sID]]]"/>  
+  <xsl:template match="node()[preceding-sibling::seg[@part='I' and @th:sID] and following::seg[1][@part='F'][substring-before(@th:eID, '__') = substring-before(./preceding-sibling::seg[1][@part='I']/@th:sID, '__')]]"/>  
   
 </xsl:stylesheet>
 
