@@ -62,7 +62,7 @@ xmlns:mith="http://mith.umd.edu/sc/ns1#"  xmlns:th="http://www.blackmesatech.com
                 <seg th:sID="{substring-before(@xml:id, '_start')}"/>  
             </xsl:when>
          <!--for fragmented segs with START IDs. -->
-                <xsl:when test="not(following-sibling::seg[1][contains(@xml:id, '_end') and substring-before(@xml:id, '_end') eq $startID])">
+                <xsl:when test="not(following-sibling::seg[contains(@xml:id, '_end') and substring-before(@xml:id, '_end') eq $startID])">
                     <seg th:sID="{substring-before(@xml:id, '_start')}__I" part="I"/>
                 </xsl:when>
             </xsl:choose>
@@ -73,7 +73,7 @@ xmlns:mith="http://mith.umd.edu/sc/ns1#"  xmlns:th="http://www.blackmesatech.com
                   <xsl:variable name="endID" as="xs:string" select="substring-before(@xml:id, '_end')"/> 
                <xsl:choose>
           <!--for simple segs where end IDS have a preceding-sibling start ID. -->
-                   <xsl:when test="preceding-sibling::seg[1][contains(@xml:id, '_start') and substring-before(@xml:id, '_start') eq $endID]">
+                   <xsl:when test="preceding-sibling::seg[contains(@xml:id, '_start') and substring-before(@xml:id, '_start') eq $endID]">
 <seg th:eID="{substring-before(@xml:id, '_end')}"/>
                    </xsl:when>
                    <!--for fragmented end IDs that don't have a preceding-sibling start ID. -->

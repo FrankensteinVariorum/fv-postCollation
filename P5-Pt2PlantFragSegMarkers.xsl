@@ -34,39 +34,12 @@ xmlns:mith="http://mith.umd.edu/sc/ns1#"  xmlns:th="http://www.blackmesatech.com
     <xsl:template match="seg[@part='I' and @th:sID]">
 <xsl:copy-of select="."/>
         <xsl:variable name="matchID" as="xs:string" select="substring-before(@th:sID, '__')"/>
-       <xsl:choose>
-       <!--When the START ID stands a level above the matching END marker (END marker is child of a following-sibling element node).  --> 
-           <xsl:when test="following-sibling::*/seg[@part='F' and substring-before(@th:eID, '__') = $matchID]">
-               <xsl:apply-templates select="following-sibling::node()[following-sibling::*/seg[@part='F' and substring-before(@th:eID, '__') = $matchID]]"/>
+           <!--end marker is on the following axis. It always will be. -->
+ <xsl:copy-of select="following-sibling::node()[following::seg[@part='F' and substring-before(@th:eID, '__') = $matchID]]"/>
      <seg th:eID="{@th:sID}" part="{@part}"/>
-               <xsl:apply-templates select="following-sibling::*[seg[@part='F' and substring-before(@th:eID, '__') = $matchID]]"/>
-               <xsl:apply-templates select="following-sibling::*[seg[@part='F' and substring-before(@th:eID, '__') = $matchID]]/following-sibling::node()"/>
-         </xsl:when>
-           <!--2018-10-13 ebb: SOMEHOW I'M DUPLICATING A TEXT NODE(). -->
-           <!--When the START ID sits a level below the matching END marker (END marker is the following sibling of the start marker's ancestor), OR END marker is a child of the ancestor's following-sibling.  --> 
-           <xsl:when test="ancestor::*[following-sibling::seg[@part='F' and substring-before(@th:eID, '__') = $matchID]]">
-         <xsl:apply-templates select="following-sibling::node()"/>      
-             <seg th:eID="{@th:sID}" part="{@part}"/> 
-           </xsl:when>
-       </xsl:choose> 
-        
     </xsl:template>
-    
-  <!--  <xsl:template match="*[child::seg[@part]]">
-          <xsl:element name="{name()}">
-              <xsl:copy-of select="@*"/>
-              <xsl:apply-templates/>
-         <xsl:if test="seg[@part='I' and @th:sID]">
-           <xsl:choose>
-               <!-\-The first-part seg could be in the hierarchy level above (most likely in the div above the paragraphs). In this case, we need to make sure the end marker is not in the last position, but precedes the element that contains the close marker. -\->
-               <xsl:when test="seg[@part='I' and substring-before(@th:sID, '__') = following-sibling::*/seg[@part='F' and @th:eID]/substring-before(@th:eID, '__')]">
-        <xsl:apply-templates select="node()[preceding-sibling::seg[@part='I' ]]"           
-                   
-               </xsl:when>
-           </xsl:choose>   
-         </xsl:if>
-          </xsl:element>
-      </xsl:template>-->
+  <xsl:template match="node()[preceding-sibling::*[1][self::seg[@part='I' and @th:sID]]]"/>  
+  
 </xsl:stylesheet>
 
 
