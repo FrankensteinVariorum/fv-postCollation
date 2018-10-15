@@ -34,11 +34,24 @@ xmlns:mith="http://mith.umd.edu/sc/ns1#"  xmlns:th="http://www.blackmesatech.com
     <xsl:template match="seg[@part='I' and @th:sID]">
 <xsl:copy-of select="."/>
         <xsl:variable name="matchID" as="xs:string" select="substring-before(@th:sID, '__')"/>
-           <!--End marker will always be on the following:: axis, but placement of the close marker depends on position of start-marker in the hierarchy, whether it's in the level above or below the start-marker. -->
+           <!--End marker for closing part will always be on the following:: axis. -->
  <xsl:copy-of select="following-sibling::node()[following::seg[@part='F' and substring-before(@th:eID, '__') = $matchID]]"/>
      <seg th:eID="{@th:sID}" part="{@part}"/>
     </xsl:template>
-  <xsl:template match="node()[preceding-sibling::seg[@part='I' and @th:sID] and following::seg[1][@part='F'][substring-before(@th:eID, '__') = substring-before(./preceding-sibling::seg[1][@part='I']/@th:sID, '__')]]"/>  
+    <!--FRAGMENT PART F (terminal) segs: All end-markers without preceding-sibling start-markers -->
+    <xsl:template match="seg[@part='F' and @th:eID]">
+        <xsl:variable name="matchID" as="xs:string" select="substring-before(@th:eID, '__')"/>
+        <!--Starting-part marker will always be on the preceding:: axis. -->
+        <seg th:sID="{@th:eID}" part="{@part}"/> 
+        <xsl:copy-of select="preceding-sibling::node()[preceding::seg[@part='I' and substring-before(@th:sID, '__') = $matchID]]"/>
+        <xsl:copy-of select="."/>  
+    </xsl:template>
+    
+<!--Suppressing duplicates of copied nodes in the above templates -->
+    <!--Suppresses nodes that come after initial start-markers -->
+  <xsl:template match="node()[preceding-sibling::seg[@part='I' and @th:sID] and following::seg[1][@part='F'][substring-before(@th:eID, '__') = substring-before(current()/preceding-sibling::seg[1][@part='I']/@th:sID, '__')]]"/> 
+    <!--Suppresses nodes that come before terminal end-markers -->
+    <xsl:template match="node()[following-sibling::seg[@part='F' and @th:eID] and preceding::seg[1][@part='I' and substring-before(@th:sID, '__') = substring-before(current()/following-sibling::seg[1][@part='F']/@th:eID, '__')]]"/>
   
 </xsl:stylesheet>
 
