@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../segMarkerTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
      xmlns:mith="http://mith.umd.edu/sc/ns1#"
@@ -352,7 +353,7 @@
             <milestone unit="tei:p"/>
             <lb n="c56-0013__Pt1__main__8"/> In this account of my early <lb n="c56-0013__Pt1__main__9"/> youth I wish particularly to men<lb n="c56-0013__Pt1__main__10"/>tion<lb n="c56-0013__Pt1__left_margin__1"/>
             <del rend="strikethrough" xml:id="c56-0013__Pt1__left_margin__d2e831">record </del> those circumstances which <lb n="c56-0013__Pt1__main__11"/> led to and nourished <seg th:eID="C07g_app1-fMS"/>my <seg th:sID="C07g_app4-fMS"/>taste <lb n="c56-0013__Pt1__main__12"/> for that science which was <lb n="c56-0013__Pt1__main__13"/> the principal amusement <seg th:eID="C07g_app4-fMS"/>of <seg th:sID="C07g_app6-fMS"/>my <lb n="c56-0013__Pt1__main__14"/> boyish days <seg th:eID="C07g_app6-fMS"/>and <seg th:sID="C07g_app8-fMS"/>in the enddeci<lb n="c56-0013__Pt1__main__15"/>ded my destiny. I mentioned before <lb n="c56-0013__Pt1__main__16"/> my taste for old books <seg th:eID="C07g_app8-fMS"/>of <seg th:sID="C07g_app12-fMS"/>chemist<lb n="c56-0013__Pt1__main__17"/>ry and natural magic and I remem<lb n="c56-0013__Pt1__main__18"/>ber very well that <seg th:eID="C07g_app12-fMS"/>I <seg th:sID="C07g_app14-fMS"/>learned latin <lb n="c56-0013__Pt1__main__19"/> principally that I might read <lb n="c56-0013__Pt1__main__20"/> Pliny's Natural History my father <lb n="c56-0013__Pt1__main__21"/> refusing <seg th:eID="C07g_app14-fMS"/>to <seg th:sID="C07g_app18-fMS"/>allow me to read a <lb n="c56-0013__Pt1__main__22"/> translation. <seg th:eID="C07g_app18-fMS"/>I <seg th:sID="C07g_app20-fMS"/>used when very young <lb n="c56-0013__Pt1__main__23"/> to attend lectures <seg th:eID="C07g_app20-fMS"/>of <seg th:sID="C07g_app22-fMS"/>chemistry <lb n="c56-0013__Pt1__main__24"/> given in Geneva and athough <lb n="c56-0013__Pt1__main__25"/> 
-            <seg th:eID="C07g_app22-fMS"/>I <seg th:sID="C07g_app24-fMS__Pt1" part="I"/>did not understand them the <lb n="c56-0013__Pt1__main__26"/> experiments never failed to <lb n="c56-0013__Pt1__main__27"/> attract my attention.<del next="#c56-0013.06"
+            <seg th:eID="C07g_app22-fMS"/>I <seg th:sID="C07g_app24-fMS__I" part="I"/>did not understand them the <lb n="c56-0013__Pt1__main__26"/> experiments never failed to <lb n="c56-0013__Pt1__main__27"/> attract my attention.<del next="#c56-0013.06"
                  rend="strikethrough"
                  xml:id="c56-0013__Pt1__main__d2e899">I reme<metamark ana="start" function="insert"/>^<metamark ana="end"/>mber</del>
             <lb n="c56-0013__Pt1__main__28"/>
@@ -370,23 +371,29 @@
                  rend="strikethrough"
                  xml:id="c56-0005__main__d2e992">simple fact</del>
             <lb n="c56-0005__main__5"/>
-            <seg th:eID="C07g_app24-fMS__Pt1" part="I"/>
-            <del rend="strikethrough" xml:id="c56-0005__main__d2e998">may appear <seg th:eID="C07g_app24-fMS__Pt2" part="F"/>my <seg th:sID="C07g_app26-fMS__Pt1" part="I"/>fate had been</del>
-            <del rend="strikethrough" xml:id="c56-0005__main__d2e1001">Chemist</del>Natu<lb n="c56-0005__main__6"/>ral <seg th:eID="C07g_app26-fMS__Pt2" part="F"/>philosophy <seg th:sID="C07g_app28-fMS"/>
+            <seg th:eID="C07g_app24-fMS__I" part="I"/>
+            <del rend="strikethrough" xml:id="c56-0005__main__d2e998">
+               <seg th:sID="C07g_app24-fMS__F" part="F"/>may appear <seg th:eID="C07g_app24-fMS__F" part="F"/>my <seg th:sID="C07g_app26-fMS__I" part="I"/>fate had been<seg th:eID="C07g_app26-fMS__I" part="I"/>
+            </del>
+            <seg th:sID="C07g_app26-fMS__F" part="F"/>
+            <del rend="strikethrough" xml:id="c56-0005__main__d2e1001">Chemist</del>Natu<lb n="c56-0005__main__6"/>ral <seg th:eID="C07g_app26-fMS__F" part="F"/>philosophy <seg th:sID="C07g_app28-fMS"/>
             <del rend="strikethrough" xml:id="c56-0005__main__d2e1013">has</del> is the genius that has <seg th:eID="C07g_app28-fMS"/>
             <lb n="c56-0005__main__7"/> regulated my <seg th:sID="C07g_app30-fMS"/>fate <seg th:eID="C07g_app30-fMS"/>I <seg th:sID="C07g_app32-fMS"/>
             <del rend="strikethrough" xml:id="c56-0005__main__d2e1020">wish</del>desire the<mdel ana="start"/>ir<mdel ana="end"/>refore <seg th:eID="C07g_app32-fMS"/>in this <seg th:sID="C07g_app35-fMS"/>account <lb n="c56-0005__main__8"/> of my early years <seg th:eID="C07g_app35-fMS"/>to <seg th:sID="C07g_app37-fMS"/>state <seg th:eID="C07g_app37-fMS"/>those facts which <lb n="c56-0005__main__9"/> led to <seg th:sID="C07g_app40-fMS"/>my<del rend="strikethrough" xml:id="c56-0005__main__d2e1040">love</del>
             <del rend="strikethrough" xml:id="c56-0005__main__d2e1043">pursuit</del>
             <del rend="strikethrough" xml:id="c56-0005__main__d2e1046">first aqu</del>
-            <del rend="strikethrough" xml:id="c56-0005__main__d2e1055">of that study.</del>predeliction <seg th:eID="C07g_app40-fMS"/>for that science. When <lb n="c56-0005__main__10"/> I was <seg th:sID="C07g_app43-fMS"/>eleven <seg th:eID="C07g_app43-fMS"/>years <seg th:sID="C07g_app45-fMS"/>old <seg th:eID="C07g_app45-fMS"/>we all went on a party <lb n="c56-0005__main__11"/> of pleasure to <seg th:sID="C07g_app48-fMS__Pt1" part="I"/>
+            <del rend="strikethrough" xml:id="c56-0005__main__d2e1055">of that study.</del>predeliction <seg th:eID="C07g_app40-fMS"/>for that science. When <lb n="c56-0005__main__10"/> I was <seg th:sID="C07g_app43-fMS"/>eleven <seg th:eID="C07g_app43-fMS"/>years <seg th:sID="C07g_app45-fMS"/>old <seg th:eID="C07g_app45-fMS"/>we all went on a party <lb n="c56-0005__main__11"/> of pleasure to <seg th:sID="C07g_app48-fMS__I" part="I"/>
             <del rend="strikethrough" xml:id="c56-0005__main__d2e1068">Thonon</del>Thonon.<del rend="strikethrough" xml:id="c56-0005__main__d2e1082">and were confined there</del>
             <lb n="c56-0005__main__12"/>
             <del rend="strikethrough" xml:id="c56-0005__main__d2e1087">b</del>
             <del rend="strikethrough" xml:id="c56-0005__main__d2e1090">obil</del>
-            <seg th:eID="C07g_app48-fMS__Pt1" part="I"/>
-            <del rend="strikethrough" xml:id="c56-0005__main__d2e1093">obliged by <seg th:eID="C07g_app48-fMS__Pt2" part="F"/>the <seg th:sID="C07g_app50-fMS__Pt1" part="I"/>rain</del>
+            <seg th:eID="C07g_app48-fMS__I" part="I"/>
+            <del rend="strikethrough" xml:id="c56-0005__main__d2e1093">
+               <seg th:sID="C07g_app48-fMS__F" part="F"/>obliged by <seg th:eID="C07g_app48-fMS__F" part="F"/>the <seg th:sID="C07g_app50-fMS__I" part="I"/>rain<seg th:eID="C07g_app50-fMS__I" part="I"/>
+            </del>
+            <seg th:sID="C07g_app50-fMS__F" part="F"/>
             <del rend="strikethrough" xml:id="c56-0005__main__d2e1096">and</del>
-            <mdel ana="start"/>t<mdel ana="end"/>The inclemen<lb n="c56-0005__main__13"/>cy of the weather obliged us to remain a day <seg th:eID="C07g_app50-fMS__Pt2" part="F"/>
+            <mdel ana="start"/>t<mdel ana="end"/>The inclemen<lb n="c56-0005__main__13"/>cy of the weather obliged us to remain a day <seg th:eID="C07g_app50-fMS__F" part="F"/>
             <lb n="c56-0005__main__14"/> confined to the inn. In this house I chanced <lb n="c56-0005__main__15"/> to fin<mdel ana="start"/>ed<mdel ana="end"/>d a <seg th:sID="C07g_app53-fMS"/>
             <del rend="strikethrough" xml:id="c56-0005__main__d2e1123">fo</del> volume<del rend="strikethrough" xml:id="c56-0005__main__d2e1126">s</del> 
             <seg th:eID="C07g_app53-fMS"/>of the Works of Corne<lb n="c56-0005__main__16"/>lius Agrippa. <seg th:sID="C07g_app55-fMS"/>

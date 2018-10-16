@@ -12,13 +12,13 @@ xmlns:mith="http://mith.umd.edu/sc/ns1#"  xmlns:th="http://www.blackmesatech.com
   2018-10-15: We will need to add medial seg elements where there are multiple element nodes in between start-marker and end-marker pairs. We'll do this in the next stylesheet in the series to avoid ambiguous rule matches. 
     -->    
    <xsl:template match="/">
-       <!-- Change back to $preP5a-coll//TEI when done testing -->
-       <xsl:for-each select="$testerFile//TEI">
+       <xsl:for-each select="$preP5a-coll//TEI">
            <xsl:variable name="currentP5File" as="element()" select="current()"/>
            <xsl:variable name="filename" as="xs:string" select="tokenize(base-uri(), '/')[last()]"/>
          <xsl:variable name="chunk" as="xs:string" select="tokenize(base-uri(), '/')[last()] ! substring-before(., '.') ! substring-after(., '_')"/> 
 
-           <xsl:result-document method="xml" indent="yes" href="preP5b-TESTERoutput/5b--{$filename}">
+           <xsl:result-document method="xml" indent="yes" href="preP5b-output/{$filename}">
+               <xsl:processing-instruction name="xml-model">href="../segMarkerTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:processing-instruction>
                <TEI xmlns="http://www.tei-c.org/ns/1.0"                 xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein" xmlns:mith="http://mith.umd.edu/sc/ns1#"  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
          <xsl:copy-of select="descendant::teiHeader" copy-namespaces="no"/>
         <text>

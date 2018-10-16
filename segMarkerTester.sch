@@ -15,7 +15,7 @@
     </sch:pattern>
     <sch:pattern>
         <sch:rule context="tei:seg[@th:sID]">
-            <sch:report test="substring-after(@th:sID, 'app') ! substring-before(., '-') &lt; [preceding::tei:seg[substring-before(@th:sID, '_') = current()/substring-before(@th:sID, '_')]/substring-after(@th:sID, 'app') ! substring-before(current(), '-')]" role="fatal">Marker(s) out of sequence! This marker is of a lower id number than one or more of the previous start markers! </sch:report>
+            <sch:report test="substring-after(@th:sID, 'app') ! substring-before(., '-') &lt; [preceding::tei:seg[substring-before(@th:sID, '_') = current()/substring-before(@th:sID, '_')]/substring-after(@th:sID, 'app') ! substring-before(current(), '-')]" role="fatal">Marker(s) out of sequence! This marker is of a lower id number than one or more of the previous start markers.</sch:report>
             
         </sch:rule>
     </sch:pattern>
