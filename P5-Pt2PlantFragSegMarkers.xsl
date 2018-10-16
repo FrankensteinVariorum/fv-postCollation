@@ -46,22 +46,6 @@ xmlns:mith="http://mith.umd.edu/sc/ns1#"  xmlns:th="http://www.blackmesatech.com
         <xsl:copy-of select="preceding-sibling::node()[preceding::seg[@part='I' and substring-before(@th:sID, '__') = $matchID]]"/>
         <xsl:copy-of select="."/>  
     </xsl:template>
-    <!--Setting MEDIAL marker pairs. This finds the FIRST element node in a medial marker position and places a medial start marker before it, then copies the following-sibling nodes that share the same preceding::seg and don't contain its end marker.-->
-    <!-- 
-    //*[not(self::seg)][preceding::seg[1][@th:eID and @part='I']][not(descendant::seg[1][@th:sID and @part='F' and substring-before(@th:sID, '__') = substring-before( ./preceding::seg[1]/@th:eID, '__')])]
-    -->
-    <xsl:template match="*[not(self::seg)][preceding::*[1][@th:sID and @part='I']][not(descendant::seg[1][@th:eID and @part='F' and substring-before(@th:eID, '__') = substring-before(current()/preceding::*[1]/@th:sID, '__')]) and not(ancestor::*[preceding::*[1][@th:sID and @part='I' and substring-before(@th:sID, '__') = substring-before(current()/preceding::*[1]/@th:sID, '__') ]])]">
-        <!--NOTE: This matches on an element node (not a seg) whose very first preceding element is the end of a START FRAG. (The preceding::*[1] ensures this is the very first preceding element.) We isolate that element and construct a first medial seg marker before it. We have to exclude those elements that hold the END marker as descendants and also element descendants of matching nodes (like a <pb/> child of a matching <p>) because these share the preceding:: axis distinction and count as having a first preceding element meeting our condition.  -->
-     <xsl:variable name="matchID" as="xs:string" select="substring-before(preceding::*[1][@part='I']/@th:sID, '__')"/>
-    <seg part="M" th:sID="{$matchID}__M"/>
-    <xsl:copy-of select="."/>
-    </xsl:template>
-  <!--The next template rule plants a medial end-marker just after the last element node whose very first following seg is a member of a fragmented seg final-pair.  -->
-    <xsl:template match="*[not(self::seg)][following::*[1][self::seg[@th:eID and @part='F']] or descendant::seg[1][@th:eID and @part='F']][not(descendant::seg[1][@th:sID and @part='I' and substring-before(@th:sID, '__') = substring-before(current()/following::seg[1]/@th:eID, '__')]) and not(ancestor::*[following::seg[1][@th:eID and @part='F' and substring-before(@th:eID, '__') = substring-before(current()/following::seg[1]/@th:eID, '__') ]])]">
-        <xsl:variable name="matchID" as="xs:string" select="substring-before(following::seg[1][@part='F']/@th:eID, '__')"/>
-    <xsl:copy-of select="."/>    
-     <seg part="M" th:eID="{$matchID}__M"/>  
-    </xsl:template>
     
 <!--Suppressing duplicates of copied nodes in the above templates -->
     <!--Suppresses nodes that come after initial start-markers -->
@@ -69,5 +53,3 @@ xmlns:mith="http://mith.umd.edu/sc/ns1#"  xmlns:th="http://www.blackmesatech.com
     <!--Suppresses nodes that come before terminal end-markers -->
     <xsl:template match="node()[following-sibling::seg[@part='F' and @th:eID] and preceding::seg[1][@part='I' and substring-before(@th:sID, '__') = substring-before(current()/following-sibling::seg[1][@part='F']/@th:eID, '__')]]"/>
 </xsl:stylesheet>
-
-
