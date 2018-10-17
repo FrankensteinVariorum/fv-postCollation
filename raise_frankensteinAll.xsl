@@ -91,7 +91,7 @@
 		but it's simpler to be more obvious:
 		*-->
             <xsl:variable name="end-marker" as="element()" select="key('end-markers', @th:sID)"/>
-            <xsl:copy-of select="following-sibling::node()[. &lt;&lt; $end-marker]"/>
+            <xsl:copy-of select="following-sibling::node()[. &lt;&lt; $end-marker]" copy-namespaces="no"/>
         </xsl:copy>
     </xsl:template>
 
