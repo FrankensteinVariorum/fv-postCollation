@@ -32,7 +32,8 @@ xmlns:mith="http://mith.umd.edu/sc/ns1#"  xmlns:th="http://www.blackmesatech.com
          </xsl:result-document>
        </xsl:for-each>      
    </xsl:template>
-    <xsl:template match="*[not(self::seg)][not(descendant::*[1][@part='F' and @th:sID])][preceding::*[1][@part='I' and @th:eID]] [not(preceding-sibling::*[1][@part='I' and @th:eID])][not(ancestor::*/preceding::*[1][@part='I' and substring-before(@th:eID, '__') = current()/preceding::*[1][@part='I' and substring-before(@th:eID, '__')]])]">
+    <xsl:template match="*[not(self::seg)][not(descendant::*[1][@part='F' and @th:sID])][preceding::*[1][@part='I' and @th:eID]] [not(preceding-sibling::*[1][@part='I' and @th:eID])][not(ancestor::*/preceding::*[1][@part='I' and substring-before(@th:eID, '__') = current()/preceding::*[1][@part='I' and substring-before(@th:eID, '__')]])][following-sibling::*[seg][1][seg[@part='F' and substring-before(@th:sID, '__') = substring-before(current()/preceding::*[1][@part='I']/@th:eID, '__')]]]">
+        
         <xsl:variable name="matchID" as="xs:string" select="preceding::*[1]/@th:eID ! substring-before(., '__')"/> 
         <seg part="M" th:sID="{$matchID}__M"/>
         <xsl:copy-of select="."/>
