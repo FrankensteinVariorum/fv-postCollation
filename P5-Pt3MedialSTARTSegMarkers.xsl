@@ -11,13 +11,12 @@ xmlns:mith="http://mith.umd.edu/sc/ns1#"  xmlns:th="http://www.blackmesatech.com
 <!--2018-10-16 ebb: This XSLT plants medial seg START markers to surround multiple element nodes in between fragmented seg start-pairs and end-pairs  
     -->    
    <xsl:template match="/">
-       <!--CHANGE THIS when ready to process full collection. -->
-       <xsl:for-each select="$testerFile//TEI">
+       <xsl:for-each select="$preP5b-coll//TEI">
            <xsl:variable name="currentP5File" as="element()" select="current()"/>
            <xsl:variable name="filename" as="xs:string" select="tokenize(base-uri(), '/')[last()]"/>
          <xsl:variable name="chunk" as="xs:string" select="tokenize(base-uri(), '/')[last()] ! substring-before(., '.') ! substring-after(., '_')"/> 
                     <!--CHANGE THIS when ready to process full collection -->
-           <xsl:result-document method="xml" indent="yes" href="preP5c-TESTERoutput/P5c__{$filename}">
+           <xsl:result-document method="xml" indent="yes" href="preP5c-output/{$filename}">
  <xsl:processing-instruction name="xml-model">href="../segMarkerTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:processing-instruction>
                <TEI xmlns="http://www.tei-c.org/ns/1.0"                 xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein" xmlns:mith="http://mith.umd.edu/sc/ns1#"  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
          <xsl:copy-of select="descendant::teiHeader" copy-namespaces="no"/>
