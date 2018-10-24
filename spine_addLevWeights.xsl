@@ -6,7 +6,7 @@ xmlns:tei="http://www.tei-c.org/ns/1.0"  xmlns:pitt="https://github.com/ebeshero
     xmlns:xs="http://www.w3.org/2001/XMLSchema" 
     xmlns:mith="http://mith.umd.edu/sc/ns1#"
     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-    exclude-result-prefixes="xs" version="3.0">
+    exclude-result-prefixes="xs tei" version="3.0">
 
   <xsl:mode on-no-match="shallow-copy"/>
     <xsl:variable name="spineColl" as="document-node()+" select="collection('standoff_Spine/?select=*.xml')"/>
@@ -16,7 +16,9 @@ xmlns:tei="http://www.tei-c.org/ns/1.0"  xmlns:pitt="https://github.com/ebeshero
     <xsl:for-each select="$spineColl//tei:TEI">
         <xsl:variable name="filename" as="xs:string" select="tokenize(current()/base-uri(), '/')[last()]"/>
         <xsl:result-document method="xml" indent="yes" href="../standoff_SpineLM/{$filename}"> 
-          <xsl:apply-templates/>         
+            <TEI>
+          <xsl:apply-templates/>
+            </TEI>
         </xsl:result-document>
     </xsl:for-each>
 </xsl:template>
