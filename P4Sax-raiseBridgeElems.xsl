@@ -4,7 +4,7 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse" exclude-result-prefixes="#all" version="3.0">
     <xsl:output method="xml" indent="no"/>
     <!-- 2018-10-11 ebb: UPDATED for new fv-postCollation repo: This version of the stylesheet is designed to run at command line (so references to specific file collections are commented out). Run this in the terminal or command line by navigating to the directory holding this XSLT (and the saxon files necessary) and entering
-       java -jar saxon9ee.jar -s:P3.5-output -xsl:P4Sax-raiseBridgeElems.xsl -o:P4-output
+       java -jar saxon.jar -s:P3.5-output -xsl:P4Sax-raiseBridgeElems.xsl -o:P4-output
        
        <xsl:variable name="bridge-P3b" as="document-node()+" select="collection('bridge-P3b/')"/>-->
     
