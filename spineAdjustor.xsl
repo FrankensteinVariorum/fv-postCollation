@@ -53,6 +53,17 @@
     <xsl:template match="ab">
         <xsl:apply-templates select="app"/>
     </xsl:template>
+    <xsl:template match="rdg">
+        <xsl:choose>
+            <xsl:when test="starts-with(@wit, '#')"><xsl:copy-of select="."/></xsl:when>
+            <xsl:otherwise>
+                <rdg wit="#{@wit}">
+                    <xsl:apply-templates/>
+                </rdg>
+            </xsl:otherwise>
+        </xsl:choose>
+        
+    </xsl:template>
            
 </xsl:stylesheet>
 
