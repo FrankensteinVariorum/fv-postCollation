@@ -9,12 +9,12 @@
 
   <xsl:mode on-no-match="shallow-copy"/>
     <xsl:variable name="spineColl" as="document-node()+" select="collection('subchunked_standoff_Spine/?select=*.xml')"/>
-<!--2018-10-23 ebb: In this last stage, we "sew up" the lettered spine sub-chunk files into complete chunks to match their counterpart edition files. 2018-10-25: Also, we're adding hashtags if they're missing in the @wit on rdg. -->   
+<!--2018-10-23 ebb: In this next-to-last stage, we "sew up" the lettered spine sub-chunk files into complete chunks to match their counterpart edition files. 2018-10-25: Also, we're adding hashtags if they're missing in the @wit on rdg. -->   
    <xsl:template match="/">
        <xsl:for-each-group select="$spineColl" group-by="tokenize(base-uri(), '_')[last()] ! tokenize(., '[a-z]?\.xml')[1]">
            <xsl:variable name="filename" select="concat('spine_', current-grouping-key(), '.xml')"/>  
            <xsl:variable name="chunk" select="tokenize($filename, '_')[last()] ! substring-before(., '.xml')"/>
-           <xsl:result-document method="xml" indent="yes" href="standoff_Spine/{$filename}">
+           <xsl:result-document method="xml" indent="yes" href="preLev_standoff_Spine/{$filename}">
           <TEI>
               <teiHeader>
                   <fileDesc>

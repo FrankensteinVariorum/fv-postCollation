@@ -3,6 +3,7 @@
     xmlns:sqf="http://www.schematron-quickfix.com/validator/process">
     <sch:pattern>
         <sch:rule context="app">
+            <sch:report test="not(rdgGrp)" role="error">Empty app element--missing rdgGrps! That's an error introduced from editing the collation.</sch:report>
      <sch:report test="contains(descendant::rdg[@wit='fThomas'], '&lt;del')" role="info">Here is a place where the Thomas text contains a deleted passage. Is it completely encompassed in the app?</sch:report>
             <sch:assert test="count(descendant::rdg/@wit) = count(distinct-values(descendant::rdg/@wit))" role="error">A repeated rdg witness is present! There's an error here introduced by editing the collation.
             </sch:assert>

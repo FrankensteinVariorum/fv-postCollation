@@ -9,13 +9,13 @@ xmlns:tei="http://www.tei-c.org/ns/1.0"  xmlns:pitt="https://github.com/ebeshero
     exclude-result-prefixes="xs tei" version="3.0">
 
   <xsl:mode on-no-match="shallow-copy"/>
-    <xsl:variable name="spineColl" as="document-node()+" select="collection('standoff_Spine/?select=*.xml')"/>
+    <xsl:variable name="spineColl" as="document-node()+" select="collection('preLev_standoff_Spine/?select=*.xml')"/>
     <xsl:variable name="FS_Levs" as="document-node()" select="doc('edit-distance/FV_LevDists-weighted.xml')"/>
 <!--2018-10-24 ebb: Here we map the maximum Levenshtein distance value for each app onto the spine files. -->   
 <xsl:template match="/">
     <xsl:for-each select="$spineColl//tei:TEI">
         <xsl:variable name="filename" as="xs:string" select="tokenize(current()/base-uri(), '/')[last()]"/>
-        <xsl:result-document method="xml" indent="yes" href="../standoff_SpineLM/{$filename}"> 
+        <xsl:result-document method="xml" indent="yes" href="standoff_Spine/{$filename}"> 
             <TEI>
           <xsl:apply-templates/>
             </TEI>
