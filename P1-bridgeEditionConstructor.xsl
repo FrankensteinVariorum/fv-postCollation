@@ -28,7 +28,8 @@
                         </availability>
                     </publicationStmt>
                     <sourceDesc>
-                        <p>Produced from collation output:<xsl:value-of select="./../comment()"/></p>
+                        <p>Produced from collation output prepared in batch file processing on <xsl:value-of select="./../comment()"/>.</p>
+                        <p>Edited to correct alignments and prepared for the Frankenstein Variorum spine on  <xsl:value-of select="current-dateTime()"/>.</p>
                     </sourceDesc>
                 </fileDesc>
             </teiHeader>
