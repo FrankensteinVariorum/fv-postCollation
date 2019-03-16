@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema"
 xpath-default-namespace="http://www.w3.org/1999/XSL/Transform"
-    exclude-result-prefixes="xs"
     version="3.0">
 <!--2019-03-16 ebb: This XSLT helps us generate and update documentation of the post-processing stages following collation, to generate files for the Frankenstein Variorum edition. It is designed to pull comments from XSLT files throughout the repo to output a text file intended to help review our inline documentation and build up this repository's general ReadMe file. -->
     <xsl:output method="text"/>
@@ -19,5 +17,4 @@ xpath-default-namespace="http://www.w3.org/1999/XSL/Transform"
     <xsl:template match="comment()">
         <xsl:text>* </xsl:text><xsl:value-of select="."/><xsl:text>&#10;</xsl:text>
     </xsl:template>
-    
 </xsl:stylesheet>
