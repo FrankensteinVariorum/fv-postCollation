@@ -8,7 +8,7 @@
 
     <!--2018-10-17 updated 2019-03-16 ebb: This XSLT generates the “spine” files for the Variorum. These files differ from the P1 stage of processing because the P1 form contains the complete texts of all edition files, mapping them to critical apparatus markup with variant apps (containing multiple rdgGrps or divergent forms) as well as invariant apps (containing only one rdgGrp where all editions run in unison). For the purposes of the Variorum encoding, our “spine” needs only to work with the variant passages, because those are the passages we will highlight and interlink in the Variorum interface. So, in this stage of processing we remove the invariant apps from P1 in generating the Variorum “spines”.  
         Note: we are processing rdgGrps in this XSLT. (In earlier stages of the project we had to generate rdgGrps at a later stage, but our current collation data file structure gives us rdgGrps to start with, so we preserve these in our output.)
-        Run with saxon command line over P1-output directory and output to  preLev_standoff_Spine directory, using:
+        Run with saxon command line over P1-output directory and output to subchunked_standoff_Spine directory, using:
         
         java -jar saxon.jar -s:P1-output/ -xsl:P5_SpineGenerator.xsl -o:subchunked_standoff_Spine/ 
 Change the output filenames from starting with P1_ to spine_.
