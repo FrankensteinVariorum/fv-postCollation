@@ -20,6 +20,7 @@ Change the output filenames from starting with P1_ to spine_.
     <!--2018-07-30 updated 2018-08-01 ebb: This file is now designed to generate the first incarnation of the standoff spine of the Frankenstein Variorum. The spine contains URI pointers to specific locations marked by <seg> elements in the edition files made in bridge-P5, and is based on information from the collation process stored in TEI in bridge P1. -->
     <!--2018-07-30 rv: Fixed URLs to TEI files -->
     <!--2018-07-30 rv: Changing rdgGrps back into apps. This eventually should be addressed in previous steps. -->
+    <!--2019-03-16: ebb: Reviewing documentation and outputs, we are outputting apps with rdgGrps inside, each getting an xml:id.  -->
     <!--2018-10-23 rv: merging with code for generating pointers to SGA -->
     <xsl:mode on-no-match="shallow-copy"/>
     
