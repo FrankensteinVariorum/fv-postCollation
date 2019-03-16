@@ -2,7 +2,6 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 xpath-default-namespace="http://www.w3.org/1999/XSL/Transform"
     version="3.0">
-<!--2019-03-16 ebb: This XSLT helps us generate and update documentation of the post-processing stages following collation, to generate files for the Frankenstein Variorum edition. It is designed to pull comments from XSLT files throughout the repo to output a text file intended to help review our inline documentation and build up this repository's general ReadMe file. -->
     <xsl:output method="text"/>
     <xsl:variable as="document-node()+" name="topLevel-xslFiles" select="collection('postColl-workspace/?select=*.xsl')"/>
     <xsl:variable as="document-node()+" name="deep-xslFiles" select="collection('postColl-workspace/edit-distance/?select=*.xsl')"/>
