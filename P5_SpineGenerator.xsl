@@ -14,7 +14,8 @@ Change the output filenames from starting with P1_ to spine_.
 
         Following this, we 
     * Run spineAdjustor.xsl to stitch up the multi-part spine sections into larger units and send that output to preLev_standoff_Spine. 
-    * Then, run spine_addLevWeights.xsl to add Levenshtein values and generate the finished standoff_Spine directory files.
+    * Calculate Levenshtein edit distances working in the edit-distance directory. Run extractCollationData.xsl and work with spineData.txt TSV files with Python, to generate FV_LevDists.xml. 
+    * When edit distances are calculated and stored, run spine_addLevWeights.xsl to add Levenshtein values and generate the finished standoff_Spine directory files.
     --> 
     <!--2018-07-30 updated 2018-08-01 ebb: This file is now designed to generate the first incarnation of the standoff spine of the Frankenstein Variorum. The spine contains URI pointers to specific locations marked by <seg> elements in the edition files made in bridge-P5, and is based on information from the collation process stored in TEI in bridge P1. -->
     <!--2018-07-30 rv: Fixed URLs to TEI files -->
