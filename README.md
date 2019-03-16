@@ -23,7 +23,7 @@ The workspace in this repo houses a transformation pipeline. Here is a summary o
 ### Run `P3-bridgeEditionConstructor.xsl`
 * **Input:** `P2-output` directory
 * **Output:** `P3-output` directory
-* In Bridge Construction Phase 3, we are up-converting the text-converted tags in the edition files into self-closed elements. We add the th: namespace prefix to "trojan horse" attributes used for markers.* 2018-06-22: ebb: We can't use `<ab>` for top-level structures once we start regenerating `<p>` elements, since `<ab>` isn't allowed to contain `<p>`. * a start tag of an unflattened element (left as a whole element prior to collation).* an end tag of an unflattened element* matches strings representing flattened element tags marked with sID and eID attributes. * matches text strings representing self-closed elements (the milestone elements and such like). 
+* In Bridge Construction Phase 3, we are up-converting the text-converted tags in the edition files into self-closed elements. We add the th: namespace prefix to "trojan horse" attributes used for markers.
 
 ### Run `P3.5-bridgeEditionConstructor.xsl`
 * **Input:** `P3-output` directory
