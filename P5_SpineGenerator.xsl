@@ -13,7 +13,7 @@
         java -jar saxon.jar -s:P1-output/ -xsl:P5_SpineGenerator.xsl -o:subchunked_standoff_Spine/ 
 Change the output filenames from starting with P1_ to spine_.
 
-        Following this, we 
+        Following this, we: 
     * Run spineAdjustor.xsl to stitch up the multi-part spine sections into larger units and send that output to preLev_standoff_Spine. 
     * Calculate Levenshtein edit distances working in the edit-distance directory. Run extractCollationData.xsl and work with spineData.txt TSV files with Python, to generate FV_LevDists.xml. 
     * When edit distances are calculated and stored, run spine_addLevWeights.xsl to add Levenshtein values and generate the finished standoff_Spine directory files.

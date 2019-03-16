@@ -3,7 +3,7 @@
     exclude-result-prefixes="xs"
     version="2.0">
 <xsl:output method="text" encoding="UTF-8"/>
-    <xsl:variable name="spineColl" as="document-node()+" select="collection('../standoff_Spine/')"/>
+    <xsl:variable name="spineColl" as="document-node()+" select="collection('../preLev_standoff_Spine/')"/>
     <xsl:template match="/">
         <!--2018-10-21 updated 2019-03-16 ebb: This XSLT outputs a single tab-separated plain text file, named spineData.txt, with normalized data pulled from each rdgGrp (its @n attribute) in each spine file. The output file will need to be converted to ascii for weighted levenshtein calculations. 
         Use iconv in the shell (to change curly quotes and other special characters to ASCII format): For a single file:
