@@ -9,9 +9,11 @@
     <!--2018-10-17 ebb: Updated this to work on newly processed post-collation structure. Our new file structure gives us rdgGrps to start with, so we preserve these in our output.
         Run with saxon command line over P1-output directory and output to  preLev_standoff_Spine directory, using:
         
-        java -jar saxon.jar -s:P1-output/ -xsl:P5_SpineGenerator.xsl -o:preLev_standoff_Spine/ 
+        java -jar saxon.jar -s:P1-output/ -xsl:P5_SpineGenerator.xsl -o:subchunked_standoff_Spine/ 
         
-        Following this, run spine_addLevWeights.xsl to add Levenshtein values and generate the finished standoff_Spine directory files.
+        Following this, we 
+    * Run spineAdjustor.xsl to stitch up the multi-part spine sections into larger units and send that output to preLev_standoff_Spine. 
+    * Then, run spine_addLevWeights.xsl to add Levenshtein values and generate the finished standoff_Spine directory files.
     --> 
     <!--2018-07-30 updated 2018-08-01 ebb: This file is now designed to generate the first incarnation of the standoff spine of the Frankenstein Variorum. The spine contains URI pointers to specific locations marked by <seg> elements in the edition files made in bridge-P5, and is based on information from the collation process stored in TEI in bridge P1. -->
     <!--2018-07-30 rv: Fixed URLs to TEI files -->
