@@ -6,7 +6,7 @@
     xmlns:mith="http://mith.umd.edu/sc/ns1#" xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
     exclude-result-prefixes="xs th pitt mith tei" version="3.0">
 
-    <!--2018-10-17 ebb: Updated this to work on newly processed post-collation structure. Our new file structure gives us rdgGrps to start with, so we preserve these in our output.
+    <!--2018-10-17 updated 2019-03-16 ebb: Updated this to work on newly processed post-collation structure. Our new file structure gives us rdgGrps to start with, so we preserve these in our output.
         Run with saxon command line over P1-output directory and output to  preLev_standoff_Spine directory, using:
         
         java -jar saxon.jar -s:P1-output/ -xsl:P5_SpineGenerator.xsl -o:subchunked_standoff_Spine/ 
