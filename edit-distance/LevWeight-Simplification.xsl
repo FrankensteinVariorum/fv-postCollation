@@ -4,7 +4,10 @@
     exclude-result-prefixes="xs"
     version="3.0">
     <xsl:mode on-no-match="shallow-copy"/>
-    <!--2018-10-24 updated 2019-03-16 ebb: This identity transformation stylesheet removes comparisons to NoRG (or null reading groups) in the feature structures file holding weighted Levenshtein data for our collated Variorum. -->
+    <!--2018-10-24 updated 2019-03-16 ebb: We may or may not wish to run this XSLT. This identity transformation stylesheet removes comparisons to absent witnesses (indicated as NoRG) in the feature structures file holding weighted Levenshtein data for our collated Variorum.
+    ISSUE: (Why we may NOT wish to run this): Running this stylesheet will affect our readout of collation variance. Consider the case of variant passages where one or more witnesses are not present and have no material to compare. This may be because, in the case of the ms notebooks, we simply do not have any material, or it may be because, in the case of the 1831 edition, a passage was heavily altered and cut, and there isn't any material present. High Levenshtein values are produced in each case. 
+    As of 2019-03-16 (ebb), I'm deciding NOT to run this stylesheet so that the team can evaluate the Levenshtein results to represent comparisons with omitted/missing material. 
+    -->
     <xsl:template match="f">
         <xsl:choose>
             <xsl:when test="contains(@name, 'NoRG')"/>
