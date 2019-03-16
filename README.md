@@ -3,11 +3,13 @@ This repository is part of the [Frankenstein Variorum project](https://github.co
 
 The workspace in this repo houses a transformation pipeline. Here is a summary of the files to run in order, which an explanation of each process. We plan to bundle these stages into one or two automated processes when the Variorum development is stable. 
 
+## Phase 1: Convert collation data to TEI
 ### Run `P1-bridgeEditionConstructor.xsl`
 * **Input:** `collated-data` directory
 * **Output:** `P1-output` directory
 * 2018-06-21 ebb: Bridge Edition Constructor Part 1: This first phase up-converts collation data files to TEI and adds `@xml:ids` to each `<app>` element in the output collation. In the event that the collation process broke apart the self-closed elements into two tags, this stylesheet catches these and restores them to single tags.
 
+## Phase 2: Generate distinct edition files
 ### Run `P2-bridgeEditionConstructor.xsl`
 * **Input:** `P1-output` directory
 * **Output:** `P2-output` directory
@@ -15,7 +17,10 @@ The workspace in this repo houses a transformation pipeline. Here is a summary o
 * 2018-06-21 ebb updated 2018-08-01: Bridge Edition Constructor Part 2: This second phase begins building the output Bridge editions by consuming the `<app>` and and `<rdg>` elements to replace them with `<seg>` elements that hold the identifiers of their apps and indication of whether they are portions.
 * This stylesheet does NOT YET generate the spine file. We're deferring that to a later stage when we know where the `<seg>` elements turn up in relation to the hierarchy of the edition elements. 
 * We are now generating the spine file following the edition files constructed in bridge P5, so that we have the benefit of seeing the `<seg>` elements where they need to be multiplied (e.g. around paragraph breaks). We can then generate pointers to more precise locations. 
-    
+
+## Phase 3: 
+* ### Begin reconstructing elements from text-converted tags 
+* ### Reassemble subdivided collation units  
 ### Run `P3-bridgeEditionConstructor.xsl`
 * **Input:** `P2-output` directory
 * **Output:** `P3-output` directory
@@ -26,21 +31,22 @@ The workspace in this repo houses a transformation pipeline. Here is a summary o
 * **Output:** `P3.5-output` directory 
 * 2018-10-10 ebb: For stage 3.5 we need to reconstruct full collation chunks that have been subdivided into parts. For example, C08 was divided into parts C08a through C08j, often breaking up element tag pairs. Here we reunite the pieces so we can move on to up-raising the flattened elements in the editions.
 
-### Run `P4-raiseBridgeElems.xsl`
+## Phase 4: Raise the “trojan elements” holding edition markup 
+### Option 1: Run `P4-raiseBridgeElems.xsl`
 * **Input:** `P3.5-output` directory 
 * **Output:** `P4-output` directory 
 * 2018-07-07 ebb: This stylesheet works to raise "trojan elements" from the inside out, this time over a collection of Frankenstein files output from collation. It also adapts djb's function to process an element node rather than a document node in memory to perform its recursive processing. 
 * 2018-07-23 ebb: I've updated this stylesheet to work with the th:raise function as expressed in `raise_deep.xsl`.  
 
-### Run `P4Sax-raiseBridgeElems.xsl`
+### Option 2: Run `P4Sax-raiseBridgeElems.xsl`
 This is an alternative version of the P4 transformation designed to run in the shell rather than in oXygen. We may wish to use this when working with the full scope of edition files representing the novel from start to end, where oXygen processing may be bogged down.   
-*  2018-10-11 ebb: UPDATED for new fv-postCollation repo: This version of the stylesheet is designed to run at command line (so references to specific file collections are commented out). Run this in the terminal or command line by navigating to the directory holding this XSLT (and the saxon files necessary) and entering
+*  2018-10-11 ebb: This version of the P4 stylesheet is designed to run at command line (so references to specific file collections are commented out). Run this in the terminal or command line by navigating to the directory holding this XSLT (and the saxon files necessary) and entering
 ``
        java -jar saxon.jar -s:P3.5-output -xsl:P4Sax-raiseBridgeElems.xsl -o:P4-output
 ``       
 * 2018-07-15 ebb: Bridge Phase 4 raises the hierarchy of elements from the source documents, leaving the seg elements unraised. This stylesheet uses an "inside-out" function to raise the elements from the deepest levels (those with only text nodes between their start and end markers) first. This and other methods to "raise" flattened or "Trojan" elements are documented in https://github.com/djbpitt/raising with thanks to David J. Birnbaum and Michael Sperberg-McQueen for their helpful experiments. 
 
-
+## Phase 5: Prepare and raise `<seg>` elements for variant passages in each edition
 ### Run `P5-Pt1-SegTrojans.xsl`
 * **Input:** `P4-output` directory 
 * **Output:** `preP5a-output` directory
@@ -102,6 +108,7 @@ java -jar saxon.jar -s:P1-output/ -xsl:P5_SpineGenerator.xsl -o:subchunked_stand
     * Calculate Levenshtein edit distances working in the edit-distance directory. Run `edit-distance/extractCollationData.xsl` to prepare the `spineData-ascii.txt` TSV files. Process that with the Python script `LevenCalc_toXML.py` to generate `edit-distance/FV_LevDists.xml`. 
     * When edit distances are calculated and stored, we will run `spine_addLevWeights.xsl` to add Levenshtein values and generate the finished `standoff_Spine` directory files.
 
+## Phase 6: Prepare the “spine” of the variorum
 ### Run `spineAdjustor.xsl`
 * **Input:** `subchunked_standoff_Spine` directory
 * **Output:** `preLev_standoff_Spine` directory
