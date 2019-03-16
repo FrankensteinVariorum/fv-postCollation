@@ -5,7 +5,7 @@
 <xsl:output method="text" encoding="UTF-8"/>
     <xsl:variable name="spineColl" as="document-node()+" select="collection('../standoff_Spine/')"/>
     <xsl:template match="/">
-        <!--2018-10-21 ebb: For now, this XSLT outputs a single tab-separated plain text file, named spineData.txt, with normalized data pulled from each rdgGrp (its @n attribute) in each spine file. The output file will need to be converted to ascii for weighted levenshtein calculations. 
+        <!--2018-10-21 updated 2019-03-16 ebb: This XSLT outputs a single tab-separated plain text file, named spineData.txt, with normalized data pulled from each rdgGrp (its @n attribute) in each spine file. The output file will need to be converted to ascii for weighted levenshtein calculations. 
         Use iconv in the shell (to change curly quotes and other special characters to ASCII format): For a single file:
         iconv -c -f UTF-8 -t ascii//TRANSLIT spineData.txt  > spineData-ascii.txt
         
@@ -15,6 +15,7 @@
         -->
       <xsl:result-document method="text" encoding="UTF-8" href="spineData.txt"> 
           <xsl:for-each select="$spineColl/TEI"> 
+       <xsl:sort select="base-uri(.) ! tokenize(., '/')[last()]"/>
             <!-- <xsl:variable name="currentSpineFile" as="element()" select="current()"/>
            <xsl:variable name="filename" as="xs:string" select="$currentSpineFile/base-uri() ! tokenize(., '/')[last()] ! substring-before(., '.')"/>
            <xsl:result-document method="text" href="spineData/{$filename}.txt">-->

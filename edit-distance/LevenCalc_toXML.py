@@ -6,7 +6,7 @@ from weighted_levenshtein import lev, osa, dam_lev
 
 insert_costs = np.ones(128, dtype=np.float64)
 delete_costs = np.ones(128, dtype=np.float64)
-# ebb: On weighted levenshtein w numpy see https://weighted-levenshtein.readthedocs.io/en/master/
+# 2018-10-18 ebb: On weighted levenshtein w numpy see https://weighted-levenshtein.readthedocs.io/en/master/
 # make an array of all 1's of size 128, the number of ASCII characters
 substitute_costs = np.ones((128, 128), dtype=np.float64)
 # This array is 2-dimensional, unlike the others.)
