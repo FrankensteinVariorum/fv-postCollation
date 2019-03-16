@@ -13,7 +13,6 @@ The workspace in this repo houses a transformation pipeline. Here is a summary o
 ### Run `P2-bridgeEditionConstructor.xsl`
 * **Input:** `P1-output` directory
 * **Output:** `P2-output` directory
-* 2018-10-10 ebb: Updated and simplified to process current files that DO have meaningful rdgGrp elements. 
 * 2018-06-21 ebb updated 2018-08-01: Bridge Edition Constructor Part 2: This second phase begins building the output Bridge editions by consuming the `<app>` and and `<rdg>` elements to replace them with `<seg>` elements that hold the identifiers of their apps and indication of whether they are portions.
 * This stylesheet does NOT YET generate the spine file. We're deferring that to a later stage when we know where the `<seg>` elements turn up in relation to the hierarchy of the edition elements. 
 * We are now generating the spine file following the edition files constructed in bridge P5, so that we have the benefit of seeing the `<seg>` elements where they need to be multiplied (e.g. around paragraph breaks). We can then generate pointers to more precise locations. 
@@ -39,7 +38,7 @@ The workspace in this repo houses a transformation pipeline. Here is a summary o
 * 2018-07-23 ebb: I've updated this stylesheet to work with the th:raise function as expressed in `raise_deep.xsl`.  
 
 ### Option 2: Run `P4Sax-raiseBridgeElems.xsl`
-This is an alternative version of the P4 transformation designed to run in the shell rather than in oXygen. We may wish to use this when working with the full scope of edition files representing the novel from start to end, where oXygen processing may be bogged down.   
+* This is an alternative version of the P4 transformation designed to run in the shell rather than in oXygen. We may wish to use this when working with the full scope of edition files representing the novel from start to end, where oXygen processing may be bogged down.   
 *  2018-10-11 ebb: This version of the P4 stylesheet is designed to run at command line (so references to specific file collections are commented out). Run this in the terminal or command line by navigating to the directory holding this XSLT (and the saxon files necessary) and entering
 ``
        java -jar saxon.jar -s:P3.5-output -xsl:P4Sax-raiseBridgeElems.xsl -o:P4-output
@@ -84,7 +83,6 @@ This is an alternative version of the P4 transformation designed to run in the s
 * **Input:** `preP5c-output` directory
 * **Output:** `preP5d-output` directory
 * 2018-10-15 ebb: This XSLT plants medial seg END markers to surround multiple element nodes in between fragmented seg start-pairs and end-pairs  
-    * CHANGE THIS when ready to process full 5d collection
 
 ### Run `P5-Pt5raiseSegElems.xsl`
 * 2018-07-30 ebb: Run this with Saxon at command line to raise paired seg markers, using:
