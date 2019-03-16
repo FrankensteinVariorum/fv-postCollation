@@ -10,7 +10,8 @@
         Run with saxon command line over P1-output directory and output to  preLev_standoff_Spine directory, using:
         
         java -jar saxon.jar -s:P1-output/ -xsl:P5_SpineGenerator.xsl -o:subchunked_standoff_Spine/ 
-        
+Change the output filenames from starting with P1_ to spine_.
+
         Following this, we 
     * Run spineAdjustor.xsl to stitch up the multi-part spine sections into larger units and send that output to preLev_standoff_Spine. 
     * Then, run spine_addLevWeights.xsl to add Levenshtein values and generate the finished standoff_Spine directory files.
