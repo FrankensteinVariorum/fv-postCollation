@@ -4,7 +4,11 @@
   xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
   exclude-result-prefixes="xs th"
   version="3.0">
-  <!--2018-07-30 ebb: Run this with Saxon at command line to raise paired seg markers. Rewrite so we don't need the file dependency on marker types. -->
+  <!--2018-07-30 ebb: Run this with Saxon at command line to raise paired seg markers, using:
+    java -jar saxon.jar -s:preP5d-output/ -xsl:P5-Pt5raiseSegElems.xsl -o:P5-output/ 
+    
+    We should probably rewrite this so we don't require the lib file dependency on marker types. 
+  -->
   <!--* right-sibling/raise.xsl:  translate a document with start-
       * and end-markers into conventional XML
       *-->
