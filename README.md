@@ -23,7 +23,7 @@ The workspace in this repo houses a transformation pipeline. Here is a summary o
 ### Run `P3-bridgeEditionConstructor.xsl`
 * **Input:** `P2-output` directory
 * **Output:** `P3-output` directory
-* In Bridge Construction Phase 3, we are up-converting the text-converted tags in the edition files into self-closed elements. We add the th: namespace prefix to "trojan horse" attributes used for markers.
+* In Bridge Construction Phase 3, we are up-converting the text-converted tags in the edition files into self-closed elements. We add the `th:` namespace prefix to "trojan horse" attributes used for markers.
 
 ### Run `P3.5-bridgeEditionConstructor.xsl`
 * **Input:** `P3-output` directory
@@ -35,7 +35,7 @@ The workspace in this repo houses a transformation pipeline. Here is a summary o
 * **Input:** `P3.5-output` directory 
 * **Output:** `P4-output` directory 
 * 2018-07-07 ebb: This stylesheet works to raise "trojan elements" from the inside out, this time over a collection of Frankenstein files output from collation. It also adapts djb's function to process an element node rather than a document node in memory to perform its recursive processing. 
-* 2018-07-23 ebb: I've updated this stylesheet to work with the th:raise function as expressed in `raise_deep.xsl`.  
+
 
 ### Option 2: Run `P4Sax-raiseBridgeElems.xsl`
 * This is an alternative version of the P4 transformation designed to run in the shell rather than in oXygen. We may wish to use this when working with the full scope of edition files representing the novel from start to end, where oXygen processing may be bogged down.   
@@ -53,7 +53,7 @@ The workspace in this repo houses a transformation pipeline. Here is a summary o
        *  where the end markers of seg elements are marked we reconstruct them in pieces. 
         * raise the `<seg>` marker elements marking hotspots
        *  deliver seg identifying locations to the Spinal Column file.
-* In this first stage of Part 5, we are converting the seg elements into Trojan markers using the th:namespace, and explicitly designating those that are fragments (that will break hierarchy if raised) as parts by adding a part attribute. 
+* In this first stage of Part 5, we are converting the seg elements into Trojan markers using the `th:` namespace, and explicitly designating those that are fragments (that will break hierarchy if raised) as parts by adding a part attribute. 
     * In the next stage, we will need to add additional seg elements to handle fragmented hotspots that break across the edition element hierarchy.
     * In the last stage of this process, we adapt CMSpMq's left-to-right sibling traversal for raising flattened elements.  
     * segs with START IDs 
