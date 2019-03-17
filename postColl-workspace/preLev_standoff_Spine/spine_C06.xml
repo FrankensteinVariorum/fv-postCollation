@@ -18,7 +18,7 @@
          </publicationStmt>
          <sourceDesc xmlns:cx="http://interedition.eu/collatex/ns/1.0">
             <p>Produced from collation output prepared in batch file processing on  2018-10-03 19:23:51.102012 .</p>
-            <p>Edited to correct alignments and prepared for the Frankenstein Variorum spine on  2019-03-15T23:33:25.137-04:00.</p>
+            <p>Edited to correct alignments and prepared for the Frankenstein Variorum spine on  2019-03-17T14:23:51.998-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -469,6 +469,11 @@
                   </rdg>
                   <rdg wit="#fThomas">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-fThomas_C06.xml#C06h_app1-fThomas"/>
+                  </rdg>
+               </rdgGrp>
+               <rdgGrp xml:id="C06h_app1_rg3" n="['doubt', 'but']">
+                  <rdg wit="#f1831">
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1831_C06.xml#C06h_app1-f1831"/>
                   </rdg>
                </rdgGrp>
             </app>
