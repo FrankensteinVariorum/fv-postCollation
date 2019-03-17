@@ -23,4 +23,9 @@
         <sch:assert test="count($delMatch) mod 2 eq 0">Unfinished deletion in the Thomas witness. We count <sch:value-of select="count($delMatch)"/> deletion matches. Make sure the Thomas witness deletion is completely encompassed in the app.</sch:assert>
     </sch:rule>
     </sch:pattern>
+    <sch:pattern>
+        <sch:rule context="rdgGrp[ancestor::rdgGrp]">
+            <sch:report test=".">A reading group must NOT be nested inside another reading group!</sch:report>
+        </sch:rule>
+    </sch:pattern>
 </sch:schema>
