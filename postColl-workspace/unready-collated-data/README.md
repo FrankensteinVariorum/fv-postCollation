@@ -4,7 +4,7 @@ ebb: The files in this directory are in an incomplete state. They contain partia
 
 Nevertheless, I am storing this collection in order to prepare [HTML output](https://pghfrankenstein.github.io/Pittsburgh_Frankenstein/P1_tableView.html) to ease the Annotations team’s work in quickly inspecting how passages compare across editions. This should give us a quick view of passages that *do* align and may be handy for the Annotations team, even if incomplete. 
 
-**As of 2019-04-14** we have processed units C01 - C26 with collateX in 10 different batches. These batch outputs may be found in:
+**As of 2019-04-14** we have processed units C01 - C26 with collateX in 10 different batches, and *we have not yet processed collation units C27 - C33*, representing the ending of the novel. Our ten batch output directories may be found in:
 ```Pittsburgh-Frankenstein repo > collateX-Prep > Full_Part{1-10}_xmlOutput```.
 Batches 1 through 3.2 are corrected (and represent collation of the first 1/3 of the novel from C01 through C10). From batches 3.5 onward, the collation outputs are *uncorrected* and almost certainly are missing some fragmented passages reserved from collation.
 
