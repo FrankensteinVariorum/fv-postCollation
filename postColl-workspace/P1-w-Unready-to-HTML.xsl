@@ -9,7 +9,7 @@
     <xsl:output method="xhtml" encoding="utf-8" doctype-system="about:legacy-compat"
         omit-xml-declaration="yes"/>
 <xsl:variable name="P1coll" as="document-node()+" select="collection('P1-output/')"/>
-    <xsl:variable name="unreadyColl" as="document-node()+" select="collection('unready-collated-data/?select=*.xml')"/>
+    <xsl:variable name="unreadyColl" as="document-node()+" select="collection('unready-TEI/?select=*.xml')"/>
   <xsl:template match="/">
       <html>
           <head>
@@ -17,15 +17,45 @@
               <link rel="stylesheet" type="text/css" href="tableView.css"/>
           </head>
           <body>
-       <h1>Frankenstein Variorum Collation Data</h1>
-   <p>This is a view of aligned passages from machine-assisted and corrected collation of the five editions comprising the Frankenstein Variorum.</p>
-                <div id="ready"> <xsl:apply-templates select="$P1coll//app">
+      <div id="intro"> <h1>Frankenstein Variorum Collation Data</h1>
+   <p>This is a view of aligned passages from machine-assisted and corrected collation of the five editions comprising the Frankenstein Variorum, and represents an incomplete work in progress on the variorum edition.</p>
+   <p>Currently, as of April 2019, the collation output viewable here is incomplete, in two ways: </p>
+ <ol>
+     <li>It is missing the ending of the novel, because it represents collation units 01 to 26, out of 33 total units. (This is because the last 7 collation units have not yet been batched processed in collateX.)</li>
+     <li>It represents portions of the collation output that have not yet been thoroughly hand-corrected, from C11 onward. There are occasional gaps for some editions when I have reserved passages to withhold from automated collation. Such gaps almost certainly represent major, serious differences of some editions from the others that need to be carefully woven back into the collation files, and we need to complete that work. 
+     </li>
+ </ol>
+              <p>For more detail on the unready collation data, and for instructions on how to locate reserved passages that do not appear on this webpage, please see <a href="https://github.com/PghFrankenstein/fv-postCollation/blob/master/postColl-workspace/unready-collated-data/README.md">the ReadMe file on the Unready Collated Data directory</a> in our GitHub fv-postcollation repository.</p>
+    <h3 class="legend">Legend</h3>
+              <p>We are using color-coding to distinguish between corrected and uncorrected collation data represented in this file. We also use color coding of table backgrounds to highlight aligned passages that represent variation across the five versions of the novel in our variorum.</p>
+     <table class="legend">
+        <tr><th>Correction status</th>
+            <th>Page Background</th>
+            <th>Variant passages</th></tr>
+         <tr><td>Ready</td>
+             <td class="ready"><span>---</span></td>
+             <td class="ready">
+                 <span class="multiRG">---</span>
+             </td>
+         </tr>
+         <tr><td>Unready</td>
+         <td class="unready"><span>---</span>
+         <td class="unready">
+             <span class="multiRG">---</span>
+         </td>
+         </td>
+         </tr>
+     </table>
+   <hr/>   
+      </div>
+              
+                <div class="ready"> <xsl:apply-templates select="$P1coll//app">
                      <xsl:sort select="ancestor::TEI/@xml:id"/> 
                  </xsl:apply-templates>
                 </div>
-              <div id="unready">
-                  <xsl:apply-templates select="$unreadyColl//cx:app">
-                      <xsl:sort select="base-uri() ! tokenize(., '/')[last()] ! substring-after(., '_') ! substring-before(., '.')"/>
+              <div class="unready">
+                  <xsl:apply-templates select="$unreadyColl//app">
+                      <xsl:sort select="ancestor::TEI/@xml:id"/>
                   </xsl:apply-templates>
               </div>
           </body>
@@ -57,7 +87,6 @@
         </xsl:choose>
         
     </xsl:template>
-    <!--Templates to match on ready collated data in TEI. -->
     <xsl:template match="rdg">
        <tr class="{@wit}"> <td class="wit">Witness: <xsl:apply-templates select="@wit"/></td>
         <td class="passage"><xsl:apply-templates/></td>
@@ -100,6 +129,4 @@
         </xsl:analyze-string>
        
     </xsl:template>
-    <!--Templates to match on UNREADY collection -->
-    
 </xsl:stylesheet>
