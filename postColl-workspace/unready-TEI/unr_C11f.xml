@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+     xml:id="unr-C11f">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bridge Phase 1: Collation unit C11f</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Frankenstein Variorum Project</authority>
+            <date>2018</date>
+            <availability>
+               <licence>Distributed under a Creative Commons
+                                Attribution-ShareAlike 3.0 Unported License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Produced from collation output prepared in batch file processing on  2018-10-06 00:40:30.463023 .</p>
+            <p>Edited to correct alignments and prepared for the Frankenstein Variorum spine on  2019-04-14T18:17:32.719-04:00.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab type="alignmentChunk">
+            <app xml:id="C11f_app1">
+		             <rdgGrp xml:id="C11f_app1_rg1"
+                       n="['and', 'he', 'asks', 'but', 'to', 'see', 'you,—but', 'to', 'be', 'assured', 'that', 'you', 'are', 'well;', 'and', 'not', 'a', 'care', 'will', 'ever', 'cloud', 'his', 'benevolent', 'countenance.']">
+			               <rdg wit="f1831">and he asks but to see you,—but to be assured that you are well; and not a care will ever cloud his benevolent countenance. </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C11f_app1_rg2"
+                       n="['that', 'he', 'appears', 'ten', 'years', 'younger', 'since', 'last', 'winter.']">
+			               <rdg wit="f1818">that he appears ten years younger since last winter. </rdg>
+			               <rdg wit="f1823">that he appears ten years younger since last winter. </rdg>
+			               <rdg wit="fThomas">that he appears ten years younger since last winter. </rdg>
+			               <rdg wit="fMS">that he appears &lt;lb n="c56-0058__main__26"/&gt; ten years younger since last &lt;lb n="c56-0058__main__27"/&gt; winter. </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C11f_app2">
+		             <rdgGrp xml:id="C11f_app2_rg1"
+                       n="['How', 'pleased', 'you', 'would', 'be', 'to', 'remark', 'the', 'improvement', 'of', 'our', 'Ernest!']">
+			               <rdg wit="f1831"> How pleased you would be to remark the improvement of our Ernest!</rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C11f_app2_rg2"
+                       n="['ernest', 'also', 'is', 'so', 'much', 'improved,']">
+			               <rdg wit="f1818">Ernest also is so much improved, </rdg>
+			               <rdg wit="f1823">Ernest also is so much improved, </rdg>
+			               <rdg wit="fThomas">Ernest also is so much improved, </rdg>
+			               <rdg wit="fMS">Ernest also is so much im&lt;lb n="c56-0058__main__28"/&gt;proved, </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C11f_app3">
+		             <rdgGrp xml:id="C11f_app3_rg1" n="['&lt;del&gt;so&lt;del&gt;']">
+			               <rdg wit="fMS">&lt;del rend="strikethrough" sID="c56-0058__main__d2e12243"/&gt;so&lt;del eID="c56-0058__main__d2e12243"/&gt; </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C11f_app4">
+		             <rdgGrp xml:id="C11f_app4_rg1" n="['that', 'you', 'would', 'hardly']">
+			               <rdg wit="f1818">that you would hardly </rdg>
+			               <rdg wit="f1823">that you would hardly </rdg>
+			               <rdg wit="fThomas">that you would hardly </rdg>
+			               <rdg wit="fMS">that you would hardly </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C11f_app5">
+		             <rdgGrp xml:id="C11f_app5_rg1" n="['know']">
+			               <rdg wit="f1818">know </rdg>
+			               <rdg wit="f1823">know </rdg>
+			               <rdg wit="fThomas">know </rdg>
+			               <rdg wit="fMS">&lt;lb n="c56-0058__main__29"/&gt; know </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C11f_app6">
+		             <rdgGrp xml:id="C11f_app6_rg1" n="['him:']">
+			               <rdg wit="f1818">him: </rdg>
+			               <rdg wit="f1823">him: </rdg>
+			               <rdg wit="fThomas">him: </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C11f_app6_rg2" n="['him;']">
+			               <rdg wit="fMS">&lt;lb n="c56-0058__main__29"/&gt; him; </rdg>
+		             </rdgGrp>
+	           </app>
+         </ab>
+      </body>
+   </text>
+</TEI>

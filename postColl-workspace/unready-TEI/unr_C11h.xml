@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+     xml:id="unr-C11h">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bridge Phase 1: Collation unit C11h</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Frankenstein Variorum Project</authority>
+            <date>2018</date>
+            <availability>
+               <licence>Distributed under a Creative Commons
+                                Attribution-ShareAlike 3.0 Unported License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Produced from collation output prepared in batch file processing on  2018-10-06 00:40:30.463023 .</p>
+            <p>Edited to correct alignments and prepared for the Frankenstein Variorum spine on  2019-04-14T18:17:32.719-04:00.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab type="alignmentChunk">
+            <app xml:id="C11h_app1">
+		             <rdgGrp xml:id="C11h_app1_rg1"
+                       n="['full', 'of', 'activity', 'and', 'spirit.', 'He', 'is', 'desirous', 'to', 'be', 'a', 'true', 'Swiss,', 'and', 'to', 'enter', 'into', 'foreign', 'service;', 'but', 'we', 'cannot', 'part', 'with', 'him,', 'at', 'least', 'until', 'his', 'elder', 'brother', 'return', 'to', 'us.', 'My', 'uncle', 'is', 'not', 'pleased', 'with', 'the', 'idea', 'of', 'a', 'military', 'career', 'in', 'a', 'distant', 'country;', 'but', 'Ernest', 'never', 'had', 'your', 'powers', 'of', 'application.', 'He', 'looks', 'upon', 'study', 'as', 'an', 'odious', 'fetter;—his', 'time', 'is', 'spent']">
+			               <rdg wit="f1831">full of activity and spirit. He is desirous to be a true Swiss, and to enter into foreign service;&lt;pb xml:id="F1831_v_066" n="50"/&gt; but we cannot part with him, at least until his elder brother return to us. My uncle is not pleased with the idea of a military career in a distant country; but Ernest never had your powers of application. He looks upon study as an odious fetter;—his time is spent </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C11h_app1_rg2"
+                       n="['has', '&lt;del&gt;quite&lt;del&gt;', 'lost', 'that', 'sickly', 'appearance', 'that', 'he', 'had', 'some', 'years', 'ago', '–']">
+			               <rdg wit="fMS">has &lt;del rend="strikethrough" sID="c56-0058__main__d2e12253"/&gt;quite&lt;del eID="c56-0058__main__d2e12253"/&gt; lost that&lt;lb n="c56-0059__main__1"/&gt; sickly appearance that he had &lt;lb n="c56-0059__main__2"/&gt; some years ago – </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C11h_app1_rg3"
+                       n="['has', 'lost', 'that', 'sickly', 'appearance', 'which', 'he', 'had', 'some', 'years', 'ago;']">
+			               <rdg wit="f1818">has lost that sickly appearance which he had some years ago; </rdg>
+			               <rdg wit="f1823">has lost that sickly appearance which he had some years ago; </rdg>
+			               <rdg wit="fThomas">has lost that sickly appearance which he had some years ago; </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C11h_app2">
+		             <rdgGrp xml:id="C11h_app2_rg1" n="['he', 'is']">
+			               <rdg wit="f1818">he is </rdg>
+			               <rdg wit="f1823">he is </rdg>
+			               <rdg wit="fThomas">he is </rdg>
+			               <rdg wit="fMS">he is </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C11h_app3">
+		             <rdgGrp xml:id="C11h_app3_rg1" n="['grown']">
+			               <rdg wit="f1818">grown </rdg>
+			               <rdg wit="f1823">grown </rdg>
+			               <rdg wit="fThomas">grown </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C11h_app4">
+		             <rdgGrp xml:id="C11h_app4_rg1" n="['quite']">
+			               <rdg wit="f1818">quite </rdg>
+			               <rdg wit="f1823">quite </rdg>
+			               <rdg wit="fThomas">quite </rdg>
+			               <rdg wit="fMS">quite </rdg>
+		             </rdgGrp>
+	           </app>
+         </ab>
+      </body>
+   </text>
+</TEI>

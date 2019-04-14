@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+     xml:id="unr-C26d">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bridge Phase 1: Collation unit C26d</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Frankenstein Variorum Project</authority>
+            <date>2018</date>
+            <availability>
+               <licence>Distributed under a Creative Commons
+                                Attribution-ShareAlike 3.0 Unported License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Produced from collation output prepared in batch file processing on  2018-10-01 11:48:33.219770 .</p>
+            <p>Edited to correct alignments and prepared for the Frankenstein Variorum spine on  2019-04-14T18:17:32.719-04:00.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab type="alignmentChunk">
+            <app xml:id="C26d_app1">
+		             <rdgGrp xml:id="C26d_app1_rg1" n="['']">
+			               <rdg wit="f1831">all left behind, on whom the monster might satisfy his sanguinary and merciless passions. This idea plunged me </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C26d_app1_rg2" n="['and', 'sunk']">
+			               <rdg wit="f1818">and sunk </rdg>
+			               <rdg wit="f1823">and sunk </rdg>
+			               <rdg wit="fThomas">and sunk </rdg>
+			               <rdg wit="fMS">&amp; sunk </rdg>
+		             </rdgGrp>
+	           </app>
+         </ab>
+      </body>
+   </text>
+</TEI>
