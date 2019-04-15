@@ -18,11 +18,11 @@
           </head>
           <body>
       <div id="intro"> <h1>Frankenstein Variorum Collation Data</h1>
-   <p>This is a view of aligned passages from machine-assisted and corrected collation of the five editions comprising the Frankenstein Variorum, and represents an incomplete work in progress on the variorum edition.</p>
-   <p>Currently, as of April 2019, the collation output viewable here is incomplete, in two ways: </p>
+   <p>This is a view of aligned passages from machine-assisted and corrected collation of the five editions comprising the Frankenstein Variorum, and represents work in progress on the variorum edition.</p>
+   <p>Currently, as of April 2019, the collation output viewable here is incomplete in two ways: </p>
  <ol>
-     <li>It is missing the ending of the novel, because it represents collation units 01 to 26, out of 33 total units. (This is because the last 7 collation units have not yet been batched processed in collateX.)</li>
-     <li>It represents portions of the collation output that have not yet been thoroughly hand-corrected, from C11 onward. There are occasional gaps for some editions when I have reserved passages to withhold from automated collation. Such gaps almost certainly represent major, serious differences of some editions from the others that need to be carefully woven back into the collation files, and we need to complete that work. 
+     <li>It is missing the ending of the novel, because it represents collation units 1 to 26, out of 33 total units. (This is because the last seven collation units have not yet been batch processed with collateX.)</li>
+     <li>It represents portions of the collation output that have not yet been thoroughly hand-corrected, from collation unit C11 onward. There are occasional gaps for some editions when we have withheld strongly variant passages from the automated collation process. Due to issues of interesting kinds with machine alignment, these passages need to be carefully added to the variorum collation files following machine collation, and we need to complete that work. If you encounter a gap in this file, it will certainly represent a significant difference of one or more editions from the others. 
      </li>
  </ol>
           <p>For more detail on the unready collation data, and for instructions on how to locate reserved passages that do not appear on this webpage, please see <a href="https://github.com/PghFrankenstein/fv-postCollation/blob/master/postColl-workspace/unready-collated-data/README.md">the ReadMe file on the Unready Collated Data directory</a> in our <a href="https://github.com/PghFrankenstein/fv-postCollation">GitHub fv-postCollation repository</a>.</p>
