@@ -25,28 +25,26 @@
      <li>It represents portions of the collation output that have not yet been thoroughly hand-corrected, from C11 onward. There are occasional gaps for some editions when I have reserved passages to withhold from automated collation. Such gaps almost certainly represent major, serious differences of some editions from the others that need to be carefully woven back into the collation files, and we need to complete that work. 
      </li>
  </ol>
-              <p>For more detail on the unready collation data, and for instructions on how to locate reserved passages that do not appear on this webpage, please see <a href="https://github.com/PghFrankenstein/fv-postCollation/blob/master/postColl-workspace/unready-collated-data/README.md">the ReadMe file on the Unready Collated Data directory</a> in our GitHub fv-postcollation repository.</p>
-    <h3 class="legend">Legend</h3>
+          <p>For more detail on the unready collation data, and for instructions on how to locate reserved passages that do not appear on this webpage, please see <a href="https://github.com/PghFrankenstein/fv-postCollation/blob/master/postColl-workspace/unready-collated-data/README.md">the ReadMe file on the Unready Collated Data directory</a> in our <a href="https://github.com/PghFrankenstein/fv-postCollation">GitHub fv-postCollation repository</a>.</p>
+    <h3>Legend</h3>
               <p>We are using color-coding to distinguish between corrected and uncorrected collation data represented in this file. We also use color coding of table backgrounds to highlight aligned passages that represent variation across the five versions of the novel in our variorum.</p>
      <table class="legend">
         <tr><th>Correction status</th>
             <th>Page Background</th>
             <th>Variant passages</th></tr>
-         <tr><td>Ready</td>
-             <td class="ready"><span>---</span></td>
-             <td class="ready">
-                 <span class="multiRG">---</span>
-             </td>
+         <tr class="ready"><td>Ready</td>
+             <td>------</td>
+             <td class="multiRG">------</td>
          </tr>
-         <tr><td>Unready</td>
-         <td class="unready"><span>---</span>
-         <td class="unready">
-             <span class="multiRG">---</span>
-         </td>
-         </td>
+         <tr class="unready"><td>Unready</td>
+         <td>------</td>
+         <td class="multiRG">------</td>
          </tr>
      </table>
-   <hr/>   
+         <!-- <xsl:variable name="rightSearchGlass" select="&#x1F50E;"/>-->
+          <h3><xsl:text>&#x1F50E;</xsl:text> Instructions for searching</h3>
+          <p>To search this document, use your web browser’s native <q>Find on this page</q> tools, using CTRL + F on a PC, or Command + F on a Mac.</p>
+ 
       </div>
               
                 <div class="ready"> <xsl:apply-templates select="$P1coll//app">
