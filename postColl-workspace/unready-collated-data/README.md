@@ -1,6 +1,6 @@
 ## Unready Collated Data Directory
 ### Caution!
-ebb: The files in this directory are in an incomplete state. They contain partially corrected or uncorrected collation data, and there are gaps when I have reserved passages to withhold from automated collation. These are usually represent major, serious differences of some editions from the others that need to be carefully woven back into the collation files, but we have not completed that work yet. 
+ebb: The files in this directory are in an incomplete state. They contain partially corrected or uncorrected collation data, and there are gaps when I have reserved passages to withhold from automated collation. These reserved passages represent major, serious differences of some editions from the others that need to be carefully woven back into the collation files, but we have not completed that work yet. 
 
 Nevertheless, I am storing this collection in order to prepare [HTML output](https://pghfrankenstein.github.io/Pittsburgh_Frankenstein/tableView.html) to ease the Annotations team’s work in quickly inspecting how passages compare across editions. This should give us a quick view of passages that *do* align and may be handy for the Annotations team, even if incomplete. 
 
