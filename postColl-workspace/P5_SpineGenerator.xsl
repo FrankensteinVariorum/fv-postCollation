@@ -165,7 +165,7 @@ Change the output filenames from starting with P1_ to spine_.
                         <xsl:variable name="currEd-Chunk" as="xs:string" select="tokenize($currEdition/base-uri(), '/')[last()] ! substring-after(., '_') ! substring-before(., '.')"/> 
                         <xsl:message>Value of $currEd-Chunk is <xsl:value-of select="$currEd-Chunk"/></xsl:message>
                         <xsl:for-each select="$currEd-Seg">
-                            <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-{$currWit}_{$currEd-Chunk}.xml#{current()/@xml:id}"/>
+                            <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/{$currWit}_{$currEd-Chunk}.xml#{current()/@xml:id}"/>
                         </xsl:for-each>
                     </rdg>
                 </xsl:otherwise>
