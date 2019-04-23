@@ -69,20 +69,26 @@
     </xsl:template>
     <xsl:template match="div[@type='collation']" mode="loop">
         <xsl:apply-templates/>
-    </xsl:template> 
-    <xsl:template match="*[@ana='start' and @loc eq following-sibling::*[@ana eq 'end'][1]/@loc]">
+    </xsl:template>
+    <xsl:template match="*[@th:sID eq
+        following-sibling::*[@th:eID][1]/@th:eID]">
         <xsl:variable name="currNode" select="current()" as="element()"/>
-        <xsl:variable name="currLoc" select="@loc" as="xs:string"/>
+        <xsl:variable name="currMarker" select="@th:sID" as="xs:string"/>
         <xsl:element name="{name()}">
+            <xsl:copy-of select="@* except @th:sID"/>
             <xsl:attribute name="xml:id">
-                <xsl:value-of select="@loc"/>
+                <xsl:value-of select="@th:sID"/>
             </xsl:attribute>
-            <xsl:copy-of select="following-sibling::node()[following-sibling::*[@loc = $currLoc]]"/>
+            <xsl:variable name="end-marker" as="element()" select="following-sibling::*[@th:eID = current()/@th:sID]"/>
+            <xsl:copy-of select="following-sibling::node()[. &lt;&lt; $end-marker]"/>
         </xsl:element>
     </xsl:template>
-    <!--suppressing nodes that are being reconstructed. --> 
-    <xsl:template match="node()[preceding-sibling::*[@ana eq 'start'][1]/@loc eq following-sibling::*[@ana eq 'end'][1]/@loc]"/>
-
-    <xsl:template match="*[@ana='end'][@loc = preceding-sibling::*[@ana='start'][1]/@loc]"/>
+    
+    <!--suppressing nodes that are being reconstructed, including the old end marker. -->
+    <xsl:template
+        match="node()[preceding-sibling::*[@th:sID][1]/@th:sID eq following-sibling::*[@th:eID][1]/@th:eID]"/>
+    
+    <xsl:template match="*[@th:eID eq preceding-sibling::*[@th:sID][1]/@th:sID]"/>
+</xsl:stylesheet>
     
 </xsl:stylesheet>
