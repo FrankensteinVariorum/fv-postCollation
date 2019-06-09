@@ -1,7 +1,7 @@
 # fv-postCollation
 This repository is part of the [Frankenstein Variorum project](https://github.com/PghFrankenstein) It contains a workspace for post-processing finalized collation files to prepare the Variorum edition. For more on the Frankenstein Variorum project underway, see <https://pghfrankenstein.github.io/Pittsburgh_Frankenstein/>.
 
-The workspace in this repo houses a transformation pipeline. Here is a summary of the files to run in order, which an explanation of each process. We plan to bundle these stages into one or two automated processes when the Variorum development is stable. 
+The workspace in this repo houses a transformation pipeline. Here is a summary of the files to run in order, which an explanation of each process. We plan to bundle these stages into one or two automated processes when the Variorum development is stable. Before we do that, we need to carefully review each stage described below and remove anything dependent on human intervention between pipeline stages. 
 
 ## Phase 1: Convert collation data to TEI
 ### Run `P1-bridgeEditionConstructor.xsl`
