@@ -42,7 +42,8 @@ The workspace in this repo houses a transformation pipeline. Here is a summary o
 *  2018-10-11 ebb: This version of the P4 stylesheet is designed to run at command line (so references to specific file collections are commented out). Run this in the terminal or command line by navigating to the directory holding this XSLT (and the saxon files necessary) and entering
 ``
        java -jar saxon.jar -s:P3.5-output -xsl:P4Sax-raiseBridgeElems.xsl -o:P4-output
-``       
+``  
+* After running this, be sure to rename the output files to begin with `P4_`
 * 2018-07-15 ebb: Bridge Phase 4 raises the hierarchy of elements from the source documents, leaving the seg elements unraised. This stylesheet uses an "inside-out" function to raise the elements from the deepest levels (those with only text nodes between their start and end markers) first. This and other methods to "raise" flattened or "Trojan" elements are documented in https://github.com/djbpitt/raising with thanks to David J. Birnbaum and Michael Sperberg-McQueen for their helpful experiments. 
 
 ## Phase 5: Prepare and raise `<seg>` elements for variant passages in each edition
