@@ -9,6 +9,7 @@
     exclude-result-prefixes="#all"
     version="3.0">
     <xsl:output method="xml" indent="no"/>
+    <xsl:strip-space elements="*"/>
     <!--2018-07-07 ebb: This stylesheet works to raise "trojan
 	elements" from the inside out, this time over a collection
 	of Frankenstein files output from collation. It also adapts

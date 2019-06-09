@@ -3,6 +3,7 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse" exclude-result-prefixes="#all" version="3.0">
     <xsl:output method="xml" indent="no"/>
+    <xsl:strip-space elements="*"/>
     <!--2019-04-23 ebb: REPAIR THE ATTRIBUTES IN THIS VERSION TO FIT OUR CURRENT th: namespace for TROJAN MILESTONES before running again!  -->
     <!-- 2018-10-11 ebb: UPDATED for new fv-postCollation repo: This version of the stylesheet is designed to run at command line (so references to specific file collections are commented out). Run this in the terminal or command line by navigating to the directory holding this XSLT (and the saxon files necessary) and entering
        java -jar saxon.jar -s:P3.5-output -xsl:P4Sax-raiseBridgeElems.xsl -o:P4-output
@@ -89,6 +90,4 @@
         match="node()[preceding-sibling::*[@th:sID][1]/@th:sID eq following-sibling::*[@th:eID][1]/@th:eID]"/>
     
     <xsl:template match="*[@th:eID eq preceding-sibling::*[@th:sID][1]/@th:sID]"/>
-</xsl:stylesheet>
-    
 </xsl:stylesheet>
