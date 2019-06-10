@@ -88,7 +88,7 @@ The workspace in this repo houses a transformation pipeline. Here is a summary o
 ### Run `P5-Pt5raiseSegElems.xsl`
 * 2018-07-30 ebb: Run this with Saxon at command line to raise paired seg markers, using:
 ``
-    java -jar saxon.jar -s:preP5d-output/ -xsl:P5-Pt5raiseSegElems.xsl -o:P5-output/ 
+    java -jar saxon.jar -s:preP5d-output/ -xsl:P5-Pt5raiseSegElems.xsl -o:P5-output 
 ``    
     
 * We should probably rewrite this so we don't require the lib file dependency on marker types. 
