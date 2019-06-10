@@ -159,7 +159,7 @@ java -jar saxon.jar -s:P1-output/ -xsl:P5_SpineGenerator.xsl -o:subchunked_stand
 This stage removes MS edition files to a separate directory, since these will not be used in the Variorum interface development, but may be useful for further processing and analysis of collation data.
 
 For the white-space-trimmed files:
-### Run `./migrateP5msColl.sh`
+### Run `./migrateP5msColl-tws.sh`
 * **Input:** `P5-trimmedWS`
 * **Outputs:** separate `P5-MS-tws` and `P5-print-tws` directories, copied to `fv-data/variorum-chunks-tws` and `fv-data/reseqMS-chunks-tws`
 
