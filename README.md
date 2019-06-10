@@ -96,7 +96,7 @@ The workspace in this repo houses a transformation pipeline. Here is a summary o
 ### Run `P5_SpineGenerator.xsl`
 * Run with saxon command line over the `P1-output` directory and output to  `subchunked_standoff_Spine` directory, using:
 ``      
-java -jar saxon.jar -s:P1-output/ -xsl:P5_SpineGenerator.xsl -o:subchunked_standoff_Spine/ 
+java -jar saxon.jar -s:P1-output/ -xsl:P5_SpineGenerator.xsl -o:subchunked_standoff_Spine 
 ``
 * Change the output filenames from starting with `P1_` to `spine_`.
 * 2018-10-17 updated 2019-03-16 ebb: This XSLT generates the “spine” files for the Variorum. 
