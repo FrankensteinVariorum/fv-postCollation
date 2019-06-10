@@ -8,7 +8,6 @@
     exclude-result-prefixes="xs" version="3.0">
 
   <xsl:mode on-no-match="shallow-copy"/>
-    <xsl:strip-space elements="*"/>
     <xsl:variable name="P2-Coll" as="document-node()+" select="collection('P2-output/?select=*.xml')"/>
     <xsl:variable name="testerDoc" as="document-node()" select="doc('P2-output/P2_f1818_C10.xml')"/>
 <!--In Bridge Construction Phase 3, we are up-converting the text-converted tags in the edition files into self-closed elements. We add the th: namespace prefix to "trojan horse" attributes used for markers.-->   

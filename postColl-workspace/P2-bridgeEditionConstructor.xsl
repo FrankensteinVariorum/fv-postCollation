@@ -10,7 +10,6 @@
    We are now generating the spine file following the edition files constructed in bridge P5, so that we have the benefit of seeing the <seg> elements where they need to be multiplied (e.g. around paragraph breaks). We can then generate pointers to more precise locations.   
     -->
 <xsl:output method="xml" indent="no"/>  
-    <xsl:strip-space elements="*"/>
     <xsl:variable name="P1Files" as="document-node()+" select="collection('P1-output/?select=*.xml')"/>
     <xsl:variable name="witnesses" as="xs:string+" select="distinct-values($P1Files//@wit)"/>
     
@@ -85,7 +84,7 @@
         </xsl:choose>
     </xsl:template>
     <xsl:template match="rdg" mode="invariant">
-        <xsl:apply-templates select="./normalize-space()"/>
+        <xsl:apply-templates select="."/>
     </xsl:template>
     <xsl:template match="rdg" mode="variant"><seg xml:id="{ancestor::app/@xml:id}-{@wit}_start"/><xsl:apply-templates select="."/><seg xml:id="{ancestor::app/@xml:id}-{@wit}_end"/></xsl:template>
 </xsl:stylesheet>
