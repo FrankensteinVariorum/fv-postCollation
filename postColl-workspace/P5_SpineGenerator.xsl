@@ -23,6 +23,7 @@ Change the output filenames from starting with P1_ to spine_.
     <!--2018-07-30 rv: Changing rdgGrps back into apps. This eventually should be addressed in previous steps. -->
     <!--2019-03-16: ebb: Reviewing documentation and outputs, we are outputting apps with rdgGrps inside, each getting an xml:id.  -->
     <!--2018-10-23 rv: merging with code for generating pointers to SGA -->
+    <!-- 2019-06-14 ebb: updating URLs to renamed variorum-chunks directory. -->
     <xsl:mode on-no-match="shallow-copy"/>
     
     <xsl:param name="sga_loc" select="'https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/'"/>
