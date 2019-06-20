@@ -130,7 +130,7 @@ java -jar saxon.jar -s:P1-output/ -xsl:P5_SpineGenerator.xsl -o:subchunked_stand
 ``        
 * On using TRANSLIT with iconv, see <https://unix.stackexchange.com/questions/171832/converting-a-utf-8-file-to-ascii-best-effort> 
 
-### Run at shell `python edit-distance/LevenCalc_toXML.py`
+### Inside the edit-distance directory, run at shell `python LevenCalc_toXML.py`
 * **Input:** `spineData-ascii.txt`
 * **Output:** `FV_LevDists-weighted.xml`
 * This Python script uses the numpy library to calculate Levenshtein edit distances between each available rdgGrp cluster of witnesses at each variant location. It outputs a single XML file in the critical apparatus format of our spines, holding the calculated values. 
