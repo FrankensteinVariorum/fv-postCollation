@@ -23,10 +23,17 @@ Change the output filenames from starting with P1_ to spine_.
     <!--2018-07-30 rv: Changing rdgGrps back into apps. This eventually should be addressed in previous steps. -->
     <!--2019-03-16: ebb: Reviewing documentation and outputs, we are outputting apps with rdgGrps inside, each getting an xml:id.  -->
     <!--2018-10-23 rv: merging with code for generating pointers to SGA -->
-    <!-- 2019-06-14 ebb: updating URLs to renamed variorum-chunks directory. -->
+    <!-- 2019-06-14 ebb: updating URLs for print editions to renamed variorum-chunks directory. -->
+    <!-- 2019-06-19 ebb: updating URLs for SGA to newly included variorum-chunks sga files.
+        Keeping the original data on file paths back to S-GA for future use. 
+        IF WE RETURN TO POINT TO S-GA FILES, change the following lines as indicated in the stylesheet below:
+      Comment out line 35 (defining sga_loc to PghFrankenstein), and lines 86, 132, and 144.
+      Uncomment lines 36 and 49 to reinstate S-GA's complex file paths. 
+        An alternative thought: Perhaps these file copies could echo each other so the fv-data repo can be a fallback in case something goes wrong w/ S-GA repo, and vice versa. 
+    -->
     <xsl:mode on-no-match="shallow-copy"/>
-    
-    <xsl:param name="sga_loc" select="'https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/'"/>
+    <xsl:param name="sga_loc" select="'https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/'"/>  
+   <!-- ebb: Keep for pointing to original SGA file location: <xsl:param name="sga_loc" select="'https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/'"/>-->
     <xsl:variable name="P5_coll" as="document-node()+" select="collection('P5-output')"/>
     
     <xsl:function name="pitt:getLbPointer" as="item()*">
@@ -39,7 +46,7 @@ Change the output filenames from starting with P1_ to spine_.
                 <xsl:variable name="surface" select="$parts[1]"/>
                 <xsl:variable name="zone" select="$parts[2]"/>
                 <xsl:variable name="line" select="$parts[3]"/>
-                <xsl:value-of select="concat($sga_loc, 'ox-ms_abinger_', $ms, '/ox-ms_abinger_', $ms, '-', $surface, '.xml', '#')"/>
+        <!--ebb: Keep for pointing to original SGA file location: <xsl:value-of select="concat($sga_loc, 'ox-ms_abinger_', $ms, '/ox-ms_abinger_', $ms, '-', $surface, '.xml', '#')"/>-->
                 <xsl:text>string-range(//tei:zone[@type='</xsl:text>
                 <xsl:value-of select="$zone"/>
                 <xsl:text>']//tei:line[</xsl:text>
@@ -73,8 +80,10 @@ Change the output filenames from starting with P1_ to spine_.
     
     <xsl:template name="lookback">
         <xsl:param name="rdg" select="."/>
+        <xsl:param name="wholeChunkID"/>
         <xsl:variable name="str" select="tokenize(normalize-space(string-join($rdg/preceding::tei:rdg[ends-with(@wit, 'fMS')])), '&lt;lb\s+n')[last()]"/>
         <xsl:variable name="pointer">
+            <!--ebb: REMOVE this line if returning to point at S-GA files directly. --><xsl:value-of select="concat($sga_loc, 'fMS_', $wholeChunkID, '.xml', '#')"/>
             <xsl:value-of select="pitt:getLbPointer(normalize-space(tokenize($rdg/preceding::tei:rdg[ends-with(@wit, 'fMS')][contains(normalize-space(.), 'lb n=&quot;')][1], '&lt;lb\s+n')[last()]))"/>
         </xsl:variable>
         <xsl:if test="not($pointer = '')">
@@ -96,11 +105,12 @@ Change the output filenames from starting with P1_ to spine_.
         <app xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:copy-of select="@*"/>
           <xsl:variable name="appID" as="xs:string" select="@xml:id"/>
-              <xsl:apply-templates select="rdgGrp"><xsl:with-param name="appID" as="xs:string" select="$appID"></xsl:with-param></xsl:apply-templates>
+          <xsl:variable name="wholeChunkID" as="xs:string" select="replace($appID, '[a-z]_.+?$' , '')"/>
+              <xsl:apply-templates select="rdgGrp"><xsl:with-param name="appID" as="xs:string" select="$appID"/><xsl:with-param name="wholeChunkID" select="$wholeChunkID"/></xsl:apply-templates>
         </app>
     </xsl:template>
     <xsl:template match="tei:rdgGrp">
-        <xsl:param name="appID"/>
+        <xsl:param name="appID"/><xsl:param name="wholeChunkID"/>
         <rdgGrp xmlns="http://www.tei-c.org/ns/1.0">
             <xsl:copy-of select="@*"/>  
             <xsl:for-each select="tei:rdg">
@@ -119,6 +129,7 @@ Change the output filenames from starting with P1_ to spine_.
                                             <!-- Only process it if there's content after the lb -->
                                             <xsl:if test="string-length(substring-after(normalize-space(.), '/&gt;')) > 0">
                                                 <xsl:variable name="pointer">
+                                                    <!--ebb: REMOVE this line if returning to point at S-GA files directly. --><xsl:value-of select="concat($sga_loc, 'fMS_', $wholeChunkID, '.xml', '#')"/>
                                                     <xsl:value-of select="pitt:getLbPointer(normalize-space(current()))"/>                                                
                                                 </xsl:variable>
                                                 <xsl:if test="not($pointer = '')">
@@ -129,7 +140,10 @@ Change the output filenames from starting with P1_ to spine_.
                                                         ),
                                                         '^=&quot;[^&quot;]+?&quot;\s*?/&gt;', ''
                                                         )"/>
-                                                    <xsl:variable name="full_pointer" select="concat(string-join(pitt:getLbPointer(normalize-space(current()))),',0,',string-length($text)+1, ')')"/>
+                                                    <xsl:variable name="full_pointer">
+                                                        <!--ebb: REMOVE this line if returning to point at S-GA files directly. --><xsl:value-of select="concat($sga_loc, 'fMS_', $wholeChunkID, '.xml', '#')"/>
+                                                    <xsl:value-of select="concat(string-join(pitt:getLbPointer(normalize-space(current()))),',0,',string-length($text)+1, ')')"/>
+                                                    </xsl:variable>
                                                     <ptr target="{$full_pointer}"/>
                                                     <!-- Un-comment these for testing pointer resolution --> 
                                                     <!--<pitt:line_text>
@@ -146,13 +160,16 @@ Change the output filenames from starting with P1_ to spine_.
                                         <xsl:otherwise>
                                             <xsl:call-template name="lookback">
                                                 <xsl:with-param name="rdg" select="$rdg"/>
+                                                <xsl:with-param name="wholeChunkID" select="$wholeChunkID"/>
                                             </xsl:call-template>
                                         </xsl:otherwise>
                                     </xsl:choose>                           
                                 </xsl:for-each>
                             </xsl:when>
                             <xsl:otherwise>
-                                <xsl:call-template name="lookback"/>                            
+                                <xsl:call-template name="lookback">
+                                    <xsl:with-param name="wholeChunkID" select="$wholeChunkID"/>
+                                </xsl:call-template>                            
                             </xsl:otherwise>
                         </xsl:choose>
                     </rdg>
