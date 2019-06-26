@@ -18,7 +18,7 @@
    </xsl:for-each>  
  </xsl:template>  
     <xsl:variable name="emptyString" as="xs:string" select="'[&#39;&#39;]'"/>
-    <xsl:template match="rdgGrp[string-length(@n) le 4][count(descendant::rdg) eq 1]/rdg[@wit='#fMS']">
+    <xsl:template match="rdgGrp[@n/string-length() eq 4]/rdg">
         <xsl:copy select=".">
             <xsl:copy select="@*"/>
         </xsl:copy>
