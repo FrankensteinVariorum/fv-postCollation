@@ -42,8 +42,8 @@
     When we find it, we will want to place the anchor element at the moment JUST BEFORE the first lb in the left margin zone in our P1 file.
     -->  
     <xsl:template match="rdg[@wit='fMS'][contains(., '__left_margin')][contains(., '__main')]">
-        <xsl:analyze-string select="." regex="&lt;[^/&amp;]+?&gt;">
-            <!--a start tag or a self-closing element, containing data we need-->
+        <xsl:analyze-string select="." regex="&lt;.+?&gt;">
+            <!--ANY tag data-->
             <xsl:matching-substring>
                 
             </xsl:matching-substring>
