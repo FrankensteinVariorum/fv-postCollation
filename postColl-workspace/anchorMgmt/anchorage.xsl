@@ -25,17 +25,30 @@
          <xsl:variable name="chunk" as="xs:string" select="substring-after(@xml:id, '-')"/>          
            <xsl:result-document method="xml" indent="yes" href="P1-anchorOut/{$filename}">
                <TEI>
-                   <xsl:comment>Which file am I processing? 
+                   <xsl:message>Which file am I processing? 
                    <xsl:value-of select="tokenize(base-uri(), '/')[last()]"/>. Value of $chunk is: <xsl:value-of select="$chunk"/>.
-                   </xsl:comment>
+                   </xsl:message>
            <xsl:apply-templates/>
                </TEI>
            </xsl:result-document>
-       </xsl:for-each>
-       
+       </xsl:for-each>    
    </xsl:template> 
-   
+<!--This template matches on MS rdg elements that hold a combination of main and left margin data. Re the margin data, the main data could precede or follow (or both).
+    Conditions to look for:
+    Is there an lb in main at this location? (Y or N)
+    Look for signals of the left margin location on add or del elements: 
+    Q: Is this one? c56-0012.02
+    A: Not always! sometimes these are superlinear insertions/modifications. Only sometimes are they pointing to left margin zones. But when we find the pattern on an lb designated as inside a left_margin, we know there will be an anchor in the main text to match it, and we can find it in the S-GA file.
     
+    -->  
+    <xsl:template match="rdg[@wit='fMS'][contains(., '__left_margin')][contains(., '__main')]">
+        <xsl:analyze-string select="." regex="&lt;[^/&amp;]+?&gt;">
+            <!--a start tag or a self-closing element, containing data we need-->
+            <xsl:matching-substring>
+                
+            </xsl:matching-substring>
+        </xsl:analyze-string> 
+    </xsl:template>
     
 <!-- ebb: Some old reference code from P2 XSLT on using xsl:analyze-string
         <xsl:template match="ab/text()">
