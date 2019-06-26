@@ -14,7 +14,7 @@
     -->
   <xsl:mode on-no-match="shallow-copy"/>
     <xsl:variable name="P1-Coll" as="document-node()+" select="collection('../P1-output/?select=*.xml')"/>
-
+<xsl:variable name="sga-mscoll" as="document-node()+" select="collection('ms-variorum-chunks')"/>
    <xsl:template match="/">
        <xsl:for-each select="$P1-Coll//TEI[base-uri() ! tokenize(., '/')[last()] ! substring-before(., '.xml') !
            substring-after(., '_C') ! replace(., '[a-z]$', '') ! number() ge 7]">
@@ -39,7 +39,7 @@
     Look for signals of the left margin location on add or del elements: 
     Q: Is this one? c56-0012.02
     A: Not always! sometimes these are superlinear insertions/modifications. Only sometimes are they pointing to left margin zones. But when we find the pattern on an lb designated as inside a left_margin, we know there will be an anchor in the main text to match it, and we can find it in the S-GA file.
-    
+    When we find it, we will want to place the anchor element at the moment JUST BEFORE the first lb in the left margin zone in our P1 file.
     -->  
     <xsl:template match="rdg[@wit='fMS'][contains(., '__left_margin')][contains(., '__main')]">
         <xsl:analyze-string select="." regex="&lt;[^/&amp;]+?&gt;">
