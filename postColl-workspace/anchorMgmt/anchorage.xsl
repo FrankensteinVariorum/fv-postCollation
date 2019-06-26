@@ -16,31 +16,21 @@
     <xsl:variable name="P1-Coll" as="document-node()+" select="collection('../P1-output/?select=*.xml')"/>
 
    <xsl:template match="/">
-       <xsl:for-each select="$P2-Coll//TEI">
-           <xsl:variable name="currentP2File" as="element()" select="current()"/>
+       <xsl:for-each select="$P1-Coll//TEI[base-uri() ! tokenize(., '/')[last()] ! substring-before(., '.xml') !
+           substring-after(., '_C') ! replace(., '[a-z$]', '') ! number()[. le 10 or . ge 7]]">
+           <xsl:variable name="currentP1File" as="element()" select="current()"/>
            <xsl:variable name="filename">
-              <xsl:text>P3-</xsl:text><xsl:value-of select="tokenize(base-uri(), '/')[last()] ! tokenize(., 'P2_')[last()]"/>
+              <xsl:value-of select="tokenize(base-uri(), '/')[last()]"/>
            </xsl:variable>
-         <xsl:variable name="chunk" as="xs:string" select="tokenize($filename, '_')[last()]"/>          
-           <xsl:result-document method="xml" indent="yes" href="P3-output/{$filename}">
+         <xsl:variable name="chunk" as="xs:string" select="substring-after(@xml:id, '-')"/>          
+           <xsl:result-document method="xml" indent="yes" href="P1-anchorOut/{$filename}">
                <TEI>
            <xsl:apply-templates/>
                </TEI>
            </xsl:result-document>
        </xsl:for-each>
        
-   </xsl:template>
-    <xsl:template match="titleStmt/title">
-<title>
-    <xsl:text>Bridge Phase 3: </xsl:text><xsl:value-of select="tokenize(., ':')[last()]"/>
-</title>
-        
-    </xsl:template>
-   <xsl:template match="ab">
-       <!--2018-06-22: ebb: We can't use <ab> for top-level structures once we start regenerating <p> elements, since <ab> isn't allowed to contain <p>. -->
-       <div type="collation" xml:id="{@xml:id}"><xsl:apply-templates/></div>
-   </xsl:template>
-   
+   </xsl:template> 
     <xsl:template match="ab/text()">
         <xsl:analyze-string select="." regex="&lt;[^/&amp;]+?&gt;"><!--a start tag of an unflattened element (left as a whole element prior to collation).-->
             <xsl:matching-substring>
