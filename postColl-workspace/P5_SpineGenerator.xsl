@@ -107,7 +107,7 @@ Change the output filenames from starting with P1_ to spine_.
         <app xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:copy-of select="@*"/>
           <xsl:variable name="appID" as="xs:string" select="@xml:id"/>
-          <xsl:variable name="wholeChunkID" as="xs:string" select="replace($appID, '[a-z]_.+?$' , '')"/>
+          <xsl:variable name="wholeChunkID" as="xs:string" select="replace($appID, '[a-z]?_.+?$' , '')"/>
               <xsl:apply-templates select="rdgGrp"><xsl:with-param name="appID" as="xs:string" select="$appID"/><xsl:with-param name="wholeChunkID" select="$wholeChunkID"/></xsl:apply-templates>
         </app>
     </xsl:template>
