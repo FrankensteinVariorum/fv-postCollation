@@ -37,9 +37,23 @@
     Conditions to look for:
     Is there an lb in main at this location? (Y or N)
     Look for signals of the left margin location on add or del elements: 
-    Q: Is this one? c56-0012.02
-    A: Not always! sometimes these are superlinear insertions/modifications. Only sometimes are they pointing to left margin zones. But when we find the pattern on an lb designated as inside a left_margin, we know there will be an anchor in the main text to match it, and we can find it in the S-GA file.
+    Q: Is this thing I see on a del one? c56-0012.02 
+    A: Not always, and it's an ignus fatuus! Sometimes these are superlinear insertions/modifications. Only sometimes are they pointing to left margin zones. 
+    In the presence of an lb in a left margin zone, with no identifying main lb near it, what we need to find in SGA is a main surface <line> (by count of preceding-sibling::line up to its parent zone), that contains an  anchor with an xml:id that matches to a value following a '#" in a zone[@type='left_margin']/@corresp that contains the same text that follows our left-margin lb. 
+    TO ENRICH the available information: If we find that main line and get its position, we can place the anchor to REFER to that line by count. 
     When we find it, we will want to place the anchor element at the moment JUST BEFORE the first lb in the left margin zone in our P1 file.
+    
+    THINKING IT THROUGH: 
+    Where __left_margin is in presence of __main: 
+    1) Does __main have an lb attached? 
+       * If so, get its surface id and count number, and hunt for it in SGA.          
+       * Look for an anchor element inside that line. 
+            * Check if there's an anchor that corresps to a __left_margin zone. If it does, follow it and see if its text matches what we have in our rdg element as the first text node following a __left_margin lb. 
+            * If there's NO anchor that corresps to a __left_margin zone, signal this so we know
+            * Check along the preceding:: and following::axis for the first available anchor that corresponds to a __left_margin. Signal when you find it, and see if it has the correct text as above. 
+        * If you find the main line holding the __left_margin anchor, signal success, get the main surface line position count at that moment, and place the intel in a new anchor element. The anchor element looks like this if it were on line 11 of surface c56-0012: 
+        <anchor type="left_margin" loc="c56-0012__main__11" xml:id="{@xml:id}"/>  
+            
     -->  
     <xsl:template match="rdg[@wit='fMS'][contains(., '__left_margin')][contains(., '__main')]">
         <xsl:analyze-string select="." regex="&lt;.+?&gt;">
