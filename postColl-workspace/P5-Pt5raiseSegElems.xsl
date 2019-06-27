@@ -91,8 +91,9 @@
      <xsl:copy-of select="namespace::*
 			  [not(. = 'http://www.blackmesatech.com/2017/nss/trojan-horse')
 			  or not($th-style='th')]"/>
-     <xsl:attribute name="xmlns:tei" namespace="http://www.tei-c.org/ns/1.0"
-       select="."/>
+     <xsl:attribute name="xmlns:tei" namespace="http://www.tei-c.org/ns/1.0">
+       http://www.tei-c.org/ns/1.0
+     </xsl:attribute>
      <xsl:copy-of select="@*"/>
      <!--* ah.  The standard error.
 	 <xsl:apply-templates select="node()" mode="raising"/>
