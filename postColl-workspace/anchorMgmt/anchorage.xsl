@@ -14,7 +14,7 @@
     -->
   <xsl:mode on-no-match="shallow-copy"/>
     <xsl:variable name="P1-Coll" as="document-node()+" select="collection('../P1-output/?select=*.xml')"/>
-<xsl:variable name="sga-mscoll" as="document-node()+" select="collection('ms-variorum-chunks')"/>
+    <xsl:variable name="sga-mscoll" as="document-node()+" select="collection('ms-variorum-chunks/?select=*.xml')"/>
    <xsl:template match="/">
        <xsl:for-each select="$P1-Coll//TEI[base-uri() ! tokenize(., '/')[last()] ! substring-before(., '.xml') !
            substring-after(., '_C') ! replace(., '[a-z]$', '') ! number() ge 7]">
@@ -55,17 +55,17 @@
         <anchor type="left_margin" loc="c56-0012__main__11" xml:id="{@xml:id}"/>  
             
     -->  
-    <xsl:template match="rdg[@wit='fMS'][contains(., '__left_margin')][matches(., '&lt;lb\s+n=&#34;.+?__main__\d+&#34;.+?&gt;')]">
+    <xsl:template match="rdg[@wit='fMS'][contains(., '__left_margin')][matches(., '&lt;lb\s+n=&#34;.+?__main__\d+&#34;')]">
   <xsl:variable name="textUpToFirstLML" as="xs:string"><!-- This should isolate the text up to the first left margin line. -->
-      <xsl:analyze-string select="text()" regex="^.+?&lt;lb\s+n=&#34;.+?__left_margin__\d+&#34;.+?&gt;">
+      <xsl:analyze-string select="text()" regex="^.+?__left_margin__\d+&#34;">
      <xsl:matching-substring>
          <xsl:value-of select="."/>
      </xsl:matching-substring>           
       </xsl:analyze-string>   
   </xsl:variable> 
-        <xsl:variable name="FirstLMLToEnd" as="xs:string"><!--the first LML up to the end --><xsl:analyze-string select="text()" regex="^.+?&lt;lb\s+n=&#34;.+?__left_margin__\d+&#34;.+?&gt;.+?$">
+        <xsl:variable name="FirstLMLToEnd" as="xs:string"><!--the first LML up to the end --><xsl:analyze-string select="text()" regex="^.+?__left_margin__\d+&#34;.+?$">
             <xsl:matching-substring>
-                <xsl:analyze-string select="." regex="&lt;lb\s+n=&#34;.+?__left_margin__\d+&#34;.+?&gt;.+?$">
+                <xsl:analyze-string select="." regex="&lt;lb\s+n=&#34;.+?__left_margin__\d+&#34;.+?$">
             <xsl:matching-substring>
                 <xsl:value-of select="."/>
             </xsl:matching-substring>        
@@ -78,14 +78,15 @@
             <xsl:matching-substring>
                 <xsl:analyze-string select="." regex="main__\d+">
                     <xsl:matching-substring>
-                 <xsl:variable name="mainLineCount" as="xs:double+" select="substring-after(., '__') ! number()"/>
-                        <xsl:variable name="mainSurfaceId" as="xs:string+" select="substring-after(., 'n=&#34;') ! substring-before(., '__main')"/>
+                 <xsl:variable name="mainLineCount" as="xs:double" select="substring-after(., '__') ! number()"/>
+                        <xsl:variable name="mainSurfaceId" as="xs:string" select="substring-after(., 'n=&#34;') ! substring-before(., '__main')"/>
           <!--Do the lookup here: -->              
-   <xsl:variable name="sgaMatchLine" as="element()" select="$sga-mscoll//surface[contains(@xml:id, $mainSurfaceId)]//line[count(preceding-sibling::line) + 1 = $mainLineCount]"/>          <xsl:choose>
-       <xsl:when test="$sgaMatchLine//anchor[@xml:id eq following::zone/substring-after(@corresp, '#')]">
+   <xsl:variable name="sgaMatchLine" as="element()+" select="$sga-mscoll//surface[contains(@xml:id, $mainSurfaceId)]//zone[@type='main']//line[count(preceding-sibling::line) + 1 = $mainLineCount]"/>          <xsl:choose>
+       <xsl:when test="$sgaMatchLine//anchor[@xml:id = following::zone[@type='left_margin'][ancestor::surface[contains(@xml:id, $mainSurfaceId)]]/substring-after(@corresp, '#')]">
            <xsl:value-of select="$textUpToFirstLML"/>
-        <!-- copy anchor here  <xsl:copy-of select="$sga"/>-->
-           <xsl:copy-of select="$sgaMatchLine//anchor[@xml:id eq following::zone/substring-after(@corresp, '#')]"/>
+        <!-- copy anchor here -->
+           <xsl:message>HOORAY! ANCHOR MATCH!</xsl:message>
+           <xsl:copy-of select="$sgaMatchLine//anchor[@xml:id = following::zone[@type='left_margin'][ancestor::surface[contains(@xml:id, $mainSurfaceId)]]/substring-after(@corresp, '#')]"/>
            <xsl:value-of select="$FirstLMLToEnd"/>
        </xsl:when>
        <xsl:otherwise>
