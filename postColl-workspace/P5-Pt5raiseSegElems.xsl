@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns="http://www.tei-c.org/ns/1.0"
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
   xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
   exclude-result-prefixes="xs th"
@@ -88,13 +89,9 @@
    <!-- WAS: <xsl:element name="{name()}" namespace="{namespace-uri()}"> 
    Removing the namespace attribute to see if that helps w setting a prefixed tei namespace 
    in addition to the default namespace. -->
-   <xsl:element name="{name()}">
-     <xsl:copy-of select="namespace::*
-			  [not(. = 'http://www.blackmesatech.com/2017/nss/trojan-horse')
-			  or not($th-style='th')]"/>
-     <xsl:attribute name="xmlns:tei" namespace="http://www.tei-c.org/ns/1.0">
-       http://www.tei-c.org/ns/1.0
-     </xsl:attribute>
+   <xsl:element name="{local-name()}">
+    <xsl:copy-of select="namespace::*"/>
+     <xsl:attribute name="xmlns:tei" namespace="http://www.tei-c.org/ns/1.0">http://www.tei-c.org/ns/1.0</xsl:attribute>
      <xsl:copy-of select="@*"/>
      <!--* ah.  The standard error.
 	 <xsl:apply-templates select="node()" mode="raising"/>
