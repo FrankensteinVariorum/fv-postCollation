@@ -82,7 +82,9 @@
  </xsl:template>
 
  <!--* special rule for root *-->
- <xsl:template match="/*" priority="100" mode="abandoned">
+  <!--I've removed the priority="100" and mode="abandoned" in effort to add a prefixed
+  TEI namespace in addition to the default-->
+ <xsl:template match="/*">
    <!-- WAS: <xsl:element name="{name()}" namespace="{namespace-uri()}"> 
    Removing the namespace attribute to see if that helps w setting a prefixed tei namespace 
    in addition to the default namespace. -->
