@@ -20,7 +20,7 @@
            substring-after(., '_C') ! replace(., '[a-z]$', '') ! number() ge 7]">
            <xsl:variable name="currentP1File" as="element()" select="current()"/>
            <xsl:variable name="filename">
-              <xsl:value-of select="tokenize(base-uri(), '/')[last()]"/>
+              <xsl:value-of select="concat('anch-', tokenize(base-uri(), '/')[last()])"/>
            </xsl:variable>
          <xsl:variable name="chunk" as="xs:string" select="substring-after(@xml:id, '-')"/>          
            <xsl:result-document method="xml" indent="yes" href="P1-anchorOut/{$filename}">
