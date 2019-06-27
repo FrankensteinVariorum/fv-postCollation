@@ -3,7 +3,7 @@
   xmlns:tei="http://www.tei-c.org/ns/1.0"
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
   xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-  exclude-result-prefixes="xs th tei"
+  exclude-result-prefixes="xs th"
   version="3.0">
   <!--2019-06-27 ebb: We need to add a tei: prefixed namespace in addition to the default namesapce to our output variorum edition files to support use of xml pointers in the Variorum edition, 
   so I am intervening here to add it.-->
