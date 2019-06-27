@@ -59,7 +59,7 @@
             
     -->
     <xsl:template
-        match="rdg[@wit = 'fMS'][contains(., '__left_margin')][matches(., '&lt;lb\s+n=&#34;.+?__main__\d+&#34;')]">
+        match="rdg[@wit = 'fMS'][contains(., '__left_margin')][matches(., '&lt;lb\s+n=&#34;[^&gt;]+?__main__\d+&#34;')]">
         <rdg wit="@wit">
             <!--This template matches only on fMS rdg elements that contain both a reference to material in a left margin, AND at least one lb element encoded in the main surface  -->
                     <xsl:analyze-string select="." regex="^.+?&lt;.+?&gt;.+?$">
@@ -67,17 +67,16 @@
                             <xsl:choose>
                                 <!--Here test for whether the lb in the left margin follows an lb in the main surface or not. If it follows, that's optimal, because it's easier to establish a clear point of departure from a starting point on the main surface, so we set this as our when condition. We'll handle the event of an lb following in the xsl:otherwise condition.  -->
                                 <xsl:when
-                                    test="matches(., '&lt;lb\s+n=.+?__main__.+?&gt;.*?&lt;lb\s+n=.+?__left_margin')">
+                                    test="matches(., '&lt;lb\s+n=&#34;[^&gt;]+?__main__\d+[^&gt;]*?&gt;.*?&lt;lb\s+n=&#34;[^&gt;]+?__left_margin[^&gt;]+?&gt;')">
                                     <xsl:analyze-string select="."
-                                        regex="&lt;lb\s+n=&#34;.+?__main__\d+&#34;.+?&gt;">
+                                        regex="&lt;lb\s+n=&#34;[^&gt;]+?__main__\d+&#34;[^&gt;]*?&gt;">
                                         <xsl:matching-substring>
-                                            <xsl:value-of select="."/>
-                                            <xsl:variable name="mainLineCount" as="xs:double"
-                                                select="substring-after(., 'main__') ! substring-before(., '&#34;') ! number()"/>
-                                            <xsl:message>The Line Position number is <xsl:value-of
+
+                                            <xsl:variable name="mainLineCount" as="xs:double" select="substring-after(., 'main__') ! substring-before(., '&#34;') ! number()"/>
+                                                                                   <xsl:message>The Line Position number is <xsl:value-of
                                                   select="$mainLineCount"/>.</xsl:message>
                                             <xsl:variable name="mainSurfaceId" as="xs:string"
-                                                select="substring-after(., 'n=&#34;') ! tokenize(., '__')[1]"/>
+                                                select="substring-after(., 'n=&#34;') ! substring-before(., '__main') ! tokenize(., '__')[1]"/>
                                             <xsl:message>The Main Surface ID is <xsl:value-of
                                                   select="$mainSurfaceId"/>.</xsl:message>
                                             <!--Do the lookup here: -->
@@ -148,15 +147,26 @@
                                 <xsl:otherwise>
                                     <!-- Here we by default will be responding to the presence of an lb in the main surface coming AFTER an lb in the left margin. This is a little tricky, because we want to position the anchor element just before the left-margin lb element, even though the main text reference that helps us find the point of departure is coming after the reference to the left-margin lb. -->
                                     <xsl:analyze-string select="."
-                                        regex="&lt;lb\s+n=.+?__left_margin.+?&gt;.+?&lt;lb\s+n=&#34;.+?__main__\d+">
+                                        regex="&lt;lb\s+n=&#34;[^&gt;]+?__left_margin[^&gt;]+?&gt;.*?&lt;lb\s+n=&#34;[^&gt;]+?__main__\d+[^&gt;]*?&gt;">
+                                        
                                         <xsl:matching-substring>
-                                            <xsl:value-of select="."/>
-                                            <xsl:variable name="mainLineCount" as="xs:double"
-                                                select="substring-after(., 'main__') ! number()"/>
+                                            <xsl:variable name="mainLineCount" as="xs:double">
+                                                <xsl:analyze-string select="." regex="main__\d+">
+                                                    <xsl:matching-substring>
+                                                        <xsl:value-of select="substring-after(., 'main__') ! number()"/>
+                                                    </xsl:matching-substring>
+                                                </xsl:analyze-string>
+                                            </xsl:variable>           
+                                       
                                             <xsl:message>The Line Position number is <xsl:value-of
                                                 select="$mainLineCount"/>.</xsl:message>
-                                            <xsl:variable name="mainSurfaceId" as="xs:string" select="tokenize(., '&lt;lb\s+n=.+?__left_margin.+?&gt;')[2] ! substring-after(., 'lb') ! substring-after(., 'n=&#34;') ! substring-before(., '__main')"/>                                                
-                                               
+                                            <xsl:variable name="mainSurfaceId" as="xs:string">
+                                                <xsl:analyze-string select="." regex="lb\s+n=&#34;[^&gt;]+?__main__\d+&#34;[^&gt;]*?&gt;">
+                                                    <xsl:matching-substring>
+                                                        <xsl:value-of select="substring-after(., 'n=&#34;') ! substring-before(., '__main') ! tokenize(., '__')[1]"/>
+                                                    </xsl:matching-substring>
+                                                </xsl:analyze-string> 
+                                            </xsl:variable>
                                             <xsl:message>The Main Surface ID is <xsl:value-of
                                                 select="$mainSurfaceId"/>.</xsl:message>
                                             <!--Do the lookup here: -->
