@@ -83,20 +83,31 @@
  </xsl:template>
 
  <!--* special rule for root *-->
-  <!--I've removed the priority="100" and mode="abandoned" in effort to add a prefixed
+  <!--REVISED THIS with help from raffazizzi to intervene and add a prefixed namespace for parsing pointers
+    to the variorum files being output here. I've removed the priority="100" and mode="abandoned" in effort to add a prefixed
   TEI namespace in addition to the default-->
   <!-- WAS: <xsl:element name="{name()}" namespace="{namespace-uri()}"> 
    Removing the namespace attribute to see if that helps w setting a prefixed tei namespace 
-   in addition to the default namespace. -->
- <xsl:template match="/*">
+   in addition to the default namespace.
+  
+  <xsl:template match="/*">
    <xsl:element name="{local-name()}" xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
      <xsl:copy-of select="@* | namespace-node()"/>
-     <!--* ah.  The standard error.
+     <!-/-* ah.  The standard error.
 	 <xsl:apply-templates select="node()" mode="raising"/>
-	 *-->
+	 *-/->
      <xsl:apply-templates select="node()[1]" mode="raising"/>
      </xsl:element>
  </xsl:template>
+  -->
+  
+  <xsl:template match="/*">
+    <xsl:element name="{local-name()}" namespace="http://www.tei-c.org/ns/1.0">
+      <xsl:copy-of select="@* | namespace-node()"/>
+      <xsl:namespace name="tei" select="'http://www.tei-c.org/ns/1.0'"/>
+      <xsl:apply-templates select="node()[1]" mode="raising"/>
+    </xsl:element>
+  </xsl:template>
  
   
   <!--****************************************************************
