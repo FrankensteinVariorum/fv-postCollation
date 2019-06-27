@@ -47,11 +47,11 @@ Change the output filenames from starting with P1_ to spine_.
                 <xsl:variable name="zone" select="$parts[2]"/>
                 <xsl:variable name="line" select="$parts[3]"/>
         <!--ebb: Keep for pointing to original SGA file location: <xsl:value-of select="concat($sga_loc, 'ox-ms_abinger_', $ms, '/ox-ms_abinger_', $ms, '-', $surface, '.xml', '#')"/>-->
-                <xsl:text>string-range(//surface[@xml:id='ox-ms_abinger_</xsl:text>
+                <xsl:text>string-range(//tei:surface[@xml:id='ox-ms_abinger_</xsl:text>
                 <xsl:value-of select="concat($ms, '-', $surface)"></xsl:value-of>
-                <xsl:text>']/zone[@type='</xsl:text>
+                <xsl:text>']/tei:zone[@type='</xsl:text>
                 <xsl:value-of select="$zone"/>
-                <xsl:text>']//line[</xsl:text>
+                <xsl:text>']//tei:line[</xsl:text>
                 <xsl:value-of select="$line"/>
                 <xsl:text>]</xsl:text>
             </xsl:matching-substring>
