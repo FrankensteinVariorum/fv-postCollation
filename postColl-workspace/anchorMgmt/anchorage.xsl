@@ -74,7 +74,9 @@
             </xsl:matching-substring>           
         </xsl:analyze-string>  
   </xsl:variable>      -->
-        <xsl:analyze-string select="." regex="&lt;lb\s+n=&#34;.+?__main__\d+&#34;.+?&gt;">
+        <xsl:analyze-string select="." regex="&lt;.+?&gt;">
+            <xsl:matching-substring>
+            <xsl:analyze-string select="." regex="&lt;lb\s+n=&#34;.+?__main__\d+&#34;.+?&gt;">
             <xsl:matching-substring>
                 <xsl:value-of select="."/>
                 <xsl:analyze-string select="." regex="n=&#34;.+?__main__\d+">
@@ -126,6 +128,11 @@
                 <xsl:value-of select="."/>
             </xsl:non-matching-substring>
         </xsl:analyze-string> 
+            </xsl:matching-substring>
+            <xsl:non-matching-substring>
+                <xsl:value-of select="."/>
+        </xsl:non-matching-substring>
+        </xsl:analyze-string>
      </rdg>
     </xsl:template>         
 </xsl:stylesheet>
