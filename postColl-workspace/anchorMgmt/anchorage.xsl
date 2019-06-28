@@ -254,9 +254,17 @@
                          </xsl:matching-substring>
                      </xsl:analyze-string>
                  </xsl:variable>  -->
-                <xsl:variable name="AllTextFollowingLM" select="string-join($textFollowingLM, ' ')"/>-->
-                    <xsl:comment>All text following LM: <xsl:value-of select="$AllTextFollowingLM"/></xsl:comment>
-                    <xsl:message>All text following LM: <xsl:value-of select="$AllTextFollowingLM"/></xsl:message>                   
+                <xsl:variable name="AllTextFollowingLM" select="string-join($textFollowingLM, ' ')"/>
+                    <xsl:choose><xsl:when test="matches($AllTextFollowingLM, '^\s*$')"> 
+                  <xsl:comment>No Text to Match Here!</xsl:comment>
+                      <xsl:message>No Text to Match Here!</xsl:message>
+                  </xsl:when>
+                  <xsl:otherwise>
+                      <xsl:comment>All text following LM: <xsl:value-of select="$AllTextFollowingLM"/></xsl:comment>
+                      <xsl:message>All text following LM: <xsl:value-of select="$AllTextFollowingLM"/></xsl:message>
+                      
+                  </xsl:otherwise>
+                  </xsl:choose>           
                     <xsl:variable name="ElemFollowingLM" as="xs:string*">
                         <xsl:analyze-string select="regex-group(4)" regex="&lt;[^&gt;]+&gt;">
                             <xsl:matching-substring>
