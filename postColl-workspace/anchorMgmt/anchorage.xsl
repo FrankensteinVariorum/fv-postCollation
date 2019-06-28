@@ -60,183 +60,180 @@
     -->
     <xsl:template
         match="rdg[@wit = 'fMS'][contains(., '__left_margin')][matches(., '&lt;lb\s+n=&#34;[^&gt;]+?__main__\d+&#34;')]">
-        <rdg wit="@wit">
+        <rdg wit="{@wit}">
             <!--This template matches only on fMS rdg elements that contain both a reference to material in a left margin, AND at least one lb element encoded in the main surface  -->
-                    <xsl:analyze-string select="." regex="^.+?&lt;.+?&gt;.+?$">
-                        <xsl:matching-substring>
-                            <xsl:choose>
-                                <!--Here test for whether the lb in the left margin follows an lb in the main surface or not. If it follows, that's optimal, because it's easier to establish a clear point of departure from a starting point on the main surface, so we set this as our when condition. We'll handle the event of an lb following in the xsl:otherwise condition.  -->
-                                <xsl:when
-                                    test="matches(., '&lt;lb\s+n=&#34;[^&gt;]+?__main__\d+[^&gt;]*?&gt;.*?&lt;lb\s+n=&#34;[^&gt;]+?__left_margin[^&gt;]+?&gt;')">
-                                    <xsl:analyze-string select="."
-                                        regex="&lt;lb\s+n=&#34;[^&gt;]+?__main__\d+&#34;[^&gt;]*?&gt;">
-                                        <xsl:matching-substring>
+            <xsl:analyze-string select="." regex="^.+?&lt;.+?&gt;.+?$">
+                <xsl:matching-substring>
+                    <xsl:choose>
+                        <!--Here test for whether the lb in the left margin follows an lb in the main surface or not. If it follows, that's optimal, because it's easier to establish a clear point of departure from a starting point on the main surface, so we set this as our when condition. We'll handle the event of an lb following in the xsl:otherwise condition.  -->
+                        <xsl:when
+                            test="matches(., '&lt;lb\s+n=&#34;[^&gt;]+?__main__\d+[^&gt;]*?&gt;.*?&lt;lb\s+n=&#34;[^&gt;]+?__left_margin[^&gt;]+?&gt;')">
+                            <xsl:analyze-string select="."
+                                regex="(&lt;lb\s+n=&#34;)([^&gt;]+?)(__main__)(\d+)(&#34;[^&gt;]*?&gt;)(.*?&lt;)(lb\s+n=&#34;[^&gt;]+?__left_margin[^&gt;]+?&gt;)">
+                                <xsl:matching-substring>
 
-                                            <xsl:variable name="mainLineCount" as="xs:double" select="substring-after(., 'main__') ! substring-before(., '&#34;') ! number()"/>
-                                                                                   <xsl:message>The Line Position number is <xsl:value-of
-                                                  select="$mainLineCount"/>.</xsl:message>
-                                            <xsl:variable name="mainSurfaceId" as="xs:string"
-                                                select="substring-after(., 'n=&#34;') ! substring-before(., '__main') ! tokenize(., '__')[1]"/>
-                                            <xsl:message>The Main Surface ID is <xsl:value-of
-                                                  select="$mainSurfaceId"/>.</xsl:message>
-                                            <!--Do the lookup here: -->
-                                            <xsl:variable name="sgaMatchLine" as="element()*"
-                                                select="$sga-mscoll//surface[@xml:id[contains(., $mainSurfaceId)]]//zone[@type = 'main']//line[count(preceding-sibling::line) + 1 = $mainLineCount]"/>
+                                    <xsl:variable name="mainLineCount" as="xs:double">
+                                        <xsl:value-of select="regex-group(4) ! number()"/>
+                                    </xsl:variable>
+                                    <xsl:message>The Line Position number is <xsl:value-of
+                                            select="$mainLineCount"/>.</xsl:message>
+                                    <xsl:variable name="mainSurfaceId" as="xs:string">
+                                     <xsl:value-of select="regex-group(2) ! tokenize(., '__')[1]"/>
+                                    </xsl:variable>
+                                    <xsl:message>The Main Surface ID is <xsl:value-of
+                                            select="$mainSurfaceId"/>.</xsl:message>
+                                    <!--Do the lookup here: -->
+                                    <xsl:variable name="sgaMatchLine" as="element()*"
+                                        select="$sga-mscoll//surface[@xml:id[contains(., $mainSurfaceId)]]//zone[@type = 'main']//line[count(preceding-sibling::line) + 1 = $mainLineCount]"/>
+                                    <xsl:choose>
+                                        <xsl:when
+                                            test="$sgaMatchLine//anchor[@xml:id = following::zone[@type = 'left_margin'][ancestor::surface[contains(@xml:id, $mainSurfaceId)]]/substring-after(@corresp, '#')]">
+                                           
+                                            <!-- copy anchor here -->
+                                            <xsl:message>HOORAY! ANCHOR MATCH!</xsl:message>
+                                         <xsl:value-of select="regex-group(1)"/>
+                                            <xsl:copy-of
+                                                select="$sgaMatchLine//anchor[@xml:id = following::zone[@type = 'left_margin'][ancestor::surface[contains(@xml:id, $mainSurfaceId)]]/substring-after(@corresp, '#')]"/>
+                                            <xsl:value-of select="regex-group(2)"/>
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <!-- <xsl:comment>STILL LOOKING FOR THAT ANCHOR</xsl:comment>
+           <xsl:message>STILL LOOKING FOR THAT ANCHOR</xsl:message>-->
+                                            <!-- DO SOMETHING MORE TO LOOKUP ON PRECEDING / FOLLOWING AXIS UNTIL YOU FIND IT  <xsl:value-of select="."/>-->
                                             <xsl:choose>
                                                 <xsl:when
-                                                  test="$sgaMatchLine//anchor[@xml:id = following::zone[@type = 'left_margin'][ancestor::surface[contains(@xml:id, $mainSurfaceId)]]/substring-after(@corresp, '#')]">
-                                                  <!--  <xsl:value-of select="$textUpToFirstLML"/>-->
-                                                  <!-- copy anchor here -->
-                                                  <xsl:message>HOORAY! ANCHOR MATCH!</xsl:message>
-                                                  <xsl:value-of select="."/>
-                                                  <xsl:copy-of
-                                                  select="$sgaMatchLine//anchor[@xml:id = following::zone[@type = 'left_margin'][ancestor::surface[contains(@xml:id, $mainSurfaceId)]]/substring-after(@corresp, '#')]"/>
-                                                  <!--   <xsl:value-of select="$FirstLMLToEnd"/>-->
-                                                </xsl:when>
-                                                <xsl:otherwise>
-                                                  <!-- <xsl:comment>STILL LOOKING FOR THAT ANCHOR</xsl:comment>
-           <xsl:message>STILL LOOKING FOR THAT ANCHOR</xsl:message>-->
-                                                  <!-- DO SOMETHING MORE TO LOOKUP ON PRECEDING / FOLLOWING AXIS UNTIL YOU FIND IT  <xsl:value-of select="."/>-->
-                                                  <xsl:choose>
-                                                  <xsl:when
                                                   test="$sgaMatchLine[preceding::anchor[@xml:id = following::zone[@type = 'left_margin'][ancestor::surface[contains(@xml:id, $mainSurfaceId)]]/substring-after(@corresp, '#')]]">
                                                   <xsl:message>ANCHOR MATCH ON PRECEDING
                                                   AXIS</xsl:message>
                                                   <xsl:comment>ANCHOR MATCH ON PRECEDING AXIS</xsl:comment>
-                                                  <xsl:value-of select="."/>
+                                                    <xsl:value-of select="regex-group(1)"/>
                                                   <xsl:copy-of
                                                   select="$sgaMatchLine/preceding::anchor[@xml:id = following::zone[@type = 'left_margin'][ancestor::surface[contains(@xml:id, $mainSurfaceId)]]/substring-after(@corresp, '#')][1]"
                                                   />
-                                                  </xsl:when>
-                                                  <xsl:when
+                                                    <xsl:value-of select="regex-group(2)"/>
+                                                </xsl:when>
+                                                <xsl:when
                                                   test="$sgaMatchLine[following::anchor[@xml:id = following::zone[@type = 'left_margin'][ancestor::surface[contains(@xml:id, $mainSurfaceId)]]/substring-after(@corresp, '#')]][1]">
                                                   <xsl:message>ANCHOR MATCH ON FOLLOWING
                                                   AXIS</xsl:message>
                                                   <xsl:comment>ANCHOR MATCH ON FOLLOWING AXIS</xsl:comment>
-                                                  <xsl:value-of select="."/>
+                                                    <xsl:value-of select="regex-group(1)"/>
                                                   <xsl:copy-of
                                                   select="$sgaMatchLine/following::anchor[@xml:id = following::zone[@type = 'left_margin'][ancestor::surface[contains(@xml:id, $mainSurfaceId)]]/substring-after(@corresp, '#')][1]"
                                                   />
-                                                  </xsl:when>
-                                                  <xsl:when
+                                                    <xsl:value-of select="regex-group(2)"/>
+                                                </xsl:when>
+                                                <xsl:when
                                                   test="$sgaMatchLine/ancestor::*[ancestor::surface[contains(@xml:id, $mainSurfaceId)]]//anchor[@xml:id = following::zone[@type = 'left_margin'][ancestor::surface[contains(@xml:id, $mainSurfaceId)]]/substring-after(@corresp, '#')][1]">
                                                   <xsl:message>ANCHOR MATCH from ANCESTOR AXIS
                                                   AXIS</xsl:message>
                                                   <xsl:comment>ANCHOR MATCH from ANCESTOR AXIS</xsl:comment>
-                                                  <xsl:value-of select="."/>
+                                                    <xsl:value-of select="regex-group(1)"/>
                                                   <xsl:copy-of
                                                   select="$sgaMatchLine/ancestor::*[ancestor::surface[contains(@xml:id, $mainSurfaceId)]]//anchor[@xml:id = following::zone[@type = 'left_margin'][ancestor::surface[contains(@xml:id, $mainSurfaceId)]]/substring-after(@corresp, '#')][1]"
                                                   />
-                                                  </xsl:when>
-                                                  <xsl:otherwise>
+                                                    <xsl:value-of select="regex-group(2)"/>
+                                                </xsl:when>
+                                                <xsl:otherwise>
                                                   <xsl:message>TOO BAD: NEVER FOUND THAT
                                                   ANCHOR!</xsl:message>
                                                   <xsl:comment>TOO BAD: NEVER FOUND THAT ANCHOR!</xsl:comment>
-                                                  </xsl:otherwise>
-                                                  </xsl:choose>
                                                 </xsl:otherwise>
-
                                             </xsl:choose>
-                                        </xsl:matching-substring>
-                                        <xsl:non-matching-substring>
-                                            <xsl:value-of select="."/>
-                                        </xsl:non-matching-substring>
-                                    </xsl:analyze-string>
-                                </xsl:when>
+                                        </xsl:otherwise>
 
-                                <xsl:otherwise>
-                                    <!-- Here we by default will be responding to the presence of an lb in the main surface coming AFTER an lb in the left margin. This is a little tricky, because we want to position the anchor element just before the left-margin lb element, even though the main text reference that helps us find the point of departure is coming after the reference to the left-margin lb. -->
-                                    <xsl:analyze-string select="."
-                                        regex="&lt;lb\s+n=&#34;[^&gt;]+?__left_margin[^&gt;]+?&gt;.*?&lt;lb\s+n=&#34;[^&gt;]+?__main__\d+[^&gt;]*?&gt;">
-                                        
-                                        <xsl:matching-substring>
-                                            <xsl:variable name="mainLineCount" as="xs:double">
-                                                <xsl:analyze-string select="." regex="main__\d+">
-                                                    <xsl:matching-substring>
-                                                        <xsl:value-of select="substring-after(., 'main__') ! number()"/>
-                                                    </xsl:matching-substring>
-                                                </xsl:analyze-string>
-                                            </xsl:variable>           
-                                       
-                                            <xsl:message>The Line Position number is <xsl:value-of
-                                                select="$mainLineCount"/>.</xsl:message>
-                                            <xsl:variable name="mainSurfaceId" as="xs:string">
-                                                <xsl:analyze-string select="." regex="lb\s+n=&#34;[^&gt;]+?__main__\d+&#34;[^&gt;]*?&gt;">
-                                                    <xsl:matching-substring>
-                                                        <xsl:value-of select="substring-after(., 'n=&#34;') ! substring-before(., '__main') ! tokenize(., '__')[1]"/>
-                                                    </xsl:matching-substring>
-                                                </xsl:analyze-string> 
-                                            </xsl:variable>
-                                            <xsl:message>The Main Surface ID is <xsl:value-of
-                                                select="$mainSurfaceId"/>.</xsl:message>
-                                            <!--Do the lookup here: -->
-                                            <xsl:variable name="sgaMatchLine" as="element()*"
-                                                select="$sga-mscoll//surface[@xml:id[contains(., $mainSurfaceId)]]//zone[@type = 'main']//line[count(preceding-sibling::line) + 1 = $mainLineCount]"/>
+                                    </xsl:choose>
+                                </xsl:matching-substring>
+                                <xsl:non-matching-substring>
+                                    <xsl:value-of select="."/>
+                                </xsl:non-matching-substring>
+                            </xsl:analyze-string>
+                        </xsl:when>
+
+                        <xsl:otherwise>
+                            <!-- Here we by default will be responding to the presence of an lb in the main surface coming AFTER an lb in the left margin. This is a little tricky, because we want to position the anchor element just before the left-margin lb element, even though the main text reference that helps us find the point of departure is coming after the reference to the left-margin lb. -->
+                            <xsl:analyze-string select="."
+                                regex="&lt;lb\s+n=&#34;[^&gt;]+?__left_margin[^&gt;]+?&gt;.*?&lt;lb\s+n=&#34;([^&gt;]+?)__main__(\d+)[^&gt;]*?&gt;">
+
+                                <xsl:matching-substring>
+                                    <xsl:variable name="mainLineCount" as="xs:double">
+                                        <xsl:value-of select="regex-group(2) ! number()"/>
+                                    </xsl:variable>
+
+                                    <xsl:message>The Line Position number is <xsl:value-of
+                                            select="$mainLineCount"/>.</xsl:message>
+                                    <xsl:variable name="mainSurfaceId" as="xs:string">
+                                       <xsl:value-of select="regex-group(1) ! tokenize(., '__')[1]"/>
+                                    </xsl:variable>
+                                    <xsl:message>The Main Surface ID is <xsl:value-of
+                                            select="$mainSurfaceId"/>.</xsl:message>
+                                    <!--Do the lookup here: -->
+                                    <xsl:variable name="sgaMatchLine" as="element()*"
+                                        select="$sga-mscoll//surface[@xml:id[contains(., $mainSurfaceId)]]//zone[@type = 'main']//line[count(preceding-sibling::line) + 1 = $mainLineCount]"/>
+                                    <xsl:choose>
+                                        <xsl:when
+                                            test="$sgaMatchLine//anchor[@xml:id = following::zone[@type = 'left_margin'][ancestor::surface[contains(@xml:id, $mainSurfaceId)]]/substring-after(@corresp, '#')]">
+                                            <!--  <xsl:value-of select="$textUpToFirstLML"/>-->
+                                            <!-- copy anchor here -->
+                                            <xsl:message>HOORAY! ANCHOR MATCH!</xsl:message>
+                                            <xsl:copy-of
+                                                select="$sgaMatchLine//anchor[@xml:id = following::zone[@type = 'left_margin'][ancestor::surface[contains(@xml:id, $mainSurfaceId)]]/substring-after(@corresp, '#')]"/>
+                                            <xsl:value-of select="."/>
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <!-- <xsl:comment>STILL LOOKING FOR THAT ANCHOR</xsl:comment>
+           <xsl:message>STILL LOOKING FOR THAT ANCHOR</xsl:message>-->
+                                            <!-- DO SOMETHING MORE TO LOOKUP ON PRECEDING / FOLLOWING AXIS UNTIL YOU FIND IT  <xsl:value-of select="."/>-->
                                             <xsl:choose>
                                                 <xsl:when
-                                                    test="$sgaMatchLine//anchor[@xml:id = following::zone[@type = 'left_margin'][ancestor::surface[contains(@xml:id, $mainSurfaceId)]]/substring-after(@corresp, '#')]">
-                                                    <!--  <xsl:value-of select="$textUpToFirstLML"/>-->
-                                                    <!-- copy anchor here -->
-                                                    <xsl:message>HOORAY! ANCHOR MATCH!</xsl:message>                          
-                                                    <xsl:copy-of
-                                                        select="$sgaMatchLine//anchor[@xml:id = following::zone[@type = 'left_margin'][ancestor::surface[contains(@xml:id, $mainSurfaceId)]]/substring-after(@corresp, '#')]"/>
-                                               <xsl:value-of select="."/>
+                                                  test="$sgaMatchLine[preceding::anchor[@xml:id = following::zone[@type = 'left_margin'][ancestor::surface[contains(@xml:id, $mainSurfaceId)]]/substring-after(@corresp, '#')]]">
+                                                  <xsl:message>ANCHOR MATCH ON PRECEDING
+                                                  AXIS</xsl:message>
+                                                  <xsl:comment>ANCHOR MATCH ON PRECEDING AXIS</xsl:comment>
+                                                  <xsl:copy-of
+                                                  select="$sgaMatchLine/preceding::anchor[@xml:id = following::zone[@type = 'left_margin'][ancestor::surface[contains(@xml:id, $mainSurfaceId)]]/substring-after(@corresp, '#')][1]"/>
+                                                  <xsl:value-of select="."/>
+                                                </xsl:when>
+                                                <xsl:when
+                                                  test="$sgaMatchLine[following::anchor[@xml:id = following::zone[@type = 'left_margin'][ancestor::surface[contains(@xml:id, $mainSurfaceId)]]/substring-after(@corresp, '#')]][1]">
+                                                  <xsl:message>ANCHOR MATCH ON FOLLOWING
+                                                  AXIS</xsl:message>
+                                                  <xsl:comment>ANCHOR MATCH ON FOLLOWING AXIS</xsl:comment>
+                                                  <xsl:copy-of
+                                                  select="$sgaMatchLine/following::anchor[@xml:id = following::zone[@type = 'left_margin'][ancestor::surface[contains(@xml:id, $mainSurfaceId)]]/substring-after(@corresp, '#')][1]"/>
+                                                  <xsl:value-of select="."/>
+                                                </xsl:when>
+                                                <xsl:when
+                                                  test="$sgaMatchLine/ancestor::*[ancestor::surface[contains(@xml:id, $mainSurfaceId)]]//anchor[@xml:id = following::zone[@type = 'left_margin'][ancestor::surface[contains(@xml:id, $mainSurfaceId)]]/substring-after(@corresp, '#')][1]">
+                                                  <xsl:message>ANCHOR MATCH from ANCESTOR AXIS
+                                                  AXIS</xsl:message>
+                                                  <xsl:comment>ANCHOR MATCH from ANCESTOR AXIS</xsl:comment>
+                                                  <xsl:copy-of
+                                                  select="$sgaMatchLine/ancestor::*[ancestor::surface[contains(@xml:id, $mainSurfaceId)]]//anchor[@xml:id = following::zone[@type = 'left_margin'][ancestor::surface[contains(@xml:id, $mainSurfaceId)]]/substring-after(@corresp, '#')][1]"/>
+                                                  <xsl:value-of select="."/>
                                                 </xsl:when>
                                                 <xsl:otherwise>
-                                                    <!-- <xsl:comment>STILL LOOKING FOR THAT ANCHOR</xsl:comment>
-           <xsl:message>STILL LOOKING FOR THAT ANCHOR</xsl:message>-->
-                                                    <!-- DO SOMETHING MORE TO LOOKUP ON PRECEDING / FOLLOWING AXIS UNTIL YOU FIND IT  <xsl:value-of select="."/>-->
-                                                    <xsl:choose>
-                                                        <xsl:when
-                                                            test="$sgaMatchLine[preceding::anchor[@xml:id = following::zone[@type = 'left_margin'][ancestor::surface[contains(@xml:id, $mainSurfaceId)]]/substring-after(@corresp, '#')]]">
-                                                           <xsl:message>ANCHOR MATCH ON PRECEDING AXIS</xsl:message>
-                                                            <xsl:comment>ANCHOR MATCH ON PRECEDING AXIS</xsl:comment>
-                                                            <xsl:copy-of
-                                                                select="$sgaMatchLine/preceding::anchor[@xml:id = following::zone[@type = 'left_margin'][ancestor::surface[contains(@xml:id, $mainSurfaceId)]]/substring-after(@corresp, '#')][1]"
-                                                            />
-                                                            <xsl:value-of select="."/>
-                                                        </xsl:when>
-                                                        <xsl:when
-                                                            test="$sgaMatchLine[following::anchor[@xml:id = following::zone[@type = 'left_margin'][ancestor::surface[contains(@xml:id, $mainSurfaceId)]]/substring-after(@corresp, '#')]][1]">
-                                                            <xsl:message>ANCHOR MATCH ON FOLLOWING
-                                                                AXIS</xsl:message>
-                                                            <xsl:comment>ANCHOR MATCH ON FOLLOWING AXIS</xsl:comment>
-                                                            <xsl:copy-of
-                                                                select="$sgaMatchLine/following::anchor[@xml:id = following::zone[@type = 'left_margin'][ancestor::surface[contains(@xml:id, $mainSurfaceId)]]/substring-after(@corresp, '#')][1]"
-                                                            />
-                                                            <xsl:value-of select="."/>
-                                                        </xsl:when>
-                                                        <xsl:when
-                                                            test="$sgaMatchLine/ancestor::*[ancestor::surface[contains(@xml:id, $mainSurfaceId)]]//anchor[@xml:id = following::zone[@type = 'left_margin'][ancestor::surface[contains(@xml:id, $mainSurfaceId)]]/substring-after(@corresp, '#')][1]">
-                                                            <xsl:message>ANCHOR MATCH from ANCESTOR AXIS
-                                                                AXIS</xsl:message>
-                                                            <xsl:comment>ANCHOR MATCH from ANCESTOR AXIS</xsl:comment>
-                                                            <xsl:copy-of
-                                                                select="$sgaMatchLine/ancestor::*[ancestor::surface[contains(@xml:id, $mainSurfaceId)]]//anchor[@xml:id = following::zone[@type = 'left_margin'][ancestor::surface[contains(@xml:id, $mainSurfaceId)]]/substring-after(@corresp, '#')][1]"
-                                                            />
-                                                            <xsl:value-of select="."/>
-                                                        </xsl:when>
-                                                        <xsl:otherwise>
-                                                            <xsl:message>TOO BAD: NEVER FOUND THAT ANCHOR! (in lb-main follows after test)</xsl:message>
-                                                            <xsl:comment>TOO BAD: NEVER FOUND THAT ANCHOR!(in lb-main follows after test)</xsl:comment>
-                                                            <xsl:value-of select="."/>
-                                                        </xsl:otherwise>
-                                                    </xsl:choose>
+                                                  <xsl:message>TOO BAD: NEVER FOUND THAT ANCHOR! (in
+                                                  lb-main follows after test)</xsl:message>
+                                                  <xsl:comment>TOO BAD: NEVER FOUND THAT ANCHOR!(in lb-main follows after test)</xsl:comment>
+                                                  <xsl:value-of select="."/>
                                                 </xsl:otherwise>
-                                                
                                             </xsl:choose>
-                                        </xsl:matching-substring>
-                                        <xsl:non-matching-substring>
-                                            <xsl:value-of select="."/>
-                                        </xsl:non-matching-substring>
-                                    </xsl:analyze-string>
-                                </xsl:otherwise>
-                            </xsl:choose>
-                        </xsl:matching-substring>
-                        <xsl:non-matching-substring>
-                            <xsl:value-of select="."/>
-                        </xsl:non-matching-substring>
-                    </xsl:analyze-string>
+                                        </xsl:otherwise>
+
+                                    </xsl:choose>
+                                </xsl:matching-substring>
+                                <xsl:non-matching-substring>
+                                    <xsl:value-of select="."/>
+                                </xsl:non-matching-substring>
+                            </xsl:analyze-string>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:matching-substring>
+                <xsl:non-matching-substring>
+                    <xsl:value-of select="."/>
+                </xsl:non-matching-substring>
+            </xsl:analyze-string>
         </rdg>
     </xsl:template>
 </xsl:stylesheet>
