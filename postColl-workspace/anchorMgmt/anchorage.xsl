@@ -239,7 +239,7 @@
    <xsl:template match="rdg[@wit = 'fMS'][contains(., '__left_margin')][not(matches(., '&lt;lb\s+n=&#34;[^&gt;]+?__main__\d+&#34;'))]">
        <!--This template finds fMS <rdg> elements with left_margin content that is not associated with any main surface referencing. -->
         <rdg wit="{@wit}">
-            <xsl:analyze-string select="." regex="^.*&lt;lb\s+n=&#34;([^&gt;&#34;]+?)__left_margin__\d+&#34;[^&gt;]*?&gt;.*?(&lt;[^&gt;]+?&gt;)*([^&lt;^&gt;]*)(.*?)$">
+            <xsl:analyze-string select="." regex="&lt;lb\s+n=&#34;([^&gt;&#34;]+?)__left_margin__\d+&#34;[^&gt;]*?&gt;(&lt;[^&gt;]+?&gt;)*([^&lt;^&gt;]*)">
                 <xsl:matching-substring>
              <xsl:variable name="mainSurfaceId" as="xs:string" select="regex-group(1) ! tokenize(., '__')[1]"/>
                     <xsl:comment>No clear signals of Main line:
@@ -247,14 +247,14 @@
                     <xsl:message>No clear signals of Main line:
                         Surface ID here is <xsl:value-of select="$mainSurfaceId"/></xsl:message>
                     <xsl:variable name="textFollowingLM" as="xs:string+" select="string-join(regex-group(3) ! normalize-space(), ' ')"/>
-                 <xsl:variable name="moreTextFollowingLM" as="xs:string*">
+                 <!--<xsl:variable name="moreTextFollowingLM" as="xs:string*">
                      <xsl:analyze-string select="regex-group(4)" regex="(&lt;[^&gt;]+&gt;)*([^&gt;&lt;]*?)">
                          <xsl:matching-substring>
                              <xsl:value-of select="string-join(regex-group(2) ! normalize-space(), ' ')"/>
                          </xsl:matching-substring>
                      </xsl:analyze-string>
-                 </xsl:variable>  
-                    <xsl:variable name="AllTextFollowingLM" select="concat(string-join($textFollowingLM, ' '), ' ', string-join($moreTextFollowingLM, ' '))"/>
+                 </xsl:variable>  -->
+                <xsl:variable name="AllTextFollowingLM" select="string-join($textFollowingLM, ' ')"/>-->
                     <xsl:comment>All text following LM: <xsl:value-of select="$AllTextFollowingLM"/></xsl:comment>
                     <xsl:message>All text following LM: <xsl:value-of select="$AllTextFollowingLM"/></xsl:message>                   
                     <xsl:variable name="ElemFollowingLM" as="xs:string*">
