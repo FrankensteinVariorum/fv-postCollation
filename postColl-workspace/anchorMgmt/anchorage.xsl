@@ -62,7 +62,7 @@
         match="rdg[@wit = 'fMS'][contains(., '__left_margin')][matches(., '&lt;lb\s+n=&#34;[^&gt;]+?__main__\d+&#34;')]">
         <rdg wit="{@wit}">
             <!--This template matches only on fMS rdg elements that contain both a reference to material in a left margin, AND at least one lb element encoded in the main surface  -->
-            <xsl:analyze-string select="." regex="^.+?&lt;.+?&gt;.+?$">
+            <xsl:analyze-string select="." regex="^.*?&lt;.+?&gt;.*?$">
                 <xsl:matching-substring>
                     <xsl:choose>
                         <!--Here test for whether the lb in the left margin follows an lb in the main surface or not. If it follows, that's optimal, because it's easier to establish a clear point of departure from a starting point on the main surface, so we set this as our when condition. We'll handle the event of an lb following in the xsl:otherwise condition.  -->
@@ -229,6 +229,20 @@
                             </xsl:analyze-string>
                         </xsl:otherwise>
                     </xsl:choose>
+                </xsl:matching-substring>
+                <xsl:non-matching-substring>
+                    <xsl:value-of select="."/>
+                </xsl:non-matching-substring>
+            </xsl:analyze-string>
+        </rdg>
+    </xsl:template>
+   <xsl:template match="rdg[@wit = 'fMS'][contains(., '__left_margin')][not(matches(., '&lt;lb\s+n=&#34;[^&gt;]+?__main__\d+&#34;'))]">
+       <!-\-This template finds fMS <rdg> elements with left_margin content that is not associated with any main surface referencing. -\->
+        <rdg wit="{@wit}">
+            <xsl:analyze-string select="." regex="^.*&lt;lb\s+n=&#34;([^&gt;&#34;]+?)__left_margin__\d+&#34;[^&gt;]*+?&gt;.*(&lt;[^&gt;]+?&gt;)*([^&lt;^&gt;]*).*?$">
+                <xsl:matching-substring>
+                  
+                    
                 </xsl:matching-substring>
                 <xsl:non-matching-substring>
                     <xsl:value-of select="."/>
