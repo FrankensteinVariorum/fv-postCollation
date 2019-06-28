@@ -62,7 +62,7 @@
         match="rdg[@wit = 'fMS'][contains(., '__left_margin')][matches(., '&lt;lb\s+n=&#34;[^&gt;]+?__main__\d+&#34;')]">
         <rdg wit="{@wit}">
             <!--This template matches only on fMS rdg elements that contain both a reference to material in a left margin, AND at least one lb element encoded in the main surface  -->
-            <xsl:analyze-string select="." regex="^.+?&lt;.+?&gt;.+?$">
+            <xsl:analyze-string select="." regex="^.*?&lt;.+?&gt;.*?$">
                 <xsl:matching-substring>
                     <xsl:choose>
                         <!--Here test for whether the lb in the left margin follows an lb in the main surface or not. If it follows, that's optimal, because it's easier to establish a clear point of departure from a starting point on the main surface, so we set this as our when condition. We'll handle the event of an lb following in the xsl:otherwise condition.  -->
@@ -229,6 +229,54 @@
                             </xsl:analyze-string>
                         </xsl:otherwise>
                     </xsl:choose>
+                </xsl:matching-substring>
+                <xsl:non-matching-substring>
+                    <xsl:value-of select="."/>
+                </xsl:non-matching-substring>
+            </xsl:analyze-string>
+        </rdg>
+    </xsl:template>
+   <xsl:template match="rdg[@wit = 'fMS'][contains(., '__left_margin')][not(matches(., '&lt;lb\s+n=&#34;[^&gt;]+?__main__\d+&#34;'))]">
+       <!--This template finds fMS <rdg> elements with left_margin content that is not associated with any main surface referencing. -->
+        <rdg wit="{@wit}">
+            <xsl:analyze-string select="." regex="&lt;lb\s+n=&#34;([^&gt;&#34;]+?)__left_margin__\d+&#34;[^&gt;]*?&gt;(&lt;[^&gt;]+?&gt;)*([^&lt;^&gt;]*)">
+                <xsl:matching-substring>
+             <xsl:variable name="mainSurfaceId" as="xs:string" select="regex-group(1) ! tokenize(., '__')[1]"/>
+                    <xsl:comment>No clear signals of Main line:
+                        Surface ID here is <xsl:value-of select="$mainSurfaceId"/></xsl:comment>
+                    <xsl:message>No clear signals of Main line:
+                        Surface ID here is <xsl:value-of select="$mainSurfaceId"/></xsl:message>
+                    <xsl:variable name="textFollowingLM" as="xs:string+" select="string-join(regex-group(3) ! normalize-space(), ' ')"/>
+                 <!--<xsl:variable name="moreTextFollowingLM" as="xs:string*">
+                     <xsl:analyze-string select="regex-group(4)" regex="(&lt;[^&gt;]+&gt;)*([^&gt;&lt;]*?)">
+                         <xsl:matching-substring>
+                             <xsl:value-of select="string-join(regex-group(2) ! normalize-space(), ' ')"/>
+                         </xsl:matching-substring>
+                     </xsl:analyze-string>
+                 </xsl:variable>  -->
+                <xsl:variable name="AllTextFollowingLM" select="string-join($textFollowingLM, ' ')"/>
+                    <xsl:choose><xsl:when test="matches($AllTextFollowingLM, '^\s*$')"> 
+                  <xsl:comment>No Text to Match Here!</xsl:comment>
+                      <xsl:message>No Text to Match Here!</xsl:message>
+                  </xsl:when>
+                  <xsl:otherwise>
+                      <xsl:comment>All text following LM: <xsl:value-of select="$AllTextFollowingLM"/></xsl:comment>
+                      <xsl:message>All text following LM: <xsl:value-of select="$AllTextFollowingLM"/></xsl:message>
+                      
+                  </xsl:otherwise>
+                  </xsl:choose>           
+                    <xsl:variable name="ElemFollowingLM" as="xs:string*">
+                        <xsl:analyze-string select="regex-group(4)" regex="&lt;[^&gt;]+&gt;">
+                            <xsl:matching-substring>
+                                <xsl:value-of select="."/>
+                            </xsl:matching-substring>
+                        </xsl:analyze-string>
+                    </xsl:variable>
+                   <xsl:if test="count($ElemFollowingLM) gt 0"> <xsl:comment>Element(s) following LM: <xsl:value-of select="$ElemFollowingLM"/></xsl:comment>
+                    <xsl:message>Element(s) following LM: <xsl:value-of select="$ElemFollowingLM"/></xsl:message>
+                   </xsl:if>
+   
+                <xsl:value-of select="."/>
                 </xsl:matching-substring>
                 <xsl:non-matching-substring>
                     <xsl:value-of select="."/>
