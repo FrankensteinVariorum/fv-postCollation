@@ -5,13 +5,14 @@
     exclude-result-prefixes="xs"
     version="3.0">
     
+    <xsl:mode on-no-match="shallow-copy"/>
     <!-- Run this with Saxon at command line update the original SGA files for the Variorum, using:
     java -jar saxon.jar -s:/sga-variorum-chunks -xsl:addNSPrefixtoSGAChunks.xsl -o:P5-output/ -->
     <xsl:template match="/*">
         <xsl:element name="{local-name()}" namespace="http://www.tei-c.org/ns/1.0">
             <xsl:copy-of select="@* | namespace-node()"/>
             <xsl:namespace name="tei" select="'http://www.tei-c.org/ns/1.0'"/>
-            <xsl:apply-templates select="node()[1]" mode="raising"/>
+            <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
     
