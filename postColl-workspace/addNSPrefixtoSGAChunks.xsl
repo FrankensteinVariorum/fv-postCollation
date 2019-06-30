@@ -6,7 +6,8 @@
     version="3.0">
     
     <xsl:mode on-no-match="shallow-copy"/>
-    <!-- Run this with Saxon at command line update the original SGA files for the Variorum, using:
+    <!--2019-06-30 ebb: This Stylesheet was made to patch in a new prefixed namespace line to the S-GA files in the repo.
+        Run this with Saxon at command line update the original SGA files for the Variorum, using:
     java -jar saxon.jar -s:/sga-variorum-chunks -xsl:addNSPrefixtoSGAChunks.xsl -o:P5-output/ -->
     <xsl:template match="/*">
         <xsl:element name="{local-name()}" namespace="http://www.tei-c.org/ns/1.0">
