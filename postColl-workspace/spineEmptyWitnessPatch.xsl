@@ -16,7 +16,17 @@
          <xsl:apply-templates/>
      </xsl:result-document>    
    </xsl:for-each>  
- </xsl:template>  
+ </xsl:template> 
+    <!-- ebb: The template below revises the max edit-distance value stored in @n 
+        and sets it to zero on apps containing a rdgGrp with an empty witness
+    and where the count of rdgGrp is only 2 
+    (meaning the empty rdgGrp and ALL the other witnesses are in unison.)
+    -->
+    <xsl:template match="app[rdgGrp[@n/string-length() eq 4]][count(rdgGrp) eq 2][count(descendant::rdg) eq 5]">
+        <app xml:id='{@xml:id}' n="0">
+            <xsl:apply-templates/>
+        </app>
+    </xsl:template>
     <xsl:variable name="emptyString" as="xs:string" select="'[&#39;&#39;]'"/>
     <xsl:template match="rdgGrp[@n/string-length() eq 4]/rdg">
         <xsl:copy select=".">
