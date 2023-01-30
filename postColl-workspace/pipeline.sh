@@ -57,8 +57,9 @@ postProcessColl(){
   #"edit-distance/extractCollationData.xsl"
   )
   pipelineArr=("collated-data" "P1-output" "P2-output" "P3-output" "P3.5-output" "P4-output"
-  "preP5a-output" "preP5b-output" "preP5c-output" "preP5d-output" "P5-output"
-  "subchunked_standoff_Spine" "preLev_standoff_Spine" "edit-distance/spineData.txt")
+  "preP5a-output" "preP5b-output" "preP5c-output" "preP5d-output" #"P5-output"
+  #"subchunked_standoff_Spine" "preLev_standoff_Spine" "edit-distance/spineData.txt"
+  )
 
   for (( i=0; i < ${#xslArr[@]}; i++ ))
   do
