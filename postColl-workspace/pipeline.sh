@@ -67,7 +67,9 @@ postProcessColl(){
     java -jar $SAXON -xsl:${xslArr[$i]} -s:collated-data/collation_C01.xml -t
   done
 
-  java -jar $SAXON -s:preP5d-output/ -xsl:P5-Pt5raiseSegElems.xsl -o:P5-output -t
+  echo -e "${Yellow}Run P5-Pt5raiseSegElems.xsl${resetColor}"
+  echo -e "${Yellow}input: preP5d-output, output: P5-output${resetColor}"
+  java -jar $SAXON -s:preP5d-output -xsl:P5-Pt5raiseSegElems.xsl -o:P5-output -t
   java -jar $SAXON -s:P1-output/ -xsl:P5_SpineGenerator.xsl -o:subchunked_standoff_Spine -t
 
   for xml in subchunked_standoff_Spine/*.xml
@@ -96,9 +98,13 @@ postProcessColl(){
   fileExist FV_LevDists-weighted.xml
   cd ..
   echo -e "${Yellow}Run spine_addLevWeights.xsl${resetColor}"
+  echo -e "${Yellow}input: preLev_standoff_Spine, output: standoff_Spine${resetColor}"
   java -jar $SAXON -xsl:spine_addLevWeights.xsl -s:preLev_standoff_Spine -o:. -t
-  java -jar $SAXON -xsl:spineEmptyWitnessPatch.xsl -s:standoff_Spine -o:. -t
+#  echo -e "${Yellow}Run spineEmptyWitnessPatch.xsl${resetColor}"
+#  echo -e "${Yellow}input: standoff_Spine, output: fv-data/standoff_Spine${resetColor}"
+#  java -jar $SAXON -xsl:spineEmptyWitnessPatch.xsl -s:standoff_Spine -o:. -t
   echo -e "${Yellow}Trimming White Space${resetColor}"
+  echo -e "${Yellow}input: P5-output, output: P5-trimmedWS${resetColor}"
   java -jar saxon.jar -s:P5-output -xsl:whiteSpaceReducer.xsl -o:P5-trimmedWS -t
 #  echo -e "${Yellow}Packaging collated edition files${resetColor}"
 #  ./migrateP5msColl.sh
