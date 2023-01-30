@@ -100,9 +100,9 @@ postProcessColl(){
   java -jar $SAXON -xsl:spineEmptyWitnessPatch.xsl -s:standoff_Spine -o:. -t
   echo -e "${Yellow}Trimming White Space${resetColor}"
   java -jar saxon.jar -s:P5-output -xsl:whiteSpaceReducer.xsl -o:P5-trimmedWS -t
-  echo -e "${Yellow}Packaging collated edition files${resetColor}"
-  ./migrateP5msColl.sh
-  ./migrateP5msColl-tws.sh
+#  echo -e "${Yellow}Packaging collated edition files${resetColor}"
+#  ./migrateP5msColl.sh
+#  ./migrateP5msColl-tws.sh
 }
 
 
