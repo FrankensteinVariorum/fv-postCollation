@@ -94,6 +94,7 @@ postProcessColl(){
   fileExist spineData-ascii.txt
 
   echo -e "${Yellow}Run python LevenCalc_toXML.py${resetColor}"
+  rm FV_LevDists-weighted.xml
   python3 LevenCalc_toXML.py
   fileExist FV_LevDists-weighted.xml
   cd ..
