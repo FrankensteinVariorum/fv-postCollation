@@ -45,7 +45,7 @@ postProcessColl(){
   xslArr=("P1-bridgeEditionConstructor.xsl"
   "P2-bridgeEditionConstructor.xsl"
   "P3-bridgeEditionConstructor.xsl"
-  "P3.5-bridgeEditionConstructor.xsl"
+   "P3.5-bridgeEditionConstructor.xsl"
   "P4Sax-raiseBridgeElems.xsl" # 5
   "P5-Pt1-SegTrojans.xsl"
   "P5-Pt2PlantFragSegMarkers.xsl"
@@ -56,8 +56,8 @@ postProcessColl(){
   #"spineAdjustor.xsl"
   #"edit-distance/extractCollationData.xsl"
   )
-  pipelineArr=("collated-data" "P1-output" "P2-output" "P3-output" "P3.5-output" "P4-output"
-  "preP5a-output" "preP5b-output" "preP5c-output" "preP5d-output" #"P5-output"
+  pipelineArr=("collated-data" "P1-output" "P2-output" "P3-output" "P3.5-output"
+  "P4-output" "preP5a-output" "preP5b-output" "preP5c-output" "preP5d-output" #"P5-output"
   #"subchunked_standoff_Spine" "preLev_standoff_Spine" "edit-distance/spineData.txt"
   )
 
