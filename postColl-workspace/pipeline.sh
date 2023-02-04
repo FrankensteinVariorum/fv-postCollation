@@ -13,14 +13,14 @@ checkInput(){
   do
     if ! [[ "$chunk" =~ $isInt ]]; then
       echo -e "${Red}Invalid input! Your input not a whole number.${resetColor}"
-    elif [ $chunk -lt 1 ]; then
+    elif [ "$chunk" -lt 1 ]; then
       echo -e "${Red}Invalid input! Your input is less than 1. ${resetColor}"
-    elif [ $chunk -gt 33 ]; then
+    elif [ "$chunk" -gt 33 ]; then
       echo -e "${Red}Invalid input! Your input is larger than 33. ${resetColor}"
     fi
     read -p "Please input a whole number between 1 and 33: " chunk
   done
-  return $chunk
+  return "$chunk"
 }
 getChunk(){
   chunk=$1
@@ -45,7 +45,7 @@ postProcessColl(){
   xslArr=("P1-bridgeEditionConstructor.xsl"
   "P2-bridgeEditionConstructor.xsl"
   "P3-bridgeEditionConstructor.xsl"
-   "P3.5-bridgeEditionConstructor.xsl"
+#  "P3.5-bridgeEditionConstructor.xsl"
   "P4Sax-raiseBridgeElems.xsl" # 5
   "P5-Pt1-SegTrojans.xsl"
   "P5-Pt2PlantFragSegMarkers.xsl"
@@ -56,16 +56,31 @@ postProcessColl(){
   #"spineAdjustor.xsl"
   #"edit-distance/extractCollationData.xsl"
   )
-  pipelineArr=("collated-data" "P1-output" "P2-output" "P3-output" "P3.5-output"
+  pipelineArr=("collated-data" "P1-output" "P2-output" "P3-output" # "P3.5-output"
   "P4-output" "preP5a-output" "preP5b-output" "preP5c-output" "preP5d-output" #"P5-output"
   #"subchunked_standoff_Spine" "preLev_standoff_Spine" "edit-distance/spineData.txt"
   )
+  allArr=("collated-data" "P1-output" "P2-output" "P3-output" "P3.5-output"
+  "P4-output" "preP5a-output" "preP5b-output" "preP5c-output" "preP5d-output" "P5-output"
+  "subchunked_standoff_Spine" "preLev_standoff_Spine"# "edit-distance/spineData.txt"
+  )
 
+  # reset output folders
+  for (( i=1; i < ${#allArr[@]}; i++ ))
+  do
+    rm -r "${allArr[$i]}"
+  done
+  for (( i=1; i < ${#allArr[@]}; i++ ))
+  do
+    mkdir "${allArr[$i]}"
+  done
+
+  # start processing
   for (( i=0; i < ${#xslArr[@]}; i++ ))
   do
     echo -e "${Yellow}Run ${xslArr[i]}${resetColor}"
     echo -e "${Yellow}input: ${pipelineArr[$i]}, output: ${pipelineArr[$i+1]}${resetColor}"
-    java -jar $SAXON -xsl:${xslArr[$i]} -s:collated-data/collation_C01.xml -t
+    java -jar $SAXON -xsl:"${xslArr[$i]}" -s:"${xslArr[0]}" -t
   done
 
   echo -e "${Yellow}Run P5-Pt5raiseSegElems.xsl${resetColor}"
@@ -75,7 +90,7 @@ postProcessColl(){
 
   for xml in subchunked_standoff_Spine/*.xml
   do
-    mv $xml ${xml/P1_/spine_}
+    mv "$xml" "${xml/P1_/spine_}"
   done
 
   echo -e "${Yellow}Phase 6: Prepare the “spine” of the variorum${resetColor}"
@@ -84,7 +99,7 @@ postProcessColl(){
 
   echo -e "${Yellow}Run extractCollationData.xsl in edit-distance${resetColor}"
   echo -e "${Yellow}input: preLev_standoff_Spine, output: edit-distance/spineData.txt${resetColor}"
-  cd edit-distance
+  cd edit-distance || exit
   rm spineData.txt
   java -jar ../$SAXON -s:extractCollationData.xsl -xsl:extractCollationData.xsl -o:spineData.txt -t
   fileExist spineData.txt
@@ -98,6 +113,7 @@ postProcessColl(){
   rm FV_LevDists-weighted.xml
   python3 LevenCalc_toXML.py
   fileExist FV_LevDists-weighted.xml
+  # shellcheck disable=SC2103
   cd ..
   echo -e "${Yellow}Run spine_addLevWeights.xsl${resetColor}"
   echo -e "${Yellow}input: preLev_standoff_Spine, output: standoff_Spine${resetColor}"
@@ -113,34 +129,35 @@ postProcessColl(){
 #  ./migrateP5msColl-tws.sh
 }
 
-
-echo -e "${Yellow}Welcome to the Frankenstein Collation Station!${resetColor} "
-read -p "Are you working with ONLY ONE collation chunk? Enter [y/n]: " opt
-while [[ $opt =~ $isInt ]]
-do
-  echo -e "${Red}Invalid input! Your input is an integer.${resetColor}"
+main(){
+  echo -e "${Yellow}Welcome to the Frankenstein Collation Station!${resetColor} "
   read -p "Are you working with ONLY ONE collation chunk? Enter [y/n]: " opt
-done
-if [[ $opt == "Y" ]] || [[ $opt == "y" ]]; then
-  read -p "Enter only the whole number of the chunk between 1 and 33: " chunk
-  checkInput $chunk
-  chunk=$?
-  # Process chunk
-  getChunk $chunk
-else # If multiple chunks, then...
-  echo "Enter the range of the collation chunks to output (whole numbers between 1 and 33)"
-  read -p "From: " start
-  checkInput $start
-  start=$?
-  read -p "To: " end
-  checkInput $end
-  end=$?
-  # Process chunks
-  for chunk in $(seq $start $end)
+  while [[ $opt =~ $isInt ]]
   do
-    getChunk $chunk
+    echo -e "${Red}Invalid input! Your input is an integer.${resetColor}"
+    read -p "Are you working with ONLY ONE collation chunk? Enter [y/n]: " opt
   done
-fi
-postProcessColl
+  if [[ $opt == "Y" ]] || [[ $opt == "y" ]]; then
+    read -p "Enter only the whole number of the chunk between 1 and 33: " chunk
+    checkInput "$chunk"
+    chunk=$?
+    # Process chunk
+    getChunk $chunk
+  else # If multiple chunks, then...
+    echo "Enter the range of the collation chunks to output (whole numbers between 1 and 33)"
+    read -p "From: " start
+    checkInput "$start"
+    start=$?
+    read -p "To: " end
+    checkInput "$end"
+    end=$?
+    # Process chunks
+    for chunk in $(seq $start $end)
+    do
+      getChunk "$chunk"
+    done
+  fi
+  postProcessColl
+}
 
-
+main
