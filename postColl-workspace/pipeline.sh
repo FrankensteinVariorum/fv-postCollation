@@ -24,6 +24,8 @@ checkInput(){
 }
 getChunk(){
   chunk=$1
+
+
   if [ ${#chunk} -lt 2 ]; then
     chunk="0$chunk"
   fi
@@ -58,23 +60,8 @@ postProcessColl(){
   )
   pipelineArr=("collated-data" "P1-output" "P2-output" "P3-output" # "P3.5-output"
   "P4-output" "preP5a-output" "preP5b-output" "preP5c-output" "preP5d-output" #"P5-output"
-  #"subchunked_standoff_Spine" "preLev_standoff_Spine" "edit-distance/spineData.txt"
+  #"subchunked_standoff_Spine" "preLev_standoff_Spine"
   )
-  allArr=("collated-data" "P1-output" "P2-output" "P3-output" "P3.5-output"
-  "P4-output" "preP5a-output" "preP5b-output" "preP5c-output" "preP5d-output" "P5-output"
-  "subchunked_standoff_Spine" "preLev_standoff_Spine"# "edit-distance/spineData.txt"
-  )
-
-  # reset output folders
-  for (( i=1; i < ${#allArr[@]}; i++ ))
-  do
-    rm -r "${allArr[$i]}"
-  done
-  for (( i=1; i < ${#allArr[@]}; i++ ))
-  do
-    mkdir "${allArr[$i]}"
-  done
-
   # start processing
   for (( i=0; i < ${#xslArr[@]}; i++ ))
   do
@@ -86,7 +73,10 @@ postProcessColl(){
   echo -e "${Yellow}Run P5-Pt5raiseSegElems.xsl${resetColor}"
   echo -e "${Yellow}input: preP5d-output, output: P5-output${resetColor}"
   java -jar $SAXON -s:preP5d-output -xsl:P5-Pt5raiseSegElems.xsl -o:P5-output -t
-  java -jar $SAXON -s:P1-output/ -xsl:P5_SpineGenerator.xsl -o:subchunked_standoff_Spine -t
+
+  echo -e "${Yellow}Run P5_SpineGenerator.xsl${resetColor}"
+  echo -e "${Yellow}input: P1-output, output: subchunked_standoff_Spine${resetColor}"
+  java -jar $SAXON -s:P1-output -xsl:P5_SpineGenerator.xsl -o:subchunked_standoff_Spine -t
 
   for xml in subchunked_standoff_Spine/*.xml
   do
@@ -100,9 +90,7 @@ postProcessColl(){
   echo -e "${Yellow}Run extractCollationData.xsl in edit-distance${resetColor}"
   echo -e "${Yellow}input: preLev_standoff_Spine, output: edit-distance/spineData.txt${resetColor}"
   cd edit-distance || exit
-  rm spineData.txt
-  java -jar ../$SAXON -s:extractCollationData.xsl -xsl:extractCollationData.xsl -o:spineData.txt -t
-  fileExist spineData.txt
+  java -jar ../$SAXON -s:extractCollationData.xsl -xsl:extractCollationData.xsl -o:.  -t
 
   echo -e "${Yellow}Convert spineData.txt to ASCII format${resetColor}"
   rm spineData-ascii.txt
@@ -118,18 +106,36 @@ postProcessColl(){
   echo -e "${Yellow}Run spine_addLevWeights.xsl${resetColor}"
   echo -e "${Yellow}input: preLev_standoff_Spine, output: standoff_Spine${resetColor}"
   java -jar $SAXON -xsl:spine_addLevWeights.xsl -s:preLev_standoff_Spine -o:. -t
+
 #  echo -e "${Yellow}Run spineEmptyWitnessPatch.xsl${resetColor}"
 #  echo -e "${Yellow}input: standoff_Spine, output: fv-data/standoff_Spine${resetColor}"
 #  java -jar $SAXON -xsl:spineEmptyWitnessPatch.xsl -s:standoff_Spine -o:. -t
+
   echo -e "${Yellow}Trimming White Space${resetColor}"
   echo -e "${Yellow}input: P5-output, output: P5-trimmedWS${resetColor}"
   java -jar saxon.jar -s:P5-output -xsl:whiteSpaceReducer.xsl -o:P5-trimmedWS -t
+
 #  echo -e "${Yellow}Packaging collated edition files${resetColor}"
 #  ./migrateP5msColl.sh
 #  ./migrateP5msColl-tws.sh
 }
 
 main(){
+  allArr=("collated-data" "P1-output" "P2-output" "P3-output" # "P3.5-output"
+  "P4-output" "preP5a-output" "preP5b-output" "preP5c-output" "preP5d-output" "P5-output"
+  "subchunked_standoff_Spine" "preLev_standoff_Spine" # "edit-distance/spineData.txt"
+  "standoff_Spine"
+  )
+  # reset output folders
+  for (( i=0; i < ${#allArr[@]}; i++ ))
+  do
+    rm -r "${allArr[$i]}"
+  done
+  for (( i=0; i < ${#allArr[@]}; i++ ))
+  do
+    mkdir "${allArr[$i]}"
+  done
+
   echo -e "${Yellow}Welcome to the Frankenstein Collation Station!${resetColor} "
   read -p "Are you working with ONLY ONE collation chunk? Enter [y/n]: " opt
   while [[ $opt =~ $isInt ]]
