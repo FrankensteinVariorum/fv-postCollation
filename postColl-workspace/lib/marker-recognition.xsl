@@ -50,17 +50,16 @@
   <!--* th:is-end-marker($e as element()):  true iff $e is an end
       * end-marker we want to process.
       *-->
-  <xsl:function name="th:is-end-marker" as="xs:boolean"
-    streamability="inspection">
+  <xsl:function name="th:is-end-marker" as="xs:boolean">
     <xsl:param name="e" as="element()"/>
     
-    <xsl:value-of use-when="$th-style = 'th' "
+    <xsl:sequence use-when="$th-style = 'th' "
 	select="exists($e/@th:eID)"/>
-    <xsl:value-of use-when="$th-style = 'ana' "
+    <xsl:sequence use-when="$th-style = 'ana' "
 	select="$e/@ana='end' "/>
-    <xsl:value-of use-when="$th-style = 'anaplus' "
+    <xsl:sequence use-when="$th-style = 'anaplus' "
 	select="matches($e/@ana, '^end$|_End$') "/>
-    <xsl:value-of use-when="$th-style = 'xmlid' "
+    <xsl:sequence use-when="$th-style = 'xmlid' "
 		  select="ends-with($e/@xml:id,'_end')"/>
     
   </xsl:function>
@@ -71,16 +70,16 @@
   <!--* th:is-marker($e as element()):  true iff $e is a 
       * marker we want to process.
       *-->
-  <xsl:function name="th:is-marker" as="xs:boolean" streamability="inspection">
+  <xsl:function name="th:is-marker" as="xs:boolean">
     <xsl:param name="e" as="element()"/>
     
-    <xsl:value-of use-when="$th-style = 'th' "
+    <xsl:sequence use-when="$th-style = 'th' "
 	select="exists($e/@th:sID union $e/@th:eID)"/>
-    <xsl:value-of use-when="$th-style = 'ana' "
+    <xsl:sequence use-when="$th-style = 'ana' "
 	select="$e/@ana=('start', 'end')"/>
-    <xsl:value-of use-when="$th-style = 'anaplus' "
+    <xsl:sequence use-when="$th-style = 'anaplus' "
 	select="matches($e/@ana, '^start$|^end$|_Start$|_End$') "/>
-    <xsl:value-of use-when="$th-style = 'xmlid' "
+    <xsl:sequence use-when="$th-style = 'xmlid' "
 	select="matches($e/@xml:id,'(_start|_end)$')"/>
     
   </xsl:function>
@@ -91,14 +90,14 @@
   <!--* th:coindex($e as element()):  returns value used to co-index
       * $e (if it's a marker) with its pair.
       *-->
-  <xsl:function name="th:coindex" as="xs:string" streamability="inspection">
+  <xsl:function name="th:coindex" as="xs:string">
     <xsl:param name="e" as="element()?"/>
     
-    <xsl:value-of use-when="$th-style = 'th' "
+    <xsl:sequence use-when="$th-style = 'th' "
 	select="($e/@th:sID, $e/@th:eID)[1]"/>
-    <xsl:value-of use-when="$th-style = ('ana', 'anaplus') "
+    <xsl:sequence use-when="$th-style = ('ana', 'anaplus') "
 	select="($e/@loc)"/>
-    <xsl:value-of use-when="$th-style = 'xmlid' "
+    <xsl:sequence use-when="$th-style = 'xmlid' "
 		  select="if (exists($e))
 			  then replace($e/@xml:id,'(_start|_end)$','')
 			  else ()"/>
