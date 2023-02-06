@@ -16,9 +16,9 @@
 	document node in memory to perform its recursive
 	processing. -->
     <!--2018-07-23 ebb: I've updated this stylesheet to work with the th:raise function as expressed in raise_deep.xsl. -->
-    <xsl:variable name="novel-coll"
+   <!-- <xsl:variable name="novel-coll"
         as="document-node()+"
-        select="collection('P3.5-output/?select=*.xml')"/>    
+        select="collection('P3.5-output/?select=*.xml')"/>    -->
     <!--* Experimental:  try adding a key *-->
   <!--2018-07-23 ebb: This isn't working, and I'm not sure why not. This stylesheet has the recursion function run over a container element, rather than an  entire document node, and I think that must be the problem. Commenting it out for now.   <xsl:key name="start-markers" match="$C10-coll//*[@th:sID]" use="@th:sID"/>
     <xsl:key name="end-markers" match="$C10-coll//*[@th:eID]" use="@th:eID"/>-->
@@ -36,7 +36,7 @@
        <xsl:param name="input" as="element()"/>
        <xsl:message>raise() called with <xsl:value-of select="count($input//*)"/>-element document (<xsl:value-of select="count($input//*[@th:sID])"/> Trojan pairs)</xsl:message>
        <xsl:choose>
-           <xsl:when test="exists($input//*[@th:sID eq following-sibling::*[@th:eID][1]/@th:eID])">
+           <xsl:when test="exists($input//*[@th:sID eq following::*[@th:eID][1]/@th:eID])">
                <xsl:variable name="result" as="element()">
                    <div type="collation">
                        <xsl:apply-templates select="$input" mode="loop"/>                            
@@ -53,7 +53,7 @@
    </xsl:function>
    
    <xsl:template match="/">
-       <xsl:for-each select="$novel-coll//TEI">
+     <!--  <xsl:for-each select="$novel-coll//TEI">-->
            <xsl:variable name="filename">              <xsl:text>P4-</xsl:text><xsl:value-of select="tokenize(base-uri(), '/')[last()] ! substring-after(., 'P3-')"/>
            </xsl:variable>
            <xsl:variable name="chunk"
@@ -71,7 +71,7 @@
 		   </text>
                </TEI>
            </xsl:result-document>
-       </xsl:for-each>
+       <!--</xsl:for-each>-->
        
    </xsl:template>
    
@@ -101,7 +101,7 @@
    </xsl:template>
    
     <xsl:template match="*[@th:sID eq
-        following-sibling::*[@th:eID][1]/@th:eID]">
+        following::*[@th:eID][1]/@th:eID]">
        <xsl:variable name="currNode" select="current()" as="element()"/>
        <xsl:variable name="currMarker" select="@th:sID" as="xs:string"/>
        <xsl:element name="{name()}">
@@ -109,14 +109,20 @@
            <xsl:attribute name="xml:id">
                <xsl:value-of select="@th:sID"/>
            </xsl:attribute>
-           <xsl:variable name="end-marker" as="element()" select="following-sibling::*[@th:eID = current()/@th:sID]"/>
-           <xsl:copy-of select="following-sibling::node()[. &lt;&lt; $end-marker]"/>
+           <xsl:variable name="end-marker" as="element()" select="following::*[@th:eID = current()/@th:sID]"/>
+           <xsl:copy-of select="following::node()[. &lt;&lt; $end-marker]"/>
        </xsl:element>
    </xsl:template>
 
    <!--suppressing nodes that are being reconstructed, including the old end marker. -->
-    <xsl:template
-        match="node()[preceding-sibling::*[@th:sID][1]/@th:sID eq following-sibling::*[@th:eID][1]/@th:eID]"/>
+    <!-- 2023-02-06 ebb: THIS next template may be causing the problem by removing elements that have not been reconstructed.
+    We found that <sga-add> and <zone> elements are removed by this.
+    We have temporarily patched this for testing with this predicate
+    [not(name() = 'mod') and not(name() = 'zone') and not(name() = 'sga-add')]
    
-    <xsl:template match="*[@th:eID eq preceding-sibling::*[@th:sID][1]/@th:sID]"/>
+    -->
+    <xsl:template
+        match="node()[not(name() = 'mod') and not(name() = 'zone') and not(name() = 'sga-add')][preceding::*[@th:sID][1]/@th:sID eq following::*[@th:eID][1]/@th:eID]"/>
+   
+    <xsl:template match="*[not(name() = 'mod') and not(name() = 'zone') and not(name() = 'sga-add')][@th:eID eq preceding::*[@th:sID][1]/@th:sID]"/>
         </xsl:stylesheet>
