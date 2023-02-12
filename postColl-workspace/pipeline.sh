@@ -24,8 +24,6 @@ checkInput(){
 }
 getChunk(){
   chunk=$1
-
-
   if [ ${#chunk} -lt 2 ]; then
     chunk="0$chunk"
   fi
@@ -91,6 +89,7 @@ postProcessColl(){
   echo -e "${Yellow}input: preLev_standoff_Spine, output: edit-distance/spineData.txt${resetColor}"
   cd edit-distance || exit
   java -jar ../$SAXON -s:extractCollationData.xsl -xsl:extractCollationData.xsl -o:.  -t
+  fileExist spineData.txt
 
   echo -e "${Yellow}Convert spineData.txt to ASCII format${resetColor}"
   rm spineData-ascii.txt
@@ -101,7 +100,6 @@ postProcessColl(){
   rm FV_LevDists-weighted.xml
   python3 LevenCalc_toXML.py
   fileExist FV_LevDists-weighted.xml
-  # shellcheck disable=SC2103
   cd ..
   echo -e "${Yellow}Run spine_addLevWeights.xsl${resetColor}"
   echo -e "${Yellow}input: preLev_standoff_Spine, output: standoff_Spine${resetColor}"
@@ -122,7 +120,7 @@ postProcessColl(){
 
 main(){
   allArr=("collated-data" "P1-output" "P2-output" "P3-output" # "P3.5-output"
-  "P4-output" "preP5a-output" "preP5b-output" "preP5c-output" "preP5d-output" "P5-output"
+  "P4-output" "preP5a-output" "preP5b-output" "preP5c-output" "preP5d-output" "P5-output" "P5-trimmedWS"
   "subchunked_standoff_Spine" "preLev_standoff_Spine" # "edit-distance/spineData.txt"
   "standoff_Spine"
   )
@@ -147,7 +145,6 @@ main(){
     read -p "Enter only the whole number of the chunk between 1 and 33: " chunk
     checkInput "$chunk"
     chunk=$?
-    # Process chunk
     getChunk $chunk
   else # If multiple chunks, then...
     echo "Enter the range of the collation chunks to output (whole numbers between 1 and 33)"

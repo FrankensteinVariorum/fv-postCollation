@@ -80,10 +80,20 @@
                     <xsl:text>/&gt;</xsl:text>
                 </xsl:matching-substring>
                 <xsl:non-matching-substring>
+                    <!-- Remove longTokens -->
                     <xsl:analyze-string select="." regex="&lt;.?longToken&gt;">
                         <xsl:matching-substring/>
                         <xsl:non-matching-substring>
-                            <xsl:sequence select="."/>
+                            <!-- normalize space and remove line break in markers -->
+                            <xsl:analyze-string select="." 
+                                regex="[\s\n\r]+">
+                                <xsl:matching-substring>
+                                    <xsl:text> </xsl:text>
+                                </xsl:matching-substring>
+                                <xsl:non-matching-substring>
+                                    <xsl:sequence select="."/>
+                                </xsl:non-matching-substring>
+                            </xsl:analyze-string>
                         </xsl:non-matching-substring>
                     </xsl:analyze-string>
                 </xsl:non-matching-substring>
