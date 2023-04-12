@@ -105,9 +105,9 @@ postProcessColl(){
   echo -e "${Yellow}input: preLev_standoff_Spine, output: standoff_Spine${resetColor}"
   java -jar $SAXON -xsl:spine_addLevWeights.xsl -s:preLev_standoff_Spine -o:. -t
 
-#  echo -e "${Yellow}Run spineEmptyWitnessPatch.xsl${resetColor}"
-#  echo -e "${Yellow}input: standoff_Spine, output: fv-data/standoff_Spine${resetColor}"
-#  java -jar $SAXON -xsl:spineEmptyWitnessPatch.xsl -s:standoff_Spine -o:. -t
+ echo -e "${Yellow}Run spineEmptyWitnessPatch.xsl${resetColor}"
+ echo -e "${Yellow}input: standoff_Spine, output: fv-data/standoff_Spine${resetColor}"
+ java -jar $SAXON -xsl:spineEmptyWitnessPatch.xsl -s:standoff_Spine -o:. -t
 
   echo -e "${Yellow}Trimming White Space${resetColor}"
   echo -e "${Yellow}input: P5-output, output: P5-trimmedWS${resetColor}"
@@ -124,15 +124,15 @@ main(){
   "subchunked_standoff_Spine" "preLev_standoff_Spine" # "edit-distance/spineData.txt"
   "standoff_Spine"
   )
-  # reset output folders
-  for (( i=0; i < ${#allArr[@]}; i++ ))
-  do
-    rm -r "${allArr[$i]}"
-  done
-  for (( i=0; i < ${#allArr[@]}; i++ ))
-  do
-    mkdir "${allArr[$i]}"
-  done
+  # # reset output folders
+  # for (( i=0; i < ${#allArr[@]}; i++ ))
+  # do
+  #   rm -r "${allArr[$i]}"
+  # done
+  # for (( i=0; i < ${#allArr[@]}; i++ ))
+  # do
+  #   mkdir "${allArr[$i]}"
+  # done
 
   echo -e "${Yellow}Welcome to the Frankenstein Collation Station!${resetColor} "
   read -p "Are you working with ONLY ONE collation chunk? Enter [y/n]: " opt
