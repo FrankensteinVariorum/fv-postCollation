@@ -4,7 +4,7 @@ isInt="^[0-9]+$"
 Red="\e[0;31m"
 Green="\e[0;32m"
 Yellow="\e[0;33m"
-resetColor="\e[0m"
+White="\e[0m"
 SAXON="../../collationWorkspace/xslt/SaxonHE12-0J/saxon-he-12.0.jar"
 
 checkInput(){
@@ -12,11 +12,11 @@ checkInput(){
   while ! [[ "$chunk" =~ $isInt ]] || [[ $chunk -lt 1 ]] || [[ $chunk -gt 33 ]]
   do
     if ! [[ "$chunk" =~ $isInt ]]; then
-      echo -e "${Red}Invalid input! Your input not a whole number.${resetColor}"
+      echo -e "${Red}Invalid input! Your input not a whole number.${White}"
     elif [ "$chunk" -lt 1 ]; then
-      echo -e "${Red}Invalid input! Your input is less than 1. ${resetColor}"
+      echo -e "${Red}Invalid input! Your input is less than 1. ${White}"
     elif [ "$chunk" -gt 33 ]; then
-      echo -e "${Red}Invalid input! Your input is larger than 33. ${resetColor}"
+      echo -e "${Red}Invalid input! Your input is larger than 33. ${White}"
     fi
     read -p "Please input a whole number between 1 and 33: " chunk
   done
@@ -34,10 +34,10 @@ getChunk(){
 fileExist(){
   fileName=$1
   if [ ! -f "$fileName" ]; then
-    echo -e "${Red}Oops! $fileName DOES NOT exist!${resetColor}"
+    echo -e "${Red}Oops! $fileName DOES NOT exist!${White}"
     exit 1
   else
-    echo -e "${Green}$fileName is generated!${resetColor}"
+    echo -e "${Green}$fileName is generated!${White}"
   fi
 }
 
@@ -63,17 +63,17 @@ postProcessColl(){
   # start processing
   for (( i=0; i < ${#xslArr[@]}; i++ ))
   do
-    echo -e "${Yellow}Run ${xslArr[i]}${resetColor}"
-    echo -e "${Yellow}input: ${pipelineArr[$i]}, output: ${pipelineArr[$i+1]}${resetColor}"
+    echo -e "${Yellow}Run ${xslArr[i]}${White}"
+    echo -e "${Yellow}input: ${pipelineArr[$i]}, output: ${pipelineArr[$i+1]}${White}"
     java -jar $SAXON -xsl:"${xslArr[$i]}" -s:"${xslArr[0]}" -t
   done
 
-  echo -e "${Yellow}Run P5-Pt5raiseSegElems.xsl${resetColor}"
-  echo -e "${Yellow}input: preP5d-output, output: P5-output${resetColor}"
+  echo -e "${Yellow}Run P5-Pt5raiseSegElems.xsl${White}"
+  echo -e "${Yellow}input: preP5d-output, output: P5-output${White}"
   java -jar $SAXON -s:preP5d-output -xsl:P5-Pt5raiseSegElems.xsl -o:P5-output -t
 
-  echo -e "${Yellow}Run P5_SpineGenerator.xsl${resetColor}"
-  echo -e "${Yellow}input: P1-output, output: subchunked_standoff_Spine${resetColor}"
+  echo -e "${Yellow}Run P5_SpineGenerator.xsl${White}"
+  echo -e "${Yellow}input: P1-output, output: subchunked_standoff_Spine${White}"
   java -jar $SAXON -s:P1-output -xsl:P5_SpineGenerator.xsl -o:subchunked_standoff_Spine -t
 
   for xml in subchunked_standoff_Spine/*.xml
@@ -81,39 +81,39 @@ postProcessColl(){
     mv "$xml" "${xml/P1_/spine_}"
   done
 
-  echo -e "${Yellow}Phase 6: Prepare the “spine” of the variorum${resetColor}"
-  echo -e "${Yellow}intput: subchunked_standoff_Spine, output: preLev_standoff_Spine${resetColor}"
+  echo -e "${Yellow}Phase 6: Prepare the “spine” of the variorum${White}"
+  echo -e "${Yellow}intput: subchunked_standoff_Spine, output: preLev_standoff_Spine${White}"
   java -jar $SAXON -s:subchunked_standoff_Spine -xsl:spineAdjustor.xsl -o:. -t
 
-  echo -e "${Yellow}Run extractCollationData.xsl in edit-distance${resetColor}"
-  echo -e "${Yellow}input: preLev_standoff_Spine, output: edit-distance/spineData.txt${resetColor}"
+  echo -e "${Yellow}Run extractCollationData.xsl in edit-distance${White}"
+  echo -e "${Yellow}input: preLev_standoff_Spine, output: edit-distance/spineData.txt${White}"
   cd edit-distance || exit
   java -jar ../$SAXON -s:extractCollationData.xsl -xsl:extractCollationData.xsl -o:.  -t
   fileExist spineData.txt
 
-  echo -e "${Yellow}Convert spineData.txt to ASCII format${resetColor}"
+  echo -e "${Yellow}Convert spineData.txt to ASCII format${White}"
   rm spineData-ascii.txt
   iconv -c -f UTF-8 -t ascii//TRANSLIT spineData.txt  > spineData-ascii.txt
   fileExist spineData-ascii.txt
 
-  echo -e "${Yellow}Run python LevenCalc_toXML.py${resetColor}"
+  echo -e "${Yellow}Run python LevenCalc_toXML.py${White}"
   rm FV_LevDists-weighted.xml
   python3 LevenCalc_toXML.py
   fileExist FV_LevDists-weighted.xml
   cd ..
-  echo -e "${Yellow}Run spine_addLevWeights.xsl${resetColor}"
-  echo -e "${Yellow}input: preLev_standoff_Spine, output: standoff_Spine${resetColor}"
+  echo -e "${Yellow}Run spine_addLevWeights.xsl${White}"
+  echo -e "${Yellow}input: preLev_standoff_Spine, output: standoff_Spine${White}"
   java -jar $SAXON -xsl:spine_addLevWeights.xsl -s:preLev_standoff_Spine -o:. -t
 
- echo -e "${Yellow}Run spineEmptyWitnessPatch.xsl${resetColor}"
- echo -e "${Yellow}input: standoff_Spine, output: fv-data/standoff_Spine${resetColor}"
+ echo -e "${Yellow}Run spineEmptyWitnessPatch.xsl${White}"
+ echo -e "${Yellow}input: standoff_Spine, output: fv-data/standoff_Spine${White}"
  java -jar $SAXON -xsl:spineEmptyWitnessPatch.xsl -s:standoff_Spine -o:. -t
 
-  echo -e "${Yellow}Trimming White Space${resetColor}"
-  echo -e "${Yellow}input: P5-output, output: P5-trimmedWS${resetColor}"
+  echo -e "${Yellow}Trimming White Space${White}"
+  echo -e "${Yellow}input: P5-output, output: P5-trimmedWS${White}"
   java -jar saxon.jar -s:P5-output -xsl:whiteSpaceReducer.xsl -o:P5-trimmedWS -t
 
-#  echo -e "${Yellow}Packaging collated edition files${resetColor}"
+#  echo -e "${Yellow}Packaging collated edition files${White}"
 #  ./migrateP5msColl.sh
 #  ./migrateP5msColl-tws.sh
 }
@@ -134,11 +134,11 @@ main(){
   #   mkdir "${allArr[$i]}"
   # done
 
-  echo -e "${Yellow}Welcome to the Frankenstein Collation Station!${resetColor} "
+  echo -e "${Yellow}Welcome to the Frankenstein Collation Station!${White} "
   read -p "Are you working with ONLY ONE collation chunk? Enter [y/n]: " opt
   while [[ $opt =~ $isInt ]]
   do
-    echo -e "${Red}Invalid input! Your input is an integer.${resetColor}"
+    echo -e "${Red}Invalid input! Your input is an integer.${White}"
     read -p "Are you working with ONLY ONE collation chunk? Enter [y/n]: " opt
   done
   if [[ $opt == "Y" ]] || [[ $opt == "y" ]]; then
