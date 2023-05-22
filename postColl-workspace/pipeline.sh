@@ -124,15 +124,12 @@ main(){
   "subchunked_standoff_Spine" "preLev_standoff_Spine" # "edit-distance/spineData.txt"
   "standoff_Spine"
   )
-  # # reset output folders
-  # for (( i=0; i < ${#allArr[@]}; i++ ))
-  # do
-  #   rm -r "${allArr[$i]}"
-  # done
-  # for (( i=0; i < ${#allArr[@]}; i++ ))
-  # do
-  #   mkdir "${allArr[$i]}"
-  # done
+  # reset output folders
+  for (( i=0; i < ${#allArr[@]}; i++ ))
+  do
+    rm -r "${allArr[$i]}"
+    mkdir "${allArr[$i]}"
+  done
 
   echo -e "${Yellow}Welcome to the Frankenstein Collation Station!${White} "
   read -p "Are you working with ONLY ONE collation chunk? Enter [y/n]: " opt
