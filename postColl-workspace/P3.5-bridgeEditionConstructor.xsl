@@ -9,7 +9,9 @@
 
   <xsl:mode on-no-match="shallow-copy"/>
     <xsl:variable name="P3-Coll" as="document-node()+" select="collection('P3-output/?select=*.xml')"/>
-<!--2018-10-10 ebb: For stage 3.5 we need to reconstruct full collation chunks that have been subdivided into parts. For example, C08 was divided into parts C08a through C08j, often breaking up element tag pairs. Here we reunite the pieces so we can move on to up-raising the flattened elements in the editions. -->   
+<!--2018-10-10 ebb: For stage 3.5 we need to reconstruct full collation chunks that have been subdivided into parts.
+        For example, C08 was divided into parts C08a through C08j, often breaking up element tag pairs. 
+        Here we reunite the pieces so we can move on to up-raising the flattened elements in the editions. -->   
    <xsl:template match="/">
        <xsl:for-each-group select="$P3-Coll" group-by="tokenize(base-uri(), '-f')[last()] ! tokenize(., '[a-z]?\.xml')[1]">
            <xsl:variable name="filename" select="concat('P3-f', current-grouping-key(), '.xml')"/>  
