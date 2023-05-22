@@ -13,15 +13,15 @@
     </sch:pattern>
     <sch:pattern>
         <sch:rule context="tei:seg[@th:sID]">
-            <sch:assert test="following-sibling::tei:seg[1]/@th:eID = current()/@th:sID" role="fatal">Start marker doesn't have a matching end-marker. Each start-marker seg must be immediately followed by a matching end-marker seg. If the sID and eID do not match we have a problem. </sch:assert>
+            <sch:assert test="following::tei:seg[1]/@th:eID = current()/@th:sID" role="fatal">Start marker doesn't have a matching end-marker. Each start-marker seg must be immediately followed by a matching end-marker seg. If the sID and eID do not match we have a problem. </sch:assert>
         </sch:rule>
         <sch:rule context="tei:seg[@th:eID]">
-            <sch:assert test="preceding-sibling::tei:seg[1]/@th:sID = current()/@th:eID" role="fatal">End marker doesn't have a matching start marker. Each start-marker seg must be immediately followed by a matching end-marker seg. If the sID and eID do not match we have a problem. </sch:assert>
+            <sch:assert test="preceding::tei:seg[1]/@th:sID = current()/@th:eID" role="fatal">End marker doesn't have a matching start marker. Each start-marker seg must be immediately followed by a matching end-marker seg. If the sID and eID do not match we have a problem. </sch:assert>
         </sch:rule>
     </sch:pattern>
     <sch:pattern>
         <sch:rule context="tei:seg[@part][@th:sID]">
-            <sch:assert test="following-sibling::tei:seg[1]/@part = current()/@part" role="fatal">Fragmented seg parts must start and end as first seg siblings.</sch:assert>
+            <sch:assert test="following::tei:seg[1]/@part = current()/@part" role="fatal">Fragmented seg parts must start and end as first seg siblings.</sch:assert>
         </sch:rule>
     </sch:pattern>
     <sch:pattern>
