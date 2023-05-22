@@ -13,9 +13,9 @@ The workspace in this repo houses a transformation pipeline. Here is a summary o
 ### Run `P2-bridgeEditionConstructor.xsl`
 * **Input:** `P1-output` directory
 * **Output:** `P2-output` directory
-* 2018-06-21 ebb updated 2018-08-01: Bridge Edition Constructor Part 2: This second phase begins building the output Bridge editions by consuming the `<app>` and and `<rdg>` elements to replace them with `<seg>` elements that hold the identifiers of their apps and indication of whether they are portions.
-* This stylesheet does NOT YET generate the spine file. We're deferring that to a later stage when we know where the `<seg>` elements turn up in relation to the hierarchy of the edition elements. 
-* We are now generating the spine file following the edition files constructed in bridge P5, so that we have the benefit of seeing the `<seg>` elements where they need to be multiplied (e.g. around paragraph breaks). We can then generate pointers to more precise locations. 
+* 2018-06-21 ebb updated 2018-08-01: Bridge Edition Constructor Part 2: This second phase begins building the output Bridge editions by consuming the `<app>` and `<rdg>` elements to replace them with `<seg>` elements that hold the identifiers of their apps and indication of whether they are portions.
+* This stylesheet does NOT YET generate the spine file. We're deferring that to a later stage when we know where the `<seg>` elements appear in relation to the hierarchy of the edition elements. 
+* We will generate the spine file following the edition files constructed in bridge P5, so that we have the benefit of seeing the `<seg>` elements and where pointers to the editions will need to be multiplied (e.g. converted to a start pointer and an end pointer around a paragraph break). We can then generate pointers to more precise locations. 
 
 ## Phase 3: 
 * ### Begin reconstructing elements from text-converted tags 
@@ -23,9 +23,11 @@ The workspace in this repo houses a transformation pipeline. Here is a summary o
 ### Run `P3-bridgeEditionConstructor.xsl`
 * **Input:** `P2-output` directory
 * **Output:** `P3-output` directory
-* In Bridge Construction Phase 3, we are up-converting the text-converted tags in the edition files into self-closed elements. We add the `th:` namespace prefix to "trojan horse" attributes used for markers.
+* In Bridge Construction Phase 3, we are up-transforming the text-converted tags in the edition files into self-closed elements. We add the `th:` namespace prefix to "trojan horse" attributes used for markers.
+
 
 ### Run `P3.5-bridgeEditionConstructor.xsl`
+#### THIS STAGE SHOULD BE UNNECESSARY IN 2023 
 * **Input:** `P3-output` directory
 * **Output:** `P3.5-output` directory 
 * 2018-10-10 ebb: For stage 3.5 we need to reconstruct full collation chunks that have been subdivided into parts. For example, C08 was divided into parts C08a through C08j, often breaking up element tag pairs. Here we reunite the pieces so we can move on to up-raising the flattened elements in the editions.
@@ -45,6 +47,7 @@ The workspace in this repo houses a transformation pipeline. Here is a summary o
 ``  
 * After running this, be sure to rename the output files to begin with `P4_`
 * 2018-07-15 ebb: Bridge Phase 4 raises the hierarchy of elements from the source documents, leaving the seg elements unraised. This stylesheet uses an "inside-out" function to raise the elements from the deepest levels (those with only text nodes between their start and end markers) first. This and other methods to "raise" flattened or "Trojan" elements are documented in https://github.com/djbpitt/raising with thanks to David J. Birnbaum and Michael Sperberg-McQueen for their helpful experiments. 
+* 2023-05-21 ebb: UPDATE SAXON AND RECONSIDER FILE NOMENCLATURE
 
 ## Phase 5: Prepare and raise `<seg>` elements for variant passages in each edition
 ### Run `P5-Pt1-SegTrojans.xsl`
@@ -53,13 +56,16 @@ The workspace in this repo houses a transformation pipeline. Here is a summary o
 * 2018-07-29: Bridge Construction Phase 5: What we need to do:      
        *  where the end markers of seg elements are marked we reconstruct them in pieces. 
         * raise the `<seg>` marker elements marking hotspots
-       *  deliver seg identifying locations to the Spinal Column file.
-* In this first stage of Part 5, we are converting the seg elements into Trojan markers using the `th:` namespace, and explicitly designating those that are fragments (that will break hierarchy if raised) as parts by adding a part attribute. 
+       *  deliver seg identifying locations to the Spine file.
+* In this first stage of Part 5, we are converting the seg elements into Trojan markers using the `th:` namespace, and explicitly designating those that are fragments (that will break hierarchy if raised) as parts by adding a `@part` attribute. 
     * In the next stage, we will need to add additional seg elements to handle fragmented hotspots that break across the edition element hierarchy.
     * In the last stage of this process, we adapt CMSpMq's left-to-right sibling traversal for raising flattened elements.  
     * segs with START IDs 
        * for simple segs with START IDS that have following-sibling ends 
-       * for fragmented segs with START IDs. * segs with END IDs * for simple segs where end IDS have a preceding-sibling start ID. 
+       * for fragmented segs with START IDs. 
+       * for segs with END IDs 
+     * **2023-05-21 ebb: Are the next two processing stages necessary?** 
+       * for simple segs where end IDS have a preceding-sibling start ID. 
        * for fragmented end IDs that don't have a preceding-sibling start ID.
       
 ### Run `P5-Pt2PlantFragSegMarkers.xsl`
@@ -99,19 +105,20 @@ The workspace in this repo houses a transformation pipeline. Here is a summary o
 java -jar saxon.jar -s:P1-output/ -xsl:P5_SpineGenerator.xsl -o:subchunked_standoff_Spine 
 ``
 * Change the output filenames from starting with `P1_` to `spine_`.
-* 2018-10-17 updated 2019-03-16 ebb: This XSLT generates the “spine” files for the Variorum. 
+* 2018-10-17 updated 2019-03-16, 2023-05-21 ebb: This XSLT generates the “spine” files for the Variorum. 
 * The “spine” contains URI pointers to specific locations marked by `<seg>` elements in the edition files made in bridge-P5, and is based on information from the collation process stored in TEI in the `P1-output` directory. 
 * These files differ from those output in the P1 stage because the P1 form contains the complete texts of all edition files, mapping them to critical apparatus markup with variant `<app>` elements (containing multiple `<rdgGrp>` elements or divergent forms) as well as invariant `<app>` elements (containing only one `<rdgGrp>` where all editions run in unison). For the purposes of the Variorum encoding, our “spine” needs only to work with the variant passages, because those are the passages we will highlight and interlink in the Variorum interface. So, in this stage of processing we remove the invariant apps from P1 in generating the Variorum “spines”. 
 * Looking ahead, following this stage we will: 
-    * Run `spineAdjustor.xsl` to stitch up the multi-part spine sections into larger units and send that output to `preLev_standoff_Spine`. 
+    * Run `spineAdjustor.xsl` to stitch up the multi-part spine sections into larger units and send that output to `preLev_standoff_Spine`. **In 2023 this stitchwork should not be necessary**
     * Calculate Levenshtein edit distances working in the edit-distance directory. Run `edit-distance/extractCollationData.xsl` to prepare the `spineData-ascii.txt` TSV files. Process that with the Python script `LevenCalc_toXML.py` to generate `edit-distance/FV_LevDists.xml`. 
     * When edit distances are calculated and stored, we will run `spine_addLevWeights.xsl` to add Levenshtein values and generate the finished `standoff_Spine` directory files.
 
 ## Phase 6: Prepare the “spine” of the variorum
-### Run `spineAdjustor.xsl`
+### Run `spineAdjustor.xsl` 
 * **Input:** `subchunked_standoff_Spine` directory
 * **Output:** `preLev_standoff_Spine` directory
 * 2018-10-23 ebb: In this stage, we "sew up" the lettered spine sub-chunk files into complete chunks to match their counterpart edition files. 2018-10-25: Also, we're adding hashtags if they're missing in the @wit on rdg.
+* 2023-05-21: THE FIRST PART ISN"T NECESSRY BUT **DO NEED TO CHECK/ADD MISSING HASTHAGS**
 
 ### Run `edit-distance/extractCollationData.xsl`
 * **Input:** `preLev_standoff_Spine` directory
@@ -134,6 +141,7 @@ java -jar saxon.jar -s:P1-output/ -xsl:P5_SpineGenerator.xsl -o:subchunked_stand
 * **Input:** `spineData-ascii.txt`
 * **Output:** `FV_LevDists-weighted.xml`
 * This Python script uses the numpy library to calculate Levenshtein edit distances between each available rdgGrp cluster of witnesses at each variant location. It outputs a single XML file in the critical apparatus format of our spines, holding the calculated values. 
+* 2023-05-21 ebb: UPDATE THE NUMPY LIBRARY
 
 ### Maybe (or maybe not) run `edit-distance/LevWeight-Simplification.xsl`
 * *_CAUTION_* *We may not wish to run this transformation. Please read this documentation before deciding.* 
@@ -142,7 +150,7 @@ java -jar saxon.jar -s:P1-output/ -xsl:P5_SpineGenerator.xsl -o:subchunked_stand
 * 2018-10-24 updated 2019-03-16 ebb: This identity transformation stylesheet removes comparisons to absent witnesses (indicated as NoRG) in the feature structures file holding weighted Levenshtein data for our collated Variorum.
 * ISSUE: *Why we may NOT wish to run this*: Running this stylesheet will affect our readout of collation variance. Consider the case of variant passages where one or more witnesses are not present and have no material to compare. This may be because, in the case of the ms notebooks, we simply do not have any material, or it may be because, in the case of the 1831 edition, a passage was heavily altered and cut, and there isn't any material present. High Levenshtein values are produced in each case. 
 * As of 2019-03-16 (ebb), I'm deciding NOT to run this stylesheet so that the team can evaluate the Levenshtein results to represent comparisons with omitted/missing material.
-* REVISED (ebb): Revisiting on 3 July 2019: I think we DO want to run this because we're getting spurious high results for passages of really low variance. 
+* REVISED (ebb): Revisiting on 3 July 2019 and May 2023: I think we DO want to run this because we're getting spurious high results for passages of really low variance. 
 
 ### Run `spine_addLevWeights.xsl`
 * **Input:** `preLev_standoff_Spine` directory
@@ -154,8 +162,10 @@ java -jar saxon.jar -s:P1-output/ -xsl:P5_SpineGenerator.xsl -o:subchunked_stand
 * **Input:** `standoff_Spine` directory
 * **Output:** `fv-data/standoff_Spine` directory
 * This is a (hopefully temporary) patch. When we redirected the pointers for S-GA files into the fv-data variorum-chunks directory, we are generating pointers into nonexistent S-GA files when S-GA witness is absent. This XSLT finds those empty locations for fMS and removes the output pointers, to just produce an empty <rdg wit="#fMS"/> as we did before. We're taking input from the standoff_Spine directory in fv-postCollation, and outputting to the standoff_Spine directory in fv-data. 
+* 2023-05-21 ebb: **Check how we're directing pointers into S-GA now.**
 
 ## Trimming White Space: 
+### 2023-05-21: Unnecessary now?
 ### Run `java -jar saxon.jar -s:P5-output/ -xsl:whiteSpaceReducer.xsl -o:P5-trimmedWS`
 
 ## Packaging collated edition files
