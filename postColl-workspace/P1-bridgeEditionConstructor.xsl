@@ -26,7 +26,7 @@
                             </titleStmt>
                             <publicationStmt>
                                 <authority>Frankenstein Variorum Project</authority>
-                                <date>2018</date>
+                                <date>2023—</date>
                                 <availability>
                                     <licence>Distributed under a Creative Commons
                                         Attribution-ShareAlike 3.0 Unported License</licence>
@@ -78,22 +78,21 @@
                 <xsl:matching-substring>
                     <xsl:value-of select="tokenize(., '\s*&lt;/')[1] ! substring-before(., '&gt;')"/>
                     <xsl:text>/&gt;</xsl:text>
+                    <!-- 2023-05-22 ebb and yxj: This finds text-bearing whole elements that contain only spaces or no text at all in the 
+                    text node. 
+                    It finds these and converts them into self-closing elements 
+                    <mdel>   </mdel>
+                    to
+                    <mdel/>
+                     -->
                 </xsl:matching-substring>
                 <xsl:non-matching-substring>
                     <!-- Remove longTokens -->
                     <xsl:analyze-string select="." regex="&lt;.?longToken&gt;">
+             
                         <xsl:matching-substring/>
                         <xsl:non-matching-substring>
-                            <!-- normalize space and remove line break in markers -->
-                            <xsl:analyze-string select="." 
-                                regex="[\s\n\r]+">
-                                <xsl:matching-substring>
-                                    <xsl:text> </xsl:text>
-                                </xsl:matching-substring>
-                                <xsl:non-matching-substring>
-                                    <xsl:sequence select="."/>
-                                </xsl:non-matching-substring>
-                            </xsl:analyze-string>
+                            <xsl:sequence select="."/>
                         </xsl:non-matching-substring>
                     </xsl:analyze-string>
                 </xsl:non-matching-substring>
