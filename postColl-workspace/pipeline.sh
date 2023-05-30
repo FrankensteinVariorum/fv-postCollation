@@ -69,8 +69,12 @@ postProcessColl(){
   done
 
   echo -e "${Yellow}Run P5-Pt5raiseSegElems.xsl${White}"
-  echo -e "${Yellow}input: preP5d-output, output: P5-output${White}"
-  java -jar $SAXON -s:preP5d-output -xsl:P5-Pt5raiseSegElems.xsl -o:P5-output -t
+  echo -e "${Yellow}input: preP5d-output, output: preP5e-output${White}"
+  java -jar $SAXON -s:preP5d-output -xsl:P5-Pt5raiseSegElems.xsl -o:preP5e-output -t
+
+    echo -e "${Yellow}Run P5-Pt6spaceHandling.xsl${White}"
+  echo -e "${Yellow}input: preP5e-output, output: P5-output${White}"
+  java -jar $SAXON -s:preP5e-output -xsl:P5-Pt6spaceHandling.xsl -o:P5-output -t
 
   echo -e "${Yellow}Run P5_SpineGenerator.xsl${White}"
   echo -e "${Yellow}input: P1-output, output: subchunked_standoff_Spine${White}"
@@ -120,7 +124,7 @@ postProcessColl(){
 
 main(){
   allArr=("collated-data" "P1-output" "P2-output" "P3-output" # "P3.5-output"
-  "P4-output" "preP5a-output" "preP5b-output" "preP5c-output" "preP5d-output" "P5-output" "P5-trimmedWS"
+  "P4-output" "preP5a-output" "preP5b-output" "preP5c-output" "preP5d-output" "preP5e-output" "P5-output" "P5-trimmedWS"
   "subchunked_standoff_Spine" "preLev_standoff_Spine" # "edit-distance/spineData.txt"
   "standoff_Spine"
   )

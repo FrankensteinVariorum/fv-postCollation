@@ -27,7 +27,7 @@
          <xsl:text> </xsl:text><xsl:copy/><xsl:text> </xsl:text>
        </xsl:when>
        <xsl:otherwise>
-         ****BEFORE*****<xsl:copy/>****AFTER*****
+         <xsl:copy/>
        </xsl:otherwise>
        
      </xsl:choose>      
