@@ -58,7 +58,7 @@
         </xsl:choose>
     </xsl:template>
     <xsl:template match="rdg" mode="invariant">
-        <xsl:apply-templates select="."/>
+        <xsl:apply-templates select="."/><xsl:text> </xsl:text>
     </xsl:template>
     <xsl:template match="rdg" mode="variant">
         <seg xml:id="{ancestor::app/@xml:id}-{@wit}_start"/>
