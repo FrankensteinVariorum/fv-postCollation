@@ -15,10 +15,6 @@
   
   <xsl:template match="*[child::seg]//text()">
      <xsl:choose>
-       <xsl:when test="following-sibling::*[1][name() = 'seg'] and not(preceding-sibling::*[1][name() = 'seg'])">
-         <xsl:copy/><xsl:text> </xsl:text>
-   
-       </xsl:when>
        <xsl:when test="preceding-sibling::*[1][name() = 'seg'] and not(following-sibling::*[1][name() = 'seg'])">
          <xsl:text> </xsl:text><xsl:copy/>
 
