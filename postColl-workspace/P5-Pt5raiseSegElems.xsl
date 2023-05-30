@@ -140,15 +140,14 @@
       <xsl:attribute name="xml:id" select="@th:sID" use-when="$th-style = ('th')"/>
       <xsl:copy-of select="@* except (@ana, @loc)" use-when="$th-style = ('ana', 'anaplus')"/>
       <xsl:attribute name="xml:id" select="@loc" use-when="$th-style = ('ana', 'anaplus')"/>
-
-      <xsl:apply-templates select="following-sibling::node()[1]" mode="raising"
-      > </xsl:apply-templates>
+<!-- 2023-05-30 ebb and yxj: An experiment to output spaces around the new seg elements being raised.  -->
+      <xsl:text> </xsl:text><xsl:apply-templates select="following-sibling::node()[1]" mode="raising"/> 
     </xsl:copy>
 
     <!--* 2: continue after this element *-->
     <xsl:apply-templates select="
         th:matching-end-marker(.)
-        /following-sibling::node()[1]" mode="raising"> </xsl:apply-templates>
+        /following-sibling::node()[1]" mode="raising"/><xsl:text> </xsl:text> 
   </xsl:template>
 
 
