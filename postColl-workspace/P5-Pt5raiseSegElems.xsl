@@ -6,7 +6,7 @@
   <!--2019-06-27 ebb: We need to add a tei: prefixed namespace in addition to the default namesapce to our output variorum edition files to support use of xml pointers in the Variorum edition, 
   so I am intervening here to add it.-->
   <!--2018-07-30 ebb: Run this with Saxon at command line to raise paired seg markers, using:
-    java -jar saxon.jar -s:preP5d-output/ -xsl:P5-Pt5raiseSegElems.xsl -o:P5-output/ 
+    java -jar saxon.jar -s:preP5d-output/ -xsl:P5-Pt5raiseSegElems.xsl -o:preP5e-output/ 
     
     We should probably rewrite this so we don't require the lib file dependency on marker types. 
   -->
@@ -140,14 +140,14 @@
       <xsl:attribute name="xml:id" select="@th:sID" use-when="$th-style = ('th')"/>
       <xsl:copy-of select="@* except (@ana, @loc)" use-when="$th-style = ('ana', 'anaplus')"/>
       <xsl:attribute name="xml:id" select="@loc" use-when="$th-style = ('ana', 'anaplus')"/>
-<!-- 2023-05-30 ebb and yxj: An experiment to output spaces around the new seg elements being raised.  -->
-      <xsl:text> </xsl:text><xsl:apply-templates select="following-sibling::node()[1]" mode="raising"/> 
+
+      <xsl:apply-templates select="following-sibling::node()[1]" mode="raising"/> 
     </xsl:copy>
 
     <!--* 2: continue after this element *-->
     <xsl:apply-templates select="
         th:matching-end-marker(.)
-        /following-sibling::node()[1]" mode="raising"/><xsl:text> </xsl:text> 
+        /following-sibling::node()[1]" mode="raising"/> 
   </xsl:template>
 
 
