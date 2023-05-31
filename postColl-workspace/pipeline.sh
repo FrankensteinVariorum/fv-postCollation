@@ -68,10 +68,6 @@ postProcessColl(){
     java -jar $SAXON -xsl:"${xslArr[$i]}" -s:"${xslArr[$i]}" -t
   done
 
-  # echo -e "${Yellow}Run P5-Pt6spaceHandling.xsl${White}"
-  # echo -e "${Yellow}input: preP5e-output, output: P5-output${White}"
-  # java -jar $SAXON -s:preP5e-output -xsl:P5-Pt6spaceHandling.xsl -o:P5-output -t
-
   echo -e "${Yellow}Run P5_SpineGenerator.xsl${White}"
   echo -e "${Yellow}input: P1-output, output: subchunked_standoff_Spine${White}"
   java -jar $SAXON -s:P1-output -xsl:P5_SpineGenerator.xsl -o:subchunked_standoff_Spine -t
@@ -81,7 +77,7 @@ postProcessColl(){
     mv "$xml" "${xml/P1_/spine_}"
   done
 
-  echo -e "${Yellow}Phase 6: Prepare the “spine” of the variorum${White}"
+  echo -e "${Yellow}Phase 7: Prepare the “spine” of the variorum${White}"
   echo -e "${Yellow}intput: subchunked_standoff_Spine, output: preLev_standoff_Spine${White}"
   java -jar $SAXON -s:subchunked_standoff_Spine -xsl:spineAdjustor.xsl -o:. -t
 
@@ -109,9 +105,9 @@ postProcessColl(){
  echo -e "${Yellow}input: standoff_Spine, output: fv-data/standoff_Spine${White}"
  java -jar $SAXON -xsl:spineEmptyWitnessPatch.xsl -s:standoff_Spine -o:. -t
 
-  echo -e "${Yellow}Trimming White Space${White}"
-  echo -e "${Yellow}input: P5-output, output: P5-trimmedWS${White}"
-  java -jar saxon.jar -s:P5-output -xsl:whiteSpaceReducer.xsl -o:P5-trimmedWS -t
+# echo -e "${Yellow}Trimming White Space${White}"
+# echo -e "${Yellow}input: P5-output, output: P5-trimmedWS${White}"
+# java -jar saxon.jar -s:P5-output -xsl:whiteSpaceReducer.xsl -o:P5-trimmedWS -t
 
 #  echo -e "${Yellow}Packaging collated edition files${White}"
 #  ./migrateP5msColl.sh
