@@ -77,11 +77,11 @@
   
   <xsl:variable name="preP5d-coll" as="document-node()+" select="collection('preP5d-output/?select=*.xml')"/> 
   
-  <xsl:template name="shallow-copy">
+<!--  <xsl:template name="shallow-copy">
     <xsl:copy copy-namespaces="no">
       <xsl:apply-templates select="@* | node()"/>
     </xsl:copy>
-  </xsl:template>
+  </xsl:template>-->
 
   <!--* special rule for root *-->
   <!--REVISED THIS with help from raffazizzi to intervene and add a prefixed namespace for parsing pointers
@@ -102,10 +102,10 @@
  </xsl:template>
   -->
 
-  <xsl:template match="/*">
+  <xsl:template match="/">
     
     
-    <xsl:for-each select="$preP5d-coll//TEI">
+    <xsl:for-each select="$preP5d-coll/*">
       <xsl:variable name="currentP5File" as="element()" select="current()"/>
       <xsl:variable name="filename" as="xs:string" select="tokenize(base-uri(), '/')[last()]"/>
       <xsl:variable name="chunk" as="xs:string" select="tokenize(base-uri(), '/')[last()] ! substring-before(., '.') ! substring-after(., '_')"/> 
@@ -117,9 +117,8 @@
           <xsl:namespace name="tei" select="'http://www.tei-c.org/ns/1.0'"/>
           <xsl:apply-templates select="node()[1]" mode="raising"/>
         </xsl:element>
-        
-        <xsl:call-template name="shallow-copy"/>
-        
+        <!--
+        <xsl:call-template name="shallow-copy"/>-->
         
       </xsl:result-document>
     </xsl:for-each>    
@@ -135,7 +134,8 @@
       * at least one marker element as a child.
       *-->
 
-  <xsl:template match="*[*[th:is-marker(.)]]">
+   
+   <xsl:template match="*[*[th:is-marker(.)]]">
     <xsl:if test="$debug = 'yes'">
       <xsl:message>Shifting to shallow-to-deep on <xsl:value-of select="name()"/></xsl:message>
     </xsl:if>
@@ -144,7 +144,6 @@
       <xsl:apply-templates mode="raising" select="child::node()[1]"/>
     </xsl:copy>
   </xsl:template>
-
 
   <!--****************************************************************
       * 3 Start-marker:  make an element and carry on
