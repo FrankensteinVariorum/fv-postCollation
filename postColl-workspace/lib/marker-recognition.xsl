@@ -33,13 +33,13 @@
   <xsl:function name="th:is-start-marker" as="xs:boolean" streamability="inspection">
     <xsl:param name="e" as="element()"/>
     
-    <xsl:sequence use-when="$th-style = 'th' "
+    <xsl:value-of use-when="$th-style = 'th' "
 	select="exists($e/@th:sID)"/>
     <xsl:value-of use-when="$th-style = 'ana' "
 	select="$e/@ana='start' "/>
-    <xsl:sequence use-when="$th-style = 'anaplus' "
+    <xsl:value-of use-when="$th-style = 'anaplus' "
 	select="matches($e/@ana, '^start$|_Start$') "/>
-    <xsl:sequence use-when="$th-style = 'xmlid' "
+    <xsl:value-of use-when="$th-style = 'xmlid' "
 	select="ends-with($e/@xml:id,'_start')"/>
     
   </xsl:function>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../segMarkerTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:mith="http://mith.umd.edu/sc/ns1#"
-     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-     xmlns:tei="http://www.tei-c.org/ns/1.0">
+      xmlns:mith="http://mith.umd.edu/sc/ns1#"
+      xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
+      xmlns:tei="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -21,14 +21,14 @@
             <p>Produced from collation output prepared in batch file processing
                                     on  2023-05-28 13:26:53.295163 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-05-30T15:35:13.052007-04:00.</p>
+                                    Variorum spine on 2023-05-31T15:50:17.3557974-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
          <div xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-              type="collation">
+               type="collation">
             <anchor type="collate" xml:id="C13"/>
             <lb n="c56-0073__main__1"/>
             <milestone spanTo="#c56-0073.05" unit="tei:head"/>
@@ -56,8 +56,8 @@
                <del ana="start" rend="strikethrough" xml:id="c56-0073__main__d5e15296"/>which was<del ana="end"/> to fix <lb n="c56-0073__main__9"/>
                <anchor xml:id="c56-0073.01"/>
                <zone corresp="#c56-0073.01"
-                     type="left_margin"
-                     xml:id="c56-0073__left_margin">
+                      type="left_margin"
+                      xml:id="c56-0073__left_margin">
                   <lb n="c56-0073__left_margin__1"/>
                   <sga-add xml:id="c56-0073__left_margin__d5e15307">the date of </sga-add>
                </zone>your return</seg> and I was at first tempted <lb n="c56-0073__main__10"/>to write a few <seg xml:id="C13_app23-fMS">lines <del ana="start" rend="strikethrough" xml:id="c56-0073__main__d5e15312"/>only<del ana="end"/>
@@ -261,8 +261,8 @@
                <anchor xml:id="c56-0075.07"/>
                <lb n="c56-0075__left_margin__1"/>
                <sga-add hand="#pbs"
-                        next="#c56-0075.06"
-                        xml:id="c56-0075__left_margin__d5e15774">At first I </sga-add>
+                         next="#c56-0075.06"
+                         xml:id="c56-0075__left_margin__d5e15774">At first I </sga-add>
             </seg>
             <sga-add hand="#pbs" place="superlinear" xml:id="c56-0075__main__d5e15779">
                <seg part="F" xml:id="C13_app169-fMS__F">attempted to prevent</seg>
@@ -345,9 +345,9 @@
                </mod> yet her words <lb n="c56-0076__main__3"/>
             </seg>
             <sga-add corresp="#c56-0076.01"
-                     hand="#pbs"
-                     place="interlinear"
-                     xml:id="c56-0076__main__d5e15953">
+                      hand="#pbs"
+                      place="interlinear"
+                      xml:id="c56-0076__main__d5e15953">
                <seg part="F" xml:id="C13_app221-fMS__F">
                   <del ana="start" rend="strikethrough" xml:id="c56-0076__main__d5e15955"/>of th<del ana="end"/> as the cause of his</seg>
                <seg xml:id="C13_app222-fMS">death—</seg>
@@ -655,8 +655,8 @@
                   <seg part="F" xml:id="C13_app466-fMS__F">
                      <metamark ana="start" function="displacement"/>X<metamark ana="end"/>
                      <del ana="start"
-                          rend="strikethrough"
-                          xml:id="c56-0079__left_margin__d5e16585"/>Lo<shi ana="start" rend="underline"/>rd Byron<shi ana="end"/>
+                           rend="strikethrough"
+                           xml:id="c56-0079__left_margin__d5e16585"/>Lo<shi ana="start" rend="underline"/>rd Byron<shi ana="end"/>
                      <del ana="end"/>
                   </seg>
                </sga-add>
@@ -670,8 +670,8 @@
                   <anchor xml:id="c56-0079.03"/>
                   <lb n="c56-0079__left_margin__1"/>
                   <sga-add hand="#pbs"
-                           next="#c56-0079.02"
-                           xml:id="c56-0079__left_margin__d5e16612">continued my </sga-add>
+                            next="#c56-0079.02"
+                            xml:id="c56-0079__left_margin__d5e16612">continued my </sga-add>
                </seg>
                <sga-add hand="#pbs" place="superlinear" xml:id="c56-0079__main__d5e16616">
                   <seg part="F" xml:id="C13_app470-fMS__F">journey</seg>
@@ -970,9 +970,9 @@
                   <del ana="start" rend="strikethrough" xml:id="c56-0082__main__d5e17187"/>turns<del ana="end"/>
                </seg>
                <sga-add hand="#pbs"
-                        next="#c56-0082.01"
-                        place="superlinear"
-                        xml:id="c56-0082__main__d5e17190">
+                         next="#c56-0082.01"
+                         place="superlinear"
+                         xml:id="c56-0082__main__d5e17190">
                   <seg part="F" xml:id="C13_app649-fMS__F">which</seg>
                   <seg part="I" xml:id="C13_app650-fMS__I">
                      <mdel ana="start"/>at<mdel ana="end"/>
@@ -984,13 +984,13 @@
                <lb n="c56-0082__main__5"/>the promontory of Belrive and</seg>
             <seg part="I" xml:id="C13_app651-fMS__I">
                <del ana="start"
-                    next="#c56-0082.03"
-                    rend="strikethrough"
-                    xml:id="c56-0082__main__d5e17202"/>changing<del ana="end"/>
+                     next="#c56-0082.03"
+                     rend="strikethrough"
+                     xml:id="c56-0082__main__d5e17202"/>changing<del ana="end"/>
                <sga-add hand="#pbs"
-                        next="#c56-0082.04"
-                        place="superlinear"
-                        xml:id="c56-0082__main__d5e17205">the </sga-add>
+                         next="#c56-0082.04"
+                         place="superlinear"
+                         xml:id="c56-0082__main__d5e17205">the </sga-add>
                <lb n="c56-0082__main__6"/>
             </seg>
             <sga-add hand="#pbs" place="superlinear" xml:id="c56-0082__main__d5e17210">
@@ -1022,9 +1022,9 @@
             </seg> noble war in the sky elevated <lb n="c56-0082__main__18"/>my spirits; I clasped my <seg xml:id="C13_app666-fMS">hands</seg> &amp;  <seg xml:id="C13_app668-fMS">ex <lb n="c56-0082__main__19"/>claimed aloud</seg> "William, dear  <seg xml:id="C13_app670-fMS">angel,</seg>
             <lb n="c56-0082__main__20"/>this is thy funeral, this thy <seg xml:id="C13_app672-fMS">dirge!"–</seg>
             <lb n="c56-0082__main__21"/>As I said <seg xml:id="C13_app674-fMS">the <sga-add place="sublinear" xml:id="c56-0082__main__d5e17297">se </sga-add> words <del ana="start"
-                    next="#c56-0082.07"
-                    rend="strikethrough"
-                    xml:id="c56-0082__main__d5e17300"/>a flash of lightning<del ana="end"/>
+                     next="#c56-0082.07"
+                     rend="strikethrough"
+                     xml:id="c56-0082__main__d5e17300"/>a flash of lightning<del ana="end"/>
             </seg>
             <sga-add place="superlinear" xml:id="c56-0082__main__d5e17303">I perceived in the gloom <seg part="I" xml:id="C13_app676-fMS__I">
                </seg>
@@ -1124,8 +1124,8 @@
                <anchor xml:id="c56-0083.03"/>
                <lb n="c56-0083__left_margin__1"/>Nothing </seg>
             <sga-add hand="#pbs"
-                     place="superlinear"
-                     xml:id="c56-0083__left_margin__d5e17543">
+                      place="superlinear"
+                      xml:id="c56-0083__left_margin__d5e17543">
                <seg part="F" xml:id="C13_app721-fMS__F">in</seg>
             </sga-add>human <lb n="c56-0083__left_margin__2"/>shape could <lb n="c56-0083__left_margin__3"/>have destroyed <lb n="c56-0083__left_margin__4"/>that fair <lb n="c56-0083__left_margin__5"/>child. <seg xml:id="C13_app723-fMS">He<lb n="c56-0083__left_margin__6"/>was</seg> the <lb n="c56-0083__left_margin__7"/>murderer! <lb n="c56-0083__left_margin__8"/>I could not <lb n="c56-0083__left_margin__9"/>doubt it. <lb n="c56-0083__left_margin__10"/>The mere presence <lb n="c56-0083__left_margin__11"/>of the idea <lb n="c56-0083__left_margin__12"/>was an <seg xml:id="C13_app725-fMS">
                <w ana="start"/>ir<lb n="c56-0083__left_margin__13"/>resistible<w ana="end"/>
@@ -1186,8 +1186,8 @@
                <lb n="c56-0083__left_margin__1"/>The whole <lb n="c56-0083__left_margin__2"/>train of my <lb n="c56-0083__left_margin__3"/>progress <w ana="start"/>to<lb n="c56-0083__left_margin__4"/>wards<w ana="end"/>
                <seg part="I" xml:id="C13_app765-fMS__I">my <lb n="c56-0083__left_margin__5"/>
                   <del ana="start"
-                       rend="strikethrough"
-                       xml:id="c56-0083__left_margin__d5e17716"/>
+                        rend="strikethrough"
+                        xml:id="c56-0083__left_margin__d5e17716"/>
                   <unclear extent="1" unit="chars"/>
                   <del ana="end"/> creation <anchor xml:id="c56-0083.09"/>
                </seg>
@@ -1314,9 +1314,9 @@
                   <del ana="start" rend="strikethrough" xml:id="c56-0084__main__d5e17934"/>mischief<del ana="end"/>
                </seg>
                <sga-add hand="#pbs"
-                        next="#c56-0084.03"
-                        place="superlinear"
-                        xml:id="c56-0084__main__d5e17937">
+                         next="#c56-0084.03"
+                         place="superlinear"
+                         xml:id="c56-0084__main__d5e17937">
                   <seg part="F" xml:id="C13_app818-fMS__F">horror</seg> such as  <seg part="I" xml:id="C13_app820-fMS__I">
                      <del ana="start" rend="strikethrough" xml:id="c56-0084__main__d5e17939"/>this<del ana="end"/> the deed which he had </seg>
                </sga-add>
@@ -1399,9 +1399,9 @@
             <seg part="M" xml:id="C13_app868-fMS__M">
                <lb n="c56-0084__main__28"/>
                <del ana="start"
-                    next="#c56-0084.09"
-                    rend="strikethrough"
-                    xml:id="c56-0084__main__d5e18122"/>which was<del ana="end"/>
+                     next="#c56-0084.09"
+                     rend="strikethrough"
+                     xml:id="c56-0084__main__d5e18122"/>which was<del ana="end"/>
                <sga-add place="sublinear" xml:id="c56-0084__main__d5e18125">
                   <metamark ana="start" function="insert"/>^<metamark ana="end"/>
                </sga-add>
@@ -1718,8 +1718,8 @@
                   <lb n="c56-0087__left_margin__1"/>
                   <metamark ana="start" function="displacement"/>^<metamark ana="end"/>
                   <del ana="start"
-                       rend="strikethrough"
-                       xml:id="c56-0087__left_margin__d5e18713"/>and<del ana="end"/>
+                        rend="strikethrough"
+                        xml:id="c56-0087__left_margin__d5e18713"/>and<del ana="end"/>
                </seg> as <lb n="c56-0087__left_margin__2"/>to add <lb n="c56-0087__left_margin__3"/>to the evidence <lb n="c56-0087__left_margin__4"/>of facts <lb n="c56-0087__left_margin__5"/>a weight <seg xml:id="C13_app1062-fMS">
                   <lb n="c56-0087__left_margin__6"/>that</seg> I  <seg xml:id="C13_app1064-fMS">
                   <lb n="c56-0087__left_margin__7"/>fear</seg> leaves <lb n="c56-0087__left_margin__8"/>no hope <lb n="c56-0087__left_margin__9"/>for <seg part="I" xml:id="C13_app1066-fMS__I">doubt: <anchor xml:id="c56-0087.06"/>
@@ -1803,8 +1803,8 @@
                   <sga-add place="superlinear" xml:id="c56-0088__main__d5e18984">
                      <metamark ana="start" function="displacement" xml:id="c56-0088.01"/>X<metamark ana="end"/>
                      <zone corresp="#c56-0088.01"
-                           type="left_margin"
-                           xml:id="c56-0088__left_margin">
+                            type="left_margin"
+                            xml:id="c56-0088__left_margin">
                         <delSpan rend="vertical_line" spanTo="#c56-0088.03"/>
                         <addSpan hand="#pbs" spanTo="#c56-0088.02"/>
                         <lb n="c56-0088__left_margin__1"/>After our <lb n="c56-0088__left_margin__2"/>first <lb n="c56-0088__left_margin__3"/>mournful <lb n="c56-0088__left_margin__4"/>greetings <lb n="c56-0088__left_margin__5"/>had past <lb n="c56-0088__left_margin__6"/>I <anchor xml:id="c56-0088.02"/>
@@ -2067,8 +2067,8 @@
             <lb n="c56-0091__Pt1__main__3"/>But she will <seg xml:id="C13_app1257-fMS">not</seg> I am sure she will  <seg xml:id="C13_app1259-fMS">
                <lb n="c56-0091__Pt1__main__4"/>not</seg> and then I shall be happy  <seg xml:id="C13_app1261-fMS">again</seg> even <lb n="c56-0091__Pt1__main__5"/>after the <seg xml:id="C13_app1263-fMS">
                <del ana="start"
-                    rend="strikethrough"
-                    xml:id="c56-0091__Pt1__main__d5e19480"/>d<del ana="end"/> sad death of my little William." <milestone unit="tei:p-END"/>
+                     rend="strikethrough"
+                     xml:id="c56-0091__Pt1__main__d5e19480"/>d<del ana="end"/> sad death of my little William." <milestone unit="tei:p-END"/>
                <milestone unit="tei:p-START"/>
                <lb n="c56-0091__Pt1__main__6"/>"She is innocent, my Elizabeth," said</seg>
             <seg xml:id="C13_app1264-fMS">I and</seg>
@@ -2080,8 +2080,8 @@
                <delSpan rend="strikethrough" spanTo="#c56-0091.03"/>it to <lb n="c56-0091__Pt1__main__14"/>be <delSpan anchor="c56-0091.03"/>
             </seg>
             <sga-add hand="#pbs"
-                     place="superlinear"
-                     xml:id="c56-0091__Pt1__main__d5e19515">
+                      place="superlinear"
+                      xml:id="c56-0091__Pt1__main__d5e19515">
                <seg part="F" xml:id="C13_app1276-fMS__F">that</seg> it was  <seg part="I" xml:id="C13_app1278-fMS__I">
                </seg>
             </sga-add>
@@ -2092,13 +2092,13 @@
             <seg xml:id="C13_app1284-fMS">niece"</seg> said my  <seg xml:id="C13_app1286-fMS">father dry</seg> your  <seg xml:id="C13_app1288-fMS">
                <lb n="c56-0091__Pt1__main__18"/>
                <del ana="start"
-                    instant="true"
-                    rend="strikethrough"
-                    xml:id="c56-0091__Pt1__main__d5e19529"/>eyes<del ana="end"/> tears <delSpan rend="strikethrough" spanTo="#c56-0091.05"/>and do not give so sad <sga-add place="superlinear" xml:id="c56-0091__Pt1__main__d5e19535">sorrowful </sga-add> a welc- <lb n="c56-0091__Pt1__main__19"/>come to Victor who has been so long <lb n="c56-0091__Pt1__main__20"/>absent <delSpan anchor="c56-0091.05"/>
+                     instant="true"
+                     rend="strikethrough"
+                     xml:id="c56-0091__Pt1__main__d5e19529"/>eyes<del ana="end"/> tears <delSpan rend="strikethrough" spanTo="#c56-0091.05"/>and do not give so sad <sga-add place="superlinear" xml:id="c56-0091__Pt1__main__d5e19535">sorrowful </sga-add> a welc- <lb n="c56-0091__Pt1__main__19"/>come to Victor who has been so long <lb n="c56-0091__Pt1__main__20"/>absent <delSpan anchor="c56-0091.05"/>
             </seg> if she  <seg xml:id="C13_app1290-fMS">is</seg> as you  <seg xml:id="C13_app1292-fMS">believe innocent</seg> rely  <seg xml:id="C13_app1294-fMS">
                <del ana="start"
-                    rend="strikethrough"
-                    xml:id="c56-0091__Pt1__main__d5e19546"/>that<del ana="end"/>
+                     rend="strikethrough"
+                     xml:id="c56-0091__Pt1__main__d5e19546"/>that<del ana="end"/>
                <lb n="c56-0091__Pt1__main__21"/>on the justice of our</seg>
             <seg xml:id="C13_app1295-fMS">judges</seg> &amp; the activity with <lb n="c56-0091__Pt1__main__22"/>which I shall prevent the slightest shadow of <seg xml:id="C13_app1297-fMS">partiality.</seg>
             <anchor xml:id="c56-0091.04"/>
