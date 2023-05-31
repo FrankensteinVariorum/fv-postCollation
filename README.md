@@ -38,7 +38,6 @@ The workspace in this repo houses a transformation pipeline. Here is a summary o
 * **Output:** `P4-output` directory 
 * 2018-07-07 ebb: This stylesheet works to raise "trojan elements" from the inside out, this time over a collection of Frankenstein files output from collation. It also adapts djb's function to process an element node rather than a document node in memory to perform its recursive processing. 
 
-
 ### Option 2: Run `P4Sax-raiseBridgeElems.xsl`
 * This is an alternative version of the P4 transformation designed to run in the shell rather than in oXygen. We may wish to use this when working with the full scope of edition files representing the novel from start to end, where oXygen processing may be bogged down.   
 *  2018-10-11 ebb: This version of the P4 stylesheet is designed to run at command line (so references to specific file collections are commented out). Run this in the terminal or command line by navigating to the directory holding this XSLT (and the saxon files necessary) and entering
@@ -98,6 +97,7 @@ The workspace in this repo houses a transformation pipeline. Here is a summary o
 ``    
     
 * We should probably rewrite this so we don't require the lib file dependency on marker types. 
+* 2023-05-31: Fixing xsl file add capacity to process a collection with xsl:result-document. Adding this stage to latest edition to add spaces around consecutive space markers in the output editions.  
           
 ### Run `P5_SpineGenerator.xsl`
 * Run with saxon command line over the `P1-output` directory and output to  `subchunked_standoff_Spine` directory, using:
@@ -113,7 +113,10 @@ java -jar saxon.jar -s:P1-output/ -xsl:P5_SpineGenerator.xsl -o:subchunked_stand
     * Calculate Levenshtein edit distances working in the edit-distance directory. Run `edit-distance/extractCollationData.xsl` to prepare the `spineData-ascii.txt` TSV files. Process that with the Python script `LevenCalc_toXML.py` to generate `edit-distance/FV_LevDists.xml`. 
     * When edit distances are calculated and stored, we will run `spine_addLevWeights.xsl` to add Levenshtein values and generate the finished `standoff_Spine` directory files.
 
-## Phase 6: Prepare the “spine” of the variorum
+### Run `P6-Pt61spaceHandling.xsl` 
+* 2023-05-31: Adding this stage to latest edition to add spaces around consecutive space markers in the output editions. 
+
+## Phase 7: Prepare the “spine” of the variorum
 ### Run `spineAdjustor.xsl` 
 * **Input:** `subchunked_standoff_Spine` directory
 * **Output:** `preLev_standoff_Spine` directory
