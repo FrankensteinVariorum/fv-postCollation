@@ -76,24 +76,6 @@
   
   <xsl:variable name="preP5d-coll" as="document-node()+" select="collection('preP5d-output/?select=*.xml')"/> 
   
-  <xsl:template match="/">
-    <xsl:for-each select="$preP5d-coll//TEI">
-      <xsl:variable name="currentP5File" as="element()" select="current()"/>
-      <xsl:variable name="filename" as="xs:string" select="tokenize(base-uri(), '/')[last()]"/>
-      <xsl:variable name="chunk" as="xs:string" select="tokenize(base-uri(), '/')[last()] ! substring-before(., '.') ! substring-after(., '_')"/> 
-    
-      <xsl:result-document method="xml" indent="yes" href="preP5e-output/{$filename}">
-        <xsl:processing-instruction name="xml-model">href="../segMarkerTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:processing-instruction>
-       
-          <xsl:call-template name="shallow-copy"/>
-          
-         
-      </xsl:result-document>
-    </xsl:for-each>      
-     
-  </xsl:template>
-  
-
   <xsl:template name="shallow-copy">
     <xsl:copy copy-namespaces="no">
       <xsl:apply-templates select="@* | node()"/>
@@ -120,11 +102,27 @@
   -->
 
   <xsl:template match="/*">
-    <xsl:element name="{local-name()}" namespace="http://www.tei-c.org/ns/1.0">
-      <xsl:copy-of select="@* | namespace-node()"/>
-      <xsl:namespace name="tei" select="'http://www.tei-c.org/ns/1.0'"/>
-      <xsl:apply-templates select="node()[1]" mode="raising"/>
-    </xsl:element>
+    
+    
+    <xsl:for-each select="$preP5d-coll//TEI">
+      <xsl:variable name="currentP5File" as="element()" select="current()"/>
+      <xsl:variable name="filename" as="xs:string" select="tokenize(base-uri(), '/')[last()]"/>
+      <xsl:variable name="chunk" as="xs:string" select="tokenize(base-uri(), '/')[last()] ! substring-before(., '.') ! substring-after(., '_')"/> 
+      
+      <xsl:result-document method="xml" indent="yes" href="preP5e-output/{$filename}">
+        <xsl:processing-instruction name="xml-model">href="../segMarkerTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:processing-instruction>
+        <xsl:element name="{local-name()}" namespace="http://www.tei-c.org/ns/1.0">
+          <xsl:copy-of select="@* | namespace-node()"/>
+          <xsl:namespace name="tei" select="'http://www.tei-c.org/ns/1.0'"/>
+          <xsl:apply-templates select="node()[1]" mode="raising"/>
+        </xsl:element>
+        
+        <xsl:call-template name="shallow-copy"/>
+        
+        
+      </xsl:result-document>
+    </xsl:for-each>    
+    
   </xsl:template>
 
 
