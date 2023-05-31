@@ -13,6 +13,31 @@
   
   <xsl:mode on-no-match="shallow-copy"/>
   
+  <xsl:variable name="preP5e-coll" as="document-node()+" select="collection('preP5e-output/?select=*.xml')"/> 
+  
+  <xsl:template match="/">
+    <xsl:for-each select="$preP5e-coll//TEI">
+      <xsl:variable name="currentP5File" as="element()" select="current()"/>
+      <xsl:variable name="filename" as="xs:string" select="tokenize(base-uri(), '/')[last()]"/>
+      <xsl:variable name="chunk" as="xs:string" select="tokenize(base-uri(), '/')[last()] ! substring-before(., '.') ! substring-after(., '_')"/> 
+
+      <xsl:result-document method="xml" indent="yes" href="P5-output/{$filename}">
+        <xsl:processing-instruction name="xml-model">href="../segMarkerTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:processing-instruction>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0"                 xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein" xmlns:mith="http://mith.umd.edu/sc/ns1#"  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
+          <xsl:copy-of select="descendant::teiHeader" copy-namespaces="no"/>
+          <text>
+            <body>
+              
+              <xsl:apply-templates select="descendant::div[@type='collation']">
+                
+              </xsl:apply-templates>
+            </body>
+          </text>
+        </TEI>
+      </xsl:result-document>
+    </xsl:for-each>      
+  </xsl:template>
+  
   <xsl:template match="*[child::seg]//text()">
      <xsl:choose>
        <xsl:when test="preceding-sibling::*[1][name() = 'seg'] and not(following-sibling::*[1][name() = 'seg'])">
