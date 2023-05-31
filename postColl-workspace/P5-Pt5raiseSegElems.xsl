@@ -73,6 +73,26 @@
       ****************************************************************-->
 
   <xsl:mode on-no-match="shallow-copy"/>
+  
+  <xsl:variable name="preP5d-coll" as="document-node()+" select="collection('preP5d-output/?select=*.xml')"/> 
+  
+  <xsl:template match="/">
+    <xsl:for-each select="$preP5d-coll//TEI">
+      <xsl:variable name="currentP5File" as="element()" select="current()"/>
+      <xsl:variable name="filename" as="xs:string" select="tokenize(base-uri(), '/')[last()]"/>
+      <xsl:variable name="chunk" as="xs:string" select="tokenize(base-uri(), '/')[last()] ! substring-before(., '.') ! substring-after(., '_')"/> 
+    
+      <xsl:result-document method="xml" indent="yes" href="preP5e-output/{$filename}">
+        <xsl:processing-instruction name="xml-model">href="../segMarkerTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:processing-instruction>
+       
+          <xsl:apply-templates/>
+          
+         
+      </xsl:result-document>
+    </xsl:for-each>      
+     
+  </xsl:template>
+  
 
   <xsl:template name="shallow-copy">
     <xsl:copy copy-namespaces="no">
