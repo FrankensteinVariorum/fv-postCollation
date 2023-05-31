@@ -38,7 +38,6 @@ The workspace in this repo houses a transformation pipeline. Here is a summary o
 * **Output:** `P4-output` directory 
 * 2018-07-07 ebb: This stylesheet works to raise "trojan elements" from the inside out, this time over a collection of Frankenstein files output from collation. It also adapts djb's function to process an element node rather than a document node in memory to perform its recursive processing. 
 
-
 ### Option 2: Run `P4Sax-raiseBridgeElems.xsl`
 * This is an alternative version of the P4 transformation designed to run in the shell rather than in oXygen. We may wish to use this when working with the full scope of edition files representing the novel from start to end, where oXygen processing may be bogged down.   
 *  2018-10-11 ebb: This version of the P4 stylesheet is designed to run at command line (so references to specific file collections are commented out). Run this in the terminal or command line by navigating to the directory holding this XSLT (and the saxon files necessary) and entering
@@ -98,6 +97,7 @@ The workspace in this repo houses a transformation pipeline. Here is a summary o
 ``    
     
 * We should probably rewrite this so we don't require the lib file dependency on marker types. 
+* 2023-05-31: Fixing xsl file add capacity to process a collection with xsl:result-document. 
           
 ### Run `P5_SpineGenerator.xsl`
 * Run with saxon command line over the `P1-output` directory and output to  `subchunked_standoff_Spine` directory, using:
