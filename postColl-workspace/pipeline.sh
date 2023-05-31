@@ -45,19 +45,19 @@ postProcessColl(){
   xslArr=("P1-bridgeEditionConstructor.xsl"
   "P2-bridgeEditionConstructor.xsl"
   "P3-bridgeEditionConstructor.xsl"
-#  "P3.5-bridgeEditionConstructor.xsl"
-  "P4Sax-raiseBridgeElems.xsl" # 5
-  "P5-Pt1-SegTrojans.xsl"
+  "P4Sax-raiseBridgeElems.xsl" 
+  "P5-Pt1-SegTrojans.xsl" # 5
   "P5-Pt2PlantFragSegMarkers.xsl"
   "P5-Pt3MedialSTARTSegMarkers.xsl"
   "P5-Pt4MedialENDSegMarkers.xsl"
-  #"P5-Pt5raiseSegElems.xsl" # 10
-  #"P5_SpineGenerator.xsl"
+  "P5-Pt5raiseSegElems.xsl" 
+  "P5-Pt6spaceHandling.xsl" # 10
+  # "P5_SpineGenerator.xsl"
   #"spineAdjustor.xsl"
   #"edit-distance/extractCollationData.xsl"
   )
-  pipelineArr=("collated-data" "P1-output" "P2-output" "P3-output" # "P3.5-output"
-  "P4-output" "preP5a-output" "preP5b-output" "preP5c-output" "preP5d-output" #"P5-output"
+  pipelineArr=("collated-data" "P1-output" "P2-output" "P3-output"
+  "P4-output" "preP5a-output" "preP5b-output" "preP5c-output" "preP5d-output" "preP5e-output" "P5-output"
   #"subchunked_standoff_Spine" "preLev_standoff_Spine"
   )
   # start processing
@@ -65,16 +65,12 @@ postProcessColl(){
   do
     echo -e "${Yellow}Run ${xslArr[i]}${White}"
     echo -e "${Yellow}input: ${pipelineArr[$i]}, output: ${pipelineArr[$i+1]}${White}"
-    java -jar $SAXON -xsl:"${xslArr[$i]}" -s:"${xslArr[0]}" -t
+    java -jar $SAXON -xsl:"${xslArr[$i]}" -s:"${xslArr[$i]}" -t
   done
 
-  echo -e "${Yellow}Run P5-Pt5raiseSegElems.xsl${White}"
-  echo -e "${Yellow}input: preP5d-output, output: preP5e-output${White}"
-  java -jar $SAXON -s:preP5d-output -xsl:P5-Pt5raiseSegElems.xsl -o:preP5e-output -t
-
-    echo -e "${Yellow}Run P5-Pt6spaceHandling.xsl${White}"
-  echo -e "${Yellow}input: preP5e-output, output: P5-output${White}"
-  java -jar $SAXON -s:preP5e-output -xsl:P5-Pt6spaceHandling.xsl -o:P5-output -t
+  # echo -e "${Yellow}Run P5-Pt6spaceHandling.xsl${White}"
+  # echo -e "${Yellow}input: preP5e-output, output: P5-output${White}"
+  # java -jar $SAXON -s:preP5e-output -xsl:P5-Pt6spaceHandling.xsl -o:P5-output -t
 
   echo -e "${Yellow}Run P5_SpineGenerator.xsl${White}"
   echo -e "${Yellow}input: P1-output, output: subchunked_standoff_Spine${White}"
@@ -119,21 +115,22 @@ postProcessColl(){
 
 #  echo -e "${Yellow}Packaging collated edition files${White}"
 #  ./migrateP5msColl.sh
-#  ./migrateP5msColl-tws.sh
 }
 
 main(){
-  allArr=("collated-data" "P1-output" "P2-output" "P3-output" # "P3.5-output"
+  allArr=("collated-data" "P1-output" "P2-output" "P3-output" 
   "P4-output" "preP5a-output" "preP5b-output" "preP5c-output" "preP5d-output" "preP5e-output" "P5-output" "P5-trimmedWS"
   "subchunked_standoff_Spine" "preLev_standoff_Spine" # "edit-distance/spineData.txt"
   "standoff_Spine"
   )
-  # reset output folders
+
+  # reset output folders======
   for (( i=0; i < ${#allArr[@]}; i++ ))
   do
     rm -r "${allArr[$i]}"
     mkdir "${allArr[$i]}"
   done
+  #====================
 
   echo -e "${Yellow}Welcome to the Frankenstein Collation Station!${White} "
   read -p "Are you working with ONLY ONE collation chunk? Enter [y/n]: " opt
