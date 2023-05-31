@@ -85,7 +85,7 @@
       <xsl:result-document method="xml" indent="yes" href="preP5e-output/{$filename}">
         <xsl:processing-instruction name="xml-model">href="../segMarkerTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:processing-instruction>
        
-          <xsl:apply-templates/>
+          <xsl:call-template name="shallow-copy"/>
           
          
       </xsl:result-document>
