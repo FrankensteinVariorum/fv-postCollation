@@ -112,9 +112,25 @@ java -jar saxon.jar -s:P1-output/ -xsl:P5_SpineGenerator.xsl -o:subchunked_stand
     * Run `spineAdjustor.xsl` to stitch up the multi-part spine sections into larger units and send that output to `preLev_standoff_Spine`. **In 2023 this stitchwork should not be necessary**
     * Calculate Levenshtein edit distances working in the edit-distance directory. Run `edit-distance/extractCollationData.xsl` to prepare the `spineData-ascii.txt` TSV files. Process that with the Python script `LevenCalc_toXML.py` to generate `edit-distance/FV_LevDists.xml`. 
     * When edit distances are calculated and stored, we will run `spine_addLevWeights.xsl` to add Levenshtein values and generate the finished `standoff_Spine` directory files.
+	
+## Phase 6
 
-### Run `P6-Pt61spaceHandling.xsl` 
-* 2023-05-31: Adding this stage to latest edition to add spaces around consecutive space markers in the output editions. 
+### Run `P6-Pt1-combine.xsl` 
+* Combines all XSLT edition files for each edition into a single XML file. This results in 5 edition files for each version.
+
+* **Input** `P5-output/?select=*.xml`
+* **Output:** `P6-Pt1/`
+
+### Run `P6-Pt2-chapChunking.xsl`
+* 2023-6-1: This XSLT should output seperate chapter files. It is not doing that yet. We have only tried it for the fMS so far, and it is outputting nly one file, named with the correct text node, but otherwise systematically excluding the contents of the first processed group.
+* Manuscript goes through special handeling.
+``
+//tei:milestone[@unit='tei:head']
+``
+* **Output:** `P6-Pt2/VERSION_$file_id.xml`
+* Next step: Attempt to process the print edition files to see if the results will help with processing the manuscript files.
+* Would it be easier to chunk the chapters using Python?
+* Try the LXML eTree, Pulldom, or PySaxProcessor
 
 ## Phase 7: Prepare the “spine” of the variorum
 ### Run `spineAdjustor.xsl` 
