@@ -26,7 +26,7 @@
 
             <xsl:choose>
                 <xsl:when test="$currFile ! base-uri()[contains(., 'fMS')]">
-                    <xsl:for-each-group select="$currFile//tei:div[@type='collation']" group-starting-with="tei:milestone[@unit='tei:head']">
+                    <xsl:for-each-group select="$currFile//tei:milestone[@unit='tei:head']/following::node()" group-starting-with="tei:milestone[@unit='tei:head']">
                         
                    
                         <xsl:variable name="file_id" as="xs:string" select="following::text()[not(matches(., '^\s+$'))][1] ! lower-case(.) ! tokenize(., ' ')[position() gt 1 and not(position() = last())] => string-join('_') 
