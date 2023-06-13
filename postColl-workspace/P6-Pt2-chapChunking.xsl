@@ -26,14 +26,19 @@
 
             <xsl:choose>
                 <xsl:when test="$currFile ! base-uri()[contains(., 'fMS')]">
-                    <xsl:for-each-group select="$currFile//tei:milestone[@unit='tei:head']/following::node()" group-starting-with="tei:milestone[@unit='tei:head']">
-                        
+                    <xsl:for-each-group select="$currFile//tei:milestone[@unit='tei:head'][following::text()[not(matches(., '^\s+$'))][1]]/following::node()" group-starting-with="tei:milestone[@unit='tei:head'][following::text()[not(matches(., '^\s+$'))][1]]">
+                       
                    
-                        <xsl:variable name="file_id" as="xs:string" select="following::text()[not(matches(., '^\s+$'))][1] ! lower-case(.) ! tokenize(., ' ')[position() gt 1 and not(position() = last())] => string-join('_') 
+                        <xsl:variable name="file_id" as="xs:string" select="following::text()[not(matches(., '^\s+$'))][1] ! lower-case(.) ! replace(., '[.,:;]', '') ! tokenize(., ' ')[position() gt 1 and not(position() = last())] => string-join('_') 
                             || '_' || count(preceding::tei:milestone[@unit='tei:head'])"/>
                         
+                        <!-- 
+                            following::text()[not(matches(., '^\s+$'))][1] ! lower-case(.) ! replace(., '[.,:;]', '') ! tokenize(., ' ') => string-join('_')
+                            
+                            -->
+                        
                        
-                           <xsl:result-document href="P6-Pt2/fMS_{$file_id}.xml" method="xml" indent="yes">
+                           <xsl:result-document href="P6-Pt2-test/fMS_{$file_id}.xml" method="xml" indent="yes">
                             
                             
                            <TEI> 
@@ -67,19 +72,52 @@
                 </xsl:when>
                 
                 <xsl:otherwise>
-                    <xsl:for-each-group select="$currFile//milestone[@unit='chapter' and @type='start']/following-sibling::node()" group-starting-with="milestone[@unit='chapter' and @type='start']">
+                    <xsl:for-each-group select="$currFile//tei:milestone[@unit='chapter' and @type='start']/following::node()" group-starting-with="tei:milestone[@unit='chapter' and @type='start']">
                         
-                        <xsl:message>I AM PROCESSING A PRINT EDITION FILE!</xsl:message>
+  
                      <!--   <xsl:result-document href="P6-Pt2/{}" method="xml" indent="yes">
                             -->
                             <!--output filenames should look like this: 
                             
-                            f1818_vol_i_chapter_iii
+                            f1818_vol_1_chapter_iii
                             -->
-                            
-                            
+==
                             
                         <!--</xsl:result-document>-->
+                        <xsl:variable name="vol_info" as="xs:string?">
+                            <xsl:if test="$currFile ! base-uri()[not(contains(., 'f1831'))]">   
+                             
+                             <xsl:choose><!-- ebb: This must change when we have the whole edition. For right now.we're just processing collation units in the middle. -->
+                                <xsl:when test="preceding::tei:milestone[@unit='volume'][1]">
+                                   <xsl:value-of select="concat('_vol_', preceding::tei:milestone[@unit='volume'][1]/@n)"/>
+                                    
+                                </xsl:when>
+                          
+                                <xsl:otherwise>
+                                    <xsl:text>_vol_1</xsl:text>
+                                </xsl:otherwise>
+                                
+                            </xsl:choose></xsl:if>
+                            
+                        </xsl:variable>
+                        <xsl:variable name="chap_id" as="xs:string" select="following::tei:head[1]/following-sibling::text()[1] ! lower-case(.) ! replace(., '[.,:;]', '') ! tokenize(., ' ') => string-join('_') 
+                           "/>
+                        <xsl:variable name="editionInfo" as="xs:string" select="$currFile ! base-uri() ! tokenize(., '/')[last()] ! substring-before(., '.xml')"/>
+                        <xsl:result-document href="P6-Pt2-test/{$editionInfo}{$vol_info}_{$chap_id}.xml" method="xml" indent="yes">
+                            <TEI> 
+                                <teiHeader>
+                                    <titleSmt><title><xsl:value-of select="$editionInfo || ' ' || $vol_info || ' ' || $chap_id"/></title></titleSmt>
+                                </teiHeader>
+                                <text>
+                                    <body> 
+                                        <xsl:apply-templates select="current-group()"/>
+                                    </body>
+                                </text>
+                            </TEI>
+                           
+                            
+                        </xsl:result-document>
+                        
                    </xsl:for-each-group>
             </xsl:otherwise>
             </xsl:choose>
