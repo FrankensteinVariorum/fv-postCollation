@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../segMarkerTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+      xmlns:mith="http://mith.umd.edu/sc/ns1#"
+      xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
+      xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bridge Phase 5:  Witness fMS, Collation unit C18</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Frankenstein Variorum Project</authority>
+            <date>2023—</date>
+            <availability>
+               <licence>Distributed under a Creative Commons
+                                        Attribution-ShareAlike 3.0 Unported License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Produced from collation output prepared in batch file processing
+                                    on  2023-06-14 23:22:07.971552 .</p>
+            <p>Edited to correct alignments and prepared for the Frankenstein
+                                    Variorum spine on 2023-06-14T19:38:42.5011995-04:00.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="collation">
+            <anchor type="collate" xml:id="C18"/>
+            <milestone unit="tei:p-START"/>
+            <seg th:sID="C18_app6-fMS"/>
+            <lb n="c57-0015__main__19"/>I<seg th:eID="C18_app6-fMS"/>lay on my <seg th:sID="C18_app8-fMS"/>straw<seg th:eID="C18_app8-fMS"/>but I could not <seg th:sID="C18_app10-fMS"/>
+            <lb n="c57-0015__main__20"/>sleep –<seg th:eID="C18_app10-fMS"/>I thought of the <seg th:sID="C18_app12-fMS"/>occurences<seg th:eID="C18_app12-fMS"/>of <lb n="c57-0015__main__21"/>the <seg th:sID="C18_app14-fMS"/>day.–<seg th:eID="C18_app14-fMS"/>What <seg th:sID="C18_app16-fMS"/>cheifly<seg th:eID="C18_app16-fMS"/>struck me was <lb n="c57-0015__main__22"/>the gentle manners of these <seg th:sID="C18_app18-fMS"/>people,<seg th:eID="C18_app18-fMS"/>and <lb n="c57-0015__main__23"/>I longed to join <seg th:sID="C18_app20-fMS"/>them<seg th:eID="C18_app20-fMS"/>but dared <seg th:sID="C18_app22-fMS"/>not.—<seg th:eID="C18_app22-fMS"/>
+            <lb n="c57-0015__main__24"/>I remembered too well the treatment I <lb n="c57-0015__main__25"/>had suffered the night before <seg th:sID="C18_app24-fMS__I" part="I"/>fro<seg th:eID="C18_app24-fMS__I" part="I"/>
+            <mod xml:id="c57-0015__main__d4e3157">
+               <mdel ana="start"/>n<mdel ana="end"/>
+               <sga-add place="intralinear" xml:id="c57-0015__main__d4e3161">
+                  <seg th:sID="C18_app24-fMS__F" part="F"/>m<seg th:eID="C18_app24-fMS__F" part="F"/>
+               </sga-add>
+            </mod>
+            <lb n="c57-0015__main__26"/>the barbarous <seg th:sID="C18_app26-fMS"/>villagers<seg th:eID="C18_app26-fMS"/>and <seg th:sID="C18_app28-fMS"/>resolved<seg th:eID="C18_app28-fMS"/>
+            <lb n="c57-0015__main__27"/>whatever <seg th:sID="C18_app30-fMS__I" part="I"/>
+            <del ana="start" rend="strikethrough" xml:id="c57-0015__main__d4e3170"/>I<del ana="end"/>
+            <del ana="start"
+                  next="#c57-0015.03"
+                  rend="strikethrough"
+                  xml:id="c57-0015__main__d4e3173"/>should<del ana="end"/>
+            <sga-add place="sublinear" xml:id="c57-0015__main__d4e3176">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            </sga-add>
+            <seg th:eID="C18_app30-fMS__I" part="I"/>
+            <sga-add place="superlinear" xml:id="c57-0015__main__d4e3182">
+               <seg th:sID="C18_app30-fMS__F" part="F"/>course of conduct I might<seg th:eID="C18_app30-fMS__F" part="F"/>
+               <seg th:sID="C18_app31-fMS__I" part="I"/>
+               <seg th:eID="C18_app31-fMS__I" part="I"/>
+            </sga-add>
+            <del ana="start" rend="strikethrough" xml:id="c57-0015__main__d4e3185"/>afterwards<del ana="end"/>
+            <del ana="start"
+                  next="#c57-0015.04"
+                  rend="strikethrough"
+                  xml:id="c57-0015__main__d4e3188"/>think it<del ana="end"/>
+            <sga-add next="#c57-0015.05"
+                      place="superlinear"
+                      xml:id="c57-0015__main__d4e3192">
+               <seg th:sID="C18_app31-fMS__F" part="F"/>hereafter<seg th:eID="C18_app31-fMS__F" part="F"/>
+               <seg th:sID="C18_app32-fMS__I" part="I"/>consider <seg th:eID="C18_app32-fMS__I" part="I"/>
+            </sga-add>
+            <seg th:sID="C18_app32-fMS__F" part="F"/>
+            <lb n="c57-0015__main__28"/>
+            <del ana="start" rend="strikethrough" xml:id="c57-0015__main__d4e3197"/>right to do<del ana="end"/>
+            <seg th:eID="C18_app32-fMS__F" part="F"/>
+            <sga-add place="superlinear" xml:id="c57-0015__main__d4e3200">it <seg th:sID="C18_app34-fMS"/>proper<seg th:eID="C18_app34-fMS"/>to <seg th:sID="C18_app36-fMS"/>pursue<seg th:eID="C18_app36-fMS"/>that </sga-add>
+            <anchor xml:id="c57-0015.02"/>for the present I would <lb n="c57-0015__main__29"/>remain quietly in my <seg th:sID="C18_app39-fMS"/>hovel watching<seg th:eID="C18_app39-fMS"/>
+            <lb n="c57-0015__main__30"/>and endeavouring to discover the <seg th:sID="C18_app41-fMS"/>motive <lb n="c57-0016__main__1"/>of<seg th:eID="C18_app41-fMS"/>their <seg th:sID="C18_app43-fMS"/>
+            <del ana="start" rend="strikethrough" xml:id="c57-0016__main__d4e3221"/>motions<del ana="end"/> actions.—<seg th:eID="C18_app43-fMS"/>
+            <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <seg th:sID="C18_app45-fMS__I" part="I"/>
+            <lb n="c57-0016__main__2"/>The <seg th:eID="C18_app45-fMS__I" part="I"/>
+            <mod xml:id="c57-0016__main__d4e3228">
+               <mdel ana="start"/>y<mdel ana="end"/>
+               <sga-add place="sublinear" xml:id="c57-0016__main__d4e3232">
+                  <seg th:sID="C18_app45-fMS__F" part="F"/>
+                  <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+                  <seg th:eID="C18_app45-fMS__F" part="F"/>
+               </sga-add>
+               <sga-add place="superlinear" xml:id="c57-0016__main__d4e3238">cottagers </sga-add>
+            </mod>arose the next morning before <lb n="c57-0016__main__3"/>the <seg th:sID="C18_app48-fMS"/>sun;–<seg th:eID="C18_app48-fMS"/>The young woman arranged the <seg th:sID="C18_app50-fMS"/>
+            <lb n="c57-0016__main__4"/>cottage<seg th:eID="C18_app50-fMS"/>&amp; <seg th:sID="C18_app52-fMS"/>
+            <del ana="start" rend="strikethrough" xml:id="c57-0016__main__d4e3247"/>per<del ana="end"/> prepared the food; &amp; the <lb n="c57-0016__main__5"/>youth<seg th:eID="C18_app52-fMS"/>
+            <seg th:sID="C18_app53-fMS"/>mounted on a large strange animal <lb n="c57-0016__main__6"/>
+            <del ana="start" rend="strikethrough" xml:id="c57-0016__main__d4e3254"/>road<del ana="end"/> rode away. This<seg th:eID="C18_app53-fMS"/>day was passed in <lb n="c57-0016__main__7"/>the same routine <seg th:sID="C18_app55-fMS__I" part="I"/>
+            <seg th:eID="C18_app55-fMS__I" part="I"/>
+            <mod xml:id="c57-0016__main__d4e3260">
+               <del ana="start" rend="strikethrough" xml:id="c57-0016__main__d4e3262"/>and<del ana="end"/>
+               <sga-add hand="#pbs" place="superlinear" xml:id="c57-0016__main__d4e3265">
+                  <seg th:sID="C18_app55-fMS__F" part="F"/>as<seg th:eID="C18_app55-fMS__F" part="F"/>
+                  <seg th:sID="C18_app56-fMS__I" part="I"/>
+                  <seg th:eID="C18_app56-fMS__I" part="I"/>
+               </sga-add>
+            </mod>
+            <seg th:sID="C18_app56-fMS__F" part="F"/> the preceeding one.<seg th:eID="C18_app56-fMS__F" part="F"/>
+            <lb n="c57-0016__main__8"/>The <seg th:sID="C18_app58-fMS"/>
+            <del ana="start" rend="strikethrough" xml:id="c57-0016__main__d4e3271"/>young<del ana="end"/> young man was constantly <lb n="c57-0016__main__9"/>employed out of<seg th:eID="C18_app58-fMS"/>
+            <seg th:sID="C18_app59-fMS"/>doors<seg th:eID="C18_app59-fMS"/>and the girl in <lb n="c57-0016__main__10"/>various laborious occupations <mod xml:id="c57-0016__main__d4e3279">
+               <sga-add hand="#pbs" place="superlinear" xml:id="c57-0016__main__d4e3281">within. <seg th:sID="C18_app61-fMS__I" part="I"/>
+                  <seg th:eID="C18_app61-fMS__I" part="I"/>
+               </sga-add>
+               <sga-add hand="#pbs" place="intralinear" xml:id="c57-0016__main__d4e3284">. </sga-add>
+            </mod>
+            <seg th:sID="C18_app61-fMS__F" part="F"/> — The old<seg th:eID="C18_app61-fMS__F" part="F"/>
+            <seg th:sID="C18_app62-fMS"/>
+            <lb n="c57-0016__main__11"/>man<seg th:eID="C18_app62-fMS"/>whom I soon perceived to be <seg th:sID="C18_app64-fMS"/>blind<seg th:eID="C18_app64-fMS"/>
+            <lb n="c57-0016__main__12"/>employed his leisure hours <seg th:sID="C18_app66-fMS"/>in playing <lb n="c57-0016__main__13"/>on his<seg th:eID="C18_app66-fMS"/>
+            <seg th:sID="C18_app67-fMS"/>instrument<seg th:eID="C18_app67-fMS"/>or in <seg th:sID="C18_app69-fMS"/>
+            <del ana="start" rend="strikethrough" xml:id="c57-0016__main__d4e3294"/>pesively<del ana="end"/>
+            <lb n="c57-0016__main__14"/>contemplation –<seg th:eID="C18_app69-fMS"/>Nothing could exceed <lb n="c57-0016__main__15"/>the love &amp; respect <seg th:sID="C18_app71-fMS"/>that<seg th:eID="C18_app71-fMS"/>the younger <lb n="c57-0016__main__16"/>cottagers <seg th:sID="C18_app73-fMS"/>
+            <mod xml:id="c57-0016__main__d4e3304">
+               <del ana="start" rend="strikethrough" xml:id="c57-0016__main__d4e3306"/>bore<del ana="end"/>
+               <sga-add hand="#pbs" place="superlinear" xml:id="c57-0016__main__d4e3309">shewed </sga-add>
+            </mod>
+            <seg th:eID="C18_app73-fMS"/>towards <seg th:sID="C18_app75-fMS"/>this<seg th:eID="C18_app75-fMS"/>venerable <seg th:sID="C18_app77-fMS"/>
+            <lb n="c57-0016__main__17"/>old man –<seg th:eID="C18_app77-fMS"/>They performed towards <seg th:sID="C18_app79-fMS__I" part="I"/>
+            <seg th:eID="C18_app79-fMS__I" part="I"/>
+            <mod xml:id="c57-0016__main__d4e3315">
+               <sga-add place="sublinear" xml:id="c57-0016__main__d4e3317">
+                  <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+               </sga-add>
+               <sga-add place="superlinear" xml:id="c57-0016__main__d4e3323">
+                  <seg th:sID="C18_app79-fMS__F" part="F"/>him<seg th:eID="C18_app79-fMS__F" part="F"/>
+               </sga-add>
+            </mod>every <lb n="c57-0016__main__18"/>little office of <seg th:sID="C18_app81-fMS"/>
+            <mod xml:id="c57-0016__main__d4e3330">
+               <del ana="start" rend="strikethrough" xml:id="c57-0016__main__d4e3332"/>love<del ana="end"/>
+               <sga-add hand="#pbs" place="superlinear" xml:id="c57-0016__main__d4e3335">affection </sga-add>
+            </mod>&amp; duty with gentleness; <lb n="c57-0016__main__19"/>and he rewarded them by his<seg th:eID="C18_app81-fMS"/>
+            <seg th:sID="C18_app82-fMS"/>benevo<lb n="c57-0016__main__20"/>lent<seg th:eID="C18_app82-fMS"/>smiles. <seg th:sID="C18_app84-fMS"/>
+            <del ana="start" rend="strikethrough" xml:id="c57-0016__main__d4e3343"/>B<del ana="end"/>
+            <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <seg th:eID="C18_app84-fMS"/>
+            <seg th:sID="C18_app85-fMS"/>
+            <lb n="c57-0016__main__21"/>They<seg th:eID="C18_app85-fMS"/>were not <seg th:sID="C18_app87-fMS"/>however entirely<seg th:eID="C18_app87-fMS"/>
+            <seg th:sID="C18_app88-fMS"/>
+            <lb n="c57-0016__main__22"/>happy–The <del ana="start" rend="strikethrough" xml:id="c57-0016__main__d4e3353"/>youth<del ana="end"/>
+            <seg th:eID="C18_app88-fMS"/>young <seg th:sID="C18_app90-fMS"/>
+            <del ana="start" rend="strikethrough" xml:id="c57-0016__main__d4e3356"/>er<del ana="end"/> man<seg th:eID="C18_app90-fMS"/>
+            <seg th:sID="C18_app91-fMS"/>
+            <del ana="start" rend="strikethrough" xml:id="c57-0016__main__d4e3359"/>d<del ana="end"/> &amp; his<seg th:eID="C18_app91-fMS"/>
+            <seg th:sID="C18_app92-fMS"/>
+            <lb n="c57-0016__main__23"/>companion,<seg th:eID="C18_app92-fMS"/>often <seg th:sID="C18_app94-fMS"/>retired into a corner <lb n="c57-0016__main__24"/>of their common room and wept.<seg th:eID="C18_app94-fMS"/>I saw <lb n="c57-0016__main__25"/>no cause for <seg th:sID="C18_app96-fMS"/>this unhappiness<seg th:eID="C18_app96-fMS"/>but <lb n="c57-0016__main__26"/>I was deeply affected by <seg th:sID="C18_app98-fMS"/>it –<seg th:eID="C18_app98-fMS"/>If such <lb n="c57-0016__main__27"/>lovely creatures were <seg th:sID="C18_app100-fMS"/>miserable<seg th:eID="C18_app100-fMS"/>it was <lb n="c57-0016__main__28"/>less strange that <seg th:sID="C18_app102-fMS"/>
+            <del ana="start" rend="strikethrough" xml:id="c57-0016__main__d4e3375"/>alone<del-INNER ana="start" rend="strikethrough" xml:id="c57-0016__main__d4e3377"/>' d<del-INNER ana="end"/>
+            <del ana="end"/> I, an imperfect <lb n="c57-0016__main__29"/>and solitary<seg th:eID="C18_app102-fMS"/>
+            <seg th:sID="C18_app103-fMS"/>being<seg th:eID="C18_app103-fMS"/>should be <seg th:sID="C18_app105-fMS"/>wretched—<seg th:eID="C18_app105-fMS"/>
+            <lb n="c57-0017__main__1"/>yet why were these gentle beings <seg th:sID="C18_app107-fMS"/>un <lb n="c57-0017__main__2"/>happy –<seg th:eID="C18_app107-fMS"/>they <seg th:sID="C18_app109-fMS"/>poss<mod xml:id="c57-0017__main__d4e3395">
+               <sga-add place="sublinear" xml:id="c57-0017__main__d4e3397">
+                  <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+               </sga-add>
+               <sga-add place="superlinear" xml:id="c57-0017__main__d4e3403">ess</sga-add>
+            </mod>ed<seg th:eID="C18_app109-fMS"/>a delightful house <seg th:sID="C18_app111-fMS__I" part="I"/>
+            <lb n="c57-0017__main__3"/>
+            <anchor xml:id="c57-0017.01"/>
+            <lb n="c57-0017__left_margin__1"/>
+            <seg th:eID="C18_app111-fMS__I" part="I"/>
+            <sga-add xml:id="c57-0017__left_margin__d4e3416">
+               <seg th:sID="C18_app111-fMS__F" part="F"/>for<seg th:eID="C18_app111-fMS__F" part="F"/>
+            </sga-add>such <seg th:sID="C18_app113-fMS__I" part="I"/>
+            <seg th:eID="C18_app113-fMS__I" part="I"/>
+            <mod xml:id="c57-0017__main__d4e3419">
+               <sga-add place="sublinear" xml:id="c57-0017__main__d4e3421">
+                  <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+               </sga-add>
+               <sga-add place="superlinear" xml:id="c57-0017__main__d4e3427">
+                  <seg th:sID="C18_app113-fMS__F" part="F"/>it<seg th:eID="C18_app113-fMS__F" part="F"/>
+               </sga-add>
+            </mod>was <seg th:sID="C18_app115-fMS__I" part="I"/>
+            <seg th:eID="C18_app115-fMS__I" part="I"/>
+            <mod xml:id="c57-0017__main__d4e3431">
+               <mdel ana="start"/>it<mdel ana="end"/>
+               <mdel ana="start"/>to<mdel ana="end"/>
+               <sga-add place="superlinear" xml:id="c57-0017__main__d4e3437">
+                  <seg th:sID="C18_app115-fMS__F" part="F"/>in<seg th:eID="C18_app115-fMS__F" part="F"/>
+               </sga-add>
+            </mod>my <seg th:sID="C18_app117-fMS"/>eyes)<seg th:eID="C18_app117-fMS"/>and every <seg th:sID="C18_app119-fMS"/>
+            <lb n="c57-0017__main__4"/>luxury.<seg th:eID="C18_app119-fMS"/>they had a fire to warm <lb n="c57-0017__main__5"/>them when <seg th:sID="C18_app121-fMS"/>chill<seg th:eID="C18_app121-fMS"/>and delicious <sga-add place="intralinear" xml:id="c57-0017__main__d4e3445">viands </sga-add>
+            <lb n="c57-0017__main__6"/>when <seg th:sID="C18_app123-fMS"/>hungry–<seg th:eID="C18_app123-fMS"/>they were dressed <seg th:sID="C18_app125-fMS"/>
+            <lb n="c57-0017__main__7"/>
+            <del ana="start" rend="strikethrough" xml:id="c57-0017__main__d4e3453"/>in clothes that kept t<del ana="end"/> in<seg th:eID="C18_app125-fMS"/>
+            <seg th:sID="C18_app126-fMS"/>excel<lb n="c57-0017__main__8"/>lent clothes and<seg th:eID="C18_app126-fMS"/>still <seg th:sID="C18_app128-fMS"/>more<seg th:eID="C18_app128-fMS"/>they <seg th:sID="C18_app130-fMS"/>enjoy<lb n="c57-0017__main__9"/>ed<seg th:eID="C18_app130-fMS"/>one <seg th:sID="C18_app132-fMS"/>anothers<seg th:eID="C18_app132-fMS"/>company <sga-add place="superlinear" xml:id="c57-0017__main__d4e3460">&amp; <seg th:sID="C18_app134-fMS__I" part="I"/>speech<seg th:eID="C18_app134-fMS__I" part="I"/>
+            </sga-add>
+            <seg th:sID="C18_app134-fMS__F" part="F"/> — and <del ana="start" rend="strikethrough" xml:id="c57-0017__main__d4e3464"/>saw<del ana="end"/>
+            <lb n="c57-0017__main__10"/>
+            <anchor xml:id="c57-0017.02"/>
+            <zone corresp="#c57-0017.02"
+                   type="left_margin"
+                   xml:id="c57-0017.02__left_margin">
+               <lb n="c57-0017__left_margin__1"/>
+               <sga-add xml:id="c57-0017__left_margin__d4e3475">interchanged </sga-add>
+            </zone>
+            <seg th:eID="C18_app134-fMS__F" part="F"/>each day looks of affection &amp; <seg th:sID="C18_app136-fMS"/>kindness–<seg th:eID="C18_app136-fMS"/>
+            <lb n="c57-0017__main__11"/>What did their tears <seg th:sID="C18_app138-fMS"/>mean?<seg th:eID="C18_app138-fMS"/>Did they <lb n="c57-0017__main__12"/>really express pain? I was at first <lb n="c57-0017__main__13"/>unable to solve these <seg th:sID="C18_app140-fMS"/>questions<seg th:eID="C18_app140-fMS"/>but <lb n="c57-0017__main__14"/>perpetual <seg th:sID="C18_app142-fMS"/>attention<seg th:eID="C18_app142-fMS"/>and <seg th:sID="C18_app144-fMS"/>time<seg th:eID="C18_app144-fMS"/>
+            <lb n="c57-0017__main__15"/>explained to me many <seg th:sID="C18_app146-fMS"/>of the appear<lb n="c57-0017__main__16"/>ances<seg th:eID="C18_app146-fMS"/>which at first <seg th:sID="C18_app150-fMS__I" part="I"/>seemed <lb n="c57-0017__main__17"/>
+            <mod xml:id="c57-0017__main__d4e3493">
+               <del ana="start" rend="strikethrough" xml:id="c57-0017__main__d4e3495"/>igmmatic<del ana="end"/>
+               <sga-add hand="#pbs" place="superlinear" xml:id="c57-0017__main__d4e3498">enigmatic </sga-add>
+            </mod> . <note ana="start" resp="#pbs"/>o you pretty Pecksie!<note ana="end"/>
+            <lb n="c57-0018__main__1"/>
+            <milestone spanTo="#c57-0018.05" unit="tei:head"/> Chap. 3 <anchor xml:id="c57-0018.05"/>
+            <lb n="c57-0018__main__2"/>
+            <seg th:eID="C18_app150-fMS__I" part="I"/>
+            <mod xml:id="c57-0018__main__d4e3521">
+               <del ana="start" rend="strikethrough" xml:id="c57-0018__main__d4e3523"/>It was some time<del ana="end"/>
+               <sga-add place="sublinear" xml:id="c57-0018__main__d4e3526">
+                  <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+               </sga-add>
+               <sga-add place="superlinear" xml:id="c57-0018__main__d4e3532">
+                  <seg th:sID="C18_app150-fMS__F" part="F"/>A<seg th:eID="C18_app150-fMS__F" part="F"/>considerable period elapsed </sga-add>
+            </mod>before I discovered one <lb n="c57-0018__main__3"/>
+            <anchor xml:id="c57-0018.01"/>
+            <lb n="c57-0018__left_margin__1"/>
+            <sga-add hand="#pbs" xml:id="c57-0018__left_margin__d4e3545">of the </sga-add>cause<sga-add hand="#pbs" xml:id="c57-0018__main__d4e3549">s</sga-add> of the uneasiness of this amiable <seg th:sID="C18_app154-fMS__I" part="I"/>
+            <lb n="c57-0018__main__4"/>family – <seg th:eID="C18_app154-fMS__I" part="I"/>
+            <mod xml:id="c57-0018__main__d4e3554">
+               <mdel ana="start"/>It<mdel ana="end"/>
+               <del ana="start" rend="strikethrough" xml:id="c57-0018__main__d4e3558"/>Itw<del ana="end"/>
+               <sga-add place="sublinear" xml:id="c57-0018__main__d4e3561">
+                  <seg th:sID="C18_app154-fMS__F" part="F"/>
+                  <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+                  <seg th:eID="C18_app154-fMS__F" part="F"/>
+               </sga-add>
+               <sga-add place="superlinear" xml:id="c57-0018__main__d4e3567">It </sga-add>
+            </mod>was <seg th:sID="C18_app157-fMS"/>poverty–<seg th:eID="C18_app157-fMS"/>
+            <seg th:sID="C18_app158-fMS"/>and they suffered <lb n="c57-0018__main__5"/>that evil in a very distressing<seg th:eID="C18_app158-fMS"/>
+            <seg th:sID="C18_app159-fMS"/>degree– <delSpan rend="strikethrough" spanTo="#c57-0018.02"/>Dur<lb n="c57-0018__main__6"/>ring the winter <delSpan anchor="c57-0018.02"/>
+            <del ana="start" rend="strikethrough" xml:id="c57-0018__main__d4e3580"/>They often had hardly any<del ana="end"/>
+            <seg th:eID="C18_app159-fMS"/>
+            <lb n="c57-0018__main__7"/>their nourishment consisted entirely of <seg th:sID="C18_app161-fMS"/>bread <lb n="c57-0018__main__8"/>
+            <del ana="start" rend="strikethrough" xml:id="c57-0018__main__d4e3588"/>and –<del ana="end"/> the vegetables of their<seg th:eID="C18_app161-fMS"/>
+            <seg th:sID="C18_app162-fMS"/>garden<seg th:eID="C18_app162-fMS"/>and the <lb n="c57-0018__main__9"/>milk of one <seg th:sID="C18_app164-fMS"/>cow<seg th:eID="C18_app164-fMS"/>
+            <seg th:sID="C18_app165-fMS"/>which<seg th:eID="C18_app165-fMS"/>gave very little <lb n="c57-0018__main__10"/>during the <seg th:sID="C18_app167-fMS"/>
+            <del ana="start" rend="strikethrough" xml:id="c57-0018__main__d4e3595"/>hard<del ana="end"/>
+            <del ana="start" rend="strikethrough" xml:id="c57-0018__main__d4e3598"/>monthes<del ana="end"/> winter<seg th:eID="C18_app167-fMS"/>when <seg th:sID="C18_app169-fMS"/>
+            <lb n="c57-0018__main__11"/>
+            <del ana="start" rend="strikethrough" xml:id="c57-0018__main__d4e3604"/>the<del ana="end"/> its masters could<seg th:eID="C18_app169-fMS"/>
+            <seg th:sID="C18_app170-fMS__I" part="I"/>
+            <del ana="start" rend="strikethrough" xml:id="c57-0018__main__d4e3607"/>spare<del ana="end"/>
+            <seg th:eID="C18_app170-fMS__I" part="I"/>
+            <sga-add place="superlinear" xml:id="c57-0018__main__d4e3610">
+               <seg th:sID="C18_app170-fMS__F" part="F"/>scarcely<seg th:eID="C18_app170-fMS__F" part="F"/>
+               <seg th:sID="C18_app171-fMS__I" part="I"/>
+               <seg th:eID="C18_app171-fMS__I" part="I"/>
+            </sga-add>
+            <seg th:sID="C18_app171-fMS__F" part="F"/>
+            <delSpan rend="strikethrough" spanTo="#c57-0018.04"/>very little <lb n="c57-0018__main__12"/>money towards the <delSpan anchor="c57-0018.04"/>
+            <anchor xml:id="c57-0018.03"/> procur <mod xml:id="c57-0018__main__d4e3622">
+               <mdel ana="start"/>i<mdel ana="end"/>
+               <sga-add place="intralinear" xml:id="c57-0018__main__d4e3626">e </sga-add>
+               <mdel ana="start"/>ng<mdel ana="end"/>
+            </mod>
+            <mod xml:id="c57-0018__main__d4e3632">
+               <sga-add place="sublinear" xml:id="c57-0018__main__d4e3634">
+                  <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+               </sga-add>
+               <sga-add place="superlinear" xml:id="c57-0018__main__d4e3640">any </sga-add>
+               <mdel ana="start"/>of<mdel ana="end"/>
+            </mod>
+            <seg th:eID="C18_app171-fMS__F" part="F"/>food <seg th:sID="C18_app173-fMS"/>for<seg th:eID="C18_app173-fMS"/>it. <seg th:sID="C18_app175-fMS"/>
+            <lb n="c57-0018__main__13"/>
+            <del ana="start" rend="strikethrough" xml:id="c57-0018__main__d4e3648"/>This state of poverty<del ana="end"/> They<seg th:eID="C18_app175-fMS"/>
+            <seg th:sID="C18_app176-fMS"/>often<seg th:eID="C18_app176-fMS"/>I <seg th:sID="C18_app178-fMS"/>believe <del ana="start" rend="strikethrough" xml:id="c57-0018__main__d4e3652"/>d<del ana="end"/>
+            <seg th:eID="C18_app178-fMS"/>
+            <lb n="c57-0018__main__14"/>suffered the pangs of hunger very <seg th:sID="C18_app180-fMS"/>poi<lb n="c57-0018__main__15"/>gnantly<seg th:eID="C18_app180-fMS"/>especially the <sga-add hand="#pbs" place="superlinear" xml:id="c57-0018__main__d4e3659">two <seg th:sID="C18_app182-fMS__I" part="I"/>
+               <seg th:eID="C18_app182-fMS__I" part="I"/>
+            </sga-add> young <mod xml:id="c57-0018__main__d4e3662">
+               <seg th:sID="C18_app182-fMS__F" part="F"/>
+               <sga-add place="sublinear" xml:id="c57-0018__main__d4e3664">er </sga-add>
+               <del ana="start" rend="strikethrough" xml:id="c57-0018__main__d4e3667"/>er part<del ana="end"/>
+               <seg th:eID="C18_app182-fMS__F" part="F"/>
+            </mod>
+            <lb n="c57-0018__main__16"/>for <seg th:sID="C18_app184-fMS__I" part="I"/>
+            <sga-add place="sublinear" xml:id="c57-0018__main__d4e3674">
+               <metamark ana="start"/>^<metamark ana="end"/>
+            </sga-add>
+            <seg th:eID="C18_app184-fMS__I" part="I"/>
+            <sga-add place="superlinear" xml:id="c57-0018__main__d4e3679">
+               <seg th:sID="C18_app184-fMS__F" part="F"/>several times<seg th:eID="C18_app184-fMS__F" part="F"/>
+            </sga-add>they <seg th:sID="C18_app186-fMS"/>
+            <del ana="start" rend="strikethrough" xml:id="c57-0018__main__d4e3682"/>often<del ana="end"/> placed food before the old<seg th:eID="C18_app186-fMS"/>
+            <seg th:sID="C18_app187-fMS"/>
+            <lb n="c57-0018__main__17"/>man<seg th:eID="C18_app187-fMS"/>when <seg th:sID="C18_app189-fMS"/>
+            <mod xml:id="c57-0018__main__d4e3687">
+               <del ana="start" rend="strikethrough" xml:id="c57-0018__main__d4e3689"/>they<del ana="end"/>
+               <sga-add place="sublinear" xml:id="c57-0018__main__d4e3692">
+                  <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+               </sga-add>
+               <del ana="start" rend="strikethrough" xml:id="c57-0018__main__d4e3698"/>
+               <sga-add place="superlinear" xml:id="c57-0018__main__d4e3700">were </sga-add>
+               <del ana="end"/>
+            </mod>
+            <del ana="start" rend="strikethrough" xml:id="c57-0018__main__d4e3705"/>themselves in want of it<del ana="end"/>
+            <lb n="c57-0018__main__18"/>they<seg th:eID="C18_app189-fMS"/>
+            <seg th:sID="C18_app190-fMS"/>had<seg th:eID="C18_app190-fMS"/>none for <seg th:sID="C18_app192-fMS"/>
+            <del ana="start" rend="strikethrough" xml:id="c57-0018__main__d4e3711"/>their<del ana="end"/> themselves –This<seg th:eID="C18_app192-fMS"/>
+            <lb n="c57-0018__main__19"/>trait of kindness moved me sensibly. <lb n="c57-0018__main__20"/>I had been <seg th:sID="C18_app194-fMS"/>accustomed<seg th:eID="C18_app194-fMS"/>during the <seg th:sID="C18_app196-fMS"/>night<seg th:eID="C18_app196-fMS"/>
+            <lb n="c57-0018__main__21"/>to steal a part of their store for my <lb n="c57-0018__main__22"/>own consumption; but when I found <lb n="c57-0018__main__23"/>that in doing this I inflicted pain on the <lb n="c57-0018__main__24"/>cottagers, I abstained, and satisfied <seg th:sID="C18_app198-fMS"/>my<lb n="c57-0018__main__25"/>self<seg th:eID="C18_app198-fMS"/>with <seg th:sID="C18_app200-fMS"/>berries nuts<seg th:eID="C18_app200-fMS"/>and <seg th:sID="C18_app202-fMS"/>roots<seg th:eID="C18_app202-fMS"/>which <lb n="c57-0018__main__26"/>I <seg th:sID="C18_app204-fMS__I" part="I"/>
+            <seg th:eID="C18_app204-fMS__I" part="I"/>
+            <mod xml:id="c57-0018__main__d4e3731">
+               <del ana="start" rend="strikethrough" xml:id="c57-0018__main__d4e3733"/>found<del ana="end"/>
+               <mdel ana="start"/>in<mdel ana="end"/>
+               <sga-add hand="#pbs" place="superlinear" xml:id="c57-0018__main__d4e3738">
+                  <seg th:sID="C18_app204-fMS__F" part="F"/>gathered from<seg th:eID="C18_app204-fMS__F" part="F"/>
+               </sga-add>
+            </mod>a neighbouring <sga-add place="superlinear" xml:id="c57-0018__main__d4e3742">wood. <seg th:sID="C18_app206-fMS__I" part="I"/>
+               <seg th:eID="C18_app206-fMS__I" part="I"/>
+            </sga-add>
+            <seg th:sID="C18_app206-fMS__F" part="F"/> I <mod xml:id="c57-0018__main__d4e3746">
+               <del ana="start" rend="strikethrough" xml:id="c57-0018__main__d4e3748"/>found<del ana="end"/>
+               <sga-add place="sublinear" xml:id="c57-0018__main__d4e3751">
+                  <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+               </sga-add>
+               <sga-add place="superlinear" xml:id="c57-0018__main__d4e3757">discovered</sga-add>
+            </mod>
+            <seg th:eID="C18_app206-fMS__F" part="F"/>also <lb n="c57-0018__main__27"/>another means <seg th:sID="C18_app208-fMS"/>by<seg th:eID="C18_app208-fMS"/>which I was <seg th:sID="C18_app210-fMS"/>able<seg th:eID="C18_app210-fMS"/>
+            <lb n="c57-0018__main__28"/>to assist their labours. I found that the <lb n="c57-0019__main__1"/>youth spent a great part of each <lb n="c57-0019__main__2"/>day in <seg th:sID="C18_app213-fMS"/>
+            <del ana="start" rend="strikethrough" xml:id="c57-0019__main__d4e3777"/>felling<del ana="end"/> collecting wood for the <lb n="c57-0019__main__3"/>family<seg th:eID="C18_app213-fMS"/>
+            <seg th:sID="C18_app214-fMS"/>fire–and<seg th:eID="C18_app214-fMS"/>during the <seg th:sID="C18_app216-fMS"/>night<seg th:eID="C18_app216-fMS"/>I often <lb n="c57-0019__main__4"/>took his <seg th:sID="C18_app218-fMS"/>tools<seg th:eID="C18_app218-fMS"/>the <seg th:sID="C18_app220-fMS"/>
+            <del ana="start" rend="strikethrough" xml:id="c57-0019__main__d4e3785"/>
+            <unclear ana="start"/>com<unclear ana="end"/>
+            <del ana="end"/> use of which I <lb n="c57-0019__main__5"/>quickly<seg th:eID="C18_app220-fMS"/>
+            <seg th:sID="C18_app221-fMS"/>discovered<seg th:eID="C18_app221-fMS"/>and brought home <seg th:sID="C18_app223-fMS"/>
+            <lb n="c57-0019__main__6"/>
+            <del ana="start" rend="strikethrough" xml:id="c57-0019__main__d4e3794"/>for them<del ana="end"/> firing sufficient<seg th:eID="C18_app223-fMS"/>
+            <seg th:sID="C18_app224-fMS__I" part="I"/>
+            <seg th:eID="C18_app224-fMS__I" part="I"/>
+            <mod xml:id="c57-0019__main__d4e3797">
+               <sga-add place="sublinear" xml:id="c57-0019__main__d4e3799">
+                  <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+               </sga-add>
+               <sga-add place="superlinear" xml:id="c57-0019__main__d4e3805">
+                  <seg th:sID="C18_app224-fMS__F" part="F"/>for the consumption<seg th:eID="C18_app224-fMS__F" part="F"/>
+                  <seg th:sID="C18_app225-fMS__I" part="I"/>
+                  <seg th:eID="C18_app225-fMS__I" part="I"/>
+               </sga-add>
+            </mod>
+            <seg th:sID="C18_app225-fMS__F" part="F"/>
+            <del ana="start" rend="strikethrough" xml:id="c57-0019__main__d4e3809"/>f<del ana="end"/> o <mod xml:id="c57-0019__main__d4e3813">
+               <mdel ana="start"/>r<mdel ana="end"/>
+               <sga-add place="intralinear" xml:id="c57-0019__main__d4e3817">f </sga-add>
+            </mod> seve <lb n="c57-0019__main__7"/>ral days–<seg th:eID="C18_app225-fMS__F" part="F"/>
+            <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <seg th:sID="C18_app227-fMS"/>
+            <metamark ana="start" function="paragraph"/>[<metamark ana="end"/> I remember<seg th:eID="C18_app227-fMS"/>the first time <sga-add hand="#pbs" place="superlinear" xml:id="c57-0019__main__d4e3828">that </sga-add>I <lb n="c57-0019__main__8"/>did this, the young <seg th:sID="C18_app230-fMS"/>woman who<seg th:eID="C18_app230-fMS"/>opened <lb n="c57-0019__main__9"/>the door in the <seg th:sID="C18_app232-fMS__I" part="I"/>morning <seg th:eID="C18_app232-fMS__I" part="I"/>
+            <mod xml:id="c57-0019__main__d4e3836">
+               <seg th:sID="C18_app232-fMS__F" part="F"/>
+               <del ana="start" rend="strikethrough" xml:id="c57-0019__main__d4e3838"/>was<del ana="end"/>
+               <seg th:eID="C18_app232-fMS__F" part="F"/>
+               <sga-add hand="#pbs" place="superlinear" xml:id="c57-0019__main__d4e3841">appeared </sga-add>
+            </mod>greatly <seg th:sID="C18_app235-fMS"/>
+            <delSpan rend="strikethrough" spanTo="#c57-0019.02"/>sur <lb n="c57-0019__main__10"/>prised <delSpan anchor="c57-0019.02"/>
+            <sga-add hand="#pbs" place="superlinear" xml:id="c57-0019__main__d4e3851">astonished </sga-add>
+            <anchor xml:id="c57-0019.01"/> to see<seg th:eID="C18_app235-fMS"/>a great pile of wood on <lb n="c57-0019__main__11"/>the <seg th:sID="C18_app237-fMS"/>outside –<seg th:eID="C18_app237-fMS"/>she <seg th:sID="C18_app239-fMS"/>said<seg th:eID="C18_app239-fMS"/>some words in a <lb n="c57-0019__main__12"/>loud voice, &amp; <seg th:sID="C18_app241-fMS"/>presently the youth joined<seg th:eID="C18_app241-fMS"/>
+            <seg th:sID="C18_app242-fMS"/>
+            <lb n="c57-0019__main__13"/>her<seg th:eID="C18_app242-fMS"/>who also <seg th:sID="C18_app244-fMS"/>appeared astonished. <del ana="start" rend="strikethrough" xml:id="c57-0019__main__d4e3863"/>and<del ana="end"/>
+            <seg th:eID="C18_app244-fMS"/>
+            <lb n="c57-0019__main__14"/>I <seg th:sID="C18_app246-fMS"/>observed <del ana="start" rend="strikethrough" xml:id="c57-0019__main__d4e3869"/>th<del ana="end"/>
+            <seg th:eID="C18_app246-fMS"/>with <seg th:sID="C18_app248-fMS"/>pleasure<seg th:eID="C18_app248-fMS"/>that he <lb n="c57-0019__main__15"/>did not go to the <seg th:sID="C18_app250-fMS__I" part="I"/>
+            <seg th:eID="C18_app250-fMS__I" part="I"/>
+            <mod xml:id="c57-0019__main__d4e3874">
+               <del ana="start" rend="strikethrough" xml:id="c57-0019__main__d4e3876"/>wood<del ana="end"/>
+               <sga-add place="sublinear" xml:id="c57-0019__main__d4e3879">
+                  <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+               </sga-add>
+               <sga-add place="superlinear" xml:id="c57-0019__main__d4e3885">
+                  <seg th:sID="C18_app250-fMS__F" part="F"/>forest<seg th:eID="C18_app250-fMS__F" part="F"/>
+               </sga-add>
+            </mod>that <seg th:sID="C18_app252-fMS"/>day<seg th:eID="C18_app252-fMS"/>but <lb n="c57-0019__main__16"/>spent it in repairing the <seg th:sID="C18_app254-fMS"/>cottage<seg th:eID="C18_app254-fMS"/>&amp; <seg th:sID="C18_app256-fMS"/>in <lb n="c57-0019__main__17"/>cultivating the<seg th:eID="C18_app256-fMS"/>
+            <seg th:sID="C18_app257-fMS"/>garden.—<seg th:eID="C18_app257-fMS"/>
+            <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <seg th:sID="C18_app259-fMS__I" part="I"/>
+            <lb n="c57-0019__main__18"/>
+            <seg th:eID="C18_app259-fMS__I" part="I"/>
+            <mod xml:id="c57-0019__main__d4e3898">
+               <del ana="start" rend="strikethrough" xml:id="c57-0019__main__d4e3900"/>Soon after<del ana="end"/>
+               <sga-add place="sublinear" xml:id="c57-0019__main__d4e3903">
+                  <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+               </sga-add>
+               <sga-add place="superlinear" xml:id="c57-0019__main__d4e3909">
+                  <seg th:sID="C18_app259-fMS__F" part="F"/>By<seg th:eID="C18_app259-fMS__F" part="F"/>degrees <seg th:sID="C18_app261-fMS__I" part="I"/>also <seg th:eID="C18_app261-fMS__I" part="I"/>
+               </sga-add>
+            </mod>
+            <seg th:sID="C18_app261-fMS__F" part="F"/> I made<seg th:eID="C18_app261-fMS__F" part="F"/>
+            <seg th:sID="C18_app262-fMS"/>another<seg th:eID="C18_app262-fMS"/>discovery <seg th:sID="C18_app264-fMS__I" part="I"/>
+            <lb n="c57-0019__main__19"/>
+            <seg th:eID="C18_app264-fMS__I" part="I"/>
+            <mod xml:id="c57-0019__main__d4e3915">
+               <seg th:sID="C18_app264-fMS__F" part="F"/>
+               <del ana="start" rend="strikethrough" xml:id="c57-0019__main__d4e3917"/>which was that<del ana="end"/>
+               <anchor xml:id="c57-0019.03"/>
+               <lb n="c57-0019__left_margin__1"/>
+               <del ana="start"
+                     rend="strikethrough"
+                     xml:id="c57-0019__left_margin__d4e3928"/>to me<del ana="end"/> of still <lb n="c57-0019__left_margin__2"/>greater<seg th:eID="C18_app264-fMS__F" part="F"/>
+               <seg th:sID="C18_app265-fMS"/>
+               <lb n="c57-0019__left_margin__3"/>moment <mod xml:id="c57-0019__left_margin__d4e3936">
+                  <sga-add place="sublinear" xml:id="c57-0019__left_margin__d4e3938">
+                     <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+                  </sga-add>
+                  <sga-add hand="#pbs"
+                            place="superlinear"
+                            xml:id="c57-0019__left_margin__d4e3944">to me </sga-add>
+               </mod>
+               <seg th:eID="C18_app265-fMS"/>I <lb n="c57-0019__left_margin__4"/>found <seg th:sID="C18_app267-fMS__I" part="I"/>
+               <anchor xml:id="c57-0019.04"/>
+               <seg th:eID="C18_app267-fMS__I" part="I"/>
+            </mod>
+            <mod xml:id="c57-0019__main__d4e3954">
+               <sga-add place="sublinear" xml:id="c57-0019__main__d4e3956">
+                  <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+               </sga-add>
+               <sga-add place="superlinear" xml:id="c57-0019__main__d4e3962">
+                  <seg th:sID="C18_app267-fMS__F" part="F"/>that<seg th:eID="C18_app267-fMS__F" part="F"/>
+               </sga-add>
+            </mod>these people <seg th:sID="C18_app269-fMS"/>
+            <mod xml:id="c57-0019__main__d4e3966">
+               <mdel ana="start"/>ha<mdel ana="end"/>
+               <mdel ana="start"/>d<mdel ana="end"/>
+               <sga-add hand="#pbs" place="superlinear" xml:id="c57-0019__main__d4e3972">posessed </sga-add>
+            </mod>
+            <seg th:eID="C18_app269-fMS"/>a <seg th:sID="C18_app271-fMS__I" part="I"/>
+            <lb n="c57-0019__main__20"/>
+            <seg th:eID="C18_app271-fMS__I" part="I"/>
+            <mod xml:id="c57-0019__main__d4e3979">
+               <del ana="start" rend="strikethrough" xml:id="c57-0019__main__d4e3981"/>means<del ana="end"/>
+               <sga-add hand="#pbs" place="superlinear" xml:id="c57-0019__main__d4e3984">
+                  <seg th:sID="C18_app271-fMS__F" part="F"/>method<seg th:eID="C18_app271-fMS__F" part="F"/>
+               </sga-add>
+            </mod>of communicating their <seg th:sID="C18_app273-fMS"/>
+            <del ana="start" rend="strikethrough" xml:id="c57-0019__main__d4e3988"/>ideas<del ana="end"/>
+            <sga-add hand="#pbs"
+                      next="#c57-0019.06"
+                      place="superlinear"
+                      xml:id="c57-0019__main__d4e3991">experience &amp;</sga-add>
+            <seg th:eID="C18_app273-fMS"/>
+            <seg th:sID="C18_app274-fMS__I" part="I"/>to <lb n="c57-0019__main__21"/>
+            <seg th:eID="C18_app274-fMS__I" part="I"/>
+            <sga-add hand="#pbs" place="superlinear" xml:id="c57-0019__main__d4e3996">
+               <seg th:sID="C18_app274-fMS__F" part="F"/>feelings<seg th:eID="C18_app274-fMS__F" part="F"/>
+            </sga-add>
+            <anchor xml:id="c57-0019.05"/>one another by articulate <seg th:sID="C18_app276-fMS"/>sounds which <lb n="c57-0019__main__22"/>they uttered <del ana="start" rend="strikethrough" xml:id="c57-0019__main__d4e4004"/>
+            <sga-add place="superlinear" xml:id="c57-0019__main__d4e4006">som </sga-add>
+            <del ana="end"/> — <del ana="start" rend="strikethrough" xml:id="c57-0019__main__d4e4010"/>w<del ana="end"/>
+            <seg th:eID="C18_app276-fMS"/>I <seg th:sID="C18_app278-fMS"/>
+            <del ana="start" rend="strikethrough" xml:id="c57-0019__main__d4e4013"/>often<del ana="end"/> percieved<seg th:eID="C18_app278-fMS"/>that <lb n="c57-0019__main__23"/>the words they spoke <seg th:sID="C18_app280-fMS"/>
+            <mod xml:id="c57-0019__main__d4e4022">
+               <sga-add place="sublinear" xml:id="c57-0019__main__d4e4024">
+                  <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+               </sga-add>
+               <sga-add place="superlinear" xml:id="c57-0019__main__d4e4030">sometimes </sga-add>
+            </mod>
+            <seg th:eID="C18_app280-fMS"/>produced <seg th:sID="C18_app282-fMS"/>plea<lb n="c57-0019__main__24"/>sure<seg th:eID="C18_app282-fMS"/>pain, smiles or <seg th:sID="C18_app284-fMS"/>sadness<seg th:eID="C18_app284-fMS"/>in the <lb n="c57-0019__main__25"/>
+            <anchor xml:id="c57-0019.07"/>
+            <lb n="c57-0019__left_margin__1"/>
+            <sga-add xml:id="c57-0019__left_margin__d4e4044">minds &amp;</sga-add> countenances of the <seg th:sID="C18_app286-fMS"/>hear <mod xml:id="c57-0019__main__d4e4048">
+               <mdel ana="start"/>ee<mdel ana="end"/>
+               <sga-add place="intralinear" xml:id="c57-0019__main__d4e4052">ers </sga-add>
+            </mod> –<seg th:eID="C18_app286-fMS"/>This was <lb n="c57-0019__main__26"/>indeed a Godlike <seg th:sID="C18_app288-fMS"/>science<seg th:eID="C18_app288-fMS"/>and I ardently <seg th:sID="C18_app290-fMS__I" part="I"/>
+            <lb n="c57-0019__main__27"/>
+            <seg th:eID="C18_app290-fMS__I" part="I"/>
+            <mod xml:id="c57-0019__main__d4e4060">
+               <del ana="start" rend="strikethrough" xml:id="c57-0019__main__d4e4062"/>wished<del ana="end"/>
+               <anchor xml:id="c57-0019.08"/>
+               <lb n="c57-0019__left_margin__1"/>
+               <sga-add xml:id="c57-0019__left_margin__d4e4071">
+                  <seg th:sID="C18_app290-fMS__F" part="F"/>desired<seg th:eID="C18_app290-fMS__F" part="F"/>
+               </sga-add>
+            </mod>to become acquainted with <seg th:sID="C18_app292-fMS"/>it–But<seg th:eID="C18_app292-fMS"/>
+            <lb n="c57-0019__main__28"/>I was baffled in every attempt <seg th:sID="C18_app294-fMS__I" part="I"/>
+            <seg th:eID="C18_app294-fMS__I" part="I"/>
+            <mod xml:id="c57-0019__main__d4e4077">
+               <del ana="start" rend="strikethrough" xml:id="c57-0019__main__d4e4079"/>they<del ana="end"/>
+               <sga-add place="superlinear" xml:id="c57-0019__main__d4e4082">
+                  <seg th:sID="C18_app294-fMS__F" part="F"/>I<seg th:eID="C18_app294-fMS__F" part="F"/>
+               </sga-add>
+            </mod>made <sga-add place="superlinear" xml:id="c57-0019__main__d4e4087">for this <seg th:sID="C18_app296-fMS"/>purpose<seg th:eID="C18_app296-fMS"/>
+            </sga-add>
+            <lb n="c57-0019__main__29"/>Their pronunciation was <seg th:sID="C18_app298-fMS"/>quick<seg th:eID="C18_app298-fMS"/>&amp; the <lb n="c57-0019__main__30"/>words they <seg th:sID="C18_app300-fMS"/>uttered <del ana="start" rend="strikethrough" xml:id="c57-0019__main__d4e4094"/>seemed<del ana="end"/>
+            <del ana="start" rend="strikethrough" xml:id="c57-0019__main__d4e4097"/>had<del ana="end"/>
+            <seg th:eID="C18_app300-fMS"/>no<sga-add place="intralinear" xml:id="c57-0019__main__d4e4100">t </sga-add>having <lb n="c57-0020__main__1"/>any apparent <seg th:sID="C18_app303-fMS"/>
+            <del ana="start" rend="strikethrough" xml:id="c57-0020__main__d4e4113"/>co<del ana="end"/> connexion<seg th:eID="C18_app303-fMS"/>with <seg th:sID="C18_app305-fMS"/>
+            <del ana="start" rend="strikethrough" xml:id="c57-0020__main__d4e4116"/>the<del ana="end"/> visible<seg th:eID="C18_app305-fMS"/>
+            <seg th:sID="C18_app306-fMS"/>
+            <lb n="c57-0020__main__2"/>objects<seg th:eID="C18_app306-fMS"/>I was unable to discover any clue <lb n="c57-0020__main__3"/>by which I could <seg th:sID="C18_app308-fMS"/>unrable<seg th:eID="C18_app308-fMS"/>the mystery <lb n="c57-0020__main__4"/>of their <seg th:sID="C18_app310-fMS__I" part="I"/>
+            <seg th:eID="C18_app310-fMS__I" part="I"/>
+            <mod xml:id="c57-0020__main__d4e4126">
+               <del ana="start" rend="strikethrough" xml:id="c57-0020__main__d4e4128"/>sounds.<del ana="end"/>
+               <sga-add hand="#pbs" place="superlinear" xml:id="c57-0020__main__d4e4131">
+                  <seg th:sID="C18_app310-fMS__F" part="F"/>
+                  <del ana="start" rend="strikethrough" xml:id="c57-0020__main__d4e4133"/>application<del ana="end"/> reference.<seg th:eID="C18_app310-fMS__F" part="F"/>
+                  <seg th:sID="C18_app311-fMS__I" part="I"/>
+                  <seg th:eID="C18_app311-fMS__I" part="I"/>
+               </sga-add>
+            </mod>
+            <seg th:sID="C18_app311-fMS__F" part="F"/> . By great<seg th:eID="C18_app311-fMS__F" part="F"/>
+            <seg th:sID="C18_app312-fMS"/>application how<lb n="c57-0020__main__5"/>ever<seg th:eID="C18_app312-fMS"/>and after having remained <seg th:sID="C18_app314-fMS__I" part="I"/>
+            <seg th:eID="C18_app314-fMS__I" part="I"/>
+            <mod xml:id="c57-0020__main__d4e4140">
+               <sga-add place="sublinear" xml:id="c57-0020__main__d4e4142">
+                  <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+               </sga-add>
+               <sga-add hand="#pbs" place="superlinear" xml:id="c57-0020__main__d4e4148">
+                  <seg th:sID="C18_app314-fMS__F" part="F"/>during the space of<seg th:eID="C18_app314-fMS__F" part="F"/>
+               </sga-add>
+            </mod>several <lb n="c57-0020__main__6"/>revolutions of the moon in my <seg th:sID="C18_app316-fMS"/>hovel<seg th:eID="C18_app316-fMS"/>
+            <lb n="c57-0020__main__7"/>I discovered the names that were given <lb n="c57-0020__main__8"/>to some of the most familiar objects <lb n="c57-0020__main__9"/>
+            <anchor xml:id="c57-0020.01"/>
+            <lb n="c57-0020__left_margin__1"/>
+            <sga-add hand="#pbs" xml:id="c57-0020__left_margin__d4e4167">of <seg th:sID="C18_app318-fMS"/>discourse,<seg th:eID="C18_app318-fMS"/>
+            </sga-add>I learned <seg th:sID="C18_app320-fMS__I" part="I"/>
+            <seg th:eID="C18_app320-fMS__I" part="I"/>
+            <mod xml:id="c57-0020__main__d4e4171">
+               <sga-add place="sublinear" xml:id="c57-0020__main__d4e4173">
+                  <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+               </sga-add>
+               <sga-add place="superlinear" xml:id="c57-0020__main__d4e4179">
+                  <seg th:sID="C18_app320-fMS__F" part="F"/>&amp; applied<seg th:eID="C18_app320-fMS__F" part="F"/>
+               </sga-add>
+            </mod>the <seg th:sID="C18_app322-fMS"/>words<seg th:eID="C18_app322-fMS"/>
+            <shi ana="start" rend="underline"/>fire, <seg th:sID="C18_app324-fMS"/>
+            <shi ana="end"/>
+            <shi ana="start" rend="underline"/>mil<shi ana="end"/> k<lb n="c57-0020__main__10"/>
+            <shi ana="start" rend="underline"/>bread<shi ana="end"/>
+            <seg th:eID="C18_app324-fMS"/>&amp; <seg th:sID="C18_app326-fMS"/>
+            <shi ana="start" rend="underline"/>wood<shi ana="end"/>
+            <seg th:eID="C18_app326-fMS"/>I learned also the names <lb n="c57-0020__main__11"/>of the cottagers <seg th:sID="C18_app328-fMS"/>themsel <mod xml:id="c57-0020__main__d4e4203">
+               <mdel ana="start"/>f<mdel ana="end"/>
+               <sga-add place="intralinear" xml:id="c57-0020__main__d4e4207">v </sga-add>
+            </mod>es– <del ana="start" rend="strikethrough" xml:id="c57-0020__main__d4e4212"/>but as<del ana="end"/>
+            <seg th:eID="C18_app328-fMS"/>
+            <lb n="c57-0020__main__12"/>the <seg th:sID="C18_app330-fMS__I" part="I"/>
+            <seg th:eID="C18_app330-fMS__I" part="I"/>
+            <mod xml:id="c57-0020__main__d4e4217">
+               <mdel ana="start"/>y<mdel ana="end"/>
+               <sga-add place="sublinear" xml:id="c57-0020__main__d4e4221">
+                  <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+               </sga-add>
+               <sga-add place="superlinear" xml:id="c57-0020__main__d4e4227">
+                  <seg th:sID="C18_app330-fMS__F" part="F"/>youth &amp; his companion<seg th:eID="C18_app330-fMS__F" part="F"/>
+               </sga-add>
+            </mod>had <seg th:sID="C18_app332-fMS"/>h each of them several<seg th:eID="C18_app332-fMS"/>but <lb n="c57-0020__main__13"/>the old man had only <seg th:sID="C18_app335-fMS"/>one<seg th:eID="C18_app335-fMS"/>which <lb n="c57-0020__main__14"/>was <seg th:sID="C18_app337-fMS"/>
+            <shi ana="start" rend="underline"/>Father<shi ana="end"/> –<seg th:eID="C18_app337-fMS"/>the girl was <seg th:sID="C18_app339-fMS"/>call <del ana="start" rend="strikethrough" xml:id="c57-0020__main__d4e4242"/>ed Sist<del ana="end"/>
+            <lb n="c57-0020__main__15"/>Sister<seg th:eID="C18_app339-fMS"/>or <seg th:sID="C18_app341-fMS"/>Agatha<seg th:eID="C18_app341-fMS"/>and the youth <seg th:sID="C18_app343-fMS__I" part="I"/>
+            <lb n="c57-0020__main__16"/>Felix. <seg th:eID="C18_app343-fMS__I" part="I"/>
+            <mod xml:id="c57-0020__main__d4e4249">
+               <sga-add place="sublinear" xml:id="c57-0020__main__d4e4251">
+                  <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+               </sga-add>
+               <sga-add place="superlinear" xml:id="c57-0020__main__d4e4257">
+                  <seg th:sID="C18_app343-fMS__F" part="F"/>
+                  <mdel ana="start"/>or<mdel ana="end"/> brother<seg th:eID="C18_app343-fMS__F" part="F"/>or <seg th:sID="C18_app345-fMS__I" part="I"/>son <seg th:eID="C18_app345-fMS__I" part="I"/>
+               </sga-add>
+            </mod>
+            <seg th:sID="C18_app345-fMS__F" part="F"/>
+            <seg th:eID="C18_app345-fMS__F" part="F"/>I <seg th:sID="C18_app347-fMS"/>
+            <del ana="start" rend="strikethrough" xml:id="c57-0020__main__d4e4263"/>c<del ana="end"/> cannot describe the delight <lb n="c57-0020__main__17"/>I felt when I<seg th:eID="C18_app347-fMS"/>
+            <seg th:sID="C18_app348-fMS__I" part="I"/>
+            <seg th:eID="C18_app348-fMS__I" part="I"/>
+            <mod xml:id="c57-0020__main__d4e4269">
+               <del ana="start" rend="strikethrough" xml:id="c57-0020__main__d4e4271"/>discovered<del ana="end"/>
+               <sga-add place="sublinear" xml:id="c57-0020__main__d4e4274">
+                  <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+               </sga-add>
+               <sga-add place="superlinear" xml:id="c57-0020__main__d4e4280">
+                  <seg th:sID="C18_app348-fMS__F" part="F"/>learned<seg th:eID="C18_app348-fMS__F" part="F"/>
+               </sga-add>
+            </mod>the ideas <seg th:sID="C18_app350-fMS"/>
+            <del ana="start" rend="strikethrough" xml:id="c57-0020__main__d4e4284"/>opp<del ana="end"/>
+            <lb n="c57-0020__main__18"/>appropriated to each of these<seg th:eID="C18_app350-fMS"/>
+            <seg th:sID="C18_app351-fMS"/>sounds<seg th:eID="C18_app351-fMS"/>
+            <lb n="c57-0020__main__19"/>and was able to pronounce them. <seg th:sID="C18_app353-fMS"/>
+            <del ana="start" rend="strikethrough" xml:id="c57-0020__main__d4e4291"/>But<del ana="end"/>
+            <lb n="c57-0020__main__20"/>I<seg th:eID="C18_app353-fMS"/>
+            <seg th:sID="C18_app354-fMS__I" part="I"/>
+            <seg th:eID="C18_app354-fMS__I" part="I"/>
+            <mod xml:id="c57-0020__main__d4e4297">
+               <del ana="start" rend="strikethrough" xml:id="c57-0020__main__d4e4299"/>learned<del ana="end"/>
+               <sga-add place="sublinear" xml:id="c57-0020__main__d4e4302">
+                  <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+               </sga-add>
+               <sga-add place="superlinear" xml:id="c57-0020__main__d4e4308">
+                  <seg th:sID="C18_app354-fMS__F" part="F"/>distinguished<seg th:eID="C18_app354-fMS__F" part="F"/>
+               </sga-add>
+            </mod>several other <seg th:sID="C18_app356-fMS"/>
+            <del ana="start" rend="strikethrough" xml:id="c57-0020__main__d4e4312"/>sounds<del ana="end"/> words<seg th:eID="C18_app356-fMS"/>
+            <lb n="c57-0020__main__21"/>without being able <seg th:sID="C18_app358-fMS__I" part="I"/>
+            <seg th:eID="C18_app358-fMS__I" part="I"/>
+            <mod xml:id="c57-0020__main__d4e4317">
+               <sga-add place="sublinear" xml:id="c57-0020__main__d4e4319">
+                  <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+               </sga-add>
+               <sga-add hand="#pbs" place="superlinear" xml:id="c57-0020__main__d4e4325">
+                  <seg th:sID="C18_app358-fMS__F" part="F"/>as yet<seg th:eID="C18_app358-fMS__F" part="F"/>
+               </sga-add>
+            </mod>to understand <seg th:sID="C18_app360-fMS"/>
+            <del ana="start" rend="strikethrough" xml:id="c57-0020__main__d4e4329"/>th<del ana="end"/> or <lb n="c57-0020__main__22"/>apply<seg th:eID="C18_app360-fMS"/>
+            <seg th:sID="C18_app361-fMS"/>them – <del ana="start" rend="strikethrough" xml:id="c57-0020__main__d4e4335"/>Among these<del ana="end"/>
+            <seg th:eID="C18_app361-fMS"/>Such as <seg th:sID="C18_app363-fMS"/>
+            <shi ana="start" rend="underline"/>good<shi ana="end"/>
+            <lb n="c57-0020__main__23"/>
+            <shi ana="start" rend="underline"/>dearest<shi ana="end"/> – <shi ana="start" rend="underline"/>unhappy<shi ana="end"/> .<seg th:eID="C18_app363-fMS"/>
+            <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <seg th:sID="C18_app365-fMS"/>
+            <lb n="c57-0020__main__24"/>I<seg th:eID="C18_app365-fMS"/>spent the winter in this <seg th:sID="C18_app367-fMS"/>manner–<seg th:eID="C18_app367-fMS"/>
+            <lb n="c57-0020__main__25"/>the gentle manners and beauty of the <lb n="c57-0020__main__26"/>cottagers greatly endeared them to <seg th:sID="C18_app369-fMS"/>me–<seg th:eID="C18_app369-fMS"/>When <lb n="c57-0020__main__27"/>the<sga-add hand="#pbs" place="intralinear" xml:id="c57-0020__main__d4e4360">y </sga-add>were <seg th:sID="C18_app372-fMS"/>unhappy<seg th:eID="C18_app372-fMS"/>I felt <seg th:sID="C18_app374-fMS"/>depressed and<lb n="c57-0021__main__1"/>
+            <seg th:eID="C18_app374-fMS"/>I <seg th:sID="C18_app376-fMS"/>sympathized<seg th:eID="C18_app376-fMS"/>in their joys. I saw few <lb n="c57-0021__main__2"/>human beings <seg th:sID="C18_app378-fMS"/>besides them,<seg th:eID="C18_app378-fMS"/>and if <lb n="c57-0021__main__3"/>any other happened to enter the <seg th:sID="C18_app380-fMS"/>cottage<seg th:eID="C18_app380-fMS"/>
+            <lb n="c57-0021__main__4"/>their harsh <seg th:sID="C18_app382-fMS"/>
+            <del ana="start" rend="strikethrough" xml:id="c57-0021__main__d4e4379"/>and rud<del ana="end"/> manners &amp; rude <lb n="c57-0021__main__5"/>gait only enhanced to me<seg th:eID="C18_app382-fMS"/>
+            <seg th:sID="C18_app383-fMS"/>
+            <del ana="start" rend="strikethrough" xml:id="c57-0021__main__d4e4385"/>th<del ana="end"/>
+            <del ana="start" rend="strikethrough" xml:id="c57-0021__main__d4e4388"/>my friends<del ana="end"/>
+            <lb n="c57-0021__main__6"/>the superior<seg th:eID="C18_app383-fMS"/>
+            <seg th:sID="C18_app384-fMS"/>advantages<seg th:eID="C18_app384-fMS"/>of my friends. <lb n="c57-0021__main__7"/>The <seg th:sID="C18_app386-fMS"/>
+            <del ana="start" rend="strikethrough" xml:id="c57-0021__main__d4e4399"/>Father<del ana="end"/> old man, I could<seg th:eID="C18_app386-fMS"/>
+            <seg th:sID="C18_app387-fMS"/>percieve,<seg th:eID="C18_app387-fMS"/>
+            <lb n="c57-0021__main__8"/>often endeavoured to encourage his <seg th:sID="C18_app389-fMS"/>
+            <lb n="c57-0021__main__9"/>children<seg th:eID="C18_app389-fMS"/>as <seg th:sID="C18_app391-fMS"/>I sometimes<seg th:eID="C18_app391-fMS"/>found that <lb n="c57-0021__main__10"/>he called <seg th:sID="C18_app393-fMS__I" part="I"/>them. <seg th:eID="C18_app393-fMS__I" part="I"/>
+            <mod xml:id="c57-0021__main__d4e4408">
+               <sga-add place="sublinear" xml:id="c57-0021__main__d4e4410">
+                  <seg th:sID="C18_app393-fMS__F" part="F"/>
+                  <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+                  <seg th:eID="C18_app393-fMS__F" part="F"/>
+               </sga-add>
+               <sga-add hand="#pbs" place="superlinear" xml:id="c57-0021__main__d4e4416">to cast off their melancholy. </sga-add>
+            </mod>He would talk in <lb n="c57-0021__main__11"/>a cheerful <seg th:sID="C18_app396-fMS"/>accent<seg th:eID="C18_app396-fMS"/>with an <seg th:sID="C18_app398-fMS__I" part="I"/>
+            <seg th:eID="C18_app398-fMS__I" part="I"/>
+            <mod xml:id="c57-0021__main__d4e4423">
+               <del ana="start" rend="strikethrough" xml:id="c57-0021__main__d4e4425"/>aspect<del ana="end"/>
+               <sga-add place="superlinear" xml:id="c57-0021__main__d4e4428">
+                  <seg th:sID="C18_app398-fMS__F" part="F"/>expression of<seg th:eID="C18_app398-fMS__F" part="F"/>
+                  <seg th:sID="C18_app399-fMS__I" part="I"/>
+                  <seg th:eID="C18_app399-fMS__I" part="I"/>
+               </sga-add>
+            </mod>
+            <seg th:sID="C18_app399-fMS__F" part="F"/>
+            <lb n="c57-0021__main__12"/>
+            <del ana="start"
+                  instant="true"
+                  rend="strikethrough"
+                  xml:id="c57-0021__main__d4e4434"/>godn<del ana="end"/> goodness that<seg th:eID="C18_app399-fMS__F" part="F"/>
+            <seg th:sID="C18_app400-fMS__I" part="I"/>
+            <mod xml:id="c57-0021__main__d4e4437">
+               <del ana="start" rend="strikethrough" xml:id="c57-0021__main__d4e4439"/>even<del ana="end"/>
+               <del ana="start" rend="strikethrough" xml:id="c57-0021__main__d4e4442"/>gave<del ana="end"/>
+               <sga-add place="sublinear" xml:id="c57-0021__main__d4e4445">
+                  <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+               </sga-add>
+               <mdel ana="start"/>me<mdel ana="end"/>
+               <del ana="start" rend="strikethrough" xml:id="c57-0021__main__d4e4453"/>delight.<del ana="end"/>
+               <sga-add place="superlinear" xml:id="c57-0021__main__d4e4457">bestowed pleasure </sga-add>
+            </mod>
+            <lb n="c57-0021__main__13"/>
+            <anchor xml:id="c57-0021.01"/>
+            <lb n="c57-0021__left_margin__1"/>
+            <seg th:eID="C18_app400-fMS__I" part="I"/>
+            <sga-add xml:id="c57-0021__left_margin__d4e4470">
+               <seg th:sID="C18_app400-fMS__F" part="F"/>even<seg th:eID="C18_app400-fMS__F" part="F"/>
+               <seg th:sID="C18_app401-fMS"/>on me;<seg th:eID="C18_app401-fMS"/>
+            </sga-add>Agatha listened with <seg th:sID="C18_app403-fMS"/>respect–<seg th:eID="C18_app403-fMS"/>her eyes <seg th:sID="C18_app405-fMS"/>
+            <lb n="c57-0021__main__14"/>
+            <del ana="start" rend="strikethrough" xml:id="c57-0021__main__d4e4475"/>f<del ana="end"/> sometimes filled with<seg th:eID="C18_app405-fMS"/>
+            <seg th:sID="C18_app406-fMS"/>tears<seg th:eID="C18_app406-fMS"/>which <seg th:sID="C18_app408-fMS"/>
+            <lb n="c57-0021__main__15"/>
+            <metamark ana="start" function="displacement" xml:id="c57-0021.02"/>
+            <metamark ana="end"/>
+            <lb n="c57-0021__left_margin__1"/>
+            <sga-add xml:id="c57-0021__left_margin__d4e4486">she endeavoured <shi ana="start" rend="sup"/>to<shi ana="end"/>
+            </sga-add>wipe<seg th:eID="C18_app408-fMS"/>
+            <seg th:sID="C18_app409-fMS"/>
+            <del ana="start" rend="strikethrough" xml:id="c57-0021__main__d4e4494"/>d<del ana="end"/> away<seg th:eID="C18_app409-fMS"/>
+            <seg th:sID="C18_app410-fMS"/>unpercieved<seg th:eID="C18_app410-fMS"/>but I <seg th:sID="C18_app412-fMS"/>
+            <w ana="start"/>general<lb n="c57-0021__main__16"/>ly<w ana="end"/>
+            <seg th:eID="C18_app412-fMS"/>found that her <seg th:sID="C18_app414-fMS"/>manners<seg th:eID="C18_app414-fMS"/>and tone <lb n="c57-0021__main__17"/>were more cheerful after having <seg th:sID="C18_app416-fMS"/>
+            <w ana="start"/>listen<lb n="c57-0021__main__18"/>end<w ana="end"/>
+            <seg th:eID="C18_app416-fMS"/>to <seg th:sID="C18_app418-fMS"/>
+            <del ana="start" rend="strikethrough" xml:id="c57-0021__main__d4e4512"/>the<del ana="end"/> the exhortations of her<seg th:eID="C18_app418-fMS"/>
+            <seg th:sID="C18_app419-fMS"/>father<seg th:eID="C18_app419-fMS"/>
+            <lb n="c57-0021__main__19"/>It was not thus with Felix. He was <lb n="c57-0021__main__20"/>always the saddest of the <seg th:sID="C18_app421-fMS"/>groupe And<lb n="c57-0021__main__21"/> even<seg th:eID="C18_app421-fMS"/>to my unpractised <seg th:sID="C18_app423-fMS"/>senses<seg th:eID="C18_app423-fMS"/>he <lb n="c57-0021__main__22"/>appeared to have suffered more <lb n="c57-0021__main__23"/>deeply than his friends. But if his <lb n="c57-0021__main__24"/>countenance was more <seg th:sID="C18_app425-fMS"/>sorrowful<seg th:eID="C18_app425-fMS"/>
+            <lb n="c57-0021__main__25"/>his voice was more cheerful than <lb n="c57-0021__main__26"/>
+            <anchor xml:id="c57-0021.03"/>
+            <lb n="c57-0021__left_margin__1"/>
+            <sga-add xml:id="c57-0021__left_margin__d4e4539">that of </sga-add>his <seg th:sID="C18_app427-fMS"/>sister <del ana="start" rend="strikethrough" xml:id="c57-0021__main__d4e4542"/>
+            <unclear ana="start"/>es<unclear ana="end"/>
+            <del ana="end"/> expecially<seg th:eID="C18_app427-fMS"/>when he <lb n="c57-0021__main__27"/>addressed the old <seg th:sID="C18_app429-fMS"/>man—<seg th:eID="C18_app429-fMS"/>
+            <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <seg th:sID="C18_app431-fMS"/>
+            <lb n="c57-0022__main__1"/>I<seg th:eID="C18_app431-fMS"/>could mention innumerable <seg th:sID="C18_app433-fMS"/>instances <lb n="c57-0022__main__2"/>which<seg th:eID="C18_app433-fMS"/>although <seg th:sID="C18_app435-fMS"/>slight<seg th:eID="C18_app435-fMS"/>marked the <seg th:sID="C18_app437-fMS__I" part="I"/>
+            <seg th:eID="C18_app437-fMS__I" part="I"/>
+            <mod xml:id="c57-0022__main__d4e4564">
+               <del ana="start" rend="strikethrough" xml:id="c57-0022__main__d4e4566"/>heart<del ana="end"/>
+               <sga-add place="superlinear" xml:id="c57-0022__main__d4e4569">
+                  <seg th:sID="C18_app437-fMS__F" part="F"/>dispositions<seg th:eID="C18_app437-fMS__F" part="F"/>
+                  <seg th:sID="C18_app438-fMS__I" part="I"/>
+                  <seg th:eID="C18_app438-fMS__I" part="I"/>
+               </sga-add>
+            </mod>
+            <lb n="c57-0022__main__3"/>
+            <mod xml:id="c57-0022__main__d4e4576">
+               <mdel ana="start"/>in<mdel ana="end"/>
+               <mdel/>
+               <sga-add place="intralinear" xml:id="c57-0022__main__d4e4586">
+                  <seg th:sID="C18_app438-fMS__F" part="F"/>of<seg th:eID="C18_app438-fMS__F" part="F"/>
+                  <seg th:sID="C18_app439-fMS__I" part="I"/>
+                  <seg th:eID="C18_app439-fMS__I" part="I"/>
+               </sga-add>
+               <del ana="start" rend="strikethrough" xml:id="c57-0022__main__d4e4589"/>which<del ana="end"/>
+            </mod>
+            <seg th:sID="C18_app439-fMS__F" part="F"/> these amiable<seg th:eID="C18_app439-fMS__F" part="F"/>
+            <seg th:sID="C18_app440-fMS"/>cottagers <delSpan rend="strikethrough" spanTo="#c57-0022.03"/>shewed <lb n="c57-0022__main__4"/>their dispositions <delSpan anchor="c57-0022.03"/>.<seg th:eID="C18_app440-fMS"/>In the midst of poverty <lb n="c57-0022__main__5"/>and <seg th:sID="C18_app442-fMS"/>want<seg th:eID="C18_app442-fMS"/>Felix carried with pleasure <lb n="c57-0022__main__6"/>to his sister the <seg th:sID="C18_app444-fMS"/>fist<seg th:eID="C18_app444-fMS"/>little white flower <lb n="c57-0022__main__7"/>that peeped out from beneath the <seg th:sID="C18_app446-fMS__I" part="I"/>
+            <seg th:eID="C18_app446-fMS__I" part="I"/>
+            <mod xml:id="c57-0022__main__d4e4608">
+               <del ana="start" rend="strikethrough" xml:id="c57-0022__main__d4e4610"/>snow<del ana="end"/>
+               <sga-add hand="#pbs" place="sublinear" xml:id="c57-0022__main__d4e4613">
+                  <seg th:sID="C18_app446-fMS__F" part="F"/>snowy<seg th:eID="C18_app446-fMS__F" part="F"/>
+                  <seg th:sID="C18_app447-fMS__I" part="I"/>
+                  <seg th:eID="C18_app447-fMS__I" part="I"/>
+               </sga-add>
+               <sga-add place="superlinear" xml:id="c57-0022__main__d4e4616">
+                  <seg th:sID="C18_app447-fMS__F" part="F"/>
+                  <del ana="start" rend="strikethrough" xml:id="c57-0022__main__d4e4618"/>white<del ana="end"/> ground<seg th:eID="C18_app447-fMS__F" part="F"/>
+               </sga-add>
+            </mod>
+            <lb n="c57-0022__main__8"/>
+            <anchor xml:id="c57-0022.04"/>
+            <lb n="c57-0022__left_margin__1"/>
+            <sga-add xml:id="c57-0022__left_margin__d4e4631">Early <seg th:sID="C18_app449-fMS__I" part="I"/>
+               <seg th:eID="C18_app449-fMS__I" part="I"/>
+            </sga-add>
+            <seg th:sID="C18_app449-fMS__F" part="F"/>
+            <mod xml:id="c57-0022__main__d4e4635">
+               <mdel ana="start"/>I<mdel ana="end"/>
+               <sga-add place="intralinear" xml:id="c57-0022__main__d4e4639">i</sga-add>
+            </mod>n the<seg th:eID="C18_app449-fMS__F" part="F"/>
+            <seg th:sID="C18_app450-fMS"/>morning<seg th:eID="C18_app450-fMS"/>
+            <seg th:sID="C18_app451-fMS"/>
+            <del ana="start" rend="strikethrough" xml:id="c57-0022__main__d4e4643"/>early<del ana="end"/> before<seg th:eID="C18_app451-fMS"/>
+            <seg th:sID="C18_app452-fMS"/>
+            <del ana="start" rend="strikethrough" xml:id="c57-0022__main__d4e4646"/>any of the<del ana="end"/>
+            <lb n="c57-0022__main__9"/>she had<seg th:eID="C18_app452-fMS"/>
+            <seg th:sID="C18_app453-fMS"/>risen<seg th:eID="C18_app453-fMS"/>he <seg th:sID="C18_app455-fMS"/>had cleared away the <lb n="c57-0022__main__10"/>snow that<seg th:eID="C18_app455-fMS"/>
+            <seg th:sID="C18_app456-fMS"/>obst<mod xml:id="c57-0022__main__d4e4653">
+               <sga-add place="sublinear" xml:id="c57-0022__main__d4e4655">
+                  <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+               </sga-add>
+               <sga-add place="superlinear" xml:id="c57-0022__main__d4e4661">r</sga-add>
+            </mod>ucted<seg th:eID="C18_app456-fMS"/>her path to the <seg th:sID="C18_app458-fMS"/>
+            <lb n="c57-0022__main__11"/>milkhouse <mod xml:id="c57-0022__main__d4e4668">
+               <mdel ana="start"/>–<mdel ana="end"/>
+               <sga-add hand="#pbs" place="intralinear" xml:id="c57-0022__main__d4e4672">; </sga-add>
+            </mod>
+            <seg th:eID="C18_app458-fMS"/>drew water from the <seg th:sID="C18_app460-fMS"/>well<seg th:eID="C18_app460-fMS"/>
+            <lb n="c57-0022__main__12"/>and brought the wood from the <seg th:sID="C18_app462-fMS__I" part="I"/>
+            <seg th:eID="C18_app462-fMS__I" part="I"/>
+            <mod xml:id="c57-0022__main__d4e4678">
+               <del ana="start" rend="overwritten" xml:id="c57-0022__main__d4e4680"/>
+               <del-INNER ana="start" rend="strikethrough" xml:id="c57-0022__main__d4e4682"/>' outhouse<del-INNER ana="end"/>
+               <del ana="end"/>
+               <sga-add place="intralinear" xml:id="c57-0022__main__d4e4686">
+                  <seg th:sID="C18_app462-fMS__F" part="F"/>
+                  <metamark ana="start" function="displacement" xml:id="c57-0022.05"/>X<metamark ana="end"/>
+                  <lb n="c57-0022__left_margin__1"/>
+                  <metamark ana="start" function="displacement"/>X<metamark ana="end"/>
+                  <lb n="c57-0022__left_margin__2"/>outhouse <lb n="c57-0022__left_margin__3"/>where<seg th:eID="C18_app462-fMS__F" part="F"/>to his <lb n="c57-0022__left_margin__4"/>perpetual <seg th:sID="C18_app464-fMS"/>
+                  <lb n="c57-0022__left_margin__5"/>astonishment<seg th:eID="C18_app464-fMS"/>
+                  <lb n="c57-0022__left_margin__6"/>he found his <lb n="c57-0022__left_margin__7"/>store always <lb n="c57-0022__left_margin__8"/>replenished by <lb n="c57-0022__left_margin__9"/>an invisible <lb n="c57-0022__left_margin__10"/>hand. <anchor xml:id="c57-0022.06"/>
+               </sga-add>
+            </mod>
+            <lb n="c57-0022__main__13"/>In the <seg th:sID="C18_app466-fMS"/>day<seg th:eID="C18_app466-fMS"/>I <seg th:sID="C18_app468-fMS"/>believe<seg th:eID="C18_app468-fMS"/>he worked sometimes <lb n="c57-0022__main__14"/>for a neighbouring farmer, <seg th:sID="C18_app470-fMS__I" part="I"/>
+            <seg th:eID="C18_app470-fMS__I" part="I"/>
+            <mod xml:id="c57-0022__main__d4e4730">
+               <del ana="start" rend="strikethrough" xml:id="c57-0022__main__d4e4732"/>for<del ana="end"/>
+               <sga-add hand="#pbs" place="superlinear" xml:id="c57-0022__main__d4e4735">
+                  <seg th:sID="C18_app470-fMS__F" part="F"/>because<seg th:eID="C18_app470-fMS__F" part="F"/>
+               </sga-add>
+            </mod>he <lb n="c57-0022__main__15"/>often went <seg th:sID="C18_app472-fMS__I" part="I"/>
+            <seg th:eID="C18_app472-fMS__I" part="I"/>
+            <mod xml:id="c57-0022__main__d4e4741">
+               <del ana="start" rend="strikethrough" xml:id="c57-0022__main__d4e4743"/>out<del ana="end"/>
+               <sga-add hand="#pbs" place="superlinear" xml:id="c57-0022__main__d4e4746">
+                  <seg th:sID="C18_app472-fMS__F" part="F"/>forth,<seg th:eID="C18_app472-fMS__F" part="F"/>
+               </sga-add>
+            </mod>and did not return <seg th:sID="C18_app474-fMS"/>
+            <lb n="c57-0022__main__16"/>untill<seg th:eID="C18_app474-fMS"/>dinner, yet brought no wood <lb n="c57-0022__main__17"/>with <seg th:sID="C18_app476-fMS"/>him:–<seg th:eID="C18_app476-fMS"/>at other times he worked <lb n="c57-0022__main__18"/>in the <seg th:sID="C18_app478-fMS"/>garden but<seg th:eID="C18_app478-fMS"/>as there was <seg th:sID="C18_app480-fMS__I" part="I"/>litt <seg th:eID="C18_app480-fMS__I" part="I"/>
+            <mod xml:id="c57-0022__main__d4e4757">
+               <mdel ana="start"/>e<mdel ana="end"/>
+               <sga-add place="intralinear" xml:id="c57-0022__main__d4e4761">
+                  <seg th:sID="C18_app480-fMS__F" part="F"/>le<seg th:eID="C18_app480-fMS__F" part="F"/>
+               </sga-add>
+            </mod>
+            <lb n="c57-0022__main__19"/>to do in the frosty <seg th:sID="C18_app482-fMS"/>season<seg th:eID="C18_app482-fMS"/>he <seg th:sID="C18_app484-fMS"/>often <lb n="c57-0022__main__20"/>read to the old man and Agatha.<seg th:eID="C18_app484-fMS"/>
+            <seg th:sID="C18_app485-fMS"/>
+            <lb n="c57-0022__main__21"/>This<seg th:eID="C18_app485-fMS"/>reading had puzzled me extremely <lb n="c57-0022__main__22"/>at <seg th:sID="C18_app487-fMS"/>first – but<seg th:eID="C18_app487-fMS"/>by <seg th:sID="C18_app489-fMS"/>degrees<seg th:eID="C18_app489-fMS"/>I discovered <lb n="c57-0022__main__23"/>that he uttered many of the same <lb n="c57-0022__main__24"/>sounds when he <seg th:sID="C18_app491-fMS"/>read<seg th:eID="C18_app491-fMS"/>as when he <seg th:sID="C18_app493-fMS"/>talked;<seg th:eID="C18_app493-fMS"/>
+            <lb n="c57-0022__main__25"/>I <seg th:sID="C18_app495-fMS"/>conjectured <del ana="start" rend="strikethrough" xml:id="c57-0022__main__d4e4780"/>their<del ana="end"/> therefore<seg th:eID="C18_app495-fMS"/>that he <lb n="c57-0022__main__26"/>found on the paper signs for speech <lb n="c57-0022__main__27"/>which he <seg th:sID="C18_app497-fMS"/>understood<seg th:eID="C18_app497-fMS"/>and I ardently <seg th:sID="C18_app499-fMS"/>longed <lb n="c57-0022__main__28"/>to <mod xml:id="c57-0022__main__d4e4790">
+               <del ana="start" rend="strikethrough" xml:id="c57-0022__main__d4e4792"/>understand<del ana="end"/>
+               <sga-add place="sublinear" xml:id="c57-0022__main__d4e4795">
+                  <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+               </sga-add>
+               <sga-add place="superlinear" xml:id="c57-0022__main__d4e4801">comprehend </sga-add>
+            </mod> these <del ana="start" rend="strikethrough" xml:id="c57-0022__main__d4e4805"/>
+            <unclear ana="start"/>b<unclear ana="end"/>
+            <del ana="end"/> also; but how was <zone th:eID="c57-0022__main"/>
+            <surface th:eID="ox-ms_abinger_c57-0022"/>
+            <seg th:eID="C18_app499-fMS"/>
+         </div>
+      </body>
+   </text>
+</TEI>

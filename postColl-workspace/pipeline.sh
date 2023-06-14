@@ -52,12 +52,16 @@ postProcessColl(){
   "P5-Pt4MedialENDSegMarkers.xsl"
   "P5-Pt5raiseSegElems.xsl" 
   "P5-Pt6spaceHandling.xsl" # 10
+  "P6-Pt1-combine.xsl"
+  "P6-Pt2-simplify-chapAnchors.xsl"
+  "P6-Pt3-chapChunking.xsl"
   # "P5_SpineGenerator.xsl"
   #"spineAdjustor.xsl"
   #"edit-distance/extractCollationData.xsl"
   )
   pipelineArr=("collated-data" "P1-output" "P2-output" "P3-output"
-  "P4-output" "preP5a-output" "preP5b-output" "preP5c-output" "preP5d-output" "preP5e-output" "P5-output"
+  "P4-output" "preP5a-output" "preP5b-output" "preP5c-output" "preP5d-output" "preP5e-output" "P5-output" "P6-Pt1"
+  "P6-Pt2" "P6-Pt3"
   #"subchunked_standoff_Spine" "preLev_standoff_Spine"
   )
   # start processing
@@ -115,7 +119,8 @@ postProcessColl(){
 
 main(){
   allArr=("collated-data" "P1-output" "P2-output" "P3-output" 
-  "P4-output" "preP5a-output" "preP5b-output" "preP5c-output" "preP5d-output" "preP5e-output" "P5-output" "P5-trimmedWS"
+  "P4-output" "preP5a-output" "preP5b-output" "preP5c-output" "preP5d-output" "preP5e-output" "P5-output" "P5-trimmedWS"  "P6-Pt1"
+  "P6-Pt2" "P6-Pt3" 
   "subchunked_standoff_Spine" "preLev_standoff_Spine" # "edit-distance/spineData.txt"
   "standoff_Spine"
   )
