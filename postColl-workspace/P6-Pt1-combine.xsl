@@ -4,12 +4,8 @@
   xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema"
   xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse" exclude-result-prefixes="xs th"
   version="3.0">
-  <!--2019-06-27 ebb: We need to add a tei: prefixed namespace in addition to the default namesapce to our output variorum edition files to support use of xml pointers in the Variorum edition, 
-  so I am intervening here to add it.-->
-  <!--2018-07-30 ebb: Run this with Saxon at command line to raise paired seg markers, using:
-    java -jar saxon.jar -s:preP5e-output/ -xsl:P5-Pt6spaceHandling.xsl -o:P5-output/ 
-    -->
- 
+  <!--2023-06-13 ebb: Like the immediately previous pipeline stages, this requires add a tei: prefixed namespace in addition to the default namesapce to our output variorum edition files 
+    to support use of xml pointers in the Variorum edition. -->
   
   <xsl:mode on-no-match="shallow-copy"/>
   

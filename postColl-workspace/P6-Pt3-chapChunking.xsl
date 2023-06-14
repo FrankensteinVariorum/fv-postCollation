@@ -15,8 +15,8 @@
     ebb thinks we should proceed by testing the OTHER print editions, and see if that helps us figure out the problem in fMS.
    
     -->
-    
     <xsl:mode on-no-match="shallow-copy"/>
+  
     
     <xsl:variable name="wholeFiles" as="document-node()+" select="collection('P6-Pt1/?select=*.xml')"/>    
     
@@ -26,7 +26,7 @@
 
             <xsl:choose>
                 <xsl:when test="$currFile ! base-uri()[contains(., 'fMS')]">
-                    <xsl:for-each-group select="$currFile//tei:milestone[@unit='tei:head'][following::text()[not(matches(., '^\s+$'))][1]]/following::node()" group-starting-with="tei:milestone[@unit='tei:head'][following::text()[not(matches(., '^\s+$'))][1]]">
+                    <xsl:for-each-group select="$currFile//node()" group-by="tei:milestone[@unit='tei:head']/@spanTo">
                        
                    
                         <xsl:variable name="file_id" as="xs:string" select="following::text()[not(matches(., '^\s+$'))][1] ! lower-case(.) ! replace(., '[.,:;]', '') ! tokenize(., ' ')[position() gt 1 and not(position() = last())] => string-join('_') 
@@ -72,7 +72,7 @@
                 </xsl:when>
                 
                 <xsl:otherwise>
-                    <xsl:for-each-group select="$currFile//tei:milestone[@unit='chapter' and @type='start']/following::node()" group-starting-with="tei:milestone[@unit='chapter' and @type='start']">
+                    <xsl:for-each-group select="$currFile//node()" group-by="tei:milestone[@unit='chapter' and @type='start']">
                         
   
                      <!--   <xsl:result-document href="P6-Pt2/{}" method="xml" indent="yes">
@@ -110,7 +110,7 @@
                                 </teiHeader>
                                 <text>
                                     <body> 
-                                        <xsl:apply-templates select="current-group()"/>
+                                       <xsl:apply-templates select="current-group()"/>
                                     </body>
                                 </text>
                             </TEI>
