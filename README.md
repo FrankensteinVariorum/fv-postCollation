@@ -120,17 +120,17 @@ java -jar saxon.jar -s:P1-output/ -xsl:P5_SpineGenerator.xsl -o:subchunked_stand
 
 * **Input** `P5-output/?select=*.xml`
 * **Output:** `P6-Pt1/`
+* **Current output is not in correct order, only for Manuscript.**
 
-### Run `P6-Pt2-chapChunking.xsl`
-* 2023-6-1: This XSLT should output seperate chapter files. It is not doing that yet. We have only tried it for the fMS so far, and it is outputting nly one file, named with the correct text node, but otherwise systematically excluding the contents of the first processed group.
-* Manuscript goes through special handeling.
-``
-//tei:milestone[@unit='tei:head']
-``
+### Run `P6-Pt2-simplify-chapAnchors.xsl`
+* 2023-6-14: Cleans up elements removing unnecessary spaces and punctuation. Flattens all of collation nodes into radically simplified structures to make it possible to 'cut' the files.
+* Introduces anchor elements to indicate when each chapter starts (line 157).
 * **Output:** `P6-Pt2/VERSION_$file_id.xml`
-* Next step: Attempt to process the print edition files to see if the results will help with processing the manuscript files.
-* Would it be easier to chunk the chapters using Python?
-* Try the LXML eTree, Pulldom, or PySaxProcessor
+
+### Run `P6-Pt3-chapChunking.xsl`
+* 2023-6-14: Cleans up namespaces.
+* This XSLT should output seperate chapter files. It is not doing that yet. We have only tried it for the fMS so far, and it is outputting nly one file, named with the correct text node, but otherwise systematically excluding the contents of the first processed group.
+
 
 ## Phase 7: Prepare the “spine” of the variorum
 ### Run `spineAdjustor.xsl` 
