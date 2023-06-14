@@ -47,7 +47,7 @@
       <!-- Here we want the Box info, either c56 or c57, to help differentiate the chapters. 
         Get it from the first following lb/@n, substring-before its '-'.
       -->
-      <xsl:value-of select="concat('_box_', $chapterMarker/following::tei:lb[1]/@n ! substring-before(., '-'))"/>
+      <xsl:value-of select="concat('_box_', $chapterMarker[1]/following::tei:lb[1]/@n ! substring-before(., '-'))"/>
     </xsl:when>
    
    </xsl:choose>
@@ -131,7 +131,7 @@
   <xsl:template match="tei:seg[tei:milestone[@spanTo and @unit='tei:head']]">
     <!--ebb: This template processes fMS chapter start markers in seg elements  -->
     <xsl:param name="witness"/>
-    <xsl:variable name="chapterMarker" as="element()" select="tei:milestone[@spanTo]"/>
+    <xsl:variable name="chapterMarker" as="element()+" select="tei:milestone[@spanTo]"/>
     
     <xsl:variable name="vol_info" as="xs:string?">
       <xsl:value-of select="var:volumeFinder($witness, $chapterMarker)"/>
