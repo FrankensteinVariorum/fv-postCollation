@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
+<?xml version="1.1" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:fv="https://frankensteinvariorum.github.io"
+     xmlns:tei="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -15,46 +17,21 @@
          </publicationStmt>
          <sourceDesc>
             <p>Produced from a corpus of collation output files for the Frankenstein Variorum digital edition
-                                        on 2023-06-14T03:32:54.026195-04:00.</p>
+                                        on 2023-06-14T11:09:04.552982-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
-         <anchor xmlns="http://www.tei-c.org/ns/1.0"
-                 xmlns:var="https://frankensteinvariorum.github.io"
-                 type="semantic"
-                 subtype="start"
-                 xml:id="fThomas_vol_2_chapter_iii"/>
-         <seg xmlns="http://www.tei-c.org/ns/1.0"
-              xmlns:mith="http://mith.umd.edu/sc/ns1#"
-              xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-              xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-              xmlns:var="https://frankensteinvariorum.github.io"
-              xml:id="C17_app2-fThomas">
+         <anchor type="semantic" subtype="start" xml:id="fThomas_vol_2_chapter_iii"/>
+         <seg xml:id="C17_app2-fThomas">
             <milestone unit="chapter" type="start" n="10"/>
          </seg>
-         <pb xmlns="http://www.tei-c.org/ns/1.0"
-             xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xmlns:var="https://frankensteinvariorum.github.io"
-             xml:id="F1818_v2_036"
-             n="032"/>
-         <seg xmlns="http://www.tei-c.org/ns/1.0"
-              xmlns:mith="http://mith.umd.edu/sc/ns1#"
-              xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-              xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-              xmlns:var="https://frankensteinvariorum.github.io"
-              xml:id="C17_app4-fThomas">
+         <pb xml:id="F1818_v2_036" n="032"/>
+         <seg xml:id="C17_app4-fThomas">
             <head ana="start"/>CHAPTER III.<head ana="end"/>
          </seg>
-         <p xmlns="http://www.tei-c.org/ns/1.0"
-            xmlns:mith="http://mith.umd.edu/sc/ns1#"
-            xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-            xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-            xmlns:var="https://frankensteinvariorum.github.io"
-            xml:id="novel1_letter4_chapter10_div4_div11_p1"> “I<hi xml:id="novel1_letter4_chapter10_div4_div11_p1_hi1">T</hi> is with <seg xml:id="C17_app6-fThomas">considerable</seg> difficulty that I remember the  <seg xml:id="C17_app8-fThomas">original</seg>
+         <p xml:id="novel1_letter4_chapter10_div4_div11_p1"> “I<hi xml:id="novel1_letter4_chapter10_div4_div11_p1_hi1">T</hi> is with <seg xml:id="C17_app6-fThomas">considerable</seg> difficulty that I remember the  <seg xml:id="C17_app8-fThomas">original</seg>
             <seg xml:id="C17_app9-fThomas">æra</seg> of my  <seg xml:id="C17_app11-fThomas">being:</seg> all the events of that period appear confused and indistinct.  <seg xml:id="C17_app13-fThomas">A strange</seg>
             <seg xml:id="C17_app14-fThomas">multiplicity of sensations</seg> seized  <seg xml:id="C17_app16-fThomas">me, and</seg> I saw,  <seg xml:id="C17_app18-fThomas">felt, heard,</seg> and  <seg xml:id="C17_app20-fThomas">smelt,</seg> at the same  <seg xml:id="C17_app22-fThomas">time;</seg> and it  <seg xml:id="C17_app24-fThomas">was, indeed,</seg> a long time before I learned to distinguish between the  <seg xml:id="C17_app26-fThomas">operations of my various senses. By</seg>
             <seg xml:id="C17_app27-fThomas">degrees,</seg> I  <seg xml:id="C17_app29-fThomas">remember,</seg> a stronger light pressed upon my  <seg xml:id="C17_app31-fThomas">nerves,</seg> so that I was obliged to  <seg xml:id="C17_app33-fThomas">shut</seg> my eyes. Darkness then came over  <seg xml:id="C17_app35-fThomas">me,</seg> and troubled  <seg xml:id="C17_app37-fThomas">me;</seg> but  <seg xml:id="C17_app39-fThomas">
@@ -66,33 +43,18 @@
             <seg xml:id="C17_app85-fThomas">fatigue, until</seg> I felt tormented by hunger and thirst. This roused me from my nearly dormant  <seg xml:id="C17_app87-fThomas">state,</seg> and I ate some berries which I found  <seg xml:id="C17_app89-fThomas">hanging</seg> on the   <seg xml:id="C17_app91-fThomas">trees,</seg> or lying on the  <seg xml:id="C17_app93-fThomas">ground.</seg> I slaked my <pb xml:id="F1818_v2_038" n="034"/>thirst <seg xml:id="C17_app95-fThomas">at</seg> the  <seg xml:id="C17_app97-fThomas">brook;</seg> and then  <seg xml:id="C17_app99-fThomas">lying</seg>
             <seg xml:id="C17_app100-fThomas">down,</seg> was overcome by  <seg part="I" xml:id="C17_app102-fThomas__I">sleep. </seg>
          </p>
-         <p xmlns="http://www.tei-c.org/ns/1.0"
-            xmlns:mith="http://mith.umd.edu/sc/ns1#"
-            xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-            xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-            xmlns:var="https://frankensteinvariorum.github.io"
-            xml:id="novel1_letter4_chapter10_div4_div11_p2">
+         <p xml:id="novel1_letter4_chapter10_div4_div11_p2">
             <seg part="F" xml:id="C17_app102-fThomas__F"> “It</seg> was dark when I  <seg xml:id="C17_app104-fThomas">awoke;</seg> I felt cold  <seg xml:id="C17_app106-fThomas">also,</seg> and  <seg xml:id="C17_app108-fThomas">half-frightened</seg> as it were  <seg xml:id="C17_app110-fThomas">instinctively,</seg> finding myself so desolate. Before I had quitted your  <seg xml:id="C17_app112-fThomas">apartment,</seg> on a sensation of  <seg xml:id="C17_app114-fThomas">cold,</seg> I had covered  <seg xml:id="C17_app116-fThomas">myself</seg> with some  <seg xml:id="C17_app118-fThomas">clothes;</seg> but these were  <seg xml:id="C17_app120-fThomas">insufficient</seg> to secure me from the  <seg xml:id="C17_app122-fThomas">dews of night. I was a</seg>
             <seg xml:id="C17_app123-fThomas">poor, helpless,</seg> miserable  <seg xml:id="C17_app125-fThomas">wretch; I knew,</seg> and could  <seg xml:id="C17_app127-fThomas">distinguish, nothing;</seg>
             <seg xml:id="C17_app128-fThomas">but,</seg>
             <seg xml:id="C17_app129-fThomas">feeling</seg> pain invade me on all   <seg xml:id="C17_app131-fThomas">sides,</seg> I sat down and wept. </p>
-         <p xmlns="http://www.tei-c.org/ns/1.0"
-            xmlns:mith="http://mith.umd.edu/sc/ns1#"
-            xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-            xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-            xmlns:var="https://frankensteinvariorum.github.io"
-            xml:id="novel1_letter4_chapter10_div4_div11_p3">
+         <p xml:id="novel1_letter4_chapter10_div4_div11_p3">
             <seg xml:id="C17_app133-fThomas">“Soon</seg> a gentle light stole over the  <seg xml:id="C17_app135-fThomas">heavens,</seg> and gave me a sensation of  <seg xml:id="C17_app137-fThomas">pleasure.</seg> I started up, and beheld a radiant form rise  <seg xml:id="C17_app139-fThomas">from among the trees.</seg> I gazed with a kind of  <seg xml:id="C17_app142-fThomas">wonder.</seg> It moved  <seg xml:id="C17_app144-fThomas">slowly,</seg> but it enlightened my  <seg xml:id="C17_app146-fThomas">path;</seg> and I again went out in search of berries. I was still  <seg xml:id="C17_app148-fThomas">cold,</seg> when  <seg xml:id="C17_app150-fThomas">under <pb xml:id="F1818_v2_039" n="035"/>one of the trees I found a huge</seg>
             <seg xml:id="C17_app151-fThomas">cloak,</seg> with which  <seg xml:id="C17_app153-fThomas">I</seg> covered myself, and sat down  <seg xml:id="C17_app155-fThomas">upon</seg> the ground. No distinct ideas occupied my  <seg xml:id="C17_app157-fThomas">mind;</seg> all was  <seg xml:id="C17_app159-fThomas">confused.</seg> I felt  <seg xml:id="C17_app161-fThomas">light, and</seg>
             <seg xml:id="C17_app162-fThomas">hunger,</seg> and  <seg xml:id="C17_app164-fThomas">thirst,</seg> and darkness; innumerable sounds rung in my  <seg xml:id="C17_app166-fThomas">ears,</seg> and on all sides various scents saluted  <seg xml:id="C17_app168-fThomas">me:</seg> the only object that I could distinguish was the  <seg xml:id="C17_app170-fThomas">bright moon,</seg> and I fixed my eyes   <seg xml:id="C17_app173-fThomas">on</seg> that with pleasure.  <seg part="I" xml:id="C17_app175-fThomas__I">
                </seg>
          </p>
-         <p xmlns="http://www.tei-c.org/ns/1.0"
-            xmlns:mith="http://mith.umd.edu/sc/ns1#"
-            xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-            xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-            xmlns:var="https://frankensteinvariorum.github.io"
-            xml:id="novel1_letter4_chapter10_div4_div11_p4">
+         <p xml:id="novel1_letter4_chapter10_div4_div11_p4">
             <seg part="F" xml:id="C17_app175-fThomas__F"> “Several</seg> changes of day and night  <seg xml:id="C17_app177-fThomas">passed,</seg> and the orb of night had greatly  <seg xml:id="C17_app179-fThomas">lessened</seg> when I began to distinguish my sensations  <seg xml:id="C17_app181-fThomas">from each</seg>
             <seg xml:id="C17_app182-fThomas">other.</seg> I  <seg xml:id="C17_app184-fThomas">gradually saw plainly</seg> the clear stream that supplied me with   <seg xml:id="C17_app186-fThomas">drink,</seg> and the  <seg xml:id="C17_app188-fThomas">trees that</seg>
             <seg xml:id="C17_app189-fThomas">shaded</seg> me with their foliage. I was delighted when I first discovered that a pleasant   <seg xml:id="C17_app191-fThomas">sound,</seg> which often   <seg xml:id="C17_app194-fThomas">saluted my</seg>
@@ -104,12 +66,7 @@
             <seg xml:id="C17_app213-fThomas">me. Sometimes</seg> I tried to imitate the pleasant songs of the   <seg xml:id="C17_app216-fThomas">birds,</seg> but was  <seg xml:id="C17_app218-fThomas">unable.</seg> Sometimes I  <seg xml:id="C17_app220-fThomas">wished to express my sensations in my own</seg>
             <seg xml:id="C17_app221-fThomas">mode,</seg> but the uncouth and   <seg xml:id="C17_app224-fThomas">inarticulate sounds</seg> which broke from me   <seg part="I" xml:id="C17_app227-fThomas__I">frightened me into silence again. </seg>
          </p>
-         <p xmlns="http://www.tei-c.org/ns/1.0"
-            xmlns:mith="http://mith.umd.edu/sc/ns1#"
-            xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-            xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-            xmlns:var="https://frankensteinvariorum.github.io"
-            xml:id="novel1_letter4_chapter10_div4_div11_p5">
+         <p xml:id="novel1_letter4_chapter10_div4_div11_p5">
             <seg part="F" xml:id="C17_app227-fThomas__F">
                </seg>
             <seg xml:id="C17_app228-fThomas">“The</seg> moon had  <seg xml:id="C17_app230-fThomas">disappeared</seg> from the night,  <seg xml:id="C17_app232-fThomas">and again,</seg> with a lessened  <seg xml:id="C17_app234-fThomas">form,</seg>
@@ -119,12 +76,7 @@
             <seg xml:id="C17_app255-fThomas">and,</seg> by  <seg xml:id="C17_app257-fThomas">de<pb xml:id="F1818_v2_041" n="037"/>grees,</seg> one herb from  <seg xml:id="C17_app259-fThomas">another.</seg> I found that the sparrow uttered none but harsh  <seg xml:id="C17_app261-fThomas">notes,</seg> whilst  <seg xml:id="C17_app263-fThomas">those of</seg> the blackbird   <seg xml:id="C17_app265-fThomas">and thrush</seg> were sweet and enticing.  <seg part="I" xml:id="C17_app267-fThomas__I">
                </seg>
          </p>
-         <p xmlns="http://www.tei-c.org/ns/1.0"
-            xmlns:mith="http://mith.umd.edu/sc/ns1#"
-            xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-            xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-            xmlns:var="https://frankensteinvariorum.github.io"
-            xml:id="novel1_letter4_chapter10_div4_div11_p6">
+         <p xml:id="novel1_letter4_chapter10_div4_div11_p6">
             <seg part="F" xml:id="C17_app267-fThomas__F"> “One day,</seg> when I was oppressed by  <seg xml:id="C17_app269-fThomas">cold,</seg> I found a fire  <seg xml:id="C17_app271-fThomas">which</seg> had been left by some wandering  <seg xml:id="C17_app273-fThomas">beggars,</seg> and was  <seg xml:id="C17_app275-fThomas">overcome</seg> with delight  <seg xml:id="C17_app277-fThomas">at the warmth</seg>
             <seg xml:id="C17_app278-fThomas">I</seg>
             <seg xml:id="C17_app279-fThomas">experienced</seg> from it. In my joy I thrust my hand into the live  <seg xml:id="C17_app281-fThomas">embers,</seg> but quickly drew it  <seg xml:id="C17_app283-fThomas">out again</seg> with a cry  <seg xml:id="C17_app285-fThomas">of</seg>
@@ -139,36 +91,21 @@
             <seg xml:id="C17_app337-fThomas">upon it;</seg> and  <seg xml:id="C17_app339-fThomas">then,</seg> spreading my  <seg xml:id="C17_app341-fThomas">cloak,</seg> I  <seg xml:id="C17_app343-fThomas">lay</seg> on the  <seg xml:id="C17_app345-fThomas">ground,</seg> and sunk into sleep.  <seg part="I" xml:id="C17_app347-fThomas__I">
                </seg>
          </p>
-         <p xmlns="http://www.tei-c.org/ns/1.0"
-            xmlns:mith="http://mith.umd.edu/sc/ns1#"
-            xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-            xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-            xmlns:var="https://frankensteinvariorum.github.io"
-            xml:id="novel1_letter4_chapter10_div4_div11_p7">
+         <p xml:id="novel1_letter4_chapter10_div4_div11_p7">
             <seg part="F" xml:id="C17_app347-fThomas__F"> “It</seg> was morning when I  <seg xml:id="C17_app349-fThomas">awoke,</seg> and my first care was to visit the  <seg xml:id="C17_app351-fThomas">fire. I</seg> uncovered  <seg xml:id="C17_app353-fThomas">it,</seg> and  <seg xml:id="C17_app355-fThomas">a gentle breeze quickly fanned it into a</seg>
             <seg xml:id="C17_app356-fThomas">flame.</seg> I observed this  <seg xml:id="C17_app358-fThomas">also,</seg> and contrived a fan of  <seg xml:id="C17_app360-fThomas">branches,</seg> which roused the embers when  <seg xml:id="C17_app362-fThomas">they</seg> were nearly extinguished. When night  <seg xml:id="C17_app364-fThomas">came</seg>
             <seg xml:id="C17_app365-fThomas">again,</seg> I  <seg xml:id="C17_app367-fThomas">found,</seg> with  <seg xml:id="C17_app369-fThomas">pleasure,</seg> that the fire gave light as <pb xml:id="F1818_v2_043" n="039"/>well as <seg xml:id="C17_app371-fThomas">heat;</seg> and  <seg xml:id="C17_app373-fThomas">that</seg> the discovery of this element was useful to me  <seg xml:id="C17_app375-fThomas">in my</seg>
             <seg xml:id="C17_app376-fThomas">food;</seg> for I found some of  <seg xml:id="C17_app378-fThomas">the</seg> offals that the travellers had left had been  <seg xml:id="C17_app380-fThomas">roasted,</seg> and tasted much more savoury than the berries I  <seg xml:id="C17_app382-fThomas">gathered from the trees.</seg> I  <seg xml:id="C17_app384-fThomas">tried, therefore,</seg> to dress my food in the same manner, placing  <seg xml:id="C17_app386-fThomas">it</seg> on the live  <seg xml:id="C17_app388-fThomas">embers.</seg> I found that the berries were spoiled by this  <seg xml:id="C17_app390-fThomas">operation,</seg> and the nuts  <seg xml:id="C17_app392-fThomas">and roots</seg> much improved.  <seg part="I" xml:id="C17_app394-fThomas__I">
                </seg>
          </p>
-         <p xmlns="http://www.tei-c.org/ns/1.0"
-            xmlns:mith="http://mith.umd.edu/sc/ns1#"
-            xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-            xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-            xmlns:var="https://frankensteinvariorum.github.io"
-            xml:id="novel1_letter4_chapter10_div4_div11_p8">
+         <p xml:id="novel1_letter4_chapter10_div4_div11_p8">
             <seg part="F" xml:id="C17_app394-fThomas__F"> “Food, however,</seg> became  <seg xml:id="C17_app396-fThomas">scarce;</seg> and I often spent  <seg xml:id="C17_app398-fThomas">the whole</seg> day searching in vain for a few acorns to assuage the pangs of hunger. When I found  <seg xml:id="C17_app400-fThomas">this, I</seg> resolved to quit the place  <seg xml:id="C17_app402-fThomas">that</seg> I had hitherto  <seg xml:id="C17_app404-fThomas">inhabited,</seg> to seek for  <seg xml:id="C17_app406-fThomas">one</seg> where the few wants I experienced would be more easily satisfied. In this   <seg xml:id="C17_app408-fThomas">emigration,</seg> I  <seg xml:id="C17_app410-fThomas">exceedingly</seg> lamented the loss of   <seg xml:id="C17_app412-fThomas">the fire which I</seg> had obtained  <seg xml:id="C17_app414-fThomas">through accident,</seg> and knew not how to  <seg xml:id="C17_app416-fThomas">
                <pb xml:id="F1818_v2_044" n="040"/>re-produce</seg> it.  <seg xml:id="C17_app418-fThomas">I gave several hours to the</seg> serious consideration  <seg xml:id="C17_app420-fThomas">of this difficulty;</seg> but I was obliged to  <seg xml:id="C17_app422-fThomas">relinquish all</seg>
             <seg xml:id="C17_app423-fThomas">attempt</seg> to supply  <seg xml:id="C17_app425-fThomas">it; and, wrapping</seg> myself up in my  <seg xml:id="C17_app427-fThomas">cloak,</seg> I struck across the wood towards the setting  <seg xml:id="C17_app429-fThomas">sun.</seg> I passed three days in these  <seg xml:id="C17_app431-fThomas">rambles,</seg> and at length discovered the open  <seg xml:id="C17_app433-fThomas">country.</seg> A great fall of snow had taken place the night  <seg xml:id="C17_app435-fThomas">before,</seg> and the fields were of one  <seg xml:id="C17_app437-fThomas">uniform white;</seg> the  <seg xml:id="C17_app439-fThomas">appearance</seg> was  <seg xml:id="C17_app441-fThomas">disconsolate,</seg> and I found my feet chilled by the cold  <seg xml:id="C17_app443-fThomas">damp</seg>
             <seg xml:id="C17_app444-fThomas">substance that covered the</seg>
             <seg part="I" xml:id="C17_app445-fThomas__I">ground. </seg>
          </p>
-         <p xmlns="http://www.tei-c.org/ns/1.0"
-            xmlns:mith="http://mith.umd.edu/sc/ns1#"
-            xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-            xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-            xmlns:var="https://frankensteinvariorum.github.io"
-            xml:id="novel1_letter4_chapter10_div4_div11_p9">
+         <p xml:id="novel1_letter4_chapter10_div4_div11_p9">
             <seg part="F" xml:id="C17_app445-fThomas__F"> “It</seg> was about seven in the  <seg xml:id="C17_app447-fThomas">morning,</seg> and I longed to obtain food and  <seg xml:id="C17_app449-fThomas">shelter;</seg> at length I perceived  <seg xml:id="C17_app451-fThomas">a small</seg>
             <seg xml:id="C17_app452-fThomas">hut, on a rising ground,</seg> which had  <seg xml:id="C17_app454-fThomas">doubtless been built for the convenience of</seg>
             <seg xml:id="C17_app455-fThomas">some</seg>
@@ -194,12 +131,7 @@
                <del ana="start" rend="strikethrough"/>and<del ana="end"/>
                <add ana="start" place="above"/>I<add ana="end"/>
             </seg> fell asleep. </p>
-         <p xmlns="http://www.tei-c.org/ns/1.0"
-            xmlns:mith="http://mith.umd.edu/sc/ns1#"
-            xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-            xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-            xmlns:var="https://frankensteinvariorum.github.io"
-            xml:id="novel1_letter4_chapter10_div4_div11_p10">
+         <p xml:id="novel1_letter4_chapter10_div4_div11_p10">
             <seg xml:id="C17_app525-fThomas">“It</seg> was noon when I  <seg xml:id="C17_app527-fThomas">awoke; and,</seg> allured by the  <seg xml:id="C17_app529-fThomas">warmth of</seg>
             <seg xml:id="C17_app530-fThomas">the sun, which shone brightly on the white ground,</seg> I determined to recommence my  <seg xml:id="C17_app532-fThomas">travels; and,</seg> depositing the   <seg xml:id="C17_app535-fThomas">remains</seg> of the   <seg xml:id="C17_app537-fThomas">peasant’s</seg> breakfast in a wallet I found, I proceeded across the fields for several hours,  <seg xml:id="C17_app539-fThomas">until</seg> at sunset I  <seg xml:id="C17_app541-fThomas">arrived at</seg> a village. How miraculous did this   <seg xml:id="C17_app543-fThomas">appear!</seg> the  <seg xml:id="C17_app545-fThomas">huts,</seg> the neater  <seg xml:id="C17_app547-fThomas">cottages,</seg> and  <seg xml:id="C17_app549-fThomas">stately houses,</seg> engaged my admiration by  <seg xml:id="C17_app551-fThomas">turns.</seg> The vegetables in the  <seg xml:id="C17_app553-fThomas">gardens,</seg> the milk and cheese that I saw placed at  <seg xml:id="C17_app555-fThomas">the windows of some of the</seg>
             <seg xml:id="C17_app556-fThomas">cottages,</seg> allured  <seg xml:id="C17_app558-fThomas">my appetite.</seg> One of the best of these I  <seg xml:id="C17_app560-fThomas">entered;</seg> but I had hardly placed my foot  <seg xml:id="C17_app562-fThomas">within</seg> the   <seg xml:id="C17_app564-fThomas">door,</seg> before the children  <seg xml:id="C17_app566-fThomas">shrieked,</seg> and one of the  <seg xml:id="C17_app568-fThomas">women</seg>
@@ -213,22 +145,12 @@
             <seg xml:id="C17_app609-fThomas">wood, however,</seg> was placed on the  <seg xml:id="C17_app611-fThomas">earth,</seg> which formed  <seg xml:id="C17_app613-fThomas">the</seg>
             <seg xml:id="C17_app614-fThomas">floor,</seg> but it was  <seg xml:id="C17_app616-fThomas">dry;</seg> and although the wind entered  <seg xml:id="C17_app618-fThomas">it</seg> by innumerable  <seg xml:id="C17_app620-fThomas">chinks,</seg> I found it an  <seg xml:id="C17_app622-fThomas">agreeable asylum</seg> from the snow  <seg part="I" xml:id="C17_app624-fThomas__I">and rain. </seg>
          </p>
-         <p xmlns="http://www.tei-c.org/ns/1.0"
-            xmlns:mith="http://mith.umd.edu/sc/ns1#"
-            xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-            xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-            xmlns:var="https://frankensteinvariorum.github.io"
-            xml:id="novel1_letter4_chapter10_div4_div11_p11">
+         <p xml:id="novel1_letter4_chapter10_div4_div11_p11">
             <seg part="F" xml:id="C17_app624-fThomas__F"> “Here then I retreated, and lay</seg>
             <seg xml:id="C17_app625-fThomas">down,</seg>
             <seg xml:id="C17_app626-fThomas">happy to have found a shelter, however miserable, from the inclemency <pb xml:id="F1818_v2_048" n="044"/>of the season,</seg> and  <seg xml:id="C17_app628-fThomas">still more from the barbarity of man.</seg>
          </p>
-         <p xmlns="http://www.tei-c.org/ns/1.0"
-            xmlns:mith="http://mith.umd.edu/sc/ns1#"
-            xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-            xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-            xmlns:var="https://frankensteinvariorum.github.io"
-            xml:id="novel1_letter4_chapter10_div4_div11_p12">
+         <p xml:id="novel1_letter4_chapter10_div4_div11_p12">
             <seg xml:id="C17_app630-fThomas">“As</seg> soon as morning  <seg xml:id="C17_app632-fThomas">dawned,</seg> I crept from my  <seg xml:id="C17_app634-fThomas">kennel,</seg> that I might view the adjacent  <seg xml:id="C17_app636-fThomas">cottage,</seg> and discover if I could remain in the  <seg xml:id="C17_app638-fThomas">habitation</seg> I had found. It was situated  <seg xml:id="C17_app640-fThomas">against</seg> the back of the   <seg xml:id="C17_app642-fThomas">cottage,</seg> and  <seg xml:id="C17_app644-fThomas">surrounded</seg> on   <seg xml:id="C17_app646-fThomas">the</seg> sides which were exposed by a   <seg xml:id="C17_app648-fThomas">pig-stye</seg> and  <seg xml:id="C17_app650-fThomas">a clear</seg>
             <seg xml:id="C17_app651-fThomas">
                <del ana="start" rend="strikethrough"/>pool<del ana="end"/>
@@ -237,12 +159,7 @@
             <seg xml:id="C17_app660-fThomas">covered</seg> every crevice  <seg xml:id="C17_app662-fThomas">by which I might be</seg>
             <seg xml:id="C17_app663-fThomas">perceived with stones and wood,</seg> yet in such a manner that I  <seg xml:id="C17_app665-fThomas">might</seg> move  <seg xml:id="C17_app667-fThomas">them</seg> on  <seg xml:id="C17_app669-fThomas">occasion to pass</seg>
             <seg xml:id="C17_app670-fThomas">out:</seg> all the light I enjoyed came through the  <seg xml:id="C17_app672-fThomas">stye,</seg> and that was  <seg xml:id="C17_app674-fThomas">sufficient</seg> for me. </p>
-         <p xmlns="http://www.tei-c.org/ns/1.0"
-            xmlns:mith="http://mith.umd.edu/sc/ns1#"
-            xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-            xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-            xmlns:var="https://frankensteinvariorum.github.io"
-            xml:id="novel1_letter4_chapter10_div4_div11_p13">
+         <p xml:id="novel1_letter4_chapter10_div4_div11_p13">
             <seg xml:id="C17_app676-fThomas">“Having</seg> thus arranged my  <seg xml:id="C17_app678-fThomas">dwelling, and</seg> carpeted it with clean straw, I  <seg xml:id="C17_app680-fThomas">retired;</seg> for I saw the figure of a man  <seg xml:id="C17_app682-fThomas">at</seg> a   <seg xml:id="C17_app684-fThomas">distance,</seg> and I  <seg xml:id="C17_app686-fThomas">remembered</seg>
             <seg xml:id="C17_app687-fThomas">too <pb xml:id="F1818_v2_049" n="045"/>well my treatment the night</seg>
             <seg xml:id="C17_app688-fThomas">before,</seg> to trust myself in his power. I had  <seg xml:id="C17_app690-fThomas">first, however,</seg> provided for my sustenance for that  <seg xml:id="C17_app692-fThomas">day,</seg> by a loaf of  <seg xml:id="C17_app694-fThomas">coarse</seg>
@@ -251,12 +168,7 @@
             <seg part="I" xml:id="C17_app716-fThomas__I">
                </seg>
          </p>
-         <p xmlns="http://www.tei-c.org/ns/1.0"
-            xmlns:mith="http://mith.umd.edu/sc/ns1#"
-            xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-            xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-            xmlns:var="https://frankensteinvariorum.github.io"
-            xml:id="novel1_letter4_chapter10_div4_div11_p14">
+         <p xml:id="novel1_letter4_chapter10_div4_div11_p14">
             <seg part="F" xml:id="C17_app716-fThomas__F"> “Being</seg> thus  <seg xml:id="C17_app718-fThomas">provided,</seg> I  <seg xml:id="C17_app720-fThomas">resolved</seg> to reside in this  <seg xml:id="C17_app722-fThomas">hovel, until</seg> something should occur which might alter my determination. It was indeed a  <seg xml:id="C17_app724-fThomas">paradise,</seg> compared to the  <seg xml:id="C17_app726-fThomas">bleak</seg> forest, my former residence,  <seg xml:id="C17_app728-fThomas">the</seg>
             <seg xml:id="C17_app729-fThomas">rain-dropping branches,</seg> and  <seg xml:id="C17_app731-fThomas">dank</seg>
             <seg xml:id="C17_app732-fThomas">earth.</seg> I ate my breakfast with  <seg xml:id="C17_app734-fThomas">pleasure,</seg> and was about to remove a plank to procure myself a little  <seg xml:id="C17_app736-fThomas">water,</seg> when I heard a  <seg xml:id="C17_app738-fThomas">step,</seg>
@@ -266,12 +178,7 @@
             <seg xml:id="C17_app786-fThomas">melancholy,</seg> he took the pail from her  <seg xml:id="C17_app788-fThomas">head,</seg> and bore it  <seg xml:id="C17_app790-fThomas">to</seg> the cottage himself. She  <seg xml:id="C17_app792-fThomas">followed,</seg> and they  <seg xml:id="C17_app794-fThomas">disappeared.</seg> Presently I saw the young <pb xml:id="F1818_v2_051" n="047"/>man <seg xml:id="C17_app796-fThomas">again,</seg> with some tools in his  <seg xml:id="C17_app798-fThomas">hand,</seg> cross the field  <seg xml:id="C17_app800-fThomas">behind</seg> the  <seg xml:id="C17_app802-fThomas">cottage;</seg> and the girl was also  <seg xml:id="C17_app804-fThomas">busied, sometimes</seg> in  <seg xml:id="C17_app806-fThomas">the</seg>
             <seg xml:id="C17_app807-fThomas">house,</seg> and sometimes in the  <seg part="I" xml:id="C17_app809-fThomas__I">yard. </seg>
          </p>
-         <p xmlns="http://www.tei-c.org/ns/1.0"
-            xmlns:mith="http://mith.umd.edu/sc/ns1#"
-            xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-            xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-            xmlns:var="https://frankensteinvariorum.github.io"
-            xml:id="novel1_letter4_chapter10_div4_div11_p15">
+         <p xml:id="novel1_letter4_chapter10_div4_div11_p15">
             <seg part="F" xml:id="C17_app809-fThomas__F"> “On examining</seg> my  <seg xml:id="C17_app811-fThomas">dwelling,</seg> I  <seg xml:id="C17_app813-fThomas">found</seg> that  <seg xml:id="C17_app815-fThomas">one of the windows</seg> of the cottage  <seg xml:id="C17_app817-fThomas">had formerly occupied a</seg>
             <seg xml:id="C17_app818-fThomas">part</seg> of  <seg xml:id="C17_app820-fThomas">it,</seg> but the panes had  <seg xml:id="C17_app822-fThomas">been filled up with wood. In one of these was a small and</seg>
             <seg xml:id="C17_app823-fThomas">almost</seg> imperceptible  <seg xml:id="C17_app825-fThomas">chink, through which</seg>
@@ -296,12 +203,7 @@
             <seg xml:id="C17_app928-fThomas">food;</seg> and I  <seg xml:id="C17_app930-fThomas">
                <pb xml:id="F1818_v2_053" n="049"/>withdrew</seg> from  <seg xml:id="C17_app932-fThomas">the window,</seg> unable  <seg xml:id="C17_app934-fThomas">to bear</seg> these  <seg xml:id="C17_app936-fThomas">emotions.</seg>
          </p>
-         <p xmlns="http://www.tei-c.org/ns/1.0"
-            xmlns:mith="http://mith.umd.edu/sc/ns1#"
-            xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-            xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-            xmlns:var="https://frankensteinvariorum.github.io"
-            xml:id="novel1_letter4_chapter10_div4_div11_p16">
+         <p xml:id="novel1_letter4_chapter10_div4_div11_p16">
             <seg xml:id="C17_app938-fThomas">“Soon</seg> after this the young man  <seg xml:id="C17_app940-fThomas">returned,</seg> bearing on his  <seg xml:id="C17_app942-fThomas">shoulders</seg> a  <seg xml:id="C17_app944-fThomas">load of</seg>
             <seg xml:id="C17_app945-fThomas">wood.</seg> The  <seg xml:id="C17_app947-fThomas">girl met him at the</seg>
             <seg xml:id="C17_app948-fThomas">door,</seg> helped to relieve him of his  <seg xml:id="C17_app950-fThomas">burden, and,</seg> taking some of  <seg xml:id="C17_app952-fThomas">the fuel</seg> into the  <seg xml:id="C17_app954-fThomas">cottage,</seg> placed it on the fire;  <seg xml:id="C17_app956-fThomas">then she and the youth went apart into a</seg>
@@ -309,12 +211,7 @@
             <seg xml:id="C17_app982-fThomas">roots. After</seg> he had been employed thus about  <seg xml:id="C17_app984-fThomas">an</seg>
             <seg xml:id="C17_app985-fThomas">hour,</seg> the young woman joined him, and they  <seg xml:id="C17_app987-fThomas">entered</seg> the cottage  <seg part="I" xml:id="C17_app989-fThomas__I">together. </seg>
          </p>
-         <p xmlns="http://www.tei-c.org/ns/1.0"
-            xmlns:mith="http://mith.umd.edu/sc/ns1#"
-            xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-            xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-            xmlns:var="https://frankensteinvariorum.github.io"
-            xml:id="novel1_letter4_chapter10_div4_div11_p17">
+         <p xml:id="novel1_letter4_chapter10_div4_div11_p17">
             <seg part="F" xml:id="C17_app989-fThomas__F"> “The</seg> old man  <seg xml:id="C17_app991-fThomas">had,</seg> in the mean  <seg xml:id="C17_app993-fThomas">time,</seg>
             <pb xml:id="F1818_v2_054" n="050"/>been <seg xml:id="C17_app995-fThomas">pensive; but,</seg> on the  <seg xml:id="C17_app997-fThomas">appearance</seg> of  <seg xml:id="C17_app999-fThomas">his</seg>
             <seg xml:id="C17_app1000-fThomas">companions,</seg> he assumed a  <seg xml:id="C17_app1002-fThomas">more</seg> cheerful air, and they sat down to eat.   <seg xml:id="C17_app1004-fThomas">The</seg>
@@ -324,12 +221,7 @@
             <seg xml:id="C17_app1019-fThomas">creatures.</seg> One was old, with silver hairs and a countenance beaming with  <seg xml:id="C17_app1021-fThomas">benevolence</seg> and  <seg xml:id="C17_app1023-fThomas">love:</seg> the younger was  <seg xml:id="C17_app1025-fThomas">slight</seg> and graceful in his  <seg xml:id="C17_app1027-fThomas">figure,</seg> and his  <seg xml:id="C17_app1029-fThomas">features</seg> were moulded with the finest  <seg xml:id="C17_app1031-fThomas">symmetry;</seg> yet his eyes and attitude expressed the utmost sadness and  <seg xml:id="C17_app1033-fThomas">despondency.</seg> The old man returned to the cottage; and the  <seg xml:id="C17_app1035-fThomas">youth,</seg> with tools different from those  <seg xml:id="C17_app1037-fThomas">he had used in the morning, directed his steps across the</seg>
             <seg part="I" xml:id="C17_app1038-fThomas__I">fields. </seg>
          </p>
-         <p xmlns="http://www.tei-c.org/ns/1.0"
-            xmlns:mith="http://mith.umd.edu/sc/ns1#"
-            xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-            xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-            xmlns:var="https://frankensteinvariorum.github.io"
-            xml:id="novel1_letter4_chapter10_div4_div11_p18">
+         <p xml:id="novel1_letter4_chapter10_div4_div11_p18">
             <seg part="F" xml:id="C17_app1038-fThomas__F">
                <pb xml:id="F1818_v2_055" n="051"/>“Night</seg> quickly shut  <seg xml:id="C17_app1040-fThomas">in; but,</seg> to my extreme  <seg xml:id="C17_app1042-fThomas">wonder,</seg> I found that the cottagers had a means of prolonging  <seg xml:id="C17_app1044-fThomas">light,</seg> by the use of  <seg xml:id="C17_app1046-fThomas">tapers,</seg> and was  <seg xml:id="C17_app1048-fThomas">delighted</seg> to  <seg xml:id="C17_app1050-fThomas">find,</seg> that  <seg xml:id="C17_app1052-fThomas">the</seg> setting of the sun did not put an end  <seg xml:id="C17_app1054-fThomas">to the pleasure I experienced in watching</seg>
             <seg xml:id="C17_app1055-fThomas">my human</seg>
@@ -340,37 +232,16 @@
             <seg part="I" xml:id="C17_app1096-fThomas__I">
                </seg>
          </p>
-         <p xmlns="http://www.tei-c.org/ns/1.0"
-            xmlns:mith="http://mith.umd.edu/sc/ns1#"
-            xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-            xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-            xmlns:var="https://frankensteinvariorum.github.io"
-            xml:id="novel1_letter4_chapter10_div4_div11_p19">
+         <p xml:id="novel1_letter4_chapter10_div4_div11_p19">
             <seg part="F" xml:id="C17_app1096-fThomas__F">
                <pb xml:id="F1818_v2_056" n="052"/>“The family, after having been thus occupied for a short time,</seg> extinguished their  <seg xml:id="C17_app1098-fThomas">lights,</seg> and retired, as I conjectured, to  <seg part="I" xml:id="C17_app1100-fThomas__I">rest. </seg>
          </p>
-         <seg xmlns="http://www.tei-c.org/ns/1.0"
-              xmlns:mith="http://mith.umd.edu/sc/ns1#"
-              xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-              xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-              xmlns:var="https://frankensteinvariorum.github.io"
-              part="F"
-              xml:id="C17_app1100-fThomas__F">
+         <seg part="F" xml:id="C17_app1100-fThomas__F">
             </seg>
-         <seg xmlns="http://www.tei-c.org/ns/1.0"
-              xmlns:mith="http://mith.umd.edu/sc/ns1#"
-              xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-              xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-              xmlns:var="https://frankensteinvariorum.github.io"
-              xml:id="C17_app1101-fThomas">
+         <seg xml:id="C17_app1101-fThomas">
             <milestone unit="chapter" type="end" n="10"/>
          </seg>
-         <seg xmlns="http://www.tei-c.org/ns/1.0"
-              xmlns:mith="http://mith.umd.edu/sc/ns1#"
-              xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-              xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-              xmlns:var="https://frankensteinvariorum.github.io"
-              xml:id="C19_app1-fThomas">
+         <seg xml:id="C19_app1-fThomas">
             <anchor type="collate" xml:id="C19"/>
          </seg>
       </body>

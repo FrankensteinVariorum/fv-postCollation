@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xpath-default-namespace="http://www.tei-c.org/ns/1.0"
+    xmlns="http://www.tei-c.org/ns/1.0"
     xmlns:math="http://www.w3.org/2005/xpath-functions/math"
-    xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
     xmlns:mith="http://mith.umd.edu/sc/ns1#"
     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-    xmlns:var="https://frankensteinvariorum.github.io"
-    exclude-result-prefixes="xs math var"
+    xmlns:fv ="https://frankensteinvariorum.github.io"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    exclude-result-prefixes="xs math mith pitt th"
     version="3.0">
     
     <!-- 2023-06-1 ebb yxj nlh: This XSLT should output separate chapter files. It is not doing that yet. 
@@ -16,23 +18,32 @@
     ebb thinks we should proceed by testing the OTHER print editions, and see if that helps us figure out the problem in fMS.
    
     -->
-    <xsl:mode on-no-match="shallow-copy" exclude-result-prefixes="th mith pitt var"/>
+    <xsl:output method="xml" undeclare-prefixes="true" version="1.1"/>
+    <xsl:mode on-no-match="shallow-copy"/>
+    
+    <xsl:template match="*"><!-- 2023-06-14 ebb: Adding this to lose the namespaces on the inner elements-->
+        <xsl:element name="{local-name()}">
+            <xsl:apply-templates select="@* | node()"/>
+        </xsl:element>
+    </xsl:template>
+    
   
     
     <xsl:variable name="wholeFiles" as="document-node()+" select="collection('P6-Pt2/?select=*.xml')"/>    
     
-    <xsl:template match="/" exclude-result-prefixes="th mith pitt var">
+    <xsl:template match="/">
         <xsl:for-each select="$wholeFiles">
             <xsl:variable name="currFile" as="document-node()" select="current()"/>
            
-            <xsl:for-each-group select="$currFile//tei:anchor[@type='semantic']/following-sibling::node()" group-starting-with="tei:anchor[@type='semantic']">
+            <xsl:for-each-group select="$currFile//anchor[@type='semantic']/following-sibling::node()" group-starting-with="anchor[@type='semantic']">
   
           <xsl:choose>
               <xsl:when test="position() = 1">
                   <xsl:result-document
-                      href="P6-Pt3/{$currFile//tei:anchor[@type='semantic'][1]/@xml:id}.xml"
+                      href="P6-Pt3/{$currFile//anchor[@type='semantic'][1]/@xml:id}.xml"
                       method="xml" indent="yes"> 
-                      <TEI>
+                      
+                      <TEI xmlns:fv ="https://frankensteinvariorum.github.io">
                           <teiHeader>
                               <fileDesc>
                                   <titleStmt>
@@ -54,10 +65,10 @@
                           </teiHeader>
                           <text>
                               <body>
-                                  <xsl:copy select="$currFile//tei:anchor[@type='semantic'][1]" copy-namespaces="no">
+                                  <xsl:copy select="$currFile//anchor[@type='semantic'][1]" copy-namespaces="no">
                                       <xsl:copy-of select="@*"/>
                                   </xsl:copy>
-                                  <xsl:apply-templates select="current-group()" exclude-result-prefixes="th mith pitt var"/>
+                                  <xsl:apply-templates select="current-group()"/>
                               </body>
                           </text>
                       </TEI>
@@ -69,7 +80,8 @@
                       <xsl:result-document
                     href="P6-Pt3/{current()/@xml:id}.xml"
                     method="xml" indent="yes"> 
-                    <TEI>
+                        
+                      <TEI xmlns:fv ="https://frankensteinvariorum.github.io">
                         <teiHeader>
                             <fileDesc>
                                 <titleStmt>
@@ -91,7 +103,7 @@
                         </teiHeader>
                         <text>
                             <body>
-                                <xsl:apply-templates select="current-group()" exclude-result-prefixes="th mith pitt var"/>
+                                <xsl:apply-templates select="current-group()"/>
                             </body>
                         </text>
                     </TEI>
@@ -100,7 +112,7 @@
         </xsl:for-each>
     </xsl:template>
     
-    <xsl:template match="tei:teiHeader"/>
+    <xsl:template match="teiHeader"/>
         
     
 </xsl:stylesheet>

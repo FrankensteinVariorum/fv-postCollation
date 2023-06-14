@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
+<?xml version="1.1" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:fv="https://frankensteinvariorum.github.io"
+     xmlns:tei="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -15,47 +17,20 @@
          </publicationStmt>
          <sourceDesc>
             <p>Produced from a corpus of collation output files for the Frankenstein Variorum digital edition
-                                        on 2023-06-14T03:32:54.026195-04:00.</p>
+                                        on 2023-06-14T11:09:04.552982-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
-         <anchor xmlns="http://www.tei-c.org/ns/1.0"
-                 xmlns:var="https://frankensteinvariorum.github.io"
-                 type="semantic"
-                 subtype="start"
-                 xml:id="fThomas_vol_2_chapter_i"/>
-         <milestone xmlns="http://www.tei-c.org/ns/1.0"
-                    xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                    xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                    xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                    xmlns:var="https://frankensteinvariorum.github.io"
-                    unit="chapter"
-                    type="start"
-                    n="8"/>
-         <seg xmlns="http://www.tei-c.org/ns/1.0"
-              xmlns:mith="http://mith.umd.edu/sc/ns1#"
-              xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-              xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-              xmlns:var="https://frankensteinvariorum.github.io"
-              xml:id="C15_app2-fThomas">
+         <anchor type="semantic" subtype="start" xml:id="fThomas_vol_2_chapter_i"/>
+         <milestone unit="chapter" type="start" n="8"/>
+         <seg xml:id="C15_app2-fThomas">
             <head ana="start"/>CHAPTER I.<head ana="end"/>
          </seg>
-         <seg xmlns="http://www.tei-c.org/ns/1.0"
-              xmlns:mith="http://mith.umd.edu/sc/ns1#"
-              xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-              xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-              xmlns:var="https://frankensteinvariorum.github.io"
-              part="I"
-              xml:id="C15_app3-fThomas__I">
+         <seg part="I" xml:id="C15_app3-fThomas__I">
             </seg>
-         <p xmlns="http://www.tei-c.org/ns/1.0"
-            xmlns:mith="http://mith.umd.edu/sc/ns1#"
-            xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-            xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-            xmlns:var="https://frankensteinvariorum.github.io"
-            xml:id="novel1_letter4_chapter8_div4_div9_p1">
+         <p xml:id="novel1_letter4_chapter8_div4_div9_p1">
             <seg part="F" xml:id="C15_app3-fThomas__F">
                </seg> N<hi xml:id="novel1_letter4_chapter8_div4_div9_p1_hi1">OTHING</hi> is more painful <seg xml:id="C15_app5-fThomas">to the human mind, than, after</seg> the  <seg xml:id="C15_app7-fThomas">feelings have</seg> been worked up by a quick  <seg xml:id="C15_app9-fThomas">succession of</seg>
             <seg xml:id="C15_app10-fThomas">events, the</seg> dead  <seg xml:id="C15_app12-fThomas">calmness</seg> of  <seg xml:id="C15_app14-fThomas">inaction and certainty</seg>
@@ -66,28 +41,12 @@
             <seg xml:id="C15_app84-fThomas">tortures,</seg> such as no language can describe.   <seg part="I" xml:id="C15_app87-fThomas__I">
                </seg>
          </p>
-         <seg xmlns="http://www.tei-c.org/ns/1.0"
-              xmlns:mith="http://mith.umd.edu/sc/ns1#"
-              xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-              xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-              xmlns:var="https://frankensteinvariorum.github.io"
-              part="F"
-              xml:id="C15_app87-fThomas__F">
+         <seg part="F" xml:id="C15_app87-fThomas__F">
             </seg>
-         <p xmlns="http://www.tei-c.org/ns/1.0"
-            xmlns:mith="http://mith.umd.edu/sc/ns1#"
-            xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-            xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-            xmlns:var="https://frankensteinvariorum.github.io"
-            xml:id="novel1_letter4_chapter8_div4_div9_p2"> This state of mind <seg xml:id="C15_app89-fThomas">preyed upon</seg> my   <seg xml:id="C15_app91-fThomas">health,</seg> which had entirely recovered <pb xml:id="F1818_v2_007" n="003"/>from the first shock it had sustained. I shunned the face of man; all sound of joy or complacency was torture to  <seg xml:id="C15_app96-fThomas">me;</seg> solitude was my only  <seg xml:id="C15_app98-fThomas">consolation—deep,</seg> dark,  <seg xml:id="C15_app101-fThomas">death-like</seg> solitude.  <seg part="I" xml:id="C15_app103-fThomas__I">
+         <p xml:id="novel1_letter4_chapter8_div4_div9_p2"> This state of mind <seg xml:id="C15_app89-fThomas">preyed upon</seg> my   <seg xml:id="C15_app91-fThomas">health,</seg> which had entirely recovered <pb xml:id="F1818_v2_007" n="003"/>from the first shock it had sustained. I shunned the face of man; all sound of joy or complacency was torture to  <seg xml:id="C15_app96-fThomas">me;</seg> solitude was my only  <seg xml:id="C15_app98-fThomas">consolation—deep,</seg> dark,  <seg xml:id="C15_app101-fThomas">death-like</seg> solitude.  <seg part="I" xml:id="C15_app103-fThomas__I">
                </seg>
          </p>
-         <p xmlns="http://www.tei-c.org/ns/1.0"
-            xmlns:mith="http://mith.umd.edu/sc/ns1#"
-            xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-            xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-            xmlns:var="https://frankensteinvariorum.github.io"
-            xml:id="novel1_letter4_chapter8_div4_div9_p3">
+         <p xml:id="novel1_letter4_chapter8_div4_div9_p3">
             <seg part="F" xml:id="C15_app103-fThomas__F">
                </seg> My father observed with pain  <seg xml:id="C15_app105-fThomas">the alteration perceptible in</seg> my   <seg xml:id="C15_app107-fThomas">disposition</seg> and habits,  <seg xml:id="C15_app109-fThomas">
                <del ana="start" rend="strikethrough"/>and endeavoured to reason with me on the folly of giving way to immoderate grief.<del ana="end"/>
@@ -97,22 +56,12 @@
             <seg xml:id="C15_app134-fThomas">spoke);</seg>
             <seg xml:id="C15_app135-fThomas">“but</seg> is it not   <seg xml:id="C15_app138-fThomas">a</seg> duty   <seg xml:id="C15_app140-fThomas">to the</seg>
             <seg xml:id="C15_app141-fThomas">survivors,</seg> that we should refrain from  <seg xml:id="C15_app143-fThomas">augmenting</seg> their unhappiness by an appearance of immoderate   <seg xml:id="C15_app145-fThomas">grief?</seg> It is also a duty owed to yourself; for excessive sorrow prevents improvement or enjoyment, or even the discharge of  <seg xml:id="C15_app147-fThomas">daily usefulness,</seg> without which no man is fit for society.” </p>
-         <p xmlns="http://www.tei-c.org/ns/1.0"
-            xmlns:mith="http://mith.umd.edu/sc/ns1#"
-            xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-            xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-            xmlns:var="https://frankensteinvariorum.github.io"
-            xml:id="novel1_letter4_chapter8_div4_div9_p4">
+         <p xml:id="novel1_letter4_chapter8_div4_div9_p4">
             <pb xml:id="F1818_v2_008" n="004"/>This advice, although good, was <seg xml:id="C15_app149-fThomas">totally inapplicable</seg> to my case; I should have been the first to hide my  <seg xml:id="C15_app151-fThomas">grief,</seg> and console my  <seg xml:id="C15_app153-fThomas">friends,</seg> if remorse had not mingled  <seg xml:id="C15_app155-fThomas">its</seg>
             <seg xml:id="C15_app156-fThomas">bitterness</seg> with my other sensations. Now I could only answer my father with a look of  <seg xml:id="C15_app158-fThomas">despair,</seg> and endeavour to hide myself from his view.  <seg part="I" xml:id="C15_app160-fThomas__I">
                </seg>
          </p>
-         <p xmlns="http://www.tei-c.org/ns/1.0"
-            xmlns:mith="http://mith.umd.edu/sc/ns1#"
-            xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-            xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-            xmlns:var="https://frankensteinvariorum.github.io"
-            xml:id="novel1_letter4_chapter8_div4_div9_p5">
+         <p xml:id="novel1_letter4_chapter8_div4_div9_p5">
             <seg part="F" xml:id="C15_app160-fThomas__F">
                </seg> About this time  <seg xml:id="C15_app162-fThomas">we retired to our house at Belrive. This</seg>
             <seg xml:id="C15_app163-fThomas">change was</seg>
@@ -130,12 +79,7 @@
             <seg xml:id="C15_app236-fThomas">loose</seg> among them?  <seg part="I" xml:id="C15_app238-fThomas__I">
                </seg>
          </p>
-         <p xmlns="http://www.tei-c.org/ns/1.0"
-            xmlns:mith="http://mith.umd.edu/sc/ns1#"
-            xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-            xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-            xmlns:var="https://frankensteinvariorum.github.io"
-            xml:id="novel1_letter4_chapter8_div4_div9_p6">
+         <p xml:id="novel1_letter4_chapter8_div4_div9_p6">
             <seg part="F" xml:id="C15_app238-fThomas__F">
                </seg> At these moments I wept  <seg xml:id="C15_app240-fThomas">bitterly,</seg>
             <pb xml:id="F1818_v2_010" n="006"/>and wished that peace would revisit my mind <seg xml:id="C15_app242-fThomas">only</seg>
@@ -144,12 +88,7 @@
             <seg xml:id="C15_app270-fThomas">fear,</seg> so long as  <seg xml:id="C15_app272-fThomas">any thing</seg> I loved remained  <seg xml:id="C15_app274-fThomas">behind.</seg> My abhorrence of this fiend cannot be  <seg xml:id="C15_app276-fThomas">conceived.</seg> When I thought of  <seg xml:id="C15_app278-fThomas">him,</seg> I gnashed my  <seg xml:id="C15_app280-fThomas">teeth,</seg> my eyes became  <seg xml:id="C15_app282-fThomas">inflamed,</seg> and I ardently wished to extinguish that life which I had so thoughtlessly bestowed. When I  <seg xml:id="C15_app284-fThomas">reflected on his crimes and malice, my hatred and <pb xml:id="F1818_v2_011" n="007"/>revenge burst all bounds of</seg>
             <seg xml:id="C15_app285-fThomas">moderation.</seg> I would have made a  <seg xml:id="C15_app287-fThomas">pilgrimage to</seg> the highest peak of the  <seg xml:id="C15_app289-fThomas">Andes,</seg> could  <seg xml:id="C15_app291-fThomas">I,</seg> when  <seg xml:id="C15_app293-fThomas">there,</seg> have precipitated him to their  <seg xml:id="C15_app295-fThomas">base.</seg> I wished  <seg xml:id="C15_app297-fThomas">to see him</seg>
             <seg xml:id="C15_app298-fThomas">again,</seg> that I might wreak the utmost extent of  <seg xml:id="C15_app300-fThomas">anger</seg> on his  <seg xml:id="C15_app302-fThomas">head,</seg> and avenge the deaths of William and Justine. </p>
-         <p xmlns="http://www.tei-c.org/ns/1.0"
-            xmlns:mith="http://mith.umd.edu/sc/ns1#"
-            xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-            xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-            xmlns:var="https://frankensteinvariorum.github.io"
-            xml:id="novel1_letter4_chapter8_div4_div9_p7"> Our house was <seg xml:id="C15_app304-fThomas">the house of</seg>
+         <p xml:id="novel1_letter4_chapter8_div4_div9_p7"> Our house was <seg xml:id="C15_app304-fThomas">the house of</seg>
             <seg xml:id="C15_app305-fThomas">mourning.</seg> My  <seg xml:id="C15_app307-fThomas">father’s</seg> health was deeply shaken by the horror of the recent events. Elizabeth was sad and  <seg xml:id="C15_app309-fThomas">desponding;</seg> she no longer took delight in her ordinary occupations; all pleasure seemed to her  <seg xml:id="C15_app311-fThomas">sacrilege toward</seg> the dead;  <seg xml:id="C15_app313-fThomas">eternal</seg> woe and  <seg xml:id="C15_app315-fThomas">tears</seg> she then thought was the just tribute she should pay to innocence so blasted and destroyed. She was no longer that happy  <seg xml:id="C15_app317-fThomas">creature,</seg> who in earlier youth  <seg xml:id="C15_app319-fThomas">wandered with</seg>
             <seg xml:id="C15_app320-fThomas">me on the banks of the</seg>
             <seg xml:id="C15_app321-fThomas">lake, and</seg> talked with  <seg xml:id="C15_app323-fThomas">ecstacy</seg> of our future  <seg xml:id="C15_app325-fThomas">prospects.</seg>
@@ -165,12 +104,7 @@
             <seg part="I" xml:id="C15_app334-fThomas__I">
                </seg>
          </p>
-         <p xmlns="http://www.tei-c.org/ns/1.0"
-            xmlns:mith="http://mith.umd.edu/sc/ns1#"
-            xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-            xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-            xmlns:var="https://frankensteinvariorum.github.io"
-            xml:id="novel1_letter4_chapter8_div4_div9_p8">
+         <p xml:id="novel1_letter4_chapter8_div4_div9_p8">
             <seg part="F" xml:id="C15_app334-fThomas__F">
                </seg> “When I reflect, my dear cousin,”  <seg xml:id="C15_app336-fThomas">said</seg>
             <seg xml:id="C15_app337-fThomas">she,</seg> “on the miserable death of Justine Moritz, I no longer see  <seg xml:id="C15_app339-fThomas">the world and its works</seg>
@@ -186,12 +120,7 @@
             <seg xml:id="C15_app395-fThomas">themselves</seg> of certain happiness? I feel as if I were walking on the edge of  <seg xml:id="C15_app397-fThomas">a precipice,</seg> towards which thousands are  <seg xml:id="C15_app399-fThomas">crowding, and endeavouring</seg> to plunge me into the  <seg xml:id="C15_app401-fThomas">abyss.</seg> William and Justine were  <seg xml:id="C15_app403-fThomas">assassinated,</seg> and the murderer  <seg xml:id="C15_app405-fThomas">escapes;</seg> he walks  <seg xml:id="C15_app407-fThomas">about</seg> the world  <seg xml:id="C15_app409-fThomas">free,</seg> and perhaps respected. But  <seg xml:id="C15_app411-fThomas">even if</seg>
             <seg xml:id="C15_app412-fThomas">I were</seg>
             <seg xml:id="C15_app413-fThomas">condemned</seg> to suffer on the scaffold <pb xml:id="F1818_v2_014" n="010"/>for the same <seg xml:id="C15_app415-fThomas">crimes,</seg> I would not change places with such a wretch.” </p>
-         <p xmlns="http://www.tei-c.org/ns/1.0"
-            xmlns:mith="http://mith.umd.edu/sc/ns1#"
-            xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-            xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-            xmlns:var="https://frankensteinvariorum.github.io"
-            xml:id="novel1_letter4_chapter8_div4_div9_p9"> I listened to this discourse with the extremest <seg xml:id="C15_app417-fThomas">agony. I,</seg> not  <seg xml:id="C15_app419-fThomas">in</seg>
+         <p xml:id="novel1_letter4_chapter8_div4_div9_p9"> I listened to this discourse with the extremest <seg xml:id="C15_app417-fThomas">agony. I,</seg> not  <seg xml:id="C15_app419-fThomas">in</seg>
             <seg xml:id="C15_app420-fThomas">deed,</seg> but in  <seg xml:id="C15_app422-fThomas">effect,</seg> was the true  <seg xml:id="C15_app424-fThomas">murderer.</seg> Elizabeth read my anguish in my countenance, and kindly taking my  <seg xml:id="C15_app426-fThomas">hand</seg>
             <seg xml:id="C15_app427-fThomas">said, “My</seg> dearest  <seg xml:id="C15_app429-fThomas">cousin,</seg> you must calm  <seg xml:id="C15_app431-fThomas">yourself.</seg> These events have affected  <seg xml:id="C15_app433-fThomas">me, God</seg> knows how  <seg xml:id="C15_app435-fThomas">deeply;</seg> but I am not so wretched as you are. There is an expression of  <seg xml:id="C15_app437-fThomas">despair,</seg> and sometimes of  <seg xml:id="C15_app439-fThomas">revenge,</seg> in your  <seg xml:id="C15_app441-fThomas">countenance,</seg> that  <seg xml:id="C15_app443-fThomas">makes me</seg>
             <seg xml:id="C15_app444-fThomas">tremble. Be calm, my dear Victor; I would sacrifice my life to your peace. We surely shall be happy:</seg>
@@ -201,12 +130,7 @@
             <seg xml:id="C15_app448-fThomas">mingling in the </seg>
             <seg xml:id="C15_app449-fThomas">world, what can disturb our tranquillity?”</seg>
          </p>
-         <p xmlns="http://www.tei-c.org/ns/1.0"
-            xmlns:mith="http://mith.umd.edu/sc/ns1#"
-            xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-            xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-            xmlns:var="https://frankensteinvariorum.github.io"
-            xml:id="novel1_letter4_chapter8_div4_div9_p10">
+         <p xml:id="novel1_letter4_chapter8_div4_div9_p10">
             <seg xml:id="C15_app451-fThomas">She shed tears as she said</seg>
             <seg xml:id="C15_app452-fThomas">this,</seg>
             <seg xml:id="C15_app453-fThomas">distrusting the very</seg>
@@ -251,12 +175,7 @@
             <seg xml:id="C15_app494-fThomas">place,</seg>
             <seg xml:id="C15_app495-fThomas">which had been described to them as so wonderful and sublime. Accordingly we departed from Geneva on this tour</seg> about the middle of the month of  <seg xml:id="C15_app497-fThomas">August,</seg> nearly two months after the death of  <seg part="I" xml:id="C15_app499-fThomas__I">Justine. </seg>
          </p>
-         <p xmlns="http://www.tei-c.org/ns/1.0"
-            xmlns:mith="http://mith.umd.edu/sc/ns1#"
-            xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-            xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-            xmlns:var="https://frankensteinvariorum.github.io"
-            xml:id="novel1_letter4_chapter8_div4_div9_p11">
+         <p xml:id="novel1_letter4_chapter8_div4_div9_p11">
             <seg part="F" xml:id="C15_app499-fThomas__F">
                <pb xml:id="F1818_v2_016" n="012"/>The weather was</seg>
             <seg xml:id="C15_app500-fThomas">uncommonly fine;</seg>
@@ -302,24 +221,14 @@
             <seg part="I" xml:id="C15_app548-fThomas__I">
                </seg>
          </p>
-         <p xmlns="http://www.tei-c.org/ns/1.0"
-            xmlns:mith="http://mith.umd.edu/sc/ns1#"
-            xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-            xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-            xmlns:var="https://frankensteinvariorum.github.io"
-            xml:id="novel1_letter4_chapter8_div4_div9_p12">
+         <p xml:id="novel1_letter4_chapter8_div4_div9_p12">
             <seg part="F" xml:id="C15_app548-fThomas__F">
                <pb xml:id="F1818_v2_017" n="013"/>The next day we pursued our journey</seg>
             <seg xml:id="C15_app549-fThomas">upon mules;</seg>
             <seg xml:id="C15_app550-fThomas">and</seg> as  <seg xml:id="C15_app552-fThomas">we</seg> ascended  <seg xml:id="C15_app554-fThomas">still</seg>
             <seg xml:id="C15_app555-fThomas">higher,</seg> the valley assumed a more  <seg xml:id="C15_app557-fThomas">magnificent</seg> and  <seg xml:id="C15_app559-fThomas">astonishing character.</seg> Ruined castles  <seg xml:id="C15_app561-fThomas">hanging</seg> on the precipices of  piny mountains; the impetuous Arve, and cottages every here and there peeping   <seg xml:id="C15_app564-fThomas">forth</seg> from among the trees, formed a scene of singular  <seg xml:id="C15_app566-fThomas">beauty.</seg> But it was  <seg xml:id="C15_app568-fThomas">augmented and rendered</seg> sublime by the mighty  <seg xml:id="C15_app570-fThomas">Alps,</seg> whose white and shining  <seg xml:id="C15_app572-fThomas">pyramids</seg> and domes towered above  <seg xml:id="C15_app574-fThomas">all, as belonging to</seg> another  <seg xml:id="C15_app576-fThomas">earth, the</seg> habitations of another race of  <seg part="I" xml:id="C15_app578-fThomas__I">beings. </seg>
          </p>
-         <p xmlns="http://www.tei-c.org/ns/1.0"
-            xmlns:mith="http://mith.umd.edu/sc/ns1#"
-            xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-            xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-            xmlns:var="https://frankensteinvariorum.github.io"
-            xml:id="novel1_letter4_chapter8_div4_div9_p13">
+         <p xml:id="novel1_letter4_chapter8_div4_div9_p13">
             <seg part="F" xml:id="C15_app578-fThomas__F">
                </seg>
             <seg xml:id="C15_app579-fThomas">We</seg> passed the bridge of  <seg xml:id="C15_app581-fThomas">Pelissier,</seg> where the  <seg xml:id="C15_app583-fThomas">ravine,</seg> which the river  <seg xml:id="C15_app585-fThomas">forms,</seg> opened before  <seg xml:id="C15_app587-fThomas">us,</seg> and  <seg xml:id="C15_app589-fThomas">we</seg> began to ascend the mountain  <seg xml:id="C15_app591-fThomas">that overhangs it.</seg> Soon after  <seg xml:id="C15_app593-fThomas">we</seg> entered the valley of Chamounix. This valley is more wonderful and  <seg xml:id="C15_app595-fThomas">sublime, but</seg> not so beautiful<pb xml:id="F1818_v2_018" n="014"/> and <seg xml:id="C15_app597-fThomas">picturesque</seg> as that of  <seg xml:id="C15_app599-fThomas">Servox,</seg> through which  <seg xml:id="C15_app601-fThomas">we</seg> had just passed. The high and snowy mountains  <seg xml:id="C15_app603-fThomas">were</seg> its  <seg xml:id="C15_app605-fThomas">immediate boundaries;</seg> but  <seg xml:id="C15_app607-fThomas">we</seg> saw no more ruined castles  <seg xml:id="C15_app609-fThomas">and</seg> fertile fields. Immense glaciers approached the  <seg xml:id="C15_app611-fThomas">road;</seg>
@@ -327,12 +236,7 @@
                <hi xml:id="novel1_letter4_chapter8_div4_div9_p13_hi1">aiguilles</hi>,</seg> and its tremendous  <seg xml:id="C15_app624-fThomas">
                <hi xml:id="novel1_letter4_chapter8_div4_div9_p13_hi2">dome</hi>
             </seg> overlooked the valley. </p>
-         <p xmlns="http://www.tei-c.org/ns/1.0"
-            xmlns:mith="http://mith.umd.edu/sc/ns1#"
-            xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-            xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-            xmlns:var="https://frankensteinvariorum.github.io"
-            xml:id="novel1_letter4_chapter8_div4_div9_p14">
+         <p xml:id="novel1_letter4_chapter8_div4_div9_p14">
             <seg xml:id="C15_app626-fThomas">During this</seg>
             <seg xml:id="C15_app627-fThomas">journey,</seg>
             <seg xml:id="C15_app628-fThomas">I sometimes joined</seg>
@@ -366,12 +270,7 @@
             <seg xml:id="C15_app671-fThomas">seemed to promise</seg>
             <seg xml:id="C15_app672-fThomas">for the next day.</seg>
          </p>
-         <p xmlns="http://www.tei-c.org/ns/1.0"
-            xmlns:mith="http://mith.umd.edu/sc/ns1#"
-            xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-            xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-            xmlns:var="https://frankensteinvariorum.github.io"
-            xml:id="novel1_letter4_chapter8_div4_div9_p15">
+         <p xml:id="novel1_letter4_chapter8_div4_div9_p15">
             <seg xml:id="C15_app674-fThomas">We retired early to our</seg>
             <seg xml:id="C15_app675-fThomas">apartments,</seg>
             <seg xml:id="C15_app676-fThomas">but not to</seg>
@@ -382,21 +281,10 @@
             <seg part="I" xml:id="C15_app697-fThomas__I">
                </seg>
          </p>
-         <seg xmlns="http://www.tei-c.org/ns/1.0"
-              xmlns:mith="http://mith.umd.edu/sc/ns1#"
-              xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-              xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-              xmlns:var="https://frankensteinvariorum.github.io"
-              part="F"
-              xml:id="C15_app697-fThomas__F">
+         <seg part="F" xml:id="C15_app697-fThomas__F">
             <milestone unit="chapter" type="end" n="8"/>
          </seg>
-         <seg xmlns="http://www.tei-c.org/ns/1.0"
-              xmlns:mith="http://mith.umd.edu/sc/ns1#"
-              xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-              xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-              xmlns:var="https://frankensteinvariorum.github.io"
-              xml:id="C16_app1-fThomas">
+         <seg xml:id="C16_app1-fThomas">
             <anchor type="collate" xml:id="C16"/>
          </seg>
       </body>
