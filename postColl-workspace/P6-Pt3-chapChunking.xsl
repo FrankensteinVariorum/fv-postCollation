@@ -6,7 +6,8 @@
     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
     xmlns:mith="http://mith.umd.edu/sc/ns1#"
     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-    exclude-result-prefixes="xs math"
+    xmlns:var="https://frankensteinvariorum.github.io"
+    exclude-result-prefixes="xs math var"
     version="3.0">
     
     <!-- 2023-06-1 ebb yxj nlh: This XSLT should output separate chapter files. It is not doing that yet. 
@@ -15,122 +16,91 @@
     ebb thinks we should proceed by testing the OTHER print editions, and see if that helps us figure out the problem in fMS.
    
     -->
-    <xsl:mode on-no-match="shallow-copy"/>
+    <xsl:mode on-no-match="shallow-copy" exclude-result-prefixes="th mith pitt var"/>
   
     
-    <xsl:variable name="wholeFiles" as="document-node()+" select="collection('P6-Pt1/?select=*.xml')"/>    
+    <xsl:variable name="wholeFiles" as="document-node()+" select="collection('P6-Pt2/?select=*.xml')"/>    
     
-    <xsl:template match="/">
+    <xsl:template match="/" exclude-result-prefixes="th mith pitt var">
         <xsl:for-each select="$wholeFiles">
             <xsl:variable name="currFile" as="document-node()" select="current()"/>
-
-            <xsl:choose>
-                <xsl:when test="$currFile ! base-uri()[contains(., 'fMS')]">
-                    <xsl:for-each-group select="$currFile//node()" group-by="tei:milestone[@unit='tei:head']/@spanTo">
-                       
-                   
-                        <xsl:variable name="file_id" as="xs:string" select="following::text()[not(matches(., '^\s+$'))][1] ! lower-case(.) ! replace(., '[.,:;]', '') ! tokenize(., ' ')[position() gt 1 and not(position() = last())] => string-join('_') 
-                            || '_' || count(preceding::tei:milestone[@unit='tei:head'])"/>
-                        
-                        <!-- 
-                            following::text()[not(matches(., '^\s+$'))][1] ! lower-case(.) ! replace(., '[.,:;]', '') ! tokenize(., ' ') => string-join('_')
-                            
-                            -->
-                        
-                       
-                           <xsl:result-document href="P6-Pt2-test/fMS_{$file_id}.xml" method="xml" indent="yes">
-                            
-                            
-                           <TEI> 
-                               <teiHeader>
-                                   <titleSmt><title><xsl:value-of select="$file_id"/></title></titleSmt>
-                               </teiHeader>
-                               <text>
-                              <body> 
-                                  <xsl:apply-templates select="current-group()"/>
-                              </body>
-                               </text>
-                           </TEI>
-                            <!--
-                                href="collationChunks-simple/{base-uri() ! tokenize(., '/')[last()] ! substring-before(., '.')}_{current()/@xml:id}.xml"
-                method="xml" indent="yes"
-                                
-                                
-                                output filenames should look like this: 
-                            
-                            fMS_chapter_twenty-three
-                            
- $msCollection//milestone[@unit='tei:head'][following::text()[not(matches(., '^\s+$'))][1]] ! lower-case(.) ! tokenize(., ' ') => string-join('_')
-                            -->
-                            
-                            
-                        </xsl:result-document>
-                        
-                    </xsl:for-each-group>
-                    
-                    
-                </xsl:when>
-                
-                <xsl:otherwise>
-                    <xsl:for-each-group select="$currFile//node()" group-by="tei:milestone[@unit='chapter' and @type='start']">
-                        
+           
+            <xsl:for-each-group select="$currFile//tei:anchor[@type='semantic']/following-sibling::node()" group-starting-with="tei:anchor[@type='semantic']">
   
-                     <!--   <xsl:result-document href="P6-Pt2/{}" method="xml" indent="yes">
-                            -->
-                            <!--output filenames should look like this: 
-                            
-                            f1818_vol_1_chapter_iii
-                            -->
-==
-                            
-                        <!--</xsl:result-document>-->
-                        <xsl:variable name="vol_info" as="xs:string?">
-                            <xsl:if test="$currFile ! base-uri()[not(contains(., 'f1831'))]">   
-                             
-                             <xsl:choose><!-- ebb: This must change when we have the whole edition. For right now.we're just processing collation units in the middle. -->
-                                <xsl:when test="preceding::tei:milestone[@unit='volume'][1]">
-                                   <xsl:value-of select="concat('_vol_', preceding::tei:milestone[@unit='volume'][1]/@n)"/>
-                                    
-                                </xsl:when>
-                          
-                                <xsl:otherwise>
-                                    <xsl:text>_vol_1</xsl:text>
-                                </xsl:otherwise>
-                                
-                            </xsl:choose></xsl:if>
-                            
-                        </xsl:variable>
-                        <xsl:variable name="chap_id" as="xs:string" select="following::tei:head[1]/following-sibling::text()[1] ! lower-case(.) ! replace(., '[.,:;]', '') ! tokenize(., ' ') => string-join('_') 
-                           "/>
-                        <xsl:variable name="editionInfo" as="xs:string" select="$currFile ! base-uri() ! tokenize(., '/')[last()] ! substring-before(., '.xml')"/>
-                        <xsl:result-document href="P6-Pt2-test/{$editionInfo}{$vol_info}_{$chap_id}.xml" method="xml" indent="yes">
-                            <TEI> 
-                                <teiHeader>
-                                    <titleSmt><title><xsl:value-of select="$editionInfo || ' ' || $vol_info || ' ' || $chap_id"/></title></titleSmt>
-                                </teiHeader>
-                                <text>
-                                    <body> 
-                                       <xsl:apply-templates select="current-group()"/>
-                                    </body>
-                                </text>
-                            </TEI>
-                           
-                            
-                        </xsl:result-document>
-                        
-                   </xsl:for-each-group>
-            </xsl:otherwise>
-            </xsl:choose>
-            
+          <xsl:choose>
+              <xsl:when test="position() = 1">
+                  <xsl:result-document
+                      href="P6-Pt3/{$currFile//tei:anchor[@type='semantic'][1]/@xml:id}.xml"
+                      method="xml" indent="yes"> 
+                      <TEI>
+                          <teiHeader>
+                              <fileDesc>
+                                  <titleStmt>
+                                      <title>Bridge Phase 6: <xsl:value-of select="current()/@xml:id ! replace(., '_', ' ')"/></title>
+                                  </titleStmt>
+                                  <publicationStmt>
+                                      <authority>Frankenstein Variorum Project</authority>
+                                      <date>2023—</date>
+                                      <availability>
+                                          <licence>Distributed under a Creative Commons
+                                              Attribution-ShareAlike 3.0 Unported License</licence>
+                                      </availability>
+                                  </publicationStmt>
+                                  <sourceDesc>
+                                      <p>Produced from a corpus of collation output files for the Frankenstein Variorum digital edition
+                                          on <xsl:value-of select="current-dateTime()"/>.</p>
+                                  </sourceDesc>
+                              </fileDesc>
+                          </teiHeader>
+                          <text>
+                              <body>
+                                  <xsl:copy select="$currFile//tei:anchor[@type='semantic'][1]" copy-namespaces="no">
+                                      <xsl:copy-of select="@*"/>
+                                  </xsl:copy>
+                                  <xsl:apply-templates select="current-group()" exclude-result-prefixes="th mith pitt var"/>
+                              </body>
+                          </text>
+                      </TEI>
+                  </xsl:result-document>
+                  
+                  
+              </xsl:when>
+              <xsl:otherwise>
+                      <xsl:result-document
+                    href="P6-Pt3/{current()/@xml:id}.xml"
+                    method="xml" indent="yes"> 
+                    <TEI>
+                        <teiHeader>
+                            <fileDesc>
+                                <titleStmt>
+                                    <title>Bridge Phase 6: <xsl:value-of select="current()/@xml:id ! replace(., '_', ' ')"/></title>
+                                </titleStmt>
+                                <publicationStmt>
+                                    <authority>Frankenstein Variorum Project</authority>
+                                    <date>2023—</date>
+                                    <availability>
+                                        <licence>Distributed under a Creative Commons
+                                            Attribution-ShareAlike 3.0 Unported License</licence>
+                                    </availability>
+                                </publicationStmt>
+                                <sourceDesc>
+                                    <p>Produced from a corpus of collation output files for the Frankenstein Variorum digital edition
+                                        on <xsl:value-of select="current-dateTime()"/>.</p>
+                                </sourceDesc>
+                            </fileDesc>
+                        </teiHeader>
+                        <text>
+                            <body>
+                                <xsl:apply-templates select="current-group()" exclude-result-prefixes="th mith pitt var"/>
+                            </body>
+                        </text>
+                    </TEI>
+                </xsl:result-document></xsl:otherwise></xsl:choose>
+            </xsl:for-each-group>
         </xsl:for-each>
     </xsl:template>
     
-    <xsl:template match="teiHeader"/>
+    <xsl:template match="tei:teiHeader"/>
         
-        
-    
-    
-    
-
     
 </xsl:stylesheet>
