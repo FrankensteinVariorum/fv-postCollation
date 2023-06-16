@@ -44,9 +44,7 @@
          <!-- <xsl:variable name="rightSearchGlass" select="&#x1F50E;"/>-->
           <h3><xsl:text>&#x1F50E;</xsl:text> Instructions for searching</h3>
           <p>To search this document, use your web browser’s native <q>Find on this page</q> tools, using CTRL + F on a PC, or Command + F on a Mac.</p>
- 
-      </div>
-              
+      </div> 
                 <div class="ready"> <xsl:apply-templates select="$P1coll//app">
                      <xsl:sort select="ancestor::TEI/@xml:id"/> 
                  </xsl:apply-templates>
@@ -80,10 +78,8 @@
             <xsl:otherwise>
             <h4>Unified Readings</h4>    
                <table><xsl:apply-templates select="rdg"/></table>
-                
             </xsl:otherwise>
         </xsl:choose>
-        
     </xsl:template>
     <xsl:template match="rdg">
        <tr class="{@wit}"> <td class="wit">Witness: <xsl:apply-templates select="@wit"/></td>
@@ -125,6 +121,5 @@
            </xsl:analyze-string>
             </xsl:non-matching-substring>
         </xsl:analyze-string>
-       
     </xsl:template>
 </xsl:stylesheet>

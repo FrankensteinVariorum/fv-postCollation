@@ -8,6 +8,7 @@ White="\e[0m"
 SAXON="../../collationWorkspace/xslt/SaxonHE12-0J/saxon-he-12.0.jar"
 
 checkInput(){
+  # check the user input is valid, print the message, and allow to re-input
   chunk=$1
   while ! [[ "$chunk" =~ $isInt ]] || [[ $chunk -lt 1 ]] || [[ $chunk -gt 33 ]]
   do
@@ -23,6 +24,7 @@ checkInput(){
   return "$chunk"
 }
 getChunk(){
+  # copy collation chunks from collationWorkspace
   chunk=$1
   if [ ${#chunk} -lt 2 ]; then
     chunk="0$chunk"
@@ -32,6 +34,7 @@ getChunk(){
   mv "collated-data/collation_$chunk-complete.xml" "collated-data/collation_$chunk.xml"
 }
 fileExist(){
+  # check if the file generated sucessfully
   fileName=$1
   if [ ! -f "$fileName" ]; then
     echo -e "${Red}Oops! $fileName DOES NOT exist!${White}"
@@ -42,26 +45,28 @@ fileExist(){
 }
 
 postProcessColl(){
+  # this array includes xslt files to run
   xslArr=("P1-bridgeEditionConstructor.xsl"
   "P2-bridgeEditionConstructor.xsl"
   "P3-bridgeEditionConstructor.xsl"
   "P4Sax-raiseBridgeElems.xsl" 
   "P5-Pt1-SegTrojans.xsl" # 5
-  "P5-Pt2PlantFragSegMarkers.xsl"
-  "P5-Pt3MedialSTARTSegMarkers.xsl"
-  "P5-Pt4MedialENDSegMarkers.xsl"
-  "P5-Pt5raiseSegElems.xsl" 
-  "P5-Pt6spaceHandling.xsl" # 10
+  "P5-Pt2-PlantFragSegMarkers.xsl"
+  "P5-Pt3-MedialSTARTSegMarkers.xsl"
+  "P5-Pt4-MedialENDSegMarkers.xsl"
+  "P5-Pt5-raiseSegElems.xsl" 
+  "P5-Pt6-spaceHandling.xsl" # 10
   "P6-Pt1-combine.xsl"
   "P6-Pt2-simplify-chapAnchors.xsl"
   "P6-Pt3-chapChunking.xsl"
-  # "P5_SpineGenerator.xsl"
+  # "P5-SpineGenerator.xsl"
   #"spineAdjustor.xsl"
   #"edit-distance/extractCollationData.xsl"
   )
-  pipelineArr=("collated-data" "P1-output" "P2-output" "P3-output"
-  "P4-output" "preP5a-output" "preP5b-output" "preP5c-output" "preP5d-output" "preP5e-output" "P5-output" "P6-Pt1"
-  "P6-Pt2" "P6-Pt3"
+  # this array includes the pipeline directories
+  pipelineArr=("collated-data" "P1-output" "P2-output" "P3-output" "P4-output" 
+  "P5-Pt1-output" "P5-Pt2-output" "P5-Pt3-output" "P5-Pt4--output" "P5-Pt5-output" "P5-Pt6-output" 
+  "P6-Pt1-output" "P6-Pt2-output" "P6-Pt3-output"
   #"subchunked_standoff_Spine" "preLev_standoff_Spine"
   )
   # start processing
@@ -72,9 +77,9 @@ postProcessColl(){
     java -jar $SAXON -xsl:"${xslArr[$i]}" -s:"${xslArr[$i]}" -t
   done
 
-  echo -e "${Yellow}Run P5_SpineGenerator.xsl${White}"
+  echo -e "${Yellow}Run P5-SpineGenerator.xsl to generate spine files${White}"
   echo -e "${Yellow}input: P1-output, output: subchunked_standoff_Spine${White}"
-  java -jar $SAXON -s:P1-output -xsl:P5_SpineGenerator.xsl -o:subchunked_standoff_Spine -t
+  java -jar $SAXON -s:P1-output -xsl:P5-SpineGenerator.xsl -o:subchunked_standoff_Spine -t
 
   for xml in subchunked_standoff_Spine/*.xml
   do
@@ -82,13 +87,14 @@ postProcessColl(){
   done
 
   echo -e "${Yellow}Phase 7: Prepare the “spine” of the variorum${White}"
+  echo -e "${Yellow}Run spineAdjustor.xsl${White}"
   echo -e "${Yellow}intput: subchunked_standoff_Spine, output: preLev_standoff_Spine${White}"
-  java -jar $SAXON -s:subchunked_standoff_Spine -xsl:spineAdjustor.xsl -o:. -t
+  java -jar $SAXON -s:spineAdjustor.xsl -xsl:spineAdjustor.xsl -o:. -t
 
   echo -e "${Yellow}Run extractCollationData.xsl in edit-distance${White}"
   echo -e "${Yellow}input: preLev_standoff_Spine, output: edit-distance/spineData.txt${White}"
   cd edit-distance || exit
-  java -jar ../$SAXON -s:extractCollationData.xsl -xsl:extractCollationData.xsl -o:.  -t
+  java -jar ../$SAXON -s:extractCollationData.xsl -xsl:extractCollationData.xsl -o:spineData.txt  -t
   fileExist spineData.txt
 
   echo -e "${Yellow}Convert spineData.txt to ASCII format${White}"
@@ -118,10 +124,10 @@ postProcessColl(){
 }
 
 main(){
-  allArr=("collated-data" "P1-output" "P2-output" "P3-output" 
-  "P4-output" "preP5a-output" "preP5b-output" "preP5c-output" "preP5d-output" "preP5e-output" "P5-output" "P5-trimmedWS"  "P6-Pt1"
-  "P6-Pt2" "P6-Pt3" 
-  "subchunked_standoff_Spine" "preLev_standoff_Spine" # "edit-distance/spineData.txt"
+  allArr=("collated-data" "P1-output" "P2-output" "P3-output" "P4-output" 
+  "P5-Pt1-output" "P5-Pt2-output" "P5-Pt3-output" "P5-Pt4-output" "P5-Pt5-output" "P5-Pt6-output"
+  "P6-Pt1-output" "P6-Pt2-output" "P6-Pt3-output" 
+  "subchunked_standoff_Spine" "preLev_standoff_Spine" #"edit-distance/spineData.txt"
   "standoff_Spine"
   )
 

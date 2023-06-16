@@ -10,7 +10,8 @@
    We will generate the spine file following the edition files constructed in bridge P5, so that we have the benefit of seeing the <seg> elements where they need to be multiplied (e.g. around paragraph breaks). We can then generate pointers to more precise locations.   
     -->
     <xsl:output method="xml" indent="no"/>
-    <xsl:variable name="P1Files" as="document-node()+" select="collection('P1-output/?select=*.xml')"/>
+    <xsl:variable name="P1Files" as="document-node()+"
+        select="collection('P1-output/?select=*.xml')"/>
     <xsl:variable name="witnesses" as="xs:string+" select="distinct-values($P1Files//@wit)"/>
     <xsl:template match="/">
         <xsl:for-each select="$P1Files//TEI">
@@ -18,14 +19,14 @@
             <xsl:variable name="chunk" as="xs:string"
                 select="substring-after(substring-before(tokenize(base-uri(), '/')[last()], '.'), '_')"/>
             <xsl:for-each select="$witnesses">
-
                 <xsl:result-document method="xml" indent="yes"
                     href="P2-output/P2_{current()}_{$chunk}.xml">
                     <TEI xml:id="{current()}_{$chunk}">
                         <teiHeader>
                             <fileDesc>
                                 <titleStmt>
-                                    <title>Bridge Phase 2: Witness <xsl:value-of select="current()"/>, Collation unit <xsl:value-of select="$chunk"/></title>
+                                    <title>Bridge Phase 2: Witness <xsl:value-of select="current()"
+                                        />, Collation unit <xsl:value-of select="$chunk"/></title>
                                 </titleStmt>
                                 <xsl:copy-of select="$currentP1File//publicationStmt"/>
                                 <xsl:copy-of select="$currentP1File//sourceDesc"/>
@@ -58,7 +59,8 @@
         </xsl:choose>
     </xsl:template>
     <xsl:template match="rdg" mode="invariant">
-        <xsl:apply-templates select="."/><xsl:text> </xsl:text>
+        <xsl:apply-templates select="."/>
+        <xsl:text> </xsl:text>
     </xsl:template>
     <xsl:template match="rdg" mode="variant">
         <seg xml:id="{ancestor::app/@xml:id}-{@wit}_start"/>

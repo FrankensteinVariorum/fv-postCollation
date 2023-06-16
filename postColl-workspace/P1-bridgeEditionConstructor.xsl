@@ -53,7 +53,6 @@
                 </TEI>
             </xsl:result-document>
         </xsl:for-each>
-
     </xsl:template>
 
     <xsl:template match="app">
@@ -72,7 +71,7 @@
             <xsl:apply-templates/>
         </rdgGrp>
     </xsl:template>
-    
+
     <xsl:template match="rdg">
         <rdg wit="{@wit}">
             <xsl:analyze-string select="." regex="&lt;([^/]+?)&gt;\s*&lt;/\1&gt;">
@@ -93,8 +92,7 @@
                         <xsl:matching-substring/>
                         <xsl:non-matching-substring>
                             <!-- normalize space and remove line break in **markers** -->
-                            <xsl:analyze-string select="." 
-                                regex="[\s\n\r]+">
+                            <xsl:analyze-string select="." regex="[\s\n\r]+">
                                 <xsl:matching-substring>
                                     <xsl:text> </xsl:text>
                                 </xsl:matching-substring>

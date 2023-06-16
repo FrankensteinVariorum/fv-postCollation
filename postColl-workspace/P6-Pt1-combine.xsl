@@ -9,27 +9,20 @@
   
   <xsl:mode on-no-match="shallow-copy"/>
   
-  <xsl:variable name="P5-coll" as="document-node()+" select="collection('P5-output/?select=*.xml')"/> 
+  <xsl:variable name="P5-coll" as="document-node()+" select="collection('P5-Pt6-output/?select=*.xml')"/> 
   <xsl:variable name="editionNames" as="xs:string+" select="('f1818', 'f1823', 'fThomas', 'f1831', 'fMS')"/> 
   
   <xsl:template match="/">
     <xsl:for-each select="$editionNames">
       <xsl:variable name="currentEdition" as="xs:string" select="current()"/>
-      <xsl:result-document method="xml" indent="yes" href="P6-Pt1/{$currentEdition}.xml">
+      <xsl:result-document method="xml" indent="yes" href="P6-Pt1-output/{$currentEdition}.xml">
         <teiCorpus>
         <xsl:for-each select="$P5-coll[contains(base-uri(), $currentEdition)]">
           <xsl:sort select="//text//anchor[@type='collate']/@xml:id"/>
-          
           <xsl:apply-templates/>
         </xsl:for-each>
         </teiCorpus>
       </xsl:result-document>
     </xsl:for-each>
-        
- 
   </xsl:template>
-  
-  
-  
-   
 </xsl:stylesheet>
