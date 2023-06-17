@@ -33,7 +33,7 @@ Change the output filenames from starting with P1_ to spine_.
     -->
     <xsl:mode on-no-match="shallow-copy"/>
     <xsl:param name="sga_loc"
-        select="'https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/'"/>
+        select="'https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/variorum-chunks/'"/>
     <!-- ebb: Keep for pointing to original SGA file location: <xsl:param name="sga_loc" select="'https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/'"/>-->
     <xsl:variable name="P5_coll" as="document-node()+" select="collection('P5-Pt6-output')"/>
 
