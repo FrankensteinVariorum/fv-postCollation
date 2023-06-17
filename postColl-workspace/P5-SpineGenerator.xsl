@@ -220,7 +220,7 @@ Change the output filenames from starting with P1_ to spine_.
                                     select="$currEd-Chunk"/></xsl:message>
                             <xsl:for-each select="$currEd-Seg">
                                 <ptr
-                                    target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/{$currWit}_{$currEd-Chunk}.xml#{current()/@xml:id}"
+                                    target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/variorum-chunks/{$currWit}_{$currEd-Chunk}.xml#{current()/@xml:id}"
                                 />
                             </xsl:for-each>
                         </rdg>

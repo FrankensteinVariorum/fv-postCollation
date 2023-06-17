@@ -6,10 +6,10 @@ Green="\e[0;32m"
 Yellow="\e[0;33m"
 White="\e[0m"
 
-# First, delete previous directories made by running this script. Then, copy all of P5-output into P5-print.
+# First, delete previous directories made by running this script. Then, copy all of P5-Pt6-output into P5-print.
 rm -R P5-print  
 rm -R P5-MS
-cp -R P5-output P5-print
+cp -R P5-Pt6-output P5-print
 
 # Then, find and move msColl files out into their own directory, named P5-MS, and remove P5 prefix from MS edition filenames.
 
