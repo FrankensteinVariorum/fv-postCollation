@@ -13,7 +13,7 @@
         for file in *.txt; do iconv -c -f UTF-8 -t ascii//TRANSLIT "$file" > ../spineDataASCII/"$file"; done
     (On using TRANSLIT with iconv, see https://unix.stackexchange.com/questions/171832/converting-a-utf-8-file-to-ascii-best-effort) 
         -->
-        <xsl:result-document method="text" encoding="UTF-8" href="./spineData.txt"> 
+        <xsl:result-document method="text" encoding="UTF-8" href="spineData.txt"> 
             <xsl:for-each select="$spineColl/TEI"> 
                 <xsl:sort select="base-uri(.) ! tokenize(., '/')[last()]"/>
                 <!-- <xsl:variable name="currentSpineFile" as="element()" select="current()"/>

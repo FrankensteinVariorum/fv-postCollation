@@ -89,7 +89,7 @@ postProcessColl(){
   echo -e "${Yellow}Phase 7: Prepare the “spine” of the variorum${White}"
   echo -e "${Yellow}Run spineAdjustor.xsl${White}"
   echo -e "${Yellow}intput: subchunked_standoff_Spine, output: preLev_standoff_Spine${White}"
-  java -jar $SAXON -s:spineAdjustor.xsl -xsl:spineAdjustor.xsl -o:. -t
+  java -jar $SAXON -s:subchunked_standoff_Spine -xsl:spineAdjustor.xsl -o:. -t
 
   echo -e "${Yellow}Run extractCollationData.xsl in edit-distance${White}"
   echo -e "${Yellow}input: preLev_standoff_Spine, output: edit-distance/spineData.txt${White}"
