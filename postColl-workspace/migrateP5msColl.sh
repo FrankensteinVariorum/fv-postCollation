@@ -27,7 +27,7 @@ do
 done 
 
 # Copy separate directories to fv-data repo
-echo -e "Copy ${Yellow}P5-print${White} to ${Yellow}fv-data/variorum-chunks${White}"
-cp -R P5-print/*.xml ../../fv-data/variorum-chunks
-echo -e "Copy ${Yellow}P5-MS${White} to ${Yellow}fv-data/reseqMS-chunks${White}"
-cp -R P5-MS/*.xml ../../fv-data/reseqMS-chunks
+echo -e "Copy ${Yellow}P5-print${White} to ${Yellow}fv-data/2023-variorum-chunks${White}"
+cp -R P5-print/*.xml ../../fv-data/2023-variorum-chunks
+echo -e "Copy ${Yellow}P5-MS${White} to ${Yellow}fv-data/2023-reseqMS-chunks${White}"
+cp -R P5-MS/*.xml ../../fv-data/2023-reseqMS-chunks
