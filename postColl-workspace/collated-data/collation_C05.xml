@@ -1,28 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../lookingForTrouble.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
 	<app>
-		<rdgGrp n="['', '', 'letter iv.']">
-			<rdg wit="f1818">&lt;anchor type="collate" xml:id="C05"/&gt; &lt;milestone unit="letter" type="start" n="4"/&gt; &lt;head&gt;LETTER IV.&lt;/head&gt;</rdg>
-			<rdg wit="f1823">&lt;anchor type="collate" xml:id="C05"/&gt;&lt;pb xml:id="F1823_v1_040" n="21"/&gt; &lt;milestone unit="letter" type="start" n="4"/&gt; &lt;head&gt;LETTER IV.&lt;/head&gt;</rdg>
-			<rdg wit="fThomas">&lt;anchor type="collate" xml:id="C05"/&gt; &lt;milestone unit="letter" type="start" n="4"/&gt; &lt;head&gt;LETTER IV.&lt;/head&gt;</rdg>
-			<rdg wit="f1831">&lt;anchor type="collate" xml:id="C05"/&gt; &lt;milestone unit="letter" type="start" n="4"/&gt; &lt;head&gt;LETTER IV.&lt;/head&gt;</rdg>
+		<rdgGrp n="['', '', 'letter iv.', '']">
+			<rdg wit="f1818">&lt;anchor type="collate" xml:id="C05"/&gt; &lt;milestone unit="letter" type="start" n="4"/&gt; &lt;head&gt;LETTER IV.&lt;/head&gt; &lt;head&gt;</rdg>
+			<rdg wit="f1823">&lt;anchor type="collate" xml:id="C05"/&gt;&lt;pb xml:id="F1823_v1_040" n="21"/&gt; &lt;milestone unit="letter" type="start" n="4"/&gt; &lt;head&gt;LETTER IV.&lt;/head&gt; &lt;head&gt;</rdg>
+			<rdg wit="fThomas">&lt;anchor type="collate" xml:id="C05"/&gt; &lt;milestone unit="letter" type="start" n="4"/&gt; &lt;head&gt;LETTER IV.&lt;/head&gt; &lt;head&gt;</rdg>
+			<rdg wit="f1831">&lt;anchor type="collate" xml:id="C05"/&gt; &lt;milestone unit="letter" type="start" n="4"/&gt; &lt;head&gt;LETTER IV.&lt;/head&gt; &lt;head&gt;</rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['  to mrs. saville, england.  ']">
-			<rdg wit="f1818">&lt;head&gt; &lt;ab sID="novel1_letter4_div4_head2_ab1"/&gt; &lt;hi sID="novel1_letter4_div4_head2_ab1_hi1"/&gt;To Mrs.&lt;hi eID="novel1_letter4_div4_head2_ab1_hi1"/&gt; S&lt;hi sID="novel1_letter4_div4_head2_ab1_hi2"/&gt;AVILLE&lt;hi eID="novel1_letter4_div4_head2_ab1_hi2"/&gt;, &lt;hi sID="novel1_letter4_div4_head2_ab1_hi3"/&gt;England.&lt;hi eID="novel1_letter4_div4_head2_ab1_hi3"/&gt; &lt;ab eID="novel1_letter4_div4_head2_ab1"/&gt; &lt;/head&gt;</rdg>
-			<rdg wit="f1823">&lt;head&gt; &lt;ab sID="novel1_letter4_div4_head2_ab1"/&gt; &lt;hi sID="novel1_letter4_div4_head2_ab1_hi1"/&gt;To Mrs.&lt;hi eID="novel1_letter4_div4_head2_ab1_hi1"/&gt; S&lt;hi sID="novel1_letter4_div4_head2_ab1_hi2"/&gt;AVILLE&lt;hi eID="novel1_letter4_div4_head2_ab1_hi2"/&gt;, &lt;hi sID="novel1_letter4_div4_head2_ab1_hi3"/&gt;England.&lt;hi eID="novel1_letter4_div4_head2_ab1_hi3"/&gt; &lt;ab eID="novel1_letter4_div4_head2_ab1"/&gt; &lt;/head&gt;</rdg>
-			<rdg wit="fThomas">&lt;head&gt; &lt;ab sID="novel1_letter4_div4_head2_ab1"/&gt; &lt;hi sID="novel1_letter4_div4_head2_ab1_hi1"/&gt;To Mrs.&lt;hi eID="novel1_letter4_div4_head2_ab1_hi1"/&gt; S&lt;hi sID="novel1_letter4_div4_head2_ab1_hi2"/&gt;AVILLE&lt;hi eID="novel1_letter4_div4_head2_ab1_hi2"/&gt;, &lt;hi sID="novel1_letter4_div4_head2_ab1_hi3"/&gt;England.&lt;hi eID="novel1_letter4_div4_head2_ab1_hi3"/&gt; &lt;ab eID="novel1_letter4_div4_head2_ab1"/&gt; &lt;/head&gt;</rdg>
-		</rdgGrp>
-		<rdgGrp n="[' to mrs. saville, england. ']">
-			<rdg wit="f1831">&lt;head&gt; &lt;hi sID="novel1_letter4_div4_head2_hi1"/&gt;To Mrs. Saville, England.&lt;hi eID="novel1_letter4_div4_head2_hi1"/&gt; &lt;/head&gt;</rdg>
+		<rdgGrp n="['']">
+			<rdg wit="f1818">&lt;ab sID="novel1_letter4_div4_head2_ab1"/&gt;</rdg>
+			<rdg wit="f1823">&lt;ab sID="novel1_letter4_div4_head2_ab1"/&gt;</rdg>
+			<rdg wit="fThomas">&lt;ab sID="novel1_letter4_div4_head2_ab1"/&gt;</rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;p-start/&gt;', 'august', '5th,', '17—.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'so', 'strange', 'an', 'accident', 'has', 'happened', 'to', 'us,', 'that', 'i', 'cannot', 'forbear', 'recording']">
-			<rdg wit="f1818">&lt;p sID="novel1_letter4_div4_p1"/&gt; August 5th, 17—. &lt;p eID="novel1_letter4_div4_p1"/&gt; &lt;p sID="novel1_letter4_div4_p2"/&gt; So strange an accident has happened to us, that I cannot forbear recording</rdg>
-			<rdg wit="f1823">&lt;p sID="novel1_letter4_div4_p1"/&gt; August 5th, 17—. &lt;p eID="novel1_letter4_div4_p1"/&gt; &lt;p sID="novel1_letter4_div4_p2"/&gt; So strange an accident has happened to us, that I cannot forbear recording</rdg>
-			<rdg wit="fThomas">&lt;p sID="novel1_letter4_div4_p1"/&gt; August 5th, 17—. &lt;p eID="novel1_letter4_div4_p1"/&gt; &lt;p sID="novel1_letter4_div4_p2"/&gt; So strange an accident has happened to us, that I cannot forbear recording</rdg>
-			<rdg wit="f1831">&lt;p sID="novel1_letter4_div4_p1"/&gt; August 5th, 17—. &lt;p eID="novel1_letter4_div4_p1"/&gt; &lt;p sID="novel1_letter4_div4_p2"/&gt; So strange an accident has happened to us, that I cannot forbear recording</rdg>
+		<rdgGrp n="['to mrs. saville, england.']">
+			<rdg wit="f1818">&lt;hi sID="novel1_letter4_div4_head2_ab1_hi1"/&gt;To Mrs.&lt;hi eID="novel1_letter4_div4_head2_ab1_hi1"/&gt; S&lt;hi sID="novel1_letter4_div4_head2_ab1_hi2"/&gt;AVILLE&lt;hi eID="novel1_letter4_div4_head2_ab1_hi2"/&gt;, &lt;hi sID="novel1_letter4_div4_head2_ab1_hi3"/&gt;England.&lt;hi eID="novel1_letter4_div4_head2_ab1_hi3"/&gt;</rdg>
+			<rdg wit="f1823">&lt;hi sID="novel1_letter4_div4_head2_ab1_hi1"/&gt;To Mrs.&lt;hi eID="novel1_letter4_div4_head2_ab1_hi1"/&gt; S&lt;hi sID="novel1_letter4_div4_head2_ab1_hi2"/&gt;AVILLE&lt;hi eID="novel1_letter4_div4_head2_ab1_hi2"/&gt;, &lt;hi sID="novel1_letter4_div4_head2_ab1_hi3"/&gt;England.&lt;hi eID="novel1_letter4_div4_head2_ab1_hi3"/&gt;</rdg>
+			<rdg wit="fThomas">&lt;hi sID="novel1_letter4_div4_head2_ab1_hi1"/&gt;To Mrs.&lt;hi eID="novel1_letter4_div4_head2_ab1_hi1"/&gt; S&lt;hi sID="novel1_letter4_div4_head2_ab1_hi2"/&gt;AVILLE&lt;hi eID="novel1_letter4_div4_head2_ab1_hi2"/&gt;, &lt;hi sID="novel1_letter4_div4_head2_ab1_hi3"/&gt;England.&lt;hi eID="novel1_letter4_div4_head2_ab1_hi3"/&gt;</rdg>
+			<rdg wit="f1831">&lt;hi sID="novel1_letter4_div4_head2_hi1"/&gt;To Mrs. Saville, England.&lt;hi eID="novel1_letter4_div4_head2_hi1"/&gt;</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['']">
+			<rdg wit="f1818">&lt;ab eID="novel1_letter4_div4_head2_ab1"/&gt;</rdg>
+			<rdg wit="f1823">&lt;ab eID="novel1_letter4_div4_head2_ab1"/&gt;</rdg>
+			<rdg wit="fThomas">&lt;ab eID="novel1_letter4_div4_head2_ab1"/&gt;</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['', '&lt;p-start/&gt;', 'august', '5th,', '17—.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'so', 'strange', 'an', 'accident', 'has', 'happened', 'to', 'us,', 'that', 'i', 'cannot', 'forbear', 'recording']">
+			<rdg wit="f1818">&lt;/head&gt; &lt;p sID="novel1_letter4_div4_p1"/&gt; August 5th, 17—. &lt;p eID="novel1_letter4_div4_p1"/&gt; &lt;p sID="novel1_letter4_div4_p2"/&gt; So strange an accident has happened to us, that I cannot forbear recording</rdg>
+			<rdg wit="f1823">&lt;/head&gt; &lt;p sID="novel1_letter4_div4_p1"/&gt; August 5th, 17—. &lt;p eID="novel1_letter4_div4_p1"/&gt; &lt;p sID="novel1_letter4_div4_p2"/&gt; So strange an accident has happened to us, that I cannot forbear recording</rdg>
+			<rdg wit="fThomas">&lt;/head&gt; &lt;p sID="novel1_letter4_div4_p1"/&gt; August 5th, 17—. &lt;p eID="novel1_letter4_div4_p1"/&gt; &lt;p sID="novel1_letter4_div4_p2"/&gt; So strange an accident has happened to us, that I cannot forbear recording</rdg>
+			<rdg wit="f1831">&lt;/head&gt; &lt;p sID="novel1_letter4_div4_p1"/&gt; August 5th, 17—. &lt;p eID="novel1_letter4_div4_p1"/&gt; &lt;p sID="novel1_letter4_div4_p2"/&gt; So strange an accident has happened to us, that I cannot forbear recording</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -239,4 +251,4 @@
 			<rdg wit="fMS">&lt;anchor type="collate" xml:id="C05"/&gt;</rdg>
 		</rdgGrp>
 	</app>
-</cx:apparatus><!-- 2023-06-15 17:23:38.943325 -->
+</cx:apparatus><!-- 2023-05-18 07:33:07.453817 -->

@@ -3,6 +3,7 @@ import lxml.etree
 import xml.etree.ElementTree as ET
 import numpy as np
 from weighted_levenshtein import lev, osa, dam_lev
+import re
 
 insert_costs = np.ones(128, dtype=np.float64)
 delete_costs = np.ones(128, dtype=np.float64)
@@ -34,7 +35,8 @@ Root = ET.Element("xml")
 f = open('spineData-ascii.txt')
 f.readline() # read and ignore the first line
 for line in f: # iterate over the remaining lines
-    v = line.split('\t')
+    v = line.split('\t').re.sub(r'\s*', '').re.sub(r'<.+?>','\\s') # 2023-06-26 ebb yxj: ignore all spaces and calculate each element tag as one
+    # Question: do we need to reduce the weight of the MS variants after we do this?
     app = v[0]
     rg1_2 = v[1] + '::' + v[3]
     if '#fMS' in rg1_2:

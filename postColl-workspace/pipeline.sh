@@ -43,7 +43,6 @@ fileExist(){
     echo -e "${Green}$fileName is generated!${White}"
   fi
 }
-
 postProcessColl(){
   # this array includes xslt files to run
   xslArr=("P1-bridgeEditionConstructor.xsl"
@@ -112,15 +111,11 @@ postProcessColl(){
   java -jar $SAXON -xsl:spine_addLevWeights.xsl -s:preLev_standoff_Spine -o:. -t
 
  echo -e "${Yellow}Run spineEmptyWitnessPatch.xsl${White}"
- echo -e "${Yellow}input: standoff_Spine, output: fv-data/standoff_Spine${White}"
+ echo -e "${Yellow}input: standoff_Spine, output: fv-data/2023-standoff_Spine${White}"
  java -jar $SAXON -xsl:spineEmptyWitnessPatch.xsl -s:standoff_Spine -o:. -t
 
-# echo -e "${Yellow}Trimming White Space${White}"
-# echo -e "${Yellow}input: P5-output, output: P5-trimmedWS${White}"
-# java -jar saxon.jar -s:P5-output -xsl:whiteSpaceReducer.xsl -o:P5-trimmedWS -t
-
-#  echo -e "${Yellow}Packaging collated edition files${White}"
-#  ./migrateP5msColl.sh
+ echo -e "${Yellow}Packaging collated edition files${White}"
+ ./migrateP5msColl.sh
 }
 
 main(){
@@ -134,8 +129,8 @@ main(){
   # reset output folders======
   for (( i=0; i < ${#allArr[@]}; i++ ))
   do
-    rm -r "${allArr[$i]}"
-    mkdir "${allArr[$i]}"
+    rm -r "${allArr[$i]}" # remove all output folders
+    mkdir "${allArr[$i]}" # create all output folders
   done
   #====================
 
