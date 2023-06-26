@@ -88,12 +88,12 @@ postProcessColl(){
   echo -e "${Yellow}Phase 7: Prepare the “spine” of the variorum${White}"
   echo -e "${Yellow}Run spineAdjustor.xsl${White}"
   echo -e "${Yellow}intput: subchunked_standoff_Spine, output: preLev_standoff_Spine${White}"
-  java -jar $SAXON -s:subchunked_standoff_Spine -xsl:spineAdjustor.xsl -o:. -t
+  java -jar $SAXON -s:spineAdjustor.xsl -xsl:spineAdjustor.xsl -t
 
   echo -e "${Yellow}Run extractCollationData.xsl in edit-distance${White}"
   echo -e "${Yellow}input: preLev_standoff_Spine, output: edit-distance/spineData.txt${White}"
   cd edit-distance || exit
-  java -jar ../$SAXON -s:extractCollationData.xsl -xsl:extractCollationData.xsl -o:spineData.txt  -t
+  java -jar ../$SAXON -s:extractCollationData.xsl -xsl:extractCollationData.xsl  -t
   fileExist spineData.txt
 
   echo -e "${Yellow}Convert spineData.txt to ASCII format${White}"
@@ -105,14 +105,20 @@ postProcessColl(){
   rm FV_LevDists-weighted.xml
   python3 LevenCalc_toXML.py
   fileExist FV_LevDists-weighted.xml
+
+  echo -e "${Yellow}Run LevWeight-Simplification.xsl${White}"
+  rm FV_LevDists-simplified.xml
+  java -jar ../$SAXON -xsl:LevWeight-Simplification.xsl -s:FV_LevDists-weighted.xml -o:FV_LevDists-simplified.xml -t
+  fileExist FV_LevDists-simplified.xml
   cd ..
+
   echo -e "${Yellow}Run spine_addLevWeights.xsl${White}"
   echo -e "${Yellow}input: preLev_standoff_Spine, output: standoff_Spine${White}"
-  java -jar $SAXON -xsl:spine_addLevWeights.xsl -s:preLev_standoff_Spine -o:. -t
+  java -jar $SAXON -xsl:spine_addLevWeights.xsl -s:spine_addLevWeights.xsl -t
 
  echo -e "${Yellow}Run spineEmptyWitnessPatch.xsl${White}"
  echo -e "${Yellow}input: standoff_Spine, output: fv-data/2023-standoff_Spine${White}"
- java -jar $SAXON -xsl:spineEmptyWitnessPatch.xsl -s:standoff_Spine -o:. -t
+ java -jar $SAXON -xsl:spineEmptyWitnessPatch.xsl -s:spineEmptyWitnessPatch.xsl -t
 
  echo -e "${Yellow}Packaging collated edition files${White}"
  ./migrateP5msColl.sh

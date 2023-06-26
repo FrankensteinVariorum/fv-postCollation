@@ -15,7 +15,7 @@
     <xsl:variable name="spineColl" as="document-node()+"
         select="collection('preLev_standoff_Spine/?select=*.xml')"/>
     <xsl:variable name="FS_Levs" as="document-node()"
-        select="doc('edit-distance/FV_LevDists-weighted.xml')"/>
+        select="doc('edit-distance/FV_LevDists-simplified.xml')"/> <!-- 2023-06-26 yxj: run simplifed one. -->
 
     <xsl:template match="/">
         <xsl:for-each select="$spineColl//tei:TEI">

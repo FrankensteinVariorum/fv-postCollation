@@ -12,7 +12,7 @@
  <xsl:template match="/">
    <xsl:for-each select="$spineColl">
        <xsl:variable name="filename" as="xs:string" select="base-uri() ! tokenize(., '/')[last()]"/>
-     <xsl:result-document method="xml" indent="yes" href="../../fv-data/standoff_Spine/{$filename}">
+     <xsl:result-document method="xml" indent="yes" href="../../fv-data/2023-standoff_Spine/{$filename}">
          <xsl:apply-templates/>
      </xsl:result-document>    
    </xsl:for-each>  

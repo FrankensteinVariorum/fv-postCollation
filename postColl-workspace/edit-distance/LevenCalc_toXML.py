@@ -35,7 +35,8 @@ Root = ET.Element("xml")
 f = open('spineData-ascii.txt')
 f.readline() # read and ignore the first line
 for line in f: # iterate over the remaining lines
-    v = line.split('\t').re.sub(r'\s*', '').re.sub(r'<.+?>','\\s') # 2023-06-26 ebb yxj: ignore all spaces and calculate each element tag as one
+    v = line.split('\t')
+    v = [re.sub(r'<.+?>', '', re.sub(r'\s*', '', cell)) for cell in v] # 2023-06-26 ebb yxj: ignore all spaces and calculate each element tag as one
     # Question: do we need to reduce the weight of the MS variants after we do this?
     app = v[0]
     rg1_2 = v[1] + '::' + v[3]
