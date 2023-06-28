@@ -21,7 +21,7 @@
         <xsl:for-each select="$P4-Coll//TEI">
             <xsl:variable name="currentP4File" as="element()" select="current()"/>
             <xsl:variable name="filename">
-                <xsl:text>P5-</xsl:text>
+                <xsl:text>P5-Pt1-</xsl:text>
                 <xsl:value-of select="tokenize(base-uri(), '/')[last()] ! substring-after(., 'P4-')"
                 />
             </xsl:variable>

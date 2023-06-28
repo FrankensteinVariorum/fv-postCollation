@@ -6,6 +6,7 @@ Green="\e[0;32m"
 Yellow="\e[0;33m"
 White="\e[0m"
 SAXON="../../collationWorkspace/xslt/SaxonHE12-0J/saxon-he-12.0.jar"
+message="-t" 
 
 checkInput(){
   # check the user input is valid, print the message, and allow to re-input
@@ -73,12 +74,12 @@ postProcessColl(){
   do
     echo -e "${Yellow}Run ${xslArr[i]}${White}"
     echo -e "${Yellow}input: ${pipelineArr[$i]}, output: ${pipelineArr[$i+1]}${White}"
-    java -jar $SAXON -xsl:"${xslArr[$i]}" -s:"${xslArr[$i]}" -t
+    java -jar $SAXON -xsl:"${xslArr[$i]}" -s:"${xslArr[$i]}" ${message}
   done
 
   echo -e "${Yellow}Run P5-SpineGenerator.xsl to generate spine files${White}"
   echo -e "${Yellow}input: P1-output, output: subchunked_standoff_Spine${White}"
-  java -jar $SAXON -s:P1-output -xsl:P5-SpineGenerator.xsl -o:subchunked_standoff_Spine -t
+  java -jar $SAXON -s:P1-output -xsl:P5-SpineGenerator.xsl -o:subchunked_standoff_Spine ${message}
 
   for xml in subchunked_standoff_Spine/*.xml
   do
@@ -88,17 +89,17 @@ postProcessColl(){
   echo -e "${Yellow}Phase 7: Prepare the “spine” of the variorum${White}"
   echo -e "${Yellow}Run spineAdjustor.xsl${White}"
   echo -e "${Yellow}intput: subchunked_standoff_Spine, output: preLev_standoff_Spine${White}"
-  java -jar $SAXON -s:spineAdjustor.xsl -xsl:spineAdjustor.xsl -t
+  java -jar $SAXON -s:spineAdjustor.xsl -xsl:spineAdjustor.xsl 
 
   echo -e "${Yellow}Run extractCollationData.xsl in edit-distance${White}"
-  echo -e "${Yellow}input: preLev_standoff_Spine, output: edit-distance/spineData.txt${White}"
+  echo -e "${Yellow}input: preLev_standoff_Spine, out put: edit-distance/spineData.txt${White}"
   cd edit-distance || exit
-  java -jar ../$SAXON -s:extractCollationData.xsl -xsl:extractCollationData.xsl  -t
+  java -jar ../$SAXON -s:extractCollationData.xsl -xsl:extractCollationData.xsl  ${message}
   fileExist spineData.txt
 
   echo -e "${Yellow}Convert spineData.txt to ASCII format${White}"
   rm spineData-ascii.txt
-  iconv -c -f UTF-8 -t ascii//TRANSLIT spineData.txt  > spineData-ascii.txt
+  iconv -c -f UTF-8 ${message} ascii//TRANSLIT spineData.txt  > spineData-ascii.txt
   fileExist spineData-ascii.txt
 
   echo -e "${Yellow}Run python LevenCalc_toXML.py${White}"
@@ -108,17 +109,17 @@ postProcessColl(){
 
   echo -e "${Yellow}Run LevWeight-Simplification.xsl${White}"
   rm FV_LevDists-simplified.xml
-  java -jar ../$SAXON -xsl:LevWeight-Simplification.xsl -s:FV_LevDists-weighted.xml -o:FV_LevDists-simplified.xml -t
+  java -jar ../$SAXON -xsl:LevWeight-Simplification.xsl -s:FV_LevDists-weighted.xml -o:FV_LevDists-simplified.xml ${message}
   fileExist FV_LevDists-simplified.xml
   cd ..
 
   echo -e "${Yellow}Run spine_addLevWeights.xsl${White}"
   echo -e "${Yellow}input: preLev_standoff_Spine, output: standoff_Spine${White}"
-  java -jar $SAXON -xsl:spine_addLevWeights.xsl -s:spine_addLevWeights.xsl -t
+  java -jar $SAXON -xsl:spine_addLevWeights.xsl -s:spine_addLevWeights.xsl ${message}
 
  echo -e "${Yellow}Run spineEmptyWitnessPatch.xsl${White}"
  echo -e "${Yellow}input: standoff_Spine, output: fv-data/2023-standoff_Spine${White}"
- java -jar $SAXON -xsl:spineEmptyWitnessPatch.xsl -s:spineEmptyWitnessPatch.xsl -t
+ java -jar $SAXON -xsl:spineEmptyWitnessPatch.xsl -s:spineEmptyWitnessPatch.xsl ${message}
 
  echo -e "${Yellow}Packaging collated edition files${White}"
  ./migrateP5msColl.sh
