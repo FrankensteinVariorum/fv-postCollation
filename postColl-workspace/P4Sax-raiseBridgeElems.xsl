@@ -17,7 +17,7 @@
     </xsl:template>
     <xsl:function name="th:raise">
         <xsl:param name="input" as="element()"/>
-        <xsl:message>raise() called with <xsl:value-of select="count($input//*)"/>-element document (<xsl:value-of select="count($input//*[@th:sID])"/> Trojan pairs)</xsl:message>
+<!--        <xsl:message>raise() called with <xsl:value-of select="count($input//*)"/>-element document (<xsl:value-of select="count($input//*[@th:sID])"/> Trojan pairs)</xsl:message>-->
         <xsl:choose>
             <xsl:when test="exists($input//*[@th:sID eq following-sibling::*[@th:eID][1]/@th:eID])">
                 <xsl:variable name="result" as="element()">
@@ -29,7 +29,7 @@
             </xsl:when>
             <xsl:otherwise>
                 <!--* We have no more work to do, return the input unchanged. *-->
-                <xsl:message>raise() returning.</xsl:message>
+<!--                <xsl:message>raise() returning.</xsl:message>-->
                 <xsl:sequence select="$input"/>
             </xsl:otherwise>
         </xsl:choose>

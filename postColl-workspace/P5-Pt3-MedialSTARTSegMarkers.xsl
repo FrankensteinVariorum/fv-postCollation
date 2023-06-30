@@ -16,7 +16,7 @@
     <xsl:template match="/">
         <xsl:for-each select="$P5-Pt2-coll//TEI">
             <xsl:variable name="currentP5File" as="element()" select="current()"/>
-            <xsl:variable name="filename" as="xs:string" select="tokenize(base-uri(), '/')[last()]"/>
+            <xsl:variable name="filename" as="xs:string" select="tokenize(base-uri(), '/')[last()] ! replace(., 'Pt2', 'Pt3')"/>
             <xsl:variable name="chunk" as="xs:string"
                 select="tokenize(base-uri(), '/')[last()] ! substring-before(., '.') ! substring-after(., '_')"/>
             <!--CHANGE THIS when ready to process full collection -->
