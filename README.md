@@ -26,11 +26,11 @@ The workspace in this repo houses a transformation pipeline. Here is a summary o
 * In Bridge Construction Phase 3, we are up-transforming the text-converted tags in the edition files into self-closed elements. We add the `th:` namespace prefix to "trojan horse" attributes used for markers.
 
 
-### Run `P3.5-bridgeEditionConstructor.xsl`
+### ~~Run `P3.5-bridgeEditionConstructor.xsl`~~
 #### THIS STAGE SHOULD BE UNNECESSARY IN 2023 
-* **Input:** `P3-output` directory
-* **Output:** `P3.5-output` directory 
-* 2018-10-10 ebb: For stage 3.5 we need to reconstruct full collation chunks that have been subdivided into parts. For example, C08 was divided into parts C08a through C08j, often breaking up element tag pairs. Here we reunite the pieces so we can move on to up-raising the flattened elements in the editions.
+* ~~**Input:** `P3-output` directory~~
+* ~~**Output:** `P3.5-output` directory~~ 
+* ~~2018-10-10 ebb: For stage 3.5 we need to reconstruct full collation chunks that have been subdivided into parts. For example, C08 was divided into parts C08a through C08j, often breaking up element tag pairs. Here we reunite the pieces so we can move on to up-raising the flattened elements in the editions.~~
 
 ## Phase 4: Raise the “trojan elements” holding edition markup 
 ### Option 1: Run `P4-raiseBridgeElems.xsl`
@@ -52,10 +52,10 @@ The workspace in this repo houses a transformation pipeline. Here is a summary o
 ### Run `P5-Pt1-SegTrojans.xsl`
 * **Input:** `P4-output` directory 
 * **Output:** `preP5a-output` directory
-* 2018-07-29: Bridge Construction Phase 5: What we need to do:      
-       *  where the end markers of seg elements are marked we reconstruct them in pieces. 
-        * raise the `<seg>` marker elements marking hotspots
-       *  deliver seg identifying locations to the Spine file.
+* 2018-07-29: Bridge Construction Phase 5: What we need to do:     
+    * where the end markers of seg elements are marked we reconstruct them in pieces. 
+    * raise the `<seg>` marker elements marking hotspots
+    * deliver seg identifying locations to the Spine file.
 * In this first stage of Part 5, we are converting the seg elements into Trojan markers using the `th:` namespace, and explicitly designating those that are fragments (that will break hierarchy if raised) as parts by adding a `@part` attribute. 
     * In the next stage, we will need to add additional seg elements to handle fragmented hotspots that break across the edition element hierarchy.
     * In the last stage of this process, we adapt CMSpMq's left-to-right sibling traversal for raising flattened elements.  
@@ -98,20 +98,6 @@ The workspace in this repo houses a transformation pipeline. Here is a summary o
     
 * We should probably rewrite this so we don't require the lib file dependency on marker types. 
 * 2023-05-31: Fixing xsl file add capacity to process a collection with xsl:result-document. Adding this stage to latest edition to add spaces around consecutive space markers in the output editions.  
-          
-### Run `P5_SpineGenerator.xsl`
-* Run with saxon command line over the `P1-output` directory and output to  `subchunked_standoff_Spine` directory, using:
-``      
-java -jar saxon.jar -s:P1-output/ -xsl:P5_SpineGenerator.xsl -o:subchunked_standoff_Spine 
-``
-* Change the output filenames from starting with `P1_` to `spine_`.
-* 2018-10-17 updated 2019-03-16, 2023-05-21 ebb: This XSLT generates the “spine” files for the Variorum. 
-* The “spine” contains URI pointers to specific locations marked by `<seg>` elements in the edition files made in bridge-P5, and is based on information from the collation process stored in TEI in the `P1-output` directory. 
-* These files differ from those output in the P1 stage because the P1 form contains the complete texts of all edition files, mapping them to critical apparatus markup with variant `<app>` elements (containing multiple `<rdgGrp>` elements or divergent forms) as well as invariant `<app>` elements (containing only one `<rdgGrp>` where all editions run in unison). For the purposes of the Variorum encoding, our “spine” needs only to work with the variant passages, because those are the passages we will highlight and interlink in the Variorum interface. So, in this stage of processing we remove the invariant apps from P1 in generating the Variorum “spines”. 
-* Looking ahead, following this stage we will: 
-    
-    * Calculate Levenshtein edit distances working in the edit-distance directory.
-    * When edit distances are calculated and stored, we will add Levenshtein values and generate the finished `standoff_Spine` directory files.
 	
 ## Phase 6
 
@@ -130,6 +116,21 @@ java -jar saxon.jar -s:P1-output/ -xsl:P5_SpineGenerator.xsl -o:subchunked_stand
 ### Run `P6-Pt3-chapChunking.xsl`
 * 2023-6-14: Cleans up namespaces.
 * This XSLT should output seperate chapter files. It is not doing that yet. We have only tried it for the fMS so far, and it is outputting nly one file, named with the correct text node, but otherwise systematically excluding the contents of the first processed group.
+
+### Run `P6_SpineGenerator.xsl`
+* Run with saxon command line over the `P1-output` directory and output to  `subchunked_standoff_Spine` directory, using:
+``      
+java -jar saxon.jar -s:P1-output/ -xsl:P6_SpineGenerator.xsl -o:subchunked_standoff_Spine 
+``
+* Begun 2018-10-17 updated 2019-03-16, 2023-05-21, 2023-07-03 
+* This XSLT generates the “spine” files for the Variorum. It used to be run at the end of Phase 5 when we were working with edition files saved as collation units, but we are now (as of 2023-07-03) running it at the end of P6 to read from our edition chapter files. 
+* The “spine” contains URI pointers to specific locations marked by `<seg>` elements in the edition files made in bridge-P5, and is based on information from the collation process stored in TEI in the `P1-output` directory. 
+* Here we change the output filenames from starting with `P1_` to `spine_`.
+* These files differ from those output in the P1 stage because the P1 form contains the complete texts of all edition files, mapping them to critical apparatus markup with variant `<app>` elements (containing multiple `<rdgGrp>` elements or divergent forms) as well as invariant `<app>` elements (containing only one `<rdgGrp>` where all editions run in unison). For the purposes of the Variorum encoding, our “spine” needs only to work with the variant passages, because those are the passages we will highlight and interlink in the Variorum interface. So, in this stage of processing we remove the invariant apps from P1 in generating the Variorum “spines”. 
+* Looking ahead, following this stage we will: 
+    
+    * Calculate Levenshtein edit distances working in the edit-distance directory.
+    * When edit distances are calculated and stored, we will add Levenshtein values and generate the finished `standoff_Spine` directory files.
 
 
 ## Phase 7: Prepare the “spine” of the variorum
