@@ -36,6 +36,7 @@ Change the output filenames from starting with P1_ to spine_.
         select="'https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/variorum-chunks/'"/>
     <!-- ebb: Keep for pointing to original SGA file location: <xsl:param name="sga_loc" select="'https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/'"/>-->
     <xsl:variable name="P5_coll" as="document-node()+" select="collection('P5-Pt6-output')"/>
+    <!-- 2023-07-03 ebb: We should change to the LATEST stage of the pipeline output: P6-PT3 and read from the chapter files. -->
 
     <xsl:function name="pitt:getLbPointer" as="item()*">
         <xsl:param name="str"/>
@@ -212,6 +213,7 @@ Change the output filenames from starting with P1_ to spine_.
                                 select="tokenize(base-uri(.), '/')[last()]"/>
                             <xsl:variable name="currEdition" as="element()*"
                                 select="$P5_coll//tei:TEI[tokenize(base-uri(), '/')[last()] ! substring-before(., '_') ! substring-after(., 'P5-Pt6-') eq $currWit][tokenize(base-uri(), '/')[last()] ! substring-after(., '_') ! substring-before(., '.') = tokenize($currP1filename, '[a-z]?\.')[1] ! substring-after(., '_')]"/>
+                            <!-- 2023-07-03 ebb: ABOVE LINE is just pulling info from the current filename.  -->
                             <xsl:variable name="currEd-Seg" as="element()*"
                                 select="$currEdition//tei:seg[substring-before(@xml:id, '-') = $appID]"/>
                             <xsl:variable name="currEd-Chunk" as="xs:string"
