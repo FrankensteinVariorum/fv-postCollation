@@ -15,15 +15,15 @@ cp -R P5-Pt6-output P5-print
 
 STRING="fMS"
 mkdir P5-MS
-for i in P5-print/P5-$STRING*.xml
+for i in P5-print/P5-Pt6-$STRING*.xml
 do   
-  mv $i P5-MS/${i##*/P5-}
+  mv $i P5-MS/${i##*/P5-Pt6-}
 done
 
 # Remove P5 prefix from files in P5-print directory
 for i in P5-print/*.xml
 do
-  mv $i P5-print/${i##*/P5-}
+  mv $i P5-print/${i##*/P5-Pt6-}
 done 
 
 # Copy separate directories to fv-data repo

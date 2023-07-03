@@ -211,13 +211,13 @@ Change the output filenames from starting with P1_ to spine_.
                             <xsl:variable name="currP1filename" as="xs:string"
                                 select="tokenize(base-uri(.), '/')[last()]"/>
                             <xsl:variable name="currEdition" as="element()*"
-                                select="$P5_coll//tei:TEI[tokenize(base-uri(), '/')[last()] ! substring-before(., '_') ! substring-after(., 'P5-') eq $currWit][tokenize(base-uri(), '/')[last()] ! substring-after(., '_') ! substring-before(., '.') = tokenize($currP1filename, '[a-z]?\.')[1] ! substring-after(., '_')]"/>
+                                select="$P5_coll//tei:TEI[tokenize(base-uri(), '/')[last()] ! substring-before(., '_') ! substring-after(., 'P5-Pt6-') eq $currWit][tokenize(base-uri(), '/')[last()] ! substring-after(., '_') ! substring-before(., '.') = tokenize($currP1filename, '[a-z]?\.')[1] ! substring-after(., '_')]"/>
                             <xsl:variable name="currEd-Seg" as="element()*"
                                 select="$currEdition//tei:seg[substring-before(@xml:id, '-') = $appID]"/>
                             <xsl:variable name="currEd-Chunk" as="xs:string"
                                 select="tokenize($currEdition/base-uri(), '/')[last()] ! substring-after(., '_') ! substring-before(., '.')"/>
-                            <xsl:message>Value of $currEd-Chunk is <xsl:value-of
-                                    select="$currEd-Chunk"/></xsl:message>
+<!--                            <xsl:message>Value of $currEd-Chunk is <xsl:value-of
+                                    select="$currEd-Chunk"/></xsl:message>-->
                             <xsl:for-each select="$currEd-Seg">
                                 <ptr
                                     target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/{$currWit}_{$currEd-Chunk}.xml#{current()/@xml:id}"
