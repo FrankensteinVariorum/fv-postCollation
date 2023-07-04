@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xpath-default-namespace="http://www.tei-c.org/ns/1.0"
     xmlns:fv="https://github.com/FrankensteinVariorum"
+    xmlns="http://www.tei-c.org/ns/1.0"
     xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:mith="http://mith.umd.edu/sc/ns1#"
     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
@@ -143,7 +144,7 @@
         </xsl:if>
     </xsl:template>
 
-    <xsl:template match="app[count(tei:rdgGrp) gt 1]">
+    <xsl:template match="app[count(tei:rdgGrp) gt 1 or count(descendant::tei:rdg) &lt; 5]">
         <xsl:variable name="currApp" as="element()" select="current()"/>
         <app>
             <xsl:copy-of select="@*"/>
@@ -191,8 +192,8 @@
                                                   test="string-length(substring-after(normalize-space(.), '/&gt;')) > 0">
                                                   <xsl:variable name="pointer">
                                                   <!--ebb: REMOVE this line if returning to point at S-GA files directly. -->
-                                                  <xsl:value-of
-                                                  select="concat($sga_loc, 'fMS_', $wholeChunkID, '.xml', '#')"/>
+                                                 <!-- <xsl:value-of
+                                                  select="concat($sga_loc, 'fMS_', $wholeChunkID, '.xml', '#')"/>-->
                                                   <xsl:value-of
                                                   select="fv:getLbPointer(normalize-space(current()))"
                                                   />
@@ -207,8 +208,8 @@
                                                                 )"/>
                                                   <xsl:variable name="full_pointer">
                                                   <!--ebb: REMOVE this line if returning to point at S-GA files directly. -->
-                                                  <xsl:value-of
-                                                  select="concat($sga_loc, 'fMS_', $wholeChunkID, '.xml', '#')"/>
+                                                 <!-- <xsl:value-of
+                                                  select="concat($sga_loc, 'fMS_', $wholeChunkID, '.xml', '#')"/>-->
                                                   <xsl:value-of
                                                   select="concat(string-join(fv:getLbPointer(normalize-space(current()))), ',0,', string-length($text) + 1, ')')"
                                                   />
@@ -274,6 +275,6 @@
     </xsl:template>
 
     <!--Suppresses invariant apps from the spine. -->
-    <xsl:template match="tei:app[count(tei:rdgGrp) eq 1]"/>
+    <xsl:template match="tei:app[count(tei:rdgGrp) eq 1][count(descendant::rdg) = 5]"/>
 
 </xsl:stylesheet>
