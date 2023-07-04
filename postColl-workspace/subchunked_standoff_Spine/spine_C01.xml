@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cx="http://interedition.eu/collatex/ns/1.0" xml:id="P1-C01">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+     xml:id="P1-C01">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -23,15 +26,59 @@
    <text>
       <body>
          <ab type="alignmentChunk">
-            
-            <app xml:id="C01_app2"><rdgGrp n="['greece,—shakespeare,']" xml:id="C01_app2_rg1"><rdg wit="f1818"><ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C01.xml#C01_app2-f1818"/></rdg><rdg wit="f1823"><ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C01.xml#C01_app2-f1823"/></rdg><rdg wit="fThomas"><ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C01.xml#C01_app2-fThomas"/></rdg></rdgGrp><rdgGrp n="['greece,—shakspeare,']" xml:id="C01_app2_rg2"><rdg wit="f1831"><ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C01.xml#C01_app2-f1831"/></rdg></rdgGrp></app>
-            
-            <app xml:id="C01_app4"><rdgGrp n="['tempest']" xml:id="C01_app4_rg1"><rdg wit="f1818"><ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C01.xml#C01_app4-f1818"/></rdg><rdg wit="f1823"><ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C01.xml#C01_app4-f1823"/></rdg><rdg wit="fThomas"><ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C01.xml#C01_app4-fThomas"/></rdg></rdgGrp><rdgGrp n="['tempest,']" xml:id="C01_app4_rg2"><rdg wit="f1831"><ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C01.xml#C01_app4-f1831"/></rdg></rdgGrp></app>
-            
-            <app xml:id="C01_app6"><rdgGrp n="['commenced']" xml:id="C01_app6_rg1"><rdg wit="f1818"><ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C01.xml#C01_app6-f1818"/></rdg><rdg wit="fThomas"><ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C01.xml#C01_app6-fThomas"/></rdg><rdg wit="f1831"><ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C01.xml#C01_app6-f1831"/></rdg></rdgGrp><rdgGrp n="['commenced,']" xml:id="C01_app6_rg2"><rdg wit="f1823"><ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C01.xml#C01_app6-f1823"/></rdg></rdgGrp></app>
-            
-            <app xml:id="C01_app8"><rdgGrp n="['&lt;p-end/&gt;', '']" xml:id="C01_app8_rg1"><rdg wit="f1818"><ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C01.xml#C01_app8-f1818__I"/><ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C01.xml#C01_app8-f1818__F"/></rdg><rdg wit="f1823"><ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C01.xml#C01_app8-f1823__I"/><ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C01.xml#C01_app8-f1823__F"/></rdg><rdg wit="fThomas"><ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C01.xml#C01_app8-fThomas__I"/><ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C01.xml#C01_app8-fThomas__F"/></rdg></rdgGrp><rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;', 'marlow,', 'september,', '1817.', '&lt;p-end/&gt;', '']" xml:id="C01_app8_rg2"><rdg wit="f1831"><ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C01.xml#C01_app8-f1831__I"/><ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C01.xml#C01_app8-f1831__F"/></rdg></rdgGrp></app>
-            
+            <app xml:id="C01_app2">
+               <rdgGrp n="∅" xml:id="C01_app2_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
+               <rdgGrp n="['greece,—shakespeare,']" xml:id="C01_app2_rg1">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
+               </rdgGrp>
+               <rdgGrp n="['greece,—shakspeare,']" xml:id="C01_app2_rg2">
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
+            </app>
+            <app xml:id="C01_app4">
+               <rdgGrp n="∅" xml:id="C01_app4_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
+               <rdgGrp n="['tempest']" xml:id="C01_app4_rg1">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
+               </rdgGrp>
+               <rdgGrp n="['tempest,']" xml:id="C01_app4_rg2">
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
+            </app>
+            <app xml:id="C01_app6">
+               <rdgGrp n="∅" xml:id="C01_app6_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
+               <rdgGrp n="['commenced']" xml:id="C01_app6_rg1">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#fThomas"/>
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
+               <rdgGrp n="['commenced,']" xml:id="C01_app6_rg2">
+                  <rdg wit="#f1823"/>
+               </rdgGrp>
+            </app>
+            <app xml:id="C01_app8">
+               <rdgGrp n="∅" xml:id="C01_app8_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
+               <rdgGrp n="['&lt;p-end/&gt;', '']" xml:id="C01_app8_rg1">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
+               </rdgGrp>
+               <rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;', 'marlow,', 'september,', '1817.', '&lt;p-end/&gt;', '']"
+                       xml:id="C01_app8_rg2">
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
+            </app>
          </ab>
       </body>
    </text>

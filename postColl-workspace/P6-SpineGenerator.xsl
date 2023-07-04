@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xpath-default-namespace="http://www.tei-c.org/ns/1.0"
     xmlns:fv="https://github.com/FrankensteinVariorum"
+    xmlns="http://www.tei-c.org/ns/1.0"
     xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:mith="http://mith.umd.edu/sc/ns1#"
     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
     xmlns:cx="http://interedition.eu/collatex/ns/1.0"
     exclude-result-prefixes="xs th fv mith cx tei" version="3.0">
 
-    <!--2018-10-17 updated 2019-03-16 ebb: This XSLT generates the “spine” files for the Variorum. 
+    <!--2018-10-17 updated 2019-03-16, 2023-07-04 ebb: This XSLT generates the “spine” files for the Variorum. 
         These files differ from the P1 stage of processing because the P1 form contains the complete texts of all edition files, mapping them to critical apparatus markup with variant apps (containing multiple rdgGrps or divergent forms) as well as invariant apps (containing only one rdgGrp where all editions run in unison). For the purposes of the Variorum encoding, our “spine” needs only to work with the variant passages, because those are the passages we will highlight and interlink in the Variorum interface. So, in this stage of processing we remove the invariant apps from P1 in generating the Variorum “spines”. We are processing rdgGrps in this XSLT.
         
-        Run with saxon command line over P1-output directory and output to subchunked_standoff_Spine directory, using:
-        
-        java -jar saxon.jar -s:P1-output/ -xsl:P5_SpineGenerator.xsl -o:subchunked_standoff_Spine/ 
-Change the output filenames from starting with P1_ to spine_.
+        It runs over the P1-output directory (pulls info from P6Pt3-output) and outputs to subchunked_standoff_Spine directory.
 
-        Following this, we: 
+        Following this, we will: 
     * Run spineAdjustor.xsl to stitch up the multi-part spine sections into larger units and send that output to preLev_standoff_Spine. 
     * Calculate Levenshtein edit distances working in the edit-distance directory. Run extractCollationData.xsl and work with spineData.txt TSV files with Python, to generate FV_LevDists.xml. 
     * When edit distances are calculated and stored, run spine_addLevWeights.xsl to add Levenshtein values and generate the finished standoff_Spine directory files.
@@ -31,7 +29,8 @@ Change the output filenames from starting with P1_ to spine_.
         IF WE RETURN TO POINT TO S-GA FILES, change the following lines as indicated in the stylesheet below:
       Comment out line 35 (defining sga_loc to PghFrankenstein), and lines 86, 132, and 144.
       Uncomment lines 36 and 49 to reinstate S-GA's complex file paths. 
-        An alternative thought: Perhaps these file copies could echo each other so the fv-data repo can be a fallback in case something goes wrong w/ S-GA repo, and vice versa.--> 
+        An alternative thought: Perhaps these file copies could echo each other 
+        so the fv-data repo can be a fallback in case something goes wrong w/ S-GA repo, and vice versa.--> 
         
     <!--2023-07-03 ebb: Made the following significant changes:
         * Changed the input of this XSLT to P6-Pt3, which contains the edition files in chapters. 
@@ -102,7 +101,7 @@ Change the output filenames from starting with P1_ to spine_.
     <xsl:template match="/">
         <xsl:for-each select="$P1-spines">
             <xsl:variable name="P1-filename" as="xs:string" select="current() ! base-uri() ! tokenize(.,'/')[last()]"/>
-            <xsl:variable name="chunk" as="xs:string" select="$P1-spines ! substring-after(., '_') ! substring-before(., '.xml')"/>
+            <xsl:variable name="chunk" as="xs:string" select="$P1-filename ! substring-after(., '_') ! substring-before(., '.xml')"/>
             <xsl:result-document method="xml" indent="yes"
                 href="subchunked_standoff_Spine/spine_{$chunk}.xml">
             <xsl:apply-templates/>
@@ -170,26 +169,33 @@ Change the output filenames from starting with P1_ to spine_.
         <rdgGrp>
             <xsl:copy-of select="@*"/>
             <xsl:for-each select="rdg">
-                <xsl:choose>
+               <!-- 2023-07-04 ebb: I've commented out the xsl:choose so that we treat the fMS in the same way as the other witnesses 
+                   in the case of pointing to the fv-data chapter files. Why? Because the xpath expressions calculated here lead to //surface/zone
+                   elements that are not output in the fv-data edition, so the string-pointing calculations here can't resolve. 
+                   We should use the first condition ONLY when we are going to point to the SG-A edition and remove the options to resolve to fv-data from it. 
+                   Let's handle that in another file: P6-SpineGenerator-SGALinks.xsl
+                   
+                   <xsl:choose>
                     <xsl:when test="ends-with(@wit, 'fMS')">
                         <rdg wit="#fMS">
                             <xsl:choose>
-                                <!-- When a reading contains one or more LB elements, split the content around LB and determine the pointer based on the LB value -->
+                                <!-\- When a reading contains one or more LB elements, split the content around LB and determine the pointer based on the LB value -\->
                                 <xsl:when test="contains(normalize-space(.), 'lb n=&quot;')">
                                     <xsl:variable name="currentRdg" select="."/>
                                     <xsl:for-each
                                         select="tokenize(normalize-space(.), '&lt;lb\s+n')">
                                         <xsl:choose>
-                                            <!-- EDGE CASE: the first token belongs to a previous line, in which case the previous line will need to be located -->
-                                            <!-- Each token after an LB will start with '=', so check whether it's missing -->
+                                            <!-\- EDGE CASE: the first token belongs to a previous line, in which case the previous line will need to be located -\->
+                                            <!-\- Each token after an LB will start with '=', so check whether it's missing -\->
                                             <xsl:when test="starts-with(normalize-space(.), '=')">
-                                                <!-- Only process it if there's content after the lb -->
+                                                <!-\- Only process it if there's content after the lb -\->
                                                 <xsl:if
                                                   test="string-length(substring-after(normalize-space(.), '/&gt;')) > 0">
                                                   <xsl:variable name="pointer">
-                                                  <!--ebb: REMOVE this line if returning to point at S-GA files directly. -->
+                                                  <!-\-ebb: REMOVE this line if returning to point at S-GA files directly. -\->
                                                   <xsl:value-of
                                                   select="concat($sga_loc, 'fMS_', $wholeChunkID, '.xml', '#')"/>
+                                                  <!-\- ebb: THE ABOVE LINE WON'T WORK FOR POINTING TO FV CHAPTER FILES -\->
                                                   <xsl:value-of
                                                   select="fv:getLbPointer(normalize-space(current()))"
                                                   />
@@ -203,7 +209,7 @@ Change the output filenames from starting with P1_ to spine_.
                                                                 '^=&quot;[^&quot;]+?&quot;\s*?/&gt;', ''
                                                                 )"/>
                                                   <xsl:variable name="full_pointer">
-                                                  <!--ebb: REMOVE this line if returning to point at S-GA files directly. -->
+                                                  <!-\-ebb: REMOVE this line if returning to point at S-GA files directly. -\->
                                                   <xsl:value-of
                                                   select="concat($sga_loc, 'fMS_', $wholeChunkID, '.xml', '#')"/>
                                                   <xsl:value-of
@@ -211,17 +217,17 @@ Change the output filenames from starting with P1_ to spine_.
                                                   />
                                                   </xsl:variable>
                                                   <ptr target="{$full_pointer}"/>
-                                                  <!-- Un-comment these for testing pointer resolution -->
-                                                  <!--<fv:line_text>
+                                                  <!-\- Un-comment these for testing pointer resolution -\->
+                                                  <!-\-<fv:line_text>
                                                         <xsl:value-of select="$text"/>                                        
                                                     </fv:line_text>
                                                     <fv:resolved_text>
                                                         <xsl:value-of select="fv:resolvePointer($full_pointer)"/>
-                                                    </fv:resolved_text>-->
+                                                    </fv:resolved_text>-\->
                                                   </xsl:if>
                                                 </xsl:if>
                                             </xsl:when>
-                                            <!-- Skip space-only or empty string nodes -->
+                                            <!-\- Skip space-only or empty string nodes -\->
                                             <xsl:when
                                                 test="normalize-space(.) = ' ' or normalize-space(.) = ''"/>
                                             <xsl:otherwise>
@@ -242,7 +248,7 @@ Change the output filenames from starting with P1_ to spine_.
                             </xsl:choose>
                         </rdg>
                     </xsl:when>
-                    <xsl:otherwise>
+                    <xsl:otherwise>-->
                         <rdg wit="#{@wit}">
                             <xsl:variable name="currWit" as="xs:string" select="@wit"/>
                             <xsl:variable name="currP1filename" as="xs:string"
@@ -264,8 +270,8 @@ Change the output filenames from starting with P1_ to spine_.
                                 <ptr                   target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/{$currEd-FileName}#{$currEd-Seg/@xml:id}"/>
                             </xsl:for-each>
                         </rdg>
-                    </xsl:otherwise>
-                </xsl:choose>
+                  <!--  </xsl:otherwise>
+                </xsl:choose>-->
             </xsl:for-each>
         </rdgGrp>
     </xsl:template>
