@@ -97,7 +97,7 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:function>
-    
+    <!-- ebb: Launch the spine generator. -->
     <xsl:template match="/">
         <xsl:for-each select="$P1-spines">
             <xsl:variable name="P1-filename" as="xs:string" select="current() ! base-uri() ! tokenize(.,'/')[last()]"/>

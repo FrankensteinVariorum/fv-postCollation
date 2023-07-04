@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+     xml:id="P1-C01">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bridge Phase 1: Collation unit C01</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Frankenstein Variorum Project</authority>
+            <date>2023—</date>
+            <availability>
+               <licence>Distributed under a Creative Commons
+                                        Attribution-ShareAlike 3.0 Unported License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Produced from collation output prepared in batch file processing
+                                    on  2023-05-18 07:32:15.162818 .</p>
+            <p>Edited to correct alignments and prepared for the Frankenstein
+                                    Variorum spine on 2023-06-27T21:33:45.179109-04:00.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab type="alignmentChunk">
+            <app xmlns="" xml:id="C01_app2">
+               <rdgGrp n="∅" xml:id="C01_app2_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
+               <rdgGrp n="['greece,—shakespeare,']" xml:id="C01_app2_rg1">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
+               </rdgGrp>
+               <rdgGrp n="['greece,—shakspeare,']" xml:id="C01_app2_rg2">
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
+            </app>
+            <app xmlns="" xml:id="C01_app4">
+               <rdgGrp n="∅" xml:id="C01_app4_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
+               <rdgGrp n="['tempest']" xml:id="C01_app4_rg1">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
+               </rdgGrp>
+               <rdgGrp n="['tempest,']" xml:id="C01_app4_rg2">
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
+            </app>
+            <app xmlns="" xml:id="C01_app6">
+               <rdgGrp n="∅" xml:id="C01_app6_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
+               <rdgGrp n="['commenced']" xml:id="C01_app6_rg1">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#fThomas"/>
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
+               <rdgGrp n="['commenced,']" xml:id="C01_app6_rg2">
+                  <rdg wit="#f1823"/>
+               </rdgGrp>
+            </app>
+            <app xmlns="" xml:id="C01_app8">
+               <rdgGrp n="∅" xml:id="C01_app8_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
+               <rdgGrp n="['&lt;p-end/&gt;', '']" xml:id="C01_app8_rg1">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
+               </rdgGrp>
+               <rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;', 'marlow,', 'september,', '1817.', '&lt;p-end/&gt;', '']"
+                       xml:id="C01_app8_rg2">
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
+            </app>
+         </ab>
+      </body>
+   </text>
+</TEI>
