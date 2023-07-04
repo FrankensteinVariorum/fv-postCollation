@@ -139,7 +139,7 @@
         </xsl:if>
     </xsl:template>
 
-    <xsl:template match="app[count(tei:rdgGrp) gt 1]">
+    <xsl:template match="app[count(tei:rdgGrp) gt 1 or count(descendant::tei:rdg) &lt; 5]">
         <xsl:variable name="currApp" as="element()" select="current()"/>
         <app>
             <xsl:copy-of select="@*"/>
@@ -277,6 +277,6 @@
     </xsl:template>
 
     <!--Suppresses invariant apps from the spine. -->
-    <xsl:template match="tei:app[count(tei:rdgGrp) eq 1]"/>
+    <xsl:template match="tei:app[count(tei:rdgGrp) eq 1][count(descendant::rdg) = 5]"/>
 
 </xsl:stylesheet>
