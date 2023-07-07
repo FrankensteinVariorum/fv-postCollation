@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# ----- global variables -----
 isInt="^[0-9]+$"
 Red="\e[0;31m"
 Green="\e[0;32m"
@@ -8,6 +9,7 @@ White="\e[0m"
 SAXON="../../collationWorkspace/xslt/SaxonHE12-0J/saxon-he-12.0.jar"
 message="-t" 
 
+# ----- functions -----
 checkInput(){
   # check the user input is valid, print the message, and allow to re-input
   chunk=$1
@@ -59,7 +61,7 @@ postProcessColl(){
   "P6-Pt1-combine.xsl"
   "P6-Pt2-simplify-chapAnchors.xsl"
   "P6-Pt3-chapChunking.xsl"
-  # "P5-SpineGenerator.xsl"
+  "P6-SpineGenerator.xsl"
   #"spineAdjustor.xsl"
   #"edit-distance/extractCollationData.xsl"
   )
@@ -67,19 +69,23 @@ postProcessColl(){
   pipelineArr=("collated-data" "P1-output" "P2-output" "P3-output" "P4-output" 
   "P5-Pt1-output" "P5-Pt2-output" "P5-Pt3-output" "P5-Pt4--output" "P5-Pt5-output" "P5-Pt6-output" 
   "P6-Pt1-output" "P6-Pt2-output" "P6-Pt3-output"
-  #"subchunked_standoff_Spine" "preLev_standoff_Spine"
+  "subchunked_standoff_Spine" #"preLev_standoff_Spine"
   )
   # start processing
   for (( i=0; i < ${#xslArr[@]}; i++ ))
   do
     echo -e "${Yellow}Run ${xslArr[i]}${White}"
-    echo -e "${Yellow}input: ${pipelineArr[$i]}, output: ${pipelineArr[$i+1]}${White}"
+    if [[ $i -eq $(( ${#xslArr[@]} - 1 )) ]]; then
+     echo -e "${Yellow}input: P1-output: ${pipelineArr[$i+1]}${White}"
+    else
+     echo -e "${Yellow}input: ${pipelineArr[$i]}, output: ${pipelineArr[$i+1]}${White}"
+    fi
     java -jar $SAXON -xsl:"${xslArr[$i]}" -s:"${xslArr[$i]}" ${message}
-  done
+  done  
 
-  echo -e "${Yellow}Run P5-SpineGenerator.xsl to generate spine files${White}"
-  echo -e "${Yellow}input: P1-output, output: subchunked_standoff_Spine${White}"
-  java -jar $SAXON -s:P1-output -xsl:P5-SpineGenerator.xsl -o:subchunked_standoff_Spine ${message}
+  # echo -e "${Yellow}Run P6-SpineGenerator.xsl to generate spine files${White}"
+  # echo -e "${Yellow}input: P1-output, output: subchunked_standoff_Spine${White}"
+  # java -jar $SAXON -s:P6-SpineGenerator.xsl -xsl:P6-SpineGenerator.xsl ${message}
 
   for xml in subchunked_standoff_Spine/*.xml
   do
@@ -92,7 +98,7 @@ postProcessColl(){
   java -jar $SAXON -s:spineAdjustor.xsl -xsl:spineAdjustor.xsl 
 
   echo -e "${Yellow}Run extractCollationData.xsl in edit-distance${White}"
-  echo -e "${Yellow}input: preLev_standoff_Spine, out put: edit-distance/spineData.txt${White}"
+  echo -e "${Yellow}input: preLev_standoff_Spine, output: edit-distance/spineData.txt${White}"
   cd edit-distance || exit
   java -jar ../$SAXON -s:extractCollationData.xsl -xsl:extractCollationData.xsl  ${message}
   fileExist spineData.txt
@@ -121,16 +127,19 @@ postProcessColl(){
  echo -e "${Yellow}input: standoff_Spine, output: fv-data/2023-standoff_Spine${White}"
  java -jar $SAXON -xsl:spineEmptyWitnessPatch.xsl -s:spineEmptyWitnessPatch.xsl ${message}
 
- echo -e "${Yellow}Packaging collated edition files${White}"
- ./migrateP5msColl.sh
+ echo -e "${Yellow}Packaging chapter files${White}"
+ # Copy separate directories to fv-data repo
+ echo -e "Copy ${Yellow}P6-Pt3-output${White} to ${Yellow}fv-data/2023-variorum-chapters${White}"
+ cp -R P6-Pt3-output/*.xml ../../fv-data/2023-variorum-chapters
 }
 
+# ----- main function -----
 main(){
   allArr=("collated-data" "P1-output" "P2-output" "P3-output" "P4-output" 
   "P5-Pt1-output" "P5-Pt2-output" "P5-Pt3-output" "P5-Pt4-output" "P5-Pt5-output" "P5-Pt6-output"
   "P6-Pt1-output" "P6-Pt2-output" "P6-Pt3-output" 
   "subchunked_standoff_Spine" "preLev_standoff_Spine" #"edit-distance/spineData.txt"
-  "standoff_Spine"
+  "standoff_Spine" 
   )
 
   # reset output folders======
