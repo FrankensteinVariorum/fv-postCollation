@@ -168,15 +168,14 @@ java -jar saxon.jar -s:P1-output/ -xsl:P6_SpineGenerator.xsl -o:subchunked_stand
 * This Python script uses the numpy library to calculate Levenshtein edit distances between each available rdgGrp cluster of witnesses at each variant location. It outputs a single XML file in the critical apparatus format of our spines, holding the calculated values. 
 * 2023-05-21 ebb: UPDATE THE NUMPY LIBRARY
 
-### ~~Maybe (or maybe not)~~ Definitely run `edit-distance/LevWeight-Simplification.xsl`
-* ~~*_CAUTION_* *We may not wish to run this transformation. Please read this documentation before deciding.*~~ 
+### Run `edit-distance/LevWeight-Simplification.xsl`
 * **Input:** `FV_LevDists-weighted.xml`
 * **Output:** `FV_LevDists-simplified.xml`
-* 2018-10-24 updated 2019-03-16 ebb: This identity transformation stylesheet removes comparisons to absent witnesses (indicated as NoRG) in the feature structures file holding weighted Levenshtein data for our collated Variorum.
-* ISSUE: *Why we may NOT wish to run this*: Running this stylesheet will affect our readout of collation variance. Consider the case of variant passages where one or more witnesses are not present and have no material to compare. This may be because, in the case of the ms notebooks, we simply do not have any material, or it may be because, in the case of the 1831 edition, a passage was heavily altered and cut, and there isn't any material present. High Levenshtein values are produced in each case. 
+* ~~2018-10-24 updated 2019-03-16 ebb: This identity transformation stylesheet removes comparisons to absent witnesses (indicated as NoRG) in the feature structures file holding weighted Levenshtein data for our collated Variorum.~~
+* ~~ISSUE: *Why we may NOT wish to run this*: Running this stylesheet will affect our readout of collation variance. Consider the case of variant passages where one or more witnesses are not present and have no material to compare. This may be because, in the case of the ms notebooks, we simply do not have any material, or it may be because, in the case of the 1831 edition, a passage was heavily altered and cut, and there isn't any material present. High Levenshtein values are produced in each case.~~ 
 * ~~As of 2019-03-16 (ebb), I'm deciding NOT to run this stylesheet so that the team can evaluate the Levenshtein results to represent comparisons with omitted/missing material.~~
-* REVISED (ebb): Revisiting on 3 July 2019 and May 2023: I think we DO want to run this because we're getting spurious high results for passages of really low variance.
-* Confirmed (ebb and yxj 26 June 2023: Yes, we do want to run this because it yields accurate maximum Levenshtein distance calculations for text-bearing passages demonstrating variation. A question may be how to handle passsages 
+* REVISED (ebb): Revisiting on 3 July 2019 and May 2023: We DO want to run this because we're getting spurious high results for passages of really low variance.
+* Confirmed (ebb and yxj 26 June 2023: Yes, we do want to run this because it yields accurate maximum Levenshtein distance calculations for text-bearing passages demonstrating variation. 
 
 ### Run `spine_addLevWeights.xsl`
 * **Input:** `preLev_standoff_Spine` directory
