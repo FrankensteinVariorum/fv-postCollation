@@ -185,7 +185,7 @@ java -jar saxon.jar -s:P1-output/ -xsl:P6_SpineGenerator.xsl -o:subchunked_stand
 * ~~**Output:** `fv-data/standoff_Spine` directory~~
 * ~~This XSLT finds `<app>` elements with only two variations that amount to only a single 4-character token, which can only ever be `n=['']`. The XSLT ensures that these are output with a Levenshtein distance of 0. WAIT, this may NOT be what we want now!~~
 
-<del>```xml
+```xml
 <app>
    <rdgGrp n="['']">
       <rdg wit="f1831"/>
@@ -196,10 +196,10 @@ java -jar saxon.jar -s:P1-output/ -xsl:P6_SpineGenerator.xsl -o:subchunked_stand
 
 </app>
 ```
-</del>
+
 
 ~~Consider that we are also now outputting null tokens like this:~~
-<del>
+
 ```
 <app>
    <rdgGrp n="∅">
@@ -211,7 +211,6 @@ java -jar saxon.jar -s:P1-output/ -xsl:P6_SpineGenerator.xsl -o:subchunked_stand
 
 </app>
 ```
-</del>
 
 ~~This XSLT won't process the null-token because it's too short. BUT, do we really want this behavior this kind of witness?~~
 <del>`n="['']"`</del>
