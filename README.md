@@ -66,7 +66,7 @@ The workspace in this repo houses a transformation pipeline. Here is a summary o
      * **2023-05-21 ebb: Are the next two processing stages necessary?** 
        * for simple segs where end IDS have a preceding-sibling start ID. 
        * for fragmented end IDs that don't have a preceding-sibling start ID.
-      
+    
 ### Run `P5-Pt2PlantFragSegMarkers.xsl`
 * **Input:** `preP5a-output` directory
 * **Output:** `preP5b-output` directory
@@ -92,10 +92,10 @@ The workspace in this repo houses a transformation pipeline. Here is a summary o
 
 ### Run `P5-Pt5raiseSegElems.xsl`
 * 2018-07-30 ebb: Run this with Saxon at command line to raise paired seg markers, using:
-``
+  ``
     java -jar saxon.jar -s:preP5d-output/ -xsl:P5-Pt5raiseSegElems.xsl -o:P5-output 
-``    
-    
+  ``    
+  
 * We should probably rewrite this so we don't require the lib file dependency on marker types. 
 * 2023-05-31: Fixing xsl file add capacity to process a collection with xsl:result-document. Adding this stage to latest edition to add spaces around consecutive space markers in the output editions.  
 	
@@ -128,7 +128,7 @@ java -jar saxon.jar -s:P1-output/ -xsl:P6_SpineGenerator.xsl -o:subchunked_stand
 * Here we change the output filenames from starting with `P1_` to `spine_`.
 * These files differ from those output in the P1 stage because the P1 form contains the complete texts of all edition files, mapping them to critical apparatus markup with variant `<app>` elements (containing multiple `<rdgGrp>` elements or divergent forms) as well as invariant `<app>` elements (containing only one `<rdgGrp>` where all editions run in unison). For the purposes of the Variorum encoding, our “spine” needs only to work with the variant passages, because those are the passages we will highlight and interlink in the Variorum interface. So, in this stage of processing we remove the invariant apps from P1 in generating the Variorum “spines”. 
 * Looking ahead, following this stage we will: 
-    
+  
     * Calculate Levenshtein edit distances working in the edit-distance directory.
     * When edit distances are calculated and stored, we will add Levenshtein values and generate the finished `standoff_Spine` directory files.
 
@@ -182,22 +182,20 @@ java -jar saxon.jar -s:P1-output/ -xsl:P6_SpineGenerator.xsl -o:subchunked_stand
 ## Run spineEmptyWitnessPatch.xsl if using PghFrankenstein repo pointers to S-GA files
 * **Input:** `standoff_Spine` directory
 * **Output:** `fv-data/standoff_Spine` directory
-* This is a (hopefully temporary) patch. When we redirected the pointers for S-GA files into the fv-data variorum-chunks directory, we are generating pointers into nonexistent S-GA files when S-GA witness is absent. This XSLT finds those empty locations for fMS and removes the output pointers, to just produce an empty <rdg wit="#fMS"/> as we did before. We're taking input from the standoff_Spine directory in fv-postCollation, and outputting to the standoff_Spine directory in fv-data. 
+* This is a (hopefully temporary) patch. When we redirected the pointers for S-GA files into the fv-data variorum-chunks directory, we are generating pointers into nonexistent S-GA files when S-GA witness is absent. This XSLT finds those empty locations for fMS and removes the output pointers, to just produce an empty `<rdg wit="#fMS"/>` as we did before. We're taking input from the standoff_Spine directory in fv-postCollation, and outputting to the standoff_Spine directory in fv-data.
 * 2023-05-21 ebb: **Check how we're directing pointers into S-GA now.**
 
-## Trimming White Space: 
-### 2023-05-21: Unnecessary now?
-### Run `java -jar saxon.jar -s:P5-output/ -xsl:whiteSpaceReducer.xsl -o:P5-trimmedWS`
+## ~~Trimming White Space:~~ 
+### ~~2023-05-21: Unnecessary now?~~
+### ~~Run `java -jar saxon.jar -s:P5-output/ -xsl:whiteSpaceReducer.xsl -o:P5-trimmedWS~~
+## ~~Packaging collated edition files~~
+### ~~Run `./migrateP5msColl.sh`~~
+~~* **Input:** `P5-output`~~
 
-## Packaging collated edition files
-### Run `./migrateP5msColl.sh`
-* **Input:** `P5-output`
-* **Outputs:** separate `P5-MS` and `P5-print` directories, copied to `fv-data/variorum-chunks` and `fv-data/reseqMS-chunks`
-This stage removes MS edition files to a separate directory, since these will not be used in the Variorum interface development, but may be useful for further processing and analysis of collation data.
-
-For the white-space-trimmed files:
-### Run `./migrateP5msColl-tws.sh`
-* **Input:** `P5-trimmedWS`
-* **Outputs:** separate `P5-MS-tws` and `P5-print-tws` directories, copied to `fv-data/variorum-chunks-tws` and `fv-data/reseqMS-chunks-tws`
-
+* ~~**Outputs:** separate `P5-MS` and `P5-print` directories, copied to `fv-data/variorum-chunks` and `fv-data/reseqMS-chunks`~~
+~~This stage removes MS edition files to a separate directory, since these will not be used in the Variorum interface development, but may be useful for further processing and analysis of collation data.~~
+~~For the white-space-trimmed files:~~
+### ~~Run `./migrateP5msColl-tws.sh`~~
+* ~~**Input:** `P5-trimmedWS`~~
+* ~~**Outputs:** separate `P5-MS-tws` and `P5-print-tws` directories, copied to `fv-data/variorum-chunks-tws` and `fv-data/reseqMS-chunks-tws`~~
 
