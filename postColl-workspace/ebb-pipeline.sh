@@ -123,14 +123,16 @@ postProcessColl(){
   echo -e "${Yellow}input: preLev_standoff_Spine, output: standoff_Spine${White}"
   java -jar $SAXON -xsl:spine_addLevWeights.xsl -s:spine_addLevWeights.xsl ${message}
 
- echo -e "${Yellow}Run spineEmptyWitnessPatch.xsl${White}"
- echo -e "${Yellow}input: standoff_Spine, output: fv-data/2023-standoff_Spine${White}"
- java -jar $SAXON -xsl:spineEmptyWitnessPatch.xsl -s:spineEmptyWitnessPatch.xsl ${message}
+#  echo -e "${Yellow}Run spineEmptyWitnessPatch.xsl${White}"
+#  echo -e "${Yellow}input: standoff_Spine, output: fv-data/2023-standoff_Spine${White}"
+#  java -jar $SAXON -xsl:spineEmptyWitnessPatch.xsl -s:spineEmptyWitnessPatch.xsl ${message}
 
  echo -e "${Yellow}Packaging chapter files${White}"
  # Copy separate directories to fv-data repo
  echo -e "Copy ${Yellow}P6-Pt3-output${White} to ${Yellow}fv-data/2023-variorum-chapters${White}"
  cp -R P6-Pt3-output/*.xml ../../fv-data/2023-variorum-chapters
+ echo -e "Copy ${Yellow}standoff_Spine${White} to ${Yellow}fv-data/2023-standoff_Spine${White}"
+ cp -R P6-Pt3-output/*.xml ../../fv-data/2023-standoff_Spine
 }
 
 # ----- main function -----
