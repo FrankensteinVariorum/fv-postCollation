@@ -1,12 +1,15 @@
 #!/bin/bash
 
+# ----- global variables -----
 isInt="^[0-9]+$"
 Red="\e[0;31m"
 Green="\e[0;32m"
 Yellow="\e[0;33m"
 White="\e[0m"
 SAXON="../../collationWorkspace/xslt/SaxonHE12-0J/saxon-he-12.0.jar"
+message="-t" 
 
+# ----- functions -----
 checkInput(){
   # check the user input is valid, print the message, and allow to re-input
   chunk=$1
@@ -43,7 +46,6 @@ fileExist(){
     echo -e "${Green}$fileName is generated!${White}"
   fi
 }
-
 postProcessColl(){
   # this array includes xslt files to run
   xslArr=("P1-bridgeEditionConstructor.xsl"
@@ -59,7 +61,7 @@ postProcessColl(){
   "P6-Pt1-combine.xsl"
   "P6-Pt2-simplify-chapAnchors.xsl"
   "P6-Pt3-chapChunking.xsl"
-  # "P5-SpineGenerator.xsl"
+  "P6-SpineGenerator.xsl"
   #"spineAdjustor.xsl"
   #"edit-distance/extractCollationData.xsl"
   )
@@ -67,19 +69,23 @@ postProcessColl(){
   pipelineArr=("collated-data" "P1-output" "P2-output" "P3-output" "P4-output" 
   "P5-Pt1-output" "P5-Pt2-output" "P5-Pt3-output" "P5-Pt4--output" "P5-Pt5-output" "P5-Pt6-output" 
   "P6-Pt1-output" "P6-Pt2-output" "P6-Pt3-output"
-  #"subchunked_standoff_Spine" "preLev_standoff_Spine"
+  "subchunked_standoff_Spine" #"preLev_standoff_Spine"
   )
   # start processing
   for (( i=0; i < ${#xslArr[@]}; i++ ))
   do
     echo -e "${Yellow}Run ${xslArr[i]}${White}"
-    echo -e "${Yellow}input: ${pipelineArr[$i]}, output: ${pipelineArr[$i+1]}${White}"
-    java -jar $SAXON -xsl:"${xslArr[$i]}" -s:"${xslArr[$i]}" -t
-  done
+    if [[ $i -eq $(( ${#xslArr[@]} - 1 )) ]]; then
+     echo -e "${Yellow}input: P1-output: ${pipelineArr[$i+1]}${White}"
+    else
+     echo -e "${Yellow}input: ${pipelineArr[$i]}, output: ${pipelineArr[$i+1]}${White}"
+    fi
+    java -jar $SAXON -xsl:"${xslArr[$i]}" -s:"${xslArr[$i]}" ${message}
+  done  
 
-  echo -e "${Yellow}Run P5-SpineGenerator.xsl to generate spine files${White}"
-  echo -e "${Yellow}input: P1-output, output: subchunked_standoff_Spine${White}"
-  java -jar $SAXON -s:P1-output -xsl:P5-SpineGenerator.xsl -o:subchunked_standoff_Spine -t
+  # echo -e "${Yellow}Run P6-SpineGenerator.xsl to generate spine files${White}"
+  # echo -e "${Yellow}input: P1-output, output: subchunked_standoff_Spine${White}"
+  # java -jar $SAXON -s:P6-SpineGenerator.xsl -xsl:P6-SpineGenerator.xsl ${message}
 
   for xml in subchunked_standoff_Spine/*.xml
   do
@@ -89,53 +95,58 @@ postProcessColl(){
   echo -e "${Yellow}Phase 7: Prepare the “spine” of the variorum${White}"
   echo -e "${Yellow}Run spineAdjustor.xsl${White}"
   echo -e "${Yellow}intput: subchunked_standoff_Spine, output: preLev_standoff_Spine${White}"
-  java -jar $SAXON -s:subchunked_standoff_Spine -xsl:spineAdjustor.xsl -o:. -t
+  java -jar $SAXON -s:spineAdjustor.xsl -xsl:spineAdjustor.xsl 
 
   echo -e "${Yellow}Run extractCollationData.xsl in edit-distance${White}"
   echo -e "${Yellow}input: preLev_standoff_Spine, output: edit-distance/spineData.txt${White}"
   cd edit-distance || exit
-  java -jar ../$SAXON -s:extractCollationData.xsl -xsl:extractCollationData.xsl -o:spineData.txt  -t
+  java -jar ../$SAXON -s:extractCollationData.xsl -xsl:extractCollationData.xsl  ${message}
   fileExist spineData.txt
 
   echo -e "${Yellow}Convert spineData.txt to ASCII format${White}"
   rm spineData-ascii.txt
-  iconv -c -f UTF-8 -t ascii//TRANSLIT spineData.txt  > spineData-ascii.txt
+  iconv -c -f UTF-8 ${message} ascii//TRANSLIT spineData.txt  > spineData-ascii.txt
   fileExist spineData-ascii.txt
 
   echo -e "${Yellow}Run python LevenCalc_toXML.py${White}"
   rm FV_LevDists-weighted.xml
   python3.11 LevenCalc_toXML.py
   fileExist FV_LevDists-weighted.xml
+
+  echo -e "${Yellow}Run LevWeight-Simplification.xsl${White}"
+  rm FV_LevDists-simplified.xml
+  java -jar ../$SAXON -xsl:LevWeight-Simplification.xsl -s:FV_LevDists-weighted.xml -o:FV_LevDists-simplified.xml ${message}
+  fileExist FV_LevDists-simplified.xml
   cd ..
+
   echo -e "${Yellow}Run spine_addLevWeights.xsl${White}"
   echo -e "${Yellow}input: preLev_standoff_Spine, output: standoff_Spine${White}"
-  java -jar $SAXON -xsl:spine_addLevWeights.xsl -s:preLev_standoff_Spine -o:. -t
+  java -jar $SAXON -xsl:spine_addLevWeights.xsl -s:spine_addLevWeights.xsl ${message}
 
  echo -e "${Yellow}Run spineEmptyWitnessPatch.xsl${White}"
- echo -e "${Yellow}input: standoff_Spine, output: fv-data/standoff_Spine${White}"
- java -jar $SAXON -xsl:spineEmptyWitnessPatch.xsl -s:standoff_Spine -o:. -t
+ echo -e "${Yellow}input: standoff_Spine, output: fv-data/2023-standoff_Spine${White}"
+ java -jar $SAXON -xsl:spineEmptyWitnessPatch.xsl -s:spineEmptyWitnessPatch.xsl ${message}
 
-# echo -e "${Yellow}Trimming White Space${White}"
-# echo -e "${Yellow}input: P5-output, output: P5-trimmedWS${White}"
-# java -jar saxon.jar -s:P5-output -xsl:whiteSpaceReducer.xsl -o:P5-trimmedWS -t
-
-#  echo -e "${Yellow}Packaging collated edition files${White}"
-#  ./migrateP5msColl.sh
+ echo -e "${Yellow}Packaging chapter files${White}"
+ # Copy separate directories to fv-data repo
+ echo -e "Copy ${Yellow}P6-Pt3-output${White} to ${Yellow}fv-data/2023-variorum-chapters${White}"
+ cp -R P6-Pt3-output/*.xml ../../fv-data/2023-variorum-chapters
 }
 
+# ----- main function -----
 main(){
   allArr=("collated-data" "P1-output" "P2-output" "P3-output" "P4-output" 
   "P5-Pt1-output" "P5-Pt2-output" "P5-Pt3-output" "P5-Pt4-output" "P5-Pt5-output" "P5-Pt6-output"
   "P6-Pt1-output" "P6-Pt2-output" "P6-Pt3-output" 
   "subchunked_standoff_Spine" "preLev_standoff_Spine" #"edit-distance/spineData.txt"
-  "standoff_Spine"
+  "standoff_Spine" 
   )
 
   # reset output folders======
   for (( i=0; i < ${#allArr[@]}; i++ ))
   do
-    rm -r "${allArr[$i]}"
-    mkdir "${allArr[$i]}"
+    rm -r "${allArr[$i]}" # remove all output folders
+    mkdir "${allArr[$i]}" # create all output folders
   done
   #====================
 
