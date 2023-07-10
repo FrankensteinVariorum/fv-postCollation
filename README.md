@@ -98,7 +98,12 @@ The workspace in this repo houses a transformation pipeline. Here is a summary o
   
 * We should probably rewrite this so we don't require the lib file dependency on marker types. 
 * 2023-05-31: Fixing xsl file add capacity to process a collection with xsl:result-document. Adding this stage to latest edition to add spaces around consecutive space markers in the output editions.  
-	
+
+### Run `P5-Pt6-spaceHandling.xsl`
+* **Input:** `P5-Pt5-output` directory
+* **Output:** `P5-Pt6-output` directory
+* 2023-07-10 ebb and yxj: This handles spaces around consecutive `<seg>` elements in the output editions to ensure that these have spaces in between them.
+ 
 ## Phase 6
 
 ### Run `P6-Pt1-combine.xsl` 
