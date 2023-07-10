@@ -116,11 +116,14 @@ The workspace in this repo houses a transformation pipeline. Here is a summary o
 ### Run `P6-Pt2-simplify-chapAnchors.xsl`
 * 2023-6-14: Cleans up elements removing unnecessary spaces and punctuation. Flattens all of collation nodes into radically simplified structures to make it possible to 'cut' the files.
 * Introduces anchor elements to indicate when each chapter starts (line 157).
-* **Output:** `P6-Pt2/VERSION_$file_id.xml`
+* **Output:** `P6-Pt2-output/VERSION_$file_id.xml`
 
 ### Run `P6-Pt3-chapChunking.xsl`
-* 2023-6-14: Cleans up namespaces.
-* This XSLT should output seperate chapter files. It is not doing that yet. We have only tried it for the fMS so far, and it is outputting nly one file, named with the correct text node, but otherwise systematically excluding the contents of the first processed group.
+* **Input**: `P6-Pt2-output`
+* **Output**: `P6-Pt3-output`
+* This XSLT generates distinct chapter files for each edition, and represents an end-point of this pipeline for generating edition files. These are being delivered to fv-data.
+* WE MAY NEED additional processing for the output fMS files for display in our interface.
+* 2023-06-14: Cleans up namespaces.
 
 ### Run `P6_SpineGenerator.xsl`
 * Run with saxon command line over the `P1-output` directory and output to  `subchunked_standoff_Spine` directory, using:
