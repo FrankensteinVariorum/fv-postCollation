@@ -155,11 +155,16 @@
             <xsl:if test="count(descendant::rdg) &lt; 5">
                 <xsl:variable name="allWits" as="xs:string+" select="'f1818', 'fThomas', 'f1823', 'f1831', 'fMS'"/>
                 <xsl:variable name="missingWits" as="xs:string+" select="for $i in $allWits return $i[not(. = $currApp//rdg/@wit)]"/>
-                        <rdgGrp n="∅" xml:id="{$currApp/@xml:id}_rg_empty">
-                            <xsl:for-each select="$missingWits">
-                                <rdg wit="#{current()}"/>
-                            </xsl:for-each>
-                        </rdgGrp>
+                <rdgGrp xml:id="{$currApp/@xml:id}_rg_empty">
+                    <!-- 2023-07-12 yxj: ∅ charater is not valid JSON 
+                2023-07-13 ebb: Let's change the handling here so we simply don't output @n when there is no content.
+                Another possibility we could try is n="['∅']", but this might imply that this content is actually present, when 
+                we want to signal the emptiness of content at this point. 
+                -->
+                    <xsl:for-each select="$missingWits">
+                        <rdg wit="#{current()}"/>
+                    </xsl:for-each>
+                </rdgGrp>
             </xsl:if>
             
             <xsl:apply-templates select="rdgGrp">
