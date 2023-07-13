@@ -150,11 +150,13 @@
             <xsl:if test="count(descendant::rdg) &lt; 5">
                 <xsl:variable name="allWits" as="xs:string+" select="'f1818', 'fThomas', 'f1823', 'f1831', 'fMS'"/>
                 <xsl:variable name="missingWits" as="xs:string+" select="for $i in $allWits return $i[not(. = $currApp//rdg/@wit)]"/>
-                        <rdgGrp n="∅" xml:id="{$currApp/@xml:id}_rg_empty">
+                <!--<rdgGrp n="∅" xml:id="{$currApp/@xml:id}_rg_empty">-->
+                <!-- 2023-07-12 yxj: ∅ charater is not valid JSON -->
+                <rdgGrp n="" xml:id="{$currApp/@xml:id}_rg_empty">
                             <xsl:for-each select="$missingWits">
                                 <rdg wit="#{current()}"/>
                             </xsl:for-each>
-                        </rdgGrp>
+                </rdgGrp>
             </xsl:if>
             
             <xsl:apply-templates select="rdgGrp">

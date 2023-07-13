@@ -132,7 +132,7 @@ postProcessColl(){
  echo -e "Copy ${Yellow}P6-Pt3-output${White} to ${Yellow}fv-data/2023-variorum-chapters${White}"
  cp -R P6-Pt3-output/*.xml ../../fv-data/2023-variorum-chapters
  echo -e "Copy ${Yellow}standoff_Spine${White} to ${Yellow}fv-data/2023-standoff_Spine${White}"
- cp -R P6-Pt3-output/*.xml ../../fv-data/2023-standoff_Spine
+ cp -R standoff_Spine/*.xml ../../fv-data/2023-standoff_Spine
 }
 
 # ----- main function -----
