@@ -9,7 +9,12 @@
     <xsl:mode on-no-match="shallow-copy"/>
     <xsl:variable name="spineColl" as="document-node()+"
         select="collection('early_standoff_Spine/?select=*.xml')"/>
-    <!--2018-10-23 ebb: In this stage, we "sew up" the lettered spine sub-chunk files into complete chunks to match their counterpart edition files. 2018-10-25: Also, we're adding hashtags if they're missing in the @wit on rdg. -->
+    <!--2023-07-14 ebb: This XSLT is for patching and updating the spine structure. At this stage we are:
+        * adding hashtags if they're missing in the @wit on rdg.
+        * enhancing data for pointing to the Shelley-Godwin Archive, adding info to <witDetail> needed for links to 
+        published webpages, and structuring the element contents of <witDetail> according to page. 
+    
+    -->
     <xsl:template match="/">
       <!-- 2023-07-14 No longer necessary since we no longer have subchunked files. 
           <xsl:for-each-group select="$spineColl"
@@ -29,7 +34,7 @@
                             </titleStmt>
                             <publicationStmt>
                                 <authority>Frankenstein Variorum Project</authority>
-                                <date>2018</date>
+                                <date>2023—</date>
                                 <availability>
                                     <licence>Distributed under a Creative Commons
                                         Attribution-ShareAlike 3.0 Unported License</licence>
@@ -40,12 +45,11 @@
                     </teiHeader>
                     <text>
                         <body>
-                            <ab type="alignmentChunk">
+                            <listApp>
                                 <xsl:for-each select="current()//TEI">
-                                    <xsl:apply-templates
-                                        select="descendant::ab[@type = 'alignmentChunk']"/>
+                                    <xsl:apply-templates select=".//body/*"/>
                                 </xsl:for-each>
-                            </ab>
+                            </listApp>
                         </body>
                     </text>
                 </TEI>
@@ -54,7 +58,7 @@
         <!--</xsl:for-each-group>-->
         
     </xsl:template>
-    <xsl:template match="ab">
+    <xsl:template match="body/*">
         <xsl:apply-templates select="app"/>
     </xsl:template>
     <xsl:template match="rdg">
