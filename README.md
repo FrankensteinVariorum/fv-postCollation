@@ -25,13 +25,6 @@ The workspace in this repo houses a transformation pipeline. Here is a summary o
 * **Output:** `P3-output` directory
 * In Bridge Construction Phase 3, we are up-transforming the text-converted tags in the edition files into self-closed elements. We add the `th:` namespace prefix to "trojan horse" attributes used for markers.
 
-
-### ~~Run `P3.5-bridgeEditionConstructor.xsl`~~
-#### THIS STAGE SHOULD BE UNNECESSARY IN 2023 
-* ~~**Input:** `P3-output` directory~~
-* ~~**Output:** `P3.5-output` directory~~ 
-* ~~2018-10-10 ebb: For stage 3.5 we need to reconstruct full collation chunks that have been subdivided into parts. For example, C08 was divided into parts C08a through C08j, often breaking up element tag pairs. Here we reunite the pieces so we can move on to up-raising the flattened elements in the editions.~~
-
 ## Phase 4: Raise the “trojan elements” holding edition markup 
 ### Option 1: Run `P4-raiseBridgeElems.xsl`
 * **Input:** `P3.5-output` directory 
@@ -46,7 +39,6 @@ The workspace in this repo houses a transformation pipeline. Here is a summary o
 ``  
 * After running this, be sure to rename the output files to begin with `P4_`
 * 2018-07-15 ebb: Bridge Phase 4 raises the hierarchy of elements from the source documents, leaving the seg elements unraised. This stylesheet uses an "inside-out" function to raise the elements from the deepest levels (those with only text nodes between their start and end markers) first. This and other methods to "raise" flattened or "Trojan" elements are documented in https://github.com/djbpitt/raising with thanks to David J. Birnbaum and Michael Sperberg-McQueen for their helpful experiments. 
-* 2023-05-21 ebb: UPDATE SAXON AND RECONSIDER FILE NOMENCLATURE
 
 ## Phase 5: Prepare and raise `<seg>` elements for variant passages in each edition
 ### Run `P5-Pt1-SegTrojans.xsl`
@@ -126,9 +118,9 @@ The workspace in this repo houses a transformation pipeline. Here is a summary o
 * 2023-06-14: Cleans up namespaces.
 
 ### Run `P6_SpineGenerator.xsl`
-* Run with saxon command line over the `P1-output` directory and output to  `subchunked_standoff_Spine` directory, using:
+* Run with saxon command line over the `P1-output` directory and output to `early_standoff_Spine` directory, using:
 ``      
-java -jar saxon.jar -s:P1-output/ -xsl:P6_SpineGenerator.xsl -o:subchunked_standoff_Spine 
+java -jar saxon.jar -s:P1-output/ -xsl:P6_SpineGenerator.xsl -o:early_standoff_Spine 
 ``
 * Begun 2018-10-17 updated 2019-03-16, 2023-05-21, 2023-07-03 
 * This XSLT generates the “spine” files for the Variorum. It used to be run at the end of Phase 5 when we were working with edition files saved as collation units, but we are now (as of 2023-07-03) running it at the end of P6 to read from our edition chapter files. 
@@ -143,10 +135,10 @@ java -jar saxon.jar -s:P1-output/ -xsl:P6_SpineGenerator.xsl -o:subchunked_stand
 
 ## Phase 7: Prepare the “spine” of the variorum
 ### Run `spineAdjustor.xsl` 
-* **Input:** `subchunked_standoff_Spine` directory
+* **Input:** `early_standoff_Spine` directory
 * **Output:** `preLev_standoff_Spine` directory
 * 2018-10-23 ebb: In this stage, we "sew up" the lettered spine sub-chunk files into complete chunks to match their counterpart edition files. 2018-10-25: Also, we're adding hashtags if they're missing in the @wit on rdg.
-* 2023-05-21: THE FIRST PART ISN"T NECESSRY BUT **DO NEED TO CHECK/ADD MISSING HASTHAGS**
+* 2023-07-14: We are no longer breaking the collation units into sub-chunks, so we are editing this out, but adding some new functionality. 
 
 ### Run `edit-distance/extractCollationData.xsl`
 * **Input:** `preLev_standoff_Spine` directory
@@ -169,7 +161,6 @@ java -jar saxon.jar -s:P1-output/ -xsl:P6_SpineGenerator.xsl -o:subchunked_stand
 * **Input:** `spineData-ascii.txt`
 * **Output:** `FV_LevDists-weighted.xml`
 * This Python script uses the numpy library to calculate Levenshtein edit distances between each available rdgGrp cluster of witnesses at each variant location. It outputs a single XML file in the critical apparatus format of our spines, holding the calculated values. 
-* 2023-05-21 ebb: UPDATE THE NUMPY LIBRARY
 
 ### Run `edit-distance/LevWeight-Simplification.xsl`
 * **Input:** `FV_LevDists-weighted.xml`
@@ -178,63 +169,10 @@ java -jar saxon.jar -s:P1-output/ -xsl:P6_SpineGenerator.xsl -o:subchunked_stand
 * ~~ISSUE: *Why we may NOT wish to run this*: Running this stylesheet will affect our readout of collation variance. Consider the case of variant passages where one or more witnesses are not present and have no material to compare. This may be because, in the case of the ms notebooks, we simply do not have any material, or it may be because, in the case of the 1831 edition, a passage was heavily altered and cut, and there isn't any material present. High Levenshtein values are produced in each case.~~ 
 * ~~As of 2019-03-16 (ebb), I'm deciding NOT to run this stylesheet so that the team can evaluate the Levenshtein results to represent comparisons with omitted/missing material.~~
 * REVISED (ebb): Revisiting on 3 July 2019 and May 2023: We DO want to run this because we're getting spurious high results for passages of really low variance.
-* Confirmed (ebb and yxj 26 June 2023: Yes, we do want to run this because it yields accurate maximum Levenshtein distance calculations for text-bearing passages demonstrating variation. 
+* Confirmed (ebb and yxj 26 June 2023): Yes, we do want to run this because it yields accurate maximum Levenshtein distance calculations for text-bearing passages demonstrating variation. 
 
 ### Run `spine_addLevWeights.xsl`
 * **Input:** `preLev_standoff_Spine` directory
 * **Output:** `standoff_Spine` directory
 * This stage prepares the standoff “spine” files containing pointers to edition files and edit-distance data on which the Variorum reading interface depends. 
 * 2018-10-24 updated 2019-03-16 ebb: This stylesheet maps the maximum Levenshtein distance value for each app onto the spine files. Run this over `FV_LevDists-weighted.xml` (the XML generated by the Python script that calculates Levenshtein distances at each app location and stores them in feature structures.) 
-
-## ~~Run spineEmptyWitnessPatch.xsl~~ 
-2023-07-10 This was intended to solve an OLD problem from the Time Before (2019). We don't need it now!
-* ~~**Input:** `standoff_Spine` directory~~
-* ~~**Output:** `fv-data/standoff_Spine` directory~~
-* ~~This XSLT finds `<app>` elements with only two variations that amount to only a single 4-character token, which can only ever be `n=['']`. The XSLT ensures that these are output with a Levenshtein distance of 0. WAIT, this may NOT be what we want now!~~
-
-```xml
-<app>
-   <rdgGrp n="['']">
-      <rdg wit="f1831"/>
-   </rdgGrp>
-   <rdgGrp>
-      <rdg wit="fThomas">I have all kinds of content that is just plain missing in 1831</rdg>
-   </rdgGrp>
-
-</app>
-```
-
-
-~~Consider that we are also now outputting null tokens like this:~~
-
-```
-<app>
-   <rdgGrp n="∅">
-      <rdg wit="f1831"/>
-   </rdgGrp>
-   <rdgGrp>
-      <rdg wit="fThomas">I have all kinds of content that is just plain missing in 1831</rdg>
-   </rdgGrp>
-
-</app>
-```
-
-~~This XSLT won't process the null-token because it's too short. BUT, do we really want this behavior this kind of witness?~~
-<del>`n="['']"`</del>
-
-
-
-## ~~Trimming White Space:~~ 
-### ~~2023-05-21: Unnecessary now?~~
-### ~~Run `java -jar saxon.jar -s:P5-output/ -xsl:whiteSpaceReducer.xsl -o:P5-trimmedWS~~
-## ~~Packaging collated edition files~~
-### ~~Run `./migrateP5msColl.sh`~~
-~~* **Input:** `P5-output`~~
-
-* ~~**Outputs:** separate `P5-MS` and `P5-print` directories, copied to `fv-data/variorum-chunks` and `fv-data/reseqMS-chunks`~~
-~~This stage removes MS edition files to a separate directory, since these will not be used in the Variorum interface development, but may be useful for further processing and analysis of collation data.~~
-~~For the white-space-trimmed files:~~
-### ~~Run `./migrateP5msColl-tws.sh`~~
-* ~~**Input:** `P5-trimmedWS`~~
-* ~~**Outputs:** separate `P5-MS-tws` and `P5-print-tws` directories, copied to `fv-data/variorum-chunks-tws` and `fv-data/reseqMS-chunks-tws`~~
-
