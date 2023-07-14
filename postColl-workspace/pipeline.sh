@@ -69,7 +69,7 @@ postProcessColl(){
   pipelineArr=("collated-data" "P1-output" "P2-output" "P3-output" "P4-output" 
   "P5-Pt1-output" "P5-Pt2-output" "P5-Pt3-output" "P5-Pt4--output" "P5-Pt5-output" "P5-Pt6-output" 
   "P6-Pt1-output" "P6-Pt2-output" "P6-Pt3-output"
-  "subchunked_standoff_Spine" #"preLev_standoff_Spine"
+  "early_standoff_Spine" #"preLev_standoff_Spine"
   )
   # start processing
   for (( i=0; i < ${#xslArr[@]}; i++ ))
@@ -84,17 +84,17 @@ postProcessColl(){
   done  
 
   # echo -e "${Yellow}Run P6-SpineGenerator.xsl to generate spine files${White}"
-  # echo -e "${Yellow}input: P1-output, output: subchunked_standoff_Spine${White}"
+  # echo -e "${Yellow}input: P1-output, output: early_standoff_Spine${White}"
   # java -jar $SAXON -s:P6-SpineGenerator.xsl -xsl:P6-SpineGenerator.xsl ${message}
 
-  for xml in subchunked_standoff_Spine/*.xml
+  for xml in early_standoff_Spine/*.xml
   do
     mv "$xml" "${xml/P1_/spine_}"
   done
 
   echo -e "${Yellow}Phase 7: Prepare the “spine” of the variorum${White}"
   echo -e "${Yellow}Run spineAdjustor.xsl${White}"
-  echo -e "${Yellow}intput: subchunked_standoff_Spine, output: preLev_standoff_Spine${White}"
+  echo -e "${Yellow}intput: early_standoff_Spine, output: preLev_standoff_Spine${White}"
   java -jar $SAXON -s:spineAdjustor.xsl -xsl:spineAdjustor.xsl 
 
   echo -e "${Yellow}Run extractCollationData.xsl in edit-distance${White}"
@@ -140,7 +140,7 @@ main(){
   allArr=("collated-data" "P1-output" "P2-output" "P3-output" "P4-output" 
   "P5-Pt1-output" "P5-Pt2-output" "P5-Pt3-output" "P5-Pt4-output" "P5-Pt5-output" "P5-Pt6-output"
   "P6-Pt1-output" "P6-Pt2-output" "P6-Pt3-output" 
-  "subchunked_standoff_Spine" "preLev_standoff_Spine" #"edit-distance/spineData.txt"
+  "early_standoff_Spine" "preLev_standoff_Spine" #"edit-distance/spineData.txt"
   "standoff_Spine" 
   )
 
