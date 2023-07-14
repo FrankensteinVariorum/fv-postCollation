@@ -11,7 +11,7 @@
     <!--2018-10-17 updated 2019-03-16, 2023-07-04, 2023-07-13 ebb: This XSLT generates the “spine” files for the Variorum. 
         These files differ from the P1 stage of processing because the P1 form contains the complete texts of all edition files, mapping them to critical apparatus markup with variant apps (containing multiple rdgGrps or divergent forms) as well as invariant apps (containing only one rdgGrp where all editions run in unison). For the purposes of the Variorum encoding, our “spine” needs only to work with the variant passages, because those are the passages we will highlight and interlink in the Variorum interface. So, in this stage of processing we remove the invariant apps from P1 in generating the Variorum “spines”. We are processing rdgGrps in this XSLT.
         
-        It runs over the P1-output directory (pulls info from P6Pt3-output) and outputs to subchunked_standoff_Spine directory.
+        It runs over the P1-output directory (pulls info from P6Pt3-output) and outputs to early_standoff_Spine directory.
 
         Following this, we will: 
     * Run spineAdjustor.xsl to stitch up the multi-part spine sections into larger units and send that output to preLev_standoff_Spine. 
@@ -108,7 +108,7 @@
             <xsl:variable name="P1-filename" as="xs:string" select="current() ! base-uri() ! tokenize(.,'/')[last()]"/>
             <xsl:variable name="chunk" as="xs:string" select="$P1-filename ! substring-after(., '_') ! substring-before(., '.xml')"/>
             <xsl:result-document method="xml" indent="yes"
-                href="subchunked_standoff_Spine/spine_{$chunk}.xml">
+                href="early_standoff_Spine/spine_{$chunk}.xml">
             <xsl:apply-templates/>
             </xsl:result-document>
         </xsl:for-each>
