@@ -8,14 +8,18 @@
 
     <xsl:mode on-no-match="shallow-copy"/>
     <xsl:variable name="spineColl" as="document-node()+"
-        select="collection('subchunked_standoff_Spine/?select=*.xml')"/>
+        select="collection('early_standoff_Spine/?select=*.xml')"/>
     <!--2018-10-23 ebb: In this stage, we "sew up" the lettered spine sub-chunk files into complete chunks to match their counterpart edition files. 2018-10-25: Also, we're adding hashtags if they're missing in the @wit on rdg. -->
     <xsl:template match="/">
-        <xsl:for-each-group select="$spineColl"
+      <!-- 2023-07-14 No longer necessary since we no longer have subchunked files. 
+          <xsl:for-each-group select="$spineColl"
             group-by="tokenize(base-uri(), '_')[last()] ! tokenize(., '[a-z]?\.xml')[1]">
             <xsl:variable name="filename" select="concat('spine_', current-grouping-key(), '.xml')"/>
             <xsl:variable name="chunk"
-                select="tokenize($filename, '_')[last()] ! substring-before(., '.xml')"/>
+                select="tokenize($filename, '_')[last()] ! substring-before(., '.xml')"/>-->
+        <xsl:for-each select="$spineColl">
+            <xsl:variable name="filename" as="xs:string" select="current() ! tokenize(base-uri(), '/')[last()]"/>
+            <xsl:variable name="chunk" as="xs:string" select="$filename ! substring-after(., '_') ! substring-before(., '.xml')"/>
             <xsl:result-document method="xml" indent="yes" href="preLev_standoff_Spine/{$filename}">
                 <TEI>
                     <teiHeader>
@@ -31,14 +35,13 @@
                                         Attribution-ShareAlike 3.0 Unported License</licence>
                                 </availability>
                             </publicationStmt>
-                            <xsl:copy-of select="(current-group()//TEI/teiHeader//sourceDesc)[1]"/>
+                            <xsl:copy-of select="(current()//TEI/teiHeader//sourceDesc)[1]"/>
                         </fileDesc>
                     </teiHeader>
                     <text>
                         <body>
                             <ab type="alignmentChunk">
-                                <xsl:for-each select="current-group()//TEI">
-                                    <xsl:sort select="base-uri()"/>
+                                <xsl:for-each select="current()//TEI">
                                     <xsl:apply-templates
                                         select="descendant::ab[@type = 'alignmentChunk']"/>
                                 </xsl:for-each>
@@ -47,7 +50,8 @@
                     </text>
                 </TEI>
             </xsl:result-document>
-        </xsl:for-each-group>
+        </xsl:for-each>
+        <!--</xsl:for-each-group>-->
         
     </xsl:template>
     <xsl:template match="ab">
@@ -64,7 +68,6 @@
                 </rdg>
             </xsl:otherwise>
         </xsl:choose>
-
     </xsl:template>
 
 </xsl:stylesheet>
