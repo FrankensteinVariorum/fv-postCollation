@@ -196,9 +196,6 @@
                                                 <xsl:if
                                                   test="string-length(substring-after(normalize-space(.), '/&gt;')) > 0">
                                                   <xsl:variable name="pointer">
-                                                  <!--ebb: REMOVE this line if returning to point at S-GA files directly. -->
-                                                 <!-- <xsl:value-of
-                                                  select="concat($sga_loc, 'fMS_', $wholeChunkID, '.xml', '#')"/>-->
                                                   <xsl:value-of
                                                   select="fv:getLbPointer(normalize-space(current()))"
                                                   />
@@ -212,21 +209,18 @@
                                                                 '^=&quot;[^&quot;]+?&quot;\s*?/&gt;', ''
                                                                 )"/>
                                                   <xsl:variable name="full_pointer">
-                                                  <!--ebb: REMOVE this line if returning to point at S-GA files directly. -->
-                                                 <!-- <xsl:value-of
-                                                  select="concat($sga_loc, 'fMS_', $wholeChunkID, '.xml', '#')"/>-->
                                                   <xsl:value-of
                                                   select="concat(string-join(fv:getLbPointer(normalize-space(current()))), ',0,', string-length($text) + 1, ')')"
                                                   />
                                                   </xsl:variable>
                                                   <ptr target="{$full_pointer}"/>
                                                   <!-- Un-comment these for testing pointer resolution -->
-                                                  <!--<fv:line_text>
+                                                  <fv:line_text>
                                                         <xsl:value-of select="$text"/>                                        
                                                     </fv:line_text>
                                                     <fv:resolved_text>
                                                         <xsl:value-of select="fv:resolvePointer($full_pointer)"/>
-                                                    </fv:resolved_text>-->
+                                                    </fv:resolved_text>
                                                   </xsl:if>
                                                 </xsl:if>
                                             </xsl:when>
@@ -270,7 +264,7 @@
                             
                             
                             <xsl:for-each select="$currEd-FileName">
-                                <ptr                   target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/{$currEd-FileName}#{$currEd-Seg/@xml:id}"/>
+                                <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/{$currEd-FileName}#{$currEd-Seg/@xml:id}"/>
                             </xsl:for-each>
                         </rdg>
                     </xsl:otherwise>
