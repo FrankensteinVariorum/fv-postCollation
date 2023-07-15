@@ -133,7 +133,7 @@
         <xsl:variable name="box-pages" as="xs:string*" select="(for $i in ptr/@target ! tokenize(., 'c\d{2}/')[last()] return $i ! 
             substring-after(., 'abinger_') ! substring-before(., '.xml')) => distinct-values()"/>
         <xsl:message>Box-page(s): <xsl:value-of select="$box-pages"/></xsl:message>
-        <xsl:variable name="reformatted">
+        <xsl:variable name="reformatted" as="xs:string*">
             <!--ebb: We are constructing this format:
                 s-ga:c57/#/p73 
             -->
@@ -150,7 +150,7 @@
                 <xsl:value-of select="$reformatted => string-join(' ')"/>
             </xsl:attribute>
             <xsl:for-each select="$box-pages">
-                <ref type="page" target="{($currentNode/ptr)[1][@target ! contains(., current())] ! substring-before(@target, '#')}">  
+                <ref type="page" target="{$currentNode/ptr[contains(@target, current())] ! substring-before(@target, '#') => distinct-values()}">  
                     <xsl:variable name="pageStringRanges" as="element()+" select="$currentNode/ptr[@target ! contains(., current())]"/>
                     <xsl:for-each select="$pageStringRanges">
                         <xsl:copy-of select="current()"/>
