@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xpath-default-namespace="http://www.tei-c.org/ns/1.0"
-    xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
+    xmlns:fv="https://github.com/FrankensteinVariorum"
     xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:mith="http://mith.umd.edu/sc/ns1#"
     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse" exclude-result-prefixes="xs"
+    xmlns:cx="http://interedition.eu/collatex/ns/1.0"
     version="3.0">
 
     <xsl:mode on-no-match="shallow-copy"/>
     <xsl:variable name="spineColl" as="document-node()+"
         select="collection('early_standoff_Spine/?select=*.xml')"/>
     <!--2023-07-14 ebb: This XSLT is for patching and updating the spine structure. At this stage we are:
-        * adding hashtags if they're missing in the @wit on rdg.
         * enhancing data for pointing to the Shelley-Godwin Archive, adding info to <witDetail> needed for links to 
         published webpages, and structuring the element contents of <witDetail> according to page. 
     
@@ -32,7 +32,7 @@
                             <titleStmt>
                                 <title>Spine: Collation unit <xsl:value-of select="$chunk"/></title>
                             </titleStmt>
-                            <!--ebb:  REPRESENT THE TEAM. ALSO STAGES OF THE PROJECT -->
+                            <!-- REPRESENT THE TEAM. ALSO STAGES OF THE PROJECT -->
                             <publicationStmt>
                                 <authority>Frankenstein Variorum Project</authority>
                                 <date>2023—</date>
@@ -88,7 +88,7 @@
                                     possible at each moment of variation represented in a <gi>app</gi>, and we output the
                                     maximum of these values in the <att>n</att> attribute on each <gi>app</gi>
                                     element.</p>
-                                <xsl:apply-templates select=".//sourceDesc"/>
+                                <xsl:apply-templates select=".//sourceDesc/*"/>
                             </editorialDecl>
                             <appInfo>
                                 <application ident="collateX" version="1.7.1">
@@ -112,49 +112,58 @@
                             </listPrefixDef>
                         </encodingDesc>
                     </teiHeader>
-                    <text>
-                        <body>
-                            <listApp><!-- 2024-07-14 ebb: Ensure that we have replaced ab with listApp. 
-                                NOTE: I just rewrote the P1 XSLT to do this. --> 
-                                <xsl:for-each select="current()//TEI">
-                                    <xsl:apply-templates select=".//body/*"/>
-                                </xsl:for-each>
-                            </listApp>
-                        </body>
-                    </text>
+                  <xsl:apply-templates select="descendant::text"/>
                 </TEI>
             </xsl:result-document>
         </xsl:for-each>
         <!--</xsl:for-each-group>-->
         
     </xsl:template>
-    <xsl:template match="body/*">
-        <xsl:apply-templates select="app"/>
-    </xsl:template>
-    <xsl:template match="rdg">
-        <xsl:choose>
-            <xsl:when test="starts-with(@wit, '#')">
-                <xsl:copy-of select="."/>
-            </xsl:when>
-            <xsl:otherwise>
-                <rdg wit="#{@wit}">
-                    <xsl:apply-templates/>
-                </rdg>
-            </xsl:otherwise>
-        </xsl:choose>
-    </xsl:template>
+    <xsl:template match="teiHeader"/>
+   
+   <xsl:template match="ab">
+       <listApp>
+           <xsl:apply-templates/>
+       </listApp>
+   </xsl:template>
     
     <xsl:template match="witDetail">
+        <xsl:variable name="currentNode" as="element()" select="current()"/>
         <!-- 2024-07-14 ebb: Here we add information for pointing links to the S-GA web page -->
-        <!--NOTE: THERE WILL BE MULTIPLE OF THESE PAGES SOMETIMES... -->
-        <xsl:variable name="box-page" select="ptr/@target ! tokenize(., 'c\d{2}/')[last()] ! 
-            substring-after(., 'abinger_') ! substring-before(., '.xml')"/>
-        <xsl:variable name="box" select="$box-page ! substring-before(., '-')"/>
-        <xsl:variable name="page" select="$box-page ! substring-after(., '-') ! xs:integer(.)"/>
-        <witDetail wit="{@wit}" target="s-ga:{$box}/#/p{$page}">
-            <!-- s-ga:c57/#/p73 -->
-        
-        
+        <xsl:variable name="box-pages" as="xs:string*" select="(for $i in ptr/@target ! tokenize(., 'c\d{2}/')[last()] return $i ! 
+            substring-after(., 'abinger_') ! substring-before(., '.xml')) => distinct-values()"/>
+        <xsl:message>Box-page(s): <xsl:value-of select="$box-pages"/></xsl:message>
+        <xsl:variable name="reformatted">
+            <!--ebb: We are constructing this format:
+                s-ga:c57/#/p73 
+            -->
+            <xsl:for-each select="$box-pages">
+                <xsl:variable name="box" as="xs:string" select="current() ! substring-before(., '-')"/>
+                <xsl:variable name="page" as="xs:string" select="current() ! substring-after(., '-') ! xs:integer(.) ! string()"/>
+                <xsl:value-of select="($box || '/#/p' || $page)"/>
+            </xsl:for-each>
+        </xsl:variable>
+        <xsl:message>Reformatted: <xsl:value-of select="$reformatted"/></xsl:message>
+        <xsl:element name="witDetail">
+            <xsl:copy select="@*"/>
+            <xsl:attribute name="target">
+                <xsl:value-of select="$reformatted => string-join(' ')"/>
+            </xsl:attribute>
+            <xsl:for-each select="$box-pages">
+                <ref type="page" target="{($currentNode/ptr)[1][@target ! contains(., current())] ! substring-before(@target, '#')}">  
+                    <xsl:variable name="pageStringRanges" as="element()+" select="$currentNode/ptr[@target ! contains(., current())]"/>
+                    <xsl:for-each select="$pageStringRanges">
+                        <xsl:copy-of select="current()"/>
+                        <xsl:copy-of select="current()/following-sibling::fv:line_text[1]"/>
+                        <xsl:copy-of select="current()/following-sibling::fv:resolved_text[1]"/>
+                    </xsl:for-each>  
+                </ref>
+            </xsl:for-each>
+        </xsl:element>
     </xsl:template>
-
+    
+    <xsl:template match="witDetail/ptr"/>
+    <xsl:template match="witDetail/fv:*"/>
+    
+  
 </xsl:stylesheet>
