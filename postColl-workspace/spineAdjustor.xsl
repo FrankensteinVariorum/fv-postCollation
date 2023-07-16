@@ -102,9 +102,9 @@
                                     We also provide links directly to the XML documents together with XPath and
                                     string-range data that should point to the specirfic location in the Shelley-Godwin
                                     Archive TEI for this page. The prefixDef below indicates how to construct the links: </desc>
-                                <prefixDef ident="s-ga" matchPattern="(c\d+/#/p\d+)"
+                                <prefixDef ident="sga" matchPattern="(c\d+/#/p\d+)"
                                     replacementPattern="https://shelleygodwinarchive.org/sc/oxford/ms_abinger/$1">
-                                    <p>For example, s-ga:c57/#/p73 resolves to the URL <ref
+                                    <p>For example, sga:c57/#/p73 resolves to the URL <ref
                                         target="https://shelleygodwinarchive.org/sc/oxford/ms_abinger/c57/#/p73"
                                         >https://shelleygodwinarchive.org/sc/oxford/ms_abinger/c57/#/p73</ref> linking to 
                                         the webpage that represents page 73 in box 57 of the Oxford Abinger notebooks.</p>
@@ -135,7 +135,7 @@
       
         <xsl:variable name="reformatted" as="xs:string*">
             <!--ebb: We are constructing this format:
-                s-ga:c57/#/p73 
+                sga:c57/#/p73 
             -->
             <xsl:for-each select="$box-pages">
                 <xsl:variable name="box" as="xs:string" select="current() ! substring-before(., '-')"/>
