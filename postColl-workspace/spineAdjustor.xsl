@@ -132,7 +132,7 @@
         <!-- 2024-07-14 ebb: Here we add information for pointing links to the S-GA web page -->
         <xsl:variable name="box-pages" as="xs:string*" select="(for $i in ptr/@target ! tokenize(., 'c\d{2}/')[last()] return $i ! 
             substring-after(., 'abinger_') ! substring-before(., '.xml')) => distinct-values()"/>
-        <xsl:message>Box-page(s): <xsl:value-of select="$box-pages"/></xsl:message>
+      
         <xsl:variable name="reformatted" as="xs:string*">
             <!--ebb: We are constructing this format:
                 s-ga:c57/#/p73 
@@ -140,10 +140,9 @@
             <xsl:for-each select="$box-pages">
                 <xsl:variable name="box" as="xs:string" select="current() ! substring-before(., '-')"/>
                 <xsl:variable name="page" as="xs:string" select="current() ! substring-after(., '-') ! xs:integer(.) ! string()"/>
-                <xsl:value-of select="($box || '/#/p' || $page)"/>
+                <xsl:value-of select="('sga:' || $box || '/#/p' || $page)"/>
             </xsl:for-each>
         </xsl:variable>
-        <xsl:message>Reformatted: <xsl:value-of select="$reformatted"/></xsl:message>
         <xsl:element name="witDetail">
             <xsl:copy select="@*"/>
             <xsl:attribute name="target">
