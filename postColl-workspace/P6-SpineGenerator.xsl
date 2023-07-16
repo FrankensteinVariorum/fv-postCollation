@@ -143,7 +143,7 @@
         </xsl:if>
     </xsl:template>
 
-    <xsl:template match="app[count(tei:rdgGrp) gt 1 or count(descendant::tei:rdg) &lt; 5]">
+    <xsl:template match="app[count(rdgGrp) gt 1 or count(descendant::rdg) lt 5]">
         <xsl:variable name="currApp" as="element()" select="current()"/>
         <app>
             <xsl:copy-of select="@*"/>
@@ -177,105 +177,112 @@
         <xsl:param name="wholeChunkID"/>
         <rdgGrp>
             <xsl:copy-of select="@*"/>
-            <xsl:for-each select="rdg">
-                <xsl:variable name="currentRdg" as="element()" select="current()"/>
-                        <rdg wit="#{@wit}">
-                            <xsl:variable name="currWit" as="xs:string" select="@wit"/>
-                            <xsl:variable name="currP1filename" as="xs:string"
-                                select="tokenize(base-uri(.), '/')[last()]"/>
-                           <!-- <xsl:variable name="currEdition" as="element()*"
+            <xsl:apply-templates select="child::rdg">
+                <xsl:with-param name="appID" as="xs:string" select="$appID"/>
+                <xsl:with-param name="wholeChunkID" select="$wholeChunkID"/>
+            </xsl:apply-templates>
+        </rdgGrp>
+    </xsl:template>
+   <xsl:template match="rdg"> 
+       <xsl:param name="appID"/>
+       <xsl:param name="wholeChunkID"/>
+       
+        <xsl:variable name="currentRdg" as="element()" select="current()"/>
+        <rdg wit="#{@wit}">
+            <xsl:variable name="currWit" as="xs:string" select="@wit"/>
+            <xsl:variable name="currP1filename" as="xs:string"
+                select="tokenize(base-uri(.), '/')[last()]"/>
+            <!-- <xsl:variable name="currEdition" as="element()*"
                                 select="$P6_coll//TEI[tokenize(base-uri(), '/')[last()] ! tokenize(., '_')[1] eq $currWit][tokenize(base-uri(), '/')[last()] ! substring-after(., '_') ! substring-before(., '.') = tokenize($currP1filename, '[a-z]?\.')[1] ! substring-after(., '_')]"/>-->
-                            <!-- 2023-07-03 ebb: ABOVE LINE is just pulling info from the current filename.  -->
-                            <xsl:variable name="currEd-Seg" as="element()*"
-                                select="$P6_coll//seg[substring-before(@xml:id, '-') = $appID][substring-after(@xml:id, '-') = $currWit]"/>
-                            
-                            
-           
-                            <xsl:variable name ="currEd-FileName" as="xs:string*" select="$currEd-Seg ! base-uri() ! tokenize(., '/')[last()]"/>
-                            
-                            
-                            <xsl:for-each select="$currEd-FileName">
-                                <ptr target="{$fvChap_loc}{$currEd-FileName}#{$currEd-Seg/@xml:id}"/>
-                                <!--2023-07-13 ebb: Here we output a special listRef that lists URLs for each S-GA surface and their associated string-ranges. -->
-                                <xsl:if test="$currWit ='fMS'">
-                                    <witDetail wit="#fMS">
-                                        <xsl:choose>
-                                        <!-- When a reading contains one or more LB elements, split the content around LB and determine the pointer based on the LB value -->
-                                        <xsl:when test="contains(normalize-space($currentRdg), 'lb n=&quot;')">
-                                           
-                                            <xsl:variable name="lineData" as="xs:string+" select="tokenize(normalize-space($currentRdg), '&lt;lb\s+n')"/>
-                                          
-                                                    <xsl:for-each select="$lineData">
-                                                        <!--ebb: Now retrieve string-ranges for each surface and store them in ptr elements: -->
-                                                        <xsl:choose>
-                                                            <!-- EDGE CASE: the first token belongs to a previous line, in which case the previous line will need to be located -->
-                                                            <!-- Each token after an LB will start with '=', so check whether it's missing -->
-                                                            <xsl:when test="starts-with(normalize-space(.), '=')">
-                                                                <!-- Only process it if there's content after the lb -->
-                                                                <xsl:if
-                                                                    test="string-length(substring-after(normalize-space(.), '/&gt;')) > 0">
-                                                                    <xsl:variable name="pointer">
-                                                                        <xsl:value-of
-                                                                            select="fv:getLbPointer(normalize-space(current()))"
-                                                                        />
-                                                                    </xsl:variable>
-                                                                    <xsl:if test="not($pointer = '')">
-                                                                        <xsl:variable name="text" select="
-                                                                            replace(
-                                                                            replace(
-                                                                            normalize-space(current()), '&lt;.*?&gt;', ''
-                                                                            ),
-                                                                            '^=&quot;[^&quot;]+?&quot;\s*?/&gt;', ''
-                                                                            )"/>
-                                                                        <xsl:variable name="full_pointer">
-                                                                            <xsl:value-of
-                                                                                select="concat(string-join(fv:getLbPointer(normalize-space(current()))), ',0,', string-length($text) + 1, ')')"
-                                                                            />
-                                                                        </xsl:variable>
-                                                                        <ptr target="{$full_pointer}"/>
-                                                                        <!-- Un-comment these for testing pointer resolution -->
-                                                                        <fv:line_text>
-                                                                            <xsl:value-of select="$text"/>                                        
-                                                                        </fv:line_text>
-                                                                        <fv:resolved_text>
-                                                                            <xsl:value-of select="fv:resolvePointer($full_pointer)"/>
-                                                                        </fv:resolved_text>
-                                                                    </xsl:if>
-                                                                </xsl:if>
-                                                            </xsl:when>
-                                                            <!-- Skip space-only or empty string nodes -->
-                                                            <xsl:when
-                                                                test="normalize-space(.) = ' ' or normalize-space(.) = ''"/>
-                                                            <xsl:otherwise>
-                                                               
-                                                                <xsl:call-template name="lookback">
-                                                                    <xsl:with-param name="rdg" as="element()" select="$currentRdg"/>
-                                                                    <xsl:with-param name="wholeChunkID"
-                                                                        select="$wholeChunkID"/>
-                                                                </xsl:call-template>
-                                                            </xsl:otherwise>
-                                                        </xsl:choose> 
-                                                    </xsl:for-each>
-               
+            <!-- 2023-07-03 ebb: ABOVE LINE is just pulling info from the current filename.  -->
+            <xsl:variable name="currEd-Seg" as="element()*"
+                select="$P6_coll//seg[substring-before(@xml:id, '-') = $appID][substring-after(@xml:id, '-') ! tokenize(., '__')[1] = $currWit]"/>
+
+                <!-- 2023-07-14 ebb: Discovered problem that we are not outputting ptr elements 
+                    when the seg element contains "__I", "__M", or "__F". Consider that this means multiple  -->
+                <xsl:for-each select="$currEd-Seg">
+                    <xsl:variable name ="currEd-FileName" as="xs:string*" select="current() ! base-uri() ! tokenize(., '/')[last()]"/>
+                <ptr target="{$fvChap_loc}{$currEd-FileName}#{current()/@xml:id}"/>
+                </xsl:for-each>
+                
+                <!--2023-07-13 ebb: Here we output a special witDetail element that lists URLs for each S-GA surface and their associated string-ranges. -->
+                <xsl:if test="$currWit ='fMS'">
+                    <witDetail wit="#fMS">
+                        <xsl:choose>
+                            <!-- When a reading contains one or more LB elements, split the content around LB and determine the pointer based on the LB value -->
+                            <xsl:when test="contains(normalize-space($currentRdg), 'lb n=&quot;')">
+                                
+                                <xsl:variable name="lineData" as="xs:string+" select="tokenize(normalize-space($currentRdg), '&lt;lb\s+n')"/>
+                                
+                                <xsl:for-each select="$lineData">
+                                    <!--ebb: Now retrieve string-ranges for each surface and store them in ptr elements: -->
+                                    <xsl:choose>
+                                        <!-- EDGE CASE: the first token belongs to a previous line, in which case the previous line will need to be located -->
+                                        <!-- Each token after an LB will start with '=', so check whether it's missing -->
+                                        <xsl:when test="starts-with(normalize-space(.), '=')">
+                                            <!-- Only process it if there's content after the lb -->
+                                            <xsl:if
+                                                test="string-length(substring-after(normalize-space(.), '/&gt;')) > 0">
+                                                <xsl:variable name="pointer">
+                                                    <xsl:value-of
+                                                        select="fv:getLbPointer(normalize-space(current()))"
+                                                    />
+                                                </xsl:variable>
+                                                <xsl:if test="not($pointer = '')">
+                                                    <xsl:variable name="text" select="
+                                                        replace(
+                                                        replace(
+                                                        normalize-space(current()), '&lt;.*?&gt;', ''
+                                                        ),
+                                                        '^=&quot;[^&quot;]+?&quot;\s*?/&gt;', ''
+                                                        )"/>
+                                                    <xsl:variable name="full_pointer">
+                                                        <xsl:value-of
+                                                            select="concat(string-join(fv:getLbPointer(normalize-space(current()))), ',0,', string-length($text) + 1, ')')"
+                                                        />
+                                                    </xsl:variable>
+                                                    <ptr target="{$full_pointer}"/>
+                                                    <!-- Un-comment these for testing pointer resolution -->
+                                                    <fv:line_text>
+                                                        <xsl:value-of select="$text"/>                                        
+                                                    </fv:line_text>
+                                                    <fv:resolved_text>
+                                                        <xsl:value-of select="fv:resolvePointer($full_pointer)"/>
+                                                    </fv:resolved_text>
+                                                </xsl:if>
+                                            </xsl:if>
                                         </xsl:when>
+                                        <!-- Skip space-only or empty string nodes -->
+                                        <xsl:when
+                                            test="normalize-space(.) = ' ' or normalize-space(.) = ''"/>
                                         <xsl:otherwise>
-                                                <xsl:call-template name="lookback">
+                                            
+                                            <xsl:call-template name="lookback">
                                                 <xsl:with-param name="rdg" as="element()" select="$currentRdg"/>
-                                                <xsl:with-param name="wholeChunkID" select="$wholeChunkID"/>
+                                                <xsl:with-param name="wholeChunkID"
+                                                    select="$wholeChunkID"/>
                                             </xsl:call-template>
                                         </xsl:otherwise>
-                                    </xsl:choose>
-                                    </witDetail>
-                                </xsl:if>
-                            </xsl:for-each>
-                        </rdg>
-                  <!--  </xsl:otherwise>
+                                    </xsl:choose> 
+                                </xsl:for-each>
+                                
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:call-template name="lookback">
+                                    <xsl:with-param name="rdg" as="element()" select="$currentRdg"/>
+                                    <xsl:with-param name="wholeChunkID" select="$wholeChunkID"/>
+                                </xsl:call-template>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </witDetail>
+                </xsl:if>
+          
+        </rdg>
+        <!--  </xsl:otherwise>
                 </xsl:choose>-->
-            </xsl:for-each>
-        </rdgGrp>
     </xsl:template>
 
     <!--Suppresses invariant apps from the spine. -->
-    <xsl:template match="tei:app[count(tei:rdgGrp) eq 1][count(descendant::rdg) = 5]"/>
+    <xsl:template match="app[count(rdgGrp) eq 1 and count(descendant::rdg) = 5]"/>
 
 </xsl:stylesheet>

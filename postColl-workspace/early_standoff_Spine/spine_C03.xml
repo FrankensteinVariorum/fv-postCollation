@@ -17,15 +17,15 @@
          </publicationStmt>
          <sourceDesc>
             <p>Produced from collation output prepared in batch file processing
-                                    on  2023-05-18 20:00:47.351794 .</p>
+                                    on  2023-07-14 14:31:07.776659 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-07-14T02:43:29.592648-04:00.</p>
+                                    Variorum spine on 2023-07-15T21:55:32.255464-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
-         <ab type="alignmentChunk">
+         <listApp>
             <app xml:id="C03_app1">
                <rdgGrp xml:id="C03_app1_rg_empty">
                   <rdg wit="#fMS"/>
@@ -41,13 +41,13 @@
                <rdgGrp xml:id="C03_app2_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp n="[' to mrs. saville, england. ']" xml:id="C03_app2_rg1">
-                  <rdg wit="#f1831"/>
-               </rdgGrp>
-               <rdgGrp n="[' to mrs. saville, england.']" xml:id="C03_app2_rg2">
+               <rdgGrp n="['to mrs.  s aville ,  england .']" xml:id="C03_app2_rg1">
                   <rdg wit="#f1823"/>
                </rdgGrp>
-               <rdgGrp n="['to', 'mrs.', 'saville,', 'england.']" xml:id="C03_app2_rg3">
+               <rdgGrp n="['to mrs. saville, england.']" xml:id="C03_app2_rg2">
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
+               <rdgGrp n="['to', 'mrs.', 's aville ,', 'england.']" xml:id="C03_app2_rg3">
                   <rdg wit="#f1818"/>
                   <rdg wit="#fThomas"/>
                </rdgGrp>
@@ -824,7 +824,7 @@
                <rdgGrp xml:id="C03_app63_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp n="['on', 'some', 'occasions', 'when', 'i', 'need', 'them', 'most', 'to', 'support', 'my', 'spirits.', 'i', 'love', 'you', 'very', 'tenderly.', 'remember', 'me', 'with', 'affection,', 'should', 'you', 'never', 'hear', 'from', 'me', 'again.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'your', 'affectionate', 'brother,', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'robert', 'walton.', '&lt;p-end/&gt;']"
+               <rdgGrp n="['on', 'some', 'occasions', 'when', 'i', 'need', 'them', 'most', 'to', 'support', 'my', 'spirits.', 'i', 'love', 'you', 'very', 'tenderly.', 'remember', 'me', 'with', 'affection,', 'should', 'you', 'never', 'hear', 'from', 'me', 'again.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'your', 'affectionate', 'brother,', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'r obert', 'w alton .', '&lt;p-end/&gt;']"
                         xml:id="C03_app63_rg1">
                   <rdg wit="#f1818"/>
                   <rdg wit="#f1823"/>
@@ -854,7 +854,7 @@
                   <rdg wit="#f1831"/>
                </rdgGrp>
             </app>
-         </ab>
+         </listApp>
       </body>
    </text>
 </TEI>

@@ -19,13 +19,13 @@
             <p>Produced from collation output prepared in batch file processing
                                     on  2023-06-14 21:19:09.960732 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-07-14T02:43:29.592648-04:00.</p>
+                                    Variorum spine on 2023-07-15T21:55:32.255464-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
-         <ab type="alignmentChunk">
+         <listApp>
             <app xml:id="C14_app1">
                <rdgGrp xml:id="C14_app1_rg_empty">
                   <rdg wit="#fMS"/>
@@ -296,7 +296,16 @@
                   </rdg>
                </rdgGrp>
                <rdgGrp n="['', '&lt;del&gt;desires&lt;/del&gt;', 'devices']" xml:id="C14_app20_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app20-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app20-fMS__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app20-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0091.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0091']/tei:zone[@type='main']//tei:line[8],25,42)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(my curiosity and lawless)  desires devices</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">by the assurance</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app22">
@@ -472,7 +481,16 @@
                </rdgGrp>
                <rdgGrp n="['', '&lt;del&gt;more terrible&lt;/del&gt;', '&lt;mdel&gt;.&lt;/mdel&gt;', 'memorable', 'in', 'horror.']"
                         xml:id="C14_app34_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app34-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app34-fMS__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app34-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0092.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0092']/tei:zone[@type='main']//tei:line[5],15,53)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(makethatmurder)  more terrible . memorable in horror.</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">er more terrible . memorable in horror</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app36">
@@ -517,12 +535,29 @@
                   </rdg>
                </rdgGrp>
                <rdgGrp n="['', '&lt;del&gt;little world&lt;/del&gt;', 'life']" xml:id="C14_app38_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app38-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app38-fMS__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app38-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0092.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0092']/tei:zone[@type='main']//tei:line[8],0,19)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum"> little world life</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">little world life </fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app39">
                <rdgGrp n="['', 'happy;']" xml:id="C14_app39_rg1">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app39-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app39-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0092.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0092']/tei:zone[@type='main']//tei:line[8],19,27)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">( little world life)  happy;</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">happy; n</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
                <rdgGrp n="['happy:']" xml:id="C14_app39_rg2">
                   <rdg wit="#f1818">
@@ -1812,12 +1847,29 @@
                   </rdg>
                </rdgGrp>
                <rdgGrp n="['', '', 'her']" xml:id="C14_app128_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app128-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app128-fMS__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app128-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0093.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0093']/tei:zone[@type='main']//tei:line[24],6,13)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(asked)  ^ her</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum"> ^ her </fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app130">
                <rdgGrp n="['there', '?', '–', '', '&lt;del&gt;for&lt;/del&gt;']" xml:id="C14_app130_rg1">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app130-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app130-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0093.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0093']/tei:zone[@type='main']//tei:line[24],24,39)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(asked ^ herwhat she did) there ? –  for</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">d there?– for b</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
                <rdgGrp n="['there;']" xml:id="C14_app130_rg2">
                   <rdg wit="#f1818">
@@ -1863,7 +1915,24 @@
             <app xml:id="C14_app135">
                <rdgGrp n="['', '', 'andunin telligible ', '', '', 'answer', '&lt;del&gt;e&lt;/del&gt;', '.', '', '', '', '&lt;mdel&gt;s&lt;/mdel&gt;']"
                         xml:id="C14_app135_rg1">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app135-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app135-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0093.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0093']/tei:zone[@type='main']//tei:line[26],9,48)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(confused)  ^ &amp;unintelligible ^  answer e .  ^  S</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum"> ^ answere. ^ S She came returned to</fv:resolved_text>
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0093.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0093']/tei:zone[@type='left_margin']//tei:line[1],0,6)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">&amp;unin</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">marke</fv:resolved_text>
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0093.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0093']/tei:zone[@type='left_margin']//tei:line[2],0,11)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">telligible</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">telligible</fv:resolved_text>
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0093.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0093']/tei:zone[@type='left_margin']//tei:line[3],0,21)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum"> ^  answer e .  ^  S</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">^</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
                <rdgGrp n="['and', 'unintelligible', 'answer.']" xml:id="C14_app135_rg2">
                   <rdg wit="#f1818">
@@ -1898,7 +1967,18 @@
                </rdgGrp>
                <rdgGrp n="['', '&lt;del&gt;came&lt;/del&gt;', 'returned', 'to', 'the', 'house', 'about', 'eight']"
                         xml:id="C14_app137_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app137-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app137-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0093.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0093']/tei:zone[@type='left_margin']//tei:line[3],24,64)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">( ^  answer e .  ^  SShe)  came returned to the house about eight</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum"/>
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0093.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0093']/tei:zone[@type='main']//tei:line[27],0,22)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">the house about eight</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">the house about eight</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app138">
@@ -2069,7 +2149,16 @@
                   </rdg>
                </rdgGrp>
                <rdgGrp n="['', '&lt;mdel&gt;of&lt;/mdel&gt;', 'for']" xml:id="C14_app149_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app149-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app149-fMS__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app149-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0093.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0093']/tei:zone[@type='main']//tei:line[30],17,25)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(had been looking)  of for</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum"> of for </fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app151">
@@ -2115,7 +2204,16 @@
                </rdgGrp>
                <rdgGrp n="['', '', '', '&lt;del&gt;enquired&lt;/del&gt;', 'demanded']"
                         xml:id="C14_app153_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app153-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app153-fMS__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app153-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0093.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0093']/tei:zone[@type='main']//tei:line[30],35,57)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(had been looking of forthechildand)  ^  enquired demanded</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">an</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app154">
@@ -2126,7 +2224,18 @@
                   <rdg wit="#f1831">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_viii.xml#C14_app154-f1831"/>
                   </rdg>
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app154-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app154-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0093.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0093']/tei:zone[@type='main']//tei:line[30],56,66)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(had been looking of forthechildand ^  enquired demanded) earnestly</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">ed</fv:resolved_text>
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0093.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0093']/tei:zone[@type='main']//tei:line[31],0,10)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">earnestly</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">earnestly</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
                <rdgGrp n="['earnestly,']" xml:id="C14_app154_rg2">
                   <rdg wit="#f1818">
@@ -2404,7 +2513,18 @@
                </rdgGrp>
                <rdgGrp n="['&lt;del&gt;the murder&lt;/del&gt;', 'the', 'child', 'had', 'been', 'missed,', 'she', 'had']"
                         xml:id="C14_app174_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app174-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app174-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0094.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0094']/tei:zone[@type='main']//tei:line[7],34,80)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">( she had which  thean hour before) the murder the child had been missed, she had</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">the murder</fv:resolved_text>
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0094.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0094']/tei:zone[@type='main']//tei:line[8],0,35)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">the child had been missed, she had</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">the child had been missed,she had </fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app176">
@@ -3022,7 +3142,16 @@
                   </rdg>
                </rdgGrp>
                <rdgGrp n="['', '&lt;del&gt;facts&lt;/del&gt;', 'facts']" xml:id="C14_app217_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app217-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app217-fMS__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app217-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0094.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0094']/tei:zone[@type='main']//tei:line[25],19,32)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(explanation of the)  facts facts</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum"> facts facts </fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app219">
@@ -3119,7 +3248,16 @@
                   </rdg>
                </rdgGrp>
                <rdgGrp n="['', '&lt;del&gt;fact&lt;/del&gt;', 'circumstance']" xml:id="C14_app225_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app225-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app225-fMS__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app225-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0094.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0094']/tei:zone[@type='main']//tei:line[29],24,43)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(interpretationwhere any)  fact circumstance</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">y fact circumstance</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app227">
@@ -3280,7 +3418,16 @@
                </rdgGrp>
                <rdgGrp n="['', '&lt;mdel&gt;m&lt;/mdel&gt;', '', '', 'the', 'house', 'of']"
                         xml:id="C14_app236_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app236-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app236-fMS__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app236-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0095.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0095']/tei:zone[@type='main']//tei:line[10],24,43)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(murderwas perpetratedat)  M  ^ the house of</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">at M ^ the house of</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app238">
@@ -3530,7 +3677,15 @@
                </rdgGrp>
                <rdgGrp n="['', '&lt;del&gt;passed&lt;/del&gt;', '', '', 'was', 'forced', 'to', 'remain']"
                         xml:id="C14_app256_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app256-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app256-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0095.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0095']/tei:zone[@type='main']//tei:line[19],0,32)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum"> passed  ^ was forced to remain</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">passed several hours of the nig</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app257">
@@ -3541,7 +3696,15 @@
                   </rdg>
                </rdgGrp>
                <rdgGrp n="['&lt;mdel&gt;ed&lt;/mdel&gt;', '', 's', 'e', 'veral']" xml:id="C14_app257_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app257-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app257-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0095.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0095']/tei:zone[@type='main']//tei:line[19],32,46)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">( passed  ^ was forced to remain) ed  s e veral</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">htin a</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
                <rdgGrp n="['several']" xml:id="C14_app257_rg3">
                   <rdg wit="#f1818">
@@ -3581,7 +3744,15 @@
             </app>
             <app xml:id="C14_app260">
                <rdgGrp n="['']" xml:id="C14_app260_rg1">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app260-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app260-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0095.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0095']/tei:zone[@type='main']//tei:line[19],65,66)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">( passed  ^ was forced to remained  s e veralhoursof the night in) </fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum"/>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
                <rdgGrp n="['a', 'barn', 'belonging', 'to']" xml:id="C14_app260_rg2">
                   <rdg wit="#f1818">
@@ -3784,7 +3955,18 @@
             <app xml:id="C14_app272">
                <rdgGrp n="['knowledge', '', '&lt;del&gt;and she had been confused&lt;/del&gt;']"
                         xml:id="C14_app272_rg1">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app272-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app272-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0095.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0095']/tei:zone[@type='main']//tei:line[24],26,63)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(bodylayit was without her) knowledge  and she had been confused</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">er knowledge</fv:resolved_text>
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0095.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0095']/tei:zone[@type='main']//tei:line[25],0,27)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum"> and she had been confused</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">and she had been confused </fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
                <rdgGrp n="['knowledge.']" xml:id="C14_app272_rg2">
                   <rdg wit="#f1818">
@@ -3900,12 +4082,29 @@
                   </rdg>
                </rdgGrp>
                <rdgGrp n="['', '&lt;del&gt;that&lt;/del&gt;', 'not']" xml:id="C14_app280_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app280-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app280-fMS__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app280-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0095.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0095']/tei:zone[@type='main']//tei:line[27],0,10)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum"> that not</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">that not </fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app281">
                <rdgGrp n="['', 'surprising', 'when']" xml:id="C14_app281_rg1">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app281-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app281-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0095.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0095']/tei:zone[@type='main']//tei:line[27],10,27)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">( that not)  surprising when</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">surprising when s</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
                <rdgGrp n="['surprising,', 'since']" xml:id="C14_app281_rg2">
                   <rdg wit="#f1818">
@@ -4010,10 +4209,22 @@
                   <rdg wit="#fMS"/>
                </rdgGrp>
                <rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;']" xml:id="C14_app289_rg1">
-                  <rdg wit="#f1818"/>
-                  <rdg wit="#f1823"/>
-                  <rdg wit="#fThomas"/>
-                  <rdg wit="#f1831"/>
+                  <rdg wit="#f1818">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_1_chapter_vii.xml#C14_app289-f1818__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_1_chapter_vii.xml#C14_app289-f1818__F"/>
+                  </rdg>
+                  <rdg wit="#f1823">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_1_chapter_vii.xml#C14_app289-f1823__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_1_chapter_vii.xml#C14_app289-f1823__F"/>
+                  </rdg>
+                  <rdg wit="#fThomas">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_vii.xml#C14_app289-fThomas__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_vii.xml#C14_app289-fThomas__F"/>
+                  </rdg>
+                  <rdg wit="#f1831">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_viii.xml#C14_app289-f1831__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_viii.xml#C14_app289-f1831__F"/>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app291">
@@ -4238,7 +4449,18 @@
             <app xml:id="C14_app303">
                <rdgGrp n="['', '&lt;del&gt;at a&lt;/del&gt;', 'checked', '', '&lt;del&gt;stand&lt;/del&gt;']"
                         xml:id="C14_app303_rg1">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app303-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app303-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0096.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0096']/tei:zone[@type='main']//tei:line[8],31,52)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(my pocket. ButI here also I am)  at a checked  stand</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">m at a checked</fv:resolved_text>
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0096.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0096']/tei:zone[@type='main']//tei:line[9],0,7)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum"> stand</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">stand </fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
                <rdgGrp n="['checked.']" xml:id="C14_app303_rg2">
                   <rdg wit="#f1818">
@@ -4517,7 +4739,16 @@
                   </rdg>
                </rdgGrp>
                <rdgGrp n="['', '', 'again']" xml:id="C14_app320_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app320-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app320-fMS__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app320-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0096.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0096']/tei:zone[@type='main']//tei:line[15],24,33)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(thejewelto part with it)  ^ again</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">it ^ agai</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app322">
@@ -4629,7 +4860,16 @@
             </app>
             <app xml:id="C14_app330">
                <rdgGrp n="['the', '', '&lt;mdel&gt;n&lt;/mdel&gt;', 'ir']" xml:id="C14_app330_rg1">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app330-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app330-fMS__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app330-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0096.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0096']/tei:zone[@type='main']//tei:line[19],33,43)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(inedconcerning mycharacterand if) the  n ir</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum"> if the n </fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
                <rdgGrp n="['their']" xml:id="C14_app330_rg2">
                   <rdg wit="#f1818">
@@ -5076,7 +5316,18 @@
                   </rdg>
                </rdgGrp>
                <rdgGrp n="['', '&lt;del&gt;uncalled&lt;/del&gt;', 'violently']" xml:id="C14_app361_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app361-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app361-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0097.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0097']/tei:zone[@type='main']//tei:line[1],24,44)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(theaccused,whenalthough)  uncalled violently</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">ugh uncalled</fv:resolved_text>
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0097.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0097']/tei:zone[@type='left_margin']//tei:line[1],0,10)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">violently</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">violently</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app362">
@@ -5108,10 +5359,22 @@
             <app xml:id="C14_app364">
                <rdgGrp n="['address', 'the', 'court.', '&lt;p-end/&gt;', '&lt;p-start/&gt;']"
                         xml:id="C14_app364_rg1">
-                  <rdg wit="#f1818"/>
-                  <rdg wit="#f1823"/>
-                  <rdg wit="#fThomas"/>
-                  <rdg wit="#f1831"/>
+                  <rdg wit="#f1818">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_1_chapter_vii.xml#C14_app364-f1818__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_1_chapter_vii.xml#C14_app364-f1818__F"/>
+                  </rdg>
+                  <rdg wit="#f1823">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_1_chapter_vii.xml#C14_app364-f1823__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_1_chapter_vii.xml#C14_app364-f1823__F"/>
+                  </rdg>
+                  <rdg wit="#fThomas">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_vii.xml#C14_app364-fThomas__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_vii.xml#C14_app364-fThomas__F"/>
+                  </rdg>
+                  <rdg wit="#f1831">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_viii.xml#C14_app364-f1831__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_viii.xml#C14_app364-f1831__F"/>
+                  </rdg>
                </rdgGrp>
                <rdgGrp n="['speak.']" xml:id="C14_app364_rg2">
                   <rdg wit="#fMS">
@@ -5234,7 +5497,15 @@
                   <rdg wit="#fThomas"/>
                </rdgGrp>
                <rdgGrp n="['', '']" xml:id="C14_app374_rg1">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app374-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app374-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0097.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0097']/tei:zone[@type='main']//tei:line[5],25,28)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(sisterfor I was educated)  ^</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">d ^</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
                <rdgGrp n="['by,']" xml:id="C14_app374_rg2">
                   <rdg wit="#f1823">
@@ -5257,7 +5528,15 @@
                   <rdg wit="#fThomas">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_vii.xml#C14_app375-fThomas"/>
                   </rdg>
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app375-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app375-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0097.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0097']/tei:zone[@type='main']//tei:line[5],27,30)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(sisterfor I was educated ^) by</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">^ b</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app377">
@@ -5549,12 +5828,29 @@
                </rdgGrp>
                <rdgGrp n="['', '&lt;del&gt;know a great deal&lt;/del&gt;', '', '', 'am', 'well', 'acquainted', 'with']"
                         xml:id="C14_app397_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app397-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app397-fMS__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app397-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0097.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0097']/tei:zone[@type='main']//tei:line[14],7,53)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">( and I)  know a great deal  ^ am well acquainted with</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">know a great deal ^ am well acquainted with it</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app398">
                <rdgGrp n="['it.', '', '&lt;del&gt;for&lt;/del&gt;']" xml:id="C14_app398_rg1">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app398-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app398-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0097.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0097']/tei:zone[@type='main']//tei:line[14],52,61)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">( and I know a great deal  ^ am well acquainted with) it.  for</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">t. for I </fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
                <rdgGrp n="['the', 'accused.']" xml:id="C14_app398_rg2">
                   <rdg wit="#f1818">
@@ -5933,7 +6229,16 @@
                   </rdg>
                </rdgGrp>
                <rdgGrp n="['', '', 'own']" xml:id="C14_app422_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app422-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app422-fMS__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app422-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0097.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0097']/tei:zone[@type='main']//tei:line[22],21,28)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(terwardsattended her)  ^ own</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">r ^ own</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app424">
@@ -6057,13 +6362,30 @@
                </rdgGrp>
                <rdgGrp n="['', '&lt;del&gt;always a favourite&lt;/del&gt;', '', '', 'beloved', 'by', 'all', 'the']"
                         xml:id="C14_app431_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app431-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app431-fMS__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app431-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0097.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0097']/tei:zone[@type='main']//tei:line[27],4,46)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(was)  always a favourite  ^ beloved by all the</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum"> always a favourite ^ beloved by all the f</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app432">
                <rdgGrp n="['family', '', '.', '&lt;del&gt;of the deceased&lt;/del&gt;']"
                         xml:id="C14_app432_rg1">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app432-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app432-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0097.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0097']/tei:zone[@type='main']//tei:line[27],45,71)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(was always a favourite  ^ beloved by all the) family  . Of the deceased</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">family . Of the deceased</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
                <rdgGrp n="['family.']" xml:id="C14_app432_rg2">
                   <rdg wit="#f1818">
@@ -6097,7 +6419,16 @@
                </rdgGrp>
                <rdgGrp n="['', '&lt;del&gt;very&lt;/del&gt;', '&lt;del&gt;fond&lt;/del&gt;', '', '', 'warmly', 'attached', 'to']"
                         xml:id="C14_app434_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app434-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app434-fMS__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app434-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0097.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0097']/tei:zone[@type='main']//tei:line[28],8,41)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(she was)  very fond  ^ warmly attached to</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum"> very fond ^ warmly attached to o</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app435">
@@ -6128,7 +6459,15 @@
             </app>
             <app xml:id="C14_app436">
                <rdgGrp n="['has', 'been', 'murdered', '']" xml:id="C14_app436_rg1">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app436-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app436-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0097.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0097']/tei:zone[@type='main']//tei:line[28],56,75)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(she was very fond  ^ warmly attached toof the child who) has been murdered </fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum"> has been murdered </fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
                <rdgGrp n="['is', 'now', 'dead,']" xml:id="C14_app436_rg2">
                   <rdg wit="#f1818">
@@ -6230,7 +6569,15 @@
             <app xml:id="C14_app443">
                <rdgGrp n="['', '&lt;del&gt;s&lt;/del&gt;', 'ay', 'that', 'not', 'withstanding', '', '']"
                         xml:id="C14_app443_rg1">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app443-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app443-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0097.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0097']/tei:zone[@type='main']//tei:line[31],0,31)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum"> s ay that not withstanding  ^</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">say that not withstanding ^ al</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
                <rdgGrp n="['say,', 'that,', 'notwithstanding']" xml:id="C14_app443_rg2">
                   <rdg wit="#f1818">
@@ -6371,13 +6718,32 @@
                </rdgGrp>
                <rdgGrp n="['&lt;del&gt;and her dispo character&lt;/del&gt;', '', '&lt;del&gt;whi&lt;/del&gt;', 'for', 'such', 'an']"
                         xml:id="C14_app452_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app452-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app452-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0098.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0098']/tei:zone[@type='main']//tei:line[3],18,59)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(no t   temptation) and her dispo character  whi for such an</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">d her dispo characterwhi for such an acti</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app453">
                <rdgGrp n="['action', '', '&lt;del&gt;is amiable&lt;/del&gt;', '&lt;del&gt;for&lt;/del&gt;', '']"
                         xml:id="C14_app453_rg1">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app453-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app453-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0098.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0098']/tei:zone[@type='main']//tei:line[3],58,82)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(no t   temptationand her dispo character  whi for such an) action  is amiable for </fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">ion</fv:resolved_text>
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0098.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0098']/tei:zone[@type='main']//tei:line[4],0,17)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum"> is amiable for </fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">is amiable for a</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
                <rdgGrp n="['action:']" xml:id="C14_app453_rg2">
                   <rdg wit="#f1818">
@@ -6528,10 +6894,22 @@
             <app xml:id="C14_app464">
                <rdgGrp n="['i', 'esteem', 'and', 'value', 'her.&#34;', '&lt;p-end/&gt;', '&lt;p-start/&gt;']"
                         xml:id="C14_app464_rg1">
-                  <rdg wit="#f1818"/>
-                  <rdg wit="#f1823"/>
-                  <rdg wit="#fThomas"/>
-                  <rdg wit="#f1831"/>
+                  <rdg wit="#f1818">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_1_chapter_vii.xml#C14_app464-f1818__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_1_chapter_vii.xml#C14_app464-f1818__F"/>
+                  </rdg>
+                  <rdg wit="#f1823">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_1_chapter_vii.xml#C14_app464-f1823__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_1_chapter_vii.xml#C14_app464-f1823__F"/>
+                  </rdg>
+                  <rdg wit="#fThomas">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_vii.xml#C14_app464-fThomas__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_vii.xml#C14_app464-fThomas__F"/>
+                  </rdg>
+                  <rdg wit="#f1831">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_viii.xml#C14_app464-f1831__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_viii.xml#C14_app464-f1831__F"/>
+                  </rdg>
                </rdgGrp>
                <rdgGrp n="['', '&lt;del&gt;i rely&lt;/del&gt;', 'i', 'esteem', 'and', 'value', 'her.&#34;', '&lt;p-end/&gt;', '&lt;p-start/&gt;']"
                         xml:id="C14_app464_rg2">
@@ -6659,7 +7037,16 @@
                </rdgGrp>
                <rdgGrp n="['', '&lt;del&gt;on her account&lt;/del&gt;', '', '', 'excited', 'by', 'her', 'generous']"
                         xml:id="C14_app471_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app471-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app471-fMS__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app471-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0098.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0098']/tei:zone[@type='main']//tei:line[11],4,47)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(was)  on her account  ^ excited by her generous</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum"> on her account ^ excited by her generous i</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app472">
@@ -6730,7 +7117,15 @@
                   </rdg>
                </rdgGrp>
                <rdgGrp n="['', '&lt;del&gt;ig&lt;/del&gt;', 'indignation', 'was']" xml:id="C14_app476_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app476-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app476-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0098.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0098']/tei:zone[@type='main']//tei:line[13],0,20)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum"> ig indignation was</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">ig indignationwas t</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app479">
@@ -6804,7 +7199,16 @@
                   </rdg>
                </rdgGrp>
                <rdgGrp n="['', '', 'and', 'anguish']" xml:id="C14_app483_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app483-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app483-fMS__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app483-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0098.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0098']/tei:zone[@type='main']//tei:line[17],25,38)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(answer. My own agitation)  ^ &amp; anguish</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum"> ^ &amp; anguish </fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app485">
@@ -7182,12 +7586,43 @@
                </rdgGrp>
                <rdgGrp n="['', '', '&lt;del&gt;&lt;w ana=&#34;start&#34;/&gt;the', 'accu sed &lt;/del&gt;', '', 'my']"
                         xml:id="C14_app509_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app509-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app509-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0099.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0099']/tei:zone[@type='main']//tei:line[1],28,48)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(Judgeshad already condemned)  X the accused X my</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">d X her</fv:resolved_text>
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0099.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0099']/tei:zone[@type='left_margin']//tei:line[1],0,9)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">the accu</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">the accu</fv:resolved_text>
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0099.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0099']/tei:zone[@type='left_margin']//tei:line[2],0,4)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">sed</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">sed</fv:resolved_text>
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0099.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0099']/tei:zone[@type='left_margin']//tei:line[3],0,6)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum"> X my</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">Xmy u</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app510">
                <rdgGrp n="['un happy victim', '', '&lt;del&gt;her&lt;/del&gt;']" xml:id="C14_app510_rg1">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app510-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app510-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0099.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0099']/tei:zone[@type='left_margin']//tei:line[3],6,25)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">( X my) unhappyvictim  her</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">n</fv:resolved_text>
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0099.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0099']/tei:zone[@type='left_margin']//tei:line[4],0,6)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">happy</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">happy</fv:resolved_text>
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0099.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0099']/tei:zone[@type='left_margin']//tei:line[5],0,12)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">victim  her</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">victim</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
                <rdgGrp n="['unhappy', 'victim,']" xml:id="C14_app510_rg2">
                   <rdg wit="#f1818">
@@ -7259,10 +7694,22 @@
             <app xml:id="C14_app516">
                <rdgGrp n="['bosom,', 'and', 'would', 'not', 'forego', 'their', 'hold.', '&lt;p-end/&gt;', '&lt;p-start/&gt;']"
                         xml:id="C14_app516_rg1">
-                  <rdg wit="#f1818"/>
-                  <rdg wit="#f1823"/>
-                  <rdg wit="#fThomas"/>
-                  <rdg wit="#f1831"/>
+                  <rdg wit="#f1818">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_1_chapter_vii.xml#C14_app516-f1818__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_1_chapter_vii.xml#C14_app516-f1818__F"/>
+                  </rdg>
+                  <rdg wit="#f1823">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_1_chapter_vii.xml#C14_app516-f1823__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_1_chapter_vii.xml#C14_app516-f1823__F"/>
+                  </rdg>
+                  <rdg wit="#fThomas">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_vii.xml#C14_app516-fThomas__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_vii.xml#C14_app516-fThomas__F"/>
+                  </rdg>
+                  <rdg wit="#f1831">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_viii.xml#C14_app516-f1831__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_viii.xml#C14_app516-f1831__F"/>
+                  </rdg>
                </rdgGrp>
                <rdgGrp n="['bosom–']" xml:id="C14_app516_rg2">
                   <rdg wit="#fMS">
@@ -7373,12 +7820,31 @@
                </rdgGrp>
                <rdgGrp n="['&lt;del&gt;what i came to en-&lt;/del&gt;', '', '', 'the', 'cause', 'of', 'my']"
                         xml:id="C14_app524_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app524-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app524-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0099.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0099']/tei:zone[@type='main']//tei:line[11],16,54)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(officer guessed) what I came to en-  ^ the cause of my</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum"> what I came to en-^the cause of my vi</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app525">
                <rdgGrp n="['visit', '', '&lt;del&gt;quire;&lt;/del&gt;', '', '—']" xml:id="C14_app525_rg1">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app525-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app525-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0099.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0099']/tei:zone[@type='main']//tei:line[11],53,70)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(officer guessedwhat I came to en-  ^ the cause of my) visit  quire;  —</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">isit</fv:resolved_text>
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0099.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0099']/tei:zone[@type='main']//tei:line[12],0,11)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum"> quire;  —</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">quire; — t</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
                <rdgGrp n="['visit.']" xml:id="C14_app525_rg2">
                   <rdg wit="#f1818">
@@ -7423,7 +7889,16 @@
             </app>
             <app xml:id="C14_app529">
                <rdgGrp n="['', '&lt;del&gt;blak&lt;/del&gt;', '', '', 'black']" xml:id="C14_app529_rg1">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app529-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app529-fMS__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_11.xml#C14_app529-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0099.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0099']/tei:zone[@type='main']//tei:line[13],14,29)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(they were all)  blak  ^ black</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum"> blak ^ black &amp;</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
                <rdgGrp n="['black,']" xml:id="C14_app529_rg2">
                   <rdg wit="#f1818">
@@ -7442,10 +7917,22 @@
             </app>
             <app xml:id="C14_app531">
                <rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;', 'i', 'cannot']" xml:id="C14_app531_rg1">
-                  <rdg wit="#f1818"/>
-                  <rdg wit="#f1823"/>
-                  <rdg wit="#fThomas"/>
-                  <rdg wit="#f1831"/>
+                  <rdg wit="#f1818">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_1_chapter_vii.xml#C14_app531-f1818__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_1_chapter_vii.xml#C14_app531-f1818__F"/>
+                  </rdg>
+                  <rdg wit="#f1823">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_1_chapter_vii.xml#C14_app531-f1823__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_1_chapter_vii.xml#C14_app531-f1823__F"/>
+                  </rdg>
+                  <rdg wit="#fThomas">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_vii.xml#C14_app531-fThomas__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_vii.xml#C14_app531-fThomas__F"/>
+                  </rdg>
+                  <rdg wit="#f1831">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_viii.xml#C14_app531-f1831__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_viii.xml#C14_app531-f1831__F"/>
+                  </rdg>
                </rdgGrp>
                <rdgGrp n="['', '', 'chapter 1', '', '&lt;mdel&gt;1&lt;/mdel&gt;', '2', '', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'i', 'cannot']"
                         xml:id="C14_app531_rg2">
@@ -7516,7 +8003,15 @@
             </app>
             <app xml:id="C14_app536">
                <rdgGrp n="['', '&lt;del&gt;had&lt;/del&gt;']" xml:id="C14_app536_rg1">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app536-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app536-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0100.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0100']/tei:zone[@type='main']//tei:line[3],16,21)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(thenfelt –I had)  had</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">ad ha</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
                <rdgGrp n="['before']" xml:id="C14_app536_rg2">
                   <rdg wit="#f1818">
@@ -8011,7 +8506,16 @@
                   </rdg>
                </rdgGrp>
                <rdgGrp n="['', '', 'it']" xml:id="C14_app569_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app569-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app569-fMS__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app569-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0100.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0100']/tei:zone[@type='main']//tei:line[15],15,21)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(dence let itbe)  ^ it</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">e ^ it</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app571">
@@ -8139,7 +8643,16 @@
                </rdgGrp>
                <rdgGrp n="['', '&lt;del&gt;enquired&lt;/del&gt;', '', '', 'demanded']"
                         xml:id="C14_app576_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app576-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app576-fMS__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app576-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0100.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0100']/tei:zone[@type='main']//tei:line[17],8,30)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(eagerly)  enquired  ^ demanded</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum"> enquired ^ demanded t</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app578">
@@ -8147,10 +8660,22 @@
                   <rdg wit="#fMS"/>
                </rdgGrp>
                <rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;']" xml:id="C14_app578_rg1">
-                  <rdg wit="#f1818"/>
-                  <rdg wit="#f1823"/>
-                  <rdg wit="#fThomas"/>
-                  <rdg wit="#f1831"/>
+                  <rdg wit="#f1818">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_1_chapter_vii.xml#C14_app578-f1818__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_1_chapter_vii.xml#C14_app578-f1818__F"/>
+                  </rdg>
+                  <rdg wit="#f1823">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_1_chapter_vii.xml#C14_app578-f1823__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_1_chapter_vii.xml#C14_app578-f1823__F"/>
+                  </rdg>
+                  <rdg wit="#fThomas">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_vii.xml#C14_app578-fThomas__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_vii.xml#C14_app578-fThomas__F"/>
+                  </rdg>
+                  <rdg wit="#f1831">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_viii.xml#C14_app578-f1831__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_viii.xml#C14_app578-f1831__F"/>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app580">
@@ -8195,7 +8720,15 @@
                   </rdg>
                </rdgGrp>
                <rdgGrp n="['suspected', '–', '', '']" xml:id="C14_app582_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app582-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app582-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0100.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0100']/tei:zone[@type='main']//tei:line[19],0,15)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">suspected –  ^</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">suspected – ^a</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app584">
@@ -8557,10 +9090,22 @@
             <app xml:id="C14_app607">
                <rdgGrp n="['committed', 'a', 'murder.&#34;', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'soon', 'after', 'we', 'heard', 'that', 'the', 'poor', 'victim', 'had', 'expressed', 'a']"
                         xml:id="C14_app607_rg1">
-                  <rdg wit="#f1818"/>
-                  <rdg wit="#f1823"/>
-                  <rdg wit="#fThomas"/>
-                  <rdg wit="#f1831"/>
+                  <rdg wit="#f1818">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_1_chapter_vii.xml#C14_app607-f1818__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_1_chapter_vii.xml#C14_app607-f1818__F"/>
+                  </rdg>
+                  <rdg wit="#f1823">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_1_chapter_vii.xml#C14_app607-f1823__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_1_chapter_vii.xml#C14_app607-f1823__F"/>
+                  </rdg>
+                  <rdg wit="#fThomas">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_vii.xml#C14_app607-fThomas__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_vii.xml#C14_app607-fThomas__F"/>
+                  </rdg>
+                  <rdg wit="#f1831">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_viii.xml#C14_app607-f1831__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_viii.xml#C14_app607-f1831__F"/>
+                  </rdg>
                </rdgGrp>
                <rdgGrp n="['&lt;del&gt;com&lt;/del&gt;', 'committed', 'a', 'murder.&#34;', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'soon', 'after', 'we', 'heard', 'that', 'the', 'poor', 'victim', 'had', 'expressed', 'a']"
                         xml:id="C14_app607_rg2">
@@ -9120,10 +9665,22 @@
                </rdgGrp>
                <rdgGrp n="['also.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;oh,', 'justine!&#34;']"
                         xml:id="C14_app646_rg2">
-                  <rdg wit="#f1818"/>
-                  <rdg wit="#f1823"/>
-                  <rdg wit="#fThomas"/>
-                  <rdg wit="#f1831"/>
+                  <rdg wit="#f1818">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_1_chapter_vii.xml#C14_app646-f1818__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_1_chapter_vii.xml#C14_app646-f1818__F"/>
+                  </rdg>
+                  <rdg wit="#f1823">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_1_chapter_vii.xml#C14_app646-f1823__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_1_chapter_vii.xml#C14_app646-f1823__F"/>
+                  </rdg>
+                  <rdg wit="#fThomas">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_vii.xml#C14_app646-fThomas__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_vii.xml#C14_app646-fThomas__F"/>
+                  </rdg>
+                  <rdg wit="#f1831">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_viii.xml#C14_app646-f1831__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_viii.xml#C14_app646-f1831__F"/>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app648">
@@ -9196,12 +9753,29 @@
                   </rdg>
                </rdgGrp>
                <rdgGrp n="['', '&lt;del&gt;believed&lt;/del&gt;', 'relied']" xml:id="C14_app652_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app652-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app652-fMS__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app652-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0101.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0101']/tei:zone[@type='main']//tei:line[23],19,36)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(lastconsolation –I)  believed relied</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum"> I believed relie</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app653">
                <rdgGrp n="['', '&lt;mdel&gt;i&lt;/mdel&gt;', 'o', '', 'n']" xml:id="C14_app653_rg1">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app653-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app653-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0101.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0101']/tei:zone[@type='main']//tei:line[23],35,43)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(lastconsolation –I believed relied)  i o  n</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">ed i o n</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
                <rdgGrp n="['on']" xml:id="C14_app653_rg2">
                   <rdg wit="#f1818">
@@ -9387,7 +9961,16 @@
                   </rdg>
                </rdgGrp>
                <rdgGrp n="['', '&lt;mdel&gt;in&lt;/mdel&gt;', 'with']" xml:id="C14_app667_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app667-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app667-fMS__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app667-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0101.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0101']/tei:zone[@type='main']//tei:line[30],21,30)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(voice was suffocated)  in with</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum"> in with </fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app669">
@@ -10227,10 +10810,22 @@
                   <rdg wit="#fMS"/>
                </rdgGrp>
                <rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;']" xml:id="C14_app730_rg1">
-                  <rdg wit="#f1818"/>
-                  <rdg wit="#f1823"/>
-                  <rdg wit="#fThomas"/>
-                  <rdg wit="#f1831"/>
+                  <rdg wit="#f1818">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_1_chapter_vii.xml#C14_app730-f1818__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_1_chapter_vii.xml#C14_app730-f1818__F"/>
+                  </rdg>
+                  <rdg wit="#f1823">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_1_chapter_vii.xml#C14_app730-f1823__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_1_chapter_vii.xml#C14_app730-f1823__F"/>
+                  </rdg>
+                  <rdg wit="#fThomas">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_vii.xml#C14_app730-fThomas__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_vii.xml#C14_app730-fThomas__F"/>
+                  </rdg>
+                  <rdg wit="#f1831">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_viii.xml#C14_app730-f1831__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_viii.xml#C14_app730-f1831__F"/>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app732">
@@ -10440,7 +11035,16 @@
                   </rdg>
                </rdgGrp>
                <rdgGrp n="['', '', 'a']" xml:id="C14_app744_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app744-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app744-fMS__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app744-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0103.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0103']/tei:zone[@type='main']//tei:line[4],6,11)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(bleof)  ^ a</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">f ^ a</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app746">
@@ -10459,7 +11063,16 @@
                   </rdg>
                </rdgGrp>
                <rdgGrp n="['', '&lt;del&gt;not&lt;/del&gt;', 'none']" xml:id="C14_app746_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app746-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app746-fMS__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app746-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0103.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0103']/tei:zone[@type='main']//tei:line[4],21,31)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(bleof ^ acrime which)  not none</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">ch not non</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app748">
@@ -10479,12 +11092,29 @@
                </rdgGrp>
                <rdgGrp n="['', '&lt;del&gt;was capable of&lt;/del&gt;', '', '', 'could', 'have']"
                         xml:id="C14_app748_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app748-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app748-fMS__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app748-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0103.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0103']/tei:zone[@type='main']//tei:line[5],14,44)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(devil himself)  was capable of  ^ could have</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum"> was capable of ^ could have p</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app749">
                <rdgGrp n="['perpetrated', '', '.']" xml:id="C14_app749_rg1">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app749-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app749-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0103.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0103']/tei:zone[@type='main']//tei:line[5],43,58)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(devil himself was capable of  ^ could have) perpetrated  .</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">perpetrated . D</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
                <rdgGrp n="['perpetrated.']" xml:id="C14_app749_rg2">
                   <rdg wit="#f1818">
@@ -11010,9 +11640,18 @@
                   <rdg wit="#f1831"/>
                </rdgGrp>
                <rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;']" xml:id="C14_app784_rg1">
-                  <rdg wit="#f1818"/>
-                  <rdg wit="#f1823"/>
-                  <rdg wit="#fThomas"/>
+                  <rdg wit="#f1818">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_1_chapter_vii.xml#C14_app784-f1818__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_1_chapter_vii.xml#C14_app784-f1818__F"/>
+                  </rdg>
+                  <rdg wit="#f1823">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_1_chapter_vii.xml#C14_app784-f1823__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_1_chapter_vii.xml#C14_app784-f1823__F"/>
+                  </rdg>
+                  <rdg wit="#fThomas">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_vii.xml#C14_app784-fThomas__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_vii.xml#C14_app784-fThomas__F"/>
+                  </rdg>
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app784-fMS"/>
                      <witDetail wit="#fMS">
@@ -11223,7 +11862,16 @@
                   </rdg>
                </rdgGrp>
                <rdgGrp n="['', '&lt;del&gt;world&lt;/del&gt;', 'life,']" xml:id="C14_app792_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app792-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app792-fMS__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app792-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0103.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0103']/tei:zone[@type='main']//tei:line[24],0,13)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum"> world life,</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">world life, </fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app793">
@@ -11241,7 +11889,21 @@
                   <rdg wit="#fThomas">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_vii.xml#C14_app793-fThomas"/>
                   </rdg>
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app793-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app793-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0103.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0103']/tei:zone[@type='main']//tei:line[24],13,80)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">( world life,) and elevate me from the petty cares of this world of injustice and</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">and elevate me from the</fv:resolved_text>
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0103.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0103']/tei:zone[@type='main']//tei:line[25],0,39)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">petty cares of this world of injustice</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">petty cares of this world of injustice</fv:resolved_text>
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0103.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0103']/tei:zone[@type='main']//tei:line[26],0,4)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">and</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">and</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app794">
@@ -11326,9 +11988,18 @@
                </rdgGrp>
                <rdgGrp n="['drive', 'me', 'to', 'despair.&#34;', '&lt;p-end/&gt;', '&lt;p-start/&gt;']"
                         xml:id="C14_app797_rg1">
-                  <rdg wit="#f1818"/>
-                  <rdg wit="#f1823"/>
-                  <rdg wit="#fThomas"/>
+                  <rdg wit="#f1818">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_1_chapter_vii.xml#C14_app797-f1818__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_1_chapter_vii.xml#C14_app797-f1818__F"/>
+                  </rdg>
+                  <rdg wit="#f1823">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_1_chapter_vii.xml#C14_app797-f1823__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_1_chapter_vii.xml#C14_app797-f1823__F"/>
+                  </rdg>
+                  <rdg wit="#fThomas">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_vii.xml#C14_app797-fThomas__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_vii.xml#C14_app797-fThomas__F"/>
+                  </rdg>
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app797-fMS"/>
                      <witDetail wit="#fMS">
@@ -11697,7 +12368,16 @@
                </rdgGrp>
                <rdgGrp n="['', '&lt;del&gt;a hope&lt;/del&gt;', 'a', 'confidence']"
                         xml:id="C14_app811_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app811-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app811-fMS__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app811-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0104.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0104']/tei:zone[@type='main']//tei:line[4],19,40)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(withresignationand)  a hope a confidence</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">nd a hope a confidenc</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app812">
@@ -11714,7 +12394,18 @@
                   <rdg wit="#fThomas">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_vii.xml#C14_app812-fThomas"/>
                   </rdg>
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app812-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app812-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0104.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0104']/tei:zone[@type='main']//tei:line[4],39,67)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(withresignationand a hope a confidence) elevated beyond this world.</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">ce elevated</fv:resolved_text>
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0104.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0104']/tei:zone[@type='main']//tei:line[5],0,19)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">beyond this world.</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">beyond this world.</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app813">
@@ -11899,7 +12590,15 @@
                </rdgGrp>
                <rdgGrp n="['', '&lt;del&gt;deprived of life&lt;/del&gt;', 'murdered', '', '&lt;del&gt;they&lt;/del&gt;', '&lt;del&gt;bel&lt;/del&gt;']"
                         xml:id="C14_app820_rg1">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app820-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app820-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0104.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0104']/tei:zone[@type='main']//tei:line[7],0,37)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum"> deprived of life murdered  they bel</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">deprived of life murdered they bel a</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
                <rdgGrp n="['murdered,']" xml:id="C14_app820_rg2">
                   <rdg wit="#f1818">
@@ -11927,7 +12626,15 @@
                   <rdg wit="#fThomas">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_vii.xml#C14_app821-fThomas"/>
                   </rdg>
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app821-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app821-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0104.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0104']/tei:zone[@type='main']//tei:line[7],37,48)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">( deprived of life murdered  they bel) another is</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">nother is i</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app822">
@@ -11944,7 +12651,15 @@
                   <rdg wit="#fThomas">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_vii.xml#C14_app822-fThomas"/>
                   </rdg>
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app822-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app822-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0104.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0104']/tei:zone[@type='main']//tei:line[7],47,59)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">( deprived of life murdered  they belanother is) immediately</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">immediately </fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app823">
@@ -12007,7 +12722,15 @@
                   <rdg wit="#f1831"/>
                </rdgGrp>
                <rdgGrp n="['manner', 'and', '']" xml:id="C14_app825_rg1">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app825-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app825-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0104.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0104']/tei:zone[@type='main']//tei:line[9],0,11)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">manner &amp; ^</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">manner &amp; ^</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
                <rdgGrp n="['manner;']" xml:id="C14_app825_rg2">
                   <rdg wit="#f1818">
@@ -12035,7 +12758,15 @@
                   <rdg wit="#fThomas">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_vii.xml#C14_app826-fThomas"/>
                   </rdg>
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app826-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app826-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0104.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0104']/tei:zone[@type='main']//tei:line[9],11,20)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(manner &amp; ^) then the</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum"> then the</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app827">
@@ -12094,7 +12825,15 @@
                   <rdg wit="#f1831"/>
                </rdgGrp>
                <rdgGrp n="['in', 'nocence', '']" xml:id="C14_app829_rg1">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app829-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app829-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0104.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0104']/tei:zone[@type='main']//tei:line[9],72,84)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(manner &amp; ^then theexecutionerstheir hands yet reeking with the blood of) in nocence </fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum"> of in nocen</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
                <rdgGrp n="['innocence,']" xml:id="C14_app829_rg2">
                   <rdg wit="#f1818">
@@ -12256,7 +12995,16 @@
                   </rdg>
                </rdgGrp>
                <rdgGrp n="['', '', 'word']" xml:id="C14_app835_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app835-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app835-fMS__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app835-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0104.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0104']/tei:zone[@type='main']//tei:line[11],19,27)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(fulname! When that)  ^ word</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">t ^ word</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app836">
@@ -12273,7 +13021,15 @@
                   <rdg wit="#fThomas">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_vii.xml#C14_app836-fThomas"/>
                   </rdg>
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app836-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app836-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0104.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0104']/tei:zone[@type='main']//tei:line[11],26,29)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(fulname! When that ^ word) is</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">d i</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app837">
@@ -12376,7 +13132,16 @@
                   </rdg>
                </rdgGrp>
                <rdgGrp n="['', '', 'ever']" xml:id="C14_app840_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app840-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app840-fMS__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app840-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0104.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0104']/tei:zone[@type='main']//tei:line[14],30,38)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(than the gloomiest tyrant has)  ^ ever</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum"> ^ ever </fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app841">
@@ -12395,7 +13160,18 @@
                   </rdg>
                </rdgGrp>
                <rdgGrp n="['inventen', 't', 'e', 'd', ' ']" xml:id="C14_app841_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app841-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app841-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0104.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0104']/tei:zone[@type='main']//tei:line[14],37,53)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(than the gloomiest tyrant has ^ ever) inventen t e d </fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum"> in</fv:resolved_text>
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0104.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0104']/tei:zone[@type='main']//tei:line[15],0,14)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">venten t e d </fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">ventented to </fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app842">
@@ -12412,7 +13188,15 @@
                   <rdg wit="#fThomas">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_vii.xml#C14_app842-fThomas"/>
                   </rdg>
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app842-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app842-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0104.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0104']/tei:zone[@type='main']//tei:line[15],14,36)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(venten t e d ) to satiate his utmost</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">satiatehis utmost reve</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app843">
@@ -12430,7 +13214,18 @@
                   <rdg wit="#fThomas">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_vii.xml#C14_app843-fThomas"/>
                   </rdg>
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app843-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app843-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0104.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0104']/tei:zone[@type='main']//tei:line[15],35,72)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(venten t e d to satiate his utmost) revenge. Yet this is not consolation</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">enge. Yet this</fv:resolved_text>
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0104.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0104']/tei:zone[@type='main']//tei:line[16],0,19)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">is not consolation</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">is not consolation</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app844">
@@ -12449,7 +13244,16 @@
                   </rdg>
                </rdgGrp>
                <rdgGrp n="['', '&lt;mdel&gt;to&lt;/mdel&gt;', '', '', 'for']" xml:id="C14_app844_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app844-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app844-fMS__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app844-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0104.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0104']/tei:zone[@type='main']//tei:line[16],19,30)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(is not consolation)  to  ^ for</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum"> to ^ for y</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app845">
@@ -12467,7 +13271,21 @@
                   <rdg wit="#fThomas">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_vii.xml#C14_app845-fThomas"/>
                   </rdg>
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app845-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app845-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0104.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0104']/tei:zone[@type='main']//tei:line[16],29,91)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(is not consolation to  ^ for) you, my Justine, unless indeed that you may glory in escaping</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">you, my Justine,</fv:resolved_text>
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0104.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0104']/tei:zone[@type='main']//tei:line[17],0,33)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">unless indeed that you may glory</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">unless indeed that you may glory</fv:resolved_text>
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0104.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0104']/tei:zone[@type='main']//tei:line[18],0,12)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">in escaping</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">in escaping</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app846">
@@ -12531,7 +13349,16 @@
                   </rdg>
                </rdgGrp>
                <rdgGrp n="['', '', 'in', 'peace']" xml:id="C14_app848_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app848-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app848-fMS__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app848-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0104.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0104']/tei:zone[@type='main']//tei:line[19],15,27)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(I would I were)  ^ in peace</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum"> ^ in peace </fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app849">
@@ -12548,7 +13375,15 @@
                   <rdg wit="#fThomas">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_vii.xml#C14_app849-fThomas"/>
                   </rdg>
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app849-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app849-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0104.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0104']/tei:zone[@type='main']//tei:line[19],26,44)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(I would I were ^ in peace) with my aunt &amp; my</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum"> with my aunt &amp; my</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app850">
@@ -12672,7 +13507,16 @@
                </rdgGrp>
                <rdgGrp n="['', '&lt;del&gt;i abhor&lt;/del&gt;', 'is', 'hateful', 'to']"
                         xml:id="C14_app854_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app854-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app854-fMS__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app854-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0104.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0104']/tei:zone[@type='main']//tei:line[21],15,38)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(fromlightwhich)  I abhor is hateful to</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">ch I abhor is hateful t</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app855">
@@ -12680,7 +13524,15 @@
                   <rdg wit="#f1831"/>
                </rdgGrp>
                <rdgGrp n="['me', '']" xml:id="C14_app855_rg1">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app855-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app855-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0104.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0104']/tei:zone[@type='main']//tei:line[21],37,41)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(fromlightwhich I abhor is hateful to) me </fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">to m</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
                <rdgGrp n="['me,']" xml:id="C14_app855_rg2">
                   <rdg wit="#f1818">
@@ -13755,7 +14607,16 @@
                   </rdg>
                </rdgGrp>
                <rdgGrp n="['', '&lt;del&gt;believe&lt;/del&gt;', 'credit']" xml:id="C14_app917_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app917-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app917-fMS__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app917-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0105.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0105']/tei:zone[@type='main']//tei:line[22],0,16)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum"> believe credit</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">believe it."</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app919">
@@ -14151,7 +15012,15 @@
             </app>
             <app xml:id="C14_app945">
                <rdgGrp n="['', '&lt;del&gt;and i was&lt;/del&gt;']" xml:id="C14_app945_rg1">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app945-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app945-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0106.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0106']/tei:zone[@type='main']//tei:line[7],25,36)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(thenever dyingworm alive)  and I was</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">ve and I wa</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
                <rdgGrp n="['in', 'my', 'bosom,']" xml:id="C14_app945_rg2">
                   <rdg wit="#f1818">
@@ -14270,7 +15139,15 @@
             </app>
             <app xml:id="C14_app955">
                <rdgGrp n="['hers', '', '']" xml:id="C14_app955_rg1">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app955-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app955-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0106.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0106']/tei:zone[@type='main']//tei:line[10],0,8)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">hers  ^</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">hers ^ </fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
                <rdgGrp n="['her’s']" xml:id="C14_app955_rg2">
                   <rdg wit="#f1818">
@@ -14316,7 +15193,19 @@
             <app xml:id="C14_app959">
                <rdgGrp n="['innocence', '', '&lt;del&gt;that&lt;/del&gt;', 'which']"
                         xml:id="C14_app959_rg1">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app959-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app959-fMS__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app959-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0106.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0106']/tei:zone[@type='main']//tei:line[10],33,55)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(hers  ^alsowasalso the misery of) innocence  that which</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">of innocence</fv:resolved_text>
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0106.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0106']/tei:zone[@type='main']//tei:line[11],0,12)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum"> that which</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">like a clou</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
                <rdgGrp n="['innocence,', 'which,']" xml:id="C14_app959_rg2">
                   <rdg wit="#f1818">
@@ -14349,7 +15238,16 @@
                   </rdg>
                </rdgGrp>
                <rdgGrp n="['', '&lt;del&gt;that&lt;/del&gt;', 'that']" xml:id="C14_app961_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app961-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app961-fMS__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app961-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0106.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0106']/tei:zone[@type='main']//tei:line[11],24,35)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">( that whichlike a cloud)  that that</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">passes over</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app963">
@@ -14562,7 +15460,16 @@
                </rdgGrp>
                <rdgGrp n="['', '&lt;del&gt;diminish&lt;/del&gt;', '&lt;mdel&gt;.&lt;/mdel&gt;', 'extinguish.']"
                         xml:id="C14_app976_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app976-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app976-fMS__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app976-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0106.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0106']/tei:zone[@type='main']//tei:line[17],27,51)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(withinme thatnothing could)  diminish . extinguish.</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">ld diminish </fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app977">
@@ -14581,7 +15488,18 @@
                   </rdg>
                </rdgGrp>
                <rdgGrp n="['', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'we']" xml:id="C14_app977_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app977-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app977-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0106.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0106']/tei:zone[@type='main']//tei:line[17],50,56)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(withinme thatnothing could diminish . extinguish.)    We</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">h.</fv:resolved_text>
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0106.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0106']/tei:zone[@type='main']//tei:line[18],0,3)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">We</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">We</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app978">
@@ -14828,10 +15746,22 @@
                   <rdg wit="#fMS"/>
                </rdgGrp>
                <rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;']" xml:id="C14_app995_rg1">
-                  <rdg wit="#f1818"/>
-                  <rdg wit="#f1823"/>
-                  <rdg wit="#fThomas"/>
-                  <rdg wit="#f1831"/>
+                  <rdg wit="#f1818">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_1_chapter_vii.xml#C14_app995-f1818__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_1_chapter_vii.xml#C14_app995-f1818__F"/>
+                  </rdg>
+                  <rdg wit="#f1823">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_1_chapter_vii.xml#C14_app995-f1823__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_1_chapter_vii.xml#C14_app995-f1823__F"/>
+                  </rdg>
+                  <rdg wit="#fThomas">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_vii.xml#C14_app995-fThomas__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_vii.xml#C14_app995-fThomas__F"/>
+                  </rdg>
+                  <rdg wit="#f1831">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_viii.xml#C14_app995-f1831__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_viii.xml#C14_app995-f1831__F"/>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app997">
@@ -15856,7 +16786,15 @@
                   <rdg wit="#fThomas">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_vii.xml#C14_app1047-fThomas"/>
                   </rdg>
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app1047-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app1047-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0107.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0107']/tei:zone[@type='main']//tei:line[17],0,8)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">Amiable</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">Amiable</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
                <rdgGrp n="['from the tortures of my own heart, i turned to contemplate the deep and voiceless grief of my elizabeth. this also was my doing! and my father’s woe, and the desolation of that late so smiling home—all was the work of my thrice-accursed hands! ye weep, unhappy ones; but these are not your last tears! again shall you raise']"
                         xml:id="C14_app1047_rg2">
@@ -15877,7 +16815,15 @@
                   </rdg>
                </rdgGrp>
                <rdgGrp n="['', '&lt;del&gt;sweet&lt;/del&gt;', '']" xml:id="C14_app1048_rg2">
-                  <rdg wit="#fMS"/>
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app1048-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_1.xml#C14_app1048-fMS__F"/>
+                     <witDetail wit="#fMS">
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0107.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0107']/tei:zone[@type='main']//tei:line[17],8,16)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(Amiable)  Sweet </fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum"> Sweet C</fv:resolved_text>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app1049">
@@ -16215,10 +17161,22 @@
                   <rdg wit="#fMS"/>
                </rdgGrp>
                <rdgGrp n="['&lt;p-end/&gt;']" xml:id="C14_app1062_rg1">
-                  <rdg wit="#f1818"/>
-                  <rdg wit="#f1823"/>
-                  <rdg wit="#fThomas"/>
-                  <rdg wit="#f1831"/>
+                  <rdg wit="#f1818">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_1_chapter_vii.xml#C14_app1062-f1818__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_1_chapter_vii.xml#C14_app1062-f1818__F"/>
+                  </rdg>
+                  <rdg wit="#f1823">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_1_chapter_vii.xml#C14_app1062-f1823__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_1_chapter_vii.xml#C14_app1062-f1823__F"/>
+                  </rdg>
+                  <rdg wit="#fThomas">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_vii.xml#C14_app1062-fThomas__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_vii.xml#C14_app1062-fThomas__F"/>
+                  </rdg>
+                  <rdg wit="#f1831">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_viii.xml#C14_app1062-f1831__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_viii.xml#C14_app1062-f1831__F"/>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C14_app1063">
@@ -16277,7 +17235,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-         </ab>
+         </listApp>
       </body>
    </text>
 </TEI>
