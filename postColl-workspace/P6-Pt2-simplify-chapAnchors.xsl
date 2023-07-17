@@ -100,9 +100,9 @@
       <xsl:value-of select="var:volumeFinder($witness, $chapterMarker)"/>
     </xsl:variable>
 
-    <xsl:variable name="chap_id" as="xs:string" select="
-        following::tei:head[1]/following-sibling::text()[1] ! lower-case(.) ! replace(., '[.,:;]', '') ! tokenize(., ' ') => string-join('_')
+    <xsl:variable name="chap_id" as="xs:string" select="current()/following::tei:head[1]/following-sibling::text()[1] ! lower-case(.) ! replace(., '[.,:;]', '') ! tokenize(., ' ') => string-join('_')
         "/>
+    <xsl:message>Chapter ID: <xsl:value-of select="$chap_id"/></xsl:message>
 
     <anchor type="semantic" subtype="{tei:milestone/@type}"
       xml:id="{$witness}{$vol_info}_{$chap_id}"/>
