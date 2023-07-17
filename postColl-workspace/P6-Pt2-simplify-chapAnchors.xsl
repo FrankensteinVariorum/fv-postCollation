@@ -90,18 +90,18 @@
     </xsl:for-each>
   </xsl:template>
 
-  <xsl:template match="tei:seg[tei:milestone[@unit = 'chapter' and @type = 'start']]">
+  <xsl:template match="tei:seg[tei:milestone[@unit = 'chapter' or @unit='preface' or @unit='letter'][@type = 'start']]">
     <!--ebb: This template processes Print witness chapter start markers within seg elements. -->
     <xsl:param name="witness"/>
     <xsl:variable name="chapterMarker" as="element()"
-      select="tei:milestone[@unit = 'chapter' and @type = 'start']"/>
+      select="tei:milestone[@unit = 'chapter' or @unit='preface' or @unit='letter'][@type = 'start']"/>
 
     <xsl:variable name="vol_info" as="xs:string?">
       <xsl:value-of select="var:volumeFinder($witness, $chapterMarker)"/>
     </xsl:variable>
 
     <xsl:variable name="chap_id" as="xs:string" select="
-        following::tei:head[1]/following-sibling::text()[1] ! lower-case(.) ! replace(., '[.,:;]', '') ! tokenize(., ' ') => string-join('_')
+      tei:milestone[@unit = 'chapter' or @unit='preface' or @unit='letter'][@type = 'start']/following::tei:head[1]/following-sibling::text()[1] ! lower-case(.) ! replace(., '[.,:;]', '') ! tokenize(., ' ') => string-join('_')
         "/>
 
     <anchor type="semantic" subtype="{tei:milestone/@type}"

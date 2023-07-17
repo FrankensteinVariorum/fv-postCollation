@@ -43,11 +43,11 @@
                     </teiHeader>
                     <text>
                         <body>
-                            <ab type="alignmentChunk">
+                            <listApp>
                                 <xsl:apply-templates select="descendant::app">
                                     <xsl:with-param name="chunk" select="$chunk" tunnel="yes"/>
                                 </xsl:apply-templates>
-                            </ab>
+                            </listApp>
                         </body>
                     </text>
                 </TEI>
