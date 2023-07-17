@@ -2,12 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xpath-default-namespace="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
   xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-  xmlns:var="https://frankensteinvariorum.github.io" 
-  xmlns:mith="http://mith.umd.edu/sc/ns1#"
-  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-  xmlns:fv="https://frankensteinvariorum.github.io"
-  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-  exclude-result-prefixes="xs pitt" version="3.0">
+  xmlns:var="https://frankensteinvariorum.github.io" exclude-result-prefixes="xs" version="3.0">
   <!--2023-06-14 ebb: In order to convert the collated edition files into something we can cut into chapters and letters, we will:
     1. flatten their TEI Corpus structures into a single TEI file, and 
     2. Raise chapter / semantic unit anchor elements at the same hierarchy level so these can be addressed as siblings with xsl:for-each-group. 
@@ -95,18 +90,18 @@
     </xsl:for-each>
   </xsl:template>
 
-  <xsl:template match="tei:milestone[@unit = 'chapter' or @unit='preface' or @unit='letter'][@type = 'start']">
+  <xsl:template match="tei:seg[tei:milestone[@unit = 'chapter' or @unit='preface' or @unit='letter'][@type = 'start']]">
     <!--ebb: This template processes Print witness chapter start markers within seg elements. -->
     <xsl:param name="witness"/>
     <xsl:variable name="chapterMarker" as="element()"
-      select="current()"/>
+      select="tei:milestone[@unit = 'chapter' and @type = 'start']"/>
 
     <xsl:variable name="vol_info" as="xs:string?">
       <xsl:value-of select="var:volumeFinder($witness, $chapterMarker)"/>
     </xsl:variable>
 
     <xsl:variable name="chap_id" as="xs:string" select="
-        following::tei:head[1]/following-sibling::text()[1] ! lower-case(.) ! replace(., '[.,:;]', '') ! tokenize(., ' ') => string-join('_')
+      tei:milestone[@unit = 'chapter' or @unit='preface' or @unit='letter'][@type = 'start']/following::tei:head[1]/following-sibling::text()[1] ! lower-case(.) ! replace(., '[.,:;]', '') ! tokenize(., ' ') => string-join('_')
         "/>
 
     <anchor type="semantic" subtype="{tei:milestone/@type}"
@@ -117,8 +112,8 @@
     </xsl:copy>
   </xsl:template>
 
-  <!--<xsl:template match="tei:div/tei:milestone[@unit = 'chapter' and @type = 'start']">
-    <!-\-ebb: This template processes top-level Print witness chapter start markers, nested as a child of the div[@type='collate'] element. -\->
+  <xsl:template match="tei:div/tei:milestone[@unit = 'chapter' and @type = 'start']">
+    <!--ebb: This template processes top-level Print witness chapter start markers, nested as a child of the div[@type='collate'] element. -->
     <xsl:param name="witness"/>
     <xsl:variable name="chapterMarker" as="element()" select="current()"/>
     <xsl:variable name="vol_info" as="xs:string?">
@@ -131,7 +126,7 @@
     <xsl:copy select="current()">
       <xsl:copy-of select="@*"/>
     </xsl:copy>
-  </xsl:template>-->
+  </xsl:template>
 
 
   <xsl:template match="tei:seg[tei:milestone[@spanTo and @unit = 'tei:head']]">
