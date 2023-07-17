@@ -69,7 +69,7 @@ postProcessColl(){
   pipelineArr=("collated-data" "P1-output" "P2-output" "P3-output" "P4-output" 
   "P5-Pt1-output" "P5-Pt2-output" "P5-Pt3-output" "P5-Pt4--output" "P5-Pt5-output" "P5-Pt6-output" 
   "P6-Pt1-output" "P6-Pt2-output" "P6-Pt3-output"
-  "early_standoff_Spine" #"preLev_standoff_Spine"
+  "subchunked_standoff_Spine" #"preLev_standoff_Spine"
   )
   # start processing
   for (( i=0; i < ${#xslArr[@]}; i++ ))
@@ -83,18 +83,21 @@ postProcessColl(){
     java -jar $SAXON -xsl:"${xslArr[$i]}" -s:"${xslArr[$i]}" ${message}
   done  
 
-  # echo -e "${Yellow}Run P6-SpineGenerator.xsl to generate spine files${White}"
-  # echo -e "${Yellow}input: P1-output, output: early_standoff_Spine${White}"
-  # java -jar $SAXON -s:P6-SpineGenerator.xsl -xsl:P6-SpineGenerator.xsl ${message}
+  # rename fMS chapter files
+  cd P6-Pt3-output
+  mv "fMS_box_c56_chapter.xml" "fMS_box_c56_chapter_3.xml"
+  mv "fMS_box_c57_vol_ii.xml" "fMS_box_c57_vol_ii_chap_1.xml"
+  mv "fMS_box_c57_chap.xml" "fMS_box_c57_chap_2.xml"
+  cd ..
 
-  for xml in early_standoff_Spine/*.xml
+  for xml in subchunked_standoff_Spine/*.xml
   do
     mv "$xml" "${xml/P1_/spine_}"
   done
 
   echo -e "${Yellow}Phase 7: Prepare the “spine” of the variorum${White}"
   echo -e "${Yellow}Run spineAdjustor.xsl${White}"
-  echo -e "${Yellow}intput: early_standoff_Spine, output: preLev_standoff_Spine${White}"
+  echo -e "${Yellow}intput: subchunked_standoff_Spine, output: preLev_standoff_Spine${White}"
   java -jar $SAXON -s:spineAdjustor.xsl -xsl:spineAdjustor.xsl 
 
   echo -e "${Yellow}Run extractCollationData.xsl in edit-distance${White}"
@@ -123,10 +126,6 @@ postProcessColl(){
   echo -e "${Yellow}input: preLev_standoff_Spine, output: standoff_Spine${White}"
   java -jar $SAXON -xsl:spine_addLevWeights.xsl -s:spine_addLevWeights.xsl ${message}
 
-#  echo -e "${Yellow}Run spineEmptyWitnessPatch.xsl${White}"
-#  echo -e "${Yellow}input: standoff_Spine, output: fv-data/2023-standoff_Spine${White}"
-#  java -jar $SAXON -xsl:spineEmptyWitnessPatch.xsl -s:spineEmptyWitnessPatch.xsl ${message}
-
  echo -e "${Yellow}Packaging chapter files${White}"
  # Copy separate directories to fv-data repo
  echo -e "Copy ${Yellow}P6-Pt3-output${White} to ${Yellow}fv-data/2023-variorum-chapters${White}"
@@ -140,11 +139,12 @@ main(){
   allArr=("collated-data" "P1-output" "P2-output" "P3-output" "P4-output" 
   "P5-Pt1-output" "P5-Pt2-output" "P5-Pt3-output" "P5-Pt4-output" "P5-Pt5-output" "P5-Pt6-output"
   "P6-Pt1-output" "P6-Pt2-output" "P6-Pt3-output" 
-  "early_standoff_Spine" "preLev_standoff_Spine" #"edit-distance/spineData.txt"
-  "standoff_Spine" 
+  "subchunked_standoff_Spine" "preLev_standoff_Spine" #"edit-distance/spineData.txt"
+  "standoff_Spine" "../../fv-data/2023-variorum-chapters" "../../fv-data/2023-standoff_Spine"
   )
 
   # reset output folders======
+  echo -e "Preparing......"
   for (( i=0; i < ${#allArr[@]}; i++ ))
   do
     rm -r "${allArr[$i]}" # remove all output folders
