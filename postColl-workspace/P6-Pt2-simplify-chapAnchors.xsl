@@ -94,7 +94,7 @@
     <!--ebb: This template processes Print witness chapter start markers within seg elements. -->
     <xsl:param name="witness"/>
     <xsl:variable name="chapterMarker" as="element()"
-      select="tei:milestone[@unit = 'chapter' and @type = 'start']"/>
+      select="tei:milestone[@unit = 'chapter' or @unit='preface' or @unit='letter'][@type = 'start']"/>
 
     <xsl:variable name="vol_info" as="xs:string?">
       <xsl:value-of select="var:volumeFinder($witness, $chapterMarker)"/>
