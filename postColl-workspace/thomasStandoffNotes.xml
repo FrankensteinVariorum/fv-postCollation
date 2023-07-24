@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0"
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:var="https://frankensteinvariorum.github.io">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bridge Phase 6: Witness fThomas</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Frankenstein Variorum Project</authority>
+            <date>2023—</date>
+            <availability>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                    License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Produced from a corpus of collation output files for the Frankenstein Variorum
+                  digital edition on 2023-07-19T00:04:42.3917865-04:00.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
    <list>
       <note ana="ancestor::p[@xml:id=&#34;novel1_letter2_div2_p7&#34;]"
             place="bottom"
