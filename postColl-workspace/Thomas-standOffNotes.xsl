@@ -19,17 +19,31 @@ location of these notes in the Thomas file.  -->
             <xsl:copy-of select=".//teiHeader"/>
         
         
-       <list>
+      <text> 
+         <body> 
+             <list type="notes">
         <xsl:apply-templates select=".//note[@ana='start']"/>
         
        </list> 
+          
+          <list type="adds">
+              <xsl:apply-templates select=".//add[@ana='start']"/>
+              
+          </list>
+          
+          <list type="dels">
+              <xsl:apply-templates select=".//del[@ana='start']"/>
+              
+          </list></body>
+          
+      </text>
         
         </TEI>
         
     </xsl:template>
     
-    <xsl:template match="note">
-        <xsl:element name="{name()}">
+    <xsl:template match="note | add | del">
+      <item><xsl:element name="{name()}">
             <xsl:copy-of select="@*"/>
             <xsl:attribute name="source">
                 <xsl:text>PLACEHOLDER</xsl:text>
@@ -57,8 +71,8 @@ location of these notes in the Thomas file.  -->
             
             
         </xsl:element>
-        
-        
+      </item>
+
     </xsl:template>
     
  
