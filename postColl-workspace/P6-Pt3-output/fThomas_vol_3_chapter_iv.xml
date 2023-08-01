@@ -1,7 +1,8 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xmlns:fv="https://frankensteinvariorum.github.io"
-      xmlns:tei="http://www.tei-c.org/ns/1.0">
+     xmlns:fv="https://frankensteinvariorum.github.io"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:var="https://frankensteinvariorum.github.io">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -19,7 +20,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-07-19T00:04:49.4354614-04:00.</p>
+                                                  2023-08-01T12:38:24.4314707-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -50,7 +51,12 @@
             <seg xml:id="C27_app81-fThomas">upon</seg>
             <seg xml:id="C27_app82-fThomas">examination,</seg> they found that the clothes were not  <seg xml:id="C27_app84-fThomas">wet,</seg> and even  that <pb xml:id="F1818_v3_070" n="066"/>the body was not  <seg xml:id="C27_app88-fThomas">then</seg> cold. They instantly carried it to the cottage of an old woman near the  <seg xml:id="C27_app90-fThomas">spot,</seg> and  <seg xml:id="C27_app92-fThomas">endeavoured,</seg> but in  <seg xml:id="C27_app94-fThomas">vain,</seg> to restore it to  <seg xml:id="C27_app96-fThomas">life.</seg>
             <seg xml:id="C27_app97-fThomas">He</seg> appeared to  <seg xml:id="C27_app99-fThomas">be</seg> a handsome young  <seg xml:id="C27_app101-fThomas">man,</seg> about  <seg xml:id="C27_app103-fThomas">
-               <del ana="start" rend="strikethrough"/>five and<del ana="end"/>
+               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
+                    xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
+                    xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                    ana="start"
+                    rend="strikethrough"
+                    n="066"/>five and<del ana="end"/>
             </seg> twenty years of age. He had apparently been  <seg xml:id="C27_app105-fThomas">strangled;</seg> for there was no sign of any  <seg xml:id="C27_app107-fThomas">violence,</seg> except the black mark of fingers on his neck. </p>
          <p xml:id="novel1_letter4_chapter20_div4_div22_p3"> The first <seg xml:id="C27_app109-fThomas">part</seg> of this deposition did not in the least   <seg xml:id="C27_app111-fThomas">interest me;</seg> but when the mark of the fingers was  <seg xml:id="C27_app113-fThomas">mentioned,</seg> I remembered the  <seg xml:id="C27_app115-fThomas">murder of my</seg>
             <seg xml:id="C27_app116-fThomas">brother,</seg> and felt myself extremely agitated; my limbs  <seg xml:id="C27_app118-fThomas">trembled,</seg> and a mist came over my  <seg xml:id="C27_app120-fThomas">eyes,</seg> which obliged me to lean on a chair for  <seg xml:id="C27_app122-fThomas">support.</seg> The magistrate observed me with a keen  <seg xml:id="C27_app124-fThomas">eye,</seg> and of course drew an unfavourable augury   <seg xml:id="C27_app127-fThomas">from</seg> my manner. </p>
@@ -222,7 +228,12 @@
             <seg xml:id="C27_app868-fThomas">court that decides on life and</seg>
             <seg xml:id="C27_app869-fThomas">death.</seg> The  <seg xml:id="C27_app871-fThomas">grand</seg> jury rejected the  <seg xml:id="C27_app873-fThomas">bill,</seg>
             <hi xml:id="novel1_letter4_chapter20_div4_div22_p44_hi1">on</hi> its being proved that <seg xml:id="C27_app875-fThomas">I was <hi xml:id="novel1_letter4_chapter20_div4_div22_p44_hi2">on</hi>
-               <add ana="start" place="margin"/>in<add ana="end"/> the Orkney Islands</seg> at the hour the body  <seg xml:id="C27_app877-fThomas">of my friend was</seg>
+               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
+                    xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
+                    xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                    ana="start"
+                    place="margin"
+                    n="084"/>in<add ana="end"/> the Orkney Islands</seg> at the hour the body  <seg xml:id="C27_app877-fThomas">of my friend was</seg>
             <seg xml:id="C27_app878-fThomas">found,</seg> and a fortnight after my removal I was liberated from  <seg part="I" xml:id="C27_app880-fThomas__I">prison. </seg>
          </p>
          <p xml:id="novel1_letter4_chapter20_div4_div22_p45">

@@ -1,7 +1,8 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xmlns:fv="https://frankensteinvariorum.github.io"
-      xmlns:tei="http://www.tei-c.org/ns/1.0">
+     xmlns:fv="https://frankensteinvariorum.github.io"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:var="https://frankensteinvariorum.github.io">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -19,7 +20,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-07-19T00:04:49.4354614-04:00.</p>
+                                                  2023-08-01T12:38:24.4314707-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -39,8 +40,18 @@
             <seg xml:id="C14_app65-fThomas">innocence,</seg> and did not  <seg xml:id="C14_app67-fThomas">tremble,</seg> although gazed  <seg xml:id="C14_app69-fThomas">on</seg> and execrated by  <seg xml:id="C14_app71-fThomas">thousands;</seg> for all the  <seg xml:id="C14_app73-fThomas">
                <pb xml:id="F1818_v1_174" n="162"/>kindness</seg> which her beauty might  <seg xml:id="C14_app75-fThomas">otherwise</seg> have  <seg xml:id="C14_app77-fThomas">excited,</seg> was obliterated  <seg xml:id="C14_app79-fThomas">in the minds of the spectators</seg> by the  <seg xml:id="C14_app81-fThomas">imagination</seg> of the enormity she was supposed to have committed. She was  <seg xml:id="C14_app83-fThomas">tranquil,</seg> yet her tranquillity was  <seg xml:id="C14_app85-fThomas">evidently constrained;</seg> and as her confusion had before been adduced as a proof of her  <seg xml:id="C14_app87-fThomas">guilt,</seg> she worked  <seg xml:id="C14_app89-fThomas">up her mind to an</seg>
             <seg xml:id="C14_app90-fThomas">appearance</seg> of courage. When she entered the  <seg xml:id="C14_app92-fThomas">court,</seg> she threw her eyes round  <seg xml:id="C14_app94-fThomas">it,</seg> and quickly  <seg xml:id="C14_app96-fThomas">discovered</seg> where we were  <seg xml:id="C14_app98-fThomas">seated.</seg> A tear seemed to dim her eye when she saw  <seg xml:id="C14_app100-fThomas">us;</seg> but she  <seg xml:id="C14_app102-fThomas">
-               <del ana="start" rend="strikethrough"/>quickly<del ana="end"/>
-               <add ana="start" place="margin"/>instantly<add ana="end"/>
+               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
+                    xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
+                    xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                    ana="start"
+                    rend="strikethrough"
+                    n="162"/>quickly<del ana="end"/>
+               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
+                    xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
+                    xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                    ana="start"
+                    place="margin"
+                    n="162"/>instantly<add ana="end"/>
             </seg> recovered  <seg xml:id="C14_app104-fThomas">herself,</seg> and  <seg xml:id="C14_app106-fThomas">a look</seg>
             <seg xml:id="C14_app107-fThomas">of</seg>
             <seg xml:id="C14_app108-fThomas">sorrowful</seg> affection seemed to attest her utter guiltlessness. </p>
@@ -49,7 +60,12 @@
             <seg xml:id="C14_app128-fThomas">her</seg> what she did   <seg xml:id="C14_app130-fThomas">there;</seg> but she looked very   <seg xml:id="C14_app133-fThomas">strangely,</seg> and only returned a confused  <seg xml:id="C14_app135-fThomas">and unintelligible answer.</seg> She  <seg xml:id="C14_app137-fThomas">returned to the house about eight</seg>
             <seg xml:id="C14_app138-fThomas">o’clock;</seg>
             <seg xml:id="C14_app139-fThomas">and</seg> when  <seg xml:id="C14_app141-fThomas">
-               <add ana="start" place="margin"/>some <add ana="end"/>
+               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
+                    xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
+                    xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                    ana="start"
+                    place="margin"
+                    n="163"/>some <add ana="end"/>
             </seg> one  <seg xml:id="C14_app143-fThomas">inquired</seg> where she had passed the  <seg xml:id="C14_app145-fThomas">night,</seg> she  <seg xml:id="C14_app147-fThomas">replied,</seg> that she had been looking  <seg xml:id="C14_app149-fThomas">for</seg> the   <seg xml:id="C14_app151-fThomas">child,</seg> and  <seg xml:id="C14_app153-fThomas">demanded</seg>
             <seg xml:id="C14_app154-fThomas">earnestly,</seg> if any thing had been heard  <seg xml:id="C14_app156-fThomas">concerning</seg> him. When  <seg xml:id="C14_app158-fThomas">shewn</seg> the  <seg xml:id="C14_app160-fThomas">body,</seg> she fell into violent  <seg xml:id="C14_app162-fThomas">hysterics,</seg> and kept her bed for several days. The picture was then  <seg xml:id="C14_app164-fThomas">produced,</seg> which the servant had found in her  <seg xml:id="C14_app166-fThomas">pocket;</seg> and when  <seg xml:id="C14_app168-fThomas">Elizabeth,</seg> in <pb xml:id="F1818_v1_176" n="164"/>a <seg xml:id="C14_app170-fThomas">faltering voice,</seg> proved that it was the same  <seg xml:id="C14_app172-fThomas">which,</seg> an hour before  <seg xml:id="C14_app174-fThomas">the child had been missed, she had</seg> placed round his   <seg xml:id="C14_app176-fThomas">neck,</seg> a murmur of  <seg xml:id="C14_app178-fThomas">horror</seg> and  <seg xml:id="C14_app180-fThomas">indignation</seg> filled the court. </p>
          <p xml:id="novel1_letter4_chapter7_div4_div7_p4"> Justine was <seg xml:id="C14_app182-fThomas">called on for her defence.</seg>
@@ -64,8 +80,18 @@
          <p xml:id="novel1_letter4_chapter7_div4_div7_p6"> She then related <seg xml:id="C14_app229-fThomas">that,</seg> by the permission of  <seg xml:id="C14_app231-fThomas">Elizabeth,</seg> she had passed the evening of the night on which the murder  <seg xml:id="C14_app233-fThomas">had been</seg>
             <seg xml:id="C14_app234-fThomas">committed,</seg> at  <seg xml:id="C14_app236-fThomas">the house of</seg> an aunt   <seg xml:id="C14_app238-fThomas">at Chêne,</seg> a village  <seg xml:id="C14_app240-fThomas">situated at</seg> about a league from Geneva. On her  <seg xml:id="C14_app242-fThomas">return,</seg> at about nine  <seg xml:id="C14_app244-fThomas">o’clock,</seg> she met a  <seg xml:id="C14_app246-fThomas">man,</seg> who asked her if she had seen any thing of the child who was lost. She was  <seg xml:id="C14_app248-fThomas">alarmed by</seg> this  <seg xml:id="C14_app250-fThomas">account,</seg> and passed several hours in looking for  <seg xml:id="C14_app252-fThomas">him,</seg> when the gates of Geneva were  <seg xml:id="C14_app254-fThomas">shut,</seg> and she  <seg xml:id="C14_app256-fThomas">was forced to remain</seg>
             <seg xml:id="C14_app257-fThomas">
-               <del ana="start" rend="strikethrough"/>several hours<del ana="end"/>
-               <add ana="start" place="margin"/>the greater part<add ana="end"/>
+               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
+                    xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
+                    xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                    ana="start"
+                    rend="strikethrough"
+                    n="165"/>several hours<del ana="end"/>
+               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
+                    xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
+                    xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                    ana="start"
+                    place="margin"
+                    n="165"/>the greater part<add ana="end"/>
             </seg> of the night in  <seg xml:id="C14_app260-fThomas">a barn belonging to</seg> a cottage,  <seg xml:id="C14_app262-fThomas">being unwilling to call up the inhabitants, to whom she was well known.</seg>
             <seg xml:id="C14_app263-fThomas">Unable to rest or sleep,</seg> she  <seg xml:id="C14_app265-fThomas">quitted her</seg>
             <seg xml:id="C14_app266-fThomas">asylum early,</seg> that she might again endeavour to find my brother. If she had gone near the  <seg xml:id="C14_app268-fThomas">spot</seg>
@@ -89,7 +115,12 @@
          </p>
          <p xml:id="novel1_letter4_chapter7_div4_div7_p8"> “I commit my cause to the justice of my <seg xml:id="C14_app324-fThomas">judges,</seg> yet I see no room for hope. I beg permission to have a few witnesses  <seg xml:id="C14_app326-fThomas">examined</seg> concerning my  <seg xml:id="C14_app328-fThomas">character;</seg> and if  <seg xml:id="C14_app330-fThomas">their</seg> testimony shall not overweigh my supposed  <seg xml:id="C14_app332-fThomas">guilt,</seg> I  <seg xml:id="C14_app334-fThomas">must be</seg>
             <seg xml:id="C14_app335-fThomas">condemned,</seg> although I  <seg xml:id="C14_app337-fThomas">
-               <del ana="start" rend="strikethrough"/>would<del ana="end"/>
+               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
+                    xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
+                    xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                    ana="start"
+                    rend="strikethrough"
+                    n="167"/>would<del ana="end"/>
             </seg> pledge my salvation on my innocence.” </p>
          <p xml:id="novel1_letter4_chapter7_div4_div7_p9"> Several witnesses were <seg xml:id="C14_app340-fThomas">called,</seg> who had known her for many  <seg xml:id="C14_app342-fThomas">years,</seg> and they spoke well of  <seg xml:id="C14_app344-fThomas">her;</seg> but  <seg xml:id="C14_app346-fThomas">fear,</seg> and hatred of the crime of which they supposed her  <seg xml:id="C14_app348-fThomas">guilty,</seg> rendered them  <seg xml:id="C14_app350-fThomas">timorous,</seg> and unwilling  <seg xml:id="C14_app352-fThomas">to come forward.</seg> Elizabeth saw even this last resource, her excellent  <seg xml:id="C14_app354-fThomas">dispositions and</seg>
             <seg xml:id="C14_app355-fThomas">irreproachable</seg> conduct, about to  <seg xml:id="C14_app357-fThomas">fail the</seg> accused,  <seg xml:id="C14_app359-fThomas">when,</seg> although  <seg xml:id="C14_app361-fThomas">violently</seg>

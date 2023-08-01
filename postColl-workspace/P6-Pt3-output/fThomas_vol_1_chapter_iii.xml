@@ -1,7 +1,8 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xmlns:fv="https://frankensteinvariorum.github.io"
-      xmlns:tei="http://www.tei-c.org/ns/1.0">
+     xmlns:fv="https://frankensteinvariorum.github.io"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:var="https://frankensteinvariorum.github.io">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -19,7 +20,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-07-19T00:04:49.4354614-04:00.</p>
+                                                  2023-08-01T12:38:24.4314707-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -93,7 +94,12 @@
             <seg xml:id="C09_app188-fThomas">those branches</seg> of natural philosophy which  <seg xml:id="C09_app190-fThomas">relate to</seg>
             <seg xml:id="C09_app191-fThomas">physiology.</seg>
             <seg xml:id="C09_app192-fThomas">
-               <add ana="start" place="margin"/>The event of these enquiries interested my understanding, I may say my imagination, until I was exalted to a kind of transport. And indeed <add ana="end"/> Unless I had been animated by an almost supernatural enthusiasm, my application to this study would have been</seg>
+               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
+                    xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
+                    xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                    ana="start"
+                    place="margin"
+                    n="082"/>The event of these enquiries interested my understanding, I may say my imagination, until I was exalted to a kind of transport. And indeed <add ana="end"/> Unless I had been animated by an almost supernatural enthusiasm, my application to this study would have been</seg>
             <seg xml:id="C09_app193-fThomas">irksome,</seg> and almost intolerable. To examine the causes of  <seg xml:id="C09_app195-fThomas">life,</seg> we must first have  <seg xml:id="C09_app197-fThomas">recourse to death.</seg>
             <seg xml:id="C09_app198-fThomas">I became acquainted with the science of</seg>
             <seg xml:id="C09_app199-fThomas">anatomy:</seg> but this was not  <seg xml:id="C09_app201-fThomas">sufficient;</seg> I must also observe the natural decay and corruption of the human body. In my  <seg xml:id="C09_app203-fThomas">education my</seg> father had taken the <pb xml:id="F1818_v1_095" n="083"/>greatest precautions that my mind should <seg xml:id="C09_app205-fThomas">be impressed</seg>
@@ -217,8 +223,17 @@
             <seg xml:id="C09_app788-fThomas">my occupation.</seg> The leaves of that year  <seg xml:id="C09_app790-fThomas">had</seg> withered before my work drew near  <seg xml:id="C09_app792-fThomas">to</seg> a  <seg xml:id="C09_app794-fThomas">close;</seg> and now every day  <seg xml:id="C09_app796-fThomas">shewed</seg> me more plainly how well I had succeeded. But my enthusiasm was checked by my  <seg xml:id="C09_app798-fThomas">anxiety,</seg> and I appeared rather like one doomed by slavery to toil in the  <seg xml:id="C09_app800-fThomas">mines,</seg> or any other  <seg xml:id="C09_app802-fThomas">unwholesome trade,</seg> than an artist occupied  <seg xml:id="C09_app804-fThomas">by</seg> his favourite employment. Every  <seg xml:id="C09_app806-fThomas">night</seg>
             <seg xml:id="C09_app807-fThomas">I was oppressed by</seg> a slow  <seg xml:id="C09_app809-fThomas">fever,</seg> and I became  <seg xml:id="C09_app811-fThomas">nervous</seg> to a   <seg xml:id="C09_app813-fThomas">most painful degree;</seg>
             <seg xml:id="C09_app814-fThomas">
-               <del ana="start" rend="strikethrough"/>a disease that I regretted the more because I had hitherto en<pb xml:id="F1818_v1_108" n="096"/>joyed most excellent health, and had always boasted of the firmness of my nerves.<del ana="end"/>
-               <add ana="start"/>my voice became broken, my trembling hands almost refused to accomplish their task; I became as timid as a love-sick girl, and alternate tremor and passionate ardour took the place of wholesome sensation and regulated ambition.<add ana="end"/>
+               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
+                    xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
+                    xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                    ana="start"
+                    rend="strikethrough"
+                    n="095"/>a disease that I regretted the more because I had hitherto en<pb xml:id="F1818_v1_108" n="096"/>joyed most excellent health, and had always boasted of the firmness of my nerves.<del ana="end"/>
+               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
+                    xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
+                    xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                    ana="start"
+                    n="096"/>my voice became broken, my trembling hands almost refused to accomplish their task; I became as timid as a love-sick girl, and alternate tremor and passionate ardour took the place of wholesome sensation and regulated ambition.<add ana="end"/>
             </seg>
             <seg xml:id="C09_app836-fThomas">But</seg> I believed that exercise and amusement would  <seg xml:id="C09_app838-fThomas">soon</seg>
             <seg xml:id="C09_app839-fThomas">drive away</seg>

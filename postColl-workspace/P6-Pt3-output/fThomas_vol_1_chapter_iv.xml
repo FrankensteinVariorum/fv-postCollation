@@ -1,7 +1,8 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xmlns:fv="https://frankensteinvariorum.github.io"
-      xmlns:tei="http://www.tei-c.org/ns/1.0">
+     xmlns:fv="https://frankensteinvariorum.github.io"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:var="https://frankensteinvariorum.github.io">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -19,7 +20,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-07-19T00:04:49.4354614-04:00.</p>
+                                                  2023-08-01T12:38:24.4314707-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -43,10 +44,20 @@
             <seg xml:id="C10_app49-fThomas">black,</seg> and  <seg xml:id="C10_app51-fThomas">flowing;</seg> his teeth of a pearly  <seg xml:id="C10_app53-fThomas">whiteness;</seg> but these  <seg xml:id="C10_app55-fThomas">luxuriances</seg> only  <seg xml:id="C10_app57-fThomas">formed a more horrid contrast with his</seg>
             <seg xml:id="C10_app58-fThomas">watery eyes,</seg> that seemed almost of the same colour as the dun white sockets in which they were  <seg xml:id="C10_app60-fThomas">set, his</seg> shrivelled  <seg xml:id="C10_app62-fThomas">complexion,</seg>
             <seg xml:id="C10_app63-fThomas">
-               <del ana="start" rend="strikethrough"/>and<del ana="end"/>
+               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
+                    xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
+                    xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                    ana="start"
+                    rend="strikethrough"
+                    n="098"/>and<del ana="end"/>
             </seg>
             <seg xml:id="C10_app64-fThomas">straight</seg> black lips.  <seg part="I" xml:id="C10_app66-fThomas__I">
-               <add ana="start" place="margin"/>And the contortions that ever and anon con<del-INNER ana="start"/>puls<del-INNER ana="end"/>
+               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
+                    xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
+                    xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                    ana="start"
+                    place="margin"
+                    n="098"/>And the contortions that ever and anon con<del-INNER ana="start"/>puls<del-INNER ana="end"/>
                <add-INNER ana="start" place="overtop"/>vuls<add-INNER ana="end"/>ed &amp; deformed his un-human features.<add ana="end"/>
             </seg>
          </p>
@@ -201,8 +212,16 @@
             <seg xml:id="C10_app645-fThomas">that</seg> time Henry was my only nurse. I afterwards learned  <seg xml:id="C10_app647-fThomas">that,</seg> knowing my  <seg xml:id="C10_app649-fThomas">father’s</seg> advanced  <seg xml:id="C10_app651-fThomas">age,</seg> and unfitness for so long a  <seg xml:id="C10_app653-fThomas">journey, and how wretched my sickness</seg> would  <seg xml:id="C10_app655-fThomas">make Elizabeth,</seg> he  <seg xml:id="C10_app657-fThomas">spared them this</seg>
             <seg xml:id="C10_app658-fThomas">grief</seg> by   <seg xml:id="C10_app660-fThomas">concealing</seg>
             <seg xml:id="C10_app661-fThomas">
-               <del ana="start"/>the extent of my disorder.<del ana="end"/>
-               <add ana="start"/>the violence of the attack.<add ana="end"/>
+               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
+                    xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
+                    xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                    ana="start"
+                    n="110"/>the extent of my disorder.<del ana="end"/>
+               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
+                    xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
+                    xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                    ana="start"
+                    n="110"/>the violence of the attack.<add ana="end"/>
             </seg> He knew that I could not have a more kind and attentive nurse than  <seg xml:id="C10_app663-fThomas">himself; and,</seg> firm in the hope he  <seg xml:id="C10_app665-fThomas">felt</seg> of my  <seg xml:id="C10_app667-fThomas">recovery,</seg> he did not doubt  <seg xml:id="C10_app669-fThomas">that,</seg> instead of doing  <seg xml:id="C10_app671-fThomas">harm,</seg> he performed the kindest action that he could towards them. </p>
          <p xml:id="novel1_letter4_chapter4_div4_div4_p20"> But I was in reality very <seg xml:id="C10_app673-fThomas">ill; and surely</seg> nothing but the unbounded  <seg xml:id="C10_app675-fThomas">and unremitting attentions of my friend could have restored me to life. The form of the</seg>
             <seg xml:id="C10_app676-fThomas">monster</seg> on whom I had bestowed  <seg xml:id="C10_app678-fThomas">existence</seg> was for ever before <pb xml:id="F1818_v1_123" n="111"/>my eyes, and I raved <seg xml:id="C10_app680-fThomas">incessantly concerning him. Doubtless my words</seg>
