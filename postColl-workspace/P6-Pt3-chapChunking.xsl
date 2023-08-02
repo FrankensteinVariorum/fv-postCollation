@@ -39,7 +39,7 @@
                 <xsl:choose>
                     <xsl:when test="position() = 1">
                         <xsl:result-document
-                            href="P6-Pt3-output/{$currFile//anchor[@type='semantic'][1]/@xml:id ! replace(., '\W', '_')}.xml"
+                            href="P6-Pt3-output/{$currFile//anchor[@type='semantic'][1]/@xml:id ! replace(., '\W+', '_')}.xml"
                             method="xml" indent="yes">
                             <TEI xmlns:fv="https://frankensteinvariorum.github.io">
                                 <teiHeader>
@@ -79,7 +79,7 @@
 
                     </xsl:when>
                     <xsl:otherwise>
-                        <xsl:result-document href="P6-Pt3-output/{current()/@xml:id ! replace(., '\W', '_')}.xml"
+                        <xsl:result-document href="P6-Pt3-output/{current()/@xml:id ! replace(., '\W+', '_')}.xml"
                             method="xml" indent="yes">
                             <TEI xmlns:fv="https://frankensteinvariorum.github.io">
                                 <teiHeader>
