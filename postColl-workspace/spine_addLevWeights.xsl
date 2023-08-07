@@ -30,8 +30,17 @@
     </xsl:template>
     
     <xsl:template match="tei:app">
-        <app xml:id="{@xml:id}" n="{$FS_Levs//fs[@feats=current()/@xml:id]/f/@fVal => max()}">
+        <xsl:choose>
+            <xsl:when test="tei:rdgGrp[contains(@xml:id, 'empty')] and count(tei:rdgGrp) = 2">
+                <app xml:id="{@xml:id}" n="1">
+                    <xsl:apply-templates/>
+                </app>
+            </xsl:when>
+         <xsl:otherwise>
+             <app xml:id="{@xml:id}" n="{$FS_Levs//fs[@feats=current()/@xml:id]/f/@fVal => max()}">
             <xsl:apply-templates/>
-        </app>
+        </app></xsl:otherwise>
+        
+        </xsl:choose>
     </xsl:template>
 </xsl:stylesheet>
