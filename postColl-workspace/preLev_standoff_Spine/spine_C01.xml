@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
       xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-      xml:id="P1-C01">
+      xmlns:fv="https://github.com/FrankensteinVariorum"
+      xmlns:mith="http://mith.umd.edu/sc/ns1#"
+      xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Bridge Phase 1: Collation unit C01</title>
+            <title>Spine: Collation unit C01</title>
          </titleStmt>
          <publicationStmt>
             <authority>Frankenstein Variorum Project</authority>
@@ -16,12 +18,78 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <p>This project digitally compares five versions of the novel <title level="m">Frankenstein</title> prepared between 1816 and 1831.
+                                <abbr>fMS</abbr> refers to the manuscript notebooks dated roughly 1816 to 1818 and stored in three boxes at the Bodleian library in Oxford.
+                                    <abbr>f1818</abbr> refers to the first anonymous publication of Frankenstein in 1818. <abbr>fThomas</abbr> refers to a copy of the 1818 edition left by 
+                                    Mary Shelley with her friend Mrs. Thomas in Italy before she left for England after the death of Percy Shelley. This copy contains 
+                                    handwritten marginalia indicating edits she would make if there were ever a new edition, and apparently was not available for Mary Shelley to consult later.
+                                    <abbr>f1823</abbr> refes to the published edition prepared by William Godwin, the first to feature Mary Wollstonecraft Godwin Shelley’s name as the author. 
+                                    <abbr>f1831</abbr> refers to a heavily revised version prepared by Mary Shelley in 1831 for Bentley's Standard Series of novels. 
+                                    This edition was bound together in one volume with <bibl>Friedrich von Schiller’s <title level="m">The Ghost Seer</title>
+               </bibl>.
+                                </p>
+            <listBibl>
+               <bibl/>
+               <bibl/>
+               <bibl/>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This is a <q>spine</q> file representing a standoff critical apparatus for one of 33
+                                    aligned collation units or <q>chunks</q> that start and end in parallel across five
+                                    versions of the novel <title level="m">Frankenstein</title>. It is produced from a
+                                    machine-assisted process working with the collation software collateX, but our output
+                                    is not standard. CollateX calculates alignments and variations based on dividing
+                                    documents into tokens based on words or characters, and it allows for its adapters to
+                                    develop a normalization algorithm, to indicate that some strings, like <q>&amp;</q>
+                                    should be read as <q>and</q> by the software. The normalization mechanism afforded by
+                                    collateX permits us to compare markup of chapter and paragraph boundaries in simpler
+                                    forms. For example, it allows for TEI surface-and-zone markup of paragraphs in
+                                    <gi>milestone</gi> elements to be normalized as identical with <gi>p</gi> elements
+                                    used in other editions. We have developed a very complex, lengthy series of
+                                    normalizations
+                                    , and
+                                    we want to expose them in our TEI representation of the comparison data in our
+                                    project.</p>
+            <p>Our output of this spine file is not standard for collateX because we are
+                                    purposefully sharing an array of normalized tokens in an <att>n</att> attribute on
+                                    each <gi>rdgGrp</gi> element. This allows us to indicate the basis on which the
+                                    witnesses align when they are frequently not identical character-by-character. We are
+                                    grateful to David J. Birnbaum in his role as a member of the collateX team for
+                                    assisting us by locally editing the collateX 1.7.1 Python library for our project to
+                                    expose the normalized tokens in our TEI Variorum Spine files.</p>
+            <p>Additionally, we developed a post-collation processing pipeline with XSLT and Python
+                                    to to calculate Levenshtein (or edit-distance) values for each pair-wise comparison
+                                    possible at each moment of variation represented in a <gi>app</gi>, and we output the
+                                    maximum of these values in the <att>n</att> attribute on each <gi>app</gi>
+                                    element.</p>
             <p>Produced from collation output prepared in batch file processing
                                     on  2023-08-09 17:59:26.201529 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
                                     Variorum spine on 2023-08-09T16:23:49.423353-04:00.</p>
-         </sourceDesc>
-      </fileDesc>
+         </editorialDecl>
+         <appInfo>
+            <application ident="collateX" version="1.7.1">
+               <label>collateX</label>
+            </application>
+         </appInfo>
+         <listPrefixDef>
+            <desc>When the manuscript notebook witness shows content, the <gi>witDetail</gi> element
+                                    includes a <att>target</att> attribute that can be used to construct links to the
+                                    Shelley-Godwin Archive website display of the particular page on which this appears.
+                                    We also provide links directly to the XML documents together with XPath and
+                                    string-range data that should point to the specirfic location in the Shelley-Godwin
+                                    Archive TEI for this page. The prefixDef below indicates how to construct the links: </desc>
+            <prefixDef ident="sga"
+                        matchPattern="(c\d+/#/p\d+)"
+                        replacementPattern="https://shelleygodwinarchive.org/sc/oxford/ms_abinger/$1">
+               <p>For example, sga:c57/#/p73 resolves to the URL <ref target="https://shelleygodwinarchive.org/sc/oxford/ms_abinger/c57/#/p73">https://shelleygodwinarchive.org/sc/oxford/ms_abinger/c57/#/p73</ref> linking to 
+                                        the webpage that represents page 73 in box 57 of the Oxford Abinger notebooks.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
    </teiHeader>
    <text>
       <body>
