@@ -202,6 +202,15 @@
                     when the seg element contains "__I", "__M", or "__F". Consider that this means multiple  -->
                 <xsl:for-each select="$currEd-Seg">
                     <xsl:variable name ="currEd-FileName" as="xs:string*" select="current() ! base-uri() ! tokenize(., '/')[last()]"/>
+                    <xsl:variable name="mended-FileName" as="xs:string*">
+                        <!--2023-08-09 ebb and yxj: We run the current edition filename through three translate functions in order to replace
+                        three special cases in the MS where we could not reach the full chapter number in our variable that creates the filename.
+                        -->
+                        
+                        <xsl:value-of select="$currEd-FileName ! translate(., 'fMS_box_c56_chapter#', 'fMS_box_c56_chapter_3#') 
+                            ! translate(., 'fMS_box_c57_vol_ii#', 'fMS_box_c57_vol_ii_chap_i#') ! translate(., 'fMS_box_c57_chap#', 'fMS_box_c57_chap_2#')"/>
+                        
+                    </xsl:variable>
                 <ptr target="{$fvChap_loc}{$currEd-FileName}#{current()/@xml:id}"/>
                 </xsl:for-each>
                 
