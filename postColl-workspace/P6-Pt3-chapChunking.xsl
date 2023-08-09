@@ -6,7 +6,9 @@
     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
     xmlns:mith="http://mith.umd.edu/sc/ns1#"
     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-    xmlns:fv="https://frankensteinvariorum.github.io" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:fv="https://frankensteinvariorum.github.io" 
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:var="https://frankensteinvariorum.github.io"
     exclude-result-prefixes="xs math mith pitt th" version="3.0">
 
     <!-- 2023-06-1 ebb yxj nlh: This XSLT should output separate chapter files. It is not doing that yet. 
@@ -37,7 +39,7 @@
                 <xsl:choose>
                     <xsl:when test="position() = 1">
                         <xsl:result-document
-                            href="P6-Pt3-output/{$currFile//anchor[@type='semantic'][1]/@xml:id ! replace(., '\W', '_')}.xml"
+                            href="P6-Pt3-output/{$currFile//anchor[@type='semantic'][1]/@xml:id ! replace(., '\W+', '_')}.xml"
                             method="xml" indent="yes">
                             <TEI xmlns:fv="https://frankensteinvariorum.github.io">
                                 <teiHeader>
@@ -77,15 +79,14 @@
 
                     </xsl:when>
                     <xsl:otherwise>
-                        <xsl:result-document href="P6-Pt3-output/{current()/@xml:id ! replace(., '\W', '_')}.xml"
+                        <xsl:result-document href="P6-Pt3-output/{current()/@xml:id ! replace(., '\W+', '_')}.xml"
                             method="xml" indent="yes">
                             <TEI xmlns:fv="https://frankensteinvariorum.github.io">
                                 <teiHeader>
                                     <fileDesc>
                                         <titleStmt>
                                             <title>Bridge Phase 6: <xsl:value-of
-                                                  select="current()/@xml:id ! replace(., '_', ' ')"
-                                                /></title>
+                                                  select="current()/@xml:id ! replace(., '_', ' ')"/></title>
                                         </titleStmt>
                                         <publicationStmt>
                                             <authority>Frankenstein Variorum Project</authority>
@@ -117,5 +118,14 @@
     </xsl:template>
 
     <xsl:template match="teiHeader"/>
-
+    
+    <xsl:template match="add[@ana='start']|del[@ana='start']|note[@ana='start']">
+        <xsl:copy>
+            <xsl:copy-of select="@*" />
+            <xsl:attribute name="n">
+                <xsl:value-of select="preceding::pb[1]/@n"/> 
+            </xsl:attribute>
+            <xsl:apply-templates/>
+        </xsl:copy>
+    </xsl:template>
 </xsl:stylesheet>
