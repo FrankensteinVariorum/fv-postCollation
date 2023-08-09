@@ -108,7 +108,7 @@
             <xsl:variable name="P1-filename" as="xs:string" select="current() ! base-uri() ! tokenize(.,'/')[last()]"/>
             <xsl:variable name="chunk" as="xs:string" select="$P1-filename ! substring-after(., '_') ! substring-before(., '.xml')"/>
             <xsl:result-document method="xml" indent="yes"
-                href="standoff_Spine/spine_{$chunk}.xml">
+                href="early_standoff_Spine/spine_{$chunk}.xml">
             <xsl:apply-templates/>
             </xsl:result-document>
         </xsl:for-each>
