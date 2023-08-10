@@ -8,7 +8,7 @@
     xmlns:cx="http://interedition.eu/collatex/ns/1.0"
     exclude-result-prefixes="xs th mith fv cx tei" version="3.0">
 
-    <!--2018-10-17 updated 2019-03-16, 2023-07-04, 2023-07-13 ebb: This XSLT generates the “spine” files for the Variorum. 
+    <!--2018-10-17 updated 2019-03-16, 2023-07-04, 2023-07-13, 2023-08-09 ebb: This XSLT generates the “spine” files for the Variorum. 
         These files differ from the P1 stage of processing because the P1 form contains the complete texts of all edition files, mapping them to critical apparatus markup with variant apps (containing multiple rdgGrps or divergent forms) as well as invariant apps (containing only one rdgGrp where all editions run in unison). For the purposes of the Variorum encoding, our “spine” needs only to work with the variant passages, because those are the passages we will highlight and interlink in the Variorum interface. So, in this stage of processing we remove the invariant apps from P1 in generating the Variorum “spines”. We are processing rdgGrps in this XSLT.
         
         It runs over the P1-output directory (pulls info from P6Pt3-output) and outputs to early_standoff_Spine directory.
@@ -211,7 +211,7 @@
                             ! translate(., 'fMS_box_c57_vol_ii#', 'fMS_box_c57_vol_ii_chap_i#') ! translate(., 'fMS_box_c57_chap#', 'fMS_box_c57_chap_2#')"/>
                         
                     </xsl:variable>
-                <ptr target="{$fvChap_loc}{$currEd-FileName}#{current()/@xml:id}"/>
+                <ptr target="{$fvChap_loc}{$mended-FileName}#{current()/@xml:id}"/>
                 </xsl:for-each>
                 
                 <!--2023-07-13 ebb: Here we output a special witDetail element that lists URLs for each S-GA surface and their associated string-ranges. -->
