@@ -20,7 +20,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-08-09T16:23:55.700588-04:00.</p>
+                                                  2023-08-09T21:07:34.392752-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -78,6 +78,24 @@
          </p>
          <seg part="F" xml:id="C01_app16-fThomas__F">
             <milestone unit="preface" type="end" n="1"/>
+         </seg>
+         <seg xml:id="C02_app1-fThomas">
+            <anchor type="collate" xml:id="C02"/>
+            <milestone unit="novel" type="start" n="1"/>
+            <pb xml:id="F1818_v1_013"/>
+            <head ana="start"/>FRANKENSTEIN;<head ana="end"/>
+         </seg>
+         <seg xml:id="C02_app2-fThomas">
+            <head ana="start"/>
+            <hi xml:id="novel1_head2_hi1">OR, THE</hi>
+            <head ana="end"/>
+         </seg>
+         <seg xml:id="C02_app3-fThomas">
+            <head ana="start"/>
+         </seg>
+         <seg xml:id="C02_app4-fThomas">
+            <hi xml:id="novel1_head3_hi1">MODERN PROMETHEUS.</hi>
+            <head ana="end"/>
          </seg>
       </body>
    </text>
