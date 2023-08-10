@@ -205,11 +205,29 @@
                     <xsl:variable name="mended-FileName" as="xs:string*">
                         <!--2023-08-09 ebb and yxj: We run the current edition filename through three translate functions in order to replace
                         three special cases in the MS where we could not reach the full chapter number in our variable that creates the filename.
-                        -->
-                        
-                        <xsl:value-of select="$currEd-FileName ! translate(., 'fMS_box_c56_chapter#', 'fMS_box_c56_chapter_3#') 
-                            ! translate(., 'fMS_box_c57_vol_ii#', 'fMS_box_c57_vol_ii_chap_i#') ! translate(., 'fMS_box_c57_chap#', 'fMS_box_c57_chap_2#')"/>
-                        
+                        --> 
+                  <!--      <xsl:value-of select="$currEd-FileName !
+                            translate(., 'fMS_box_c56_chapter.xml', 'fMS_box_c56_chapter_3.xml') 
+                            ! translate(., 'fMS_box_c57_vol_ii.xml', 'fMS_box_c57_vol_ii_chap_i.xml') 
+                            ! translate(., 'fMS_box_c57_chap.xml', 'fMS_box_c57_chap_2.')"/>-->
+                        <!--ebb: translate function does not work like this. It does not work because translate is looking to replace *any* of the characters listed
+                        and not necessarily in that order. It is actually making changes where we do not want to make them. We need a more precise match on the full string.-->
+                        <xsl:choose>
+                            <xsl:when test="$currEd-FileName = 'fMS_box_c56_chapter.xml'">
+                                <xsl:text>fMS_box_c56_chapter_3.xml</xsl:text>
+                             </xsl:when>
+                            <xsl:when test="$currEd-FileName = 'fMS_box_c57_vol_ii.xml'">
+                                <xsl:text>fMS_box_c57_vol_ii_chap_i.xml</xsl:text>
+                            </xsl:when>
+                            <xsl:when test="$currEd-FileName = 'fMS_box_c57_chap.xml'">
+                                <xsl:text>fMS_box_c57_chap_2.xml</xsl:text>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:value-of select="$currEd-FileName"/>
+                            </xsl:otherwise>
+  
+                        </xsl:choose>
+              
                     </xsl:variable>
                 <ptr target="{$fvChap_loc}{$mended-FileName}#{current()/@xml:id}"/>
                 </xsl:for-each>
