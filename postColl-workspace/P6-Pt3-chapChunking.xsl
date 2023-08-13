@@ -10,8 +10,10 @@
     xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:var="https://frankensteinvariorum.github.io"
     exclude-result-prefixes="#all" version="3.0">
-
-    <!-- 2023-06-1 ebb yxj nlh: This XSLT should output separate chapter files. 
+    <!-- 2023-08-13 ebb with djbpitt: exclude-result-prefixes="#all" removes all the namespaces that simply aren't used. 
+        Within the stylesheet we should also use local-name() to output nodes that might come bundled with unwanted namespaces.
+    -->
+    <!-- 2023-06-01 ebb yxj nlh: This XSLT should output separate chapter files. 
     We have only tried it for the fMS so far, and it is outputting only one file, named with the correct text node, but otherwise systematically excluding its content. AND it is failing by only outputting a single file.
     
     ebb thinks we should proceed by testing the OTHER print editions, and see if that helps us figure out the problem in fMS.

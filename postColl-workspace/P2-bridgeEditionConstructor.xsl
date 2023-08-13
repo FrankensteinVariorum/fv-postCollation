@@ -34,12 +34,12 @@
                         </teiHeader>
                         <text>
                             <body>
-                                <ab type="alignmentChunk" xml:id="{$chunk}">
+                                &lt;ab type="alignmentChunk" xml:id="{$chunk}"&gt;
                                     <xsl:apply-templates select="$currentP1File//app">
                                         <xsl:with-param name="currentWit" as="xs:string"
                                             select="current()" tunnel="yes"/>
                                     </xsl:apply-templates>
-                                </ab>
+                                &lt;/ab&gt;
                             </body>
                         </text>
                     </TEI>
@@ -63,8 +63,8 @@
         <xsl:text> </xsl:text>
     </xsl:template>
     <xsl:template match="rdg" mode="variant">
-        <seg xml:id="{ancestor::app/@xml:id}-{@wit}_start"/>
+        &lt;seg xml:id="{ancestor::app/@xml:id}-{@wit}_start"/&gt;
         <xsl:apply-templates select="."/>
-        <seg xml:id="{ancestor::app/@xml:id}-{@wit}_end"/>
+        &lt;seg xml:id="{ancestor::app/@xml:id}-{@wit}_end"/&gt;
     </xsl:template>
 </xsl:stylesheet>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-      xml:id="fMS_C03">
+     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
+     xml:id="fMS_C03">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -25,7 +25,9 @@
    </teiHeader>
    <text>
       <body>
-         <ab type="alignmentChunk" xml:id="C03">&lt;anchor type="collate" xml:id="C03"/&gt; </ab>
-      </body>
+                                &lt;ab type="alignmentChunk" xml:id="{$chunk}"&gt;
+                                    &lt;anchor type="collate" xml:id="C03"/&gt; 
+                                &lt;/ab&gt;
+                            </body>
    </text>
 </TEI>
