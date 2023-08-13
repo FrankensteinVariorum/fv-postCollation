@@ -5,6 +5,9 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:mith="http://mith.umd.edu/sc/ns1#"
     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse" exclude-result-prefixes="xs"
     version="3.0">
+    
+    <!-- 2023-08-10 ebb with yxj and nlh: We should not change `<note>`, `<del>` or `<add>` elements in this stage. They will be wholly inside `<seg>` elements and should not interfere with the element raising raising process
+    in this pipeline. -->
 
     <xsl:mode on-no-match="shallow-copy"/>
     <xsl:variable name="P2-Coll" as="document-node()+"
@@ -43,6 +46,7 @@
     <xsl:template match="ab/text()">
         <xsl:analyze-string select="." regex="&lt;[^/&amp;]+?&gt;">
             <!--a start tag of an unflattened element (left as a whole element prior to collation).-->
+            <!-- 2023-08-10: FIND A WAY TO EXCLUDE NOTE, ADD, AND DEL FROM THIS  -->
             <xsl:matching-substring>
                 <xsl:variable name="tagContents"
                     select="substring-after(., '&lt;') ! substring-before(., '&gt;')"/>

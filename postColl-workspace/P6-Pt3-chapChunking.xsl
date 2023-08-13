@@ -11,7 +11,7 @@
     xmlns:var="https://frankensteinvariorum.github.io"
     exclude-result-prefixes="xs math mith pitt th" version="3.0">
 
-    <!-- 2023-06-1 ebb yxj nlh: This XSLT should output separate chapter files. It is not doing that yet. 
+    <!-- 2023-06-1 ebb yxj nlh: This XSLT should output separate chapter files. 
     We have only tried it for the fMS so far, and it is outputting only one file, named with the correct text node, but otherwise systematically excluding its content. AND it is failing by only outputting a single file.
     
     ebb thinks we should proceed by testing the OTHER print editions, and see if that helps us figure out the problem in fMS.
@@ -120,12 +120,12 @@
     <xsl:template match="teiHeader"/>
     
     <xsl:template match="add[@ana='start']|del[@ana='start']|note[@ana='start']">
-        <xsl:copy>
+        <xsl:element name="{local-name()}">
             <xsl:copy-of select="@*" />
             <xsl:attribute name="n">
                 <xsl:value-of select="preceding::pb[1]/@n"/> 
             </xsl:attribute>
             <xsl:apply-templates/>
-        </xsl:copy>
+        </xsl:element>
     </xsl:template>
 </xsl:stylesheet>
