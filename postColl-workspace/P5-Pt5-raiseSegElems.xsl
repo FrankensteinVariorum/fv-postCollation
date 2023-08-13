@@ -57,7 +57,7 @@
   <xsl:param name="th-style" select="'th'" static="yes"/>
 
   <!--* debug:  issue debugging messages?  yes or no  *-->
-  <xsl:param name="debug" as="xs:string" select="'no'" static="yes"/>
+  <xsl:param name="debug" as="xs:string" select="'yes'" static="yes"/>
 
   <!--* instrument:  issue instrumentation messages? yes or no *-->
   <!--* Instrumentation messages include things like monitoring

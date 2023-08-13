@@ -100,11 +100,10 @@
       <xsl:value-of select="var:volumeFinder($witness, $chapterMarker)"/>
     </xsl:variable>
 
-    <xsl:variable name="chap_id" as="xs:string" select="
-      tei:milestone[@unit = 'chapter' or @unit='preface' or @unit='letter'][@type = 'start']/following::tei:head[1]/following-sibling::text()[1] ! lower-case(.) ! replace(., '[.,:;]', '') ! tokenize(., ' ') => string-join('_')
+    <xsl:variable name="chap_id" as="xs:string" select="tei:milestone[@unit = 'chapter' or @unit='preface' or @unit='letter'][@type = 'start']/following::tei:head[1]/text() ! lower-case(.) ! replace(., '[.,:;]', '') ! tokenize(., ' ') => string-join('_')
         "/>
 
-    <anchor type="semantic" subtype="{tei:milestone/@type}"
+    <anchor type="semantic" subtype="{*[local-name()='milestone']/@type}"
       xml:id="{$witness}{$vol_info}_{$chap_id}"/>
     <xsl:copy select="current()">
       <xsl:copy-of select="current()/@*"/>
@@ -120,8 +119,8 @@
       <xsl:value-of select="var:volumeFinder($witness, $chapterMarker)"/>
     </xsl:variable>
     <xsl:variable name="chap_id" as="xs:string" select="
-        following::tei:head[1]/following-sibling::text()[1] ! lower-case(.) ! replace(., '[.,:;]', '') ! tokenize(., ' ') => string-join('_')
-        "/>
+        following::tei:head[1]/text() ! lower-case(.) ! replace(., '[.,:;]', '') ! tokenize(., ' ') => string-join('_')
+        "/><!-- 2023-08-13 ebb: Amended now that we've raised whole head elements in the print editions. -->
     <anchor type="semantic" subtype="{@type}" xml:id="{$witness}{$vol_info}_{$chap_id}"/>
     <xsl:copy select="current()">
       <xsl:copy-of select="@*"/>

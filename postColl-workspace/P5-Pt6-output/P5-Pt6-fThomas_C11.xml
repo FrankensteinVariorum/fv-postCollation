@@ -21,7 +21,7 @@
             <p>Produced from collation output prepared in batch file processing
                                     on  2023-08-10 04:27:56.543644 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-10T06:04:28.504824-04:00.</p>
+                                    Variorum spine on 2023-08-13T15:56:26.205192-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -36,7 +36,7 @@
                <milestone unit="chapter" type="start" n="5"/>
             </seg>
             <seg xml:id="C11_app3-fThomas">
-               <head ana="start"/>CHAPTER V.<head ana="end"/>
+               <head>CHAPTER V.</head>
             </seg>
             <p xml:id="novel1_letter4_chapter5_div4_div5_p1">
                <seg xml:id="C11_app5-fThomas">C<hi xml:id="novel1_letter4_chapter5_div4_div5_p1_hi1">LERVAL</hi>
@@ -46,10 +46,10 @@
             <seg part="F" xml:id="C11_app7-fThomas__F">
             </seg>
             <seg xml:id="C11_app8-fThomas">
-               <del ana="start" rend="strikethrough"/>
-               <ab xml:id="novel1_letter4_chapter5_div4_div5_del1_ab1">
-                  <hi xml:id="novel1_letter4_chapter5_div4_div5_del1_ab1_hi1">To</hi> V. F<hi xml:id="novel1_letter4_chapter5_div4_div5_del1_ab1_hi2">RANKENSTEIN</hi>.</ab>
-               <del ana="end"/>
+               <del rend="strikethrough">
+                  <ab xml:id="novel1_letter4_chapter5_div4_div5_del1_ab1">
+                     <hi xml:id="novel1_letter4_chapter5_div4_div5_del1_ab1_hi1">To</hi> V. F<hi xml:id="novel1_letter4_chapter5_div4_div5_del1_ab1_hi2">RANKENSTEIN</hi>.</ab>
+               </del>
             </seg>
             <seg part="I" xml:id="C11_app12-fThomas__I">
             </seg>
@@ -76,17 +76,17 @@
                <seg xml:id="C11_app25-fThomas">you must have <pb xml:id="F1818_v1_127" n="115"/>been</seg>
                <seg xml:id="C11_app26-fThomas">exceedingly ill;</seg>
                <seg xml:id="C11_app27-fThomas">
-                  <del ana="start" rend="strikethrough"/>and this makes us all very wretched, as much so nearly as after the death of your dear mother.<del ana="end"/>
-                  <add ana="start" place="bottom"/>and this suspicion fills us with anguish. I perceive that your father <del-INNER ana="start"/>conceals<del-INNER ana="end"/> attempts to conceal his fears from me; but cheerfulness has flown from our little circle, only to be restored by a certain assuranance that there is no foundation for our anxiety. At one time<add ana="end"/>
+                  <del rend="strikethrough">and this makes us all very wretched, as much so nearly as after the death of your dear mother.</del>
+                  <add place="bottom">and this suspicion fills us with anguish. I perceive that your father <del-INNER>conceals</del-INNER> attempts to conceal his fears from me; but cheerfulness has flown from our little circle, only to be restored by a certain assuranance that there is no foundation for our anxiety. At one time</add>
                </seg> My  <seg xml:id="C11_app36-fThomas">uncle</seg>
                <seg xml:id="C11_app37-fThomas">
-                  <del ana="start" rend="strikethrough"/>was<del ana="end"/>
-                  <add ana="start"/>being<add ana="end"/>
+                  <del rend="strikethrough">was</del>
+                  <add>being</add>
                </seg>
                <seg xml:id="C11_app38-fThomas">almost persuaded</seg>
                <seg xml:id="C11_app39-fThomas">that you were indeed dangerously ill,</seg>
                <seg xml:id="C11_app40-fThomas">
-                  <del ana="start" rend="strikethrough"/>and<del ana="end"/>
+                  <del rend="strikethrough">and</del>
                </seg>
                <seg xml:id="C11_app42-fThomas">could hardly be</seg>
                <seg xml:id="C11_app43-fThomas">restrained</seg> from  <seg xml:id="C11_app45-fThomas">undertaking</seg> a journey to Ingolstadt.  Clerval  <seg xml:id="C11_app49-fThomas">always</seg>
@@ -319,7 +319,7 @@
             <seg part="F" xml:id="C11_app523-fThomas__F">
             </seg>
             <seg xml:id="C11_app524-fThomas">
-               <note ana="start" resp="#MWS" anchored="yes"/>This letter ought to be re-written.<note ana="end"/>
+               <note resp="#MWS" anchored="yes">This letter ought to be re-written.</note>
             </seg>
          </div>
       </body>
