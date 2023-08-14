@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../segMarkerTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xmlns:mith="http://mith.umd.edu/sc/ns1#"
-      xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
       xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
    <teiHeader>
       <fileDesc>
@@ -21,13 +19,15 @@
             <p>Produced from collation output prepared in batch file processing
                                     on  2023-08-10 04:16:18.293583 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-10T06:04:28.504824-04:00.</p>
+                                    Variorum spine on 2023-08-14T01:32:24.815998-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
-         <div type="collation" xml:id="C01">
+         <div xmlns:xs="http://www.w3.org/2001/XMLSchema"
+               type="collation"
+               xml:id="Unit_C01">
             <anchor type="collate" xml:id="C01"/>
          </div>
       </body>

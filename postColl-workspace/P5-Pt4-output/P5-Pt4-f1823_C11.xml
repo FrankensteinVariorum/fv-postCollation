@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../segMarkerTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xmlns:mith="http://mith.umd.edu/sc/ns1#"
-      xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
       xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
    <teiHeader>
       <fileDesc>
@@ -21,7 +19,7 @@
             <p>Produced from collation output prepared in batch file processing
                                     on  2023-08-10 04:27:56.543644 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-10T06:04:28.504824-04:00.</p>
+                                    Variorum spine on 2023-08-14T01:32:24.815998-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -35,11 +33,14 @@
             <milestone unit="chapter" type="start" n="5"/>
             <seg th:eID="C11_app2-f1823"/>
             <seg th:sID="C11_app3-f1823"/>
-            <head ana="start"/>CHAPTER V.<head ana="end"/>
+            <head>CHAPTER V.</head>
             <seg th:eID="C11_app3-f1823"/>
             <p xml:id="novel1_letter4_chapter5_div4_div5_p1">
-               <seg th:sID="C11_app5-f1823"/>C<hi xml:id="novel1_letter4_chapter5_div4_div5_p1_hi1">LERVAL</hi>
-               <seg th:eID="C11_app5-f1823"/>then put the following letter into my hands. <seg th:sID="C11_app7-f1823__I" part="I"/>
+               <seg th:sID="C11_app5-f1823"/>
+        C<hi xml:id="novel1_letter4_chapter5_div4_div5_p1_hi1">LERVAL</hi>
+               <seg th:eID="C11_app5-f1823"/>
+    then put the following letter into my hands. 
+        <seg th:sID="C11_app7-f1823__I" part="I"/>
                <seg th:eID="C11_app7-f1823__I" part="I"/>
             </p>
             <seg th:sID="C11_app7-f1823__F" part="F"/>
@@ -54,7 +55,8 @@
                <ab xml:id="novel1_letter4_chapter5_div4_div5_p2_ab1">
                   <seg th:sID="C11_app9-f1823__F" part="F"/>“<hi xml:id="novel1_letter4_chapter5_div4_div5_p2_ab1_hi1">To</hi>
                   <seg th:eID="C11_app9-f1823__F" part="F"/>
-                  <seg th:sID="C11_app10-f1823__I" part="I"/>V. F<hi xml:id="novel1_letter4_chapter5_div4_div5_p2_ab1_hi2">RANKENSTEIN</hi>.<seg th:eID="C11_app10-f1823__I" part="I"/>
+                  <seg th:sID="C11_app10-f1823__I" part="I"/>
+        V. F<hi xml:id="novel1_letter4_chapter5_div4_div5_p2_ab1_hi2">RANKENSTEIN</hi>.<seg th:eID="C11_app10-f1823__I" part="I"/>
                </ab>
                <seg th:sID="C11_app10-f1823__F" part="F"/>
                <seg th:eID="C11_app10-f1823__F" part="F"/>
@@ -68,253 +70,1238 @@
             <p xml:id="novel1_letter4_chapter5_div4_div5_p3">
                <seg th:sID="C11_app12-f1823__F" part="F"/>
                <seg th:eID="C11_app12-f1823__F" part="F"/>
-               <seg th:sID="C11_app13-f1823__I" part="I"/>“<seg th:eID="C11_app13-f1823__I" part="I"/>
+               <seg th:sID="C11_app13-f1823__I" part="I"/>
+        “<seg th:eID="C11_app13-f1823__I" part="I"/>
                <hi xml:id="novel1_letter4_chapter5_div4_div5_p3_hi1">
-                  <seg th:sID="C11_app13-f1823__F" part="F"/>MY<seg th:eID="C11_app13-f1823__F" part="F"/>
-                  <seg th:sID="C11_app14-f1823"/>DEAR<seg th:eID="C11_app14-f1823"/>
-                  <seg th:sID="C11_app15-f1823__I" part="I"/>COUSIN<seg th:eID="C11_app15-f1823__I" part="I"/>
+                  <seg th:sID="C11_app13-f1823__F" part="F"/>MY
+        <seg th:eID="C11_app13-f1823__F" part="F"/>
+                  <seg th:sID="C11_app14-f1823"/>
+        DEAR
+        <seg th:eID="C11_app14-f1823"/>
+                  <seg th:sID="C11_app15-f1823__I" part="I"/>
+        COUSIN<seg th:eID="C11_app15-f1823__I" part="I"/>
                </hi>
-               <seg th:sID="C11_app15-f1823__F" part="F"/>,<seg th:eID="C11_app15-f1823__F" part="F"/>
+               <seg th:sID="C11_app15-f1823__F" part="F"/>,
+        <seg th:eID="C11_app15-f1823__F" part="F"/>
             </p>
             <p xml:id="novel1_letter4_chapter5_div4_div5_p4">
-               <seg th:sID="C11_app17-f1823"/>“I cannot describe to you the uneasiness we have all felt concerning your health. We cannot help imagining that your friend Clerval conceals the extent of your<seg th:eID="C11_app17-f1823"/>
-               <seg th:sID="C11_app18-f1823"/>disorder:<seg th:eID="C11_app18-f1823"/>
-               <seg th:sID="C11_app19-f1823"/>for it is now several months since we have seen your<seg th:eID="C11_app19-f1823"/>
-               <seg th:sID="C11_app20-f1823"/>hand-writing;<seg th:eID="C11_app20-f1823"/>
-               <seg th:sID="C11_app21-f1823"/>and all this time you have been obliged to dictate<seg th:eID="C11_app21-f1823"/>
-               <seg th:sID="C11_app22-f1823"/>your letters<seg th:eID="C11_app22-f1823"/>
-               <seg th:sID="C11_app23-f1823"/>to<seg th:eID="C11_app23-f1823"/>
-               <seg th:sID="C11_app24-f1823"/>Henry. Surely, Victor,<seg th:eID="C11_app24-f1823"/>
-               <seg th:sID="C11_app25-f1823"/>you must have <pb xml:id="F1823_v1_134" n="115"/>been<seg th:eID="C11_app25-f1823"/>
-               <seg th:sID="C11_app26-f1823"/>exceedingly ill;<seg th:eID="C11_app26-f1823"/>
-               <seg th:sID="C11_app27-f1823"/>and this makes us<seg th:eID="C11_app27-f1823"/>
-               <seg th:sID="C11_app28-f1823"/>all<seg th:eID="C11_app28-f1823"/>
-               <seg th:sID="C11_app29-f1823"/>very<seg th:eID="C11_app29-f1823"/>
-               <seg th:sID="C11_app30-f1823"/>wretched,<seg th:eID="C11_app30-f1823"/>
-               <seg th:sID="C11_app31-f1823"/>as much so<seg th:eID="C11_app31-f1823"/>
-               <seg th:sID="C11_app32-f1823"/>nearly as <seg th:eID="C11_app32-f1823"/>
-               <seg th:sID="C11_app33-f1823"/>after the death of your dear<seg th:eID="C11_app33-f1823"/>
-               <seg th:sID="C11_app34-f1823"/>mother.<seg th:eID="C11_app34-f1823"/>My <seg th:sID="C11_app36-f1823"/>uncle<seg th:eID="C11_app36-f1823"/>
-               <seg th:sID="C11_app37-f1823"/>was<seg th:eID="C11_app37-f1823"/>
-               <seg th:sID="C11_app38-f1823"/>almost persuaded<seg th:eID="C11_app38-f1823"/>
-               <seg th:sID="C11_app39-f1823"/>that you were indeed dangerously ill,<seg th:eID="C11_app39-f1823"/>
-               <seg th:sID="C11_app41-f1823"/>and<seg th:eID="C11_app41-f1823"/>
-               <seg th:sID="C11_app42-f1823"/>could hardly be<seg th:eID="C11_app42-f1823"/>
-               <seg th:sID="C11_app43-f1823"/>restrained<seg th:eID="C11_app43-f1823"/>from <seg th:sID="C11_app45-f1823"/>undertaking<seg th:eID="C11_app45-f1823"/>a journey to Ingolstadt.  Clerval <seg th:sID="C11_app49-f1823"/>always<seg th:eID="C11_app49-f1823"/>
-               <seg th:sID="C11_app50-f1823"/>writes<seg th:eID="C11_app50-f1823"/>that <seg th:sID="C11_app52-f1823"/>you<seg th:eID="C11_app52-f1823"/>
-               <seg th:sID="C11_app53-f1823"/>are<seg th:eID="C11_app53-f1823"/>getting <seg th:sID="C11_app55-f1823"/>better;<seg th:eID="C11_app55-f1823"/>I <seg th:sID="C11_app57-f1823"/>eagerly<seg th:eID="C11_app57-f1823"/>hope  <seg th:sID="C11_app59-f1823"/>that<seg th:eID="C11_app59-f1823"/>you will confirm this intelligence soon in your own  <seg th:sID="C11_app62-f1823"/>handwriting;<seg th:eID="C11_app62-f1823"/>
-               <seg th:sID="C11_app63-f1823"/>for indeed,<seg th:eID="C11_app63-f1823"/>
-               <seg th:sID="C11_app64-f1823"/>indeed, Victor,<seg th:eID="C11_app64-f1823"/>
-               <seg th:sID="C11_app65-f1823"/>we are all very<seg th:eID="C11_app65-f1823"/>
-               <seg th:sID="C11_app66-f1823"/>miserable on this<seg th:eID="C11_app66-f1823"/>
-               <seg th:sID="C11_app67-f1823"/>account.<seg th:eID="C11_app67-f1823"/>
-               <seg th:sID="C11_app68-f1823"/>Relieve us from this<seg th:eID="C11_app68-f1823"/>
-               <seg th:sID="C11_app69-f1823"/>fear,<seg th:eID="C11_app69-f1823"/>
-               <seg th:sID="C11_app70-f1823"/>and we shall be the happiest creatures in the world.<seg th:eID="C11_app70-f1823"/>
-               <seg th:sID="C11_app71-f1823"/>Your father’s<seg th:eID="C11_app71-f1823"/>health <seg th:sID="C11_app73-f1823"/>is<seg th:eID="C11_app73-f1823"/>
-               <seg th:sID="C11_app74-f1823"/>now<seg th:eID="C11_app74-f1823"/>
-               <seg th:sID="C11_app75-f1823"/>so<seg th:eID="C11_app75-f1823"/>
-               <seg th:sID="C11_app76-f1823"/>vigorous,<seg th:eID="C11_app76-f1823"/>
-               <seg th:sID="C11_app77-f1823"/>that he appears ten years younger since last winter. Ernest also is so much<seg th:eID="C11_app77-f1823"/>
-               <seg th:sID="C11_app78-f1823"/>improved,<seg th:eID="C11_app78-f1823"/>
-               <seg th:sID="C11_app79-f1823"/>that<seg th:eID="C11_app79-f1823"/>you would <seg th:sID="C11_app81-f1823"/>hardly know<seg th:eID="C11_app81-f1823"/>
-               <seg th:sID="C11_app82-f1823"/>him:<seg th:eID="C11_app82-f1823"/>
-               <seg th:sID="C11_app83-f1823"/>he is now nearly<seg th:eID="C11_app83-f1823"/>
-               <seg th:sID="C11_app84-f1823"/>sixteen,<seg th:eID="C11_app84-f1823"/>
-               <seg th:sID="C11_app85-f1823"/>and has<seg th:eID="C11_app85-f1823"/>
-               <seg th:sID="C11_app86-f1823"/>lost that sickly appearance<seg th:eID="C11_app86-f1823"/>
-               <seg th:sID="C11_app87-f1823"/>which<seg th:eID="C11_app87-f1823"/>
-               <seg th:sID="C11_app88-f1823"/>he had some years<seg th:eID="C11_app88-f1823"/>
-               <seg th:sID="C11_app89-f1823"/>ago;<seg th:eID="C11_app89-f1823"/>
-               <seg th:sID="C11_app90-f1823"/>he is<seg th:eID="C11_app90-f1823"/>
-               <seg th:sID="C11_app91-f1823"/>grown<seg th:eID="C11_app91-f1823"/>
-               <seg th:sID="C11_app92-f1823"/>quite<seg th:eID="C11_app92-f1823"/>
-               <seg th:sID="C11_app93-f1823"/>robust<seg th:eID="C11_app93-f1823"/>
-               <seg th:sID="C11_app94-f1823"/>and<seg th:eID="C11_app94-f1823"/>
-               <seg th:sID="C11_app95-f1823"/>active.<seg th:eID="C11_app95-f1823"/>
+               <seg th:sID="C11_app17-f1823"/>
+        “I cannot describe to you the uneasiness we have all felt concerning your health. We cannot help imagining that your friend Clerval conceals the extent of your
+        <seg th:eID="C11_app17-f1823"/>
+               <seg th:sID="C11_app18-f1823"/>
+        disorder:
+        <seg th:eID="C11_app18-f1823"/>
+               <seg th:sID="C11_app19-f1823"/>
+        for it is now several months since we have seen your
+        <seg th:eID="C11_app19-f1823"/>
+               <seg th:sID="C11_app20-f1823"/>
+        hand-writing;
+        <seg th:eID="C11_app20-f1823"/>
+               <seg th:sID="C11_app21-f1823"/>
+        and all this time you have been obliged to dictate
+        <seg th:eID="C11_app21-f1823"/>
+               <seg th:sID="C11_app22-f1823"/>
+        your letters
+        <seg th:eID="C11_app22-f1823"/>
+               <seg th:sID="C11_app23-f1823"/>
+        to
+        <seg th:eID="C11_app23-f1823"/>
+               <seg th:sID="C11_app24-f1823"/>
+        Henry. Surely, Victor,
+        <seg th:eID="C11_app24-f1823"/>
+               <seg th:sID="C11_app25-f1823"/>
+        you must have <pb xml:id="F1823_v1_134" n="115"/>been
+        <seg th:eID="C11_app25-f1823"/>
+               <seg th:sID="C11_app26-f1823"/>
+        exceedingly ill;
+        <seg th:eID="C11_app26-f1823"/>
+               <seg th:sID="C11_app27-f1823"/>
+        and this makes us
+        <seg th:eID="C11_app27-f1823"/>
+               <seg th:sID="C11_app28-f1823"/>
+        all
+        <seg th:eID="C11_app28-f1823"/>
+               <seg th:sID="C11_app29-f1823"/>
+        very
+        <seg th:eID="C11_app29-f1823"/>
+               <seg th:sID="C11_app30-f1823"/>
+        wretched,
+        <seg th:eID="C11_app30-f1823"/>
+               <seg th:sID="C11_app31-f1823"/>
+        as much so
+        <seg th:eID="C11_app31-f1823"/>
+               <seg th:sID="C11_app32-f1823"/>
+        nearly as 
+        <seg th:eID="C11_app32-f1823"/>
+               <seg th:sID="C11_app33-f1823"/>
+        after the death of your dear
+        <seg th:eID="C11_app33-f1823"/>
+               <seg th:sID="C11_app34-f1823"/>
+        mother.
+        <seg th:eID="C11_app34-f1823"/>
+    My 
+        <seg th:sID="C11_app36-f1823"/>
+        uncle
+        <seg th:eID="C11_app36-f1823"/>
+               <seg th:sID="C11_app37-f1823"/>
+        was
+        <seg th:eID="C11_app37-f1823"/>
+               <seg th:sID="C11_app38-f1823"/>
+        almost persuaded
+        <seg th:eID="C11_app38-f1823"/>
+               <seg th:sID="C11_app39-f1823"/>
+        that you were indeed dangerously ill,
+        <seg th:eID="C11_app39-f1823"/>
+               <seg th:sID="C11_app41-f1823"/>
+        and
+        <seg th:eID="C11_app41-f1823"/>
+               <seg th:sID="C11_app42-f1823"/>
+        could hardly be
+        <seg th:eID="C11_app42-f1823"/>
+               <seg th:sID="C11_app43-f1823"/>
+        restrained
+        <seg th:eID="C11_app43-f1823"/>
+    from 
+        <seg th:sID="C11_app45-f1823"/>
+        undertaking
+        <seg th:eID="C11_app45-f1823"/>
+    a journey to Ingolstadt.  Clerval 
+        <seg th:sID="C11_app49-f1823"/>
+        always
+        <seg th:eID="C11_app49-f1823"/>
+               <seg th:sID="C11_app50-f1823"/>
+        writes
+        <seg th:eID="C11_app50-f1823"/>
+    that 
+        <seg th:sID="C11_app52-f1823"/>
+        you
+        <seg th:eID="C11_app52-f1823"/>
+               <seg th:sID="C11_app53-f1823"/>
+        are
+        <seg th:eID="C11_app53-f1823"/>
+    getting 
+        <seg th:sID="C11_app55-f1823"/>
+        better;
+        <seg th:eID="C11_app55-f1823"/>
+    I 
+        <seg th:sID="C11_app57-f1823"/>
+        eagerly
+        <seg th:eID="C11_app57-f1823"/>
+    hope  
+        <seg th:sID="C11_app59-f1823"/>
+        that
+        <seg th:eID="C11_app59-f1823"/>
+    you will confirm this intelligence soon in your own  
+        <seg th:sID="C11_app62-f1823"/>
+        handwriting;
+        <seg th:eID="C11_app62-f1823"/>
+               <seg th:sID="C11_app63-f1823"/>
+        for indeed,
+        <seg th:eID="C11_app63-f1823"/>
+               <seg th:sID="C11_app64-f1823"/>
+        indeed, Victor,
+        <seg th:eID="C11_app64-f1823"/>
+               <seg th:sID="C11_app65-f1823"/>
+        we are all very
+        <seg th:eID="C11_app65-f1823"/>
+               <seg th:sID="C11_app66-f1823"/>
+        miserable on this
+        <seg th:eID="C11_app66-f1823"/>
+               <seg th:sID="C11_app67-f1823"/>
+        account.
+        <seg th:eID="C11_app67-f1823"/>
+               <seg th:sID="C11_app68-f1823"/>
+        Relieve us from this
+        <seg th:eID="C11_app68-f1823"/>
+               <seg th:sID="C11_app69-f1823"/>
+        fear,
+        <seg th:eID="C11_app69-f1823"/>
+               <seg th:sID="C11_app70-f1823"/>
+        and we shall be the happiest creatures in the world.
+        <seg th:eID="C11_app70-f1823"/>
+               <seg th:sID="C11_app71-f1823"/>
+        Your father’s
+        <seg th:eID="C11_app71-f1823"/>
+    health 
+        <seg th:sID="C11_app73-f1823"/>
+        is
+        <seg th:eID="C11_app73-f1823"/>
+               <seg th:sID="C11_app74-f1823"/>
+        now
+        <seg th:eID="C11_app74-f1823"/>
+               <seg th:sID="C11_app75-f1823"/>
+        so
+        <seg th:eID="C11_app75-f1823"/>
+               <seg th:sID="C11_app76-f1823"/>
+        vigorous,
+        <seg th:eID="C11_app76-f1823"/>
+               <seg th:sID="C11_app77-f1823"/>
+        that he appears ten years younger since last winter. Ernest also is so much
+        <seg th:eID="C11_app77-f1823"/>
+               <seg th:sID="C11_app78-f1823"/>
+        improved,
+        <seg th:eID="C11_app78-f1823"/>
+               <seg th:sID="C11_app79-f1823"/>
+        that
+        <seg th:eID="C11_app79-f1823"/>
+    you would 
+        <seg th:sID="C11_app81-f1823"/>
+        hardly know
+        <seg th:eID="C11_app81-f1823"/>
+               <seg th:sID="C11_app82-f1823"/>
+        him:
+        <seg th:eID="C11_app82-f1823"/>
+               <seg th:sID="C11_app83-f1823"/>
+        he is now nearly
+        <seg th:eID="C11_app83-f1823"/>
+               <seg th:sID="C11_app84-f1823"/>
+        sixteen,
+        <seg th:eID="C11_app84-f1823"/>
+               <seg th:sID="C11_app85-f1823"/>
+        and has
+        <seg th:eID="C11_app85-f1823"/>
+               <seg th:sID="C11_app86-f1823"/>
+        lost that sickly appearance
+        <seg th:eID="C11_app86-f1823"/>
+               <seg th:sID="C11_app87-f1823"/>
+        which
+        <seg th:eID="C11_app87-f1823"/>
+               <seg th:sID="C11_app88-f1823"/>
+        he had some years
+        <seg th:eID="C11_app88-f1823"/>
+               <seg th:sID="C11_app89-f1823"/>
+        ago;
+        <seg th:eID="C11_app89-f1823"/>
+               <seg th:sID="C11_app90-f1823"/>
+        he is
+        <seg th:eID="C11_app90-f1823"/>
+               <seg th:sID="C11_app91-f1823"/>
+        grown
+        <seg th:eID="C11_app91-f1823"/>
+               <seg th:sID="C11_app92-f1823"/>
+        quite
+        <seg th:eID="C11_app92-f1823"/>
+               <seg th:sID="C11_app93-f1823"/>
+        robust
+        <seg th:eID="C11_app93-f1823"/>
+               <seg th:sID="C11_app94-f1823"/>
+        and
+        <seg th:eID="C11_app94-f1823"/>
+               <seg th:sID="C11_app95-f1823"/>
+        active.
+        <seg th:eID="C11_app95-f1823"/>
                <seg th:sID="C11_app96-f1823__I" part="I"/>
                <seg th:eID="C11_app96-f1823__I" part="I"/>
             </p>
             <p xml:id="novel1_letter4_chapter5_div4_div5_p5">
                <seg th:sID="C11_app96-f1823__F" part="F"/>
-               <pb xml:id="F1823_v1_135" n="116"/>“My uncle and I conversed<seg th:eID="C11_app96-f1823__F" part="F"/>
-               <seg th:sID="C11_app97-f1823"/>a long time<seg th:eID="C11_app97-f1823"/>
-               <seg th:sID="C11_app98-f1823"/>last night<seg th:eID="C11_app98-f1823"/>
-               <seg th:sID="C11_app99-f1823"/>about what<seg th:eID="C11_app99-f1823"/>
-               <seg th:sID="C11_app100-f1823"/>profession <seg th:eID="C11_app100-f1823"/>
-               <seg th:sID="C11_app101-f1823"/>Ernest <seg th:eID="C11_app101-f1823"/>
-               <seg th:sID="C11_app102-f1823"/>should<seg th:eID="C11_app102-f1823"/>
-               <seg th:sID="C11_app103-f1823"/>follow.<seg th:eID="C11_app103-f1823"/>
-               <seg th:sID="C11_app104-f1823"/>His constant<seg th:eID="C11_app104-f1823"/>
-               <seg th:sID="C11_app105-f1823"/>illness<seg th:eID="C11_app105-f1823"/>
-               <seg th:sID="C11_app106-f1823"/>when young has deprived<seg th:eID="C11_app106-f1823"/>
-               <seg th:sID="C11_app107-f1823"/>him of <seg th:eID="C11_app107-f1823"/>the <seg th:sID="C11_app109-f1823"/>habits<seg th:eID="C11_app109-f1823"/>of <seg th:sID="C11_app111-f1823"/>application;<seg th:eID="C11_app111-f1823"/>
-               <seg th:sID="C11_app112-f1823"/>and now that<seg th:eID="C11_app112-f1823"/>he <seg th:sID="C11_app114-f1823"/>enjoys good<seg th:eID="C11_app114-f1823"/>
-               <seg th:sID="C11_app115-f1823"/>health,<seg th:eID="C11_app115-f1823"/>
-               <seg th:sID="C11_app116-f1823"/>he is continually<seg th:eID="C11_app116-f1823"/>in the open <seg th:sID="C11_app118-f1823"/>air,<seg th:eID="C11_app118-f1823"/>climbing the <seg th:sID="C11_app120-f1823"/>hills,<seg th:eID="C11_app120-f1823"/>or rowing on the lake. <seg th:sID="C11_app122-f1823"/>I therefore<seg th:eID="C11_app122-f1823"/>
-               <seg th:sID="C11_app123-f1823"/>proposed that he should be<seg th:eID="C11_app123-f1823"/>
-               <seg th:sID="C11_app124-f1823"/>a <seg th:eID="C11_app124-f1823"/>
-               <seg th:sID="C11_app125-f1823"/>farmer;<seg th:eID="C11_app125-f1823"/>
-               <seg th:sID="C11_app126-f1823"/>which you<seg th:eID="C11_app126-f1823"/>
-               <seg th:sID="C11_app127-f1823"/>know, cousin,<seg th:eID="C11_app127-f1823"/>
-               <seg th:sID="C11_app128-f1823"/>is a favourite scheme of<seg th:eID="C11_app128-f1823"/>
-               <seg th:sID="C11_app129-f1823"/>mine. A farmer’s<seg th:eID="C11_app129-f1823"/>
-               <seg th:sID="C11_app130-f1823"/>is a very healthy<seg th:eID="C11_app130-f1823"/>
-               <seg th:sID="C11_app131-f1823"/>happy life; and the least<seg th:eID="C11_app131-f1823"/>
-               <seg th:sID="C11_app132-f1823"/>hurtful,<seg th:eID="C11_app132-f1823"/>
-               <seg th:sID="C11_app133-f1823"/>or rather the most<seg th:eID="C11_app133-f1823"/>
-               <seg th:sID="C11_app134-f1823"/>beneficial profession<seg th:eID="C11_app134-f1823"/>
-               <seg th:sID="C11_app135-f1823"/>of any.<seg th:eID="C11_app135-f1823"/>
-               <seg th:sID="C11_app136-f1823"/>My <seg th:eID="C11_app136-f1823"/>
-               <seg th:sID="C11_app137-f1823"/>uncle had an idea of his being<seg th:eID="C11_app137-f1823"/>
-               <seg th:sID="C11_app138-f1823"/>educated as<seg th:eID="C11_app138-f1823"/>
-               <seg th:sID="C11_app139-f1823"/>an advocate, <seg th:eID="C11_app139-f1823"/>
-               <seg th:sID="C11_app140-f1823"/>that<seg th:eID="C11_app140-f1823"/>
-               <seg th:sID="C11_app141-f1823"/>through his <seg th:eID="C11_app141-f1823"/>
-               <seg th:sID="C11_app142-f1823"/>interest<seg th:eID="C11_app142-f1823"/>
-               <seg th:sID="C11_app143-f1823"/>he might become<seg th:eID="C11_app143-f1823"/>
-               <seg th:sID="C11_app144-f1823"/>a judge. <seg th:eID="C11_app144-f1823"/>
-               <seg th:sID="C11_app145-f1823"/>But,<seg th:eID="C11_app145-f1823"/>
-               <seg th:sID="C11_app146-f1823"/>besides that he is not at all<seg th:eID="C11_app146-f1823"/>
-               <seg th:sID="C11_app147-f1823"/>fitted<seg th:eID="C11_app147-f1823"/>
-               <seg th:sID="C11_app148-f1823"/>for such an occupation, it is certainly<seg th:eID="C11_app148-f1823"/>
-               <seg th:sID="C11_app149-f1823"/>more<seg th:eID="C11_app149-f1823"/>
-               <seg th:sID="C11_app150-f1823"/>creditable<seg th:eID="C11_app150-f1823"/>
-               <seg th:sID="C11_app151-f1823"/>to <seg th:eID="C11_app151-f1823"/>
-               <seg th:sID="C11_app152-f1823"/>cultivate the earth for the sustenance of<seg th:eID="C11_app152-f1823"/>
-               <seg th:sID="C11_app153-f1823"/>man,<seg th:eID="C11_app153-f1823"/>
-               <seg th:sID="C11_app154-f1823"/>than<seg th:eID="C11_app154-f1823"/>
-               <seg th:sID="C11_app155-f1823"/>to be the<seg th:eID="C11_app155-f1823"/>
-               <seg th:sID="C11_app156-f1823"/>confidant,<seg th:eID="C11_app156-f1823"/>
-               <seg th:sID="C11_app157-f1823"/>and sometimes<seg th:eID="C11_app157-f1823"/>
-               <seg th:sID="C11_app158-f1823"/>the<seg th:eID="C11_app158-f1823"/>
-               <seg th:sID="C11_app159-f1823"/>accomplice,<seg th:eID="C11_app159-f1823"/>
-               <seg th:sID="C11_app160-f1823"/>of<seg th:eID="C11_app160-f1823"/>
-               <seg th:sID="C11_app161-f1823"/>his<seg th:eID="C11_app161-f1823"/>
-               <seg th:sID="C11_app162-f1823"/>vices; which is <pb xml:id="F1823_v1_136" n="117"/>the <seg th:eID="C11_app162-f1823"/>
-               <seg th:sID="C11_app163-f1823"/>profession of<seg th:eID="C11_app163-f1823"/>
-               <seg th:sID="C11_app164-f1823"/>a lawyer.<seg th:eID="C11_app164-f1823"/>
-               <seg th:sID="C11_app165-f1823"/>I<seg th:eID="C11_app165-f1823"/>
-               <seg th:sID="C11_app166-f1823"/>said,<seg th:eID="C11_app166-f1823"/>
-               <seg th:sID="C11_app167-f1823"/>that<seg th:eID="C11_app167-f1823"/>
-               <seg th:sID="C11_app168-f1823"/>the<seg th:eID="C11_app168-f1823"/>
-               <seg th:sID="C11_app169-f1823"/>employments<seg th:eID="C11_app169-f1823"/>
-               <seg th:sID="C11_app170-f1823"/>of a prosperous<seg th:eID="C11_app170-f1823"/>
-               <seg th:sID="C11_app171-f1823"/>farmer,<seg th:eID="C11_app171-f1823"/>
-               <seg th:sID="C11_app172-f1823"/>if<seg th:eID="C11_app172-f1823"/>
-               <seg th:sID="C11_app173-f1823"/>they<seg th:eID="C11_app173-f1823"/>
-               <seg th:sID="C11_app174-f1823"/>were not a more<seg th:eID="C11_app174-f1823"/>
-               <seg th:sID="C11_app175-f1823"/>honourable, they were<seg th:eID="C11_app175-f1823"/>
-               <seg th:sID="C11_app176-f1823"/>at least a happier<seg th:eID="C11_app176-f1823"/>
-               <seg th:sID="C11_app177-f1823"/>species of occupation<seg th:eID="C11_app177-f1823"/>
-               <seg th:sID="C11_app178-f1823"/>than that of a judge, whose misfortune it was always to meddle with the dark side of human<seg th:eID="C11_app178-f1823"/>
-               <seg th:sID="C11_app179-f1823"/>nature.<seg th:eID="C11_app179-f1823"/>
-               <seg th:sID="C11_app180-f1823"/>My uncle<seg th:eID="C11_app180-f1823"/>
-               <seg th:sID="C11_app181-f1823"/>smiled,<seg th:eID="C11_app181-f1823"/>
-               <seg th:sID="C11_app182-f1823"/>and<seg th:eID="C11_app182-f1823"/>
-               <seg th:sID="C11_app183-f1823"/>said,<seg th:eID="C11_app183-f1823"/>
-               <seg th:sID="C11_app184-f1823"/>that I<seg th:eID="C11_app184-f1823"/>
-               <seg th:sID="C11_app185-f1823"/>ought to be an advocate<seg th:eID="C11_app185-f1823"/>
-               <seg th:sID="C11_app186-f1823"/>myself,<seg th:eID="C11_app186-f1823"/>
-               <seg th:sID="C11_app187-f1823"/>which put an end to the conversation on that<seg th:eID="C11_app187-f1823"/>
-               <seg th:sID="C11_app188-f1823"/>subject.<seg th:eID="C11_app188-f1823"/>
+               <pb xml:id="F1823_v1_135" n="116"/>“My uncle and I conversed
+        <seg th:eID="C11_app96-f1823__F" part="F"/>
+               <seg th:sID="C11_app97-f1823"/>
+        a long time
+        <seg th:eID="C11_app97-f1823"/>
+               <seg th:sID="C11_app98-f1823"/>
+        last night
+        <seg th:eID="C11_app98-f1823"/>
+               <seg th:sID="C11_app99-f1823"/>
+        about what
+        <seg th:eID="C11_app99-f1823"/>
+               <seg th:sID="C11_app100-f1823"/>
+        profession 
+        <seg th:eID="C11_app100-f1823"/>
+               <seg th:sID="C11_app101-f1823"/>
+        Ernest 
+        <seg th:eID="C11_app101-f1823"/>
+               <seg th:sID="C11_app102-f1823"/>
+        should
+        <seg th:eID="C11_app102-f1823"/>
+               <seg th:sID="C11_app103-f1823"/>
+        follow.
+        <seg th:eID="C11_app103-f1823"/>
+               <seg th:sID="C11_app104-f1823"/>
+        His constant
+        <seg th:eID="C11_app104-f1823"/>
+               <seg th:sID="C11_app105-f1823"/>
+        illness
+        <seg th:eID="C11_app105-f1823"/>
+               <seg th:sID="C11_app106-f1823"/>
+        when young has deprived
+        <seg th:eID="C11_app106-f1823"/>
+               <seg th:sID="C11_app107-f1823"/>
+        him of 
+        <seg th:eID="C11_app107-f1823"/>
+    the 
+        <seg th:sID="C11_app109-f1823"/>
+        habits
+        <seg th:eID="C11_app109-f1823"/>
+    of 
+        <seg th:sID="C11_app111-f1823"/>
+        application;
+        <seg th:eID="C11_app111-f1823"/>
+               <seg th:sID="C11_app112-f1823"/>
+        and now that
+        <seg th:eID="C11_app112-f1823"/>
+    he 
+        <seg th:sID="C11_app114-f1823"/>
+        enjoys good
+        <seg th:eID="C11_app114-f1823"/>
+               <seg th:sID="C11_app115-f1823"/>
+        health,
+        <seg th:eID="C11_app115-f1823"/>
+               <seg th:sID="C11_app116-f1823"/>
+        he is continually
+        <seg th:eID="C11_app116-f1823"/>
+    in the open 
+        <seg th:sID="C11_app118-f1823"/>
+        air,
+        <seg th:eID="C11_app118-f1823"/>
+    climbing the 
+        <seg th:sID="C11_app120-f1823"/>
+        hills,
+        <seg th:eID="C11_app120-f1823"/>
+    or rowing on the lake. 
+        <seg th:sID="C11_app122-f1823"/>
+        I therefore
+        <seg th:eID="C11_app122-f1823"/>
+               <seg th:sID="C11_app123-f1823"/>
+        proposed that he should be
+        <seg th:eID="C11_app123-f1823"/>
+               <seg th:sID="C11_app124-f1823"/>
+        a 
+        <seg th:eID="C11_app124-f1823"/>
+               <seg th:sID="C11_app125-f1823"/>
+        farmer;
+        <seg th:eID="C11_app125-f1823"/>
+               <seg th:sID="C11_app126-f1823"/>
+        which you
+        <seg th:eID="C11_app126-f1823"/>
+               <seg th:sID="C11_app127-f1823"/>
+        know, cousin,
+        <seg th:eID="C11_app127-f1823"/>
+               <seg th:sID="C11_app128-f1823"/>
+        is a favourite scheme of
+        <seg th:eID="C11_app128-f1823"/>
+               <seg th:sID="C11_app129-f1823"/>
+        mine. A farmer’s
+        <seg th:eID="C11_app129-f1823"/>
+               <seg th:sID="C11_app130-f1823"/>
+        is a very healthy
+        <seg th:eID="C11_app130-f1823"/>
+               <seg th:sID="C11_app131-f1823"/>
+        happy life; and the least
+        <seg th:eID="C11_app131-f1823"/>
+               <seg th:sID="C11_app132-f1823"/>
+        hurtful,
+        <seg th:eID="C11_app132-f1823"/>
+               <seg th:sID="C11_app133-f1823"/>
+        or rather the most
+        <seg th:eID="C11_app133-f1823"/>
+               <seg th:sID="C11_app134-f1823"/>
+        beneficial profession
+        <seg th:eID="C11_app134-f1823"/>
+               <seg th:sID="C11_app135-f1823"/>
+        of any.
+        <seg th:eID="C11_app135-f1823"/>
+               <seg th:sID="C11_app136-f1823"/>
+        My 
+        <seg th:eID="C11_app136-f1823"/>
+               <seg th:sID="C11_app137-f1823"/>
+        uncle had an idea of his being
+        <seg th:eID="C11_app137-f1823"/>
+               <seg th:sID="C11_app138-f1823"/>
+        educated as
+        <seg th:eID="C11_app138-f1823"/>
+               <seg th:sID="C11_app139-f1823"/>
+        an advocate, 
+        <seg th:eID="C11_app139-f1823"/>
+               <seg th:sID="C11_app140-f1823"/>
+        that
+        <seg th:eID="C11_app140-f1823"/>
+               <seg th:sID="C11_app141-f1823"/>
+        through his 
+        <seg th:eID="C11_app141-f1823"/>
+               <seg th:sID="C11_app142-f1823"/>
+        interest
+        <seg th:eID="C11_app142-f1823"/>
+               <seg th:sID="C11_app143-f1823"/>
+        he might become
+        <seg th:eID="C11_app143-f1823"/>
+               <seg th:sID="C11_app144-f1823"/>
+        a judge. 
+        <seg th:eID="C11_app144-f1823"/>
+               <seg th:sID="C11_app145-f1823"/>
+        But,
+        <seg th:eID="C11_app145-f1823"/>
+               <seg th:sID="C11_app146-f1823"/>
+        besides that he is not at all
+        <seg th:eID="C11_app146-f1823"/>
+               <seg th:sID="C11_app147-f1823"/>
+        fitted
+        <seg th:eID="C11_app147-f1823"/>
+               <seg th:sID="C11_app148-f1823"/>
+        for such an occupation, it is certainly
+        <seg th:eID="C11_app148-f1823"/>
+               <seg th:sID="C11_app149-f1823"/>
+        more
+        <seg th:eID="C11_app149-f1823"/>
+               <seg th:sID="C11_app150-f1823"/>
+        creditable
+        <seg th:eID="C11_app150-f1823"/>
+               <seg th:sID="C11_app151-f1823"/>
+        to 
+        <seg th:eID="C11_app151-f1823"/>
+               <seg th:sID="C11_app152-f1823"/>
+        cultivate the earth for the sustenance of
+        <seg th:eID="C11_app152-f1823"/>
+               <seg th:sID="C11_app153-f1823"/>
+        man,
+        <seg th:eID="C11_app153-f1823"/>
+               <seg th:sID="C11_app154-f1823"/>
+        than
+        <seg th:eID="C11_app154-f1823"/>
+               <seg th:sID="C11_app155-f1823"/>
+        to be the
+        <seg th:eID="C11_app155-f1823"/>
+               <seg th:sID="C11_app156-f1823"/>
+        confidant,
+        <seg th:eID="C11_app156-f1823"/>
+               <seg th:sID="C11_app157-f1823"/>
+        and sometimes
+        <seg th:eID="C11_app157-f1823"/>
+               <seg th:sID="C11_app158-f1823"/>
+        the
+        <seg th:eID="C11_app158-f1823"/>
+               <seg th:sID="C11_app159-f1823"/>
+        accomplice,
+        <seg th:eID="C11_app159-f1823"/>
+               <seg th:sID="C11_app160-f1823"/>
+        of
+        <seg th:eID="C11_app160-f1823"/>
+               <seg th:sID="C11_app161-f1823"/>
+        his
+        <seg th:eID="C11_app161-f1823"/>
+               <seg th:sID="C11_app162-f1823"/>
+        vices; which is <pb xml:id="F1823_v1_136" n="117"/>the 
+        <seg th:eID="C11_app162-f1823"/>
+               <seg th:sID="C11_app163-f1823"/>
+        profession of
+        <seg th:eID="C11_app163-f1823"/>
+               <seg th:sID="C11_app164-f1823"/>
+        a lawyer.
+        <seg th:eID="C11_app164-f1823"/>
+               <seg th:sID="C11_app165-f1823"/>
+        I
+        <seg th:eID="C11_app165-f1823"/>
+               <seg th:sID="C11_app166-f1823"/>
+        said,
+        <seg th:eID="C11_app166-f1823"/>
+               <seg th:sID="C11_app167-f1823"/>
+        that
+        <seg th:eID="C11_app167-f1823"/>
+               <seg th:sID="C11_app168-f1823"/>
+        the
+        <seg th:eID="C11_app168-f1823"/>
+               <seg th:sID="C11_app169-f1823"/>
+        employments
+        <seg th:eID="C11_app169-f1823"/>
+               <seg th:sID="C11_app170-f1823"/>
+        of a prosperous
+        <seg th:eID="C11_app170-f1823"/>
+               <seg th:sID="C11_app171-f1823"/>
+        farmer,
+        <seg th:eID="C11_app171-f1823"/>
+               <seg th:sID="C11_app172-f1823"/>
+        if
+        <seg th:eID="C11_app172-f1823"/>
+               <seg th:sID="C11_app173-f1823"/>
+        they
+        <seg th:eID="C11_app173-f1823"/>
+               <seg th:sID="C11_app174-f1823"/>
+        were not a more
+        <seg th:eID="C11_app174-f1823"/>
+               <seg th:sID="C11_app175-f1823"/>
+        honourable, they were
+        <seg th:eID="C11_app175-f1823"/>
+               <seg th:sID="C11_app176-f1823"/>
+        at least a happier
+        <seg th:eID="C11_app176-f1823"/>
+               <seg th:sID="C11_app177-f1823"/>
+        species of occupation
+        <seg th:eID="C11_app177-f1823"/>
+               <seg th:sID="C11_app178-f1823"/>
+        than that of a judge, whose misfortune it was always to meddle with the dark side of human
+        <seg th:eID="C11_app178-f1823"/>
+               <seg th:sID="C11_app179-f1823"/>
+        nature.
+        <seg th:eID="C11_app179-f1823"/>
+               <seg th:sID="C11_app180-f1823"/>
+        My uncle
+        <seg th:eID="C11_app180-f1823"/>
+               <seg th:sID="C11_app181-f1823"/>
+        smiled,
+        <seg th:eID="C11_app181-f1823"/>
+               <seg th:sID="C11_app182-f1823"/>
+        and
+        <seg th:eID="C11_app182-f1823"/>
+               <seg th:sID="C11_app183-f1823"/>
+        said,
+        <seg th:eID="C11_app183-f1823"/>
+               <seg th:sID="C11_app184-f1823"/>
+        that I
+        <seg th:eID="C11_app184-f1823"/>
+               <seg th:sID="C11_app185-f1823"/>
+        ought to be an advocate
+        <seg th:eID="C11_app185-f1823"/>
+               <seg th:sID="C11_app186-f1823"/>
+        myself,
+        <seg th:eID="C11_app186-f1823"/>
+               <seg th:sID="C11_app187-f1823"/>
+        which put an end to the conversation on that
+        <seg th:eID="C11_app187-f1823"/>
+               <seg th:sID="C11_app188-f1823"/>
+        subject.
+        <seg th:eID="C11_app188-f1823"/>
                <seg th:sID="C11_app189-f1823__I" part="I"/>
                <seg th:eID="C11_app189-f1823__I" part="I"/>
             </p>
             <p xml:id="novel1_letter4_chapter5_div4_div5_p6">
                <seg th:sID="C11_app189-f1823__F" part="F"/>
                <seg th:eID="C11_app189-f1823__F" part="F"/>
-               <seg th:sID="C11_app190-f1823"/>“And<seg th:eID="C11_app190-f1823"/>
-               <seg th:sID="C11_app191-f1823"/>now I must tell you a little story that will<seg th:eID="C11_app191-f1823"/>
-               <seg th:sID="C11_app192-f1823"/>please<seg th:eID="C11_app192-f1823"/>
-               <seg th:sID="C11_app193-f1823"/>and perhaps amuse<seg th:eID="C11_app193-f1823"/>
-               <seg th:sID="C11_app194-f1823"/>you. Do you not remember<seg th:eID="C11_app194-f1823"/>
-               <seg th:sID="C11_app195-f1823"/>Justine<seg th:eID="C11_app195-f1823"/>
-               <seg th:sID="C11_app196-f1823"/>Moritz?<seg th:eID="C11_app196-f1823"/>
-               <seg th:sID="C11_app197-f1823"/>Probably<seg th:eID="C11_app197-f1823"/>you do <seg th:sID="C11_app199-f1823"/>not;<seg th:eID="C11_app199-f1823"/>I will <seg th:sID="C11_app201-f1823"/>relate<seg th:eID="C11_app201-f1823"/>her <seg th:sID="C11_app203-f1823"/>history, therefore,<seg th:eID="C11_app203-f1823"/>in a few words. <seg th:sID="C11_app205-f1823"/>Madame Moritz,<seg th:eID="C11_app205-f1823"/>her <seg th:sID="C11_app207-f1823"/>mother,<seg th:eID="C11_app207-f1823"/>was a widow with four <seg th:sID="C11_app209-f1823"/>children,<seg th:eID="C11_app209-f1823"/>of whom <seg th:sID="C11_app211-f1823"/>Justine was the third. This girl had always been the<seg th:eID="C11_app211-f1823"/>
-               <seg th:sID="C11_app212-f1823"/>favourite of her<seg th:eID="C11_app212-f1823"/>
-               <seg th:sID="C11_app213-f1823"/>father; but, through a strange perversity,<seg th:eID="C11_app213-f1823"/>her mother <seg th:sID="C11_app215-f1823"/>could<seg th:eID="C11_app215-f1823"/>
-               <seg th:sID="C11_app216-f1823"/>not endure<seg th:eID="C11_app216-f1823"/>
+               <seg th:sID="C11_app190-f1823"/>
+        “And
+        <seg th:eID="C11_app190-f1823"/>
+               <seg th:sID="C11_app191-f1823"/>
+        now I must tell you a little story that will
+        <seg th:eID="C11_app191-f1823"/>
+               <seg th:sID="C11_app192-f1823"/>
+        please
+        <seg th:eID="C11_app192-f1823"/>
+               <seg th:sID="C11_app193-f1823"/>
+        and perhaps amuse
+        <seg th:eID="C11_app193-f1823"/>
+               <seg th:sID="C11_app194-f1823"/>
+        you. Do you not remember
+        <seg th:eID="C11_app194-f1823"/>
+               <seg th:sID="C11_app195-f1823"/>
+        Justine
+        <seg th:eID="C11_app195-f1823"/>
+               <seg th:sID="C11_app196-f1823"/>
+        Moritz?
+        <seg th:eID="C11_app196-f1823"/>
+               <seg th:sID="C11_app197-f1823"/>
+        Probably
+        <seg th:eID="C11_app197-f1823"/>
+    you do 
+        <seg th:sID="C11_app199-f1823"/>
+        not;
+        <seg th:eID="C11_app199-f1823"/>
+    I will 
+        <seg th:sID="C11_app201-f1823"/>
+        relate
+        <seg th:eID="C11_app201-f1823"/>
+    her 
+        <seg th:sID="C11_app203-f1823"/>
+        history, therefore,
+        <seg th:eID="C11_app203-f1823"/>
+    in a few words. 
+        <seg th:sID="C11_app205-f1823"/>
+        Madame Moritz,
+        <seg th:eID="C11_app205-f1823"/>
+    her 
+        <seg th:sID="C11_app207-f1823"/>
+        mother,
+        <seg th:eID="C11_app207-f1823"/>
+    was a widow with four 
+        <seg th:sID="C11_app209-f1823"/>
+        children,
+        <seg th:eID="C11_app209-f1823"/>
+    of whom 
+        <seg th:sID="C11_app211-f1823"/>
+        Justine was the third. This girl had always been the
+        <seg th:eID="C11_app211-f1823"/>
+               <seg th:sID="C11_app212-f1823"/>
+        favourite of her
+        <seg th:eID="C11_app212-f1823"/>
+               <seg th:sID="C11_app213-f1823"/>
+        father; but, through a strange perversity,
+        <seg th:eID="C11_app213-f1823"/>
+    her mother 
+        <seg th:sID="C11_app215-f1823"/>
+        could
+        <seg th:eID="C11_app215-f1823"/>
+               <seg th:sID="C11_app216-f1823"/>
+        not endure
+        <seg th:eID="C11_app216-f1823"/>
                <seg th:sID="C11_app217-f1823"/>
-               <pb xml:id="F1823_v1_137" n="117"/>her, and,<seg th:eID="C11_app217-f1823"/>after the death of M. <seg th:sID="C11_app219-f1823"/>Moritz,<seg th:eID="C11_app219-f1823"/>treated her very ill. My aunt observed <seg th:sID="C11_app221-f1823"/>this; and,<seg th:eID="C11_app221-f1823"/>when Justine was <seg th:sID="C11_app223-f1823"/>twelve years<seg th:eID="C11_app223-f1823"/>
-               <seg th:sID="C11_app224-f1823"/>of age,<seg th:eID="C11_app224-f1823"/>prevailed on her mother to allow her to live at <seg th:sID="C11_app226-f1823"/>her<seg th:eID="C11_app226-f1823"/>house. <seg th:sID="C11_app228-f1823"/>The republican institutions of our<seg th:eID="C11_app228-f1823"/>
-               <seg th:sID="C11_app229-f1823"/>country<seg th:eID="C11_app229-f1823"/>have produced simpler and happier manners than those which prevail in the great monarchies that surround it. <seg th:sID="C11_app231-f1823"/>Hence there is less<seg th:eID="C11_app231-f1823"/>
-               <seg th:sID="C11_app232-f1823"/>distinction<seg th:eID="C11_app232-f1823"/>between the <seg th:sID="C11_app234-f1823"/>several<seg th:eID="C11_app234-f1823"/>classes <seg th:sID="C11_app236-f1823"/>of its inhabitants;<seg th:eID="C11_app236-f1823"/>and the lower orders being neither so poor nor so <seg th:sID="C11_app238-f1823"/>despised, their manners<seg th:eID="C11_app238-f1823"/>are more refined and moral. A servant <seg th:sID="C11_app240-f1823"/>in<seg th:eID="C11_app240-f1823"/>Geneva does not mean the same thing as a servant in France <seg th:sID="C11_app242-f1823"/>and England. Justine,<seg th:eID="C11_app242-f1823"/>thus <seg th:sID="C11_app244-f1823"/>received in<seg th:eID="C11_app244-f1823"/>our <seg th:sID="C11_app246-f1823"/>family, learned<seg th:eID="C11_app246-f1823"/>the duties of <seg th:sID="C11_app248-f1823"/>a servant;<seg th:eID="C11_app248-f1823"/>a <seg th:sID="C11_app250-f1823"/>condition which,<seg th:eID="C11_app250-f1823"/>in our fortunate <seg th:sID="C11_app252-f1823"/>country,<seg th:eID="C11_app252-f1823"/>does not include <seg th:sID="C11_app254-f1823"/>the idea of ignorance, and<seg th:eID="C11_app254-f1823"/>a <seg th:sID="C11_app256-f1823"/>sacrifice<seg th:eID="C11_app256-f1823"/>of the <seg th:sID="C11_app258-f1823"/>dignity<seg th:eID="C11_app258-f1823"/>of a human being. <seg th:sID="C11_app260-f1823__I" part="I"/>
+               <pb xml:id="F1823_v1_137" n="117"/>her, and,
+        <seg th:eID="C11_app217-f1823"/>
+    after the death of M. 
+        <seg th:sID="C11_app219-f1823"/>
+        Moritz,
+        <seg th:eID="C11_app219-f1823"/>
+    treated her very ill. My aunt observed 
+        <seg th:sID="C11_app221-f1823"/>
+        this; and,
+        <seg th:eID="C11_app221-f1823"/>
+    when Justine was 
+        <seg th:sID="C11_app223-f1823"/>
+        twelve years
+        <seg th:eID="C11_app223-f1823"/>
+               <seg th:sID="C11_app224-f1823"/>
+        of age,
+        <seg th:eID="C11_app224-f1823"/>
+    prevailed on her mother to allow her to live at 
+        <seg th:sID="C11_app226-f1823"/>
+        her
+        <seg th:eID="C11_app226-f1823"/>
+    house. 
+        <seg th:sID="C11_app228-f1823"/>
+        The republican institutions of our
+        <seg th:eID="C11_app228-f1823"/>
+               <seg th:sID="C11_app229-f1823"/>
+        country
+        <seg th:eID="C11_app229-f1823"/>
+    have produced simpler and happier manners than those which prevail in the great monarchies that surround it. 
+        <seg th:sID="C11_app231-f1823"/>
+        Hence there is less
+        <seg th:eID="C11_app231-f1823"/>
+               <seg th:sID="C11_app232-f1823"/>
+        distinction
+        <seg th:eID="C11_app232-f1823"/>
+    between the 
+        <seg th:sID="C11_app234-f1823"/>
+        several
+        <seg th:eID="C11_app234-f1823"/>
+    classes 
+        <seg th:sID="C11_app236-f1823"/>
+        of its inhabitants;
+        <seg th:eID="C11_app236-f1823"/>
+    and the lower orders being neither so poor nor so 
+        <seg th:sID="C11_app238-f1823"/>
+        despised, their manners
+        <seg th:eID="C11_app238-f1823"/>
+    are more refined and moral. A servant 
+        <seg th:sID="C11_app240-f1823"/>
+        in
+        <seg th:eID="C11_app240-f1823"/>
+    Geneva does not mean the same thing as a servant in France 
+        <seg th:sID="C11_app242-f1823"/>
+        and England. Justine,
+        <seg th:eID="C11_app242-f1823"/>
+    thus 
+        <seg th:sID="C11_app244-f1823"/>
+        received in
+        <seg th:eID="C11_app244-f1823"/>
+    our 
+        <seg th:sID="C11_app246-f1823"/>
+        family, learned
+        <seg th:eID="C11_app246-f1823"/>
+    the duties of 
+        <seg th:sID="C11_app248-f1823"/>
+        a servant;
+        <seg th:eID="C11_app248-f1823"/>
+    a 
+        <seg th:sID="C11_app250-f1823"/>
+        condition which,
+        <seg th:eID="C11_app250-f1823"/>
+    in our fortunate 
+        <seg th:sID="C11_app252-f1823"/>
+        country,
+        <seg th:eID="C11_app252-f1823"/>
+    does not include 
+        <seg th:sID="C11_app254-f1823"/>
+        the idea of ignorance, and
+        <seg th:eID="C11_app254-f1823"/>
+    a 
+        <seg th:sID="C11_app256-f1823"/>
+        sacrifice
+        <seg th:eID="C11_app256-f1823"/>
+    of the 
+        <seg th:sID="C11_app258-f1823"/>
+        dignity
+        <seg th:eID="C11_app258-f1823"/>
+    of a human being. 
+        <seg th:sID="C11_app260-f1823__I" part="I"/>
                <seg th:eID="C11_app260-f1823__I" part="I"/>
             </p>
             <p xml:id="novel1_letter4_chapter5_div4_div5_p7">
                <seg th:sID="C11_app260-f1823__F" part="F"/>
                <seg th:eID="C11_app260-f1823__F" part="F"/>
                <seg th:sID="C11_app261-f1823"/>
-               <pb xml:id="F1823_v1_138" n="119"/>“After what I have said,<seg th:eID="C11_app261-f1823"/>
-               <seg th:sID="C11_app262-f1823"/>I dare say<seg th:eID="C11_app262-f1823"/>
-               <seg th:sID="C11_app263-f1823"/>you<seg th:eID="C11_app263-f1823"/>
-               <seg th:sID="C11_app264-f1823"/>well<seg th:eID="C11_app264-f1823"/>
-               <seg th:sID="C11_app265-f1823"/>remember<seg th:eID="C11_app265-f1823"/>
-               <seg th:sID="C11_app266-f1823"/>the heroine of my little tale:<seg th:eID="C11_app266-f1823"/>
-               <seg th:sID="C11_app267-f1823"/>for Justine<seg th:eID="C11_app267-f1823"/>was a great favourite of <seg th:sID="C11_app269-f1823"/>yours;<seg th:eID="C11_app269-f1823"/>and I <seg th:sID="C11_app271-f1823"/>recollect<seg th:eID="C11_app271-f1823"/>you once  <seg th:sID="C11_app273-f1823"/>remarked,<seg th:eID="C11_app273-f1823"/>that if you were <seg th:sID="C11_app275-f1823"/>in an<seg th:eID="C11_app275-f1823"/>
-               <seg th:sID="C11_app276-f1823"/>ill<seg th:eID="C11_app276-f1823"/>
-               <seg th:sID="C11_app277-f1823"/>humour,<seg th:eID="C11_app277-f1823"/>one glance from <seg th:sID="C11_app279-f1823"/>Justine<seg th:eID="C11_app279-f1823"/>could dissipate <seg th:sID="C11_app281-f1823"/>it,<seg th:eID="C11_app281-f1823"/>for the same reason that Ariosto  <seg th:sID="C11_app284-f1823"/>gives<seg th:eID="C11_app284-f1823"/>concerning the beauty of <seg th:sID="C11_app286-f1823"/>Angelica—she<seg th:eID="C11_app286-f1823"/>looked so <seg th:sID="C11_app288-f1823"/>frank-hearted<seg th:eID="C11_app288-f1823"/>and happy. My aunt <seg th:sID="C11_app290-f1823"/>conceived a great<seg th:eID="C11_app290-f1823"/>attachment for her, by which she <seg th:sID="C11_app292-f1823"/>was induced<seg th:eID="C11_app292-f1823"/>
-               <seg th:sID="C11_app293-f1823"/>to<seg th:eID="C11_app293-f1823"/>give her an  <seg th:sID="C11_app295-f1823"/>education superior to that which she<seg th:eID="C11_app295-f1823"/>
-               <seg th:sID="C11_app296-f1823"/>had<seg th:eID="C11_app296-f1823"/>at first  <seg th:sID="C11_app298-f1823"/>intended.<seg th:eID="C11_app298-f1823"/>This benefit was fully repaid;  <seg th:sID="C11_app301-f1823"/>Justine was the most grateful little creature in the<seg th:eID="C11_app301-f1823"/>
-               <seg th:sID="C11_app302-f1823"/>world:<seg th:eID="C11_app302-f1823"/>I do not mean that she made any <seg th:sID="C11_app304-f1823"/>professions,<seg th:eID="C11_app304-f1823"/>
-               <seg th:sID="C11_app305-f1823"/>I<seg th:eID="C11_app305-f1823"/>never heard one pass her <seg th:sID="C11_app307-f1823"/>lips;<seg th:eID="C11_app307-f1823"/>but you could see by her <seg th:sID="C11_app309-f1823"/>eyes<seg th:eID="C11_app309-f1823"/>that she almost adored her protectress. Although <seg th:sID="C11_app311-f1823"/>her disposition was<seg th:eID="C11_app311-f1823"/>gay, and in many respects inconsiderate, yet she paid <seg th:sID="C11_app313-f1823"/>the<pb xml:id="F1823_v1_139" n="120"/>greatest<seg th:eID="C11_app313-f1823"/>attention to every gesture of my <seg th:sID="C11_app315-f1823"/>aunt.<seg th:eID="C11_app315-f1823"/>She thought her the <seg th:sID="C11_app317-f1823"/>model<seg th:eID="C11_app317-f1823"/>of all  <seg th:sID="C11_app319-f1823"/>excellence,<seg th:eID="C11_app319-f1823"/>and endeavoured to imitate her  <seg th:sID="C11_app321-f1823"/>phraseology<seg th:eID="C11_app321-f1823"/>and <seg th:sID="C11_app323-f1823"/>manners,<seg th:eID="C11_app323-f1823"/>so that <seg th:sID="C11_app325-f1823"/>even<seg th:eID="C11_app325-f1823"/>now she  <seg th:sID="C11_app327-f1823"/>often<seg th:eID="C11_app327-f1823"/>
-               <seg th:sID="C11_app328-f1823"/>reminds me<seg th:eID="C11_app328-f1823"/>
-               <seg th:sID="C11_app329-f1823"/>of her.<seg th:eID="C11_app329-f1823"/>
+               <pb xml:id="F1823_v1_138" n="119"/>“After what I have said,
+        <seg th:eID="C11_app261-f1823"/>
+               <seg th:sID="C11_app262-f1823"/>
+        I dare say
+        <seg th:eID="C11_app262-f1823"/>
+               <seg th:sID="C11_app263-f1823"/>
+        you
+        <seg th:eID="C11_app263-f1823"/>
+               <seg th:sID="C11_app264-f1823"/>
+        well
+        <seg th:eID="C11_app264-f1823"/>
+               <seg th:sID="C11_app265-f1823"/>
+        remember
+        <seg th:eID="C11_app265-f1823"/>
+               <seg th:sID="C11_app266-f1823"/>
+        the heroine of my little tale:
+        <seg th:eID="C11_app266-f1823"/>
+               <seg th:sID="C11_app267-f1823"/>
+        for Justine
+        <seg th:eID="C11_app267-f1823"/>
+    was a great favourite of 
+        <seg th:sID="C11_app269-f1823"/>
+        yours;
+        <seg th:eID="C11_app269-f1823"/>
+    and I 
+        <seg th:sID="C11_app271-f1823"/>
+        recollect
+        <seg th:eID="C11_app271-f1823"/>
+    you once  
+        <seg th:sID="C11_app273-f1823"/>
+        remarked,
+        <seg th:eID="C11_app273-f1823"/>
+    that if you were 
+        <seg th:sID="C11_app275-f1823"/>
+        in an
+        <seg th:eID="C11_app275-f1823"/>
+               <seg th:sID="C11_app276-f1823"/>
+        ill
+        <seg th:eID="C11_app276-f1823"/>
+               <seg th:sID="C11_app277-f1823"/>
+        humour,
+        <seg th:eID="C11_app277-f1823"/>
+    one glance from 
+        <seg th:sID="C11_app279-f1823"/>
+        Justine
+        <seg th:eID="C11_app279-f1823"/>
+    could dissipate 
+        <seg th:sID="C11_app281-f1823"/>
+        it,
+        <seg th:eID="C11_app281-f1823"/>
+    for the same reason that Ariosto  
+        <seg th:sID="C11_app284-f1823"/>
+        gives
+        <seg th:eID="C11_app284-f1823"/>
+    concerning the beauty of 
+        <seg th:sID="C11_app286-f1823"/>
+        Angelica—she
+        <seg th:eID="C11_app286-f1823"/>
+    looked so 
+        <seg th:sID="C11_app288-f1823"/>
+        frank-hearted
+        <seg th:eID="C11_app288-f1823"/>
+    and happy. My aunt 
+        <seg th:sID="C11_app290-f1823"/>
+        conceived a great
+        <seg th:eID="C11_app290-f1823"/>
+    attachment for her, by which she 
+        <seg th:sID="C11_app292-f1823"/>
+        was induced
+        <seg th:eID="C11_app292-f1823"/>
+               <seg th:sID="C11_app293-f1823"/>
+        to
+        <seg th:eID="C11_app293-f1823"/>
+    give her an  
+        <seg th:sID="C11_app295-f1823"/>
+        education superior to that which she
+        <seg th:eID="C11_app295-f1823"/>
+               <seg th:sID="C11_app296-f1823"/>
+        had
+        <seg th:eID="C11_app296-f1823"/>
+    at first  
+        <seg th:sID="C11_app298-f1823"/>
+        intended.
+        <seg th:eID="C11_app298-f1823"/>
+    This benefit was fully repaid;  
+        <seg th:sID="C11_app301-f1823"/>
+        Justine was the most grateful little creature in the
+        <seg th:eID="C11_app301-f1823"/>
+               <seg th:sID="C11_app302-f1823"/>
+        world:
+        <seg th:eID="C11_app302-f1823"/>
+    I do not mean that she made any 
+        <seg th:sID="C11_app304-f1823"/>
+        professions,
+        <seg th:eID="C11_app304-f1823"/>
+               <seg th:sID="C11_app305-f1823"/>
+        I
+        <seg th:eID="C11_app305-f1823"/>
+    never heard one pass her 
+        <seg th:sID="C11_app307-f1823"/>
+        lips;
+        <seg th:eID="C11_app307-f1823"/>
+    but you could see by her 
+        <seg th:sID="C11_app309-f1823"/>
+        eyes
+        <seg th:eID="C11_app309-f1823"/>
+    that she almost adored her protectress. Although 
+        <seg th:sID="C11_app311-f1823"/>
+        her disposition was
+        <seg th:eID="C11_app311-f1823"/>
+    gay, and in many respects inconsiderate, yet she paid 
+        <seg th:sID="C11_app313-f1823"/>
+        the<pb xml:id="F1823_v1_139" n="120"/>greatest
+        <seg th:eID="C11_app313-f1823"/>
+    attention to every gesture of my 
+        <seg th:sID="C11_app315-f1823"/>
+        aunt.
+        <seg th:eID="C11_app315-f1823"/>
+    She thought her the 
+        <seg th:sID="C11_app317-f1823"/>
+        model
+        <seg th:eID="C11_app317-f1823"/>
+    of all  
+        <seg th:sID="C11_app319-f1823"/>
+        excellence,
+        <seg th:eID="C11_app319-f1823"/>
+    and endeavoured to imitate her  
+        <seg th:sID="C11_app321-f1823"/>
+        phraseology
+        <seg th:eID="C11_app321-f1823"/>
+    and 
+        <seg th:sID="C11_app323-f1823"/>
+        manners,
+        <seg th:eID="C11_app323-f1823"/>
+    so that 
+        <seg th:sID="C11_app325-f1823"/>
+        even
+        <seg th:eID="C11_app325-f1823"/>
+    now she  
+        <seg th:sID="C11_app327-f1823"/>
+        often
+        <seg th:eID="C11_app327-f1823"/>
+               <seg th:sID="C11_app328-f1823"/>
+        reminds me
+        <seg th:eID="C11_app328-f1823"/>
+               <seg th:sID="C11_app329-f1823"/>
+        of her.
+        <seg th:eID="C11_app329-f1823"/>
                <seg th:sID="C11_app330-f1823__I" part="I"/>
                <seg th:eID="C11_app330-f1823__I" part="I"/>
             </p>
             <p xml:id="novel1_letter4_chapter5_div4_div5_p8">
                <seg th:sID="C11_app330-f1823__F" part="F"/>
                <seg th:eID="C11_app330-f1823__F" part="F"/>
-               <seg th:sID="C11_app331-f1823"/>“When<seg th:eID="C11_app331-f1823"/>my dearest aunt <seg th:sID="C11_app333-f1823"/>died,<seg th:eID="C11_app333-f1823"/>every one was too much occupied in their own <seg th:sID="C11_app335-f1823"/>grief to notice poor<seg th:eID="C11_app335-f1823"/>
-               <seg th:sID="C11_app336-f1823"/>Justine,<seg th:eID="C11_app336-f1823"/>who had attended her during her <seg th:sID="C11_app338-f1823"/>illness with the<seg th:eID="C11_app338-f1823"/>
-               <seg th:sID="C11_app339-f1823"/>most anxious<seg th:eID="C11_app339-f1823"/>affection. Poor Justine was very <seg th:sID="C11_app341-f1823"/>ill;<seg th:eID="C11_app341-f1823"/>but other <seg th:sID="C11_app343-f1823"/>trials<seg th:eID="C11_app343-f1823"/>were reserved for her. </p>
+               <seg th:sID="C11_app331-f1823"/>
+        “When
+        <seg th:eID="C11_app331-f1823"/>
+    my dearest aunt 
+        <seg th:sID="C11_app333-f1823"/>
+        died,
+        <seg th:eID="C11_app333-f1823"/>
+    every one was too much occupied in their own 
+        <seg th:sID="C11_app335-f1823"/>
+        grief to notice poor
+        <seg th:eID="C11_app335-f1823"/>
+               <seg th:sID="C11_app336-f1823"/>
+        Justine,
+        <seg th:eID="C11_app336-f1823"/>
+    who had attended her during her 
+        <seg th:sID="C11_app338-f1823"/>
+        illness with the
+        <seg th:eID="C11_app338-f1823"/>
+               <seg th:sID="C11_app339-f1823"/>
+        most anxious
+        <seg th:eID="C11_app339-f1823"/>
+    affection. Poor Justine was very 
+        <seg th:sID="C11_app341-f1823"/>
+        ill;
+        <seg th:eID="C11_app341-f1823"/>
+    but other 
+        <seg th:sID="C11_app343-f1823"/>
+        trials
+        <seg th:eID="C11_app343-f1823"/>
+    were reserved for her. </p>
             <p xml:id="novel1_letter4_chapter5_div4_div5_p9">
-               <seg th:sID="C11_app345-f1823"/>“One<seg th:eID="C11_app345-f1823"/>by <seg th:sID="C11_app347-f1823"/>one,<seg th:eID="C11_app347-f1823"/>her brothers and sister <seg th:sID="C11_app349-f1823"/>died;<seg th:eID="C11_app349-f1823"/>and her <seg th:sID="C11_app351-f1823"/>mother,<seg th:eID="C11_app351-f1823"/>with the exception of her neglected <seg th:sID="C11_app353-f1823"/>daughter, was<seg th:eID="C11_app353-f1823"/>left childless. The conscience of the woman was <seg th:sID="C11_app355-f1823"/>troubled;<seg th:eID="C11_app355-f1823"/>she began to think that the deaths of her favourites was a <seg th:sID="C11_app357-f1823"/>judgment<seg th:eID="C11_app357-f1823"/>from heaven to <seg th:sID="C11_app359-f1823"/>chastise<seg th:eID="C11_app359-f1823"/>her  <seg th:sID="C11_app361-f1823"/>partiality.<seg th:eID="C11_app361-f1823"/>She was a Roman <seg th:sID="C11_app363-f1823"/>Catholic;<seg th:eID="C11_app363-f1823"/>and I believe her confessor <seg th:sID="C11_app365-f1823"/>confirmed<seg th:eID="C11_app365-f1823"/>
-               <pb xml:id="F1823_v1_140" n="121"/>the idea <seg th:sID="C11_app367-f1823"/>which she had<seg th:eID="C11_app367-f1823"/>
-               <seg th:sID="C11_app368-f1823"/>conceived. Accordingly,<seg th:eID="C11_app368-f1823"/>a few months after your departure for <seg th:sID="C11_app370-f1823"/>Ingolstadt,<seg th:eID="C11_app370-f1823"/>Justine was called home by her repentant mother. Poor <seg th:sID="C11_app372-f1823"/>girl!<seg th:eID="C11_app372-f1823"/>she wept when she quitted our <seg th:sID="C11_app374-f1823"/>house;<seg th:eID="C11_app374-f1823"/>she was much altered since the death of my <seg th:sID="C11_app376-f1823"/>aunt;<seg th:eID="C11_app376-f1823"/>grief had given <seg th:sID="C11_app378-f1823"/>softness<seg th:eID="C11_app378-f1823"/>and a winning mildness to her <seg th:sID="C11_app380-f1823"/>manners,<seg th:eID="C11_app380-f1823"/>which had before been remarkable for vivacity. Nor <seg th:sID="C11_app382-f1823"/>was her residence at her<seg th:eID="C11_app382-f1823"/>
-               <seg th:sID="C11_app383-f1823"/>mother’s<seg th:eID="C11_app383-f1823"/>house of a nature to restore her gaiety. The poor <seg th:sID="C11_app385-f1823"/>woman<seg th:eID="C11_app385-f1823"/>was very vacillating in her repentance. She sometimes begged Justine to forgive her <seg th:sID="C11_app387-f1823"/>unkindness,<seg th:eID="C11_app387-f1823"/>but much <seg th:sID="C11_app389-f1823"/>oftener<seg th:eID="C11_app389-f1823"/>accused her <seg th:sID="C11_app391-f1823"/>of<seg th:eID="C11_app391-f1823"/>having caused the deaths of <seg th:sID="C11_app393-f1823"/>her brothers and sister. Perpetual fretting at<seg th:eID="C11_app393-f1823"/>
-               <seg th:sID="C11_app394-f1823"/>length<seg th:eID="C11_app394-f1823"/>threw <seg th:sID="C11_app396-f1823"/>Madame Moritz<seg th:eID="C11_app396-f1823"/>into a decline, which at first <seg th:sID="C11_app398-f1823"/>increased<seg th:eID="C11_app398-f1823"/>her irritability, but she is now at <seg th:sID="C11_app400-f1823"/>peace<seg th:eID="C11_app400-f1823"/>
-               <seg th:sID="C11_app401-f1823"/>for<seg th:eID="C11_app401-f1823"/>
-               <seg th:sID="C11_app402-f1823"/>ever.<seg th:eID="C11_app402-f1823"/>She <seg th:sID="C11_app404-f1823"/>died on the first approach of cold<seg th:eID="C11_app404-f1823"/>
-               <seg th:sID="C11_app405-f1823"/>weather,<seg th:eID="C11_app405-f1823"/>at <pb xml:id="F1823_v1_141" n="122"/>the beginning of <seg th:sID="C11_app407-f1823"/>this<seg th:eID="C11_app407-f1823"/>last <seg th:sID="C11_app409-f1823"/>winter.<seg th:eID="C11_app409-f1823"/>Justine has returned to <seg th:sID="C11_app411-f1823"/>us;<seg th:eID="C11_app411-f1823"/>and I assure you I love her tenderly. She is very clever and <seg th:sID="C11_app413-f1823"/>gentle,<seg th:eID="C11_app413-f1823"/>and <seg th:sID="C11_app415-f1823"/>extremely pretty;<seg th:eID="C11_app415-f1823"/>as I mentioned <seg th:sID="C11_app417-f1823"/>before,<seg th:eID="C11_app417-f1823"/>her <seg th:sID="C11_app419-f1823"/>mien<seg th:eID="C11_app419-f1823"/>and her expressions <seg th:sID="C11_app421-f1823__I" part="I"/>continually remind me of my dear aunt. <seg th:eID="C11_app421-f1823__I" part="I"/>
+               <seg th:sID="C11_app345-f1823"/>
+        “One
+        <seg th:eID="C11_app345-f1823"/>
+    by 
+        <seg th:sID="C11_app347-f1823"/>
+        one,
+        <seg th:eID="C11_app347-f1823"/>
+    her brothers and sister 
+        <seg th:sID="C11_app349-f1823"/>
+        died;
+        <seg th:eID="C11_app349-f1823"/>
+    and her 
+        <seg th:sID="C11_app351-f1823"/>
+        mother,
+        <seg th:eID="C11_app351-f1823"/>
+    with the exception of her neglected 
+        <seg th:sID="C11_app353-f1823"/>
+        daughter, was
+        <seg th:eID="C11_app353-f1823"/>
+    left childless. The conscience of the woman was 
+        <seg th:sID="C11_app355-f1823"/>
+        troubled;
+        <seg th:eID="C11_app355-f1823"/>
+    she began to think that the deaths of her favourites was a 
+        <seg th:sID="C11_app357-f1823"/>
+        judgment
+        <seg th:eID="C11_app357-f1823"/>
+    from heaven to 
+        <seg th:sID="C11_app359-f1823"/>
+        chastise
+        <seg th:eID="C11_app359-f1823"/>
+    her  
+        <seg th:sID="C11_app361-f1823"/>
+        partiality.
+        <seg th:eID="C11_app361-f1823"/>
+    She was a Roman 
+        <seg th:sID="C11_app363-f1823"/>
+        Catholic;
+        <seg th:eID="C11_app363-f1823"/>
+    and I believe her confessor 
+        <seg th:sID="C11_app365-f1823"/>
+        confirmed
+        <seg th:eID="C11_app365-f1823"/>
+               <pb xml:id="F1823_v1_140" n="121"/>the idea 
+        <seg th:sID="C11_app367-f1823"/>
+        which she had
+        <seg th:eID="C11_app367-f1823"/>
+               <seg th:sID="C11_app368-f1823"/>
+        conceived. Accordingly,
+        <seg th:eID="C11_app368-f1823"/>
+    a few months after your departure for 
+        <seg th:sID="C11_app370-f1823"/>
+        Ingolstadt,
+        <seg th:eID="C11_app370-f1823"/>
+    Justine was called home by her repentant mother. Poor 
+        <seg th:sID="C11_app372-f1823"/>
+        girl!
+        <seg th:eID="C11_app372-f1823"/>
+    she wept when she quitted our 
+        <seg th:sID="C11_app374-f1823"/>
+        house;
+        <seg th:eID="C11_app374-f1823"/>
+    she was much altered since the death of my 
+        <seg th:sID="C11_app376-f1823"/>
+        aunt;
+        <seg th:eID="C11_app376-f1823"/>
+    grief had given 
+        <seg th:sID="C11_app378-f1823"/>
+        softness
+        <seg th:eID="C11_app378-f1823"/>
+    and a winning mildness to her 
+        <seg th:sID="C11_app380-f1823"/>
+        manners,
+        <seg th:eID="C11_app380-f1823"/>
+    which had before been remarkable for vivacity. Nor 
+        <seg th:sID="C11_app382-f1823"/>
+        was her residence at her
+        <seg th:eID="C11_app382-f1823"/>
+               <seg th:sID="C11_app383-f1823"/>
+        mother’s
+        <seg th:eID="C11_app383-f1823"/>
+    house of a nature to restore her gaiety. The poor 
+        <seg th:sID="C11_app385-f1823"/>
+        woman
+        <seg th:eID="C11_app385-f1823"/>
+    was very vacillating in her repentance. She sometimes begged Justine to forgive her 
+        <seg th:sID="C11_app387-f1823"/>
+        unkindness,
+        <seg th:eID="C11_app387-f1823"/>
+    but much 
+        <seg th:sID="C11_app389-f1823"/>
+        oftener
+        <seg th:eID="C11_app389-f1823"/>
+    accused her 
+        <seg th:sID="C11_app391-f1823"/>
+        of
+        <seg th:eID="C11_app391-f1823"/>
+    having caused the deaths of 
+        <seg th:sID="C11_app393-f1823"/>
+        her brothers and sister. Perpetual fretting at
+        <seg th:eID="C11_app393-f1823"/>
+               <seg th:sID="C11_app394-f1823"/>
+        length
+        <seg th:eID="C11_app394-f1823"/>
+    threw 
+        <seg th:sID="C11_app396-f1823"/>
+        Madame Moritz
+        <seg th:eID="C11_app396-f1823"/>
+    into a decline, which at first 
+        <seg th:sID="C11_app398-f1823"/>
+        increased
+        <seg th:eID="C11_app398-f1823"/>
+    her irritability, but she is now at 
+        <seg th:sID="C11_app400-f1823"/>
+        peace
+        <seg th:eID="C11_app400-f1823"/>
+               <seg th:sID="C11_app401-f1823"/>
+        for
+        <seg th:eID="C11_app401-f1823"/>
+               <seg th:sID="C11_app402-f1823"/>
+        ever.
+        <seg th:eID="C11_app402-f1823"/>
+    She 
+        <seg th:sID="C11_app404-f1823"/>
+        died on the first approach of cold
+        <seg th:eID="C11_app404-f1823"/>
+               <seg th:sID="C11_app405-f1823"/>
+        weather,
+        <seg th:eID="C11_app405-f1823"/>
+    at <pb xml:id="F1823_v1_141" n="122"/>the beginning of 
+        <seg th:sID="C11_app407-f1823"/>
+        this
+        <seg th:eID="C11_app407-f1823"/>
+    last 
+        <seg th:sID="C11_app409-f1823"/>
+        winter.
+        <seg th:eID="C11_app409-f1823"/>
+    Justine has returned to 
+        <seg th:sID="C11_app411-f1823"/>
+        us;
+        <seg th:eID="C11_app411-f1823"/>
+    and I assure you I love her tenderly. She is very clever and 
+        <seg th:sID="C11_app413-f1823"/>
+        gentle,
+        <seg th:eID="C11_app413-f1823"/>
+    and 
+        <seg th:sID="C11_app415-f1823"/>
+        extremely pretty;
+        <seg th:eID="C11_app415-f1823"/>
+    as I mentioned 
+        <seg th:sID="C11_app417-f1823"/>
+        before,
+        <seg th:eID="C11_app417-f1823"/>
+    her 
+        <seg th:sID="C11_app419-f1823"/>
+        mien
+        <seg th:eID="C11_app419-f1823"/>
+    and her expressions 
+        <seg th:sID="C11_app421-f1823__I" part="I"/>
+        continually remind me of my dear aunt. <seg th:eID="C11_app421-f1823__I" part="I"/>
             </p>
             <p xml:id="novel1_letter4_chapter5_div4_div5_p10">
                <seg th:sID="C11_app421-f1823__F" part="F"/>
                <seg th:eID="C11_app421-f1823__F" part="F"/>
-               <seg th:sID="C11_app422-f1823"/>“I<seg th:eID="C11_app422-f1823"/>must say <seg th:sID="C11_app424-f1823"/>also<seg th:eID="C11_app424-f1823"/>a few words to <seg th:sID="C11_app426-f1823"/>you,<seg th:eID="C11_app426-f1823"/>my dear <seg th:sID="C11_app428-f1823"/>cousin,<seg th:eID="C11_app428-f1823"/>of little darling William. I wish you could see <seg th:sID="C11_app430-f1823"/>him;<seg th:eID="C11_app430-f1823"/>he is very tall of his <seg th:sID="C11_app432-f1823"/>age,<seg th:eID="C11_app432-f1823"/>with sweet laughing blue <seg th:sID="C11_app434-f1823"/>eyes,<seg th:eID="C11_app434-f1823"/>dark <seg th:sID="C11_app436-f1823"/>eye-lashes,<seg th:eID="C11_app436-f1823"/>and curling <seg th:sID="C11_app438-f1823"/>hair.<seg th:eID="C11_app438-f1823"/>When he <seg th:sID="C11_app440-f1823"/>smiles,<seg th:eID="C11_app440-f1823"/>two little dimples appear on <seg th:sID="C11_app442-f1823"/>each cheek,<seg th:eID="C11_app442-f1823"/>which are rosy with <seg th:sID="C11_app444-f1823"/>health.<seg th:eID="C11_app444-f1823"/>He has already had one or two little <seg th:sID="C11_app446-f1823"/>
-               <hi xml:id="novel1_letter4_chapter5_div4_div5_p10_hi1">wives</hi>,<seg th:eID="C11_app446-f1823"/>but Louisa <seg th:sID="C11_app448-f1823"/>Biron is<seg th:eID="C11_app448-f1823"/>his  <seg th:sID="C11_app450-f1823"/>favourite,<seg th:eID="C11_app450-f1823"/>a pretty little girl of five years <seg th:sID="C11_app452-f1823"/>of age.<seg th:eID="C11_app452-f1823"/>
+               <seg th:sID="C11_app422-f1823"/>
+        “I
+        <seg th:eID="C11_app422-f1823"/>
+    must say 
+        <seg th:sID="C11_app424-f1823"/>
+        also
+        <seg th:eID="C11_app424-f1823"/>
+    a few words to 
+        <seg th:sID="C11_app426-f1823"/>
+        you,
+        <seg th:eID="C11_app426-f1823"/>
+    my dear 
+        <seg th:sID="C11_app428-f1823"/>
+        cousin,
+        <seg th:eID="C11_app428-f1823"/>
+    of little darling William. I wish you could see 
+        <seg th:sID="C11_app430-f1823"/>
+        him;
+        <seg th:eID="C11_app430-f1823"/>
+    he is very tall of his 
+        <seg th:sID="C11_app432-f1823"/>
+        age,
+        <seg th:eID="C11_app432-f1823"/>
+    with sweet laughing blue 
+        <seg th:sID="C11_app434-f1823"/>
+        eyes,
+        <seg th:eID="C11_app434-f1823"/>
+    dark 
+        <seg th:sID="C11_app436-f1823"/>
+        eye-lashes,
+        <seg th:eID="C11_app436-f1823"/>
+    and curling 
+        <seg th:sID="C11_app438-f1823"/>
+        hair.
+        <seg th:eID="C11_app438-f1823"/>
+    When he 
+        <seg th:sID="C11_app440-f1823"/>
+        smiles,
+        <seg th:eID="C11_app440-f1823"/>
+    two little dimples appear on 
+        <seg th:sID="C11_app442-f1823"/>
+        each cheek,
+        <seg th:eID="C11_app442-f1823"/>
+    which are rosy with 
+        <seg th:sID="C11_app444-f1823"/>
+        health.
+        <seg th:eID="C11_app444-f1823"/>
+    He has already had one or two little 
+        <seg th:sID="C11_app446-f1823"/>
+               <hi xml:id="novel1_letter4_chapter5_div4_div5_p10_hi1">wives</hi>,
+        <seg th:eID="C11_app446-f1823"/>
+    but Louisa 
+        <seg th:sID="C11_app448-f1823"/>
+        Biron is
+        <seg th:eID="C11_app448-f1823"/>
+    his  
+        <seg th:sID="C11_app450-f1823"/>
+        favourite,
+        <seg th:eID="C11_app450-f1823"/>
+    a pretty little girl of five years 
+        <seg th:sID="C11_app452-f1823"/>
+        of age.
+        <seg th:eID="C11_app452-f1823"/>
             </p>
             <p xml:id="novel1_letter4_chapter5_div4_div5_p11">
-               <seg th:sID="C11_app454-f1823"/>“Now,<seg th:eID="C11_app454-f1823"/>dear <seg th:sID="C11_app456-f1823"/>Victor,<seg th:eID="C11_app456-f1823"/>I dare say <seg th:sID="C11_app458-f1823"/>you wish to be indulged in a little gossip<seg th:eID="C11_app458-f1823"/>
-               <seg th:sID="C11_app459-f1823"/>concerning the good people of Geneva.<seg th:eID="C11_app459-f1823"/>The pretty Miss <seg th:sID="C11_app461-f1823"/>Mansfield<seg th:eID="C11_app461-f1823"/>has already <pb xml:id="F1823_v1_142" n="123"/>received <seg th:sID="C11_app463-f1823"/>the congratulatory visits on her approaching marriage with a young Englishman, John<seg th:eID="C11_app463-f1823"/>
-               <seg th:sID="C11_app464-f1823"/>Melbourne,<seg th:eID="C11_app464-f1823"/>Esq. Her ugly <seg th:sID="C11_app466-f1823"/>sister, Manon,<seg th:eID="C11_app466-f1823"/>married M. <seg th:sID="C11_app468-f1823"/>Duvillard,<seg th:eID="C11_app468-f1823"/>the rich <seg th:sID="C11_app470-f1823"/>banker,<seg th:eID="C11_app470-f1823"/>last autumn. Your favourite <seg th:sID="C11_app472-f1823"/>schoolfellow,<seg th:eID="C11_app472-f1823"/>Louis <seg th:sID="C11_app474-f1823"/>Manoir,<seg th:eID="C11_app474-f1823"/>has suffered several misfortunes <seg th:sID="C11_app476-f1823"/>since the departure of Clerval from<seg th:eID="C11_app476-f1823"/>
-               <seg th:sID="C11_app477-f1823"/>Geneva.<seg th:eID="C11_app477-f1823"/>But he has <seg th:sID="C11_app479-f1823"/>already recovered his<seg th:eID="C11_app479-f1823"/>
-               <seg th:sID="C11_app480-f1823"/>spirits,<seg th:eID="C11_app480-f1823"/>and <seg th:sID="C11_app482-f1823"/>is<seg th:eID="C11_app482-f1823"/>reported to <seg th:sID="C11_app484-f1823"/>be on the point of marrying a very lively pretty<seg th:eID="C11_app484-f1823"/>
-               <seg th:sID="C11_app485-f1823"/>Frenchwoman, Madame Tavernier. She<seg th:eID="C11_app485-f1823"/>is a <seg th:sID="C11_app487-f1823"/>widow,<seg th:eID="C11_app487-f1823"/>and much older than <seg th:sID="C11_app489-f1823"/>Manoir;<seg th:eID="C11_app489-f1823"/>but she is <seg th:sID="C11_app491-f1823"/>very<seg th:eID="C11_app491-f1823"/>much <seg th:sID="C11_app493-f1823"/>admired,<seg th:eID="C11_app493-f1823"/>and a favourite with <seg th:sID="C11_app495-f1823"/>every body.<seg th:eID="C11_app495-f1823"/>
+               <seg th:sID="C11_app454-f1823"/>
+        “Now,
+        <seg th:eID="C11_app454-f1823"/>
+    dear 
+        <seg th:sID="C11_app456-f1823"/>
+        Victor,
+        <seg th:eID="C11_app456-f1823"/>
+    I dare say 
+        <seg th:sID="C11_app458-f1823"/>
+        you wish to be indulged in a little gossip
+        <seg th:eID="C11_app458-f1823"/>
+               <seg th:sID="C11_app459-f1823"/>
+        concerning the good people of Geneva.
+        <seg th:eID="C11_app459-f1823"/>
+    The pretty Miss 
+        <seg th:sID="C11_app461-f1823"/>
+        Mansfield
+        <seg th:eID="C11_app461-f1823"/>
+    has already <pb xml:id="F1823_v1_142" n="123"/>received 
+        <seg th:sID="C11_app463-f1823"/>
+        the congratulatory visits on her approaching marriage with a young Englishman, John
+        <seg th:eID="C11_app463-f1823"/>
+               <seg th:sID="C11_app464-f1823"/>
+        Melbourne,
+        <seg th:eID="C11_app464-f1823"/>
+    Esq. Her ugly 
+        <seg th:sID="C11_app466-f1823"/>
+        sister, Manon,
+        <seg th:eID="C11_app466-f1823"/>
+    married M. 
+        <seg th:sID="C11_app468-f1823"/>
+        Duvillard,
+        <seg th:eID="C11_app468-f1823"/>
+    the rich 
+        <seg th:sID="C11_app470-f1823"/>
+        banker,
+        <seg th:eID="C11_app470-f1823"/>
+    last autumn. Your favourite 
+        <seg th:sID="C11_app472-f1823"/>
+        schoolfellow,
+        <seg th:eID="C11_app472-f1823"/>
+    Louis 
+        <seg th:sID="C11_app474-f1823"/>
+        Manoir,
+        <seg th:eID="C11_app474-f1823"/>
+    has suffered several misfortunes 
+        <seg th:sID="C11_app476-f1823"/>
+        since the departure of Clerval from
+        <seg th:eID="C11_app476-f1823"/>
+               <seg th:sID="C11_app477-f1823"/>
+        Geneva.
+        <seg th:eID="C11_app477-f1823"/>
+    But he has 
+        <seg th:sID="C11_app479-f1823"/>
+        already recovered his
+        <seg th:eID="C11_app479-f1823"/>
+               <seg th:sID="C11_app480-f1823"/>
+        spirits,
+        <seg th:eID="C11_app480-f1823"/>
+    and 
+        <seg th:sID="C11_app482-f1823"/>
+        is
+        <seg th:eID="C11_app482-f1823"/>
+    reported to 
+        <seg th:sID="C11_app484-f1823"/>
+        be on the point of marrying a very lively pretty
+        <seg th:eID="C11_app484-f1823"/>
+               <seg th:sID="C11_app485-f1823"/>
+        Frenchwoman, Madame Tavernier. She
+        <seg th:eID="C11_app485-f1823"/>
+    is a 
+        <seg th:sID="C11_app487-f1823"/>
+        widow,
+        <seg th:eID="C11_app487-f1823"/>
+    and much older than 
+        <seg th:sID="C11_app489-f1823"/>
+        Manoir;
+        <seg th:eID="C11_app489-f1823"/>
+    but she is 
+        <seg th:sID="C11_app491-f1823"/>
+        very
+        <seg th:eID="C11_app491-f1823"/>
+    much 
+        <seg th:sID="C11_app493-f1823"/>
+        admired,
+        <seg th:eID="C11_app493-f1823"/>
+    and a favourite with 
+        <seg th:sID="C11_app495-f1823"/>
+        every body.
+        <seg th:eID="C11_app495-f1823"/>
             </p>
             <p xml:id="novel1_letter4_chapter5_div4_div5_p12">
-               <seg th:sID="C11_app497-f1823"/>“I<seg th:eID="C11_app497-f1823"/>have written myself into <seg th:sID="C11_app499-f1823"/>good<seg th:eID="C11_app499-f1823"/>
-               <seg th:sID="C11_app500-f1823"/>spirits,<seg th:eID="C11_app500-f1823"/>dear <seg th:sID="C11_app502-f1823"/>cousin;<seg th:eID="C11_app502-f1823"/>
-               <seg th:sID="C11_app503-f1823"/>yet I<seg th:eID="C11_app503-f1823"/>
-               <seg th:sID="C11_app504-f1823"/>cannot<seg th:eID="C11_app504-f1823"/>
-               <seg th:sID="C11_app505-f1823"/>conclude without again anxiously<seg th:eID="C11_app505-f1823"/>
-               <seg th:sID="C11_app506-f1823"/>inquiring<seg th:eID="C11_app506-f1823"/>
-               <seg th:sID="C11_app507-f1823"/>concerning your<seg th:eID="C11_app507-f1823"/>
-               <seg th:sID="C11_app508-f1823"/>health.<seg th:eID="C11_app508-f1823"/>
-               <seg th:sID="C11_app509-f1823"/>Dear Victor, if you are not very<seg th:eID="C11_app509-f1823"/>
-               <seg th:sID="C11_app510-f1823"/>ill,<seg th:eID="C11_app510-f1823"/>
-               <seg th:sID="C11_app511-f1823"/>write<seg th:eID="C11_app511-f1823"/>
-               <seg th:sID="C11_app512-f1823"/>yourself,<seg th:eID="C11_app512-f1823"/>
-               <seg th:sID="C11_app513-f1823"/>and make your father and all <pb xml:id="F1823_v1_143" n="124"/>of us<seg th:eID="C11_app513-f1823"/>
-               <seg th:sID="C11_app514-f1823"/>happy; or——I<seg th:eID="C11_app514-f1823"/>
-               <seg th:sID="C11_app515-f1823"/>cannot bear to think<seg th:eID="C11_app515-f1823"/>
-               <seg th:sID="C11_app516-f1823"/>of<seg th:eID="C11_app516-f1823"/>
-               <seg th:sID="C11_app517-f1823"/>the other side of the<seg th:eID="C11_app517-f1823"/>
-               <seg th:sID="C11_app518-f1823"/>question;<seg th:eID="C11_app518-f1823"/>
-               <seg th:sID="C11_app519-f1823"/>my tears already<seg th:eID="C11_app519-f1823"/>
-               <seg th:sID="C11_app520-f1823"/>flow. Adieu, my dearest cousin.<seg th:eID="C11_app520-f1823"/>
+               <seg th:sID="C11_app497-f1823"/>
+        “I
+        <seg th:eID="C11_app497-f1823"/>
+    have written myself into 
+        <seg th:sID="C11_app499-f1823"/>
+        good
+        <seg th:eID="C11_app499-f1823"/>
+               <seg th:sID="C11_app500-f1823"/>
+        spirits,
+        <seg th:eID="C11_app500-f1823"/>
+    dear 
+        <seg th:sID="C11_app502-f1823"/>
+        cousin;
+        <seg th:eID="C11_app502-f1823"/>
+               <seg th:sID="C11_app503-f1823"/>
+        yet I
+        <seg th:eID="C11_app503-f1823"/>
+               <seg th:sID="C11_app504-f1823"/>
+        cannot
+        <seg th:eID="C11_app504-f1823"/>
+               <seg th:sID="C11_app505-f1823"/>
+        conclude without again anxiously
+        <seg th:eID="C11_app505-f1823"/>
+               <seg th:sID="C11_app506-f1823"/>
+        inquiring
+        <seg th:eID="C11_app506-f1823"/>
+               <seg th:sID="C11_app507-f1823"/>
+        concerning your
+        <seg th:eID="C11_app507-f1823"/>
+               <seg th:sID="C11_app508-f1823"/>
+        health.
+        <seg th:eID="C11_app508-f1823"/>
+               <seg th:sID="C11_app509-f1823"/>
+        Dear Victor, if you are not very
+        <seg th:eID="C11_app509-f1823"/>
+               <seg th:sID="C11_app510-f1823"/>
+        ill,
+        <seg th:eID="C11_app510-f1823"/>
+               <seg th:sID="C11_app511-f1823"/>
+        write
+        <seg th:eID="C11_app511-f1823"/>
+               <seg th:sID="C11_app512-f1823"/>
+        yourself,
+        <seg th:eID="C11_app512-f1823"/>
+               <seg th:sID="C11_app513-f1823"/>
+        and make your father and all <pb xml:id="F1823_v1_143" n="124"/>of us
+        <seg th:eID="C11_app513-f1823"/>
+               <seg th:sID="C11_app514-f1823"/>
+        happy; or——I
+        <seg th:eID="C11_app514-f1823"/>
+               <seg th:sID="C11_app515-f1823"/>
+        cannot bear to think
+        <seg th:eID="C11_app515-f1823"/>
+               <seg th:sID="C11_app516-f1823"/>
+        of
+        <seg th:eID="C11_app516-f1823"/>
+               <seg th:sID="C11_app517-f1823"/>
+        the other side of the
+        <seg th:eID="C11_app517-f1823"/>
+               <seg th:sID="C11_app518-f1823"/>
+        question;
+        <seg th:eID="C11_app518-f1823"/>
+               <seg th:sID="C11_app519-f1823"/>
+        my tears already
+        <seg th:eID="C11_app519-f1823"/>
+               <seg th:sID="C11_app520-f1823"/>
+        flow. Adieu, my dearest cousin.
+        <seg th:eID="C11_app520-f1823"/>
                <seg th:sID="C11_app521-f1823__I" part="I"/>
                <seg th:eID="C11_app521-f1823__I" part="I"/>
             </p>
@@ -322,8 +1309,11 @@
             <p xml:id="novel1_letter4_chapter5_div4_div5_p13"> “E<hi xml:id="novel1_letter4_chapter5_div4_div5_p13_hi1">LIZABETH</hi> L<hi xml:id="novel1_letter4_chapter5_div4_div5_p13_hi2">AVENZA</hi>. </p>
             <seg part="M" th:eID="C11_app521-f1823__M"/>
             <p xml:id="novel1_letter4_chapter5_div4_div5_p14">
-               <seg th:sID="C11_app521-f1823__F" part="F"/> “Geneva, March 18th,<seg th:eID="C11_app521-f1823__F" part="F"/>
-               <seg th:sID="C11_app522-f1823"/>17—.<seg th:eID="C11_app522-f1823"/>
+               <seg th:sID="C11_app521-f1823__F" part="F"/> “Geneva, March 18th,
+        <seg th:eID="C11_app521-f1823__F" part="F"/>
+               <seg th:sID="C11_app522-f1823"/>
+        17—.
+        <seg th:eID="C11_app522-f1823"/>
                <seg th:sID="C11_app523-f1823__I" part="I"/>
                <seg th:eID="C11_app523-f1823__I" part="I"/>
             </p>

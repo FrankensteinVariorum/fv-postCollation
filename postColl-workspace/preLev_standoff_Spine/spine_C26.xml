@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-      xmlns:fv="https://github.com/FrankensteinVariorum"
-      xmlns:mith="http://mith.umd.edu/sc/ns1#"
-      xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
+      xmlns:fv="https://github.com/FrankensteinVariorum">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -68,7 +65,7 @@
             <p>Produced from collation output prepared in batch file processing
                                     on  2023-08-10 05:04:34.810376 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-10T06:04:28.504824-04:00.</p>
+                                    Variorum spine on 2023-08-14T01:32:24.815998-04:00.</p>
          </editorialDecl>
          <appInfo>
             <application ident="collateX" version="1.7.1">
@@ -6841,7 +6838,8 @@
             <app xml:id="C26_app425">
                <rdgGrp n="['words', '–', '&#34;', 'i']" xml:id="C26_app425_rg1">
                   <rdg wit="#fMS">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_chapter_13.xml#C26_app425-fMS"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_chapter_13.xml#C26_app425-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_chapter_13.xml#C26_app425-fMS__F"/>
                      <witDetail wit="#fMS" target="sga:c57/#/p108">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0108.xml">
@@ -6874,7 +6872,8 @@
             <app xml:id="C26_app428">
                <rdgGrp n="['marriage', 'night']" xml:id="C26_app428_rg1">
                   <rdg wit="#fMS">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_chapter_13.xml#C26_app428-fMS"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_chapter_13.xml#C26_app428-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_chapter_13.xml#C26_app428-fMS__F"/>
                      <witDetail wit="#fMS" target="sga:c57/#/p108">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0108.xml">

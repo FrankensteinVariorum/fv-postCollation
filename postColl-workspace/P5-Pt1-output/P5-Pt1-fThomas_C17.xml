@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xmlns:mith="http://mith.umd.edu/sc/ns1#"
-      xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
       xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Bridge Phase 5:  Witness fThomas, Collation unit C17</title>
          </titleStmt>
-         <publicationStmt xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+         <publicationStmt xmlns:xs="http://www.w3.org/2001/XMLSchema">
             <authority>Frankenstein Variorum Project</authority>
             <date>2023—</date>
             <availability>
@@ -16,11 +14,11 @@
                                         Attribution-ShareAlike 3.0 Unported License</licence>
             </availability>
          </publicationStmt>
-         <sourceDesc xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+         <sourceDesc xmlns:xs="http://www.w3.org/2001/XMLSchema">
             <p>Produced from collation output prepared in batch file processing
                                     on  2023-08-10 04:41:22.086423 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-10T06:04:28.504824-04:00.</p>
+                                    Variorum spine on 2023-08-14T01:32:24.815998-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -35,193 +33,2315 @@
             <seg th:eID="C17_app2-fThomas"/>
             <pb xml:id="F1818_v2_036" n="032"/>
             <seg th:sID="C17_app4-fThomas"/>
-            <head ana="start"/>CHAPTER III.<head ana="end"/>
+            <head>CHAPTER III.</head>
             <seg th:eID="C17_app4-fThomas"/>
             <p xml:id="novel1_letter4_chapter10_div4_div11_p1">
-               <seg th:sID="C17_app6-fThomas"/>“I<hi xml:id="novel1_letter4_chapter10_div4_div11_p1_hi1">T</hi>
-               <seg th:eID="C17_app6-fThomas"/>is with <seg th:sID="C17_app8-fThomas"/>considerable<seg th:eID="C17_app8-fThomas"/>difficulty that I remember the <seg th:sID="C17_app10-fThomas"/>original<seg th:eID="C17_app10-fThomas"/>
-               <seg th:sID="C17_app11-fThomas"/>æra<seg th:eID="C17_app11-fThomas"/>of my <seg th:sID="C17_app13-fThomas"/>being:<seg th:eID="C17_app13-fThomas"/>all the events of that period appear confused and indistinct. <seg th:sID="C17_app15-fThomas"/>A strange<seg th:eID="C17_app15-fThomas"/>
-               <seg th:sID="C17_app16-fThomas"/>multiplicity of sensations<seg th:eID="C17_app16-fThomas"/>seized <seg th:sID="C17_app18-fThomas"/>me, and<seg th:eID="C17_app18-fThomas"/>I saw, <seg th:sID="C17_app20-fThomas"/>felt, heard,<seg th:eID="C17_app20-fThomas"/>and <seg th:sID="C17_app22-fThomas"/>smelt,<seg th:eID="C17_app22-fThomas"/>at the same <seg th:sID="C17_app24-fThomas"/>time;<seg th:eID="C17_app24-fThomas"/>and it <seg th:sID="C17_app26-fThomas"/>was, indeed,<seg th:eID="C17_app26-fThomas"/>a long time before I learned to distinguish between the <seg th:sID="C17_app28-fThomas"/>operations of my various senses. By<seg th:eID="C17_app28-fThomas"/>
-               <seg th:sID="C17_app29-fThomas"/>degrees,<seg th:eID="C17_app29-fThomas"/>I <seg th:sID="C17_app31-fThomas"/>remember,<seg th:eID="C17_app31-fThomas"/>a stronger light pressed upon my <seg th:sID="C17_app33-fThomas"/>nerves,<seg th:eID="C17_app33-fThomas"/>so that I was obliged to <seg th:sID="C17_app35-fThomas"/>shut<seg th:eID="C17_app35-fThomas"/>my eyes. Darkness then came over <seg th:sID="C17_app37-fThomas"/>me,<seg th:eID="C17_app37-fThomas"/>and troubled <seg th:sID="C17_app39-fThomas"/>me;<seg th:eID="C17_app39-fThomas"/>but <seg th:sID="C17_app41-fThomas"/>
+               <seg th:sID="C17_app6-fThomas"/>
+        “I<hi xml:id="novel1_letter4_chapter10_div4_div11_p1_hi1">T</hi>
+               <seg th:eID="C17_app6-fThomas"/>
+    is with 
+        <seg th:sID="C17_app8-fThomas"/>
+        considerable
+        <seg th:eID="C17_app8-fThomas"/>
+    difficulty that I remember the 
+        <seg th:sID="C17_app10-fThomas"/>
+        original
+        <seg th:eID="C17_app10-fThomas"/>
+               <seg th:sID="C17_app11-fThomas"/>
+        æra
+        <seg th:eID="C17_app11-fThomas"/>
+    of my 
+        <seg th:sID="C17_app13-fThomas"/>
+        being:
+        <seg th:eID="C17_app13-fThomas"/>
+    all the events of that period appear confused and indistinct. 
+        <seg th:sID="C17_app15-fThomas"/>
+        A strange
+        <seg th:eID="C17_app15-fThomas"/>
+               <seg th:sID="C17_app16-fThomas"/>
+        multiplicity of sensations
+        <seg th:eID="C17_app16-fThomas"/>
+    seized 
+        <seg th:sID="C17_app18-fThomas"/>
+        me, and
+        <seg th:eID="C17_app18-fThomas"/>
+    I saw, 
+        <seg th:sID="C17_app20-fThomas"/>
+        felt, heard,
+        <seg th:eID="C17_app20-fThomas"/>
+    and 
+        <seg th:sID="C17_app22-fThomas"/>
+        smelt,
+        <seg th:eID="C17_app22-fThomas"/>
+    at the same 
+        <seg th:sID="C17_app24-fThomas"/>
+        time;
+        <seg th:eID="C17_app24-fThomas"/>
+    and it 
+        <seg th:sID="C17_app26-fThomas"/>
+        was, indeed,
+        <seg th:eID="C17_app26-fThomas"/>
+    a long time before I learned to distinguish between the 
+        <seg th:sID="C17_app28-fThomas"/>
+        operations of my various senses. By
+        <seg th:eID="C17_app28-fThomas"/>
+               <seg th:sID="C17_app29-fThomas"/>
+        degrees,
+        <seg th:eID="C17_app29-fThomas"/>
+    I 
+        <seg th:sID="C17_app31-fThomas"/>
+        remember,
+        <seg th:eID="C17_app31-fThomas"/>
+    a stronger light pressed upon my 
+        <seg th:sID="C17_app33-fThomas"/>
+        nerves,
+        <seg th:eID="C17_app33-fThomas"/>
+    so that I was obliged to 
+        <seg th:sID="C17_app35-fThomas"/>
+        shut
+        <seg th:eID="C17_app35-fThomas"/>
+    my eyes. Darkness then came over 
+        <seg th:sID="C17_app37-fThomas"/>
+        me,
+        <seg th:eID="C17_app37-fThomas"/>
+    and troubled 
+        <seg th:sID="C17_app39-fThomas"/>
+        me;
+        <seg th:eID="C17_app39-fThomas"/>
+    but 
+        <seg th:sID="C17_app41-fThomas"/>
                <pb xml:id="F1818_v2_037" n="033"/>
-               <seg th:eID="C17_app41-fThomas"/>hardly had I felt <seg th:sID="C17_app43-fThomas"/>this, when, by<seg th:eID="C17_app43-fThomas"/>opening my <seg th:sID="C17_app45-fThomas"/>eyes,<seg th:eID="C17_app45-fThomas"/>as I now <seg th:sID="C17_app47-fThomas"/>suppose,<seg th:eID="C17_app47-fThomas"/>the light poured in upon me <seg th:sID="C17_app49-fThomas"/>again.<seg th:eID="C17_app49-fThomas"/>I <seg th:sID="C17_app51-fThomas"/>walked, and,<seg th:eID="C17_app51-fThomas"/>I <seg th:sID="C17_app53-fThomas"/>believe,<seg th:eID="C17_app53-fThomas"/>descended; but <seg th:sID="C17_app55-fThomas"/>I<seg th:eID="C17_app55-fThomas"/>
-               <seg th:sID="C17_app56-fThomas"/>presently<seg th:eID="C17_app56-fThomas"/>found a great <seg th:sID="C17_app58-fThomas"/>alteration<seg th:eID="C17_app58-fThomas"/>in my  <seg th:sID="C17_app60-fThomas"/>sensations. Before,<seg th:eID="C17_app60-fThomas"/>dark <seg th:sID="C17_app62-fThomas"/>and<seg th:eID="C17_app62-fThomas"/>opaque bodies had surrounded me, impervious to my touch or <seg th:sID="C17_app64-fThomas"/>sight; but<seg th:eID="C17_app64-fThomas"/>I now found that I could wander on at <seg th:sID="C17_app66-fThomas"/>liberty,<seg th:eID="C17_app66-fThomas"/>with no obstacles which I could not either surmount or <seg th:sID="C17_app68-fThomas"/>avoid.<seg th:eID="C17_app68-fThomas"/>The light <seg th:sID="C17_app70-fThomas"/>became<seg th:eID="C17_app70-fThomas"/>
-               <seg th:sID="C17_app71-fThomas"/>more and more<seg th:eID="C17_app71-fThomas"/>
-               <seg th:sID="C17_app72-fThomas"/>oppressive<seg th:eID="C17_app72-fThomas"/>to <seg th:sID="C17_app74-fThomas"/>me; and,<seg th:eID="C17_app74-fThomas"/>the heat wearying me as I <seg th:sID="C17_app76-fThomas"/>walked,<seg th:eID="C17_app76-fThomas"/>I sought a place where I could <seg th:sID="C17_app78-fThomas"/>receive<seg th:eID="C17_app78-fThomas"/>shade. This was the forest near <seg th:sID="C17_app80-fThomas"/>Ingolstadt; and<seg th:eID="C17_app80-fThomas"/>here <seg th:sID="C17_app82-fThomas"/>I lay<seg th:eID="C17_app82-fThomas"/>by the side of a brook <seg th:sID="C17_app84-fThomas"/>resting from my<seg th:eID="C17_app84-fThomas"/>
-               <seg th:sID="C17_app85-fThomas"/>fatigue, until<seg th:eID="C17_app85-fThomas"/>I felt tormented by hunger and thirst. This roused me from my nearly dormant <seg th:sID="C17_app87-fThomas"/>state,<seg th:eID="C17_app87-fThomas"/>and I ate some berries which I found <seg th:sID="C17_app89-fThomas"/>hanging<seg th:eID="C17_app89-fThomas"/>on the  <seg th:sID="C17_app91-fThomas"/>trees,<seg th:eID="C17_app91-fThomas"/>or lying on the <seg th:sID="C17_app93-fThomas"/>ground.<seg th:eID="C17_app93-fThomas"/>I slaked my <pb xml:id="F1818_v2_038" n="034"/>thirst <seg th:sID="C17_app95-fThomas"/>at<seg th:eID="C17_app95-fThomas"/>the <seg th:sID="C17_app97-fThomas"/>brook;<seg th:eID="C17_app97-fThomas"/>and then <seg th:sID="C17_app99-fThomas"/>lying<seg th:eID="C17_app99-fThomas"/>
-               <seg th:sID="C17_app100-fThomas"/>down,<seg th:eID="C17_app100-fThomas"/>was overcome by <seg th:sID="C17_app102-fThomas__I" part="I"/>sleep. </p>
-            <p xml:id="novel1_letter4_chapter10_div4_div11_p2"> “It<seg th:eID="C17_app102-fThomas__F" part="F"/>was dark when I <seg th:sID="C17_app104-fThomas"/>awoke;<seg th:eID="C17_app104-fThomas"/>I felt cold <seg th:sID="C17_app106-fThomas"/>also,<seg th:eID="C17_app106-fThomas"/>and <seg th:sID="C17_app108-fThomas"/>half-frightened<seg th:eID="C17_app108-fThomas"/>as it were <seg th:sID="C17_app110-fThomas"/>instinctively,<seg th:eID="C17_app110-fThomas"/>finding myself so desolate. Before I had quitted your <seg th:sID="C17_app112-fThomas"/>apartment,<seg th:eID="C17_app112-fThomas"/>on a sensation of <seg th:sID="C17_app114-fThomas"/>cold,<seg th:eID="C17_app114-fThomas"/>I had covered <seg th:sID="C17_app116-fThomas"/>myself<seg th:eID="C17_app116-fThomas"/>with some <seg th:sID="C17_app118-fThomas"/>clothes;<seg th:eID="C17_app118-fThomas"/>but these were <seg th:sID="C17_app120-fThomas"/>insufficient<seg th:eID="C17_app120-fThomas"/>to secure me from the <seg th:sID="C17_app122-fThomas"/>dews of night. I was a<seg th:eID="C17_app122-fThomas"/>
-               <seg th:sID="C17_app123-fThomas"/>poor, helpless,<seg th:eID="C17_app123-fThomas"/>miserable <seg th:sID="C17_app125-fThomas"/>wretch; I knew,<seg th:eID="C17_app125-fThomas"/>and could <seg th:sID="C17_app127-fThomas"/>distinguish, nothing;<seg th:eID="C17_app127-fThomas"/>
-               <seg th:sID="C17_app128-fThomas"/>but,<seg th:eID="C17_app128-fThomas"/>
-               <seg th:sID="C17_app129-fThomas"/>feeling<seg th:eID="C17_app129-fThomas"/>pain invade me on all  <seg th:sID="C17_app131-fThomas"/>sides,<seg th:eID="C17_app131-fThomas"/>I sat down and wept. </p>
+               <seg th:eID="C17_app41-fThomas"/>
+    hardly had I felt 
+        <seg th:sID="C17_app43-fThomas"/>
+        this, when, by
+        <seg th:eID="C17_app43-fThomas"/>
+    opening my 
+        <seg th:sID="C17_app45-fThomas"/>
+        eyes,
+        <seg th:eID="C17_app45-fThomas"/>
+    as I now 
+        <seg th:sID="C17_app47-fThomas"/>
+        suppose,
+        <seg th:eID="C17_app47-fThomas"/>
+    the light poured in upon me 
+        <seg th:sID="C17_app49-fThomas"/>
+        again.
+        <seg th:eID="C17_app49-fThomas"/>
+    I 
+        <seg th:sID="C17_app51-fThomas"/>
+        walked, and,
+        <seg th:eID="C17_app51-fThomas"/>
+    I 
+        <seg th:sID="C17_app53-fThomas"/>
+        believe,
+        <seg th:eID="C17_app53-fThomas"/>
+    descended; but 
+        <seg th:sID="C17_app55-fThomas"/>
+        I
+        <seg th:eID="C17_app55-fThomas"/>
+               <seg th:sID="C17_app56-fThomas"/>
+        presently
+        <seg th:eID="C17_app56-fThomas"/>
+    found a great 
+        <seg th:sID="C17_app58-fThomas"/>
+        alteration
+        <seg th:eID="C17_app58-fThomas"/>
+    in my  
+        <seg th:sID="C17_app60-fThomas"/>
+        sensations. Before,
+        <seg th:eID="C17_app60-fThomas"/>
+    dark 
+        <seg th:sID="C17_app62-fThomas"/>
+        and
+        <seg th:eID="C17_app62-fThomas"/>
+    opaque bodies had surrounded me, impervious to my touch or 
+        <seg th:sID="C17_app64-fThomas"/>
+        sight; but
+        <seg th:eID="C17_app64-fThomas"/>
+    I now found that I could wander on at 
+        <seg th:sID="C17_app66-fThomas"/>
+        liberty,
+        <seg th:eID="C17_app66-fThomas"/>
+    with no obstacles which I could not either surmount or 
+        <seg th:sID="C17_app68-fThomas"/>
+        avoid.
+        <seg th:eID="C17_app68-fThomas"/>
+    The light 
+        <seg th:sID="C17_app70-fThomas"/>
+        became
+        <seg th:eID="C17_app70-fThomas"/>
+               <seg th:sID="C17_app71-fThomas"/>
+        more and more
+        <seg th:eID="C17_app71-fThomas"/>
+               <seg th:sID="C17_app72-fThomas"/>
+        oppressive
+        <seg th:eID="C17_app72-fThomas"/>
+    to 
+        <seg th:sID="C17_app74-fThomas"/>
+        me; and,
+        <seg th:eID="C17_app74-fThomas"/>
+    the heat wearying me as I 
+        <seg th:sID="C17_app76-fThomas"/>
+        walked,
+        <seg th:eID="C17_app76-fThomas"/>
+    I sought a place where I could 
+        <seg th:sID="C17_app78-fThomas"/>
+        receive
+        <seg th:eID="C17_app78-fThomas"/>
+    shade. This was the forest near 
+        <seg th:sID="C17_app80-fThomas"/>
+        Ingolstadt; and
+        <seg th:eID="C17_app80-fThomas"/>
+    here 
+        <seg th:sID="C17_app82-fThomas"/>
+        I lay
+        <seg th:eID="C17_app82-fThomas"/>
+    by the side of a brook 
+        <seg th:sID="C17_app84-fThomas"/>
+        resting from my
+        <seg th:eID="C17_app84-fThomas"/>
+               <seg th:sID="C17_app85-fThomas"/>
+        fatigue, until
+        <seg th:eID="C17_app85-fThomas"/>
+    I felt tormented by hunger and thirst. This roused me from my nearly dormant 
+        <seg th:sID="C17_app87-fThomas"/>
+        state,
+        <seg th:eID="C17_app87-fThomas"/>
+    and I ate some berries which I found 
+        <seg th:sID="C17_app89-fThomas"/>
+        hanging
+        <seg th:eID="C17_app89-fThomas"/>
+    on the  
+        <seg th:sID="C17_app91-fThomas"/>
+        trees,
+        <seg th:eID="C17_app91-fThomas"/>
+    or lying on the 
+        <seg th:sID="C17_app93-fThomas"/>
+        ground.
+        <seg th:eID="C17_app93-fThomas"/>
+    I slaked my <pb xml:id="F1818_v2_038" n="034"/>thirst 
+        <seg th:sID="C17_app95-fThomas"/>
+        at
+        <seg th:eID="C17_app95-fThomas"/>
+    the 
+        <seg th:sID="C17_app97-fThomas"/>
+        brook;
+        <seg th:eID="C17_app97-fThomas"/>
+    and then 
+        <seg th:sID="C17_app99-fThomas"/>
+        lying
+        <seg th:eID="C17_app99-fThomas"/>
+               <seg th:sID="C17_app100-fThomas"/>
+        down,
+        <seg th:eID="C17_app100-fThomas"/>
+    was overcome by 
+        <seg th:sID="C17_app102-fThomas__I" part="I"/>
+        sleep. </p>
+            <p xml:id="novel1_letter4_chapter10_div4_div11_p2"> “It
+        <seg th:eID="C17_app102-fThomas__F" part="F"/>
+    was dark when I 
+        <seg th:sID="C17_app104-fThomas"/>
+        awoke;
+        <seg th:eID="C17_app104-fThomas"/>
+    I felt cold 
+        <seg th:sID="C17_app106-fThomas"/>
+        also,
+        <seg th:eID="C17_app106-fThomas"/>
+    and 
+        <seg th:sID="C17_app108-fThomas"/>
+        half-frightened
+        <seg th:eID="C17_app108-fThomas"/>
+    as it were 
+        <seg th:sID="C17_app110-fThomas"/>
+        instinctively,
+        <seg th:eID="C17_app110-fThomas"/>
+    finding myself so desolate. Before I had quitted your 
+        <seg th:sID="C17_app112-fThomas"/>
+        apartment,
+        <seg th:eID="C17_app112-fThomas"/>
+    on a sensation of 
+        <seg th:sID="C17_app114-fThomas"/>
+        cold,
+        <seg th:eID="C17_app114-fThomas"/>
+    I had covered 
+        <seg th:sID="C17_app116-fThomas"/>
+        myself
+        <seg th:eID="C17_app116-fThomas"/>
+    with some 
+        <seg th:sID="C17_app118-fThomas"/>
+        clothes;
+        <seg th:eID="C17_app118-fThomas"/>
+    but these were 
+        <seg th:sID="C17_app120-fThomas"/>
+        insufficient
+        <seg th:eID="C17_app120-fThomas"/>
+    to secure me from the 
+        <seg th:sID="C17_app122-fThomas"/>
+        dews of night. I was a
+        <seg th:eID="C17_app122-fThomas"/>
+               <seg th:sID="C17_app123-fThomas"/>
+        poor, helpless,
+        <seg th:eID="C17_app123-fThomas"/>
+    miserable 
+        <seg th:sID="C17_app125-fThomas"/>
+        wretch; I knew,
+        <seg th:eID="C17_app125-fThomas"/>
+    and could 
+        <seg th:sID="C17_app127-fThomas"/>
+        distinguish, nothing;
+        <seg th:eID="C17_app127-fThomas"/>
+               <seg th:sID="C17_app128-fThomas"/>
+        but,
+        <seg th:eID="C17_app128-fThomas"/>
+               <seg th:sID="C17_app129-fThomas"/>
+        feeling
+        <seg th:eID="C17_app129-fThomas"/>
+    pain invade me on all  
+        <seg th:sID="C17_app131-fThomas"/>
+        sides,
+        <seg th:eID="C17_app131-fThomas"/>
+    I sat down and wept. </p>
             <p xml:id="novel1_letter4_chapter10_div4_div11_p3">
-               <seg th:sID="C17_app133-fThomas"/>“Soon<seg th:eID="C17_app133-fThomas"/>a gentle light stole over the <seg th:sID="C17_app135-fThomas"/>heavens,<seg th:eID="C17_app135-fThomas"/>and gave me a sensation of <seg th:sID="C17_app137-fThomas"/>pleasure.<seg th:eID="C17_app137-fThomas"/>I started up, and beheld a radiant form rise <seg th:sID="C17_app139-fThomas"/>from among the trees.<seg th:eID="C17_app139-fThomas"/>I gazed with a kind of <seg th:sID="C17_app142-fThomas"/>wonder.<seg th:eID="C17_app142-fThomas"/>It moved <seg th:sID="C17_app144-fThomas"/>slowly,<seg th:eID="C17_app144-fThomas"/>but it enlightened my <seg th:sID="C17_app146-fThomas"/>path;<seg th:eID="C17_app146-fThomas"/>and I again went out in search of berries. I was still <seg th:sID="C17_app148-fThomas"/>cold,<seg th:eID="C17_app148-fThomas"/>when <seg th:sID="C17_app150-fThomas"/>under <pb xml:id="F1818_v2_039" n="035"/>one of the trees I found a huge<seg th:eID="C17_app150-fThomas"/>
-               <seg th:sID="C17_app151-fThomas"/>cloak,<seg th:eID="C17_app151-fThomas"/>with which <seg th:sID="C17_app153-fThomas"/>I<seg th:eID="C17_app153-fThomas"/>covered myself, and sat down <seg th:sID="C17_app155-fThomas"/>upon<seg th:eID="C17_app155-fThomas"/>the ground. No distinct ideas occupied my <seg th:sID="C17_app157-fThomas"/>mind;<seg th:eID="C17_app157-fThomas"/>all was <seg th:sID="C17_app159-fThomas"/>confused.<seg th:eID="C17_app159-fThomas"/>I felt <seg th:sID="C17_app161-fThomas"/>light, and<seg th:eID="C17_app161-fThomas"/>
-               <seg th:sID="C17_app162-fThomas"/>hunger,<seg th:eID="C17_app162-fThomas"/>and <seg th:sID="C17_app164-fThomas"/>thirst,<seg th:eID="C17_app164-fThomas"/>and darkness; innumerable sounds rung in my <seg th:sID="C17_app166-fThomas"/>ears,<seg th:eID="C17_app166-fThomas"/>and on all sides various scents saluted <seg th:sID="C17_app168-fThomas"/>me:<seg th:eID="C17_app168-fThomas"/>the only object that I could distinguish was the bright <seg th:sID="C17_app170-fThomas"/>moon,<seg th:eID="C17_app170-fThomas"/>and I fixed my eyes  <seg th:sID="C17_app173-fThomas"/>on<seg th:eID="C17_app173-fThomas"/>that with pleasure. <seg th:sID="C17_app175-fThomas__I" part="I"/>
+               <seg th:sID="C17_app133-fThomas"/>
+        “Soon
+        <seg th:eID="C17_app133-fThomas"/>
+    a gentle light stole over the 
+        <seg th:sID="C17_app135-fThomas"/>
+        heavens,
+        <seg th:eID="C17_app135-fThomas"/>
+    and gave me a sensation of 
+        <seg th:sID="C17_app137-fThomas"/>
+        pleasure.
+        <seg th:eID="C17_app137-fThomas"/>
+    I started up, and beheld a radiant form rise 
+        <seg th:sID="C17_app139-fThomas"/>
+        from among the trees.
+        <seg th:eID="C17_app139-fThomas"/>
+    I gazed with a kind of 
+        <seg th:sID="C17_app142-fThomas"/>
+        wonder.
+        <seg th:eID="C17_app142-fThomas"/>
+    It moved 
+        <seg th:sID="C17_app144-fThomas"/>
+        slowly,
+        <seg th:eID="C17_app144-fThomas"/>
+    but it enlightened my 
+        <seg th:sID="C17_app146-fThomas"/>
+        path;
+        <seg th:eID="C17_app146-fThomas"/>
+    and I again went out in search of berries. I was still 
+        <seg th:sID="C17_app148-fThomas"/>
+        cold,
+        <seg th:eID="C17_app148-fThomas"/>
+    when 
+        <seg th:sID="C17_app150-fThomas"/>
+        under <pb xml:id="F1818_v2_039" n="035"/>one of the trees I found a huge
+        <seg th:eID="C17_app150-fThomas"/>
+               <seg th:sID="C17_app151-fThomas"/>
+        cloak,
+        <seg th:eID="C17_app151-fThomas"/>
+    with which 
+        <seg th:sID="C17_app153-fThomas"/>
+        I
+        <seg th:eID="C17_app153-fThomas"/>
+    covered myself, and sat down 
+        <seg th:sID="C17_app155-fThomas"/>
+        upon
+        <seg th:eID="C17_app155-fThomas"/>
+    the ground. No distinct ideas occupied my 
+        <seg th:sID="C17_app157-fThomas"/>
+        mind;
+        <seg th:eID="C17_app157-fThomas"/>
+    all was 
+        <seg th:sID="C17_app159-fThomas"/>
+        confused.
+        <seg th:eID="C17_app159-fThomas"/>
+    I felt 
+        <seg th:sID="C17_app161-fThomas"/>
+        light, and
+        <seg th:eID="C17_app161-fThomas"/>
+               <seg th:sID="C17_app162-fThomas"/>
+        hunger,
+        <seg th:eID="C17_app162-fThomas"/>
+    and 
+        <seg th:sID="C17_app164-fThomas"/>
+        thirst,
+        <seg th:eID="C17_app164-fThomas"/>
+    and darkness; innumerable sounds rung in my 
+        <seg th:sID="C17_app166-fThomas"/>
+        ears,
+        <seg th:eID="C17_app166-fThomas"/>
+    and on all sides various scents saluted 
+        <seg th:sID="C17_app168-fThomas"/>
+        me:
+        <seg th:eID="C17_app168-fThomas"/>
+    the only object that I could distinguish was the bright 
+        <seg th:sID="C17_app170-fThomas"/>
+        moon,
+        <seg th:eID="C17_app170-fThomas"/>
+    and I fixed my eyes  
+        <seg th:sID="C17_app173-fThomas"/>
+        on
+        <seg th:eID="C17_app173-fThomas"/>
+    that with pleasure. 
+        <seg th:sID="C17_app175-fThomas__I" part="I"/>
             </p>
-            <p xml:id="novel1_letter4_chapter10_div4_div11_p4"> “Several<seg th:eID="C17_app175-fThomas__F" part="F"/>changes of day and night <seg th:sID="C17_app177-fThomas"/>passed,<seg th:eID="C17_app177-fThomas"/>and the orb of night had greatly <seg th:sID="C17_app179-fThomas"/>lessened<seg th:eID="C17_app179-fThomas"/>when I began to distinguish my sensations <seg th:sID="C17_app181-fThomas"/>from each<seg th:eID="C17_app181-fThomas"/>
-               <seg th:sID="C17_app182-fThomas"/>other.<seg th:eID="C17_app182-fThomas"/>I <seg th:sID="C17_app184-fThomas"/>gradually saw plainly<seg th:eID="C17_app184-fThomas"/>the clear stream that supplied me with  <seg th:sID="C17_app186-fThomas"/>drink,<seg th:eID="C17_app186-fThomas"/>and the <seg th:sID="C17_app188-fThomas"/>trees that<seg th:eID="C17_app188-fThomas"/>
-               <seg th:sID="C17_app189-fThomas"/>shaded<seg th:eID="C17_app189-fThomas"/>me with their foliage. I was delighted when I first discovered that a pleasant  <seg th:sID="C17_app191-fThomas"/>sound,<seg th:eID="C17_app191-fThomas"/>which often  <seg th:sID="C17_app194-fThomas"/>saluted my<seg th:eID="C17_app194-fThomas"/>
-               <seg th:sID="C17_app195-fThomas"/>ears,<seg th:eID="C17_app195-fThomas"/>proceeded from the throats of <seg th:sID="C17_app197-fThomas"/>the little<seg th:eID="C17_app197-fThomas"/>
-               <seg th:sID="C17_app198-fThomas"/>winged<seg th:eID="C17_app198-fThomas"/>
-               <seg th:sID="C17_app199-fThomas"/>animals<seg th:eID="C17_app199-fThomas"/>who <seg th:sID="C17_app201-fThomas"/>
-               <pb xml:id="F1818_v2_040" n="036"/>had<seg th:eID="C17_app201-fThomas"/>often intercepted the light from my eyes. I began also to <seg th:sID="C17_app203-fThomas"/>observe,<seg th:eID="C17_app203-fThomas"/>with <seg th:sID="C17_app205-fThomas"/>greater<seg th:eID="C17_app205-fThomas"/>
-               <seg th:sID="C17_app206-fThomas"/>accuracy,<seg th:eID="C17_app206-fThomas"/>the forms that surrounded <seg th:sID="C17_app208-fThomas"/>me,<seg th:eID="C17_app208-fThomas"/>and to perceive the boundaries of the radiant <seg th:sID="C17_app210-fThomas"/>roof of<seg th:eID="C17_app210-fThomas"/>light which <seg th:sID="C17_app212-fThomas"/>canopied<seg th:eID="C17_app212-fThomas"/>
-               <seg th:sID="C17_app213-fThomas"/>me. Sometimes<seg th:eID="C17_app213-fThomas"/>I tried to imitate the pleasant songs of the  <seg th:sID="C17_app216-fThomas"/>birds,<seg th:eID="C17_app216-fThomas"/>but was <seg th:sID="C17_app218-fThomas"/>unable.<seg th:eID="C17_app218-fThomas"/>Sometimes I <seg th:sID="C17_app220-fThomas"/>wished to express my sensations in my own<seg th:eID="C17_app220-fThomas"/>
-               <seg th:sID="C17_app221-fThomas"/>mode,<seg th:eID="C17_app221-fThomas"/>but the uncouth and  <seg th:sID="C17_app224-fThomas"/>inarticulate sounds<seg th:eID="C17_app224-fThomas"/>which broke from me  <seg th:sID="C17_app227-fThomas__I" part="I"/>frightened me into silence again. </p>
+            <p xml:id="novel1_letter4_chapter10_div4_div11_p4"> “Several
+        <seg th:eID="C17_app175-fThomas__F" part="F"/>
+    changes of day and night 
+        <seg th:sID="C17_app177-fThomas"/>
+        passed,
+        <seg th:eID="C17_app177-fThomas"/>
+    and the orb of night had greatly 
+        <seg th:sID="C17_app179-fThomas"/>
+        lessened
+        <seg th:eID="C17_app179-fThomas"/>
+    when I began to distinguish my sensations 
+        <seg th:sID="C17_app181-fThomas"/>
+        from each
+        <seg th:eID="C17_app181-fThomas"/>
+               <seg th:sID="C17_app182-fThomas"/>
+        other.
+        <seg th:eID="C17_app182-fThomas"/>
+    I 
+        <seg th:sID="C17_app184-fThomas"/>
+        gradually saw plainly
+        <seg th:eID="C17_app184-fThomas"/>
+    the clear stream that supplied me with  
+        <seg th:sID="C17_app186-fThomas"/>
+        drink,
+        <seg th:eID="C17_app186-fThomas"/>
+    and the 
+        <seg th:sID="C17_app188-fThomas"/>
+        trees that
+        <seg th:eID="C17_app188-fThomas"/>
+               <seg th:sID="C17_app189-fThomas"/>
+        shaded
+        <seg th:eID="C17_app189-fThomas"/>
+    me with their foliage. I was delighted when I first discovered that a pleasant  
+        <seg th:sID="C17_app191-fThomas"/>
+        sound,
+        <seg th:eID="C17_app191-fThomas"/>
+    which often  
+        <seg th:sID="C17_app194-fThomas"/>
+        saluted my
+        <seg th:eID="C17_app194-fThomas"/>
+               <seg th:sID="C17_app195-fThomas"/>
+        ears,
+        <seg th:eID="C17_app195-fThomas"/>
+    proceeded from the throats of 
+        <seg th:sID="C17_app197-fThomas"/>
+        the little
+        <seg th:eID="C17_app197-fThomas"/>
+               <seg th:sID="C17_app198-fThomas"/>
+        winged
+        <seg th:eID="C17_app198-fThomas"/>
+               <seg th:sID="C17_app199-fThomas"/>
+        animals
+        <seg th:eID="C17_app199-fThomas"/>
+    who 
+        <seg th:sID="C17_app201-fThomas"/>
+               <pb xml:id="F1818_v2_040" n="036"/>had
+        <seg th:eID="C17_app201-fThomas"/>
+    often intercepted the light from my eyes. I began also to 
+        <seg th:sID="C17_app203-fThomas"/>
+        observe,
+        <seg th:eID="C17_app203-fThomas"/>
+    with 
+        <seg th:sID="C17_app205-fThomas"/>
+        greater
+        <seg th:eID="C17_app205-fThomas"/>
+               <seg th:sID="C17_app206-fThomas"/>
+        accuracy,
+        <seg th:eID="C17_app206-fThomas"/>
+    the forms that surrounded 
+        <seg th:sID="C17_app208-fThomas"/>
+        me,
+        <seg th:eID="C17_app208-fThomas"/>
+    and to perceive the boundaries of the radiant 
+        <seg th:sID="C17_app210-fThomas"/>
+        roof of
+        <seg th:eID="C17_app210-fThomas"/>
+    light which 
+        <seg th:sID="C17_app212-fThomas"/>
+        canopied
+        <seg th:eID="C17_app212-fThomas"/>
+               <seg th:sID="C17_app213-fThomas"/>
+        me. Sometimes
+        <seg th:eID="C17_app213-fThomas"/>
+    I tried to imitate the pleasant songs of the  
+        <seg th:sID="C17_app216-fThomas"/>
+        birds,
+        <seg th:eID="C17_app216-fThomas"/>
+    but was 
+        <seg th:sID="C17_app218-fThomas"/>
+        unable.
+        <seg th:eID="C17_app218-fThomas"/>
+    Sometimes I 
+        <seg th:sID="C17_app220-fThomas"/>
+        wished to express my sensations in my own
+        <seg th:eID="C17_app220-fThomas"/>
+               <seg th:sID="C17_app221-fThomas"/>
+        mode,
+        <seg th:eID="C17_app221-fThomas"/>
+    but the uncouth and  
+        <seg th:sID="C17_app224-fThomas"/>
+        inarticulate sounds
+        <seg th:eID="C17_app224-fThomas"/>
+    which broke from me  
+        <seg th:sID="C17_app227-fThomas__I" part="I"/>
+        frightened me into silence again. </p>
             <p xml:id="novel1_letter4_chapter10_div4_div11_p5">
                <seg th:eID="C17_app227-fThomas__F" part="F"/>
-               <seg th:sID="C17_app228-fThomas"/>“The<seg th:eID="C17_app228-fThomas"/>moon had <seg th:sID="C17_app230-fThomas"/>disappeared<seg th:eID="C17_app230-fThomas"/>from the night, and <seg th:sID="C17_app232-fThomas"/>again,<seg th:eID="C17_app232-fThomas"/>with a lessened <seg th:sID="C17_app234-fThomas"/>form,<seg th:eID="C17_app234-fThomas"/>
-               <seg th:sID="C17_app235-fThomas"/>shewed<seg th:eID="C17_app235-fThomas"/>
-               <seg th:sID="C17_app236-fThomas"/>itself,<seg th:eID="C17_app236-fThomas"/>while I still remained in the forest. My <seg th:sID="C17_app238-fThomas"/>sensations<seg th:eID="C17_app238-fThomas"/>
-               <seg th:sID="C17_app239-fThomas"/>had,<seg th:eID="C17_app239-fThomas"/>by this <seg th:sID="C17_app241-fThomas"/>time,<seg th:eID="C17_app241-fThomas"/>become <seg th:sID="C17_app243-fThomas"/>distinct,<seg th:eID="C17_app243-fThomas"/>and <seg th:sID="C17_app245-fThomas"/>my mind<seg th:eID="C17_app245-fThomas"/>received every day  <seg th:sID="C17_app247-fThomas"/>additional<seg th:eID="C17_app247-fThomas"/>ideas. My eyes became accustomed to the  <seg th:sID="C17_app250-fThomas"/>light,<seg th:eID="C17_app250-fThomas"/>and to perceive objects in their right forms; I <seg th:sID="C17_app252-fThomas"/>distinguished<seg th:eID="C17_app252-fThomas"/>the <seg th:sID="C17_app254-fThomas"/>insect from the herb,<seg th:eID="C17_app254-fThomas"/>
-               <seg th:sID="C17_app255-fThomas"/>and,<seg th:eID="C17_app255-fThomas"/>by <seg th:sID="C17_app257-fThomas"/>de<pb xml:id="F1818_v2_041" n="037"/>grees,<seg th:eID="C17_app257-fThomas"/>one herb from <seg th:sID="C17_app259-fThomas"/>another.<seg th:eID="C17_app259-fThomas"/>I found that the sparrow uttered none but harsh <seg th:sID="C17_app261-fThomas"/>notes,<seg th:eID="C17_app261-fThomas"/>whilst <seg th:sID="C17_app263-fThomas"/>those of<seg th:eID="C17_app263-fThomas"/>the blackbird  <seg th:sID="C17_app265-fThomas"/>and thrush<seg th:eID="C17_app265-fThomas"/>were sweet and enticing. <seg th:sID="C17_app267-fThomas__I" part="I"/>
+               <seg th:sID="C17_app228-fThomas"/>
+        “The
+        <seg th:eID="C17_app228-fThomas"/>
+    moon had 
+        <seg th:sID="C17_app230-fThomas"/>
+        disappeared
+        <seg th:eID="C17_app230-fThomas"/>
+    from the night, and 
+        <seg th:sID="C17_app232-fThomas"/>
+        again,
+        <seg th:eID="C17_app232-fThomas"/>
+    with a lessened 
+        <seg th:sID="C17_app234-fThomas"/>
+        form,
+        <seg th:eID="C17_app234-fThomas"/>
+               <seg th:sID="C17_app235-fThomas"/>
+        shewed
+        <seg th:eID="C17_app235-fThomas"/>
+               <seg th:sID="C17_app236-fThomas"/>
+        itself,
+        <seg th:eID="C17_app236-fThomas"/>
+    while I still remained in the forest. My 
+        <seg th:sID="C17_app238-fThomas"/>
+        sensations
+        <seg th:eID="C17_app238-fThomas"/>
+               <seg th:sID="C17_app239-fThomas"/>
+        had,
+        <seg th:eID="C17_app239-fThomas"/>
+    by this 
+        <seg th:sID="C17_app241-fThomas"/>
+        time,
+        <seg th:eID="C17_app241-fThomas"/>
+    become 
+        <seg th:sID="C17_app243-fThomas"/>
+        distinct,
+        <seg th:eID="C17_app243-fThomas"/>
+    and 
+        <seg th:sID="C17_app245-fThomas"/>
+        my mind
+        <seg th:eID="C17_app245-fThomas"/>
+    received every day  
+        <seg th:sID="C17_app247-fThomas"/>
+        additional
+        <seg th:eID="C17_app247-fThomas"/>
+    ideas. My eyes became accustomed to the  
+        <seg th:sID="C17_app250-fThomas"/>
+        light,
+        <seg th:eID="C17_app250-fThomas"/>
+    and to perceive objects in their right forms; I 
+        <seg th:sID="C17_app252-fThomas"/>
+        distinguished
+        <seg th:eID="C17_app252-fThomas"/>
+    the 
+        <seg th:sID="C17_app254-fThomas"/>
+        insect from the herb,
+        <seg th:eID="C17_app254-fThomas"/>
+               <seg th:sID="C17_app255-fThomas"/>
+        and,
+        <seg th:eID="C17_app255-fThomas"/>
+    by 
+        <seg th:sID="C17_app257-fThomas"/>
+        de<pb xml:id="F1818_v2_041" n="037"/>grees,
+        <seg th:eID="C17_app257-fThomas"/>
+    one herb from 
+        <seg th:sID="C17_app259-fThomas"/>
+        another.
+        <seg th:eID="C17_app259-fThomas"/>
+    I found that the sparrow uttered none but harsh 
+        <seg th:sID="C17_app261-fThomas"/>
+        notes,
+        <seg th:eID="C17_app261-fThomas"/>
+    whilst 
+        <seg th:sID="C17_app263-fThomas"/>
+        those of
+        <seg th:eID="C17_app263-fThomas"/>
+    the blackbird  
+        <seg th:sID="C17_app265-fThomas"/>
+        and thrush
+        <seg th:eID="C17_app265-fThomas"/>
+    were sweet and enticing. 
+        <seg th:sID="C17_app267-fThomas__I" part="I"/>
             </p>
-            <p xml:id="novel1_letter4_chapter10_div4_div11_p6"> “One day,<seg th:eID="C17_app267-fThomas__F" part="F"/>when I was oppressed by <seg th:sID="C17_app269-fThomas"/>cold,<seg th:eID="C17_app269-fThomas"/>I found a fire <seg th:sID="C17_app271-fThomas"/>which<seg th:eID="C17_app271-fThomas"/>had been left by some wandering <seg th:sID="C17_app273-fThomas"/>beggars,<seg th:eID="C17_app273-fThomas"/>and was <seg th:sID="C17_app275-fThomas"/>overcome<seg th:eID="C17_app275-fThomas"/>with delight <seg th:sID="C17_app277-fThomas"/>at the warmth<seg th:eID="C17_app277-fThomas"/>
-               <seg th:sID="C17_app278-fThomas"/>I<seg th:eID="C17_app278-fThomas"/>
-               <seg th:sID="C17_app279-fThomas"/>experienced<seg th:eID="C17_app279-fThomas"/>from it. In my joy I thrust my hand into the live <seg th:sID="C17_app281-fThomas"/>embers,<seg th:eID="C17_app281-fThomas"/>but quickly drew it <seg th:sID="C17_app283-fThomas"/>out again<seg th:eID="C17_app283-fThomas"/>with a cry <seg th:sID="C17_app285-fThomas"/>of<seg th:eID="C17_app285-fThomas"/>
-               <seg th:sID="C17_app286-fThomas"/>pain.<seg th:eID="C17_app286-fThomas"/>How strange, I thought, that the same cause should <seg th:sID="C17_app288-fThomas"/>produce such<seg th:eID="C17_app288-fThomas"/>
-               <seg th:sID="C17_app289-fThomas"/>opposite<seg th:eID="C17_app289-fThomas"/>
-               <seg th:sID="C17_app290-fThomas"/>effects! I<seg th:eID="C17_app290-fThomas"/>examined the materials of the fire, and to my joy found it to be <seg th:sID="C17_app292-fThomas"/>composed of wood.<seg th:eID="C17_app292-fThomas"/>I quickly collected some <seg th:sID="C17_app294-fThomas"/>branches;<seg th:eID="C17_app294-fThomas"/>but they were <seg th:sID="C17_app296-fThomas"/>wet,<seg th:eID="C17_app296-fThomas"/>and would not burn. I was pained at <seg th:sID="C17_app298-fThomas"/>this,<seg th:eID="C17_app298-fThomas"/>and sat still watching the <seg th:sID="C17_app300-fThomas"/>operation<seg th:eID="C17_app300-fThomas"/>of the fire. The wet wood <seg th:sID="C17_app302-fThomas"/>which<seg th:eID="C17_app302-fThomas"/>I had placed near the heat <seg th:sID="C17_app304-fThomas"/>dried,<seg th:eID="C17_app304-fThomas"/>and itself  <seg th:sID="C17_app306-fThomas"/>
-               <pb xml:id="F1818_v2_042" n="038"/>became<seg th:eID="C17_app306-fThomas"/>
-               <seg th:sID="C17_app307-fThomas"/>inflamed.<seg th:eID="C17_app307-fThomas"/>I reflected on  <seg th:sID="C17_app309-fThomas"/>this; and,<seg th:eID="C17_app309-fThomas"/>by touching the various <seg th:sID="C17_app311-fThomas"/>branches,<seg th:eID="C17_app311-fThomas"/>I discovered the <seg th:sID="C17_app313-fThomas"/>cause,<seg th:eID="C17_app313-fThomas"/>and busied myself in <seg th:sID="C17_app315-fThomas"/>collecting<seg th:eID="C17_app315-fThomas"/>a great <seg th:sID="C17_app317-fThomas"/>quantity<seg th:eID="C17_app317-fThomas"/>of  <seg th:sID="C17_app319-fThomas"/>wood,<seg th:eID="C17_app319-fThomas"/>that I might dry <seg th:sID="C17_app321-fThomas"/>it,<seg th:eID="C17_app321-fThomas"/>and have a <seg th:sID="C17_app323-fThomas"/>plentiful supply<seg th:eID="C17_app323-fThomas"/>
-               <seg th:sID="C17_app324-fThomas"/>of fire.<seg th:eID="C17_app324-fThomas"/>When night came  <seg th:sID="C17_app326-fThomas"/>on,<seg th:eID="C17_app326-fThomas"/>and <seg th:sID="C17_app328-fThomas"/>brought sleep with it ,<seg th:eID="C17_app328-fThomas"/>I was in the greatest fear lest my fire should be <seg th:sID="C17_app330-fThomas"/>extinguished.<seg th:eID="C17_app330-fThomas"/>I covered it carefully with <seg th:sID="C17_app332-fThomas"/>dry wood and<seg th:eID="C17_app332-fThomas"/>
-               <seg th:sID="C17_app333-fThomas"/>leaves,<seg th:eID="C17_app333-fThomas"/>and <seg th:sID="C17_app335-fThomas"/>placed<seg th:eID="C17_app335-fThomas"/>
-               <seg th:sID="C17_app336-fThomas"/>wet branches<seg th:eID="C17_app336-fThomas"/>
-               <seg th:sID="C17_app337-fThomas"/>upon it;<seg th:eID="C17_app337-fThomas"/>and <seg th:sID="C17_app339-fThomas"/>then,<seg th:eID="C17_app339-fThomas"/>spreading my <seg th:sID="C17_app341-fThomas"/>cloak,<seg th:eID="C17_app341-fThomas"/>I <seg th:sID="C17_app343-fThomas"/>lay<seg th:eID="C17_app343-fThomas"/>on the <seg th:sID="C17_app345-fThomas"/>ground,<seg th:eID="C17_app345-fThomas"/>and sunk into sleep. <seg th:sID="C17_app347-fThomas__I" part="I"/>
+            <p xml:id="novel1_letter4_chapter10_div4_div11_p6"> “One day,
+        <seg th:eID="C17_app267-fThomas__F" part="F"/>
+    when I was oppressed by 
+        <seg th:sID="C17_app269-fThomas"/>
+        cold,
+        <seg th:eID="C17_app269-fThomas"/>
+    I found a fire 
+        <seg th:sID="C17_app271-fThomas"/>
+        which
+        <seg th:eID="C17_app271-fThomas"/>
+    had been left by some wandering 
+        <seg th:sID="C17_app273-fThomas"/>
+        beggars,
+        <seg th:eID="C17_app273-fThomas"/>
+    and was 
+        <seg th:sID="C17_app275-fThomas"/>
+        overcome
+        <seg th:eID="C17_app275-fThomas"/>
+    with delight 
+        <seg th:sID="C17_app277-fThomas"/>
+        at the warmth
+        <seg th:eID="C17_app277-fThomas"/>
+               <seg th:sID="C17_app278-fThomas"/>
+        I
+        <seg th:eID="C17_app278-fThomas"/>
+               <seg th:sID="C17_app279-fThomas"/>
+        experienced
+        <seg th:eID="C17_app279-fThomas"/>
+    from it. In my joy I thrust my hand into the live 
+        <seg th:sID="C17_app281-fThomas"/>
+        embers,
+        <seg th:eID="C17_app281-fThomas"/>
+    but quickly drew it 
+        <seg th:sID="C17_app283-fThomas"/>
+        out again
+        <seg th:eID="C17_app283-fThomas"/>
+    with a cry 
+        <seg th:sID="C17_app285-fThomas"/>
+        of
+        <seg th:eID="C17_app285-fThomas"/>
+               <seg th:sID="C17_app286-fThomas"/>
+        pain.
+        <seg th:eID="C17_app286-fThomas"/>
+    How strange, I thought, that the same cause should 
+        <seg th:sID="C17_app288-fThomas"/>
+        produce such
+        <seg th:eID="C17_app288-fThomas"/>
+               <seg th:sID="C17_app289-fThomas"/>
+        opposite
+        <seg th:eID="C17_app289-fThomas"/>
+               <seg th:sID="C17_app290-fThomas"/>
+        effects! I
+        <seg th:eID="C17_app290-fThomas"/>
+    examined the materials of the fire, and to my joy found it to be 
+        <seg th:sID="C17_app292-fThomas"/>
+        composed of wood.
+        <seg th:eID="C17_app292-fThomas"/>
+    I quickly collected some 
+        <seg th:sID="C17_app294-fThomas"/>
+        branches;
+        <seg th:eID="C17_app294-fThomas"/>
+    but they were 
+        <seg th:sID="C17_app296-fThomas"/>
+        wet,
+        <seg th:eID="C17_app296-fThomas"/>
+    and would not burn. I was pained at 
+        <seg th:sID="C17_app298-fThomas"/>
+        this,
+        <seg th:eID="C17_app298-fThomas"/>
+    and sat still watching the 
+        <seg th:sID="C17_app300-fThomas"/>
+        operation
+        <seg th:eID="C17_app300-fThomas"/>
+    of the fire. The wet wood 
+        <seg th:sID="C17_app302-fThomas"/>
+        which
+        <seg th:eID="C17_app302-fThomas"/>
+    I had placed near the heat 
+        <seg th:sID="C17_app304-fThomas"/>
+        dried,
+        <seg th:eID="C17_app304-fThomas"/>
+    and itself  
+        <seg th:sID="C17_app306-fThomas"/>
+               <pb xml:id="F1818_v2_042" n="038"/>became
+        <seg th:eID="C17_app306-fThomas"/>
+               <seg th:sID="C17_app307-fThomas"/>
+        inflamed.
+        <seg th:eID="C17_app307-fThomas"/>
+    I reflected on  
+        <seg th:sID="C17_app309-fThomas"/>
+        this; and,
+        <seg th:eID="C17_app309-fThomas"/>
+    by touching the various 
+        <seg th:sID="C17_app311-fThomas"/>
+        branches,
+        <seg th:eID="C17_app311-fThomas"/>
+    I discovered the 
+        <seg th:sID="C17_app313-fThomas"/>
+        cause,
+        <seg th:eID="C17_app313-fThomas"/>
+    and busied myself in 
+        <seg th:sID="C17_app315-fThomas"/>
+        collecting
+        <seg th:eID="C17_app315-fThomas"/>
+    a great 
+        <seg th:sID="C17_app317-fThomas"/>
+        quantity
+        <seg th:eID="C17_app317-fThomas"/>
+    of  
+        <seg th:sID="C17_app319-fThomas"/>
+        wood,
+        <seg th:eID="C17_app319-fThomas"/>
+    that I might dry 
+        <seg th:sID="C17_app321-fThomas"/>
+        it,
+        <seg th:eID="C17_app321-fThomas"/>
+    and have a 
+        <seg th:sID="C17_app323-fThomas"/>
+        plentiful supply
+        <seg th:eID="C17_app323-fThomas"/>
+               <seg th:sID="C17_app324-fThomas"/>
+        of fire.
+        <seg th:eID="C17_app324-fThomas"/>
+    When night came  
+        <seg th:sID="C17_app326-fThomas"/>
+        on,
+        <seg th:eID="C17_app326-fThomas"/>
+    and 
+        <seg th:sID="C17_app328-fThomas"/>
+        brought sleep with it ,
+        <seg th:eID="C17_app328-fThomas"/>
+    I was in the greatest fear lest my fire should be 
+        <seg th:sID="C17_app330-fThomas"/>
+        extinguished.
+        <seg th:eID="C17_app330-fThomas"/>
+    I covered it carefully with 
+        <seg th:sID="C17_app332-fThomas"/>
+        dry wood and
+        <seg th:eID="C17_app332-fThomas"/>
+               <seg th:sID="C17_app333-fThomas"/>
+        leaves,
+        <seg th:eID="C17_app333-fThomas"/>
+    and 
+        <seg th:sID="C17_app335-fThomas"/>
+        placed
+        <seg th:eID="C17_app335-fThomas"/>
+               <seg th:sID="C17_app336-fThomas"/>
+        wet branches
+        <seg th:eID="C17_app336-fThomas"/>
+               <seg th:sID="C17_app337-fThomas"/>
+        upon it;
+        <seg th:eID="C17_app337-fThomas"/>
+    and 
+        <seg th:sID="C17_app339-fThomas"/>
+        then,
+        <seg th:eID="C17_app339-fThomas"/>
+    spreading my 
+        <seg th:sID="C17_app341-fThomas"/>
+        cloak,
+        <seg th:eID="C17_app341-fThomas"/>
+    I 
+        <seg th:sID="C17_app343-fThomas"/>
+        lay
+        <seg th:eID="C17_app343-fThomas"/>
+    on the 
+        <seg th:sID="C17_app345-fThomas"/>
+        ground,
+        <seg th:eID="C17_app345-fThomas"/>
+    and sunk into sleep. 
+        <seg th:sID="C17_app347-fThomas__I" part="I"/>
             </p>
-            <p xml:id="novel1_letter4_chapter10_div4_div11_p7"> “It<seg th:eID="C17_app347-fThomas__F" part="F"/>was morning when I <seg th:sID="C17_app349-fThomas"/>awoke,<seg th:eID="C17_app349-fThomas"/>and my first care was to visit the <seg th:sID="C17_app351-fThomas"/>fire. I<seg th:eID="C17_app351-fThomas"/>uncovered <seg th:sID="C17_app353-fThomas"/>it,<seg th:eID="C17_app353-fThomas"/>and <seg th:sID="C17_app355-fThomas"/>a gentle breeze quickly fanned it into a<seg th:eID="C17_app355-fThomas"/>
-               <seg th:sID="C17_app356-fThomas"/>flame.<seg th:eID="C17_app356-fThomas"/>I observed this <seg th:sID="C17_app358-fThomas"/>also,<seg th:eID="C17_app358-fThomas"/>and contrived a fan of <seg th:sID="C17_app360-fThomas"/>branches,<seg th:eID="C17_app360-fThomas"/>which roused the embers when <seg th:sID="C17_app362-fThomas"/>they<seg th:eID="C17_app362-fThomas"/>were nearly extinguished. When night <seg th:sID="C17_app364-fThomas"/>came<seg th:eID="C17_app364-fThomas"/>
-               <seg th:sID="C17_app365-fThomas"/>again,<seg th:eID="C17_app365-fThomas"/>I <seg th:sID="C17_app367-fThomas"/>found,<seg th:eID="C17_app367-fThomas"/>with <seg th:sID="C17_app369-fThomas"/>pleasure,<seg th:eID="C17_app369-fThomas"/>that the fire gave light as <pb xml:id="F1818_v2_043" n="039"/>well as <seg th:sID="C17_app371-fThomas"/>heat;<seg th:eID="C17_app371-fThomas"/>and <seg th:sID="C17_app373-fThomas"/>that<seg th:eID="C17_app373-fThomas"/>the discovery of this element was useful to me <seg th:sID="C17_app375-fThomas"/>in my<seg th:eID="C17_app375-fThomas"/>
-               <seg th:sID="C17_app376-fThomas"/>food;<seg th:eID="C17_app376-fThomas"/>for I found some of <seg th:sID="C17_app378-fThomas"/>the<seg th:eID="C17_app378-fThomas"/>offals that the travellers had left had been <seg th:sID="C17_app380-fThomas"/>roasted,<seg th:eID="C17_app380-fThomas"/>and tasted much more savoury than the berries I <seg th:sID="C17_app382-fThomas"/>gathered from the trees.<seg th:eID="C17_app382-fThomas"/>I <seg th:sID="C17_app384-fThomas"/>tried, therefore,<seg th:eID="C17_app384-fThomas"/>to dress my food in the same manner, placing <seg th:sID="C17_app386-fThomas"/>it<seg th:eID="C17_app386-fThomas"/>on the live <seg th:sID="C17_app388-fThomas"/>embers.<seg th:eID="C17_app388-fThomas"/>I found that the berries were spoiled by this <seg th:sID="C17_app390-fThomas"/>operation,<seg th:eID="C17_app390-fThomas"/>and the nuts <seg th:sID="C17_app392-fThomas"/>and roots<seg th:eID="C17_app392-fThomas"/>much improved. <seg th:sID="C17_app394-fThomas__I" part="I"/>
+            <p xml:id="novel1_letter4_chapter10_div4_div11_p7"> “It
+        <seg th:eID="C17_app347-fThomas__F" part="F"/>
+    was morning when I 
+        <seg th:sID="C17_app349-fThomas"/>
+        awoke,
+        <seg th:eID="C17_app349-fThomas"/>
+    and my first care was to visit the 
+        <seg th:sID="C17_app351-fThomas"/>
+        fire. I
+        <seg th:eID="C17_app351-fThomas"/>
+    uncovered 
+        <seg th:sID="C17_app353-fThomas"/>
+        it,
+        <seg th:eID="C17_app353-fThomas"/>
+    and 
+        <seg th:sID="C17_app355-fThomas"/>
+        a gentle breeze quickly fanned it into a
+        <seg th:eID="C17_app355-fThomas"/>
+               <seg th:sID="C17_app356-fThomas"/>
+        flame.
+        <seg th:eID="C17_app356-fThomas"/>
+    I observed this 
+        <seg th:sID="C17_app358-fThomas"/>
+        also,
+        <seg th:eID="C17_app358-fThomas"/>
+    and contrived a fan of 
+        <seg th:sID="C17_app360-fThomas"/>
+        branches,
+        <seg th:eID="C17_app360-fThomas"/>
+    which roused the embers when 
+        <seg th:sID="C17_app362-fThomas"/>
+        they
+        <seg th:eID="C17_app362-fThomas"/>
+    were nearly extinguished. When night 
+        <seg th:sID="C17_app364-fThomas"/>
+        came
+        <seg th:eID="C17_app364-fThomas"/>
+               <seg th:sID="C17_app365-fThomas"/>
+        again,
+        <seg th:eID="C17_app365-fThomas"/>
+    I 
+        <seg th:sID="C17_app367-fThomas"/>
+        found,
+        <seg th:eID="C17_app367-fThomas"/>
+    with 
+        <seg th:sID="C17_app369-fThomas"/>
+        pleasure,
+        <seg th:eID="C17_app369-fThomas"/>
+    that the fire gave light as <pb xml:id="F1818_v2_043" n="039"/>well as 
+        <seg th:sID="C17_app371-fThomas"/>
+        heat;
+        <seg th:eID="C17_app371-fThomas"/>
+    and 
+        <seg th:sID="C17_app373-fThomas"/>
+        that
+        <seg th:eID="C17_app373-fThomas"/>
+    the discovery of this element was useful to me 
+        <seg th:sID="C17_app375-fThomas"/>
+        in my
+        <seg th:eID="C17_app375-fThomas"/>
+               <seg th:sID="C17_app376-fThomas"/>
+        food;
+        <seg th:eID="C17_app376-fThomas"/>
+    for I found some of 
+        <seg th:sID="C17_app378-fThomas"/>
+        the
+        <seg th:eID="C17_app378-fThomas"/>
+    offals that the travellers had left had been 
+        <seg th:sID="C17_app380-fThomas"/>
+        roasted,
+        <seg th:eID="C17_app380-fThomas"/>
+    and tasted much more savoury than the berries I 
+        <seg th:sID="C17_app382-fThomas"/>
+        gathered from the trees.
+        <seg th:eID="C17_app382-fThomas"/>
+    I 
+        <seg th:sID="C17_app384-fThomas"/>
+        tried, therefore,
+        <seg th:eID="C17_app384-fThomas"/>
+    to dress my food in the same manner, placing 
+        <seg th:sID="C17_app386-fThomas"/>
+        it
+        <seg th:eID="C17_app386-fThomas"/>
+    on the live 
+        <seg th:sID="C17_app388-fThomas"/>
+        embers.
+        <seg th:eID="C17_app388-fThomas"/>
+    I found that the berries were spoiled by this 
+        <seg th:sID="C17_app390-fThomas"/>
+        operation,
+        <seg th:eID="C17_app390-fThomas"/>
+    and the nuts 
+        <seg th:sID="C17_app392-fThomas"/>
+        and roots
+        <seg th:eID="C17_app392-fThomas"/>
+    much improved. 
+        <seg th:sID="C17_app394-fThomas__I" part="I"/>
             </p>
-            <p xml:id="novel1_letter4_chapter10_div4_div11_p8"> “Food, however,<seg th:eID="C17_app394-fThomas__F" part="F"/>became <seg th:sID="C17_app396-fThomas"/>scarce;<seg th:eID="C17_app396-fThomas"/>and I often spent <seg th:sID="C17_app398-fThomas"/>the whole<seg th:eID="C17_app398-fThomas"/>day searching in vain for a few acorns to assuage the pangs of hunger. When I found <seg th:sID="C17_app400-fThomas"/>this, I<seg th:eID="C17_app400-fThomas"/>resolved to quit the place <seg th:sID="C17_app402-fThomas"/>that<seg th:eID="C17_app402-fThomas"/>I had hitherto <seg th:sID="C17_app404-fThomas"/>inhabited,<seg th:eID="C17_app404-fThomas"/>to seek for <seg th:sID="C17_app406-fThomas"/>one<seg th:eID="C17_app406-fThomas"/>where the few wants I experienced would be more easily satisfied. In this  <seg th:sID="C17_app408-fThomas"/>emigration,<seg th:eID="C17_app408-fThomas"/>I <seg th:sID="C17_app410-fThomas"/>exceedingly<seg th:eID="C17_app410-fThomas"/>lamented the loss of  <seg th:sID="C17_app412-fThomas"/>the fire which I<seg th:eID="C17_app412-fThomas"/>had obtained <seg th:sID="C17_app414-fThomas"/>through accident,<seg th:eID="C17_app414-fThomas"/>and knew not how to <seg th:sID="C17_app416-fThomas"/>
-               <pb xml:id="F1818_v2_044" n="040"/>re-produce<seg th:eID="C17_app416-fThomas"/>it. <seg th:sID="C17_app418-fThomas"/>I gave several hours to the<seg th:eID="C17_app418-fThomas"/>serious consideration <seg th:sID="C17_app420-fThomas"/>of this difficulty;<seg th:eID="C17_app420-fThomas"/>but I was obliged to <seg th:sID="C17_app422-fThomas"/>relinquish all<seg th:eID="C17_app422-fThomas"/>
-               <seg th:sID="C17_app423-fThomas"/>attempt<seg th:eID="C17_app423-fThomas"/>to supply <seg th:sID="C17_app425-fThomas"/>it; and, wrapping<seg th:eID="C17_app425-fThomas"/>myself up in my <seg th:sID="C17_app427-fThomas"/>cloak,<seg th:eID="C17_app427-fThomas"/>I struck across the wood towards the setting <seg th:sID="C17_app429-fThomas"/>sun.<seg th:eID="C17_app429-fThomas"/>I passed three days in these <seg th:sID="C17_app431-fThomas"/>rambles,<seg th:eID="C17_app431-fThomas"/>and at length discovered the open <seg th:sID="C17_app433-fThomas"/>country.<seg th:eID="C17_app433-fThomas"/>A great fall of snow had taken place the night <seg th:sID="C17_app435-fThomas"/>before,<seg th:eID="C17_app435-fThomas"/>and the fields were of one <seg th:sID="C17_app437-fThomas"/>uniform white;<seg th:eID="C17_app437-fThomas"/>the <seg th:sID="C17_app439-fThomas"/>appearance<seg th:eID="C17_app439-fThomas"/>was <seg th:sID="C17_app441-fThomas"/>disconsolate,<seg th:eID="C17_app441-fThomas"/>and I found my feet chilled by the cold <seg th:sID="C17_app443-fThomas"/>damp<seg th:eID="C17_app443-fThomas"/>
-               <seg th:sID="C17_app444-fThomas"/>substance that covered the<seg th:eID="C17_app444-fThomas"/>
-               <seg th:sID="C17_app445-fThomas__I" part="I"/>ground. </p>
-            <p xml:id="novel1_letter4_chapter10_div4_div11_p9"> “It<seg th:eID="C17_app445-fThomas__F" part="F"/>was about seven in the <seg th:sID="C17_app447-fThomas"/>morning,<seg th:eID="C17_app447-fThomas"/>and I longed to obtain food and <seg th:sID="C17_app449-fThomas"/>shelter;<seg th:eID="C17_app449-fThomas"/>at length I perceived <seg th:sID="C17_app451-fThomas"/>a small<seg th:eID="C17_app451-fThomas"/>
-               <seg th:sID="C17_app452-fThomas"/>hut, on a rising ground,<seg th:eID="C17_app452-fThomas"/>which had <seg th:sID="C17_app454-fThomas"/>doubtless been built for the convenience of<seg th:eID="C17_app454-fThomas"/>
-               <seg th:sID="C17_app455-fThomas"/>some<seg th:eID="C17_app455-fThomas"/>
-               <seg th:sID="C17_app456-fThomas"/>shepherd.<seg th:eID="C17_app456-fThomas"/>This was a new sight to <seg th:sID="C17_app458-fThomas"/>me;<seg th:eID="C17_app458-fThomas"/>and I examined the <seg th:sID="C17_app460-fThomas"/>structure<seg th:eID="C17_app460-fThomas"/>
-               <seg th:sID="C17_app461-fThomas"/>with great cu<pb xml:id="F1818_v2_045" n="041"/>riosity.<seg th:eID="C17_app461-fThomas"/>
-               <seg th:sID="C17_app462-fThomas"/>Finding the door<seg th:eID="C17_app462-fThomas"/>
-               <seg th:sID="C17_app463-fThomas"/>open,<seg th:eID="C17_app463-fThomas"/>I entered. An old man sat <seg th:sID="C17_app465-fThomas"/>in it, near a<seg th:eID="C17_app465-fThomas"/>
-               <seg th:sID="C17_app466-fThomas"/>fire,<seg th:eID="C17_app466-fThomas"/>over <seg th:sID="C17_app468-fThomas"/>which he was preparing his<seg th:eID="C17_app468-fThomas"/>
-               <seg th:sID="C17_app469-fThomas"/>breakfast.<seg th:eID="C17_app469-fThomas"/>He turned <seg th:sID="C17_app471-fThomas"/>on hearing a<seg th:eID="C17_app471-fThomas"/>
-               <seg th:sID="C17_app472-fThomas"/>noise; and,<seg th:eID="C17_app472-fThomas"/>perceiving <seg th:sID="C17_app474-fThomas"/>me,<seg th:eID="C17_app474-fThomas"/>shrieked <seg th:sID="C17_app476-fThomas"/>loudly, and, quitting<seg th:eID="C17_app476-fThomas"/>the <seg th:sID="C17_app478-fThomas"/>hut,<seg th:eID="C17_app478-fThomas"/>ran across the fields with a speed <seg th:sID="C17_app480-fThomas"/>of which his debilitated form hardly appeared<seg th:eID="C17_app480-fThomas"/>
-               <seg th:sID="C17_app481-fThomas"/>capable. His appearance, different from any I had ever before seen, and<seg th:eID="C17_app481-fThomas"/>his <seg th:sID="C17_app483-fThomas"/>flight,<seg th:eID="C17_app483-fThomas"/>somewhat surprised <seg th:sID="C17_app485-fThomas"/>me.<seg th:eID="C17_app485-fThomas"/>But I was <seg th:sID="C17_app487-fThomas"/>enchanted by<seg th:eID="C17_app487-fThomas"/>the appearance of the <seg th:sID="C17_app489-fThomas"/>hut:<seg th:eID="C17_app489-fThomas"/>here the snow and rain could not <seg th:sID="C17_app491-fThomas"/>penetrate;<seg th:eID="C17_app491-fThomas"/>the ground was <seg th:sID="C17_app493-fThomas"/>dry;<seg th:eID="C17_app493-fThomas"/>and it <seg th:sID="C17_app495-fThomas"/>presented<seg th:eID="C17_app495-fThomas"/>to me then as  <seg th:sID="C17_app497-fThomas"/>exquisite<seg th:eID="C17_app497-fThomas"/>
-               <seg th:sID="C17_app498-fThomas"/>and divine<seg th:eID="C17_app498-fThomas"/>a retreat as <seg th:sID="C17_app500-fThomas"/>Pandæmonium<seg th:eID="C17_app500-fThomas"/>appeared to the <seg th:sID="C17_app502-fThomas"/>dæmons<seg th:eID="C17_app502-fThomas"/>of hell <seg th:sID="C17_app504-fThomas"/>after<seg th:eID="C17_app504-fThomas"/>
-               <seg th:sID="C17_app505-fThomas"/>their sufferings<seg th:eID="C17_app505-fThomas"/>in the lake of fire. I greedily devoured the  <seg th:sID="C17_app508-fThomas"/>remnants<seg th:eID="C17_app508-fThomas"/>of the <seg th:sID="C17_app510-fThomas"/>shepherd’s breakfast,<seg th:eID="C17_app510-fThomas"/>which consisted of bread, cheese, <seg th:sID="C17_app512-fThomas"/>milk,<seg th:eID="C17_app512-fThomas"/>and <seg th:sID="C17_app514-fThomas"/>wine; the<seg th:eID="C17_app514-fThomas"/>
-               <seg th:sID="C17_app515-fThomas"/>latter, however,<seg th:eID="C17_app515-fThomas"/>I did not like. <seg th:sID="C17_app517-fThomas"/>
-               <add ana="start"/>After my meal I felt <add ana="end"/>
+            <p xml:id="novel1_letter4_chapter10_div4_div11_p8"> “Food, however,
+        <seg th:eID="C17_app394-fThomas__F" part="F"/>
+    became 
+        <seg th:sID="C17_app396-fThomas"/>
+        scarce;
+        <seg th:eID="C17_app396-fThomas"/>
+    and I often spent 
+        <seg th:sID="C17_app398-fThomas"/>
+        the whole
+        <seg th:eID="C17_app398-fThomas"/>
+    day searching in vain for a few acorns to assuage the pangs of hunger. When I found 
+        <seg th:sID="C17_app400-fThomas"/>
+        this, I
+        <seg th:eID="C17_app400-fThomas"/>
+    resolved to quit the place 
+        <seg th:sID="C17_app402-fThomas"/>
+        that
+        <seg th:eID="C17_app402-fThomas"/>
+    I had hitherto 
+        <seg th:sID="C17_app404-fThomas"/>
+        inhabited,
+        <seg th:eID="C17_app404-fThomas"/>
+    to seek for 
+        <seg th:sID="C17_app406-fThomas"/>
+        one
+        <seg th:eID="C17_app406-fThomas"/>
+    where the few wants I experienced would be more easily satisfied. In this  
+        <seg th:sID="C17_app408-fThomas"/>
+        emigration,
+        <seg th:eID="C17_app408-fThomas"/>
+    I 
+        <seg th:sID="C17_app410-fThomas"/>
+        exceedingly
+        <seg th:eID="C17_app410-fThomas"/>
+    lamented the loss of  
+        <seg th:sID="C17_app412-fThomas"/>
+        the fire which I
+        <seg th:eID="C17_app412-fThomas"/>
+    had obtained 
+        <seg th:sID="C17_app414-fThomas"/>
+        through accident,
+        <seg th:eID="C17_app414-fThomas"/>
+    and knew not how to 
+        <seg th:sID="C17_app416-fThomas"/>
+               <pb xml:id="F1818_v2_044" n="040"/>re-produce
+        <seg th:eID="C17_app416-fThomas"/>
+    it. 
+        <seg th:sID="C17_app418-fThomas"/>
+        I gave several hours to the
+        <seg th:eID="C17_app418-fThomas"/>
+    serious consideration 
+        <seg th:sID="C17_app420-fThomas"/>
+        of this difficulty;
+        <seg th:eID="C17_app420-fThomas"/>
+    but I was obliged to 
+        <seg th:sID="C17_app422-fThomas"/>
+        relinquish all
+        <seg th:eID="C17_app422-fThomas"/>
+               <seg th:sID="C17_app423-fThomas"/>
+        attempt
+        <seg th:eID="C17_app423-fThomas"/>
+    to supply 
+        <seg th:sID="C17_app425-fThomas"/>
+        it; and, wrapping
+        <seg th:eID="C17_app425-fThomas"/>
+    myself up in my 
+        <seg th:sID="C17_app427-fThomas"/>
+        cloak,
+        <seg th:eID="C17_app427-fThomas"/>
+    I struck across the wood towards the setting 
+        <seg th:sID="C17_app429-fThomas"/>
+        sun.
+        <seg th:eID="C17_app429-fThomas"/>
+    I passed three days in these 
+        <seg th:sID="C17_app431-fThomas"/>
+        rambles,
+        <seg th:eID="C17_app431-fThomas"/>
+    and at length discovered the open 
+        <seg th:sID="C17_app433-fThomas"/>
+        country.
+        <seg th:eID="C17_app433-fThomas"/>
+    A great fall of snow had taken place the night 
+        <seg th:sID="C17_app435-fThomas"/>
+        before,
+        <seg th:eID="C17_app435-fThomas"/>
+    and the fields were of one 
+        <seg th:sID="C17_app437-fThomas"/>
+        uniform white;
+        <seg th:eID="C17_app437-fThomas"/>
+    the 
+        <seg th:sID="C17_app439-fThomas"/>
+        appearance
+        <seg th:eID="C17_app439-fThomas"/>
+    was 
+        <seg th:sID="C17_app441-fThomas"/>
+        disconsolate,
+        <seg th:eID="C17_app441-fThomas"/>
+    and I found my feet chilled by the cold 
+        <seg th:sID="C17_app443-fThomas"/>
+        damp
+        <seg th:eID="C17_app443-fThomas"/>
+               <seg th:sID="C17_app444-fThomas"/>
+        substance that covered the
+        <seg th:eID="C17_app444-fThomas"/>
+               <seg th:sID="C17_app445-fThomas__I" part="I"/>
+        ground. </p>
+            <p xml:id="novel1_letter4_chapter10_div4_div11_p9"> “It
+        <seg th:eID="C17_app445-fThomas__F" part="F"/>
+    was about seven in the 
+        <seg th:sID="C17_app447-fThomas"/>
+        morning,
+        <seg th:eID="C17_app447-fThomas"/>
+    and I longed to obtain food and 
+        <seg th:sID="C17_app449-fThomas"/>
+        shelter;
+        <seg th:eID="C17_app449-fThomas"/>
+    at length I perceived 
+        <seg th:sID="C17_app451-fThomas"/>
+        a small
+        <seg th:eID="C17_app451-fThomas"/>
+               <seg th:sID="C17_app452-fThomas"/>
+        hut, on a rising ground,
+        <seg th:eID="C17_app452-fThomas"/>
+    which had 
+        <seg th:sID="C17_app454-fThomas"/>
+        doubtless been built for the convenience of
+        <seg th:eID="C17_app454-fThomas"/>
+               <seg th:sID="C17_app455-fThomas"/>
+        some
+        <seg th:eID="C17_app455-fThomas"/>
+               <seg th:sID="C17_app456-fThomas"/>
+        shepherd.
+        <seg th:eID="C17_app456-fThomas"/>
+    This was a new sight to 
+        <seg th:sID="C17_app458-fThomas"/>
+        me;
+        <seg th:eID="C17_app458-fThomas"/>
+    and I examined the 
+        <seg th:sID="C17_app460-fThomas"/>
+        structure
+        <seg th:eID="C17_app460-fThomas"/>
+               <seg th:sID="C17_app461-fThomas"/>
+        with great cu<pb xml:id="F1818_v2_045" n="041"/>riosity.
+        <seg th:eID="C17_app461-fThomas"/>
+               <seg th:sID="C17_app462-fThomas"/>
+        Finding the door
+        <seg th:eID="C17_app462-fThomas"/>
+               <seg th:sID="C17_app463-fThomas"/>
+        open,
+        <seg th:eID="C17_app463-fThomas"/>
+    I entered. An old man sat 
+        <seg th:sID="C17_app465-fThomas"/>
+        in it, near a
+        <seg th:eID="C17_app465-fThomas"/>
+               <seg th:sID="C17_app466-fThomas"/>
+        fire,
+        <seg th:eID="C17_app466-fThomas"/>
+    over 
+        <seg th:sID="C17_app468-fThomas"/>
+        which he was preparing his
+        <seg th:eID="C17_app468-fThomas"/>
+               <seg th:sID="C17_app469-fThomas"/>
+        breakfast.
+        <seg th:eID="C17_app469-fThomas"/>
+    He turned 
+        <seg th:sID="C17_app471-fThomas"/>
+        on hearing a
+        <seg th:eID="C17_app471-fThomas"/>
+               <seg th:sID="C17_app472-fThomas"/>
+        noise; and,
+        <seg th:eID="C17_app472-fThomas"/>
+    perceiving 
+        <seg th:sID="C17_app474-fThomas"/>
+        me,
+        <seg th:eID="C17_app474-fThomas"/>
+    shrieked 
+        <seg th:sID="C17_app476-fThomas"/>
+        loudly, and, quitting
+        <seg th:eID="C17_app476-fThomas"/>
+    the 
+        <seg th:sID="C17_app478-fThomas"/>
+        hut,
+        <seg th:eID="C17_app478-fThomas"/>
+    ran across the fields with a speed 
+        <seg th:sID="C17_app480-fThomas"/>
+        of which his debilitated form hardly appeared
+        <seg th:eID="C17_app480-fThomas"/>
+               <seg th:sID="C17_app481-fThomas"/>
+        capable. His appearance, different from any I had ever before seen, and
+        <seg th:eID="C17_app481-fThomas"/>
+    his 
+        <seg th:sID="C17_app483-fThomas"/>
+        flight,
+        <seg th:eID="C17_app483-fThomas"/>
+    somewhat surprised 
+        <seg th:sID="C17_app485-fThomas"/>
+        me.
+        <seg th:eID="C17_app485-fThomas"/>
+    But I was 
+        <seg th:sID="C17_app487-fThomas"/>
+        enchanted by
+        <seg th:eID="C17_app487-fThomas"/>
+    the appearance of the 
+        <seg th:sID="C17_app489-fThomas"/>
+        hut:
+        <seg th:eID="C17_app489-fThomas"/>
+    here the snow and rain could not 
+        <seg th:sID="C17_app491-fThomas"/>
+        penetrate;
+        <seg th:eID="C17_app491-fThomas"/>
+    the ground was 
+        <seg th:sID="C17_app493-fThomas"/>
+        dry;
+        <seg th:eID="C17_app493-fThomas"/>
+    and it 
+        <seg th:sID="C17_app495-fThomas"/>
+        presented
+        <seg th:eID="C17_app495-fThomas"/>
+    to me then as  
+        <seg th:sID="C17_app497-fThomas"/>
+        exquisite
+        <seg th:eID="C17_app497-fThomas"/>
+               <seg th:sID="C17_app498-fThomas"/>
+        and divine
+        <seg th:eID="C17_app498-fThomas"/>
+    a retreat as 
+        <seg th:sID="C17_app500-fThomas"/>
+        Pandæmonium
+        <seg th:eID="C17_app500-fThomas"/>
+    appeared to the 
+        <seg th:sID="C17_app502-fThomas"/>
+        dæmons
+        <seg th:eID="C17_app502-fThomas"/>
+    of hell 
+        <seg th:sID="C17_app504-fThomas"/>
+        after
+        <seg th:eID="C17_app504-fThomas"/>
+               <seg th:sID="C17_app505-fThomas"/>
+        their sufferings
+        <seg th:eID="C17_app505-fThomas"/>
+    in the lake of fire. I greedily devoured the  
+        <seg th:sID="C17_app508-fThomas"/>
+        remnants
+        <seg th:eID="C17_app508-fThomas"/>
+    of the 
+        <seg th:sID="C17_app510-fThomas"/>
+        shepherd’s breakfast,
+        <seg th:eID="C17_app510-fThomas"/>
+    which consisted of bread, cheese, 
+        <seg th:sID="C17_app512-fThomas"/>
+        milk,
+        <seg th:eID="C17_app512-fThomas"/>
+    and 
+        <seg th:sID="C17_app514-fThomas"/>
+        wine; the
+        <seg th:eID="C17_app514-fThomas"/>
+               <seg th:sID="C17_app515-fThomas"/>
+        latter, however,
+        <seg th:eID="C17_app515-fThomas"/>
+    I did not like. 
+        <seg th:sID="C17_app517-fThomas"/>
+               <add>After my meal I felt </add>
                <seg th:eID="C17_app517-fThomas"/>
                <seg th:sID="C17_app518-fThomas"/>
                <pb xml:id="F1818_v2_046" n="042"/>
-               <seg th:eID="C17_app518-fThomas"/>overcome <seg th:sID="C17_app520-fThomas"/>
-               <note ana="start" resp="FV-Team-ebb"/>The 1818 edition omits the word "Then" at the start of this sentence in the other editions and begins the line at the top of the page with "overcome". This is apparently a typesetting error.<note ana="end"/>
-               <seg th:eID="C17_app520-fThomas"/>by <seg th:sID="C17_app522-fThomas"/>fatigue,<seg th:eID="C17_app522-fThomas"/>
+               <seg th:eID="C17_app518-fThomas"/>
+    overcome 
+        <seg th:sID="C17_app520-fThomas"/>
+               <note resp="FV-Team-ebb">The 1818 edition omits the word "Then" at the start of this sentence in the other editions and begins the line at the top of the page with "overcome". This is apparently a typesetting error.</note>
+               <seg th:eID="C17_app520-fThomas"/>
+    by 
+        <seg th:sID="C17_app522-fThomas"/>
+        fatigue,
+        <seg th:eID="C17_app522-fThomas"/>
                <seg th:sID="C17_app523-fThomas"/>
-               <del ana="start" rend="strikethrough"/>I lay<del ana="end"/>
-               <add ana="start" place="above"/>and lying<add ana="end"/>
-               <seg th:eID="C17_app523-fThomas"/>down among some <seg th:sID="C17_app525-fThomas"/>straw,<seg th:eID="C17_app525-fThomas"/>
+               <del rend="strikethrough">I lay</del>
+               <add place="above">and lying</add>
+               <seg th:eID="C17_app523-fThomas"/>
+    down among some 
+        <seg th:sID="C17_app525-fThomas"/>
+        straw,
+        <seg th:eID="C17_app525-fThomas"/>
                <seg th:sID="C17_app526-fThomas"/>
-               <del ana="start" rend="strikethrough"/>and<del ana="end"/>
-               <add ana="start" place="above"/>I<add ana="end"/>
-               <seg th:eID="C17_app526-fThomas"/>fell asleep. </p>
+               <del rend="strikethrough">and</del>
+               <add place="above">I</add>
+               <seg th:eID="C17_app526-fThomas"/>
+    fell asleep. </p>
             <p xml:id="novel1_letter4_chapter10_div4_div11_p10">
-               <seg th:sID="C17_app528-fThomas"/>“It<seg th:eID="C17_app528-fThomas"/>was noon when I <seg th:sID="C17_app530-fThomas"/>awoke; and,<seg th:eID="C17_app530-fThomas"/>allured by the <seg th:sID="C17_app532-fThomas"/>warmth of<seg th:eID="C17_app532-fThomas"/>
-               <seg th:sID="C17_app533-fThomas"/>the sun, which shone brightly on the white ground,<seg th:eID="C17_app533-fThomas"/>I determined to recommence my <seg th:sID="C17_app535-fThomas"/>travels; and,<seg th:eID="C17_app535-fThomas"/>depositing the  <seg th:sID="C17_app538-fThomas"/>remains<seg th:eID="C17_app538-fThomas"/>of the  <seg th:sID="C17_app540-fThomas"/>peasant’s<seg th:eID="C17_app540-fThomas"/>breakfast in a wallet I found, I proceeded across the fields for several hours, <seg th:sID="C17_app542-fThomas"/>until<seg th:eID="C17_app542-fThomas"/>at sunset I <seg th:sID="C17_app544-fThomas"/>arrived at<seg th:eID="C17_app544-fThomas"/>a village. How miraculous did this  <seg th:sID="C17_app546-fThomas"/>appear!<seg th:eID="C17_app546-fThomas"/>the <seg th:sID="C17_app548-fThomas"/>huts,<seg th:eID="C17_app548-fThomas"/>the neater <seg th:sID="C17_app550-fThomas"/>cottages,<seg th:eID="C17_app550-fThomas"/>and <seg th:sID="C17_app552-fThomas"/>stately houses,<seg th:eID="C17_app552-fThomas"/>engaged my admiration by <seg th:sID="C17_app554-fThomas"/>turns.<seg th:eID="C17_app554-fThomas"/>The vegetables in the <seg th:sID="C17_app556-fThomas"/>gardens,<seg th:eID="C17_app556-fThomas"/>the milk and cheese that I saw placed at <seg th:sID="C17_app558-fThomas"/>the windows of some of the<seg th:eID="C17_app558-fThomas"/>
-               <seg th:sID="C17_app559-fThomas"/>cottages,<seg th:eID="C17_app559-fThomas"/>allured <seg th:sID="C17_app561-fThomas"/>my appetite.<seg th:eID="C17_app561-fThomas"/>One of the best of these I <seg th:sID="C17_app563-fThomas"/>entered;<seg th:eID="C17_app563-fThomas"/>but I had hardly placed my foot <seg th:sID="C17_app565-fThomas"/>within<seg th:eID="C17_app565-fThomas"/>the  <seg th:sID="C17_app567-fThomas"/>door,<seg th:eID="C17_app567-fThomas"/>before the children <seg th:sID="C17_app569-fThomas"/>shrieked,<seg th:eID="C17_app569-fThomas"/>and one of the <seg th:sID="C17_app571-fThomas"/>women<seg th:eID="C17_app571-fThomas"/>
-               <seg th:sID="C17_app572-fThomas"/>fainted.<seg th:eID="C17_app572-fThomas"/>The <seg th:sID="C17_app574-fThomas"/>whole<seg th:eID="C17_app574-fThomas"/>village was <seg th:sID="C17_app576-fThomas"/>roused;<seg th:eID="C17_app576-fThomas"/>some <seg th:sID="C17_app578-fThomas"/>fled, some<seg th:eID="C17_app578-fThomas"/>at<pb xml:id="F1818_v2_047" n="043"/>tacked <seg th:sID="C17_app580-fThomas"/>me, until,<seg th:eID="C17_app580-fThomas"/>grievously bruised by <seg th:sID="C17_app582-fThomas"/>stones<seg th:eID="C17_app582-fThomas"/>and  <seg th:sID="C17_app584-fThomas"/>many other kinds of missile<seg th:eID="C17_app584-fThomas"/>
-               <seg th:sID="C17_app585-fThomas"/>weapons,<seg th:eID="C17_app585-fThomas"/>I escaped to the open <seg th:sID="C17_app587-fThomas"/>country,<seg th:eID="C17_app587-fThomas"/>
+               <seg th:sID="C17_app528-fThomas"/>
+        “It
+        <seg th:eID="C17_app528-fThomas"/>
+    was noon when I 
+        <seg th:sID="C17_app530-fThomas"/>
+        awoke; and,
+        <seg th:eID="C17_app530-fThomas"/>
+    allured by the 
+        <seg th:sID="C17_app532-fThomas"/>
+        warmth of
+        <seg th:eID="C17_app532-fThomas"/>
+               <seg th:sID="C17_app533-fThomas"/>
+        the sun, which shone brightly on the white ground,
+        <seg th:eID="C17_app533-fThomas"/>
+    I determined to recommence my 
+        <seg th:sID="C17_app535-fThomas"/>
+        travels; and,
+        <seg th:eID="C17_app535-fThomas"/>
+    depositing the  
+        <seg th:sID="C17_app538-fThomas"/>
+        remains
+        <seg th:eID="C17_app538-fThomas"/>
+    of the  
+        <seg th:sID="C17_app540-fThomas"/>
+        peasant’s
+        <seg th:eID="C17_app540-fThomas"/>
+    breakfast in a wallet I found, I proceeded across the fields for several hours, 
+        <seg th:sID="C17_app542-fThomas"/>
+        until
+        <seg th:eID="C17_app542-fThomas"/>
+    at sunset I 
+        <seg th:sID="C17_app544-fThomas"/>
+        arrived at
+        <seg th:eID="C17_app544-fThomas"/>
+    a village. How miraculous did this  
+        <seg th:sID="C17_app546-fThomas"/>
+        appear!
+        <seg th:eID="C17_app546-fThomas"/>
+    the 
+        <seg th:sID="C17_app548-fThomas"/>
+        huts,
+        <seg th:eID="C17_app548-fThomas"/>
+    the neater 
+        <seg th:sID="C17_app550-fThomas"/>
+        cottages,
+        <seg th:eID="C17_app550-fThomas"/>
+    and 
+        <seg th:sID="C17_app552-fThomas"/>
+        stately houses,
+        <seg th:eID="C17_app552-fThomas"/>
+    engaged my admiration by 
+        <seg th:sID="C17_app554-fThomas"/>
+        turns.
+        <seg th:eID="C17_app554-fThomas"/>
+    The vegetables in the 
+        <seg th:sID="C17_app556-fThomas"/>
+        gardens,
+        <seg th:eID="C17_app556-fThomas"/>
+    the milk and cheese that I saw placed at 
+        <seg th:sID="C17_app558-fThomas"/>
+        the windows of some of the
+        <seg th:eID="C17_app558-fThomas"/>
+               <seg th:sID="C17_app559-fThomas"/>
+        cottages,
+        <seg th:eID="C17_app559-fThomas"/>
+    allured 
+        <seg th:sID="C17_app561-fThomas"/>
+        my appetite.
+        <seg th:eID="C17_app561-fThomas"/>
+    One of the best of these I 
+        <seg th:sID="C17_app563-fThomas"/>
+        entered;
+        <seg th:eID="C17_app563-fThomas"/>
+    but I had hardly placed my foot 
+        <seg th:sID="C17_app565-fThomas"/>
+        within
+        <seg th:eID="C17_app565-fThomas"/>
+    the  
+        <seg th:sID="C17_app567-fThomas"/>
+        door,
+        <seg th:eID="C17_app567-fThomas"/>
+    before the children 
+        <seg th:sID="C17_app569-fThomas"/>
+        shrieked,
+        <seg th:eID="C17_app569-fThomas"/>
+    and one of the 
+        <seg th:sID="C17_app571-fThomas"/>
+        women
+        <seg th:eID="C17_app571-fThomas"/>
+               <seg th:sID="C17_app572-fThomas"/>
+        fainted.
+        <seg th:eID="C17_app572-fThomas"/>
+    The 
+        <seg th:sID="C17_app574-fThomas"/>
+        whole
+        <seg th:eID="C17_app574-fThomas"/>
+    village was 
+        <seg th:sID="C17_app576-fThomas"/>
+        roused;
+        <seg th:eID="C17_app576-fThomas"/>
+    some 
+        <seg th:sID="C17_app578-fThomas"/>
+        fled, some
+        <seg th:eID="C17_app578-fThomas"/>
+    at<pb xml:id="F1818_v2_047" n="043"/>tacked 
+        <seg th:sID="C17_app580-fThomas"/>
+        me, until,
+        <seg th:eID="C17_app580-fThomas"/>
+    grievously bruised by 
+        <seg th:sID="C17_app582-fThomas"/>
+        stones
+        <seg th:eID="C17_app582-fThomas"/>
+    and  
+        <seg th:sID="C17_app584-fThomas"/>
+        many other kinds of missile
+        <seg th:eID="C17_app584-fThomas"/>
+               <seg th:sID="C17_app585-fThomas"/>
+        weapons,
+        <seg th:eID="C17_app585-fThomas"/>
+    I escaped to the open 
+        <seg th:sID="C17_app587-fThomas"/>
+        country,
+        <seg th:eID="C17_app587-fThomas"/>
                <seg th:sID="C17_app588-fThomas"/>
-               <add ana="start" place="bottom"/>Night came on as I wandered with wild agitation among the hedges and fields that surrounded me; I felt chill, and darkness, which ever filled me with dread, seemed to press with double weight upon my blinded organs. I looked round for shelter <add ana="end"/> and<seg th:eID="C17_app588-fThomas"/>
-               <seg th:sID="C17_app589-fThomas"/>fearfully<seg th:eID="C17_app589-fThomas"/>took refuge in a low <seg th:sID="C17_app591-fThomas"/>hovel, quite bare,<seg th:eID="C17_app591-fThomas"/>and making a wretched appearance after the <seg th:sID="C17_app593-fThomas"/>palaces<seg th:eID="C17_app593-fThomas"/>I had beheld in the village. This <seg th:sID="C17_app595-fThomas"/>hovel, however, joined<seg th:eID="C17_app595-fThomas"/>a cottage of a neat and pleasant <seg th:sID="C17_app597-fThomas"/>appearance; but,<seg th:eID="C17_app597-fThomas"/>after my late <seg th:sID="C17_app599-fThomas"/>dearly-bought<seg th:eID="C17_app599-fThomas"/>
-               <seg th:sID="C17_app602-fThomas"/>experience,<seg th:eID="C17_app602-fThomas"/>I dared not enter it. My place of refuge <seg th:sID="C17_app604-fThomas"/>was constructed of wood,<seg th:eID="C17_app604-fThomas"/>
-               <seg th:sID="C17_app605-fThomas"/>but<seg th:eID="C17_app605-fThomas"/>so  <seg th:sID="C17_app607-fThomas"/>low,<seg th:eID="C17_app607-fThomas"/>that I could with difficulty sit upright in it. <seg th:sID="C17_app609-fThomas"/>No<seg th:eID="C17_app609-fThomas"/>
-               <seg th:sID="C17_app610-fThomas"/>wood, however,<seg th:eID="C17_app610-fThomas"/>was placed on the <seg th:sID="C17_app612-fThomas"/>earth,<seg th:eID="C17_app612-fThomas"/>which formed <seg th:sID="C17_app614-fThomas"/>the<seg th:eID="C17_app614-fThomas"/>
-               <seg th:sID="C17_app615-fThomas"/>floor,<seg th:eID="C17_app615-fThomas"/>but it was <seg th:sID="C17_app617-fThomas"/>dry;<seg th:eID="C17_app617-fThomas"/>and although the wind entered <seg th:sID="C17_app619-fThomas"/>it<seg th:eID="C17_app619-fThomas"/>by innumerable <seg th:sID="C17_app621-fThomas"/>chinks,<seg th:eID="C17_app621-fThomas"/>I found it an <seg th:sID="C17_app623-fThomas"/>agreeable asylum<seg th:eID="C17_app623-fThomas"/>from the snow <seg th:sID="C17_app625-fThomas__I" part="I"/>and rain. </p>
-            <p xml:id="novel1_letter4_chapter10_div4_div11_p11"> “Here then I retreated, and lay<seg th:eID="C17_app625-fThomas__F" part="F"/>
-               <seg th:sID="C17_app626-fThomas"/>down,<seg th:eID="C17_app626-fThomas"/>
-               <seg th:sID="C17_app627-fThomas"/>happy to have found a shelter, however miserable, from the inclemency <pb xml:id="F1818_v2_048" n="044"/>of the season,<seg th:eID="C17_app627-fThomas"/>and <seg th:sID="C17_app629-fThomas"/>still more from the barbarity of man.<seg th:eID="C17_app629-fThomas"/>
+               <add place="bottom">Night came on as I wandered with wild agitation among the hedges and fields that surrounded me; I felt chill, and darkness, which ever filled me with dread, seemed to press with double weight upon my blinded organs. I looked round for shelter </add> and
+        <seg th:eID="C17_app588-fThomas"/>
+               <seg th:sID="C17_app589-fThomas"/>
+        fearfully
+        <seg th:eID="C17_app589-fThomas"/>
+    took refuge in a low 
+        <seg th:sID="C17_app591-fThomas"/>
+        hovel, quite bare,
+        <seg th:eID="C17_app591-fThomas"/>
+    and making a wretched appearance after the 
+        <seg th:sID="C17_app593-fThomas"/>
+        palaces
+        <seg th:eID="C17_app593-fThomas"/>
+    I had beheld in the village. This 
+        <seg th:sID="C17_app595-fThomas"/>
+        hovel, however, joined
+        <seg th:eID="C17_app595-fThomas"/>
+    a cottage of a neat and pleasant 
+        <seg th:sID="C17_app597-fThomas"/>
+        appearance; but,
+        <seg th:eID="C17_app597-fThomas"/>
+    after my late 
+        <seg th:sID="C17_app599-fThomas"/>
+        dearly-bought
+        <seg th:eID="C17_app599-fThomas"/>
+               <seg th:sID="C17_app602-fThomas"/>
+        experience,
+        <seg th:eID="C17_app602-fThomas"/>
+    I dared not enter it. My place of refuge 
+        <seg th:sID="C17_app604-fThomas"/>
+        was constructed of wood,
+        <seg th:eID="C17_app604-fThomas"/>
+               <seg th:sID="C17_app605-fThomas"/>
+        but
+        <seg th:eID="C17_app605-fThomas"/>
+    so  
+        <seg th:sID="C17_app607-fThomas"/>
+        low,
+        <seg th:eID="C17_app607-fThomas"/>
+    that I could with difficulty sit upright in it. 
+        <seg th:sID="C17_app609-fThomas"/>
+        No
+        <seg th:eID="C17_app609-fThomas"/>
+               <seg th:sID="C17_app610-fThomas"/>
+        wood, however,
+        <seg th:eID="C17_app610-fThomas"/>
+    was placed on the 
+        <seg th:sID="C17_app612-fThomas"/>
+        earth,
+        <seg th:eID="C17_app612-fThomas"/>
+    which formed 
+        <seg th:sID="C17_app614-fThomas"/>
+        the
+        <seg th:eID="C17_app614-fThomas"/>
+               <seg th:sID="C17_app615-fThomas"/>
+        floor,
+        <seg th:eID="C17_app615-fThomas"/>
+    but it was 
+        <seg th:sID="C17_app617-fThomas"/>
+        dry;
+        <seg th:eID="C17_app617-fThomas"/>
+    and although the wind entered 
+        <seg th:sID="C17_app619-fThomas"/>
+        it
+        <seg th:eID="C17_app619-fThomas"/>
+    by innumerable 
+        <seg th:sID="C17_app621-fThomas"/>
+        chinks,
+        <seg th:eID="C17_app621-fThomas"/>
+    I found it an 
+        <seg th:sID="C17_app623-fThomas"/>
+        agreeable asylum
+        <seg th:eID="C17_app623-fThomas"/>
+    from the snow 
+        <seg th:sID="C17_app625-fThomas__I" part="I"/>
+        and rain. </p>
+            <p xml:id="novel1_letter4_chapter10_div4_div11_p11"> “Here then I retreated, and lay
+        <seg th:eID="C17_app625-fThomas__F" part="F"/>
+               <seg th:sID="C17_app626-fThomas"/>
+        down,
+        <seg th:eID="C17_app626-fThomas"/>
+               <seg th:sID="C17_app627-fThomas"/>
+        happy to have found a shelter, however miserable, from the inclemency <pb xml:id="F1818_v2_048" n="044"/>of the season,
+        <seg th:eID="C17_app627-fThomas"/>
+    and 
+        <seg th:sID="C17_app629-fThomas"/>
+        still more from the barbarity of man.
+        <seg th:eID="C17_app629-fThomas"/>
             </p>
             <p xml:id="novel1_letter4_chapter10_div4_div11_p12">
-               <seg th:sID="C17_app631-fThomas"/>“As<seg th:eID="C17_app631-fThomas"/>soon as morning <seg th:sID="C17_app633-fThomas"/>dawned,<seg th:eID="C17_app633-fThomas"/>I crept from my <seg th:sID="C17_app635-fThomas"/>kennel,<seg th:eID="C17_app635-fThomas"/>that I might view the adjacent <seg th:sID="C17_app637-fThomas"/>cottage,<seg th:eID="C17_app637-fThomas"/>and discover if I could remain in the <seg th:sID="C17_app639-fThomas"/>habitation<seg th:eID="C17_app639-fThomas"/>I had found. It was situated <seg th:sID="C17_app641-fThomas"/>against<seg th:eID="C17_app641-fThomas"/>the back of the  <seg th:sID="C17_app643-fThomas"/>cottage,<seg th:eID="C17_app643-fThomas"/>and <seg th:sID="C17_app645-fThomas"/>surrounded<seg th:eID="C17_app645-fThomas"/>on  <seg th:sID="C17_app647-fThomas"/>the<seg th:eID="C17_app647-fThomas"/>sides which were exposed by a  <seg th:sID="C17_app649-fThomas"/>pig-stye<seg th:eID="C17_app649-fThomas"/>and <seg th:sID="C17_app651-fThomas"/>a clear<seg th:eID="C17_app651-fThomas"/>
+               <seg th:sID="C17_app631-fThomas"/>
+        “As
+        <seg th:eID="C17_app631-fThomas"/>
+    soon as morning 
+        <seg th:sID="C17_app633-fThomas"/>
+        dawned,
+        <seg th:eID="C17_app633-fThomas"/>
+    I crept from my 
+        <seg th:sID="C17_app635-fThomas"/>
+        kennel,
+        <seg th:eID="C17_app635-fThomas"/>
+    that I might view the adjacent 
+        <seg th:sID="C17_app637-fThomas"/>
+        cottage,
+        <seg th:eID="C17_app637-fThomas"/>
+    and discover if I could remain in the 
+        <seg th:sID="C17_app639-fThomas"/>
+        habitation
+        <seg th:eID="C17_app639-fThomas"/>
+    I had found. It was situated 
+        <seg th:sID="C17_app641-fThomas"/>
+        against
+        <seg th:eID="C17_app641-fThomas"/>
+    the back of the  
+        <seg th:sID="C17_app643-fThomas"/>
+        cottage,
+        <seg th:eID="C17_app643-fThomas"/>
+    and 
+        <seg th:sID="C17_app645-fThomas"/>
+        surrounded
+        <seg th:eID="C17_app645-fThomas"/>
+    on  
+        <seg th:sID="C17_app647-fThomas"/>
+        the
+        <seg th:eID="C17_app647-fThomas"/>
+    sides which were exposed by a  
+        <seg th:sID="C17_app649-fThomas"/>
+        pig-stye
+        <seg th:eID="C17_app649-fThomas"/>
+    and 
+        <seg th:sID="C17_app651-fThomas"/>
+        a clear
+        <seg th:eID="C17_app651-fThomas"/>
                <seg th:sID="C17_app652-fThomas"/>
-               <del ana="start" rend="strikethrough"/>pool<del ana="end"/>
-               <add ana="start"/>rivulet<add ana="end"/>
-               <seg th:eID="C17_app652-fThomas"/>of <seg th:sID="C17_app654-fThomas"/>water.<seg th:eID="C17_app654-fThomas"/>One part was <seg th:sID="C17_app656-fThomas"/>open,<seg th:eID="C17_app656-fThomas"/>and by that I had crept <seg th:sID="C17_app658-fThomas"/>in;<seg th:eID="C17_app658-fThomas"/>but now <seg th:sID="C17_app660-fThomas"/>I<seg th:eID="C17_app660-fThomas"/>
-               <seg th:sID="C17_app661-fThomas"/>covered<seg th:eID="C17_app661-fThomas"/>every crevice <seg th:sID="C17_app663-fThomas"/>by which I might be<seg th:eID="C17_app663-fThomas"/>
-               <seg th:sID="C17_app664-fThomas"/>perceived with stones and wood,<seg th:eID="C17_app664-fThomas"/>yet in such a manner that I <seg th:sID="C17_app666-fThomas"/>might<seg th:eID="C17_app666-fThomas"/>move <seg th:sID="C17_app668-fThomas"/>them<seg th:eID="C17_app668-fThomas"/>on <seg th:sID="C17_app670-fThomas"/>occasion to pass<seg th:eID="C17_app670-fThomas"/>
-               <seg th:sID="C17_app671-fThomas"/>out:<seg th:eID="C17_app671-fThomas"/>all the light I enjoyed came through the <seg th:sID="C17_app673-fThomas"/>stye,<seg th:eID="C17_app673-fThomas"/>and that was <seg th:sID="C17_app675-fThomas"/>sufficient<seg th:eID="C17_app675-fThomas"/>for me. </p>
+               <del rend="strikethrough">pool</del>
+               <add>rivulet</add>
+               <seg th:eID="C17_app652-fThomas"/>
+    of 
+        <seg th:sID="C17_app654-fThomas"/>
+        water.
+        <seg th:eID="C17_app654-fThomas"/>
+    One part was 
+        <seg th:sID="C17_app656-fThomas"/>
+        open,
+        <seg th:eID="C17_app656-fThomas"/>
+    and by that I had crept 
+        <seg th:sID="C17_app658-fThomas"/>
+        in;
+        <seg th:eID="C17_app658-fThomas"/>
+    but now 
+        <seg th:sID="C17_app660-fThomas"/>
+        I
+        <seg th:eID="C17_app660-fThomas"/>
+               <seg th:sID="C17_app661-fThomas"/>
+        covered
+        <seg th:eID="C17_app661-fThomas"/>
+    every crevice 
+        <seg th:sID="C17_app663-fThomas"/>
+        by which I might be
+        <seg th:eID="C17_app663-fThomas"/>
+               <seg th:sID="C17_app664-fThomas"/>
+        perceived with stones and wood,
+        <seg th:eID="C17_app664-fThomas"/>
+    yet in such a manner that I 
+        <seg th:sID="C17_app666-fThomas"/>
+        might
+        <seg th:eID="C17_app666-fThomas"/>
+    move 
+        <seg th:sID="C17_app668-fThomas"/>
+        them
+        <seg th:eID="C17_app668-fThomas"/>
+    on 
+        <seg th:sID="C17_app670-fThomas"/>
+        occasion to pass
+        <seg th:eID="C17_app670-fThomas"/>
+               <seg th:sID="C17_app671-fThomas"/>
+        out:
+        <seg th:eID="C17_app671-fThomas"/>
+    all the light I enjoyed came through the 
+        <seg th:sID="C17_app673-fThomas"/>
+        stye,
+        <seg th:eID="C17_app673-fThomas"/>
+    and that was 
+        <seg th:sID="C17_app675-fThomas"/>
+        sufficient
+        <seg th:eID="C17_app675-fThomas"/>
+    for me. </p>
             <p xml:id="novel1_letter4_chapter10_div4_div11_p13">
-               <seg th:sID="C17_app677-fThomas"/>“Having<seg th:eID="C17_app677-fThomas"/>thus arranged my <seg th:sID="C17_app679-fThomas"/>dwelling,<seg th:eID="C17_app679-fThomas"/>and <seg th:sID="C17_app681-fThomas"/>carpeted it with clean straw, I<seg th:eID="C17_app681-fThomas"/>
-               <seg th:sID="C17_app682-fThomas"/>retired;<seg th:eID="C17_app682-fThomas"/>for I saw the figure of a man <seg th:sID="C17_app684-fThomas"/>at<seg th:eID="C17_app684-fThomas"/>a  <seg th:sID="C17_app686-fThomas"/>distance,<seg th:eID="C17_app686-fThomas"/>and I <seg th:sID="C17_app688-fThomas"/>remembered<seg th:eID="C17_app688-fThomas"/>
-               <seg th:sID="C17_app689-fThomas"/>too <pb xml:id="F1818_v2_049" n="045"/>well my treatment the night<seg th:eID="C17_app689-fThomas"/>
-               <seg th:sID="C17_app690-fThomas"/>before,<seg th:eID="C17_app690-fThomas"/>to trust myself in his power. I had <seg th:sID="C17_app692-fThomas"/>first, however,<seg th:eID="C17_app692-fThomas"/>provided for my sustenance for that <seg th:sID="C17_app694-fThomas"/>day,<seg th:eID="C17_app694-fThomas"/>by a loaf of <seg th:sID="C17_app696-fThomas"/>coarse<seg th:eID="C17_app696-fThomas"/>
-               <seg th:sID="C17_app697-fThomas"/>bread,<seg th:eID="C17_app697-fThomas"/>which I <seg th:sID="C17_app699-fThomas"/>purloined,<seg th:eID="C17_app699-fThomas"/>and a cup <seg th:sID="C17_app701-fThomas"/>with<seg th:eID="C17_app701-fThomas"/>which I could  <seg th:sID="C17_app703-fThomas"/>drink,<seg th:eID="C17_app703-fThomas"/>more conveniently than from my <seg th:sID="C17_app705-fThomas"/>hand,<seg th:eID="C17_app705-fThomas"/>of the pure water which  flowed by my  <seg th:sID="C17_app709-fThomas"/>retreat. The floor<seg th:eID="C17_app709-fThomas"/>was a little <seg th:sID="C17_app711-fThomas"/>raised,<seg th:eID="C17_app711-fThomas"/>so that it was kept  <seg th:sID="C17_app714-fThomas"/>perfectly<seg th:eID="C17_app714-fThomas"/>
-               <seg th:sID="C17_app715-fThomas"/>dry,<seg th:eID="C17_app715-fThomas"/>and by its vicinity to the chimney <seg th:sID="C17_app717-fThomas"/>of the cottage it was tolerably warm.<seg th:eID="C17_app717-fThomas"/>
+               <seg th:sID="C17_app677-fThomas"/>
+        “Having
+        <seg th:eID="C17_app677-fThomas"/>
+    thus arranged my 
+        <seg th:sID="C17_app679-fThomas"/>
+        dwelling,
+        <seg th:eID="C17_app679-fThomas"/>
+    and 
+        <seg th:sID="C17_app681-fThomas"/>
+        carpeted it with clean straw, I
+        <seg th:eID="C17_app681-fThomas"/>
+               <seg th:sID="C17_app682-fThomas"/>
+        retired;
+        <seg th:eID="C17_app682-fThomas"/>
+    for I saw the figure of a man 
+        <seg th:sID="C17_app684-fThomas"/>
+        at
+        <seg th:eID="C17_app684-fThomas"/>
+    a  
+        <seg th:sID="C17_app686-fThomas"/>
+        distance,
+        <seg th:eID="C17_app686-fThomas"/>
+    and I 
+        <seg th:sID="C17_app688-fThomas"/>
+        remembered
+        <seg th:eID="C17_app688-fThomas"/>
+               <seg th:sID="C17_app689-fThomas"/>
+        too <pb xml:id="F1818_v2_049" n="045"/>well my treatment the night
+        <seg th:eID="C17_app689-fThomas"/>
+               <seg th:sID="C17_app690-fThomas"/>
+        before,
+        <seg th:eID="C17_app690-fThomas"/>
+    to trust myself in his power. I had 
+        <seg th:sID="C17_app692-fThomas"/>
+        first, however,
+        <seg th:eID="C17_app692-fThomas"/>
+    provided for my sustenance for that 
+        <seg th:sID="C17_app694-fThomas"/>
+        day,
+        <seg th:eID="C17_app694-fThomas"/>
+    by a loaf of 
+        <seg th:sID="C17_app696-fThomas"/>
+        coarse
+        <seg th:eID="C17_app696-fThomas"/>
+               <seg th:sID="C17_app697-fThomas"/>
+        bread,
+        <seg th:eID="C17_app697-fThomas"/>
+    which I 
+        <seg th:sID="C17_app699-fThomas"/>
+        purloined,
+        <seg th:eID="C17_app699-fThomas"/>
+    and a cup 
+        <seg th:sID="C17_app701-fThomas"/>
+        with
+        <seg th:eID="C17_app701-fThomas"/>
+    which I could  
+        <seg th:sID="C17_app703-fThomas"/>
+        drink,
+        <seg th:eID="C17_app703-fThomas"/>
+    more conveniently than from my 
+        <seg th:sID="C17_app705-fThomas"/>
+        hand,
+        <seg th:eID="C17_app705-fThomas"/>
+    of the pure water which  flowed by my  
+        <seg th:sID="C17_app709-fThomas"/>
+        retreat. The floor
+        <seg th:eID="C17_app709-fThomas"/>
+    was a little 
+        <seg th:sID="C17_app711-fThomas"/>
+        raised,
+        <seg th:eID="C17_app711-fThomas"/>
+    so that it was kept  
+        <seg th:sID="C17_app714-fThomas"/>
+        perfectly
+        <seg th:eID="C17_app714-fThomas"/>
+               <seg th:sID="C17_app715-fThomas"/>
+        dry,
+        <seg th:eID="C17_app715-fThomas"/>
+    and by its vicinity to the chimney 
+        <seg th:sID="C17_app717-fThomas"/>
+        of the cottage it was tolerably warm.
+        <seg th:eID="C17_app717-fThomas"/>
                <seg th:sID="C17_app718-fThomas__I" part="I"/>
             </p>
-            <p xml:id="novel1_letter4_chapter10_div4_div11_p14"> “Being<seg th:eID="C17_app718-fThomas__F" part="F"/>thus <seg th:sID="C17_app720-fThomas"/>provided,<seg th:eID="C17_app720-fThomas"/>I <seg th:sID="C17_app722-fThomas"/>resolved<seg th:eID="C17_app722-fThomas"/>to reside in this <seg th:sID="C17_app724-fThomas"/>hovel, until<seg th:eID="C17_app724-fThomas"/>something should occur which might alter my determination. It was indeed a <seg th:sID="C17_app726-fThomas"/>paradise,<seg th:eID="C17_app726-fThomas"/>compared to the <seg th:sID="C17_app728-fThomas"/>bleak<seg th:eID="C17_app728-fThomas"/>forest, my former residence, <seg th:sID="C17_app730-fThomas"/>the<seg th:eID="C17_app730-fThomas"/>
-               <seg th:sID="C17_app731-fThomas"/>rain-dropping branches,<seg th:eID="C17_app731-fThomas"/>and <seg th:sID="C17_app733-fThomas"/>dank<seg th:eID="C17_app733-fThomas"/>
-               <seg th:sID="C17_app734-fThomas"/>earth.<seg th:eID="C17_app734-fThomas"/>I ate my breakfast with <seg th:sID="C17_app736-fThomas"/>pleasure,<seg th:eID="C17_app736-fThomas"/>and was about to remove a plank to procure myself a little <seg th:sID="C17_app738-fThomas"/>water,<seg th:eID="C17_app738-fThomas"/>when I heard a <seg th:sID="C17_app740-fThomas"/>step,<seg th:eID="C17_app740-fThomas"/>
-               <seg th:sID="C17_app741-fThomas"/>and,<seg th:eID="C17_app741-fThomas"/>looking <pb xml:id="F1818_v2_050" n="046"/>through a small <seg th:sID="C17_app743-fThomas"/>chink, I<seg th:eID="C17_app743-fThomas"/>beheld a young <seg th:sID="C17_app745-fThomas"/>creature,<seg th:eID="C17_app745-fThomas"/>with a pail on her <seg th:sID="C17_app747-fThomas"/>head,<seg th:eID="C17_app747-fThomas"/>passing before my hovel. The girl was <seg th:sID="C17_app749-fThomas"/>young<seg th:eID="C17_app749-fThomas"/>and of gentle <seg th:sID="C17_app751-fThomas"/>demeanour,<seg th:eID="C17_app751-fThomas"/>unlike what I have since found cottagers and <seg th:sID="C17_app753-fThomas"/>farm-house<seg th:eID="C17_app753-fThomas"/>servants to <seg th:sID="C17_app755-fThomas"/>be.<seg th:eID="C17_app755-fThomas"/>Yet she was <seg th:sID="C17_app757-fThomas"/>meanly dressed,<seg th:eID="C17_app757-fThomas"/>a <seg th:sID="C17_app759-fThomas"/>coarse<seg th:eID="C17_app759-fThomas"/>
-               <seg th:sID="C17_app760-fThomas"/>blue<seg th:eID="C17_app760-fThomas"/>petticoat and a linen jacket being her only  <seg th:sID="C17_app762-fThomas"/>garb;<seg th:eID="C17_app762-fThomas"/>her fair hair was <seg th:sID="C17_app764-fThomas"/>plaited,<seg th:eID="C17_app764-fThomas"/>but not adorned; she looked <seg th:sID="C17_app766-fThomas"/>patient,<seg th:eID="C17_app766-fThomas"/>yet sad. <seg th:sID="C17_app768-fThomas"/>I lost sight of her; and<seg th:eID="C17_app768-fThomas"/>in <seg th:sID="C17_app770-fThomas"/>about<seg th:eID="C17_app770-fThomas"/>a quarter of an hour <seg th:sID="C17_app772-fThomas"/>she<seg th:eID="C17_app772-fThomas"/>returned, <seg th:sID="C17_app774-fThomas"/>bearing the<seg th:eID="C17_app774-fThomas"/>
-               <seg th:sID="C17_app775-fThomas"/>pail,<seg th:eID="C17_app775-fThomas"/>which was now partly filled with milk. As she walked <seg th:sID="C17_app777-fThomas"/>along,<seg th:eID="C17_app777-fThomas"/>seemingly incommoded by the <seg th:sID="C17_app779-fThomas"/>burden,<seg th:eID="C17_app779-fThomas"/>a young man met <seg th:sID="C17_app781-fThomas"/>her,<seg th:eID="C17_app781-fThomas"/>whose countenance expressed a deeper <seg th:sID="C17_app783-fThomas"/>despondence.<seg th:eID="C17_app783-fThomas"/>Uttering a few <seg th:sID="C17_app785-fThomas"/>sounds<seg th:eID="C17_app785-fThomas"/>with  <seg th:sID="C17_app787-fThomas"/>an air of<seg th:eID="C17_app787-fThomas"/>
-               <seg th:sID="C17_app788-fThomas"/>melancholy,<seg th:eID="C17_app788-fThomas"/>he took the pail from her <seg th:sID="C17_app790-fThomas"/>head,<seg th:eID="C17_app790-fThomas"/>and bore it <seg th:sID="C17_app792-fThomas"/>to<seg th:eID="C17_app792-fThomas"/>the cottage himself. She <seg th:sID="C17_app794-fThomas"/>followed,<seg th:eID="C17_app794-fThomas"/>and they <seg th:sID="C17_app796-fThomas"/>disappeared.<seg th:eID="C17_app796-fThomas"/>Presently I saw the young <pb xml:id="F1818_v2_051" n="047"/>man <seg th:sID="C17_app798-fThomas"/>again,<seg th:eID="C17_app798-fThomas"/>with some tools in his <seg th:sID="C17_app800-fThomas"/>hand,<seg th:eID="C17_app800-fThomas"/>cross the field <seg th:sID="C17_app802-fThomas"/>behind<seg th:eID="C17_app802-fThomas"/>the <seg th:sID="C17_app804-fThomas"/>cottage;<seg th:eID="C17_app804-fThomas"/>and the girl was also <seg th:sID="C17_app806-fThomas"/>busied, sometimes<seg th:eID="C17_app806-fThomas"/>in <seg th:sID="C17_app808-fThomas"/>the<seg th:eID="C17_app808-fThomas"/>
-               <seg th:sID="C17_app809-fThomas"/>house,<seg th:eID="C17_app809-fThomas"/>and sometimes in the <seg th:sID="C17_app811-fThomas__I" part="I"/>yard. </p>
-            <p xml:id="novel1_letter4_chapter10_div4_div11_p15"> “On examining<seg th:eID="C17_app811-fThomas__F" part="F"/>my <seg th:sID="C17_app813-fThomas"/>dwelling,<seg th:eID="C17_app813-fThomas"/>I <seg th:sID="C17_app815-fThomas"/>found<seg th:eID="C17_app815-fThomas"/>that <seg th:sID="C17_app817-fThomas"/>one of the windows<seg th:eID="C17_app817-fThomas"/>of the cottage <seg th:sID="C17_app819-fThomas"/>had formerly occupied a<seg th:eID="C17_app819-fThomas"/>
-               <seg th:sID="C17_app820-fThomas"/>part<seg th:eID="C17_app820-fThomas"/>of <seg th:sID="C17_app822-fThomas"/>it,<seg th:eID="C17_app822-fThomas"/>but the panes had <seg th:sID="C17_app824-fThomas"/>been filled up with wood. In one of these was a small and<seg th:eID="C17_app824-fThomas"/>
-               <seg th:sID="C17_app825-fThomas"/>almost<seg th:eID="C17_app825-fThomas"/>imperceptible <seg th:sID="C17_app827-fThomas"/>chink, through which<seg th:eID="C17_app827-fThomas"/>
-               <seg th:sID="C17_app828-fThomas"/>the eye could just<seg th:eID="C17_app828-fThomas"/>
-               <seg th:sID="C17_app829-fThomas"/>penetrate. Through<seg th:eID="C17_app829-fThomas"/>this <seg th:sID="C17_app831-fThomas"/>crevice,<seg th:eID="C17_app831-fThomas"/>a small room was visible, <seg th:sID="C17_app833-fThomas"/>white-washed<seg th:eID="C17_app833-fThomas"/>
-               <seg th:sID="C17_app834-fThomas"/>and<seg th:eID="C17_app834-fThomas"/>
-               <seg th:sID="C17_app835-fThomas"/>clean,<seg th:eID="C17_app835-fThomas"/>but very bare of <seg th:sID="C17_app837-fThomas"/>furniture.<seg th:eID="C17_app837-fThomas"/>In <seg th:sID="C17_app839-fThomas"/>one<seg th:eID="C17_app839-fThomas"/>
-               <seg th:sID="C17_app840-fThomas"/>corner,<seg th:eID="C17_app840-fThomas"/>near a small <seg th:sID="C17_app842-fThomas"/>fire, sat<seg th:eID="C17_app842-fThomas"/>an old <seg th:sID="C17_app844-fThomas"/>man,<seg th:eID="C17_app844-fThomas"/>leaning his head on his <seg th:sID="C17_app846-fThomas"/>hands<seg th:eID="C17_app846-fThomas"/>in a <seg th:sID="C17_app848-fThomas"/>disconsolate attitude.<seg th:eID="C17_app848-fThomas"/>The young girl was <seg th:sID="C17_app850-fThomas"/>occupied in arranging the<seg th:eID="C17_app850-fThomas"/>
-               <seg th:sID="C17_app851-fThomas"/>cottage;<seg th:eID="C17_app851-fThomas"/>but presently <seg th:sID="C17_app853-fThomas"/>she took<seg th:eID="C17_app853-fThomas"/>
-               <seg th:sID="C17_app854-fThomas"/>something<seg th:eID="C17_app854-fThomas"/>out of <seg th:sID="C17_app856-fThomas"/>a<seg th:eID="C17_app856-fThomas"/>
-               <seg th:sID="C17_app857-fThomas"/>drawer,<seg th:eID="C17_app857-fThomas"/>which employed her <seg th:sID="C17_app859-fThomas"/>hands,<seg th:eID="C17_app859-fThomas"/>and <seg th:sID="C17_app861-fThomas"/>she<seg th:eID="C17_app861-fThomas"/>sat down beside <seg th:sID="C17_app863-fThomas"/>the old<seg th:eID="C17_app863-fThomas"/>
-               <seg th:sID="C17_app864-fThomas"/>man, who,<seg th:eID="C17_app864-fThomas"/>taking up an <seg th:sID="C17_app866-fThomas"/>instrument,<seg th:eID="C17_app866-fThomas"/>began <pb xml:id="F1818_v2_052" n="048"/>to <seg th:sID="C17_app868-fThomas"/>play,<seg th:eID="C17_app868-fThomas"/>and to produce <seg th:sID="C17_app870-fThomas"/>sounds,<seg th:eID="C17_app870-fThomas"/>sweeter than the voice of the thrush or <seg th:sID="C17_app872-fThomas"/>the<seg th:eID="C17_app872-fThomas"/>nightingale. <seg th:sID="C17_app874-fThomas"/>It was a lovely<seg th:eID="C17_app874-fThomas"/>
-               <seg th:sID="C17_app875-fThomas"/>sight,<seg th:eID="C17_app875-fThomas"/>even to <seg th:sID="C17_app877-fThomas"/>me,<seg th:eID="C17_app877-fThomas"/>poor <seg th:sID="C17_app879-fThomas"/>wretch!<seg th:eID="C17_app879-fThomas"/>who had never beheld aught beautiful before. <seg th:sID="C17_app881-fThomas"/>The<seg th:eID="C17_app881-fThomas"/>silver  <seg th:sID="C17_app883-fThomas"/>hair<seg th:eID="C17_app883-fThomas"/>and benevolent countenance <seg th:sID="C17_app885-fThomas"/>of<seg th:eID="C17_app885-fThomas"/>
-               <seg th:sID="C17_app886-fThomas"/>the<seg th:eID="C17_app886-fThomas"/>aged <seg th:sID="C17_app888-fThomas"/>cottager,<seg th:eID="C17_app888-fThomas"/>won my <seg th:sID="C17_app890-fThomas"/>reverence;<seg th:eID="C17_app890-fThomas"/>while <seg th:sID="C17_app892-fThomas"/>the<seg th:eID="C17_app892-fThomas"/>gentle manners of the girl enticed my love. He played a sweet mournful  <seg th:sID="C17_app894-fThomas"/>air,<seg th:eID="C17_app894-fThomas"/>which I <seg th:sID="C17_app896-fThomas"/>perceived<seg th:eID="C17_app896-fThomas"/>drew tears from the eyes of <seg th:sID="C17_app898-fThomas"/>his<seg th:eID="C17_app898-fThomas"/>
-               <seg th:sID="C17_app899-fThomas"/>amiable<seg th:eID="C17_app899-fThomas"/>
-               <seg th:sID="C17_app900-fThomas"/>companion,<seg th:eID="C17_app900-fThomas"/>of which the old man took <seg th:sID="C17_app902-fThomas"/>no<seg th:eID="C17_app902-fThomas"/>
-               <seg th:sID="C17_app903-fThomas"/>notice, until<seg th:eID="C17_app903-fThomas"/>she sobbed <seg th:sID="C17_app905-fThomas"/>audibly;<seg th:eID="C17_app905-fThomas"/>he <seg th:sID="C17_app907-fThomas"/>then pronounced a few<seg th:eID="C17_app907-fThomas"/>
-               <seg th:sID="C17_app908-fThomas"/>sounds,<seg th:eID="C17_app908-fThomas"/>and the <seg th:sID="C17_app910-fThomas"/>fair creature,<seg th:eID="C17_app910-fThomas"/>leaving her <seg th:sID="C17_app912-fThomas"/>work,<seg th:eID="C17_app912-fThomas"/>knelt at his <seg th:sID="C17_app914-fThomas"/>feet.<seg th:eID="C17_app914-fThomas"/>He <seg th:sID="C17_app916-fThomas"/>raised her,<seg th:eID="C17_app916-fThomas"/>and smiled with such <seg th:sID="C17_app918-fThomas"/>kindness<seg th:eID="C17_app918-fThomas"/>
-               <seg th:sID="C17_app919-fThomas"/>and affection,<seg th:eID="C17_app919-fThomas"/>that I felt <seg th:sID="C17_app921-fThomas"/>sensations of a peculiar and overpowering nature:<seg th:eID="C17_app921-fThomas"/>they were a <seg th:sID="C17_app923-fThomas"/>mixture of pain and<seg th:eID="C17_app923-fThomas"/>
-               <seg th:sID="C17_app924-fThomas"/>pleasure,<seg th:eID="C17_app924-fThomas"/>such as I had never <seg th:sID="C17_app926-fThomas"/>before experienced,<seg th:eID="C17_app926-fThomas"/>either from <seg th:sID="C17_app928-fThomas"/>hunger or cold,<seg th:eID="C17_app928-fThomas"/>
-               <seg th:sID="C17_app929-fThomas"/>warmth or<seg th:eID="C17_app929-fThomas"/>
-               <seg th:sID="C17_app930-fThomas"/>food;<seg th:eID="C17_app930-fThomas"/>and I <seg th:sID="C17_app932-fThomas"/>
-               <pb xml:id="F1818_v2_053" n="049"/>withdrew<seg th:eID="C17_app932-fThomas"/>from <seg th:sID="C17_app934-fThomas"/>the window,<seg th:eID="C17_app934-fThomas"/>unable <seg th:sID="C17_app936-fThomas"/>to bear<seg th:eID="C17_app936-fThomas"/>these <seg th:sID="C17_app938-fThomas"/>emotions.<seg th:eID="C17_app938-fThomas"/>
+            <p xml:id="novel1_letter4_chapter10_div4_div11_p14"> “Being
+        <seg th:eID="C17_app718-fThomas__F" part="F"/>
+    thus 
+        <seg th:sID="C17_app720-fThomas"/>
+        provided,
+        <seg th:eID="C17_app720-fThomas"/>
+    I 
+        <seg th:sID="C17_app722-fThomas"/>
+        resolved
+        <seg th:eID="C17_app722-fThomas"/>
+    to reside in this 
+        <seg th:sID="C17_app724-fThomas"/>
+        hovel, until
+        <seg th:eID="C17_app724-fThomas"/>
+    something should occur which might alter my determination. It was indeed a 
+        <seg th:sID="C17_app726-fThomas"/>
+        paradise,
+        <seg th:eID="C17_app726-fThomas"/>
+    compared to the 
+        <seg th:sID="C17_app728-fThomas"/>
+        bleak
+        <seg th:eID="C17_app728-fThomas"/>
+    forest, my former residence, 
+        <seg th:sID="C17_app730-fThomas"/>
+        the
+        <seg th:eID="C17_app730-fThomas"/>
+               <seg th:sID="C17_app731-fThomas"/>
+        rain-dropping branches,
+        <seg th:eID="C17_app731-fThomas"/>
+    and 
+        <seg th:sID="C17_app733-fThomas"/>
+        dank
+        <seg th:eID="C17_app733-fThomas"/>
+               <seg th:sID="C17_app734-fThomas"/>
+        earth.
+        <seg th:eID="C17_app734-fThomas"/>
+    I ate my breakfast with 
+        <seg th:sID="C17_app736-fThomas"/>
+        pleasure,
+        <seg th:eID="C17_app736-fThomas"/>
+    and was about to remove a plank to procure myself a little 
+        <seg th:sID="C17_app738-fThomas"/>
+        water,
+        <seg th:eID="C17_app738-fThomas"/>
+    when I heard a 
+        <seg th:sID="C17_app740-fThomas"/>
+        step,
+        <seg th:eID="C17_app740-fThomas"/>
+               <seg th:sID="C17_app741-fThomas"/>
+        and,
+        <seg th:eID="C17_app741-fThomas"/>
+    looking <pb xml:id="F1818_v2_050" n="046"/>through a small 
+        <seg th:sID="C17_app743-fThomas"/>
+        chink, I
+        <seg th:eID="C17_app743-fThomas"/>
+    beheld a young 
+        <seg th:sID="C17_app745-fThomas"/>
+        creature,
+        <seg th:eID="C17_app745-fThomas"/>
+    with a pail on her 
+        <seg th:sID="C17_app747-fThomas"/>
+        head,
+        <seg th:eID="C17_app747-fThomas"/>
+    passing before my hovel. The girl was 
+        <seg th:sID="C17_app749-fThomas"/>
+        young
+        <seg th:eID="C17_app749-fThomas"/>
+    and of gentle 
+        <seg th:sID="C17_app751-fThomas"/>
+        demeanour,
+        <seg th:eID="C17_app751-fThomas"/>
+    unlike what I have since found cottagers and 
+        <seg th:sID="C17_app753-fThomas"/>
+        farm-house
+        <seg th:eID="C17_app753-fThomas"/>
+    servants to 
+        <seg th:sID="C17_app755-fThomas"/>
+        be.
+        <seg th:eID="C17_app755-fThomas"/>
+    Yet she was 
+        <seg th:sID="C17_app757-fThomas"/>
+        meanly dressed,
+        <seg th:eID="C17_app757-fThomas"/>
+    a 
+        <seg th:sID="C17_app759-fThomas"/>
+        coarse
+        <seg th:eID="C17_app759-fThomas"/>
+               <seg th:sID="C17_app760-fThomas"/>
+        blue
+        <seg th:eID="C17_app760-fThomas"/>
+    petticoat and a linen jacket being her only  
+        <seg th:sID="C17_app762-fThomas"/>
+        garb;
+        <seg th:eID="C17_app762-fThomas"/>
+    her fair hair was 
+        <seg th:sID="C17_app764-fThomas"/>
+        plaited,
+        <seg th:eID="C17_app764-fThomas"/>
+    but not adorned; she looked 
+        <seg th:sID="C17_app766-fThomas"/>
+        patient,
+        <seg th:eID="C17_app766-fThomas"/>
+    yet sad. 
+        <seg th:sID="C17_app768-fThomas"/>
+        I lost sight of her; and
+        <seg th:eID="C17_app768-fThomas"/>
+    in 
+        <seg th:sID="C17_app770-fThomas"/>
+        about
+        <seg th:eID="C17_app770-fThomas"/>
+    a quarter of an hour 
+        <seg th:sID="C17_app772-fThomas"/>
+        she
+        <seg th:eID="C17_app772-fThomas"/>
+    returned, 
+        <seg th:sID="C17_app774-fThomas"/>
+        bearing the
+        <seg th:eID="C17_app774-fThomas"/>
+               <seg th:sID="C17_app775-fThomas"/>
+        pail,
+        <seg th:eID="C17_app775-fThomas"/>
+    which was now partly filled with milk. As she walked 
+        <seg th:sID="C17_app777-fThomas"/>
+        along,
+        <seg th:eID="C17_app777-fThomas"/>
+    seemingly incommoded by the 
+        <seg th:sID="C17_app779-fThomas"/>
+        burden,
+        <seg th:eID="C17_app779-fThomas"/>
+    a young man met 
+        <seg th:sID="C17_app781-fThomas"/>
+        her,
+        <seg th:eID="C17_app781-fThomas"/>
+    whose countenance expressed a deeper 
+        <seg th:sID="C17_app783-fThomas"/>
+        despondence.
+        <seg th:eID="C17_app783-fThomas"/>
+    Uttering a few 
+        <seg th:sID="C17_app785-fThomas"/>
+        sounds
+        <seg th:eID="C17_app785-fThomas"/>
+    with  
+        <seg th:sID="C17_app787-fThomas"/>
+        an air of
+        <seg th:eID="C17_app787-fThomas"/>
+               <seg th:sID="C17_app788-fThomas"/>
+        melancholy,
+        <seg th:eID="C17_app788-fThomas"/>
+    he took the pail from her 
+        <seg th:sID="C17_app790-fThomas"/>
+        head,
+        <seg th:eID="C17_app790-fThomas"/>
+    and bore it 
+        <seg th:sID="C17_app792-fThomas"/>
+        to
+        <seg th:eID="C17_app792-fThomas"/>
+    the cottage himself. She 
+        <seg th:sID="C17_app794-fThomas"/>
+        followed,
+        <seg th:eID="C17_app794-fThomas"/>
+    and they 
+        <seg th:sID="C17_app796-fThomas"/>
+        disappeared.
+        <seg th:eID="C17_app796-fThomas"/>
+    Presently I saw the young <pb xml:id="F1818_v2_051" n="047"/>man 
+        <seg th:sID="C17_app798-fThomas"/>
+        again,
+        <seg th:eID="C17_app798-fThomas"/>
+    with some tools in his 
+        <seg th:sID="C17_app800-fThomas"/>
+        hand,
+        <seg th:eID="C17_app800-fThomas"/>
+    cross the field 
+        <seg th:sID="C17_app802-fThomas"/>
+        behind
+        <seg th:eID="C17_app802-fThomas"/>
+    the 
+        <seg th:sID="C17_app804-fThomas"/>
+        cottage;
+        <seg th:eID="C17_app804-fThomas"/>
+    and the girl was also 
+        <seg th:sID="C17_app806-fThomas"/>
+        busied, sometimes
+        <seg th:eID="C17_app806-fThomas"/>
+    in 
+        <seg th:sID="C17_app808-fThomas"/>
+        the
+        <seg th:eID="C17_app808-fThomas"/>
+               <seg th:sID="C17_app809-fThomas"/>
+        house,
+        <seg th:eID="C17_app809-fThomas"/>
+    and sometimes in the 
+        <seg th:sID="C17_app811-fThomas__I" part="I"/>
+        yard. </p>
+            <p xml:id="novel1_letter4_chapter10_div4_div11_p15"> “On examining
+        <seg th:eID="C17_app811-fThomas__F" part="F"/>
+    my 
+        <seg th:sID="C17_app813-fThomas"/>
+        dwelling,
+        <seg th:eID="C17_app813-fThomas"/>
+    I 
+        <seg th:sID="C17_app815-fThomas"/>
+        found
+        <seg th:eID="C17_app815-fThomas"/>
+    that 
+        <seg th:sID="C17_app817-fThomas"/>
+        one of the windows
+        <seg th:eID="C17_app817-fThomas"/>
+    of the cottage 
+        <seg th:sID="C17_app819-fThomas"/>
+        had formerly occupied a
+        <seg th:eID="C17_app819-fThomas"/>
+               <seg th:sID="C17_app820-fThomas"/>
+        part
+        <seg th:eID="C17_app820-fThomas"/>
+    of 
+        <seg th:sID="C17_app822-fThomas"/>
+        it,
+        <seg th:eID="C17_app822-fThomas"/>
+    but the panes had 
+        <seg th:sID="C17_app824-fThomas"/>
+        been filled up with wood. In one of these was a small and
+        <seg th:eID="C17_app824-fThomas"/>
+               <seg th:sID="C17_app825-fThomas"/>
+        almost
+        <seg th:eID="C17_app825-fThomas"/>
+    imperceptible 
+        <seg th:sID="C17_app827-fThomas"/>
+        chink, through which
+        <seg th:eID="C17_app827-fThomas"/>
+               <seg th:sID="C17_app828-fThomas"/>
+        the eye could just
+        <seg th:eID="C17_app828-fThomas"/>
+               <seg th:sID="C17_app829-fThomas"/>
+        penetrate. Through
+        <seg th:eID="C17_app829-fThomas"/>
+    this 
+        <seg th:sID="C17_app831-fThomas"/>
+        crevice,
+        <seg th:eID="C17_app831-fThomas"/>
+    a small room was visible, 
+        <seg th:sID="C17_app833-fThomas"/>
+        white-washed
+        <seg th:eID="C17_app833-fThomas"/>
+               <seg th:sID="C17_app834-fThomas"/>
+        and
+        <seg th:eID="C17_app834-fThomas"/>
+               <seg th:sID="C17_app835-fThomas"/>
+        clean,
+        <seg th:eID="C17_app835-fThomas"/>
+    but very bare of 
+        <seg th:sID="C17_app837-fThomas"/>
+        furniture.
+        <seg th:eID="C17_app837-fThomas"/>
+    In 
+        <seg th:sID="C17_app839-fThomas"/>
+        one
+        <seg th:eID="C17_app839-fThomas"/>
+               <seg th:sID="C17_app840-fThomas"/>
+        corner,
+        <seg th:eID="C17_app840-fThomas"/>
+    near a small 
+        <seg th:sID="C17_app842-fThomas"/>
+        fire, sat
+        <seg th:eID="C17_app842-fThomas"/>
+    an old 
+        <seg th:sID="C17_app844-fThomas"/>
+        man,
+        <seg th:eID="C17_app844-fThomas"/>
+    leaning his head on his 
+        <seg th:sID="C17_app846-fThomas"/>
+        hands
+        <seg th:eID="C17_app846-fThomas"/>
+    in a 
+        <seg th:sID="C17_app848-fThomas"/>
+        disconsolate attitude.
+        <seg th:eID="C17_app848-fThomas"/>
+    The young girl was 
+        <seg th:sID="C17_app850-fThomas"/>
+        occupied in arranging the
+        <seg th:eID="C17_app850-fThomas"/>
+               <seg th:sID="C17_app851-fThomas"/>
+        cottage;
+        <seg th:eID="C17_app851-fThomas"/>
+    but presently 
+        <seg th:sID="C17_app853-fThomas"/>
+        she took
+        <seg th:eID="C17_app853-fThomas"/>
+               <seg th:sID="C17_app854-fThomas"/>
+        something
+        <seg th:eID="C17_app854-fThomas"/>
+    out of 
+        <seg th:sID="C17_app856-fThomas"/>
+        a
+        <seg th:eID="C17_app856-fThomas"/>
+               <seg th:sID="C17_app857-fThomas"/>
+        drawer,
+        <seg th:eID="C17_app857-fThomas"/>
+    which employed her 
+        <seg th:sID="C17_app859-fThomas"/>
+        hands,
+        <seg th:eID="C17_app859-fThomas"/>
+    and 
+        <seg th:sID="C17_app861-fThomas"/>
+        she
+        <seg th:eID="C17_app861-fThomas"/>
+    sat down beside 
+        <seg th:sID="C17_app863-fThomas"/>
+        the old
+        <seg th:eID="C17_app863-fThomas"/>
+               <seg th:sID="C17_app864-fThomas"/>
+        man, who,
+        <seg th:eID="C17_app864-fThomas"/>
+    taking up an 
+        <seg th:sID="C17_app866-fThomas"/>
+        instrument,
+        <seg th:eID="C17_app866-fThomas"/>
+    began <pb xml:id="F1818_v2_052" n="048"/>to 
+        <seg th:sID="C17_app868-fThomas"/>
+        play,
+        <seg th:eID="C17_app868-fThomas"/>
+    and to produce 
+        <seg th:sID="C17_app870-fThomas"/>
+        sounds,
+        <seg th:eID="C17_app870-fThomas"/>
+    sweeter than the voice of the thrush or 
+        <seg th:sID="C17_app872-fThomas"/>
+        the
+        <seg th:eID="C17_app872-fThomas"/>
+    nightingale. 
+        <seg th:sID="C17_app874-fThomas"/>
+        It was a lovely
+        <seg th:eID="C17_app874-fThomas"/>
+               <seg th:sID="C17_app875-fThomas"/>
+        sight,
+        <seg th:eID="C17_app875-fThomas"/>
+    even to 
+        <seg th:sID="C17_app877-fThomas"/>
+        me,
+        <seg th:eID="C17_app877-fThomas"/>
+    poor 
+        <seg th:sID="C17_app879-fThomas"/>
+        wretch!
+        <seg th:eID="C17_app879-fThomas"/>
+    who had never beheld aught beautiful before. 
+        <seg th:sID="C17_app881-fThomas"/>
+        The
+        <seg th:eID="C17_app881-fThomas"/>
+    silver  
+        <seg th:sID="C17_app883-fThomas"/>
+        hair
+        <seg th:eID="C17_app883-fThomas"/>
+    and benevolent countenance 
+        <seg th:sID="C17_app885-fThomas"/>
+        of
+        <seg th:eID="C17_app885-fThomas"/>
+               <seg th:sID="C17_app886-fThomas"/>
+        the
+        <seg th:eID="C17_app886-fThomas"/>
+    aged 
+        <seg th:sID="C17_app888-fThomas"/>
+        cottager,
+        <seg th:eID="C17_app888-fThomas"/>
+    won my 
+        <seg th:sID="C17_app890-fThomas"/>
+        reverence;
+        <seg th:eID="C17_app890-fThomas"/>
+    while 
+        <seg th:sID="C17_app892-fThomas"/>
+        the
+        <seg th:eID="C17_app892-fThomas"/>
+    gentle manners of the girl enticed my love. He played a sweet mournful  
+        <seg th:sID="C17_app894-fThomas"/>
+        air,
+        <seg th:eID="C17_app894-fThomas"/>
+    which I 
+        <seg th:sID="C17_app896-fThomas"/>
+        perceived
+        <seg th:eID="C17_app896-fThomas"/>
+    drew tears from the eyes of 
+        <seg th:sID="C17_app898-fThomas"/>
+        his
+        <seg th:eID="C17_app898-fThomas"/>
+               <seg th:sID="C17_app899-fThomas"/>
+        amiable
+        <seg th:eID="C17_app899-fThomas"/>
+               <seg th:sID="C17_app900-fThomas"/>
+        companion,
+        <seg th:eID="C17_app900-fThomas"/>
+    of which the old man took 
+        <seg th:sID="C17_app902-fThomas"/>
+        no
+        <seg th:eID="C17_app902-fThomas"/>
+               <seg th:sID="C17_app903-fThomas"/>
+        notice, until
+        <seg th:eID="C17_app903-fThomas"/>
+    she sobbed 
+        <seg th:sID="C17_app905-fThomas"/>
+        audibly;
+        <seg th:eID="C17_app905-fThomas"/>
+    he 
+        <seg th:sID="C17_app907-fThomas"/>
+        then pronounced a few
+        <seg th:eID="C17_app907-fThomas"/>
+               <seg th:sID="C17_app908-fThomas"/>
+        sounds,
+        <seg th:eID="C17_app908-fThomas"/>
+    and the 
+        <seg th:sID="C17_app910-fThomas"/>
+        fair creature,
+        <seg th:eID="C17_app910-fThomas"/>
+    leaving her 
+        <seg th:sID="C17_app912-fThomas"/>
+        work,
+        <seg th:eID="C17_app912-fThomas"/>
+    knelt at his 
+        <seg th:sID="C17_app914-fThomas"/>
+        feet.
+        <seg th:eID="C17_app914-fThomas"/>
+    He 
+        <seg th:sID="C17_app916-fThomas"/>
+        raised her,
+        <seg th:eID="C17_app916-fThomas"/>
+    and smiled with such 
+        <seg th:sID="C17_app918-fThomas"/>
+        kindness
+        <seg th:eID="C17_app918-fThomas"/>
+               <seg th:sID="C17_app919-fThomas"/>
+        and affection,
+        <seg th:eID="C17_app919-fThomas"/>
+    that I felt 
+        <seg th:sID="C17_app921-fThomas"/>
+        sensations of a peculiar and overpowering nature:
+        <seg th:eID="C17_app921-fThomas"/>
+    they were a 
+        <seg th:sID="C17_app923-fThomas"/>
+        mixture of pain and
+        <seg th:eID="C17_app923-fThomas"/>
+               <seg th:sID="C17_app924-fThomas"/>
+        pleasure,
+        <seg th:eID="C17_app924-fThomas"/>
+    such as I had never 
+        <seg th:sID="C17_app926-fThomas"/>
+        before experienced,
+        <seg th:eID="C17_app926-fThomas"/>
+    either from 
+        <seg th:sID="C17_app928-fThomas"/>
+        hunger or cold,
+        <seg th:eID="C17_app928-fThomas"/>
+               <seg th:sID="C17_app929-fThomas"/>
+        warmth or
+        <seg th:eID="C17_app929-fThomas"/>
+               <seg th:sID="C17_app930-fThomas"/>
+        food;
+        <seg th:eID="C17_app930-fThomas"/>
+    and I 
+        <seg th:sID="C17_app932-fThomas"/>
+               <pb xml:id="F1818_v2_053" n="049"/>withdrew
+        <seg th:eID="C17_app932-fThomas"/>
+    from 
+        <seg th:sID="C17_app934-fThomas"/>
+        the window,
+        <seg th:eID="C17_app934-fThomas"/>
+    unable 
+        <seg th:sID="C17_app936-fThomas"/>
+        to bear
+        <seg th:eID="C17_app936-fThomas"/>
+    these 
+        <seg th:sID="C17_app938-fThomas"/>
+        emotions.
+        <seg th:eID="C17_app938-fThomas"/>
             </p>
             <p xml:id="novel1_letter4_chapter10_div4_div11_p16">
-               <seg th:sID="C17_app940-fThomas"/>“Soon<seg th:eID="C17_app940-fThomas"/>after this the young man <seg th:sID="C17_app942-fThomas"/>returned,<seg th:eID="C17_app942-fThomas"/>bearing on his <seg th:sID="C17_app944-fThomas"/>shoulders<seg th:eID="C17_app944-fThomas"/>a <seg th:sID="C17_app946-fThomas"/>load of<seg th:eID="C17_app946-fThomas"/>
-               <seg th:sID="C17_app947-fThomas"/>wood.<seg th:eID="C17_app947-fThomas"/>The <seg th:sID="C17_app949-fThomas"/>girl met him at the<seg th:eID="C17_app949-fThomas"/>
-               <seg th:sID="C17_app950-fThomas"/>door,<seg th:eID="C17_app950-fThomas"/>helped to relieve him of his <seg th:sID="C17_app952-fThomas"/>burden, and,<seg th:eID="C17_app952-fThomas"/>taking some of <seg th:sID="C17_app954-fThomas"/>the fuel<seg th:eID="C17_app954-fThomas"/>into the <seg th:sID="C17_app956-fThomas"/>cottage,<seg th:eID="C17_app956-fThomas"/>placed it on the fire; <seg th:sID="C17_app958-fThomas"/>then she and the youth went apart into a<seg th:eID="C17_app958-fThomas"/>
-               <seg th:sID="C17_app959-fThomas"/>nook<seg th:eID="C17_app959-fThomas"/>of the  <seg th:sID="C17_app961-fThomas"/>cottage,<seg th:eID="C17_app961-fThomas"/>and he <seg th:sID="C17_app963-fThomas"/>shewed<seg th:eID="C17_app963-fThomas"/>her a large loaf and a piece of <seg th:sID="C17_app965-fThomas"/>cheese.<seg th:eID="C17_app965-fThomas"/>She seemed <seg th:sID="C17_app967-fThomas"/>pleased,<seg th:eID="C17_app967-fThomas"/>and went into the garden for <seg th:sID="C17_app969-fThomas"/>some<seg th:eID="C17_app969-fThomas"/>roots and <seg th:sID="C17_app971-fThomas"/>plants,<seg th:eID="C17_app971-fThomas"/>which she placed in <seg th:sID="C17_app973-fThomas"/>water,<seg th:eID="C17_app973-fThomas"/>and then upon the <seg th:sID="C17_app975-fThomas"/>fire.<seg th:eID="C17_app975-fThomas"/>She <seg th:sID="C17_app977-fThomas"/>afterwards<seg th:eID="C17_app977-fThomas"/>continued her  <seg th:sID="C17_app979-fThomas"/>work,<seg th:eID="C17_app979-fThomas"/>whilst the young man went into the <seg th:sID="C17_app981-fThomas"/>garden,<seg th:eID="C17_app981-fThomas"/>and appeared busily employed in digging and <seg th:sID="C17_app983-fThomas"/>pulling up<seg th:eID="C17_app983-fThomas"/>
-               <seg th:sID="C17_app984-fThomas"/>roots. After<seg th:eID="C17_app984-fThomas"/>he had been employed thus about <seg th:sID="C17_app986-fThomas"/>an<seg th:eID="C17_app986-fThomas"/>
-               <seg th:sID="C17_app987-fThomas"/>hour,<seg th:eID="C17_app987-fThomas"/>the young woman joined him, and they <seg th:sID="C17_app989-fThomas"/>entered<seg th:eID="C17_app989-fThomas"/>the cottage <seg th:sID="C17_app991-fThomas__I" part="I"/>together. </p>
-            <p xml:id="novel1_letter4_chapter10_div4_div11_p17"> “The<seg th:eID="C17_app991-fThomas__F" part="F"/>old man <seg th:sID="C17_app993-fThomas"/>had,<seg th:eID="C17_app993-fThomas"/>in the mean <seg th:sID="C17_app995-fThomas"/>time,<seg th:eID="C17_app995-fThomas"/>
-               <pb xml:id="F1818_v2_054" n="050"/>been <seg th:sID="C17_app997-fThomas"/>pensive; but,<seg th:eID="C17_app997-fThomas"/>on the <seg th:sID="C17_app999-fThomas"/>appearance<seg th:eID="C17_app999-fThomas"/>of <seg th:sID="C17_app1001-fThomas"/>his<seg th:eID="C17_app1001-fThomas"/>
-               <seg th:sID="C17_app1002-fThomas"/>companions,<seg th:eID="C17_app1002-fThomas"/>he assumed a <seg th:sID="C17_app1004-fThomas"/>more<seg th:eID="C17_app1004-fThomas"/>cheerful air, and they sat down to eat.  <seg th:sID="C17_app1006-fThomas"/>The<seg th:eID="C17_app1006-fThomas"/>
-               <seg th:sID="C17_app1007-fThomas"/>meal<seg th:eID="C17_app1007-fThomas"/>
-               <seg th:sID="C17_app1008-fThomas"/>was quickly<seg th:eID="C17_app1008-fThomas"/>
-               <seg th:sID="C17_app1009-fThomas"/>dispatched.<seg th:eID="C17_app1009-fThomas"/>The young woman was again occupied in arranging the <seg th:sID="C17_app1011-fThomas"/>cottage;<seg th:eID="C17_app1011-fThomas"/>the old man walked before the <seg th:sID="C17_app1013-fThomas"/>cottage<seg th:eID="C17_app1013-fThomas"/>in the sun for a few  <seg th:sID="C17_app1016-fThomas"/>minutes,<seg th:eID="C17_app1016-fThomas"/>leaning on the arm of the <seg th:sID="C17_app1018-fThomas"/>youth.<seg th:eID="C17_app1018-fThomas"/>Nothing could exceed in beauty the contrast between these two <seg th:sID="C17_app1020-fThomas"/>excellent<seg th:eID="C17_app1020-fThomas"/>
-               <seg th:sID="C17_app1021-fThomas"/>creatures.<seg th:eID="C17_app1021-fThomas"/>One was old, with silver hairs and a countenance beaming with <seg th:sID="C17_app1023-fThomas"/>benevolence<seg th:eID="C17_app1023-fThomas"/>and <seg th:sID="C17_app1025-fThomas"/>love:<seg th:eID="C17_app1025-fThomas"/>the younger was <seg th:sID="C17_app1027-fThomas"/>slight<seg th:eID="C17_app1027-fThomas"/>and graceful in his <seg th:sID="C17_app1029-fThomas"/>figure,<seg th:eID="C17_app1029-fThomas"/>and his <seg th:sID="C17_app1031-fThomas"/>features<seg th:eID="C17_app1031-fThomas"/>were moulded with the finest <seg th:sID="C17_app1033-fThomas"/>symmetry;<seg th:eID="C17_app1033-fThomas"/>yet his eyes and attitude expressed the utmost sadness and <seg th:sID="C17_app1035-fThomas"/>despondency.<seg th:eID="C17_app1035-fThomas"/>The old man returned to the cottage; and the <seg th:sID="C17_app1037-fThomas"/>youth,<seg th:eID="C17_app1037-fThomas"/>with tools different from those <seg th:sID="C17_app1039-fThomas"/>he had used in the morning, directed his steps across the<seg th:eID="C17_app1039-fThomas"/>
-               <seg th:sID="C17_app1040-fThomas__I" part="I"/>fields. </p>
+               <seg th:sID="C17_app940-fThomas"/>
+        “Soon
+        <seg th:eID="C17_app940-fThomas"/>
+    after this the young man 
+        <seg th:sID="C17_app942-fThomas"/>
+        returned,
+        <seg th:eID="C17_app942-fThomas"/>
+    bearing on his 
+        <seg th:sID="C17_app944-fThomas"/>
+        shoulders
+        <seg th:eID="C17_app944-fThomas"/>
+    a 
+        <seg th:sID="C17_app946-fThomas"/>
+        load of
+        <seg th:eID="C17_app946-fThomas"/>
+               <seg th:sID="C17_app947-fThomas"/>
+        wood.
+        <seg th:eID="C17_app947-fThomas"/>
+    The 
+        <seg th:sID="C17_app949-fThomas"/>
+        girl met him at the
+        <seg th:eID="C17_app949-fThomas"/>
+               <seg th:sID="C17_app950-fThomas"/>
+        door,
+        <seg th:eID="C17_app950-fThomas"/>
+    helped to relieve him of his 
+        <seg th:sID="C17_app952-fThomas"/>
+        burden, and,
+        <seg th:eID="C17_app952-fThomas"/>
+    taking some of 
+        <seg th:sID="C17_app954-fThomas"/>
+        the fuel
+        <seg th:eID="C17_app954-fThomas"/>
+    into the 
+        <seg th:sID="C17_app956-fThomas"/>
+        cottage,
+        <seg th:eID="C17_app956-fThomas"/>
+    placed it on the fire; 
+        <seg th:sID="C17_app958-fThomas"/>
+        then she and the youth went apart into a
+        <seg th:eID="C17_app958-fThomas"/>
+               <seg th:sID="C17_app959-fThomas"/>
+        nook
+        <seg th:eID="C17_app959-fThomas"/>
+    of the  
+        <seg th:sID="C17_app961-fThomas"/>
+        cottage,
+        <seg th:eID="C17_app961-fThomas"/>
+    and he 
+        <seg th:sID="C17_app963-fThomas"/>
+        shewed
+        <seg th:eID="C17_app963-fThomas"/>
+    her a large loaf and a piece of 
+        <seg th:sID="C17_app965-fThomas"/>
+        cheese.
+        <seg th:eID="C17_app965-fThomas"/>
+    She seemed 
+        <seg th:sID="C17_app967-fThomas"/>
+        pleased,
+        <seg th:eID="C17_app967-fThomas"/>
+    and went into the garden for 
+        <seg th:sID="C17_app969-fThomas"/>
+        some
+        <seg th:eID="C17_app969-fThomas"/>
+    roots and 
+        <seg th:sID="C17_app971-fThomas"/>
+        plants,
+        <seg th:eID="C17_app971-fThomas"/>
+    which she placed in 
+        <seg th:sID="C17_app973-fThomas"/>
+        water,
+        <seg th:eID="C17_app973-fThomas"/>
+    and then upon the 
+        <seg th:sID="C17_app975-fThomas"/>
+        fire.
+        <seg th:eID="C17_app975-fThomas"/>
+    She 
+        <seg th:sID="C17_app977-fThomas"/>
+        afterwards
+        <seg th:eID="C17_app977-fThomas"/>
+    continued her  
+        <seg th:sID="C17_app979-fThomas"/>
+        work,
+        <seg th:eID="C17_app979-fThomas"/>
+    whilst the young man went into the 
+        <seg th:sID="C17_app981-fThomas"/>
+        garden,
+        <seg th:eID="C17_app981-fThomas"/>
+    and appeared busily employed in digging and 
+        <seg th:sID="C17_app983-fThomas"/>
+        pulling up
+        <seg th:eID="C17_app983-fThomas"/>
+               <seg th:sID="C17_app984-fThomas"/>
+        roots. After
+        <seg th:eID="C17_app984-fThomas"/>
+    he had been employed thus about 
+        <seg th:sID="C17_app986-fThomas"/>
+        an
+        <seg th:eID="C17_app986-fThomas"/>
+               <seg th:sID="C17_app987-fThomas"/>
+        hour,
+        <seg th:eID="C17_app987-fThomas"/>
+    the young woman joined him, and they 
+        <seg th:sID="C17_app989-fThomas"/>
+        entered
+        <seg th:eID="C17_app989-fThomas"/>
+    the cottage 
+        <seg th:sID="C17_app991-fThomas__I" part="I"/>
+        together. </p>
+            <p xml:id="novel1_letter4_chapter10_div4_div11_p17"> “The
+        <seg th:eID="C17_app991-fThomas__F" part="F"/>
+    old man 
+        <seg th:sID="C17_app993-fThomas"/>
+        had,
+        <seg th:eID="C17_app993-fThomas"/>
+    in the mean 
+        <seg th:sID="C17_app995-fThomas"/>
+        time,
+        <seg th:eID="C17_app995-fThomas"/>
+               <pb xml:id="F1818_v2_054" n="050"/>been 
+        <seg th:sID="C17_app997-fThomas"/>
+        pensive; but,
+        <seg th:eID="C17_app997-fThomas"/>
+    on the 
+        <seg th:sID="C17_app999-fThomas"/>
+        appearance
+        <seg th:eID="C17_app999-fThomas"/>
+    of 
+        <seg th:sID="C17_app1001-fThomas"/>
+        his
+        <seg th:eID="C17_app1001-fThomas"/>
+               <seg th:sID="C17_app1002-fThomas"/>
+        companions,
+        <seg th:eID="C17_app1002-fThomas"/>
+    he assumed a 
+        <seg th:sID="C17_app1004-fThomas"/>
+        more
+        <seg th:eID="C17_app1004-fThomas"/>
+    cheerful air, and they sat down to eat.  
+        <seg th:sID="C17_app1006-fThomas"/>
+        The
+        <seg th:eID="C17_app1006-fThomas"/>
+               <seg th:sID="C17_app1007-fThomas"/>
+        meal
+        <seg th:eID="C17_app1007-fThomas"/>
+               <seg th:sID="C17_app1008-fThomas"/>
+        was quickly
+        <seg th:eID="C17_app1008-fThomas"/>
+               <seg th:sID="C17_app1009-fThomas"/>
+        dispatched.
+        <seg th:eID="C17_app1009-fThomas"/>
+    The young woman was again occupied in arranging the 
+        <seg th:sID="C17_app1011-fThomas"/>
+        cottage;
+        <seg th:eID="C17_app1011-fThomas"/>
+    the old man walked before the 
+        <seg th:sID="C17_app1013-fThomas"/>
+        cottage
+        <seg th:eID="C17_app1013-fThomas"/>
+    in the sun for a few  
+        <seg th:sID="C17_app1016-fThomas"/>
+        minutes,
+        <seg th:eID="C17_app1016-fThomas"/>
+    leaning on the arm of the 
+        <seg th:sID="C17_app1018-fThomas"/>
+        youth.
+        <seg th:eID="C17_app1018-fThomas"/>
+    Nothing could exceed in beauty the contrast between these two 
+        <seg th:sID="C17_app1020-fThomas"/>
+        excellent
+        <seg th:eID="C17_app1020-fThomas"/>
+               <seg th:sID="C17_app1021-fThomas"/>
+        creatures.
+        <seg th:eID="C17_app1021-fThomas"/>
+    One was old, with silver hairs and a countenance beaming with 
+        <seg th:sID="C17_app1023-fThomas"/>
+        benevolence
+        <seg th:eID="C17_app1023-fThomas"/>
+    and 
+        <seg th:sID="C17_app1025-fThomas"/>
+        love:
+        <seg th:eID="C17_app1025-fThomas"/>
+    the younger was 
+        <seg th:sID="C17_app1027-fThomas"/>
+        slight
+        <seg th:eID="C17_app1027-fThomas"/>
+    and graceful in his 
+        <seg th:sID="C17_app1029-fThomas"/>
+        figure,
+        <seg th:eID="C17_app1029-fThomas"/>
+    and his 
+        <seg th:sID="C17_app1031-fThomas"/>
+        features
+        <seg th:eID="C17_app1031-fThomas"/>
+    were moulded with the finest 
+        <seg th:sID="C17_app1033-fThomas"/>
+        symmetry;
+        <seg th:eID="C17_app1033-fThomas"/>
+    yet his eyes and attitude expressed the utmost sadness and 
+        <seg th:sID="C17_app1035-fThomas"/>
+        despondency.
+        <seg th:eID="C17_app1035-fThomas"/>
+    The old man returned to the cottage; and the 
+        <seg th:sID="C17_app1037-fThomas"/>
+        youth,
+        <seg th:eID="C17_app1037-fThomas"/>
+    with tools different from those 
+        <seg th:sID="C17_app1039-fThomas"/>
+        he had used in the morning, directed his steps across the
+        <seg th:eID="C17_app1039-fThomas"/>
+               <seg th:sID="C17_app1040-fThomas__I" part="I"/>
+        fields. </p>
             <p xml:id="novel1_letter4_chapter10_div4_div11_p18">
-               <pb xml:id="F1818_v2_055" n="051"/>“Night<seg th:eID="C17_app1040-fThomas__F" part="F"/>quickly shut <seg th:sID="C17_app1042-fThomas"/>in; but,<seg th:eID="C17_app1042-fThomas"/>to my extreme <seg th:sID="C17_app1044-fThomas"/>wonder,<seg th:eID="C17_app1044-fThomas"/>I found that the cottagers had a means of prolonging <seg th:sID="C17_app1046-fThomas"/>light,<seg th:eID="C17_app1046-fThomas"/>by the use of <seg th:sID="C17_app1048-fThomas"/>tapers,<seg th:eID="C17_app1048-fThomas"/>and was <seg th:sID="C17_app1050-fThomas"/>delighted<seg th:eID="C17_app1050-fThomas"/>to <seg th:sID="C17_app1052-fThomas"/>find,<seg th:eID="C17_app1052-fThomas"/>that <seg th:sID="C17_app1054-fThomas"/>the<seg th:eID="C17_app1054-fThomas"/>setting of the sun did not put an end <seg th:sID="C17_app1056-fThomas"/>to the pleasure I experienced in watching<seg th:eID="C17_app1056-fThomas"/>
-               <seg th:sID="C17_app1057-fThomas"/>my human<seg th:eID="C17_app1057-fThomas"/>
-               <seg th:sID="C17_app1058-fThomas"/>neighbours. In<seg th:eID="C17_app1058-fThomas"/>the <seg th:sID="C17_app1060-fThomas"/>evening,<seg th:eID="C17_app1060-fThomas"/>the young girl and her companion were employed in various <seg th:sID="C17_app1062-fThomas"/>occupations<seg th:eID="C17_app1062-fThomas"/>which I did not  <seg th:sID="C17_app1065-fThomas"/>understand;<seg th:eID="C17_app1065-fThomas"/>and the old man again took <seg th:sID="C17_app1067-fThomas"/>up the instrument,<seg th:eID="C17_app1067-fThomas"/>which produced <seg th:sID="C17_app1069-fThomas"/>the<seg th:eID="C17_app1069-fThomas"/>divine sounds that had enchanted me in the morning. <seg th:sID="C17_app1071-fThomas"/>So soon as<seg th:eID="C17_app1071-fThomas"/>he had  <seg th:sID="C17_app1073-fThomas"/>finished,<seg th:eID="C17_app1073-fThomas"/>the youth <seg th:sID="C17_app1075-fThomas"/>began,<seg th:eID="C17_app1075-fThomas"/>not to <seg th:sID="C17_app1077-fThomas"/>play,<seg th:eID="C17_app1077-fThomas"/>but <seg th:sID="C17_app1079-fThomas"/>to<seg th:eID="C17_app1079-fThomas"/>utter  <seg th:sID="C17_app1081-fThomas"/>sounds<seg th:eID="C17_app1081-fThomas"/>
-               <seg th:sID="C17_app1082-fThomas"/>that<seg th:eID="C17_app1082-fThomas"/>were <seg th:sID="C17_app1084-fThomas"/>monotonous,<seg th:eID="C17_app1084-fThomas"/>and <seg th:sID="C17_app1086-fThomas"/>neither resembling<seg th:eID="C17_app1086-fThomas"/>the harmony of the old  <seg th:sID="C17_app1088-fThomas"/>man’s<seg th:eID="C17_app1088-fThomas"/>instrument <seg th:sID="C17_app1090-fThomas"/>or<seg th:eID="C17_app1090-fThomas"/>the songs of the <seg th:sID="C17_app1092-fThomas"/>birds;<seg th:eID="C17_app1092-fThomas"/>I since found that he read <seg th:sID="C17_app1094-fThomas"/>aloud,<seg th:eID="C17_app1094-fThomas"/>but at that time I knew nothing of the science of words or letters.  <seg th:sID="C17_app1097-fThomas"/>
-               <add ana="start"/>I continued however to watch the countenances of the Cottagers and the changes I perceived were at once the excitements and the aliments of a boundless curiosity.<add ana="end"/>
+               <pb xml:id="F1818_v2_055" n="051"/>“Night
+        <seg th:eID="C17_app1040-fThomas__F" part="F"/>
+    quickly shut 
+        <seg th:sID="C17_app1042-fThomas"/>
+        in; but,
+        <seg th:eID="C17_app1042-fThomas"/>
+    to my extreme 
+        <seg th:sID="C17_app1044-fThomas"/>
+        wonder,
+        <seg th:eID="C17_app1044-fThomas"/>
+    I found that the cottagers had a means of prolonging 
+        <seg th:sID="C17_app1046-fThomas"/>
+        light,
+        <seg th:eID="C17_app1046-fThomas"/>
+    by the use of 
+        <seg th:sID="C17_app1048-fThomas"/>
+        tapers,
+        <seg th:eID="C17_app1048-fThomas"/>
+    and was 
+        <seg th:sID="C17_app1050-fThomas"/>
+        delighted
+        <seg th:eID="C17_app1050-fThomas"/>
+    to 
+        <seg th:sID="C17_app1052-fThomas"/>
+        find,
+        <seg th:eID="C17_app1052-fThomas"/>
+    that 
+        <seg th:sID="C17_app1054-fThomas"/>
+        the
+        <seg th:eID="C17_app1054-fThomas"/>
+    setting of the sun did not put an end 
+        <seg th:sID="C17_app1056-fThomas"/>
+        to the pleasure I experienced in watching
+        <seg th:eID="C17_app1056-fThomas"/>
+               <seg th:sID="C17_app1057-fThomas"/>
+        my human
+        <seg th:eID="C17_app1057-fThomas"/>
+               <seg th:sID="C17_app1058-fThomas"/>
+        neighbours. In
+        <seg th:eID="C17_app1058-fThomas"/>
+    the 
+        <seg th:sID="C17_app1060-fThomas"/>
+        evening,
+        <seg th:eID="C17_app1060-fThomas"/>
+    the young girl and her companion were employed in various 
+        <seg th:sID="C17_app1062-fThomas"/>
+        occupations
+        <seg th:eID="C17_app1062-fThomas"/>
+    which I did not  
+        <seg th:sID="C17_app1065-fThomas"/>
+        understand;
+        <seg th:eID="C17_app1065-fThomas"/>
+    and the old man again took 
+        <seg th:sID="C17_app1067-fThomas"/>
+        up the instrument,
+        <seg th:eID="C17_app1067-fThomas"/>
+    which produced 
+        <seg th:sID="C17_app1069-fThomas"/>
+        the
+        <seg th:eID="C17_app1069-fThomas"/>
+    divine sounds that had enchanted me in the morning. 
+        <seg th:sID="C17_app1071-fThomas"/>
+        So soon as
+        <seg th:eID="C17_app1071-fThomas"/>
+    he had  
+        <seg th:sID="C17_app1073-fThomas"/>
+        finished,
+        <seg th:eID="C17_app1073-fThomas"/>
+    the youth 
+        <seg th:sID="C17_app1075-fThomas"/>
+        began,
+        <seg th:eID="C17_app1075-fThomas"/>
+    not to 
+        <seg th:sID="C17_app1077-fThomas"/>
+        play,
+        <seg th:eID="C17_app1077-fThomas"/>
+    but 
+        <seg th:sID="C17_app1079-fThomas"/>
+        to
+        <seg th:eID="C17_app1079-fThomas"/>
+    utter  
+        <seg th:sID="C17_app1081-fThomas"/>
+        sounds
+        <seg th:eID="C17_app1081-fThomas"/>
+               <seg th:sID="C17_app1082-fThomas"/>
+        that
+        <seg th:eID="C17_app1082-fThomas"/>
+    were 
+        <seg th:sID="C17_app1084-fThomas"/>
+        monotonous,
+        <seg th:eID="C17_app1084-fThomas"/>
+    and 
+        <seg th:sID="C17_app1086-fThomas"/>
+        neither resembling
+        <seg th:eID="C17_app1086-fThomas"/>
+    the harmony of the old  
+        <seg th:sID="C17_app1088-fThomas"/>
+        man’s
+        <seg th:eID="C17_app1088-fThomas"/>
+    instrument 
+        <seg th:sID="C17_app1090-fThomas"/>
+        or
+        <seg th:eID="C17_app1090-fThomas"/>
+    the songs of the 
+        <seg th:sID="C17_app1092-fThomas"/>
+        birds;
+        <seg th:eID="C17_app1092-fThomas"/>
+    I since found that he read 
+        <seg th:sID="C17_app1094-fThomas"/>
+        aloud,
+        <seg th:eID="C17_app1094-fThomas"/>
+    but at that time I knew nothing of the science of words or letters.  
+        <seg th:sID="C17_app1097-fThomas"/>
+               <add>I continued however to watch the countenances of the Cottagers and the changes I perceived were at once the excitements and the aliments of a boundless curiosity.</add>
                <seg th:eID="C17_app1097-fThomas"/>
                <seg th:sID="C17_app1098-fThomas__I" part="I"/>
             </p>
             <p xml:id="novel1_letter4_chapter10_div4_div11_p19">
-               <pb xml:id="F1818_v2_056" n="052"/>“The family, after having been thus occupied for a short time,<seg th:eID="C17_app1098-fThomas__F" part="F"/>extinguished their <seg th:sID="C17_app1100-fThomas"/>lights,<seg th:eID="C17_app1100-fThomas"/>and retired, as I conjectured, to <seg th:sID="C17_app1102-fThomas__I" part="I"/>rest. </p>
+               <pb xml:id="F1818_v2_056" n="052"/>“The family, after having been thus occupied for a short time,
+        <seg th:eID="C17_app1098-fThomas__F" part="F"/>
+    extinguished their 
+        <seg th:sID="C17_app1100-fThomas"/>
+        lights,
+        <seg th:eID="C17_app1100-fThomas"/>
+    and retired, as I conjectured, to 
+        <seg th:sID="C17_app1102-fThomas__I" part="I"/>
+        rest. </p>
             <seg th:eID="C17_app1102-fThomas__F" part="F"/>
             <seg th:sID="C17_app1103-fThomas"/>
             <milestone unit="chapter" type="end" n="10"/>

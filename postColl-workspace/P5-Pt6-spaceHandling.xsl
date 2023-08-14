@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xpath-default-namespace="http://www.tei-c.org/ns/1.0"
+  xmlns="http://www.tei-c.org/ns/1.0"
   xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse" exclude-result-prefixes="xs th"
+  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse" exclude-result-prefixes="xs"
   version="3.0">
-  <!-- 2023-07-10 ebb: OLD ISSUE? Possibly unnecessary now: Do we really need to add a tei: prefixed namespace in addition to the default namespace?
-    If we do, it may be to our output variorum edition files to support use of xml pointers in the Variorum edition, 
-  so we are still adding it. It does not cause any harm. It means that we can refer to TEI elements as either `seg` or `tei:seg` when we write XSLT to match them in the
-  source files. -->
+  
   <!-- ebb: Run this with Saxon at command line to raise paired seg markers, using:
     java -jar saxon.jar -s:P5-Pt5-output/ -xsl:P5-Pt6spaceHandling.xsl -o:P5-Pt6-output/ 
     -->
@@ -24,7 +22,7 @@
 
       <xsl:result-document method="xml" indent="yes" href="P5-Pt6-output/{$filename}">
         <xsl:processing-instruction name="xml-model">href="../segMarkerTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:processing-instruction>
-        <TEI xmlns="http://www.tei-c.org/ns/1.0"                 xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein" xmlns:mith="http://mith.umd.edu/sc/ns1#"  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
+        <TEI>
           <xsl:copy-of select="descendant::teiHeader" copy-namespaces="no"/>
           <text>
             <body>  

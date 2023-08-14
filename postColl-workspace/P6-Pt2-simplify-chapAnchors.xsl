@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-  xpath-default-namespace="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
-  xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-  xmlns:var="https://frankensteinvariorum.github.io" exclude-result-prefixes="xs" version="3.0">
+  xpath-default-namespace="http://www.tei-c.org/ns/1.0" 
+  xmlns="http://www.tei-c.org/ns/1.0"
+  xmlns:tei="http://www.tei-c.org/ns/1.0"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+  xmlns:fv="https://frankensteinvariorum.github.io" 
+
+  version="3.0">
   <!--2023-06-14 ebb: In order to convert the collated edition files into something we can cut into chapters and letters, we will:
     1. flatten their TEI Corpus structures into a single TEI file, and 
     2. Raise chapter / semantic unit anchor elements at the same hierarchy level so these can be addressed as siblings with xsl:for-each-group. 
@@ -19,7 +24,7 @@
   <xsl:variable name="P6-Pt1" as="document-node()+"
     select="collection('P6-Pt1-output/?select=*.xml')"/>
 
-  <xsl:function name="var:volumeFinder" as="xs:string?">
+  <xsl:function name="fv:volumeFinder" as="xs:string?">
     <xsl:param name="witness"/>
     <xsl:param name="chapterMarker"/>
     <!-- 2023-06-13 ebb: This must change when we have the whole edition. For right now.we're just processing collation units in the middle, so we 
@@ -97,14 +102,13 @@
       select="tei:milestone[@unit = 'chapter' or @unit='preface' or @unit='letter'][@type = 'start']"/>
 
     <xsl:variable name="vol_info" as="xs:string?">
-      <xsl:value-of select="var:volumeFinder($witness, $chapterMarker)"/>
+      <xsl:value-of select="fv:volumeFinder($witness, $chapterMarker)"/>
     </xsl:variable>
 
-    <xsl:variable name="chap_id" as="xs:string" select="
-      tei:milestone[@unit = 'chapter' or @unit='preface' or @unit='letter'][@type = 'start']/following::tei:head[1]/following-sibling::text()[1] ! lower-case(.) ! replace(., '[.,:;]', '') ! tokenize(., ' ') => string-join('_')
+    <xsl:variable name="chap_id" as="xs:string" select="tei:milestone[@unit = 'chapter' or @unit='preface' or @unit='letter'][@type = 'start']/following::tei:head[1]/text() ! lower-case(.) ! replace(., '[.,:;]', '') ! tokenize(., ' ') => string-join('_')
         "/>
 
-    <anchor type="semantic" subtype="{tei:milestone/@type}"
+    <anchor type="semantic" subtype="{*[local-name()='milestone']/@type}"
       xml:id="{$witness}{$vol_info}_{$chap_id}"/>
     <xsl:copy select="current()">
       <xsl:copy-of select="current()/@*"/>
@@ -117,11 +121,11 @@
     <xsl:param name="witness"/>
     <xsl:variable name="chapterMarker" as="element()" select="current()"/>
     <xsl:variable name="vol_info" as="xs:string?">
-      <xsl:value-of select="var:volumeFinder($witness, $chapterMarker)"/>
+      <xsl:value-of select="fv:volumeFinder($witness, $chapterMarker)"/>
     </xsl:variable>
     <xsl:variable name="chap_id" as="xs:string" select="
-        following::tei:head[1]/following-sibling::text()[1] ! lower-case(.) ! replace(., '[.,:;]', '') ! tokenize(., ' ') => string-join('_')
-        "/>
+        following::tei:head[1]/text() ! lower-case(.) ! replace(., '[.,:;]', '') ! tokenize(., ' ') => string-join('_')
+        "/><!-- 2023-08-13 ebb: Amended now that we've raised whole head elements in the print editions. -->
     <anchor type="semantic" subtype="{@type}" xml:id="{$witness}{$vol_info}_{$chap_id}"/>
     <xsl:copy select="current()">
       <xsl:copy-of select="@*"/>
@@ -129,13 +133,13 @@
   </xsl:template>
 
 
-  <xsl:template match="tei:seg[tei:milestone[@spanTo and @unit = 'tei:head']]">
+  <xsl:template match="tei:seg[.//tei:milestone[@spanTo and @unit = 'tei:head']]">
     <!--ebb: This template processes fMS chapter start markers in seg elements  -->
     <xsl:param name="witness"/>
-    <xsl:variable name="chapterMarker" as="element()+" select="tei:milestone[@spanTo]"/>
+    <xsl:variable name="chapterMarker" as="element()+" select=".//tei:milestone[@spanTo]"/>
 
     <xsl:variable name="vol_info" as="xs:string?">
-      <xsl:value-of select="var:volumeFinder($witness, $chapterMarker)"/>
+      <xsl:value-of select="fv:volumeFinder($witness, $chapterMarker)"/>
     </xsl:variable>
     <xsl:variable name="chap_id" as="xs:string"
       select="$chapterMarker/following::text()[matches(., '\w+')][1] ! lower-case(.) ! replace(., '^\s+', '') ! replace(., '[.,:;]', '') ! replace(., '\s+$', '') ! tokenize(., '\s+') => string-join('_')"/>
@@ -150,7 +154,7 @@
     <xsl:param name="witness"/>
     <xsl:variable name="chapterMarker" as="element()" select="current()"/>
     <xsl:variable name="vol_info" as="xs:string?">
-      <xsl:value-of select="var:volumeFinder($witness, $chapterMarker)"/>
+      <xsl:value-of select="fv:volumeFinder($witness, $chapterMarker)"/>
     </xsl:variable>
     <xsl:variable name="chap_id" as="xs:string"
       select="following::text()[matches(., '\w+')][1] ! lower-case(.) ! replace(., '^\s+', '') ! replace(., '[.,:;]', '') ! replace(., '\s+$', '') ! tokenize(., '\s+') => string-join('_')"/>

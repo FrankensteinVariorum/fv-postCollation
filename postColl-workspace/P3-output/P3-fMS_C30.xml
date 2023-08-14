@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xmlns:mith="http://mith.umd.edu/sc/ns1#"
-      xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-      xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
+      xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xml:id="fMS_C30">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Bridge Phase 3:  Witness fMS, Collation unit C30</title>
          </titleStmt>
-         <publicationStmt xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+         <publicationStmt>
             <authority>Frankenstein Variorum Project</authority>
             <date>2023—</date>
             <availability>
@@ -16,28 +16,47 @@
                                         Attribution-ShareAlike 3.0 Unported License</licence>
             </availability>
          </publicationStmt>
-         <sourceDesc xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+         <sourceDesc>
             <p>Produced from collation output prepared in batch file processing
                                     on  2023-08-10 05:19:10.701568 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-10T06:04:28.504824-04:00.</p>
+                                    Variorum spine on 2023-08-14T01:32:24.815998-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
-         <div type="collation" xml:id="C30">
+         <div type="collation" xml:id="Unit_C30">
             <anchor type="collate" xml:id="C30"/>
             <lb n="c57-0147__main__1"/>
             <milestone spanTo="#c57-0147.07" unit="tei:head"/>
-            <seg xml:id="C30_app2-fMS_start"/>Chap. 17 <anchor xml:id="c57-0147.07"/>
-            <lb n="c57-0147__main__2"/>It was eight o'clock<seg xml:id="C30_app2-fMS_end"/>when we landed; <seg xml:id="C30_app4-fMS_start"/>we <lb n="c57-0147__main__3"/>walked <mod th:sID="c57-0147__main__d4e27346"/>
+            <seg xml:id="C30_app2-fMS_start"/>
+        Chap. 17 <anchor xml:id="c57-0147.07"/>
+            <lb n="c57-0147__main__2"/>It was eight o'clock
+        <seg xml:id="C30_app2-fMS_end"/>
+    when we landed; 
+        <seg xml:id="C30_app4-fMS_start"/>
+        we <lb n="c57-0147__main__3"/>walked <mod th:sID="c57-0147__main__d4e27346"/>
             <sga-add place="sublinear" th:sID="c57-0147__main__d4e27348"/>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            <metamark function="insert">^</metamark>
             <sga-add th:eID="c57-0147__main__d4e27348"/>
             <sga-add place="superlinear" th:sID="c57-0147__main__d4e27354"/>for a short time <sga-add th:eID="c57-0147__main__d4e27354"/>
-            <mod th:eID="c57-0147__main__d4e27346"/> on the shore enjoying the transitory <lb n="c57-0147__main__4"/>twilight &amp; then retired to the Inn<seg xml:id="C30_app4-fMS_end"/>and <w ana="start"/>contem<lb n="c57-0147__main__5"/>plated<w ana="end"/> the lovely scene of waters, <seg xml:id="C30_app6-fMS_start"/>mountains<seg xml:id="C30_app6-fMS_end"/>
-            <lb n="c57-0147__main__6"/>&amp; <seg xml:id="C30_app8-fMS_start"/>woods<seg xml:id="C30_app8-fMS_end"/>obscured in <seg xml:id="C30_app10-fMS_start"/>darkness<seg xml:id="C30_app10-fMS_end"/>yet still <seg xml:id="C30_app12-fMS_start"/>
+            <mod th:eID="c57-0147__main__d4e27346"/> on the shore enjoying the transitory <lb n="c57-0147__main__4"/>twilight &amp; then retired to the Inn
+        <seg xml:id="C30_app4-fMS_end"/>
+    and <w ana="start"/>contem<lb n="c57-0147__main__5"/>plated<w ana="end"/> the lovely scene of waters, 
+        <seg xml:id="C30_app6-fMS_start"/>
+        mountains
+        <seg xml:id="C30_app6-fMS_end"/>
+            <lb n="c57-0147__main__6"/>&amp; 
+        <seg xml:id="C30_app8-fMS_start"/>
+        woods
+        <seg xml:id="C30_app8-fMS_end"/>
+    obscured in 
+        <seg xml:id="C30_app10-fMS_start"/>
+        darkness
+        <seg xml:id="C30_app10-fMS_end"/>
+    yet still 
+        <seg xml:id="C30_app12-fMS_start"/>
             <delSpan spanTo="#c57-0147.02"/>
             <w ana="start"/>allow<lb n="c57-0147__main__7"/>ing<w ana="end"/>
             <delSpan anchor="c57-0147.02"/>
@@ -45,15 +64,44 @@
             <lb n="c57-0147__left_margin__1"/>
             <sga-add th:sID="c57-0147__left_margin__d4e27386"/>displaying <sga-add th:eID="c57-0147__left_margin__d4e27386"/>
             <anchor xml:id="c57-0147.01"/> the <sga-add place="intralinear" th:sID="c57-0147__main__d4e27391"/>ir <sga-add th:eID="c57-0147__main__d4e27391"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0147__main__d4e27394"/>their<del ana="end"/>
+            <del rend="strikethrough" xml:id="c57-0147__main__d4e27394">their</del>
             <mod th:sID="c57-0147__main__d4e27397"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0147__main__d4e27399"/>dark<del ana="end"/>
+            <del rend="strikethrough" xml:id="c57-0147__main__d4e27399">dark</del>
             <seg xml:id="C30_app12-fMS_end"/>
-            <sga-add place="superlinear" th:sID="c57-0147__main__d4e27402"/>black <seg xml:id="C30_app14-fMS_start"/>
+            <sga-add place="superlinear" th:sID="c57-0147__main__d4e27402"/>black 
+        <seg xml:id="C30_app14-fMS_start"/>
             <sga-add th:eID="c57-0147__main__d4e27402"/>
-            <mod th:eID="c57-0147__main__d4e27397"/> outlines–<seg xml:id="C30_app14-fMS_end"/>The <seg xml:id="C30_app16-fMS_start"/>wind<seg xml:id="C30_app16-fMS_end"/>which <lb n="c57-0147__main__8"/>had fallen in the <seg xml:id="C30_app18-fMS_start"/>south<seg xml:id="C30_app18-fMS_end"/>now rose with great <lb n="c57-0147__main__9"/>violence in the <seg xml:id="C30_app20-fMS_start"/>west—the<seg xml:id="C30_app20-fMS_end"/>moon had <lb n="c57-0147__main__10"/>reached her summit in the <seg xml:id="C30_app22-fMS_start"/>heavens<seg xml:id="C30_app22-fMS_end"/>
-            <lb n="c57-0147__main__11"/>&amp; was beginning to <seg xml:id="C30_app24-fMS_start"/>descend<seg xml:id="C30_app24-fMS_end"/>the clouds <lb n="c57-0147__main__12"/>swept across it swifter than the <lb n="c57-0147__main__13"/>flight of the <seg xml:id="C30_app26-fMS_start"/>vulture<seg xml:id="C30_app26-fMS_end"/>and dimmed her <seg xml:id="C30_app28-fMS_start"/>
-            <lb n="c57-0147__main__14"/>rays<seg xml:id="C30_app28-fMS_end"/>while the lake reflected the <sga-add hand="#pbs"
+            <mod th:eID="c57-0147__main__d4e27397"/> outlines–
+        <seg xml:id="C30_app14-fMS_end"/>
+    The 
+        <seg xml:id="C30_app16-fMS_start"/>
+        wind
+        <seg xml:id="C30_app16-fMS_end"/>
+    which <lb n="c57-0147__main__8"/>had fallen in the 
+        <seg xml:id="C30_app18-fMS_start"/>
+        south
+        <seg xml:id="C30_app18-fMS_end"/>
+    now rose with great <lb n="c57-0147__main__9"/>violence in the 
+        <seg xml:id="C30_app20-fMS_start"/>
+        west—the
+        <seg xml:id="C30_app20-fMS_end"/>
+    moon had <lb n="c57-0147__main__10"/>reached her summit in the 
+        <seg xml:id="C30_app22-fMS_start"/>
+        heavens
+        <seg xml:id="C30_app22-fMS_end"/>
+            <lb n="c57-0147__main__11"/>&amp; was beginning to 
+        <seg xml:id="C30_app24-fMS_start"/>
+        descend
+        <seg xml:id="C30_app24-fMS_end"/>
+    the clouds <lb n="c57-0147__main__12"/>swept across it swifter than the <lb n="c57-0147__main__13"/>flight of the 
+        <seg xml:id="C30_app26-fMS_start"/>
+        vulture
+        <seg xml:id="C30_app26-fMS_end"/>
+    and dimmed her 
+        <seg xml:id="C30_app28-fMS_start"/>
+            <lb n="c57-0147__main__14"/>rays
+        <seg xml:id="C30_app28-fMS_end"/>
+    while the lake reflected the <sga-add hand="#pbs"
                       next="#c57-0147.04"
                       place="intralinear"
                       th:sID="c57-0147__main__d4e27422"/>scene <sga-add th:eID="c57-0147__main__d4e27422"/>
@@ -61,833 +109,2123 @@
             <sga-add hand="#pbs"
                       place="superlinear"
                       xml:id="c57-0147.04"
-                      th:sID="c57-0147__main__d4e27427"/>of the <sga-add th:eID="c57-0147__main__d4e27427"/>busy <seg xml:id="C30_app30-fMS_start"/>heavens <mod th:sID="c57-0147__main__d4e27430"/>
+                      th:sID="c57-0147__main__d4e27427"/>of the <sga-add th:eID="c57-0147__main__d4e27427"/>busy 
+        <seg xml:id="C30_app30-fMS_start"/>
+        heavens <mod th:sID="c57-0147__main__d4e27430"/>
             <sga-add place="sublinear" th:sID="c57-0147__main__d4e27432"/>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            <metamark function="insert">^</metamark>
             <sga-add th:eID="c57-0147__main__d4e27432"/>
             <sga-add hand="#pbs" place="superlinear" th:sID="c57-0147__main__d4e27438"/>
-            <mdel ana="start"/>m<mdel ana="end"/> made <sga-add th:eID="c57-0147__main__d4e27438"/>
+            <mdel>m</mdel> made <sga-add th:eID="c57-0147__main__d4e27438"/>
             <mod th:eID="c57-0147__main__d4e27430"/>
-            <seg xml:id="C30_app30-fMS_end"/>still busier by the <seg xml:id="C30_app32-fMS_start"/>
+            <seg xml:id="C30_app30-fMS_end"/>
+    still busier by the 
+        <seg xml:id="C30_app32-fMS_start"/>
             <mod th:sID="c57-0147__main__d4e27444"/>
             <sga-add place="sublinear" th:sID="c57-0147__main__d4e27446"/>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            <metamark function="insert">^</metamark>
             <sga-add th:eID="c57-0147__main__d4e27446"/>
-            <sga-add hand="#pbs" place="superlinear" th:sID="c57-0147__main__d4e27452"/>restless<seg xml:id="C30_app32-fMS_end"/>
+            <sga-add hand="#pbs" place="superlinear" th:sID="c57-0147__main__d4e27452"/>restless
+        <seg xml:id="C30_app32-fMS_end"/>
             <sga-add th:eID="c57-0147__main__d4e27452"/>
-            <mod th:eID="c57-0147__main__d4e27444"/>waves <lb n="c57-0147__main__16"/>that were beginning to <seg xml:id="C30_app34-fMS_start"/>rise— <mod th:sID="c57-0147__main__d4e27459"/>
-            <mdel ana="start"/>s<mdel ana="end"/>
+            <mod th:eID="c57-0147__main__d4e27444"/>waves <lb n="c57-0147__main__16"/>that were beginning to 
+        <seg xml:id="C30_app34-fMS_start"/>
+        rise— <mod th:sID="c57-0147__main__d4e27459"/>
+            <mdel>s</mdel>
             <sga-add place="intralinear" th:sID="c57-0147__main__d4e27463"/>S <sga-add th:eID="c57-0147__main__d4e27463"/>
-            <mod th:eID="c57-0147__main__d4e27459"/> uddenly <lb n="c57-0147__main__17"/>a heavy storm of rain descended.<seg xml:id="C30_app34-fMS_end"/>
+            <mod th:eID="c57-0147__main__d4e27459"/> uddenly <lb n="c57-0147__main__17"/>a heavy storm of rain descended.
+        <seg xml:id="C30_app34-fMS_end"/>
             <milestone unit="tei:p-START"/>
-            <lb n="c57-0147__main__18"/>I <seg xml:id="C30_app36-fMS_start"/>
-            <del ana="start" rend="smear" xml:id="c57-0147__main__d4e27473"/>t<del ana="end"/> had been calm during the<seg xml:id="C30_app36-fMS_end"/>
-            <seg xml:id="C30_app37-fMS_start"/>day<seg xml:id="C30_app37-fMS_end"/>but <seg xml:id="C30_app39-fMS_start"/>
+            <lb n="c57-0147__main__18"/>I 
+        <seg xml:id="C30_app36-fMS_start"/>
+            <del rend="smear" xml:id="c57-0147__main__d4e27473">t</del> had been calm during the
+        <seg xml:id="C30_app36-fMS_end"/>
+            <seg xml:id="C30_app37-fMS_start"/>
+        day
+        <seg xml:id="C30_app37-fMS_end"/>
+    but 
+        <seg xml:id="C30_app39-fMS_start"/>
             <lb n="c57-0147__main__19"/>
             <mod th:sID="c57-0147__main__d4e27479"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0147__main__d4e27481"/>now<del ana="end"/>
-            <sga-add hand="#pbs" place="superlinear" th:sID="c57-0147__main__d4e27484"/>so soon<seg xml:id="C30_app39-fMS_end"/>
+            <del rend="strikethrough" xml:id="c57-0147__main__d4e27481">now</del>
+            <sga-add hand="#pbs" place="superlinear" th:sID="c57-0147__main__d4e27484"/>so soon
+        <seg xml:id="C30_app39-fMS_end"/>
             <sga-add th:eID="c57-0147__main__d4e27484"/>
-            <mod th:eID="c57-0147__main__d4e27479"/>as night <seg xml:id="C30_app41-fMS_start"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0147__main__d4e27488"/>ha<del ana="end"/> obscured the shapes of<seg xml:id="C30_app41-fMS_end"/>
+            <mod th:eID="c57-0147__main__d4e27479"/>as night 
+        <seg xml:id="C30_app41-fMS_start"/>
+            <del rend="strikethrough" xml:id="c57-0147__main__d4e27488">ha</del> obscured the shapes of
+        <seg xml:id="C30_app41-fMS_end"/>
             <seg xml:id="C30_app42-fMS_start"/>
-            <lb n="c57-0147__main__20"/>objects<seg xml:id="C30_app42-fMS_end"/>a thousand fears arose in <lb n="c57-0147__main__21"/>my <seg xml:id="C30_app44-fMS_start"/>mind –<seg xml:id="C30_app44-fMS_end"/>I was anxious and <seg xml:id="C30_app46-fMS_start"/>watchful<seg xml:id="C30_app46-fMS_end"/>
-            <lb n="c57-0147__main__22"/>while my right hand grasped a pistol <lb n="c57-0147__main__23"/>which was hidden in my <seg xml:id="C30_app48-fMS_start"/>bosom —<seg xml:id="C30_app48-fMS_end"/>
-            <lb n="c57-0147__main__24"/>Every sound terrified <seg xml:id="C30_app50-fMS_start"/>
+            <lb n="c57-0147__main__20"/>objects
+        <seg xml:id="C30_app42-fMS_end"/>
+    a thousand fears arose in <lb n="c57-0147__main__21"/>my 
+        <seg xml:id="C30_app44-fMS_start"/>
+        mind –
+        <seg xml:id="C30_app44-fMS_end"/>
+    I was anxious and 
+        <seg xml:id="C30_app46-fMS_start"/>
+        watchful
+        <seg xml:id="C30_app46-fMS_end"/>
+            <lb n="c57-0147__main__22"/>while my right hand grasped a pistol <lb n="c57-0147__main__23"/>which was hidden in my 
+        <seg xml:id="C30_app48-fMS_start"/>
+        bosom —
+        <seg xml:id="C30_app48-fMS_end"/>
+            <lb n="c57-0147__main__24"/>Every sound terrified 
+        <seg xml:id="C30_app50-fMS_start"/>
             <sga-add hand="#pbs" place="superlinear" th:sID="c57-0147__main__d4e27502"/>me, <sga-add th:eID="c57-0147__main__d4e27502"/>
-            <seg xml:id="C30_app50-fMS_end"/>but I <seg xml:id="C30_app52-fMS_start"/>resoldved<seg xml:id="C30_app52-fMS_end"/>
-            <lb n="c57-0147__main__25"/>that I would sell my <seg xml:id="C30_app54-fMS_start"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0147__main__d4e27507"/>s<del ana="end"/> life<seg xml:id="C30_app54-fMS_end"/>
-            <seg xml:id="C30_app55-fMS_start"/>dearly &amp;<lb n="c57-0147__main__26"/>not <mod th:sID="c57-0147__main__d4e27512"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0147__main__d4e27514"/>die<del ana="end"/>
+            <seg xml:id="C30_app50-fMS_end"/>
+    but I 
+        <seg xml:id="C30_app52-fMS_start"/>
+        resoldved
+        <seg xml:id="C30_app52-fMS_end"/>
+            <lb n="c57-0147__main__25"/>that I would sell my 
+        <seg xml:id="C30_app54-fMS_start"/>
+            <del rend="strikethrough" xml:id="c57-0147__main__d4e27507">s</del> life
+        <seg xml:id="C30_app54-fMS_end"/>
+            <seg xml:id="C30_app55-fMS_start"/>
+        dearly &amp;<lb n="c57-0147__main__26"/>not <mod th:sID="c57-0147__main__d4e27512"/>
+            <del rend="strikethrough" xml:id="c57-0147__main__d4e27514">die</del>
             <seg xml:id="C30_app55-fMS_end"/>
             <seg xml:id="C30_app56-fMS_start"/>
-            <sga-add hand="#pbs" place="superlinear" th:sID="c57-0147__main__d4e27517"/>relax<seg xml:id="C30_app56-fMS_end"/>
-            <seg xml:id="C30_app57-fMS_start"/>the conflict that impended <sga-add th:eID="c57-0147__main__d4e27517"/>
-            <mod th:eID="c57-0147__main__d4e27512"/> untill <del ana="start" rend="strikethrough" xml:id="c57-0147__main__d4e27522"/>my adversary<del ana="end"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0147__main__d4e27525"/>lay<del ana="end"/>
-            <del ana="start"
-                  next="#c57-0147.06"
+            <sga-add hand="#pbs" place="superlinear" th:sID="c57-0147__main__d4e27517"/>relax
+        <seg xml:id="C30_app56-fMS_end"/>
+            <seg xml:id="C30_app57-fMS_start"/>
+        the conflict that impended <sga-add th:eID="c57-0147__main__d4e27517"/>
+            <mod th:eID="c57-0147__main__d4e27512"/> untill <del rend="strikethrough" xml:id="c57-0147__main__d4e27522">my adversary</del>
+            <del rend="strikethrough" xml:id="c57-0147__main__d4e27525">lay</del>
+            <del next="#c57-0147.06"
                   rend="strikethrough"
-                  xml:id="c57-0147__main__d4e27528"/>at my<del ana="end"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0147__main__d4e27531"/>
-            <sga-add place="superlinear" th:sID="c57-0147__main__d4e27533"/>should lie senseless <sga-add th:eID="c57-0147__main__d4e27533"/>
-            <del ana="end"/>
+                  xml:id="c57-0147__main__d4e27528">at my</del>
+            <del rend="strikethrough" xml:id="c57-0147__main__d4e27531">
+               <sga-add place="superlinear" th:sID="c57-0147__main__d4e27533"/>should lie senseless <sga-add th:eID="c57-0147__main__d4e27533"/>
+            </del>
             <lb n="c57-0147__main__27"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0147__main__d4e27539"/>fee<del ana="end"/>
-            <del ana="start" rend="unmarked" xml:id="c57-0147__main__d4e27543"/>t.<del ana="end"/>
+            <del rend="strikethrough" xml:id="c57-0147__main__d4e27539">fee</del>
+            <del rend="unmarked" xml:id="c57-0147__main__d4e27543">t.</del>
             <seg xml:id="C30_app57-fMS_end"/>
-            <sga-add hand="#pbs" place="intralinear" th:sID="c57-0147__main__d4e27546"/>my own life, or that of my <seg xml:id="C30_app59-fMS_start"/>adversary<seg xml:id="C30_app59-fMS_end"/>
-            <seg xml:id="C30_app60-fMS_start"/>were<seg xml:id="C30_app60-fMS_end"/>
-            <seg xml:id="C30_app61-fMS_start"/>extinguished <sga-add th:eID="c57-0147__main__d4e27546"/>
+            <sga-add hand="#pbs" place="intralinear" th:sID="c57-0147__main__d4e27546"/>my own life, or that of my 
+        <seg xml:id="C30_app59-fMS_start"/>
+        adversary
+        <seg xml:id="C30_app59-fMS_end"/>
+            <seg xml:id="C30_app60-fMS_start"/>
+        were
+        <seg xml:id="C30_app60-fMS_end"/>
+            <seg xml:id="C30_app61-fMS_start"/>
+        extinguished <sga-add th:eID="c57-0147__main__d4e27546"/>
             <anchor xml:id="c57-0147.05"/>
             <seg xml:id="C30_app61-fMS_end"/>
             <milestone unit="tei:p-END"/>
             <milestone unit="tei:p-START"/>
-            <lb n="c57-0147__main__28"/>Elizabeth observed my agitation for <lb n="c57-0147__main__29"/>some time in timid &amp; fearful <seg xml:id="C30_app63-fMS_start"/>silence <lb n="c57-0147__main__30"/>
-            <unclear ana="start" reason="case"/>A<unclear ana="end"/>t length she said — What is it, my dear <lb n="c57-0147__main__31"/>Victor,<seg xml:id="C30_app63-fMS_end"/>that agitates <seg xml:id="C30_app65-fMS_start"/>you?<seg xml:id="C30_app65-fMS_end"/>What is it <lb n="c57-0147__main__32"/>you <seg xml:id="C30_app67-fMS_start"/>fear?<seg xml:id="C30_app67-fMS_end"/>
+            <lb n="c57-0147__main__28"/>Elizabeth observed my agitation for <lb n="c57-0147__main__29"/>some time in timid &amp; fearful 
+        <seg xml:id="C30_app63-fMS_start"/>
+        silence <lb n="c57-0147__main__30"/>
+            <unclear reason="case">A</unclear>t length she said — What is it, my dear <lb n="c57-0147__main__31"/>Victor,
+        <seg xml:id="C30_app63-fMS_end"/>
+    that agitates 
+        <seg xml:id="C30_app65-fMS_start"/>
+        you?
+        <seg xml:id="C30_app65-fMS_end"/>
+    What is it <lb n="c57-0147__main__32"/>you 
+        <seg xml:id="C30_app67-fMS_start"/>
+        fear?
+        <seg xml:id="C30_app67-fMS_end"/>
             <milestone unit="tei:p-END"/>
             <milestone unit="tei:p-START"/>
             <seg xml:id="C30_app69-fMS_start"/>
-            <lb n="c57-0147__main__33"/>Oh<seg xml:id="C30_app69-fMS_end"/>peace, peace, my <seg xml:id="C30_app71-fMS_start"/>love, I replied, <lb n="c57-0147__main__34"/>this night<seg xml:id="C30_app71-fMS_end"/>and all will be <seg xml:id="C30_app73-fMS_start"/>safe –<seg xml:id="C30_app73-fMS_end"/>but <lb n="c57-0147__main__35"/>this night is <seg xml:id="C30_app75-fMS_start"/>dreadful<seg xml:id="C30_app75-fMS_end"/>very <seg xml:id="C30_app77-fMS_start"/>dreadful.<seg xml:id="C30_app77-fMS_end"/>
+            <lb n="c57-0147__main__33"/>Oh
+        <seg xml:id="C30_app69-fMS_end"/>
+    peace, peace, my 
+        <seg xml:id="C30_app71-fMS_start"/>
+        love, I replied, <lb n="c57-0147__main__34"/>this night
+        <seg xml:id="C30_app71-fMS_end"/>
+    and all will be 
+        <seg xml:id="C30_app73-fMS_start"/>
+        safe –
+        <seg xml:id="C30_app73-fMS_end"/>
+    but <lb n="c57-0147__main__35"/>this night is 
+        <seg xml:id="C30_app75-fMS_start"/>
+        dreadful
+        <seg xml:id="C30_app75-fMS_end"/>
+    very 
+        <seg xml:id="C30_app77-fMS_start"/>
+        dreadful.
+        <seg xml:id="C30_app77-fMS_end"/>
             <milestone unit="tei:p-END"/>
             <milestone unit="tei:p-START"/>
-            <lb n="c57-0148__main__1"/>I passed an hour in this state of <seg xml:id="C30_app79-fMS_start"/>
-            <lb n="c57-0148__main__2"/>mind<seg xml:id="C30_app79-fMS_end"/>when suddenly I reflected how <seg xml:id="C30_app81-fMS_start"/>dreadful<seg xml:id="C30_app81-fMS_end"/>
+            <lb n="c57-0148__main__1"/>I passed an hour in this state of 
+        <seg xml:id="C30_app79-fMS_start"/>
+            <lb n="c57-0148__main__2"/>mind
+        <seg xml:id="C30_app79-fMS_end"/>
+    when suddenly I reflected how 
+        <seg xml:id="C30_app81-fMS_start"/>
+        dreadful
+        <seg xml:id="C30_app81-fMS_end"/>
             <seg xml:id="C30_app82-fMS_start"/>
             <lb n="c57-0148__main__3"/>
             <mod th:sID="c57-0148__main__d4e27596"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0148__main__d4e27598"/>such a<del ana="end"/>
-            <sga-add place="superlinear" th:sID="c57-0148__main__d4e27601"/>the<seg xml:id="C30_app82-fMS_end"/>
+            <del rend="strikethrough" xml:id="c57-0148__main__d4e27598">such a</del>
+            <sga-add place="superlinear" th:sID="c57-0148__main__d4e27601"/>the
+        <seg xml:id="C30_app82-fMS_end"/>
             <sga-add th:eID="c57-0148__main__d4e27601"/>
-            <mod th:eID="c57-0148__main__d4e27596"/>combat <seg xml:id="C30_app84-fMS_start"/>
+            <mod th:eID="c57-0148__main__d4e27596"/>combat 
+        <seg xml:id="C30_app84-fMS_start"/>
             <mod th:sID="c57-0148__main__d4e27606"/>
-            <mdel ana="start"/>as<mdel ana="end"/>
-            <sga-add place="superlinear" th:sID="c57-0148__main__d4e27610"/>which<seg xml:id="C30_app84-fMS_end"/>
+            <mdel>as</mdel>
+            <sga-add place="superlinear" th:sID="c57-0148__main__d4e27610"/>which
+        <seg xml:id="C30_app84-fMS_end"/>
             <sga-add th:eID="c57-0148__main__d4e27610"/>
-            <mod th:eID="c57-0148__main__d4e27606"/>I <seg xml:id="C30_app86-fMS_start"/>
+            <mod th:eID="c57-0148__main__d4e27606"/>I 
+        <seg xml:id="C30_app86-fMS_start"/>
             <sga-add hand="#pbs" place="superlinear" th:sID="c57-0148__main__d4e27614"/>momently <sga-add th:eID="c57-0148__main__d4e27614"/>
-            <seg xml:id="C30_app86-fMS_end"/>expected <seg xml:id="C30_app88-fMS_start"/>
+            <seg xml:id="C30_app86-fMS_end"/>
+    expected 
+        <seg xml:id="C30_app88-fMS_start"/>
             <mod th:sID="c57-0148__main__d4e27617"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0148__main__d4e27619"/>would<del ana="end"/>
+            <del rend="strikethrough" xml:id="c57-0148__main__d4e27619">would</del>
             <sga-add hand="#pbs" place="superlinear" th:sID="c57-0148__main__d4e27622"/>to <sga-add th:eID="c57-0148__main__d4e27622"/>
-            <mod th:eID="c57-0148__main__d4e27617"/> take <lb n="c57-0148__main__4"/>place would be <sga-add place="intralinear" th:sID="c57-0148__main__d4e27628"/>to<seg xml:id="C30_app88-fMS_end"/>
-            <sga-add th:eID="c57-0148__main__d4e27628"/>my <seg xml:id="C30_app90-fMS_start"/>wife<seg xml:id="C30_app90-fMS_end"/>and I earnestly <lb n="c57-0148__main__5"/>entreated her to <seg xml:id="C30_app92-fMS_start"/>retire –<seg xml:id="C30_app92-fMS_end"/>resolving not to join <lb n="c57-0148__main__6"/>her <seg xml:id="C30_app94-fMS_start"/>untill<seg xml:id="C30_app94-fMS_end"/>I had obtained some knowledge <lb n="c57-0148__main__7"/>as to the situation of my enemy. <milestone unit="tei:p-END"/>
+            <mod th:eID="c57-0148__main__d4e27617"/> take <lb n="c57-0148__main__4"/>place would be <sga-add place="intralinear" th:sID="c57-0148__main__d4e27628"/>to
+        <seg xml:id="C30_app88-fMS_end"/>
+            <sga-add th:eID="c57-0148__main__d4e27628"/>my 
+        <seg xml:id="C30_app90-fMS_start"/>
+        wife
+        <seg xml:id="C30_app90-fMS_end"/>
+    and I earnestly <lb n="c57-0148__main__5"/>entreated her to 
+        <seg xml:id="C30_app92-fMS_start"/>
+        retire –
+        <seg xml:id="C30_app92-fMS_end"/>
+    resolving not to join <lb n="c57-0148__main__6"/>her 
+        <seg xml:id="C30_app94-fMS_start"/>
+        untill
+        <seg xml:id="C30_app94-fMS_end"/>
+    I had obtained some knowledge <lb n="c57-0148__main__7"/>as to the situation of my enemy. <milestone unit="tei:p-END"/>
             <milestone unit="tei:p-START"/>
-            <lb n="c57-0148__main__8"/>She left <seg xml:id="C30_app96-fMS_start"/>me<seg xml:id="C30_app96-fMS_end"/>and I continued some <lb n="c57-0148__main__9"/>time walking up and down the passages <lb n="c57-0148__main__10"/>of the <seg xml:id="C30_app98-fMS_start"/>house<seg xml:id="C30_app98-fMS_end"/>&amp; inspecting every corner <lb n="c57-0148__main__11"/>that might afford a retreat to my <seg xml:id="C30_app100-fMS_start"/>
-            <lb n="c57-0148__main__12"/>adversary –<seg xml:id="C30_app100-fMS_end"/>But I <seg xml:id="C30_app102-fMS_start"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0148__main__d4e27651"/>sa<del ana="end"/> saw<seg xml:id="C30_app102-fMS_end"/>no trace <sga-add hand="#pbs" place="superlinear" th:sID="c57-0148__main__d4e27654"/>of <seg xml:id="C30_app104-fMS_start"/>him <sga-add th:eID="c57-0148__main__d4e27654"/>&amp;<lb n="c57-0148__main__13"/>
+            <lb n="c57-0148__main__8"/>She left 
+        <seg xml:id="C30_app96-fMS_start"/>
+        me
+        <seg xml:id="C30_app96-fMS_end"/>
+    and I continued some <lb n="c57-0148__main__9"/>time walking up and down the passages <lb n="c57-0148__main__10"/>of the 
+        <seg xml:id="C30_app98-fMS_start"/>
+        house
+        <seg xml:id="C30_app98-fMS_end"/>
+    &amp; inspecting every corner <lb n="c57-0148__main__11"/>that might afford a retreat to my 
+        <seg xml:id="C30_app100-fMS_start"/>
+            <lb n="c57-0148__main__12"/>adversary –
+        <seg xml:id="C30_app100-fMS_end"/>
+    But I 
+        <seg xml:id="C30_app102-fMS_start"/>
+            <del rend="strikethrough" xml:id="c57-0148__main__d4e27651">sa</del> saw
+        <seg xml:id="C30_app102-fMS_end"/>
+    no trace <sga-add hand="#pbs" place="superlinear" th:sID="c57-0148__main__d4e27654"/>of 
+        <seg xml:id="C30_app104-fMS_start"/>
+        him <sga-add th:eID="c57-0148__main__d4e27654"/>&amp;<lb n="c57-0148__main__13"/>
             <anchor xml:id="c57-0148.01"/>
             <lb n="c57-0148__left_margin__1"/>
             <sga-add hand="#pbs" th:sID="c57-0148__left_margin__d4e27666"/>was <sga-add th:eID="c57-0148__left_margin__d4e27666"/>beg <mod th:sID="c57-0148__main__d4e27670"/>
-            <mdel ana="start"/>an<mdel ana="end"/>
+            <mdel>an</mdel>
             <sga-add hand="#pbs" place="intralinear" th:sID="c57-0148__main__d4e27674"/>inning <sga-add th:eID="c57-0148__main__d4e27674"/>
             <mod th:eID="c57-0148__main__d4e27670"/>
-            <seg xml:id="C30_app104-fMS_end"/>to <seg xml:id="C30_app106-fMS_start"/>consider <del ana="start"
-                  next="#c57-0148.03"
+            <seg xml:id="C30_app104-fMS_end"/>
+    to 
+        <seg xml:id="C30_app106-fMS_start"/>
+        consider <del next="#c57-0148.03"
                   rend="strikethrough"
-                  xml:id="c57-0148__main__d4e27678"/>what was my best<del ana="end"/>
+                  xml:id="c57-0148__main__d4e27678">what was my best</del>
             <seg xml:id="C30_app106-fMS_end"/>
             <sga-add hand="#pbs"
                       next="#c57-0148.04"
                       place="superlinear"
-                      th:sID="c57-0148__main__d4e27681"/>that some fortunate chance <seg xml:id="C30_app108-fMS_start"/>
+                      th:sID="c57-0148__main__d4e27681"/>that some fortunate chance 
+        <seg xml:id="C30_app108-fMS_start"/>
             <sga-add th:eID="c57-0148__main__d4e27681"/>
             <lb n="c57-0148__main__14"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0148__main__d4e27686"/>mode of proceeding<del ana="end"/>
+            <del rend="strikethrough" xml:id="c57-0148__main__d4e27686">mode of proceeding</del>
             <sga-add hand="#pbs"
                       place="superlinear"
                       xml:id="c57-0148.04"
-                      th:sID="c57-0148__main__d4e27690"/>had intervened to prevent the execution of his<seg xml:id="C30_app108-fMS_end"/>
-            <seg xml:id="C30_app109-fMS_start"/>menace, <sga-add th:eID="c57-0148__main__d4e27690"/>
-            <anchor xml:id="c57-0148.02"/> –<seg xml:id="C30_app109-fMS_end"/>When suddenly <lb n="c57-0148__main__15"/>I heard a shrill &amp; dreadful scream.– <lb n="c57-0148__main__16"/>It came from the room into which <lb n="c57-0148__main__17"/>Elizabeth had <seg xml:id="C30_app111-fMS_start"/>retired <mod th:sID="c57-0148__main__d4e27701"/>
+                      th:sID="c57-0148__main__d4e27690"/>had intervened to prevent the execution of his
+        <seg xml:id="C30_app108-fMS_end"/>
+            <seg xml:id="C30_app109-fMS_start"/>
+        menace, <sga-add th:eID="c57-0148__main__d4e27690"/>
+            <anchor xml:id="c57-0148.02"/> –
+        <seg xml:id="C30_app109-fMS_end"/>
+    When suddenly <lb n="c57-0148__main__15"/>I heard a shrill &amp; dreadful scream.– <lb n="c57-0148__main__16"/>It came from the room into which <lb n="c57-0148__main__17"/>Elizabeth had 
+        <seg xml:id="C30_app111-fMS_start"/>
+        retired <mod th:sID="c57-0148__main__d4e27701"/>
             <sga-add place="intralinear" th:sID="c57-0148__main__d4e27703"/>. <sga-add th:eID="c57-0148__main__d4e27703"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0148__main__d4e27706"/>with a servant<del ana="end"/>
+            <del rend="strikethrough" xml:id="c57-0148__main__d4e27706">with a servant</del>
             <seg xml:id="C30_app111-fMS_end"/>
             <mod th:eID="c57-0148__main__d4e27701"/>
-            <lb n="c57-0148__main__18"/>As I heard <seg xml:id="C30_app113-fMS_start"/>it<seg xml:id="C30_app113-fMS_end"/>the whole truth rushed <seg xml:id="C30_app115-fMS_start"/>
-            <lb n="c57-0148__main__19"/>to<seg xml:id="C30_app115-fMS_end"/>my <seg xml:id="C30_app117-fMS_start"/>mind<seg xml:id="C30_app117-fMS_end"/>my arms <seg xml:id="C30_app119-fMS_start"/>dropped –<seg xml:id="C30_app119-fMS_end"/>the <lb n="c57-0148__main__20"/>motion of every muscle &amp; fibre was <seg xml:id="C30_app121-fMS_start"/>
-            <lb n="c57-0148__main__21"/>suspended<seg xml:id="C30_app121-fMS_end"/>I could feel the <seg xml:id="C30_app123-fMS_start"/>b <mod th:sID="c57-0148__main__d4e27719"/>
-            <mdel ana="start"/>r<mdel ana="end"/>
+            <lb n="c57-0148__main__18"/>As I heard 
+        <seg xml:id="C30_app113-fMS_start"/>
+        it
+        <seg xml:id="C30_app113-fMS_end"/>
+    the whole truth rushed 
+        <seg xml:id="C30_app115-fMS_start"/>
+            <lb n="c57-0148__main__19"/>to
+        <seg xml:id="C30_app115-fMS_end"/>
+    my 
+        <seg xml:id="C30_app117-fMS_start"/>
+        mind
+        <seg xml:id="C30_app117-fMS_end"/>
+    my arms 
+        <seg xml:id="C30_app119-fMS_start"/>
+        dropped –
+        <seg xml:id="C30_app119-fMS_end"/>
+    the <lb n="c57-0148__main__20"/>motion of every muscle &amp; fibre was 
+        <seg xml:id="C30_app121-fMS_start"/>
+            <lb n="c57-0148__main__21"/>suspended
+        <seg xml:id="C30_app121-fMS_end"/>
+    I could feel the 
+        <seg xml:id="C30_app123-fMS_start"/>
+        b <mod th:sID="c57-0148__main__d4e27719"/>
+            <mdel>r</mdel>
             <sga-add place="intralinear" th:sID="c57-0148__main__d4e27723"/>l <sga-add th:eID="c57-0148__main__d4e27723"/>
-            <mod th:eID="c57-0148__main__d4e27719"/> ood<seg xml:id="C30_app123-fMS_end"/>
+            <mod th:eID="c57-0148__main__d4e27719"/> ood
+        <seg xml:id="C30_app123-fMS_end"/>
             <w ana="start"/>trick<lb n="c57-0148__main__22"/>ling<w ana="end"/>
             <seg xml:id="C30_app125-fMS_start"/>
-            <del ana="start"
-                  instant="true"
+            <del instant="true"
                   rend="strikethrough"
-                  xml:id="c57-0148__main__d4e27734"/>from<del ana="end"/> in my<seg xml:id="C30_app125-fMS_end"/>
-            <seg xml:id="C30_app126-fMS_start"/>veins – <mod th:sID="c57-0148__main__d4e27737"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0148__main__d4e27739"/>The scream<del ana="end"/>
-            <sga-add hand="#pbs" place="superlinear" th:sID="c57-0148__main__d4e27742"/>&amp; tingling in<seg xml:id="C30_app126-fMS_end"/>my <seg xml:id="C30_app128-fMS_start"/>feet <sga-add th:eID="c57-0148__main__d4e27742"/>
+                  xml:id="c57-0148__main__d4e27734">from</del> in my
+        <seg xml:id="C30_app125-fMS_end"/>
+            <seg xml:id="C30_app126-fMS_start"/>
+        veins – <mod th:sID="c57-0148__main__d4e27737"/>
+            <del rend="strikethrough" xml:id="c57-0148__main__d4e27739">The scream</del>
+            <sga-add hand="#pbs" place="superlinear" th:sID="c57-0148__main__d4e27742"/>&amp; tingling in
+        <seg xml:id="C30_app126-fMS_end"/>
+    my 
+        <seg xml:id="C30_app128-fMS_start"/>
+        feet <sga-add th:eID="c57-0148__main__d4e27742"/>
             <mod th:eID="c57-0148__main__d4e27737"/>
-            <lb n="c57-0148__main__23"/>This state lasted but<seg xml:id="C30_app128-fMS_end"/>an <seg xml:id="C30_app130-fMS_start"/>instant<seg xml:id="C30_app130-fMS_end"/>
-            <lb n="c57-0148__main__24"/>the scream was <seg xml:id="C30_app132-fMS_start"/>repeated &amp; I rushed <lb n="c57-0148__main__25"/>into the room.<seg xml:id="C30_app132-fMS_end"/>Great <seg xml:id="C30_app134-fMS_start"/>God<seg xml:id="C30_app134-fMS_end"/>why did I <lb n="c57-0148__main__26"/>not then <seg xml:id="C30_app136-fMS_start"/>expire –<seg xml:id="C30_app136-fMS_end"/>Why <seg xml:id="C30_app138-fMS_start"/>I am I here to <lb n="c57-0148__main__27"/>relate the<seg xml:id="C30_app138-fMS_end"/>
-            <seg xml:id="C30_app139-fMS_start"/>d <mod th:sID="c57-0148__main__d4e27757"/>
-            <mdel ana="start"/>i<mdel ana="end"/>
+            <lb n="c57-0148__main__23"/>This state lasted but
+        <seg xml:id="C30_app128-fMS_end"/>
+    an 
+        <seg xml:id="C30_app130-fMS_start"/>
+        instant
+        <seg xml:id="C30_app130-fMS_end"/>
+            <lb n="c57-0148__main__24"/>the scream was 
+        <seg xml:id="C30_app132-fMS_start"/>
+        repeated &amp; I rushed <lb n="c57-0148__main__25"/>into the room.
+        <seg xml:id="C30_app132-fMS_end"/>
+    Great 
+        <seg xml:id="C30_app134-fMS_start"/>
+        God
+        <seg xml:id="C30_app134-fMS_end"/>
+    why did I <lb n="c57-0148__main__26"/>not then 
+        <seg xml:id="C30_app136-fMS_start"/>
+        expire –
+        <seg xml:id="C30_app136-fMS_end"/>
+    Why 
+        <seg xml:id="C30_app138-fMS_start"/>
+        I am I here to <lb n="c57-0148__main__27"/>relate the
+        <seg xml:id="C30_app138-fMS_end"/>
+            <seg xml:id="C30_app139-fMS_start"/>
+        d <mod th:sID="c57-0148__main__d4e27757"/>
+            <mdel>i</mdel>
             <sga-add place="intralinear" th:sID="c57-0148__main__d4e27761"/>e <sga-add th:eID="c57-0148__main__d4e27761"/>
-            <mod th:eID="c57-0148__main__d4e27757"/> struction<seg xml:id="C30_app139-fMS_end"/>of the best <seg xml:id="C30_app141-fMS_start"/>hope<seg xml:id="C30_app141-fMS_end"/>
+            <mod th:eID="c57-0148__main__d4e27757"/> struction
+        <seg xml:id="C30_app139-fMS_end"/>
+    of the best 
+        <seg xml:id="C30_app141-fMS_start"/>
+        hope
+        <seg xml:id="C30_app141-fMS_end"/>
             <lb n="c57-0148__main__28"/>&amp;<mod th:sID="c57-0148__main__d4e27767"/>
             <seg xml:id="C30_app143-fMS_start"/>
-            <mdel ana="start"/>d<mdel ana="end"/>
-            <sga-add hand="#pbs" place="superlinear" th:sID="c57-0148__main__d4e27771"/>the<seg xml:id="C30_app143-fMS_end"/>
+            <mdel>d</mdel>
+            <sga-add hand="#pbs" place="superlinear" th:sID="c57-0148__main__d4e27771"/>the
+        <seg xml:id="C30_app143-fMS_end"/>
             <sga-add th:eID="c57-0148__main__d4e27771"/>
-            <mod th:eID="c57-0148__main__d4e27767"/>purest creature of <seg xml:id="C30_app145-fMS_start"/>earth –<seg xml:id="C30_app145-fMS_end"/>She was <seg xml:id="C30_app147-fMS_start"/>
-            <lb n="c57-0148__main__29"/>there –<seg xml:id="C30_app147-fMS_end"/>lifeless &amp; <seg xml:id="C30_app149-fMS_start"/>inanimate –<seg xml:id="C30_app149-fMS_end"/>thrown <lb n="c57-0148__main__30"/>across the <seg xml:id="C30_app151-fMS_start"/>bed<seg xml:id="C30_app151-fMS_end"/>her head hanging <seg xml:id="C30_app153-fMS_start"/>
-            <lb n="c57-0148__main__31"/>down<seg xml:id="C30_app153-fMS_end"/>
-            <sga-add place="superlinear" th:sID="c57-0148__main__d4e27782"/>her <sga-add th:eID="c57-0148__main__d4e27782"/>pale &amp; distorted features half <lb n="c57-0148__main__32"/>covered by <seg xml:id="C30_app156-fMS_start"/>he <sga-add place="intralinear" th:sID="c57-0148__main__d4e27787"/>r <sga-add th:eID="c57-0148__main__d4e27787"/> hair –<seg xml:id="C30_app156-fMS_end"/>Every where I turn <lb n="c57-0148__main__33"/>I see the same <seg xml:id="C30_app158-fMS_start"/>figure —Her<seg xml:id="C30_app158-fMS_end"/>bloodless <lb n="c57-0149__main__1"/>arms &amp; relaxed <seg xml:id="C30_app160-fMS_start"/>figure<seg xml:id="C30_app160-fMS_end"/>flung by the <w ana="start"/>mur<lb n="c57-0149__main__2"/>derer<w ana="end"/> on its <seg xml:id="C30_app162-fMS_start"/>
+            <mod th:eID="c57-0148__main__d4e27767"/>purest creature of 
+        <seg xml:id="C30_app145-fMS_start"/>
+        earth –
+        <seg xml:id="C30_app145-fMS_end"/>
+    She was 
+        <seg xml:id="C30_app147-fMS_start"/>
+            <lb n="c57-0148__main__29"/>there –
+        <seg xml:id="C30_app147-fMS_end"/>
+    lifeless &amp; 
+        <seg xml:id="C30_app149-fMS_start"/>
+        inanimate –
+        <seg xml:id="C30_app149-fMS_end"/>
+    thrown <lb n="c57-0148__main__30"/>across the 
+        <seg xml:id="C30_app151-fMS_start"/>
+        bed
+        <seg xml:id="C30_app151-fMS_end"/>
+    her head hanging 
+        <seg xml:id="C30_app153-fMS_start"/>
+            <lb n="c57-0148__main__31"/>down
+        <seg xml:id="C30_app153-fMS_end"/>
+            <sga-add place="superlinear" th:sID="c57-0148__main__d4e27782"/>her <sga-add th:eID="c57-0148__main__d4e27782"/>pale &amp; distorted features half <lb n="c57-0148__main__32"/>covered by 
+        <seg xml:id="C30_app156-fMS_start"/>
+        he <sga-add place="intralinear" th:sID="c57-0148__main__d4e27787"/>r <sga-add th:eID="c57-0148__main__d4e27787"/> hair –
+        <seg xml:id="C30_app156-fMS_end"/>
+    Every where I turn <lb n="c57-0148__main__33"/>I see the same 
+        <seg xml:id="C30_app158-fMS_start"/>
+        figure —Her
+        <seg xml:id="C30_app158-fMS_end"/>
+    bloodless <lb n="c57-0149__main__1"/>arms &amp; relaxed 
+        <seg xml:id="C30_app160-fMS_start"/>
+        figure
+        <seg xml:id="C30_app160-fMS_end"/>
+    flung by the <w ana="start"/>mur<lb n="c57-0149__main__2"/>derer<w ana="end"/> on its 
+        <seg xml:id="C30_app162-fMS_start"/>
             <mod th:sID="c57-0149__main__d4e27809"/>
             <sga-add place="sublinear" th:sID="c57-0149__main__d4e27811"/>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            <metamark function="insert">^</metamark>
             <sga-add th:eID="c57-0149__main__d4e27811"/>
-            <sga-add hand="#pbs" place="superlinear" th:sID="c57-0149__main__d4e27817"/>bridal<seg xml:id="C30_app162-fMS_end"/>
+            <sga-add hand="#pbs" place="superlinear" th:sID="c57-0149__main__d4e27817"/>bridal
+        <seg xml:id="C30_app162-fMS_end"/>
             <seg xml:id="C30_app163-fMS_start"/>
             <sga-add th:eID="c57-0149__main__d4e27817"/>
-            <mod th:eID="c57-0149__main__d4e27809"/> bier —<seg xml:id="C30_app163-fMS_end"/>Could I behold <seg xml:id="C30_app165-fMS_start"/>this &amp;<seg xml:id="C30_app165-fMS_end"/>and <seg xml:id="C30_app167-fMS_start"/>
-            <lb n="c57-0149__main__3"/>live– Alas<seg xml:id="C30_app167-fMS_end"/>life is <seg xml:id="C30_app169-fMS_start"/>obstinate <mod th:sID="c57-0149__main__d4e27824"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0149__main__d4e27826"/>&amp; clinging<del ana="end"/>
-            <sga-add hand="#pbs" place="superlinear" th:sID="c57-0149__main__d4e27829"/>it<seg xml:id="C30_app169-fMS_end"/>clings closest <sga-add th:eID="c57-0149__main__d4e27829"/>
-            <mod th:eID="c57-0149__main__d4e27824"/>where it <lb n="c57-0149__main__4"/>is most <seg xml:id="C30_app172-fMS_start"/>hated–<seg xml:id="C30_app172-fMS_end"/>for a moment only did <lb n="c57-0149__main__5"/>I lose <seg xml:id="C30_app174-fMS_start"/>recollection –<seg xml:id="C30_app174-fMS_end"/>I <seg xml:id="C30_app176-fMS_start"/>fainted.<seg xml:id="C30_app176-fMS_end"/>
+            <mod th:eID="c57-0149__main__d4e27809"/> bier —
+        <seg xml:id="C30_app163-fMS_end"/>
+    Could I behold 
+        <seg xml:id="C30_app165-fMS_start"/>
+        this &amp;
+        <seg xml:id="C30_app165-fMS_end"/>
+    and 
+        <seg xml:id="C30_app167-fMS_start"/>
+            <lb n="c57-0149__main__3"/>live– Alas
+        <seg xml:id="C30_app167-fMS_end"/>
+    life is 
+        <seg xml:id="C30_app169-fMS_start"/>
+        obstinate <mod th:sID="c57-0149__main__d4e27824"/>
+            <del rend="strikethrough" xml:id="c57-0149__main__d4e27826">&amp; clinging</del>
+            <sga-add hand="#pbs" place="superlinear" th:sID="c57-0149__main__d4e27829"/>it
+        <seg xml:id="C30_app169-fMS_end"/>
+    clings closest <sga-add th:eID="c57-0149__main__d4e27829"/>
+            <mod th:eID="c57-0149__main__d4e27824"/>where it <lb n="c57-0149__main__4"/>is most 
+        <seg xml:id="C30_app172-fMS_start"/>
+        hated–
+        <seg xml:id="C30_app172-fMS_end"/>
+    for a moment only did <lb n="c57-0149__main__5"/>I lose 
+        <seg xml:id="C30_app174-fMS_start"/>
+        recollection –
+        <seg xml:id="C30_app174-fMS_end"/>
+    I 
+        <seg xml:id="C30_app176-fMS_start"/>
+        fainted.
+        <seg xml:id="C30_app176-fMS_end"/>
             <milestone unit="tei:p-END"/>
             <milestone unit="tei:p-START"/>
-            <lb n="c57-0149__main__6"/>When I <seg xml:id="C30_app178-fMS_start"/>recovered<seg xml:id="C30_app178-fMS_end"/>I found myself <seg xml:id="C30_app180-fMS_start"/>in <lb n="c57-0149__main__7"/>the midst of the people of inn –<seg xml:id="C30_app180-fMS_end"/>Their <lb n="c57-0149__main__8"/>countenances expressed a breathless <seg xml:id="C30_app182-fMS_start"/>terror<seg xml:id="C30_app182-fMS_end"/>
-            <lb n="c57-0149__main__9"/>but the horror of others appeared <seg xml:id="C30_app184-fMS_start"/>
+            <lb n="c57-0149__main__6"/>When I 
+        <seg xml:id="C30_app178-fMS_start"/>
+        recovered
+        <seg xml:id="C30_app178-fMS_end"/>
+    I found myself 
+        <seg xml:id="C30_app180-fMS_start"/>
+        in <lb n="c57-0149__main__7"/>the midst of the people of inn –
+        <seg xml:id="C30_app180-fMS_end"/>
+    Their <lb n="c57-0149__main__8"/>countenances expressed a breathless 
+        <seg xml:id="C30_app182-fMS_start"/>
+        terror
+        <seg xml:id="C30_app182-fMS_end"/>
+            <lb n="c57-0149__main__9"/>but the horror of others appeared 
+        <seg xml:id="C30_app184-fMS_start"/>
             <mod th:sID="c57-0149__main__d4e27848"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0149__main__d4e27850"/>but<del ana="end"/>
-            <sga-add hand="#pbs" place="superlinear" th:sID="c57-0149__main__d4e27853"/>only as<seg xml:id="C30_app184-fMS_end"/>
+            <del rend="strikethrough" xml:id="c57-0149__main__d4e27850">but</del>
+            <sga-add hand="#pbs" place="superlinear" th:sID="c57-0149__main__d4e27853"/>only as
+        <seg xml:id="C30_app184-fMS_end"/>
             <sga-add th:eID="c57-0149__main__d4e27853"/>
-            <mod th:eID="c57-0149__main__d4e27848"/>a <seg xml:id="C30_app186-fMS_start"/>
+            <mod th:eID="c57-0149__main__d4e27848"/>a 
+        <seg xml:id="C30_app186-fMS_start"/>
             <lb n="c57-0149__main__10"/>mockery <mod th:sID="c57-0149__main__d4e27859"/>
             <sga-add place="sublinear" th:sID="c57-0149__main__d4e27861"/>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            <metamark function="insert">^</metamark>
             <seg xml:id="C30_app186-fMS_end"/>
             <sga-add th:eID="c57-0149__main__d4e27861"/>
             <sga-add hand="#pbs" place="superlinear" th:sID="c57-0149__main__d4e27867"/>a shadow <sga-add th:eID="c57-0149__main__d4e27867"/>
-            <mod th:eID="c57-0149__main__d4e27859"/>of the feelings that <seg xml:id="C30_app189-fMS_start"/>oppre <mod th:sID="c57-0149__main__d4e27872"/>
-            <mdel ana="start"/>d<mdel ana="end"/>
+            <mod th:eID="c57-0149__main__d4e27859"/>of the feelings that 
+        <seg xml:id="C30_app189-fMS_start"/>
+        oppre <mod th:sID="c57-0149__main__d4e27872"/>
+            <mdel>d</mdel>
             <sga-add place="intralinear" th:sID="c57-0149__main__d4e27876"/>ss <sga-add th:eID="c57-0149__main__d4e27876"/>
-            <mod th:eID="c57-0149__main__d4e27872"/> ed<seg xml:id="C30_app189-fMS_end"/>
+            <mod th:eID="c57-0149__main__d4e27872"/> ed
+        <seg xml:id="C30_app189-fMS_end"/>
             <lb n="c57-0149__main__11"/>
             <anchor xml:id="c57-0149.01"/>
             <lb n="c57-0149__left_margin__1"/>
-            <sga-add hand="#pbs" th:sID="c57-0149__left_margin__d4e27888"/>me. <sga-add th:eID="c57-0149__left_margin__d4e27888"/>I escaped from them <seg xml:id="C30_app191-fMS_start"/>
+            <sga-add hand="#pbs" th:sID="c57-0149__left_margin__d4e27888"/>me. <sga-add th:eID="c57-0149__left_margin__d4e27888"/>I escaped from them 
+        <seg xml:id="C30_app191-fMS_start"/>
             <mod th:sID="c57-0149__main__d4e27892"/>
             <sga-add place="sublinear" th:sID="c57-0149__main__d4e27894"/>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            <metamark function="insert">^</metamark>
             <sga-add th:eID="c57-0149__main__d4e27894"/>
-            <sga-add place="superlinear" th:sID="c57-0149__main__d4e27900"/>to the room<seg xml:id="C30_app191-fMS_end"/>
+            <sga-add place="superlinear" th:sID="c57-0149__main__d4e27900"/>to the room
+        <seg xml:id="C30_app191-fMS_end"/>
             <sga-add th:eID="c57-0149__main__d4e27900"/>
-            <mod th:eID="c57-0149__main__d4e27892"/>where lay the body <lb n="c57-0149__main__12"/>of <seg xml:id="C30_app193-fMS_start"/>Elizabeth –<seg xml:id="C30_app193-fMS_end"/>my <seg xml:id="C30_app195-fMS_start"/>love —<seg xml:id="C30_app195-fMS_end"/>my <seg xml:id="C30_app197-fMS_start"/>wife –<seg xml:id="C30_app197-fMS_end"/>so lately <seg xml:id="C30_app199-fMS_start"/>
-            <lb n="c57-0149__main__13"/>living –<seg xml:id="C30_app199-fMS_end"/>so <seg xml:id="C30_app201-fMS_start"/>dear –so worthy –<seg xml:id="C30_app201-fMS_end"/>She had <lb n="c57-0149__main__14"/>been moved from the posture in <lb n="c57-0149__main__15"/>which I had first beheld <seg xml:id="C30_app203-fMS_start"/>her<seg xml:id="C30_app203-fMS_end"/>&amp; <seg xml:id="C30_app205-fMS_start"/>now<seg xml:id="C30_app205-fMS_end"/>
-            <lb n="c57-0149__main__16"/>as she <seg xml:id="C30_app207-fMS_start"/>lay<seg xml:id="C30_app207-fMS_end"/>her head upon her <seg xml:id="C30_app209-fMS_start"/>arm<seg xml:id="C30_app209-fMS_end"/>
-            <lb n="c57-0149__main__17"/>and <seg xml:id="C30_app211-fMS_start"/>
-            <del ana="start"
-                  instant="true"
+            <mod th:eID="c57-0149__main__d4e27892"/>where lay the body <lb n="c57-0149__main__12"/>of 
+        <seg xml:id="C30_app193-fMS_start"/>
+        Elizabeth –
+        <seg xml:id="C30_app193-fMS_end"/>
+    my 
+        <seg xml:id="C30_app195-fMS_start"/>
+        love —
+        <seg xml:id="C30_app195-fMS_end"/>
+    my 
+        <seg xml:id="C30_app197-fMS_start"/>
+        wife –
+        <seg xml:id="C30_app197-fMS_end"/>
+    so lately 
+        <seg xml:id="C30_app199-fMS_start"/>
+            <lb n="c57-0149__main__13"/>living –
+        <seg xml:id="C30_app199-fMS_end"/>
+    so 
+        <seg xml:id="C30_app201-fMS_start"/>
+        dear –so worthy –
+        <seg xml:id="C30_app201-fMS_end"/>
+    She had <lb n="c57-0149__main__14"/>been moved from the posture in <lb n="c57-0149__main__15"/>which I had first beheld 
+        <seg xml:id="C30_app203-fMS_start"/>
+        her
+        <seg xml:id="C30_app203-fMS_end"/>
+    &amp; 
+        <seg xml:id="C30_app205-fMS_start"/>
+        now
+        <seg xml:id="C30_app205-fMS_end"/>
+            <lb n="c57-0149__main__16"/>as she 
+        <seg xml:id="C30_app207-fMS_start"/>
+        lay
+        <seg xml:id="C30_app207-fMS_end"/>
+    her head upon her 
+        <seg xml:id="C30_app209-fMS_start"/>
+        arm
+        <seg xml:id="C30_app209-fMS_end"/>
+            <lb n="c57-0149__main__17"/>and 
+        <seg xml:id="C30_app211-fMS_start"/>
+            <del instant="true"
                   rend="strikethrough"
-                  xml:id="c57-0149__main__d4e27917"/>h<del ana="end"/> a<seg xml:id="C30_app211-fMS_end"/>
-            <seg xml:id="C30_app212-fMS_start"/>hankerchief<seg xml:id="C30_app212-fMS_end"/>thrown across <lb n="c57-0149__main__18"/>her face &amp; <seg xml:id="C30_app214-fMS_start"/>neck<seg xml:id="C30_app214-fMS_end"/>I might have <w ana="start"/>sup<lb n="c57-0149__main__19"/>posed<w ana="end"/> her <seg xml:id="C30_app216-fMS_start"/>asleep –<seg xml:id="C30_app216-fMS_end"/>I rushed <seg xml:id="C30_app218-fMS_start"/>toward <sga-add place="intralinear" th:sID="c57-0149__main__d4e27929"/>s <sga-add th:eID="c57-0149__main__d4e27929"/> her &amp;<lb n="c57-0149__main__20"/>embraced<seg xml:id="C30_app218-fMS_end"/>her with <seg xml:id="C30_app220-fMS_start"/>ardour<seg xml:id="C30_app220-fMS_end"/>but the <seg xml:id="C30_app222-fMS_start"/>
-            <lb n="c57-0149__main__21"/>deathly<seg xml:id="C30_app222-fMS_end"/>coldness of the <seg xml:id="C30_app224-fMS_start"/>body<seg xml:id="C30_app224-fMS_end"/>told <seg xml:id="C30_app226-fMS_start"/>me<seg xml:id="C30_app226-fMS_end"/>that <lb n="c57-0149__main__22"/>what I now held in my arms had <lb n="c57-0149__main__23"/>ceased to be the Elizabeth whom I <lb n="c57-0149__main__24"/>had loved &amp; <seg xml:id="C30_app228-fMS_start"/>cherished,<seg xml:id="C30_app228-fMS_end"/>the murderous <seg xml:id="C30_app230-fMS_start"/>
-            <lb n="c57-0149__main__25"/>grasp<seg xml:id="C30_app230-fMS_end"/>of the <seg xml:id="C30_app232-fMS_start"/>fiend<seg xml:id="C30_app232-fMS_end"/>was on her <seg xml:id="C30_app234-fMS_start"/>neck<seg xml:id="C30_app234-fMS_end"/>
-            <lb n="c57-0149__main__26"/>&amp; the breath had ceased to issue from <lb n="c57-0149__main__27"/>her <seg xml:id="C30_app236-fMS_start"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0149__main__d4e27950"/>sweet<del ana="end"/> lips. <milestone unit="tei:p-END"/>
+                  xml:id="c57-0149__main__d4e27917">h</del> a
+        <seg xml:id="C30_app211-fMS_end"/>
+            <seg xml:id="C30_app212-fMS_start"/>
+        hankerchief
+        <seg xml:id="C30_app212-fMS_end"/>
+    thrown across <lb n="c57-0149__main__18"/>her face &amp; 
+        <seg xml:id="C30_app214-fMS_start"/>
+        neck
+        <seg xml:id="C30_app214-fMS_end"/>
+    I might have <w ana="start"/>sup<lb n="c57-0149__main__19"/>posed<w ana="end"/> her 
+        <seg xml:id="C30_app216-fMS_start"/>
+        asleep –
+        <seg xml:id="C30_app216-fMS_end"/>
+    I rushed 
+        <seg xml:id="C30_app218-fMS_start"/>
+        toward <sga-add place="intralinear" th:sID="c57-0149__main__d4e27929"/>s <sga-add th:eID="c57-0149__main__d4e27929"/> her &amp;<lb n="c57-0149__main__20"/>embraced
+        <seg xml:id="C30_app218-fMS_end"/>
+    her with 
+        <seg xml:id="C30_app220-fMS_start"/>
+        ardour
+        <seg xml:id="C30_app220-fMS_end"/>
+    but the 
+        <seg xml:id="C30_app222-fMS_start"/>
+            <lb n="c57-0149__main__21"/>deathly
+        <seg xml:id="C30_app222-fMS_end"/>
+    coldness of the 
+        <seg xml:id="C30_app224-fMS_start"/>
+        body
+        <seg xml:id="C30_app224-fMS_end"/>
+    told 
+        <seg xml:id="C30_app226-fMS_start"/>
+        me
+        <seg xml:id="C30_app226-fMS_end"/>
+    that <lb n="c57-0149__main__22"/>what I now held in my arms had <lb n="c57-0149__main__23"/>ceased to be the Elizabeth whom I <lb n="c57-0149__main__24"/>had loved &amp; 
+        <seg xml:id="C30_app228-fMS_start"/>
+        cherished,
+        <seg xml:id="C30_app228-fMS_end"/>
+    the murderous 
+        <seg xml:id="C30_app230-fMS_start"/>
+            <lb n="c57-0149__main__25"/>grasp
+        <seg xml:id="C30_app230-fMS_end"/>
+    of the 
+        <seg xml:id="C30_app232-fMS_start"/>
+        fiend
+        <seg xml:id="C30_app232-fMS_end"/>
+    was on her 
+        <seg xml:id="C30_app234-fMS_start"/>
+        neck
+        <seg xml:id="C30_app234-fMS_end"/>
+            <lb n="c57-0149__main__26"/>&amp; the breath had ceased to issue from <lb n="c57-0149__main__27"/>her 
+        <seg xml:id="C30_app236-fMS_start"/>
+            <del rend="strikethrough" xml:id="c57-0149__main__d4e27950">sweet</del> lips. <milestone unit="tei:p-END"/>
             <milestone unit="tei:p-START"/>
-            <lb n="c57-0149__main__28"/>While I still<seg xml:id="C30_app236-fMS_end"/>
-            <seg xml:id="C30_app237-fMS_start"/>held<seg xml:id="C30_app237-fMS_end"/>her <seg xml:id="C30_app239-fMS_start"/>in my arms <lb n="c57-0149__main__29"/>in the agony of<seg xml:id="C30_app239-fMS_end"/>
-            <seg xml:id="C30_app240-fMS_start"/>despair<seg xml:id="C30_app240-fMS_end"/>I happened to <lb n="c57-0149__main__30"/>look up. <seg xml:id="C30_app242-fMS_start"/>The room <del ana="start" rend="strikethrough" xml:id="c57-0149__main__d4e27962"/>which<del ana="end"/>
-            <seg xml:id="C30_app242-fMS_end"/>had before <lb n="c57-0149__main__31"/>been <seg xml:id="C30_app244-fMS_start"/>quite dark<seg xml:id="C30_app244-fMS_end"/>and I felt a kind of <lb n="c57-0149__main__32"/>panic on seeing the pale yellow light <lb n="c57-0149__main__33"/>of the moon illuminate the <seg xml:id="C30_app246-fMS_start"/>chamber<seg xml:id="C30_app246-fMS_end"/>
-            <lb n="c57-0150__main__1"/>the shutters had been thrown <seg xml:id="C30_app248-fMS_start"/>back and<seg xml:id="C30_app248-fMS_end"/>with <lb n="c57-0150__main__2"/>a sensation of horror not to be <seg xml:id="C30_app250-fMS_start"/>described<seg xml:id="C30_app250-fMS_end"/>I <lb n="c57-0150__main__3"/>saw at the open window a figure the most <lb n="c57-0150__main__4"/>hideous &amp; <seg xml:id="C30_app252-fMS_start"/>abhorred –<seg xml:id="C30_app252-fMS_end"/>A grin was on the face <lb n="c57-0150__main__5"/>of the <seg xml:id="C30_app254-fMS_start"/>monster. <mod th:sID="c57-0150__main__d4e27990"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0150__main__d4e27992"/>that<del ana="end"/>
+            <lb n="c57-0149__main__28"/>While I still
+        <seg xml:id="C30_app236-fMS_end"/>
+            <seg xml:id="C30_app237-fMS_start"/>
+        held
+        <seg xml:id="C30_app237-fMS_end"/>
+    her 
+        <seg xml:id="C30_app239-fMS_start"/>
+        in my arms <lb n="c57-0149__main__29"/>in the agony of
+        <seg xml:id="C30_app239-fMS_end"/>
+            <seg xml:id="C30_app240-fMS_start"/>
+        despair
+        <seg xml:id="C30_app240-fMS_end"/>
+    I happened to <lb n="c57-0149__main__30"/>look up. 
+        <seg xml:id="C30_app242-fMS_start"/>
+        The room <del rend="strikethrough" xml:id="c57-0149__main__d4e27962">which</del>
+            <seg xml:id="C30_app242-fMS_end"/>
+    had before <lb n="c57-0149__main__31"/>been 
+        <seg xml:id="C30_app244-fMS_start"/>
+        quite dark
+        <seg xml:id="C30_app244-fMS_end"/>
+    and I felt a kind of <lb n="c57-0149__main__32"/>panic on seeing the pale yellow light <lb n="c57-0149__main__33"/>of the moon illuminate the 
+        <seg xml:id="C30_app246-fMS_start"/>
+        chamber
+        <seg xml:id="C30_app246-fMS_end"/>
+            <lb n="c57-0150__main__1"/>the shutters had been thrown 
+        <seg xml:id="C30_app248-fMS_start"/>
+        back and
+        <seg xml:id="C30_app248-fMS_end"/>
+    with <lb n="c57-0150__main__2"/>a sensation of horror not to be 
+        <seg xml:id="C30_app250-fMS_start"/>
+        described
+        <seg xml:id="C30_app250-fMS_end"/>
+    I <lb n="c57-0150__main__3"/>saw at the open window a figure the most <lb n="c57-0150__main__4"/>hideous &amp; 
+        <seg xml:id="C30_app252-fMS_start"/>
+        abhorred –
+        <seg xml:id="C30_app252-fMS_end"/>
+    A grin was on the face <lb n="c57-0150__main__5"/>of the 
+        <seg xml:id="C30_app254-fMS_start"/>
+        monster. <mod th:sID="c57-0150__main__d4e27990"/>
+            <del rend="strikethrough" xml:id="c57-0150__main__d4e27992">that</del>
             <seg xml:id="C30_app254-fMS_end"/>
             <sga-add place="superlinear" th:sID="c57-0150__main__d4e27995"/>he <sga-add th:eID="c57-0150__main__d4e27995"/>
-            <mod th:eID="c57-0150__main__d4e27990"/>seemed to <seg xml:id="C30_app257-fMS_start"/>jeer<seg xml:id="C30_app257-fMS_end"/>as with <lb n="c57-0150__main__6"/>his fiendish finger he pointed towards the <lb n="c57-0150__main__7"/>corpse of my <seg xml:id="C30_app259-fMS_start"/>wife—I<seg xml:id="C30_app259-fMS_end"/>rushed towards the <seg xml:id="C30_app261-fMS_start"/>window<seg xml:id="C30_app261-fMS_end"/>
-            <lb n="c57-0150__main__8"/>and drawing a pistol from my <seg xml:id="C30_app263-fMS_start"/>bosom –shot–<seg xml:id="C30_app263-fMS_end"/>
-            <lb n="c57-0150__main__9"/>but <sga-add hand="#pbs" place="intralinear" th:sID="c57-0150__main__d4e28007"/>he <sga-add th:eID="c57-0150__main__d4e28007"/>eluded <seg xml:id="C30_app266-fMS_start"/>me – <del ana="start" rend="strikethrough" xml:id="c57-0150__main__d4e28011"/>he<del ana="end"/> leapt<seg xml:id="C30_app266-fMS_end"/>from his <seg xml:id="C30_app268-fMS_start"/>station <lb n="c57-0150__main__10"/>and <del ana="start" rend="strikethrough" xml:id="c57-0150__main__d4e28016"/>run<del ana="end"/>
-            <seg xml:id="C30_app268-fMS_end"/>running with <seg xml:id="C30_app270-fMS_start"/>
+            <mod th:eID="c57-0150__main__d4e27990"/>seemed to 
+        <seg xml:id="C30_app257-fMS_start"/>
+        jeer
+        <seg xml:id="C30_app257-fMS_end"/>
+    as with <lb n="c57-0150__main__6"/>his fiendish finger he pointed towards the <lb n="c57-0150__main__7"/>corpse of my 
+        <seg xml:id="C30_app259-fMS_start"/>
+        wife—I
+        <seg xml:id="C30_app259-fMS_end"/>
+    rushed towards the 
+        <seg xml:id="C30_app261-fMS_start"/>
+        window
+        <seg xml:id="C30_app261-fMS_end"/>
+            <lb n="c57-0150__main__8"/>and drawing a pistol from my 
+        <seg xml:id="C30_app263-fMS_start"/>
+        bosom –shot–
+        <seg xml:id="C30_app263-fMS_end"/>
+            <lb n="c57-0150__main__9"/>but <sga-add hand="#pbs" place="intralinear" th:sID="c57-0150__main__d4e28007"/>he <sga-add th:eID="c57-0150__main__d4e28007"/>eluded 
+        <seg xml:id="C30_app266-fMS_start"/>
+        me – <del rend="strikethrough" xml:id="c57-0150__main__d4e28011">he</del> leapt
+        <seg xml:id="C30_app266-fMS_end"/>
+    from his 
+        <seg xml:id="C30_app268-fMS_start"/>
+        station <lb n="c57-0150__main__10"/>and <del rend="strikethrough" xml:id="c57-0150__main__d4e28016">run</del>
+            <seg xml:id="C30_app268-fMS_end"/>
+    running with 
+        <seg xml:id="C30_app270-fMS_start"/>
             <mod th:sID="c57-0150__main__d4e28019"/>
             <sga-add place="sublinear" th:sID="c57-0150__main__d4e28021"/>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            <metamark function="insert">^</metamark>
             <sga-add th:eID="c57-0150__main__d4e28021"/>
-            <sga-add hand="#pbs" place="superlinear" th:sID="c57-0150__main__d4e28027"/>the<seg xml:id="C30_app270-fMS_end"/>
+            <sga-add hand="#pbs" place="superlinear" th:sID="c57-0150__main__d4e28027"/>the
+        <seg xml:id="C30_app270-fMS_end"/>
             <sga-add th:eID="c57-0150__main__d4e28027"/>
-            <mod th:eID="c57-0150__main__d4e28019"/>swiftness of <seg xml:id="C30_app272-fMS_start"/>lightning<seg xml:id="C30_app272-fMS_end"/>
-            <lb n="c57-0150__main__11"/>plunged <seg xml:id="C30_app274-fMS_start"/>in to the lake.<seg xml:id="C30_app274-fMS_end"/>The report of <seg xml:id="C30_app276-fMS_start"/>my<seg xml:id="C30_app276-fMS_end"/>
-            <lb n="c57-0150__main__12"/>pistol brought a <seg xml:id="C30_app278-fMS_start"/>crow <del ana="start" rend="strikethrough" xml:id="c57-0150__main__d4e28036"/>e<del ana="end"/> d<seg xml:id="C30_app278-fMS_end"/>into the <seg xml:id="C30_app280-fMS_start"/>room <lb n="c57-0150__main__13"/>I pointed to<seg xml:id="C30_app280-fMS_end"/>where he had <seg xml:id="C30_app282-fMS_start"/>disappeared &amp;<lb n="c57-0150__main__14"/>we<seg xml:id="C30_app282-fMS_end"/>followed <seg xml:id="C30_app284-fMS_start"/>him<seg xml:id="C30_app284-fMS_end"/>with <seg xml:id="C30_app286-fMS_start"/>boats &amp; cast nets<seg xml:id="C30_app286-fMS_end"/>
-            <lb n="c57-0150__main__15"/>but in <seg xml:id="C30_app288-fMS_start"/>vain and<seg xml:id="C30_app288-fMS_end"/>passing several <seg xml:id="C30_app290-fMS_start"/>hours <lb n="c57-0150__main__16"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0150__main__d4e28047"/>re<del ana="end"/> in the search<seg xml:id="C30_app290-fMS_end"/>returned <seg xml:id="C30_app292-fMS_start"/>hopeless – <mod th:sID="c57-0150__main__d4e28051"/>
-            <mdel ana="start"/>m<mdel ana="end"/>
+            <mod th:eID="c57-0150__main__d4e28019"/>swiftness of 
+        <seg xml:id="C30_app272-fMS_start"/>
+        lightning
+        <seg xml:id="C30_app272-fMS_end"/>
+            <lb n="c57-0150__main__11"/>plunged 
+        <seg xml:id="C30_app274-fMS_start"/>
+        in to the lake.
+        <seg xml:id="C30_app274-fMS_end"/>
+    The report of 
+        <seg xml:id="C30_app276-fMS_start"/>
+        my
+        <seg xml:id="C30_app276-fMS_end"/>
+            <lb n="c57-0150__main__12"/>pistol brought a 
+        <seg xml:id="C30_app278-fMS_start"/>
+        crow <del rend="strikethrough" xml:id="c57-0150__main__d4e28036">e</del> d
+        <seg xml:id="C30_app278-fMS_end"/>
+    into the 
+        <seg xml:id="C30_app280-fMS_start"/>
+        room <lb n="c57-0150__main__13"/>I pointed to
+        <seg xml:id="C30_app280-fMS_end"/>
+    where he had 
+        <seg xml:id="C30_app282-fMS_start"/>
+        disappeared &amp;<lb n="c57-0150__main__14"/>we
+        <seg xml:id="C30_app282-fMS_end"/>
+    followed 
+        <seg xml:id="C30_app284-fMS_start"/>
+        him
+        <seg xml:id="C30_app284-fMS_end"/>
+    with 
+        <seg xml:id="C30_app286-fMS_start"/>
+        boats &amp; cast nets
+        <seg xml:id="C30_app286-fMS_end"/>
+            <lb n="c57-0150__main__15"/>but in 
+        <seg xml:id="C30_app288-fMS_start"/>
+        vain and
+        <seg xml:id="C30_app288-fMS_end"/>
+    passing several 
+        <seg xml:id="C30_app290-fMS_start"/>
+        hours <lb n="c57-0150__main__16"/>
+            <del rend="strikethrough" xml:id="c57-0150__main__d4e28047">re</del> in the search
+        <seg xml:id="C30_app290-fMS_end"/>
+    returned 
+        <seg xml:id="C30_app292-fMS_start"/>
+        hopeless – <mod th:sID="c57-0150__main__d4e28051"/>
+            <mdel>m</mdel>
             <sga-add place="intralinear" th:sID="c57-0150__main__d4e28055"/>M <sga-add th:eID="c57-0150__main__d4e28055"/>
-            <mod th:eID="c57-0150__main__d4e28051"/> ost<seg xml:id="C30_app292-fMS_end"/>
-            <lb n="c57-0150__main__17"/>of my companions <seg xml:id="C30_app294-fMS_start"/>believeing<seg xml:id="C30_app294-fMS_end"/>
-            <seg xml:id="C30_app295-fMS_start"/>it to have <lb n="c57-0150__main__18"/>been a form conjured<seg xml:id="C30_app295-fMS_end"/>by my fancy. <seg xml:id="C30_app297-fMS_start"/>
-            <w ana="start"/>How<lb n="c57-0150__main__19"/>ever<w ana="end"/> after having<seg xml:id="C30_app297-fMS_end"/>
+            <mod th:eID="c57-0150__main__d4e28051"/> ost
+        <seg xml:id="C30_app292-fMS_end"/>
+            <lb n="c57-0150__main__17"/>of my companions 
+        <seg xml:id="C30_app294-fMS_start"/>
+        believeing
+        <seg xml:id="C30_app294-fMS_end"/>
+            <seg xml:id="C30_app295-fMS_start"/>
+        it to have <lb n="c57-0150__main__18"/>been a form conjured
+        <seg xml:id="C30_app295-fMS_end"/>
+    by my fancy. 
+        <seg xml:id="C30_app297-fMS_start"/>
+            <w ana="start"/>How<lb n="c57-0150__main__19"/>ever<w ana="end"/> after having
+        <seg xml:id="C30_app297-fMS_end"/>
             <seg xml:id="C30_app298-fMS_start"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0150__main__d4e28070"/>quitte<del ana="end"/> landed<seg xml:id="C30_app298-fMS_end"/>they <w ana="start"/>pro<lb n="c57-0150__main__20"/>ceeded<w ana="end"/> to search the <seg xml:id="C30_app300-fMS_start"/>country <del ana="start" rend="strikethrough" xml:id="c57-0150__main__d4e28079"/>goin<del ana="end"/> parties <lb n="c57-0150__main__21"/>going in different directions among the <lb n="c57-0150__main__22"/>woods &amp; vines.<seg xml:id="C30_app300-fMS_end"/>I <seg xml:id="C30_app302-fMS_start"/>did not<seg xml:id="C30_app302-fMS_end"/>accompany <seg xml:id="C30_app304-fMS_start"/>them <lb n="c57-0150__main__23"/>
+            <del rend="strikethrough" xml:id="c57-0150__main__d4e28070">quitte</del> landed
+        <seg xml:id="C30_app298-fMS_end"/>
+    they <w ana="start"/>pro<lb n="c57-0150__main__20"/>ceeded<w ana="end"/> to search the 
+        <seg xml:id="C30_app300-fMS_start"/>
+        country <del rend="strikethrough" xml:id="c57-0150__main__d4e28079">goin</del> parties <lb n="c57-0150__main__21"/>going in different directions among the <lb n="c57-0150__main__22"/>woods &amp; vines.
+        <seg xml:id="C30_app300-fMS_end"/>
+    I 
+        <seg xml:id="C30_app302-fMS_start"/>
+        did not
+        <seg xml:id="C30_app302-fMS_end"/>
+    accompany 
+        <seg xml:id="C30_app304-fMS_start"/>
+        them <lb n="c57-0150__main__23"/>
             <delSpan rend="strikethrough" spanTo="#c57-0150.01"/>for the exhaustion that now seized on <lb n="c57-0150__main__24"/>me <delSpan anchor="c57-0150.01"/>
-            <seg xml:id="C30_app304-fMS_end"/>I <seg xml:id="C30_app306-fMS_start"/>was exhausted;<seg xml:id="C30_app306-fMS_end"/>a film covered my <seg xml:id="C30_app308-fMS_start"/>
-            <lb n="c57-0150__main__25"/>eyes<seg xml:id="C30_app308-fMS_end"/>and my <seg xml:id="C30_app310-fMS_start"/>
+            <seg xml:id="C30_app304-fMS_end"/>
+    I 
+        <seg xml:id="C30_app306-fMS_start"/>
+        was exhausted;
+        <seg xml:id="C30_app306-fMS_end"/>
+    a film covered my 
+        <seg xml:id="C30_app308-fMS_start"/>
+            <lb n="c57-0150__main__25"/>eyes
+        <seg xml:id="C30_app308-fMS_end"/>
+    and my 
+        <seg xml:id="C30_app310-fMS_start"/>
             <sga-add hand="#pbs" place="intralinear" th:sID="c57-0150__main__d4e28098"/>s <sga-add th:eID="c57-0150__main__d4e28098"/>kin <mod th:sID="c57-0150__main__d4e28101"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0150__main__d4e28103"/>burned<del ana="end"/>
+            <del rend="strikethrough" xml:id="c57-0150__main__d4e28103">burned</del>
             <seg xml:id="C30_app310-fMS_end"/>
             <sga-add place="superlinear" th:sID="c57-0150__main__d4e28106"/>was parched <sga-add th:eID="c57-0150__main__d4e28106"/>
-            <mod th:eID="c57-0150__main__d4e28101"/>with <seg xml:id="C30_app313-fMS_start"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0150__main__d4e28110"/>t<del ana="end"/> the heat <lb n="c57-0150__main__26"/>of fever. In this state I<seg xml:id="C30_app313-fMS_end"/>
-            <seg xml:id="C30_app314-fMS_start"/>lay<seg xml:id="C30_app314-fMS_end"/>on a <seg xml:id="C30_app316-fMS_start"/>bed<seg xml:id="C30_app316-fMS_end"/>hardly <lb n="c57-0150__main__27"/>conscious of what had <seg xml:id="C30_app318-fMS_start"/>happened &amp;<seg xml:id="C30_app318-fMS_end"/>my eyes <lb n="c57-0150__main__28"/>wandered round the <seg xml:id="C30_app320-fMS_start"/>room<seg xml:id="C30_app320-fMS_end"/>as if to seek <seg xml:id="C30_app322-fMS_start"/>
-            <lb n="c57-0150__main__29"/>somthing that I had lost.<seg xml:id="C30_app322-fMS_end"/>
-            <seg xml:id="C30_app323-fMS_start"/>At length<seg xml:id="C30_app323-fMS_end"/>I <seg xml:id="C30_app325-fMS_start"/>
-            <w ana="start"/>remem<lb n="c57-0150__main__30"/>bered<w ana="end"/> that my father would anxiously <lb n="c57-0150__main__31"/>expect<seg xml:id="C30_app325-fMS_end"/>the <seg xml:id="C30_app327-fMS_start"/>return<seg xml:id="C30_app327-fMS_end"/>of <seg xml:id="C30_app329-fMS_start"/>Elizabeth &amp; myself <lb n="c57-0150__main__32"/>and that I must return alone. This <lb n="c57-0150__main__33"/>reflection brought<seg xml:id="C30_app329-fMS_end"/>tears <seg xml:id="C30_app331-fMS_start"/>into my eyes &amp; I <lb n="c57-0150__main__34"/>wept for a long time. I reflected o <mod th:sID="c57-0150__main__d4e28140"/>
+            <mod th:eID="c57-0150__main__d4e28101"/>with 
+        <seg xml:id="C30_app313-fMS_start"/>
+            <del rend="strikethrough" xml:id="c57-0150__main__d4e28110">t</del> the heat <lb n="c57-0150__main__26"/>of fever. In this state I
+        <seg xml:id="C30_app313-fMS_end"/>
+            <seg xml:id="C30_app314-fMS_start"/>
+        lay
+        <seg xml:id="C30_app314-fMS_end"/>
+    on a 
+        <seg xml:id="C30_app316-fMS_start"/>
+        bed
+        <seg xml:id="C30_app316-fMS_end"/>
+    hardly <lb n="c57-0150__main__27"/>conscious of what had 
+        <seg xml:id="C30_app318-fMS_start"/>
+        happened &amp;
+        <seg xml:id="C30_app318-fMS_end"/>
+    my eyes <lb n="c57-0150__main__28"/>wandered round the 
+        <seg xml:id="C30_app320-fMS_start"/>
+        room
+        <seg xml:id="C30_app320-fMS_end"/>
+    as if to seek 
+        <seg xml:id="C30_app322-fMS_start"/>
+            <lb n="c57-0150__main__29"/>somthing that I had lost.
+        <seg xml:id="C30_app322-fMS_end"/>
+            <seg xml:id="C30_app323-fMS_start"/>
+        At length
+        <seg xml:id="C30_app323-fMS_end"/>
+    I 
+        <seg xml:id="C30_app325-fMS_start"/>
+            <w ana="start"/>remem<lb n="c57-0150__main__30"/>bered<w ana="end"/> that my father would anxiously <lb n="c57-0150__main__31"/>expect
+        <seg xml:id="C30_app325-fMS_end"/>
+    the 
+        <seg xml:id="C30_app327-fMS_start"/>
+        return
+        <seg xml:id="C30_app327-fMS_end"/>
+    of 
+        <seg xml:id="C30_app329-fMS_start"/>
+        Elizabeth &amp; myself <lb n="c57-0150__main__32"/>and that I must return alone. This <lb n="c57-0150__main__33"/>reflection brought
+        <seg xml:id="C30_app329-fMS_end"/>
+    tears 
+        <seg xml:id="C30_app331-fMS_start"/>
+        into my eyes &amp; I <lb n="c57-0150__main__34"/>wept for a long time. I reflected o <mod th:sID="c57-0150__main__d4e28140"/>
             <mdel/>
             <sga-add place="intralinear" th:sID="c57-0150__main__d4e28147"/>n <sga-add th:eID="c57-0150__main__d4e28147"/>
             <mod th:eID="c57-0150__main__d4e28140"/>
-            <seg xml:id="C30_app331-fMS_end"/>my <seg xml:id="C30_app333-fMS_start"/>
-            <lb n="c57-0150__main__35"/>misfortunes<seg xml:id="C30_app333-fMS_end"/>&amp; their <seg xml:id="C30_app335-fMS_start"/>cause and<seg xml:id="C30_app335-fMS_end"/>was bewildered <lb n="c57-0150__main__36"/>in a cloud of wonder and horror. The <lb n="c57-0151__main__1"/>death of William, the execution of <seg xml:id="C30_app337-fMS_start"/>Justine<seg xml:id="C30_app337-fMS_end"/>
-            <lb n="c57-0151__main__2"/>the murder of <seg xml:id="C30_app339-fMS_start"/>Cl <mod th:sID="c57-0151__main__d4e28167"/>
-            <mdel ana="start"/>ai<mdel ana="end"/>
+            <seg xml:id="C30_app331-fMS_end"/>
+    my 
+        <seg xml:id="C30_app333-fMS_start"/>
+            <lb n="c57-0150__main__35"/>misfortunes
+        <seg xml:id="C30_app333-fMS_end"/>
+    &amp; their 
+        <seg xml:id="C30_app335-fMS_start"/>
+        cause and
+        <seg xml:id="C30_app335-fMS_end"/>
+    was bewildered <lb n="c57-0150__main__36"/>in a cloud of wonder and horror. The <lb n="c57-0151__main__1"/>death of William, the execution of 
+        <seg xml:id="C30_app337-fMS_start"/>
+        Justine
+        <seg xml:id="C30_app337-fMS_end"/>
+            <lb n="c57-0151__main__2"/>the murder of 
+        <seg xml:id="C30_app339-fMS_start"/>
+        Cl <mod th:sID="c57-0151__main__d4e28167"/>
+            <mdel>ai</mdel>
             <sga-add place="superlinear" th:sID="c57-0151__main__d4e28171"/>e <sga-add th:eID="c57-0151__main__d4e28171"/>
-            <mod th:eID="c57-0151__main__d4e28167"/> rval<seg xml:id="C30_app339-fMS_end"/>&amp; <seg xml:id="C30_app341-fMS_start"/>now<seg xml:id="C30_app341-fMS_end"/>of my <seg xml:id="C30_app343-fMS_start"/>wife –<seg xml:id="C30_app343-fMS_end"/>even <lb n="c57-0151__main__3"/>
+            <mod th:eID="c57-0151__main__d4e28167"/> rval
+        <seg xml:id="C30_app339-fMS_end"/>
+    &amp; 
+        <seg xml:id="C30_app341-fMS_start"/>
+        now
+        <seg xml:id="C30_app341-fMS_end"/>
+    of my 
+        <seg xml:id="C30_app343-fMS_start"/>
+        wife –
+        <seg xml:id="C30_app343-fMS_end"/>
+    even <lb n="c57-0151__main__3"/>
             <anchor xml:id="c57-0151.01"/>
             <lb n="c57-0151__left_margin__1"/>
-            <sga-add th:sID="c57-0151__left_margin__d4e28184"/>at <sga-add th:eID="c57-0151__left_margin__d4e28184"/>that moment I knew not that my <seg xml:id="C30_app345-fMS_start"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0151__main__d4e28187"/>my<del ana="end"/> only <lb n="c57-0151__main__4"/>remaining friends were safe from the malignity <lb n="c57-0151__main__5"/>of the<seg xml:id="C30_app345-fMS_end"/>
-            <seg xml:id="C30_app346-fMS_start"/>fiend –<seg xml:id="C30_app346-fMS_end"/>my father even now might be <lb n="c57-0151__main__6"/>writhing under his <seg xml:id="C30_app348-fMS_start"/>grasp<seg xml:id="C30_app348-fMS_end"/>&amp; Ernest might be <lb n="c57-0151__main__7"/>dead at his <seg xml:id="C30_app350-fMS_start"/>feet –<seg xml:id="C30_app350-fMS_end"/>This <seg xml:id="C30_app352-fMS_start"/>reflection<seg xml:id="C30_app352-fMS_end"/>made me <seg xml:id="C30_app354-fMS_start"/>
-            <lb n="c57-0151__main__8"/>shudder<seg xml:id="C30_app354-fMS_end"/>and recalled me to action. <seg xml:id="C30_app356-fMS_start"/>
-            <del ana="start"
-                  instant="true"
+            <sga-add th:sID="c57-0151__left_margin__d4e28184"/>at <sga-add th:eID="c57-0151__left_margin__d4e28184"/>that moment I knew not that my 
+        <seg xml:id="C30_app345-fMS_start"/>
+            <del rend="strikethrough" xml:id="c57-0151__main__d4e28187">my</del> only <lb n="c57-0151__main__4"/>remaining friends were safe from the malignity <lb n="c57-0151__main__5"/>of the
+        <seg xml:id="C30_app345-fMS_end"/>
+            <seg xml:id="C30_app346-fMS_start"/>
+        fiend –
+        <seg xml:id="C30_app346-fMS_end"/>
+    my father even now might be <lb n="c57-0151__main__6"/>writhing under his 
+        <seg xml:id="C30_app348-fMS_start"/>
+        grasp
+        <seg xml:id="C30_app348-fMS_end"/>
+    &amp; Ernest might be <lb n="c57-0151__main__7"/>dead at his 
+        <seg xml:id="C30_app350-fMS_start"/>
+        feet –
+        <seg xml:id="C30_app350-fMS_end"/>
+    This 
+        <seg xml:id="C30_app352-fMS_start"/>
+        reflection
+        <seg xml:id="C30_app352-fMS_end"/>
+    made me 
+        <seg xml:id="C30_app354-fMS_start"/>
+            <lb n="c57-0151__main__8"/>shudder
+        <seg xml:id="C30_app354-fMS_end"/>
+    and recalled me to action. 
+        <seg xml:id="C30_app356-fMS_start"/>
+            <del instant="true"
                   rend="strikethrough"
-                  xml:id="c57-0151__main__d4e28201"/>I sta<del ana="end"/> I <lb n="c57-0151__main__9"/>started<seg xml:id="C30_app356-fMS_end"/>
-            <seg xml:id="C30_app357-fMS_start"/>up<seg xml:id="C30_app357-fMS_end"/>&amp; resolved to return to Geneva <lb n="c57-0151__main__10"/>with <seg xml:id="C30_app359-fMS_start"/>
+                  xml:id="c57-0151__main__d4e28201">I sta</del> I <lb n="c57-0151__main__9"/>started
+        <seg xml:id="C30_app356-fMS_end"/>
+            <seg xml:id="C30_app357-fMS_start"/>
+        up
+        <seg xml:id="C30_app357-fMS_end"/>
+    &amp; resolved to return to Geneva <lb n="c57-0151__main__10"/>with 
+        <seg xml:id="C30_app359-fMS_start"/>
             <mod th:sID="c57-0151__main__d4e28208"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0151__main__d4e28210"/>every<del ana="end"/>
-            <sga-add hand="#pbs" place="superlinear" th:sID="c57-0151__main__d4e28213"/>all<seg xml:id="C30_app359-fMS_end"/>
+            <del rend="strikethrough" xml:id="c57-0151__main__d4e28210">every</del>
+            <sga-add hand="#pbs" place="superlinear" th:sID="c57-0151__main__d4e28213"/>all
+        <seg xml:id="C30_app359-fMS_end"/>
             <seg xml:id="C30_app360-fMS_start"/>
             <sga-add th:eID="c57-0151__main__d4e28213"/>
-            <mod th:eID="c57-0151__main__d4e28208"/> possible speed.<seg xml:id="C30_app360-fMS_end"/>There were no horses <lb n="c57-0151__main__11"/>to be <seg xml:id="C30_app362-fMS_start"/>procured<seg xml:id="C30_app362-fMS_end"/>and I must return by the <seg xml:id="C30_app364-fMS_start"/>
-            <lb n="c57-0151__main__12"/>lake<seg xml:id="C30_app364-fMS_end"/>but the wind was <seg xml:id="C30_app366-fMS_start"/>
+            <mod th:eID="c57-0151__main__d4e28208"/> possible speed.
+        <seg xml:id="C30_app360-fMS_end"/>
+    There were no horses <lb n="c57-0151__main__11"/>to be 
+        <seg xml:id="C30_app362-fMS_start"/>
+        procured
+        <seg xml:id="C30_app362-fMS_end"/>
+    and I must return by the 
+        <seg xml:id="C30_app364-fMS_start"/>
+            <lb n="c57-0151__main__12"/>lake
+        <seg xml:id="C30_app364-fMS_end"/>
+    but the wind was 
+        <seg xml:id="C30_app366-fMS_start"/>
             <mod th:sID="c57-0151__main__d4e28222"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0151__main__d4e28224"/>now<del ana="end"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0151__main__d4e28227"/>against me<del ana="end"/>
-            <sga-add hand="#pbs" place="superlinear" th:sID="c57-0151__main__d4e28230"/>unfavourable<seg xml:id="C30_app366-fMS_end"/>
+            <del rend="strikethrough" xml:id="c57-0151__main__d4e28224">now</del>
+            <del rend="strikethrough" xml:id="c57-0151__main__d4e28227">against me</del>
+            <sga-add hand="#pbs" place="superlinear" th:sID="c57-0151__main__d4e28230"/>unfavourable
+        <seg xml:id="C30_app366-fMS_end"/>
             <sga-add th:eID="c57-0151__main__d4e28230"/>
             <mod th:eID="c57-0151__main__d4e28222"/>
-            <lb n="c57-0151__main__13"/>and the rain fell in torrents. <seg xml:id="C30_app368-fMS_start"/>It was however<seg xml:id="C30_app368-fMS_end"/>
-            <lb n="c57-0151__main__14"/>hardly <seg xml:id="C30_app370-fMS_start"/>yet morning<seg xml:id="C30_app370-fMS_end"/>and I <seg xml:id="C30_app372-fMS_start"/>
+            <lb n="c57-0151__main__13"/>and the rain fell in torrents. 
+        <seg xml:id="C30_app368-fMS_start"/>
+        It was however
+        <seg xml:id="C30_app368-fMS_end"/>
+            <lb n="c57-0151__main__14"/>hardly 
+        <seg xml:id="C30_app370-fMS_start"/>
+        yet morning
+        <seg xml:id="C30_app370-fMS_end"/>
+    and I 
+        <seg xml:id="C30_app372-fMS_start"/>
             <mod th:sID="c57-0151__main__d4e28238"/>
             <sga-add place="sublinear" th:sID="c57-0151__main__d4e28240"/>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            <metamark function="insert">^</metamark>
             <sga-add th:eID="c57-0151__main__d4e28240"/>
-            <sga-add place="superlinear" th:sID="c57-0151__main__d4e28246"/>might reasonably<seg xml:id="C30_app372-fMS_end"/>
+            <sga-add place="superlinear" th:sID="c57-0151__main__d4e28246"/>might reasonably
+        <seg xml:id="C30_app372-fMS_end"/>
             <sga-add th:eID="c57-0151__main__d4e28246"/>
-            <mod th:eID="c57-0151__main__d4e28238"/>hope <seg xml:id="C30_app374-fMS_start"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0151__main__d4e28250"/>d<del ana="end"/> to arrive<seg xml:id="C30_app374-fMS_end"/>
+            <mod th:eID="c57-0151__main__d4e28238"/>hope 
+        <seg xml:id="C30_app374-fMS_start"/>
+            <del rend="strikethrough" xml:id="c57-0151__main__d4e28250">d</del> to arrive
+        <seg xml:id="C30_app374-fMS_end"/>
             <seg xml:id="C30_app375-fMS_start"/>
             <lb n="c57-0151__main__15"/>
-            <del ana="start"
-                  instant="true"
+            <del instant="true"
                   rend="strikethrough"
-                  xml:id="c57-0151__main__d4e28256"/>that ni<del ana="end"/> by<seg xml:id="C30_app375-fMS_end"/>
-            <seg xml:id="C30_app376-fMS_start"/>night –I<seg xml:id="C30_app376-fMS_end"/>hired <seg xml:id="C30_app378-fMS_start"/>a number of <lb n="c57-0151__main__16"/>men to<seg xml:id="C30_app378-fMS_end"/>
-            <seg xml:id="C30_app379-fMS_start"/>row<seg xml:id="C30_app379-fMS_end"/>and took an oar <seg xml:id="C30_app381-fMS_start"/>myself<seg xml:id="C30_app381-fMS_end"/>for <lb n="c57-0151__main__17"/>I had always <seg xml:id="C30_app383-fMS_start"/>
+                  xml:id="c57-0151__main__d4e28256">that ni</del> by
+        <seg xml:id="C30_app375-fMS_end"/>
+            <seg xml:id="C30_app376-fMS_start"/>
+        night –I
+        <seg xml:id="C30_app376-fMS_end"/>
+    hired 
+        <seg xml:id="C30_app378-fMS_start"/>
+        a number of <lb n="c57-0151__main__16"/>men to
+        <seg xml:id="C30_app378-fMS_end"/>
+            <seg xml:id="C30_app379-fMS_start"/>
+        row
+        <seg xml:id="C30_app379-fMS_end"/>
+    and took an oar 
+        <seg xml:id="C30_app381-fMS_start"/>
+        myself
+        <seg xml:id="C30_app381-fMS_end"/>
+    for <lb n="c57-0151__main__17"/>I had always 
+        <seg xml:id="C30_app383-fMS_start"/>
             <mod th:sID="c57-0151__main__d4e28263"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0151__main__d4e28265"/>felt<del ana="end"/>
+            <del rend="strikethrough" xml:id="c57-0151__main__d4e28265">felt</del>
             <sga-add place="sublinear" th:sID="c57-0151__main__d4e28268"/>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            <metamark function="insert">^</metamark>
             <sga-add th:eID="c57-0151__main__d4e28268"/>
-            <sga-add place="superlinear" th:sID="c57-0151__main__d4e28274"/>experienced<seg xml:id="C30_app383-fMS_end"/>
+            <sga-add place="superlinear" th:sID="c57-0151__main__d4e28274"/>experienced
+        <seg xml:id="C30_app383-fMS_end"/>
             <sga-add th:eID="c57-0151__main__d4e28274"/>
-            <mod th:eID="c57-0151__main__d4e28263"/>relief <seg xml:id="C30_app385-fMS_start"/>
+            <mod th:eID="c57-0151__main__d4e28263"/>relief 
+        <seg xml:id="C30_app385-fMS_start"/>
             <mod th:sID="c57-0151__main__d4e28278"/>
             <sga-add place="sublinear" th:sID="c57-0151__main__d4e28280"/>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            <metamark function="insert">^</metamark>
             <sga-add th:eID="c57-0151__main__d4e28280"/>
-            <sga-add place="superlinear" th:sID="c57-0151__main__d4e28286"/>from mental<seg xml:id="C30_app385-fMS_end"/>
+            <sga-add place="superlinear" th:sID="c57-0151__main__d4e28286"/>from mental
+        <seg xml:id="C30_app385-fMS_end"/>
             <seg xml:id="C30_app386-fMS_start"/>
             <mod th:sID="c57-0151__main__d4e28288"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0151__main__d4e28290"/>
-            <unclear ana="start" reason="illegible"/>str<unclear ana="end"/>ain<del ana="end"/>
-            <sga-add hand="#pbs" th:sID="c57-0151__main__d4e28296"/> torment<seg xml:id="C30_app386-fMS_end"/>
+            <del rend="strikethrough" xml:id="c57-0151__main__d4e28290">
+               <unclear reason="illegible">str</unclear>ain</del>
+            <sga-add hand="#pbs" th:sID="c57-0151__main__d4e28296"/> torment
+        <seg xml:id="C30_app386-fMS_end"/>
             <sga-add th:eID="c57-0151__main__d4e28296"/>
             <mod th:eID="c57-0151__main__d4e28288"/>
             <sga-add th:eID="c57-0151__main__d4e28286"/>
-            <mod th:eID="c57-0151__main__d4e28278"/>in bodily exercise. <lb n="c57-0151__main__18"/>But the overflowing misery I now <seg xml:id="C30_app388-fMS_start"/>felt<seg xml:id="C30_app388-fMS_end"/>
-            <lb n="c57-0151__main__19"/>&amp; the excess of agitation that I <seg xml:id="C30_app390-fMS_start"/>endured<seg xml:id="C30_app390-fMS_end"/>
-            <lb n="c57-0151__main__20"/>rendered me incapable of any <seg xml:id="C30_app392-fMS_start"/>exertion–I<seg xml:id="C30_app392-fMS_end"/>
-            <lb n="c57-0151__main__21"/>threw down the <seg xml:id="C30_app394-fMS_start"/>oar<seg xml:id="C30_app394-fMS_end"/>
-            <seg xml:id="C30_app395-fMS_start"/>&amp;<seg xml:id="C30_app395-fMS_end"/>leaning my head <lb n="c57-0151__main__22"/>upon my <seg xml:id="C30_app397-fMS_start"/>hands<seg xml:id="C30_app397-fMS_end"/>gave way to every <lb n="c57-0151__main__23"/>gloomy idea that <seg xml:id="C30_app399-fMS_start"/>arose—If<seg xml:id="C30_app399-fMS_end"/>I looked <seg xml:id="C30_app401-fMS_start"/>up<seg xml:id="C30_app401-fMS_end"/>
-            <lb n="c57-0151__main__24"/>I saw the scenes which were familiar <lb n="c57-0151__main__25"/>to me in my happier <seg xml:id="C30_app403-fMS_start"/>
+            <mod th:eID="c57-0151__main__d4e28278"/>in bodily exercise. <lb n="c57-0151__main__18"/>But the overflowing misery I now 
+        <seg xml:id="C30_app388-fMS_start"/>
+        felt
+        <seg xml:id="C30_app388-fMS_end"/>
+            <lb n="c57-0151__main__19"/>&amp; the excess of agitation that I 
+        <seg xml:id="C30_app390-fMS_start"/>
+        endured
+        <seg xml:id="C30_app390-fMS_end"/>
+            <lb n="c57-0151__main__20"/>rendered me incapable of any 
+        <seg xml:id="C30_app392-fMS_start"/>
+        exertion–I
+        <seg xml:id="C30_app392-fMS_end"/>
+            <lb n="c57-0151__main__21"/>threw down the 
+        <seg xml:id="C30_app394-fMS_start"/>
+        oar
+        <seg xml:id="C30_app394-fMS_end"/>
+            <seg xml:id="C30_app395-fMS_start"/>
+        &amp;
+        <seg xml:id="C30_app395-fMS_end"/>
+    leaning my head <lb n="c57-0151__main__22"/>upon my 
+        <seg xml:id="C30_app397-fMS_start"/>
+        hands
+        <seg xml:id="C30_app397-fMS_end"/>
+    gave way to every <lb n="c57-0151__main__23"/>gloomy idea that 
+        <seg xml:id="C30_app399-fMS_start"/>
+        arose—If
+        <seg xml:id="C30_app399-fMS_end"/>
+    I looked 
+        <seg xml:id="C30_app401-fMS_start"/>
+        up
+        <seg xml:id="C30_app401-fMS_end"/>
+            <lb n="c57-0151__main__24"/>I saw the scenes which were familiar <lb n="c57-0151__main__25"/>to me in my happier 
+        <seg xml:id="C30_app403-fMS_start"/>
             <mod th:sID="c57-0151__main__d4e28320"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0151__main__d4e28322"/>days<del ana="end"/>
+            <del rend="strikethrough" xml:id="c57-0151__main__d4e28322">days</del>
             <sga-add hand="#pbs" place="superlinear" th:sID="c57-0151__main__d4e28325"/>time <sga-add th:eID="c57-0151__main__d4e28325"/>
             <mod th:eID="c57-0151__main__d4e28320"/>
-            <seg xml:id="C30_app403-fMS_end"/>and which I had <lb n="c57-0151__main__26"/>contemplated but the day <seg xml:id="C30_app405-fMS_start"/>
+            <seg xml:id="C30_app403-fMS_end"/>
+    and which I had <lb n="c57-0151__main__26"/>contemplated but the day 
+        <seg xml:id="C30_app405-fMS_start"/>
             <mod th:sID="c57-0151__main__d4e28331"/>
             <sga-add place="sublinear" th:sID="c57-0151__main__d4e28333"/>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            <metamark function="insert">^</metamark>
             <sga-add th:eID="c57-0151__main__d4e28333"/>
-            <sga-add place="superlinear" th:sID="c57-0151__main__d4e28339"/>before<seg xml:id="C30_app405-fMS_end"/>
+            <sga-add place="superlinear" th:sID="c57-0151__main__d4e28339"/>before
+        <seg xml:id="C30_app405-fMS_end"/>
             <sga-add th:eID="c57-0151__main__d4e28339"/>
-            <mod th:eID="c57-0151__main__d4e28331"/>in the <w ana="start"/>compa<lb n="c57-0151__main__27"/>ny<w ana="end"/> of her who was <seg xml:id="C30_app407-fMS_start"/>
+            <mod th:eID="c57-0151__main__d4e28331"/>in the <w ana="start"/>compa<lb n="c57-0151__main__27"/>ny<w ana="end"/> of her who was 
+        <seg xml:id="C30_app407-fMS_start"/>
             <mod th:sID="c57-0151__main__d4e28350"/>
             <sga-add place="sublinear" th:sID="c57-0151__main__d4e28352"/>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            <metamark function="insert">^</metamark>
             <sga-add th:eID="c57-0151__main__d4e28352"/>
-            <sga-add place="superlinear" th:sID="c57-0151__main__d4e28358"/>now<seg xml:id="C30_app407-fMS_end"/>
+            <sga-add place="superlinear" th:sID="c57-0151__main__d4e28358"/>now
+        <seg xml:id="C30_app407-fMS_end"/>
             <sga-add th:eID="c57-0151__main__d4e28358"/>
-            <mod th:eID="c57-0151__main__d4e28350"/>but a shadow &amp; a <seg xml:id="C30_app409-fMS_start"/>
-            <lb n="c57-0151__main__28"/>recollection –<seg xml:id="C30_app409-fMS_end"/>tears streamed from my <seg xml:id="C30_app411-fMS_start"/>
+            <mod th:eID="c57-0151__main__d4e28350"/>but a shadow &amp; a 
+        <seg xml:id="C30_app409-fMS_start"/>
+            <lb n="c57-0151__main__28"/>recollection –
+        <seg xml:id="C30_app409-fMS_end"/>
+    tears streamed from my 
+        <seg xml:id="C30_app411-fMS_start"/>
             <lb n="c57-0151__main__29"/>eyes – I looked on the <mod th:sID="c57-0151__main__d4e28366"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0151__main__d4e28368"/>waters<del ana="end"/>
+            <del rend="strikethrough" xml:id="c57-0151__main__d4e28368">waters</del>
             <sga-add place="sublinear" th:sID="c57-0151__main__d4e28371"/>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            <metamark function="insert">^</metamark>
             <sga-add th:eID="c57-0151__main__d4e28371"/>
             <sga-add place="superlinear" th:sID="c57-0151__main__d4e28377"/>lake <sga-add th:eID="c57-0151__main__d4e28377"/>
             <mod th:eID="c57-0151__main__d4e28366"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0151__main__d4e28382"/>&amp; sa<del ana="end"/>
-            <seg xml:id="C30_app411-fMS_end"/>the <lb n="c57-0151__main__30"/>rain had ceased for a <seg xml:id="C30_app413-fMS_start"/>moment<seg xml:id="C30_app413-fMS_end"/>&amp; I <seg xml:id="C30_app415-fMS_start"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0151__main__d4e28387"/>saw<del ana="end"/>
-            <lb n="c57-0151__main__31"/>saw the fish play in the waters as<seg xml:id="C30_app415-fMS_end"/>
-            <seg xml:id="C30_app416-fMS_start"/>I<seg xml:id="C30_app416-fMS_end"/>
-            <lb n="c57-0151__main__32"/>had done <seg xml:id="C30_app418-fMS_start"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0151__main__d4e28398"/>the day bef<del ana="end"/> but <del ana="start" rend="strikethrough" xml:id="c57-0151__main__d4e28401"/>four<del ana="end"/> a few <lb n="c57-0151__main__33"/>hours<seg xml:id="C30_app418-fMS_end"/>
-            <seg xml:id="C30_app419-fMS_start"/>before –<seg xml:id="C30_app419-fMS_end"/>they had then been observed by <lb n="c57-0151__main__34"/>Elizabeth. Nothing is so painful to the human <lb n="c57-0151__main__35"/>mind as <seg xml:id="C30_app421-fMS_start"/>great &amp; sudden change –<seg xml:id="C30_app421-fMS_end"/>The sun <lb n="c57-0152__main__1"/>might <seg xml:id="C30_app423-fMS_start"/>shine<seg xml:id="C30_app423-fMS_end"/>or the clouds might <seg xml:id="C30_app425-fMS_start"/>lower –<seg xml:id="C30_app425-fMS_end"/>but <lb n="c57-0152__main__2"/>nothing could appear to me as it had done the <lb n="c57-0152__main__3"/>day <seg xml:id="C30_app427-fMS_start"/>before – <del ana="start" rend="strikethrough" xml:id="c57-0152__main__d4e28424"/>Eve<del ana="end"/>
-            <seg xml:id="C30_app427-fMS_end"/>A fiend had snatched from <lb n="c57-0152__main__4"/>me every hope of future <seg xml:id="C30_app429-fMS_start"/>happiness.<seg xml:id="C30_app429-fMS_end"/>No <w ana="start"/>crea<lb n="c57-0152__main__5"/>ture<w ana="end"/> had ever been so miserable as I <seg xml:id="C30_app431-fMS_start"/>was<seg xml:id="C30_app431-fMS_end"/>
-            <lb n="c57-0152__main__6"/>so frightful an event <seg xml:id="C30_app433-fMS_start"/>was<seg xml:id="C30_app433-fMS_end"/>single <seg xml:id="C30_app435-fMS_start"/>upon <lb n="c57-0152__main__7"/>earth.<seg xml:id="C30_app435-fMS_end"/>
+            <del rend="strikethrough" xml:id="c57-0151__main__d4e28382">&amp; sa</del>
+            <seg xml:id="C30_app411-fMS_end"/>
+    the <lb n="c57-0151__main__30"/>rain had ceased for a 
+        <seg xml:id="C30_app413-fMS_start"/>
+        moment
+        <seg xml:id="C30_app413-fMS_end"/>
+    &amp; I 
+        <seg xml:id="C30_app415-fMS_start"/>
+            <del rend="strikethrough" xml:id="c57-0151__main__d4e28387">saw</del>
+            <lb n="c57-0151__main__31"/>saw the fish play in the waters as
+        <seg xml:id="C30_app415-fMS_end"/>
+            <seg xml:id="C30_app416-fMS_start"/>
+        I
+        <seg xml:id="C30_app416-fMS_end"/>
+            <lb n="c57-0151__main__32"/>had done 
+        <seg xml:id="C30_app418-fMS_start"/>
+            <del rend="strikethrough" xml:id="c57-0151__main__d4e28398">the day bef</del> but <del rend="strikethrough" xml:id="c57-0151__main__d4e28401">four</del> a few <lb n="c57-0151__main__33"/>hours
+        <seg xml:id="C30_app418-fMS_end"/>
+            <seg xml:id="C30_app419-fMS_start"/>
+        before –
+        <seg xml:id="C30_app419-fMS_end"/>
+    they had then been observed by <lb n="c57-0151__main__34"/>Elizabeth. Nothing is so painful to the human <lb n="c57-0151__main__35"/>mind as 
+        <seg xml:id="C30_app421-fMS_start"/>
+        great &amp; sudden change –
+        <seg xml:id="C30_app421-fMS_end"/>
+    The sun <lb n="c57-0152__main__1"/>might 
+        <seg xml:id="C30_app423-fMS_start"/>
+        shine
+        <seg xml:id="C30_app423-fMS_end"/>
+    or the clouds might 
+        <seg xml:id="C30_app425-fMS_start"/>
+        lower –
+        <seg xml:id="C30_app425-fMS_end"/>
+    but <lb n="c57-0152__main__2"/>nothing could appear to me as it had done the <lb n="c57-0152__main__3"/>day 
+        <seg xml:id="C30_app427-fMS_start"/>
+        before – <del rend="strikethrough" xml:id="c57-0152__main__d4e28424">Eve</del>
+            <seg xml:id="C30_app427-fMS_end"/>
+    A fiend had snatched from <lb n="c57-0152__main__4"/>me every hope of future 
+        <seg xml:id="C30_app429-fMS_start"/>
+        happiness.
+        <seg xml:id="C30_app429-fMS_end"/>
+    No <w ana="start"/>crea<lb n="c57-0152__main__5"/>ture<w ana="end"/> had ever been so miserable as I 
+        <seg xml:id="C30_app431-fMS_start"/>
+        was
+        <seg xml:id="C30_app431-fMS_end"/>
+            <lb n="c57-0152__main__6"/>so frightful an event 
+        <seg xml:id="C30_app433-fMS_start"/>
+        was
+        <seg xml:id="C30_app433-fMS_end"/>
+    single 
+        <seg xml:id="C30_app435-fMS_start"/>
+        upon <lb n="c57-0152__main__7"/>earth.
+        <seg xml:id="C30_app435-fMS_end"/>
             <milestone unit="tei:p-END"/>
             <milestone unit="tei:p-START"/>
             <lb n="c57-0152__main__8"/>But why should I dwell upon the <lb n="c57-0152__main__9"/>incidents that followed this last <w ana="start"/>over<lb n="c57-0152__main__10"/>whelming<w ana="end"/>
-            <seg xml:id="C30_app437-fMS_start"/>event –<seg xml:id="C30_app437-fMS_end"/>Mine has been a tale <seg xml:id="C30_app439-fMS_start"/>
-            <lb n="c57-0152__main__11"/>horrors–<seg xml:id="C30_app439-fMS_end"/>I have <seg xml:id="C30_app441-fMS_start"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0152__main__d4e28456"/>now<del ana="end"/> reached their<seg xml:id="C30_app441-fMS_end"/>
-            <seg xml:id="C30_app442-fMS_start"/>ac <del ana="start" rend="smear" xml:id="c57-0152__main__d4e28459"/>h<del ana="end"/> me<seg xml:id="C30_app442-fMS_end"/>
-            <lb n="c57-0152__main__12"/>and what I must now relate can but <lb n="c57-0152__main__13"/>be <seg xml:id="C30_app444-fMS_start"/>
+            <seg xml:id="C30_app437-fMS_start"/>
+        event –
+        <seg xml:id="C30_app437-fMS_end"/>
+    Mine has been a tale 
+        <seg xml:id="C30_app439-fMS_start"/>
+            <lb n="c57-0152__main__11"/>horrors–
+        <seg xml:id="C30_app439-fMS_end"/>
+    I have 
+        <seg xml:id="C30_app441-fMS_start"/>
+            <del rend="strikethrough" xml:id="c57-0152__main__d4e28456">now</del> reached their
+        <seg xml:id="C30_app441-fMS_end"/>
+            <seg xml:id="C30_app442-fMS_start"/>
+        ac <del rend="smear" xml:id="c57-0152__main__d4e28459">h</del> me
+        <seg xml:id="C30_app442-fMS_end"/>
+            <lb n="c57-0152__main__12"/>and what I must now relate can but <lb n="c57-0152__main__13"/>be 
+        <seg xml:id="C30_app444-fMS_start"/>
             <mod th:sID="c57-0152__main__d4e28466"/>
             <mdel/>
             <sga-add place="intralinear" th:sID="c57-0152__main__d4e28473"/>t <sga-add th:eID="c57-0152__main__d4e28473"/>
-            <mod th:eID="c57-0152__main__d4e28466"/> edious<seg xml:id="C30_app444-fMS_end"/>to <seg xml:id="C30_app446-fMS_start"/>you now that<seg xml:id="C30_app446-fMS_end"/>one by <seg xml:id="C30_app448-fMS_start"/>one<seg xml:id="C30_app448-fMS_end"/>
-            <lb n="c57-0152__main__14"/>my friends were snatched <seg xml:id="C30_app450-fMS_start"/>away &amp;<seg xml:id="C30_app450-fMS_end"/>I was <lb n="c57-0152__main__15"/>left desolate. My own strength is <seg xml:id="C30_app452-fMS_start"/>exhausted<seg xml:id="C30_app452-fMS_end"/>
-            <lb n="c57-0152__main__16"/>&amp; I must <seg xml:id="C30_app454-fMS_start"/>tell<seg xml:id="C30_app454-fMS_end"/>in <seg xml:id="C30_app456-fMS_start"/>few words<seg xml:id="C30_app456-fMS_end"/>What remains <lb n="c57-0152__main__17"/>of my hideous narration. <milestone unit="tei:p-END"/>
+            <mod th:eID="c57-0152__main__d4e28466"/> edious
+        <seg xml:id="C30_app444-fMS_end"/>
+    to 
+        <seg xml:id="C30_app446-fMS_start"/>
+        you now that
+        <seg xml:id="C30_app446-fMS_end"/>
+    one by 
+        <seg xml:id="C30_app448-fMS_start"/>
+        one
+        <seg xml:id="C30_app448-fMS_end"/>
+            <lb n="c57-0152__main__14"/>my friends were snatched 
+        <seg xml:id="C30_app450-fMS_start"/>
+        away &amp;
+        <seg xml:id="C30_app450-fMS_end"/>
+    I was <lb n="c57-0152__main__15"/>left desolate. My own strength is 
+        <seg xml:id="C30_app452-fMS_start"/>
+        exhausted
+        <seg xml:id="C30_app452-fMS_end"/>
+            <lb n="c57-0152__main__16"/>&amp; I must 
+        <seg xml:id="C30_app454-fMS_start"/>
+        tell
+        <seg xml:id="C30_app454-fMS_end"/>
+    in 
+        <seg xml:id="C30_app456-fMS_start"/>
+        few words
+        <seg xml:id="C30_app456-fMS_end"/>
+    What remains <lb n="c57-0152__main__17"/>of my hideous narration. <milestone unit="tei:p-END"/>
             <milestone unit="tei:p-START"/>
-            <lb n="c57-0152__main__18"/>I arrived at Geneva. My <seg xml:id="C30_app458-fMS_start"/>fathe &amp;<lb n="c57-0152__main__19"/>Ernest<seg xml:id="C30_app458-fMS_end"/>yet <seg xml:id="C30_app460-fMS_start"/>lived<seg xml:id="C30_app460-fMS_end"/>but the former <seg xml:id="C30_app462-fMS_start"/>was <lb n="c57-0152__main__20"/>unable to bear<seg xml:id="C30_app462-fMS_end"/>the <seg xml:id="C30_app464-fMS_start"/>miserable tidings <lb n="c57-0152__main__21"/>that I<seg xml:id="C30_app464-fMS_end"/>
-            <seg xml:id="C30_app465-fMS_start"/>bore —<seg xml:id="C30_app465-fMS_end"/>I see him <seg xml:id="C30_app467-fMS_start"/>now<seg xml:id="C30_app467-fMS_end"/>excellent <lb n="c57-0152__main__22"/>&amp; venerable old <seg xml:id="C30_app469-fMS_start"/>man –<seg xml:id="C30_app469-fMS_end"/>his eyes wandered <lb n="c57-0152__main__23"/>in <seg xml:id="C30_app471-fMS_start"/>vacancy<seg xml:id="C30_app471-fMS_end"/>for they had lost their <lb n="c57-0152__main__24"/>charm &amp; <seg xml:id="C30_app473-fMS_start"/>delight – his neice<seg xml:id="C30_app473-fMS_end"/>his more <lb n="c57-0152__main__25"/>than <seg xml:id="C30_app475-fMS_start"/>daughter<seg xml:id="C30_app475-fMS_end"/>whom he doated on <lb n="c57-0152__main__26"/>with all <seg xml:id="C30_app477-fMS_start"/>the<seg xml:id="C30_app477-fMS_end"/>affection <seg xml:id="C30_app479-fMS_start"/>of a man<seg xml:id="C30_app479-fMS_end"/>
-            <seg xml:id="C30_app480-fMS_start"/>who<seg xml:id="C30_app480-fMS_end"/>
-            <lb n="c57-0152__main__27"/>in the decline of <seg xml:id="C30_app482-fMS_start"/>life<seg xml:id="C30_app482-fMS_end"/>having few <seg xml:id="C30_app484-fMS_start"/>
+            <lb n="c57-0152__main__18"/>I arrived at Geneva. My 
+        <seg xml:id="C30_app458-fMS_start"/>
+        fathe &amp;<lb n="c57-0152__main__19"/>Ernest
+        <seg xml:id="C30_app458-fMS_end"/>
+    yet 
+        <seg xml:id="C30_app460-fMS_start"/>
+        lived
+        <seg xml:id="C30_app460-fMS_end"/>
+    but the former 
+        <seg xml:id="C30_app462-fMS_start"/>
+        was <lb n="c57-0152__main__20"/>unable to bear
+        <seg xml:id="C30_app462-fMS_end"/>
+    the 
+        <seg xml:id="C30_app464-fMS_start"/>
+        miserable tidings <lb n="c57-0152__main__21"/>that I
+        <seg xml:id="C30_app464-fMS_end"/>
+            <seg xml:id="C30_app465-fMS_start"/>
+        bore —
+        <seg xml:id="C30_app465-fMS_end"/>
+    I see him 
+        <seg xml:id="C30_app467-fMS_start"/>
+        now
+        <seg xml:id="C30_app467-fMS_end"/>
+    excellent <lb n="c57-0152__main__22"/>&amp; venerable old 
+        <seg xml:id="C30_app469-fMS_start"/>
+        man –
+        <seg xml:id="C30_app469-fMS_end"/>
+    his eyes wandered <lb n="c57-0152__main__23"/>in 
+        <seg xml:id="C30_app471-fMS_start"/>
+        vacancy
+        <seg xml:id="C30_app471-fMS_end"/>
+    for they had lost their <lb n="c57-0152__main__24"/>charm &amp; 
+        <seg xml:id="C30_app473-fMS_start"/>
+        delight – his neice
+        <seg xml:id="C30_app473-fMS_end"/>
+    his more <lb n="c57-0152__main__25"/>than 
+        <seg xml:id="C30_app475-fMS_start"/>
+        daughter
+        <seg xml:id="C30_app475-fMS_end"/>
+    whom he doated on <lb n="c57-0152__main__26"/>with all 
+        <seg xml:id="C30_app477-fMS_start"/>
+        the
+        <seg xml:id="C30_app477-fMS_end"/>
+    affection 
+        <seg xml:id="C30_app479-fMS_start"/>
+        of a man
+        <seg xml:id="C30_app479-fMS_end"/>
+            <seg xml:id="C30_app480-fMS_start"/>
+        who
+        <seg xml:id="C30_app480-fMS_end"/>
+            <lb n="c57-0152__main__27"/>in the decline of 
+        <seg xml:id="C30_app482-fMS_start"/>
+        life
+        <seg xml:id="C30_app482-fMS_end"/>
+    having few 
+        <seg xml:id="C30_app484-fMS_start"/>
             <w ana="start"/>affec<lb n="c57-0152__main__28"/>tions<w ana="end"/>
-            <seg xml:id="C30_app484-fMS_end"/>clings <seg xml:id="C30_app486-fMS_start"/>
+            <seg xml:id="C30_app484-fMS_end"/>
+    clings 
+        <seg xml:id="C30_app486-fMS_start"/>
             <mod th:sID="c57-0152__main__d4e28516"/>
             <sga-add place="sublinear" th:sID="c57-0152__main__d4e28518"/>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            <metamark function="insert">^</metamark>
             <sga-add th:eID="c57-0152__main__d4e28518"/>
-            <sga-add hand="#pbs" place="superlinear" th:sID="c57-0152__main__d4e28524"/>more earnestly<seg xml:id="C30_app486-fMS_end"/>
+            <sga-add hand="#pbs" place="superlinear" th:sID="c57-0152__main__d4e28524"/>more earnestly
+        <seg xml:id="C30_app486-fMS_end"/>
             <sga-add th:eID="c57-0152__main__d4e28524"/>
-            <mod th:eID="c57-0152__main__d4e28516"/>to those that remain. <seg xml:id="C30_app488-fMS_start"/>Cursed<seg xml:id="C30_app488-fMS_end"/>
-            <lb n="c57-0152__main__29"/>Cursed be the fiend that brought misery <lb n="c57-0152__main__30"/>on his grey <seg xml:id="C30_app490-fMS_start"/>hairs<seg xml:id="C30_app490-fMS_end"/>&amp; doomed him to <seg xml:id="C30_app492-fMS_start"/>
+            <mod th:eID="c57-0152__main__d4e28516"/>to those that remain. 
+        <seg xml:id="C30_app488-fMS_start"/>
+        Cursed
+        <seg xml:id="C30_app488-fMS_end"/>
+            <lb n="c57-0152__main__29"/>Cursed be the fiend that brought misery <lb n="c57-0152__main__30"/>on his grey 
+        <seg xml:id="C30_app490-fMS_start"/>
+        hairs
+        <seg xml:id="C30_app490-fMS_end"/>
+    &amp; doomed him to 
+        <seg xml:id="C30_app492-fMS_start"/>
             <mod th:sID="c57-0152__main__d4e28533"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0152__main__d4e28535"/>die<del ana="end"/>
+            <del rend="strikethrough" xml:id="c57-0152__main__d4e28535">die</del>
             <anchor xml:id="c57-0152.01"/>
             <lb n="c57-0152__left_margin__1"/>
             <sga-add hand="#pbs" th:sID="c57-0152__left_margin__d4e28544"/>waste <sga-add th:eID="c57-0152__left_margin__d4e28544"/>
             <mod th:eID="c57-0152__main__d4e28533"/>
-            <lb n="c57-0152__main__31"/>in<seg xml:id="C30_app492-fMS_end"/>
+            <lb n="c57-0152__main__31"/>in
+        <seg xml:id="C30_app492-fMS_end"/>
             <seg xml:id="C30_app493-fMS_start"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0152__main__d4e28551"/>misery<del ana="end"/> w <del ana="start" rend="strikethrough" xml:id="c57-0152__main__d4e28554"/>h<del ana="end"/> retchedness.<seg xml:id="C30_app493-fMS_end"/>He could not live <lb n="c57-0152__main__32"/>under the horrors that were <w ana="start"/>accumu<lb n="c57-0152__main__33"/>lated<w ana="end"/>
-            <seg xml:id="C30_app495-fMS_start"/>round him – An applapetic fit was <lb n="c57-0152__main__34"/> brought on<seg xml:id="C30_app495-fMS_end"/>&amp; in a few <seg xml:id="C30_app497-fMS_start"/>
+            <del rend="strikethrough" xml:id="c57-0152__main__d4e28551">misery</del> w <del rend="strikethrough" xml:id="c57-0152__main__d4e28554">h</del> retchedness.
+        <seg xml:id="C30_app493-fMS_end"/>
+    He could not live <lb n="c57-0152__main__32"/>under the horrors that were <w ana="start"/>accumu<lb n="c57-0152__main__33"/>lated<w ana="end"/>
+            <seg xml:id="C30_app495-fMS_start"/>
+        round him – An applapetic fit was <lb n="c57-0152__main__34"/> brought on
+        <seg xml:id="C30_app495-fMS_end"/>
+    &amp; in a few 
+        <seg xml:id="C30_app497-fMS_start"/>
             <mod th:sID="c57-0152__main__d4e28568"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0152__main__d4e28570"/>hours<del ana="end"/>
+            <del rend="strikethrough" xml:id="c57-0152__main__d4e28570">hours</del>
             <sga-add place="sublinear" th:sID="c57-0152__main__d4e28573"/>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            <metamark function="insert">^</metamark>
             <sga-add th:eID="c57-0152__main__d4e28573"/>
-            <sga-add place="superlinear" th:sID="c57-0152__main__d4e28579"/>days<seg xml:id="C30_app497-fMS_end"/>
+            <sga-add place="superlinear" th:sID="c57-0152__main__d4e28579"/>days
+        <seg xml:id="C30_app497-fMS_end"/>
             <sga-add th:eID="c57-0152__main__d4e28579"/>
-            <mod th:eID="c57-0152__main__d4e28568"/>he died <lb n="c57-0153__main__1"/>in my <seg xml:id="C30_app499-fMS_start"/>arms<seg xml:id="C30_app499-fMS_end"/>
+            <mod th:eID="c57-0152__main__d4e28568"/>he died <lb n="c57-0153__main__1"/>in my 
+        <seg xml:id="C30_app499-fMS_start"/>
+        arms
+        <seg xml:id="C30_app499-fMS_end"/>
             <milestone unit="tei:p-END"/>
             <milestone unit="tei:p-START"/>
-            <lb n="c57-0153__main__2"/>What then became of me? I know <seg xml:id="C30_app501-fMS_start"/>
-            <lb n="c57-0153__main__3"/>not—I<seg xml:id="C30_app501-fMS_end"/>lost <seg xml:id="C30_app503-fMS_start"/>sensation<seg xml:id="C30_app503-fMS_end"/>&amp; chains &amp; darkness were <lb n="c57-0153__main__4"/>
+            <lb n="c57-0153__main__2"/>What then became of me? I know 
+        <seg xml:id="C30_app501-fMS_start"/>
+            <lb n="c57-0153__main__3"/>not—I
+        <seg xml:id="C30_app501-fMS_end"/>
+    lost 
+        <seg xml:id="C30_app503-fMS_start"/>
+        sensation
+        <seg xml:id="C30_app503-fMS_end"/>
+    &amp; chains &amp; darkness were <lb n="c57-0153__main__4"/>
             <anchor xml:id="c57-0153.01"/>
             <lb n="c57-0153__left_margin__1"/>
-            <sga-add th:sID="c57-0153__left_margin__d4e28608"/>the <sga-add th:eID="c57-0153__left_margin__d4e28608"/>only objects that pressed upon <seg xml:id="C30_app505-fMS_start"/>me – some <lb n="c57-0153__main__5"/>times indeed<seg xml:id="C30_app505-fMS_end"/>I <seg xml:id="C30_app507-fMS_start"/>dreamed<seg xml:id="C30_app507-fMS_end"/>that I wandered <lb n="c57-0153__main__6"/>in flowery meadows &amp; pleasant vales with <lb n="c57-0153__main__7"/>the friends of my <seg xml:id="C30_app509-fMS_start"/>youth –<seg xml:id="C30_app509-fMS_end"/>
-            <seg xml:id="C30_app510-fMS_start"/>But I<seg xml:id="C30_app510-fMS_end"/>
-            <seg xml:id="C30_app511-fMS_start"/>awoke &amp;<lb n="c57-0153__main__8"/>found<seg xml:id="C30_app511-fMS_end"/>myself in a dungeon. Melancholy <seg xml:id="C30_app513-fMS_start"/>
-            <lb n="c57-0153__main__9"/>followed<seg xml:id="C30_app513-fMS_end"/>but by degrees I <seg xml:id="C30_app515-fMS_start"/>regained<seg xml:id="C30_app515-fMS_end"/>a clear <lb n="c57-0153__main__10"/>conception of my miseries &amp; <seg xml:id="C30_app517-fMS_start"/>situation &amp;<lb n="c57-0153__main__11"/>was<seg xml:id="C30_app517-fMS_end"/>then released from my prison. For <lb n="c57-0153__main__12"/>they had called me <seg xml:id="C30_app519-fMS_start"/>mad<seg xml:id="C30_app519-fMS_end"/>&amp;<mod th:sID="c57-0153__main__d4e28628"/>
+            <sga-add th:sID="c57-0153__left_margin__d4e28608"/>the <sga-add th:eID="c57-0153__left_margin__d4e28608"/>only objects that pressed upon 
+        <seg xml:id="C30_app505-fMS_start"/>
+        me – some <lb n="c57-0153__main__5"/>times indeed
+        <seg xml:id="C30_app505-fMS_end"/>
+    I 
+        <seg xml:id="C30_app507-fMS_start"/>
+        dreamed
+        <seg xml:id="C30_app507-fMS_end"/>
+    that I wandered <lb n="c57-0153__main__6"/>in flowery meadows &amp; pleasant vales with <lb n="c57-0153__main__7"/>the friends of my 
+        <seg xml:id="C30_app509-fMS_start"/>
+        youth –
+        <seg xml:id="C30_app509-fMS_end"/>
+            <seg xml:id="C30_app510-fMS_start"/>
+        But I
+        <seg xml:id="C30_app510-fMS_end"/>
+            <seg xml:id="C30_app511-fMS_start"/>
+        awoke &amp;<lb n="c57-0153__main__8"/>found
+        <seg xml:id="C30_app511-fMS_end"/>
+    myself in a dungeon. Melancholy 
+        <seg xml:id="C30_app513-fMS_start"/>
+            <lb n="c57-0153__main__9"/>followed
+        <seg xml:id="C30_app513-fMS_end"/>
+    but by degrees I 
+        <seg xml:id="C30_app515-fMS_start"/>
+        regained
+        <seg xml:id="C30_app515-fMS_end"/>
+    a clear <lb n="c57-0153__main__10"/>conception of my miseries &amp; 
+        <seg xml:id="C30_app517-fMS_start"/>
+        situation &amp;<lb n="c57-0153__main__11"/>was
+        <seg xml:id="C30_app517-fMS_end"/>
+    then released from my prison. For <lb n="c57-0153__main__12"/>they had called me 
+        <seg xml:id="C30_app519-fMS_start"/>
+        mad
+        <seg xml:id="C30_app519-fMS_end"/>
+    &amp;<mod th:sID="c57-0153__main__d4e28628"/>
             <seg xml:id="C30_app521-fMS_start"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0153__main__d4e28630"/>for<del ana="end"/>
-            <sga-add hand="#pbs" place="superlinear" th:sID="c57-0153__main__d4e28633"/>During<seg xml:id="C30_app521-fMS_end"/>
+            <del rend="strikethrough" xml:id="c57-0153__main__d4e28630">for</del>
+            <sga-add hand="#pbs" place="superlinear" th:sID="c57-0153__main__d4e28633"/>During
+        <seg xml:id="C30_app521-fMS_end"/>
             <sga-add th:eID="c57-0153__main__d4e28633"/>
-            <mod th:eID="c57-0153__main__d4e28628"/>many <seg xml:id="C30_app523-fMS_start"/>
-            <lb n="c57-0153__main__13"/>months<seg xml:id="C30_app523-fMS_end"/>as I <seg xml:id="C30_app525-fMS_start"/>understood<seg xml:id="C30_app525-fMS_end"/>a solitary <lb n="c57-0153__main__14"/>cell had been my habitation. <seg xml:id="C30_app527-fMS_start"/>– <delSpan rend="strikethrough" spanTo="#c57-0153.02"/>But I <lb n="c57-0153__main__15"/>might now wander freely <delSpan anchor="c57-0153.02"/>
+            <mod th:eID="c57-0153__main__d4e28628"/>many 
+        <seg xml:id="C30_app523-fMS_start"/>
+            <lb n="c57-0153__main__13"/>months
+        <seg xml:id="C30_app523-fMS_end"/>
+    as I 
+        <seg xml:id="C30_app525-fMS_start"/>
+        understood
+        <seg xml:id="C30_app525-fMS_end"/>
+    a solitary <lb n="c57-0153__main__14"/>cell had been my habitation. 
+        <seg xml:id="C30_app527-fMS_start"/>
+        – <delSpan rend="strikethrough" spanTo="#c57-0153.02"/>But I <lb n="c57-0153__main__15"/>might now wander freely <delSpan anchor="c57-0153.02"/>
             <seg xml:id="C30_app527-fMS_end"/>
-            <seg xml:id="C30_app528-fMS_start"/>But liberty<seg xml:id="C30_app528-fMS_end"/>
+            <seg xml:id="C30_app528-fMS_start"/>
+        But liberty
+        <seg xml:id="C30_app528-fMS_end"/>
             <seg xml:id="C30_app529-fMS_start"/>
             <lb n="c57-0153__main__16"/>
             <mod th:sID="c57-0153__main__d4e28650"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0153__main__d4e28652"/>was a<del ana="end"/>
+            <del rend="strikethrough" xml:id="c57-0153__main__d4e28652">was a</del>
             <anchor xml:id="c57-0153.03"/>
             <lb n="c57-0153__left_margin__1"/>
-            <sga-add th:sID="c57-0153__left_margin__d4e28661"/>had been<seg xml:id="C30_app529-fMS_end"/>
+            <sga-add th:sID="c57-0153__left_margin__d4e28661"/>had been
+        <seg xml:id="C30_app529-fMS_end"/>
             <seg xml:id="C30_app530-fMS_start"/>
             <sga-add th:eID="c57-0153__left_margin__d4e28661"/>
-            <sga-add place="superlinear" th:sID="c57-0153__main__d4e28664"/>a<seg xml:id="C30_app530-fMS_end"/>
+            <sga-add place="superlinear" th:sID="c57-0153__main__d4e28664"/>a
+        <seg xml:id="C30_app530-fMS_end"/>
             <sga-add th:eID="c57-0153__main__d4e28664"/>
-            <mod th:eID="c57-0153__main__d4e28650"/>useless gift to <seg xml:id="C30_app532-fMS_start"/>me<seg xml:id="C30_app532-fMS_end"/>had <seg xml:id="C30_app534-fMS_start"/>
+            <mod th:eID="c57-0153__main__d4e28650"/>useless gift to 
+        <seg xml:id="C30_app532-fMS_start"/>
+        me
+        <seg xml:id="C30_app532-fMS_end"/>
+    had 
+        <seg xml:id="C30_app534-fMS_start"/>
             <mod th:sID="c57-0153__main__d4e28669"/>
             <sga-add place="sublinear" th:sID="c57-0153__main__d4e28671"/>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            <metamark function="insert">^</metamark>
             <sga-add th:eID="c57-0153__main__d4e28671"/>
-            <sga-add place="superlinear" th:sID="c57-0153__main__d4e28677"/>I<seg xml:id="C30_app534-fMS_end"/>
+            <sga-add place="superlinear" th:sID="c57-0153__main__d4e28677"/>I
+        <seg xml:id="C30_app534-fMS_end"/>
             <seg xml:id="C30_app535-fMS_start"/>
             <sga-add th:eID="c57-0153__main__d4e28677"/>
-            <mod th:eID="c57-0153__main__d4e28669"/> not<seg xml:id="C30_app535-fMS_end"/>as I <w ana="start"/>a<lb n="c57-0153__main__17"/>wakened<w ana="end"/> to <seg xml:id="C30_app537-fMS_start"/>reason <mod th:sID="c57-0153__main__d4e28687"/>
+            <mod th:eID="c57-0153__main__d4e28669"/> not
+        <seg xml:id="C30_app535-fMS_end"/>
+    as I <w ana="start"/>a<lb n="c57-0153__main__17"/>wakened<w ana="end"/> to 
+        <seg xml:id="C30_app537-fMS_start"/>
+        reason <mod th:sID="c57-0153__main__d4e28687"/>
             <sga-add place="sublinear" th:sID="c57-0153__main__d4e28689"/>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            <metamark function="insert">^</metamark>
             <seg xml:id="C30_app537-fMS_end"/>
             <sga-add th:eID="c57-0153__main__d4e28689"/>
-            <sga-add place="superlinear" th:sID="c57-0153__main__d4e28695"/>at the same time <seg xml:id="C30_app539-fMS_start"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0153__main__d4e28697"/>been<del ana="end"/>
+            <sga-add place="superlinear" th:sID="c57-0153__main__d4e28695"/>at the same time 
+        <seg xml:id="C30_app539-fMS_start"/>
+            <del rend="strikethrough" xml:id="c57-0153__main__d4e28697">been</del>
             <sga-add th:eID="c57-0153__main__d4e28695"/>
-            <mod th:eID="c57-0153__main__d4e28687"/> awakened to<seg xml:id="C30_app539-fMS_end"/>
-            <seg xml:id="C30_app540-fMS_start"/>vengeance.<seg xml:id="C30_app540-fMS_end"/>
-            <lb n="c57-0153__main__18"/>As <seg xml:id="C30_app542-fMS_start"/>
-            <del ana="start"
-                  instant="true"
+            <mod th:eID="c57-0153__main__d4e28687"/> awakened to
+        <seg xml:id="C30_app539-fMS_end"/>
+            <seg xml:id="C30_app540-fMS_start"/>
+        vengeance.
+        <seg xml:id="C30_app540-fMS_end"/>
+            <lb n="c57-0153__main__18"/>As 
+        <seg xml:id="C30_app542-fMS_start"/>
+            <del instant="true"
                   rend="strikethrough"
-                  xml:id="c57-0153__main__d4e28705"/>pa<del ana="end"/> the memory of past misfortunes<seg xml:id="C30_app542-fMS_end"/>
+                  xml:id="c57-0153__main__d4e28705">pa</del> the memory of past misfortunes
+        <seg xml:id="C30_app542-fMS_end"/>
             <seg xml:id="C30_app543-fMS_start"/>
-            <lb n="c57-0153__main__19"/>prest<seg xml:id="C30_app543-fMS_end"/>upon <seg xml:id="C30_app545-fMS_start"/>me<seg xml:id="C30_app545-fMS_end"/>I began to <seg xml:id="C30_app547-fMS_start"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0153__main__d4e28710"/>f<del ana="end"/> reflect<seg xml:id="C30_app547-fMS_end"/>
+            <lb n="c57-0153__main__19"/>prest
+        <seg xml:id="C30_app543-fMS_end"/>
+    upon 
+        <seg xml:id="C30_app545-fMS_start"/>
+        me
+        <seg xml:id="C30_app545-fMS_end"/>
+    I began to 
+        <seg xml:id="C30_app547-fMS_start"/>
+            <del rend="strikethrough" xml:id="c57-0153__main__d4e28710">f</del> reflect
+        <seg xml:id="C30_app547-fMS_end"/>
             <seg xml:id="C30_app548-fMS_start"/>
             <lb n="c57-0153__main__20"/>
             <mod th:sID="c57-0153__main__d4e28715"/>
-            <mdel ana="start"/>of<mdel ana="end"/>
+            <mdel>of</mdel>
             <anchor xml:id="c57-0153.04"/>
             <lb n="c57-0153__left_margin__1"/>
-            <sga-add th:sID="c57-0153__left_margin__d4e28725"/>on<seg xml:id="C30_app548-fMS_end"/>
+            <sga-add th:sID="c57-0153__left_margin__d4e28725"/>on
+        <seg xml:id="C30_app548-fMS_end"/>
             <sga-add th:eID="c57-0153__left_margin__d4e28725"/>
-            <mod th:eID="c57-0153__main__d4e28715"/>their <seg xml:id="C30_app550-fMS_start"/>cause – The<seg xml:id="C30_app550-fMS_end"/>monster whom I had <seg xml:id="C30_app552-fMS_start"/>
-            <lb n="c57-0153__main__21"/>created—the<seg xml:id="C30_app552-fMS_end"/>miserable <seg xml:id="C30_app554-fMS_start"/>dæmo <mod th:sID="c57-0153__main__d4e28732"/>
-            <mdel ana="start"/>m<mdel ana="end"/>
+            <mod th:eID="c57-0153__main__d4e28715"/>their 
+        <seg xml:id="C30_app550-fMS_start"/>
+        cause – The
+        <seg xml:id="C30_app550-fMS_end"/>
+    monster whom I had 
+        <seg xml:id="C30_app552-fMS_start"/>
+            <lb n="c57-0153__main__21"/>created—the
+        <seg xml:id="C30_app552-fMS_end"/>
+    miserable 
+        <seg xml:id="C30_app554-fMS_start"/>
+        dæmo <mod th:sID="c57-0153__main__d4e28732"/>
+            <mdel>m</mdel>
             <sga-add place="intralinear" th:sID="c57-0153__main__d4e28736"/>n <sga-add th:eID="c57-0153__main__d4e28736"/>
             <mod th:eID="c57-0153__main__d4e28732"/>
-            <seg xml:id="C30_app554-fMS_end"/>whom <lb n="c57-0153__main__22"/>I had sent <seg xml:id="C30_app556-fMS_start"/>abroard in<seg xml:id="C30_app556-fMS_end"/>the world for my <seg xml:id="C30_app558-fMS_start"/>
-            <w ana="start"/>des<lb n="c57-0153__main__23"/>truction<w ana="end"/> —<seg xml:id="C30_app558-fMS_end"/>I was possessed by a <seg xml:id="C30_app560-fMS_start"/>madening<seg xml:id="C30_app560-fMS_end"/>
-            <lb n="c57-0153__main__24"/>rage when I thought of <seg xml:id="C30_app562-fMS_start"/>him<seg xml:id="C30_app562-fMS_end"/>and desired <lb n="c57-0153__main__25"/>&amp; ardently prayed that I might have him <seg xml:id="C30_app564-fMS_start"/>
+            <seg xml:id="C30_app554-fMS_end"/>
+    whom <lb n="c57-0153__main__22"/>I had sent 
+        <seg xml:id="C30_app556-fMS_start"/>
+        abroard in
+        <seg xml:id="C30_app556-fMS_end"/>
+    the world for my 
+        <seg xml:id="C30_app558-fMS_start"/>
+            <w ana="start"/>des<lb n="c57-0153__main__23"/>truction<w ana="end"/> —
+        <seg xml:id="C30_app558-fMS_end"/>
+    I was possessed by a 
+        <seg xml:id="C30_app560-fMS_start"/>
+        madening
+        <seg xml:id="C30_app560-fMS_end"/>
+            <lb n="c57-0153__main__24"/>rage when I thought of 
+        <seg xml:id="C30_app562-fMS_start"/>
+        him
+        <seg xml:id="C30_app562-fMS_end"/>
+    and desired <lb n="c57-0153__main__25"/>&amp; ardently prayed that I might have him 
+        <seg xml:id="C30_app564-fMS_start"/>
             <lb n="c57-0153__main__26"/>with <sga-add place="intralinear" th:sID="c57-0153__main__d4e28755"/>in <sga-add th:eID="c57-0153__main__d4e28755"/>
-            <seg xml:id="C30_app564-fMS_end"/>my grasp to wreak <sga-add hand="#pbs" place="superlinear" th:sID="c57-0153__main__d4e28758"/>a <sga-add th:eID="c57-0153__main__d4e28758"/>great <seg xml:id="C30_app567-fMS_start"/>&amp;<w ana="start"/>sig<lb n="c57-0153__main__27"/>nal<w ana="end"/>
+            <seg xml:id="C30_app564-fMS_end"/>
+    my grasp to wreak <sga-add hand="#pbs" place="superlinear" th:sID="c57-0153__main__d4e28758"/>a <sga-add th:eID="c57-0153__main__d4e28758"/>great 
+        <seg xml:id="C30_app567-fMS_start"/>
+        &amp;<w ana="start"/>sig<lb n="c57-0153__main__27"/>nal<w ana="end"/>
             <mod th:sID="c57-0153__main__d4e28768"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0153__main__d4e28770"/>vengeance<del ana="end"/>
+            <del rend="strikethrough" xml:id="c57-0153__main__d4e28770">vengeance</del>
             <seg xml:id="C30_app567-fMS_end"/>
             <sga-add hand="#pbs" place="superlinear" th:sID="c57-0153__main__d4e28773"/>revenge <sga-add th:eID="c57-0153__main__d4e28773"/>
-            <mod th:eID="c57-0153__main__d4e28768"/>on <seg xml:id="C30_app570-fMS_start"/>hi <mod th:sID="c57-0153__main__d4e28777"/>
-            <mdel ana="start"/>m<mdel ana="end"/>
+            <mod th:eID="c57-0153__main__d4e28768"/>on 
+        <seg xml:id="C30_app570-fMS_start"/>
+        hi <mod th:sID="c57-0153__main__d4e28777"/>
+            <mdel>m</mdel>
             <sga-add place="intralinear" th:sID="c57-0153__main__d4e28781"/>s <sga-add th:eID="c57-0153__main__d4e28781"/>
             <sga-add place="intralinear" th:sID="c57-0153__main__d4e28784"/>
-            <seg xml:id="C30_app570-fMS_end"/>cursed head. <sga-add th:eID="c57-0153__main__d4e28784"/>
+            <seg xml:id="C30_app570-fMS_end"/>
+    cursed head. <sga-add th:eID="c57-0153__main__d4e28784"/>
             <mod th:eID="c57-0153__main__d4e28777"/>
             <milestone unit="tei:p-END"/>
             <milestone unit="tei:p-START"/>
-            <lb n="c57-0153__main__28"/>Nor did my hate long confine <w ana="start"/>its<lb n="c57-0153__main__29"/>elf<w ana="end"/> to useless wishes; I began to reflect on <lb n="c57-0153__main__30"/>the best means of securing <seg xml:id="C30_app573-fMS_start"/>him<seg xml:id="C30_app573-fMS_end"/>&amp; for <lb n="c57-0153__main__31"/>this <seg xml:id="C30_app575-fMS_start"/>purpose<seg xml:id="C30_app575-fMS_end"/>about a month after my <seg xml:id="C30_app577-fMS_start"/>
-            <lb n="c57-0153__main__32"/>release<seg xml:id="C30_app577-fMS_end"/>I repaired to a criminal judge <lb n="c57-0153__main__33"/>in the <seg xml:id="C30_app579-fMS_start"/>town<seg xml:id="C30_app579-fMS_end"/>&amp; told him that I had an <w ana="start"/>accu<lb n="c57-0153__main__34"/>sation<w ana="end"/> to <seg xml:id="C30_app581-fMS_start"/>make,<seg xml:id="C30_app581-fMS_end"/>that I knew the destroyer <lb n="c57-0153__main__35"/>of my <seg xml:id="C30_app583-fMS_start"/>family<seg xml:id="C30_app583-fMS_end"/>and that I required him <lb n="c57-0153__main__36"/>to exert his whole authority for <seg xml:id="C30_app585-fMS_start"/>
+            <lb n="c57-0153__main__28"/>Nor did my hate long confine <w ana="start"/>its<lb n="c57-0153__main__29"/>elf<w ana="end"/> to useless wishes; I began to reflect on <lb n="c57-0153__main__30"/>the best means of securing 
+        <seg xml:id="C30_app573-fMS_start"/>
+        him
+        <seg xml:id="C30_app573-fMS_end"/>
+    &amp; for <lb n="c57-0153__main__31"/>this 
+        <seg xml:id="C30_app575-fMS_start"/>
+        purpose
+        <seg xml:id="C30_app575-fMS_end"/>
+    about a month after my 
+        <seg xml:id="C30_app577-fMS_start"/>
+            <lb n="c57-0153__main__32"/>release
+        <seg xml:id="C30_app577-fMS_end"/>
+    I repaired to a criminal judge <lb n="c57-0153__main__33"/>in the 
+        <seg xml:id="C30_app579-fMS_start"/>
+        town
+        <seg xml:id="C30_app579-fMS_end"/>
+    &amp; told him that I had an <w ana="start"/>accu<lb n="c57-0153__main__34"/>sation<w ana="end"/> to 
+        <seg xml:id="C30_app581-fMS_start"/>
+        make,
+        <seg xml:id="C30_app581-fMS_end"/>
+    that I knew the destroyer <lb n="c57-0153__main__35"/>of my 
+        <seg xml:id="C30_app583-fMS_start"/>
+        family
+        <seg xml:id="C30_app583-fMS_end"/>
+    and that I required him <lb n="c57-0153__main__36"/>to exert his whole authority for 
+        <seg xml:id="C30_app585-fMS_start"/>
             <mod th:sID="c57-0153__main__d4e28818"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0153__main__d4e28820"/>his<del ana="end"/>
+            <del rend="strikethrough" xml:id="c57-0153__main__d4e28820">his</del>
             <sga-add place="superlinear" th:sID="c57-0153__main__d4e28823"/>the <sga-add th:eID="c57-0153__main__d4e28823"/>
             <mod th:eID="c57-0153__main__d4e28818"/>
             <w ana="start"/>appre<lb n="c57-0154__main__1"/>hension<w ana="end"/> of the murderer. <milestone unit="tei:p-END"/>
             <milestone unit="tei:p-START"/>
-            <lb n="c57-0154__main__2"/>The magistrate listened<seg xml:id="C30_app585-fMS_end"/>
+            <lb n="c57-0154__main__2"/>The magistrate listened
+        <seg xml:id="C30_app585-fMS_end"/>
             <seg xml:id="C30_app586-fMS_start"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0154__main__d4e28850"/>to<del ana="end"/> to me with<seg xml:id="C30_app586-fMS_end"/>
+            <del rend="strikethrough" xml:id="c57-0154__main__d4e28850">to</del> to me with
+        <seg xml:id="C30_app586-fMS_end"/>
             <seg xml:id="C30_app587-fMS_start"/>
             <w ana="start"/>at<lb n="c57-0154__main__3"/>
-            <sga-add place="intralinear" th:sID="c57-0154__main__d4e28857"/>ten <sga-add th:eID="c57-0154__main__d4e28857"/>tion<w ana="end"/>&amp; kindness – Be<seg xml:id="C30_app587-fMS_end"/>assured, <seg xml:id="C30_app589-fMS_start"/>sir,<seg xml:id="C30_app589-fMS_end"/>said <seg xml:id="C30_app591-fMS_start"/>he no<seg xml:id="C30_app591-fMS_end"/>pains <lb n="c57-0154__main__4"/>or exertions on my part <seg xml:id="C30_app593-fMS_start"/>
-            <del ana="start"
-                  instant="true"
+            <sga-add place="intralinear" th:sID="c57-0154__main__d4e28857"/>ten <sga-add th:eID="c57-0154__main__d4e28857"/>tion<w ana="end"/>&amp; kindness – Be
+        <seg xml:id="C30_app587-fMS_end"/>
+    assured, 
+        <seg xml:id="C30_app589-fMS_start"/>
+        sir,
+        <seg xml:id="C30_app589-fMS_end"/>
+    said 
+        <seg xml:id="C30_app591-fMS_start"/>
+        he no
+        <seg xml:id="C30_app591-fMS_end"/>
+    pains <lb n="c57-0154__main__4"/>or exertions on my part 
+        <seg xml:id="C30_app593-fMS_start"/>
+            <del instant="true"
                   rend="strikethrough"
-                  xml:id="c57-0154__main__d4e28865"/>sha<del ana="end"/> have been or <lb n="c57-0154__main__5"/>shall be spared to discover the<seg xml:id="C30_app593-fMS_end"/>
+                  xml:id="c57-0154__main__d4e28865">sha</del> have been or <lb n="c57-0154__main__5"/>shall be spared to discover the
+        <seg xml:id="C30_app593-fMS_end"/>
             <seg xml:id="C30_app594-fMS_start"/>
             <mod th:sID="c57-0154__main__d4e28870"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0154__main__d4e28872"/>wretch<del ana="end"/>
+            <del rend="strikethrough" xml:id="c57-0154__main__d4e28872">wretch</del>
             <sga-add hand="#pbs" place="intralinear" th:sID="c57-0154__main__d4e28875"/>villain <sga-add th:eID="c57-0154__main__d4e28875"/>
             <mod th:eID="c57-0154__main__d4e28870"/>
             <seg xml:id="C30_app594-fMS_end"/>
             <milestone unit="tei:p-END"/>
             <milestone unit="tei:p-START"/>
             <seg xml:id="C30_app596-fMS_start"/>
-            <lb n="c57-0154__main__6"/>I<seg xml:id="C30_app596-fMS_end"/>thank <seg xml:id="C30_app598-fMS_start"/>you, <sga-add place="intralinear" th:sID="c57-0154__main__d4e28883"/>I <sga-add th:eID="c57-0154__main__d4e28883"/> replied, listen therefore<seg xml:id="C30_app598-fMS_end"/>to <seg xml:id="C30_app600-fMS_start"/>
+            <lb n="c57-0154__main__6"/>I
+        <seg xml:id="C30_app596-fMS_end"/>
+    thank 
+        <seg xml:id="C30_app598-fMS_start"/>
+        you, <sga-add place="intralinear" th:sID="c57-0154__main__d4e28883"/>I <sga-add th:eID="c57-0154__main__d4e28883"/> replied, listen therefore
+        <seg xml:id="C30_app598-fMS_end"/>
+    to 
+        <seg xml:id="C30_app600-fMS_start"/>
             <lb n="c57-0154__main__7"/>
             <mod th:sID="c57-0154__main__d4e28889"/>
-            <mdel ana="start"/>a<mdel ana="end"/>
+            <mdel>a</mdel>
             <anchor xml:id="c57-0154.01"/>
             <lb n="c57-0154__left_margin__1"/>
-            <sga-add th:sID="c57-0154__left_margin__d4e28899"/>the<seg xml:id="C30_app600-fMS_end"/>
+            <sga-add th:sID="c57-0154__left_margin__d4e28899"/>the
+        <seg xml:id="C30_app600-fMS_end"/>
             <seg xml:id="C30_app601-fMS_start"/>
             <sga-add th:eID="c57-0154__left_margin__d4e28899"/>
             <mod th:eID="c57-0154__main__d4e28889"/>
             <mod th:sID="c57-0154__main__d4e28903"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0154__main__d4e28905"/>tale<del ana="end"/>
-            <sga-add place="superlinear" th:sID="c57-0154__main__d4e28908"/>deposition<seg xml:id="C30_app601-fMS_end"/>
+            <del rend="strikethrough" xml:id="c57-0154__main__d4e28905">tale</del>
+            <sga-add place="superlinear" th:sID="c57-0154__main__d4e28908"/>deposition
+        <seg xml:id="C30_app601-fMS_end"/>
             <seg xml:id="C30_app602-fMS_start"/>
             <sga-add th:eID="c57-0154__main__d4e28908"/>
             <mod th:eID="c57-0154__main__d4e28903"/>
-            <seg xml:id="C30_app602-fMS_end"/>I have to <seg xml:id="C30_app604-fMS_start"/>
+            <seg xml:id="C30_app602-fMS_end"/>
+    I have to 
+        <seg xml:id="C30_app604-fMS_start"/>
             <mod th:sID="c57-0154__main__d4e28912"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0154__main__d4e28914"/>relate<del ana="end"/>
+            <del rend="strikethrough" xml:id="c57-0154__main__d4e28914">relate</del>
             <sga-add place="superlinear" th:sID="c57-0154__main__d4e28917"/>make <sga-add th:eID="c57-0154__main__d4e28917"/>
-            <mod th:eID="c57-0154__main__d4e28912"/> . <del ana="start"
-                  instant="true"
+            <mod th:eID="c57-0154__main__d4e28912"/> . <del instant="true"
                   rend="strikethrough"
-                  xml:id="c57-0154__main__d4e28921"/>which<del ana="end"/>
-            <seg xml:id="C30_app604-fMS_end"/>It is <seg xml:id="C30_app606-fMS_start"/>a indeed a <lb n="c57-0154__main__8"/>tale so<seg xml:id="C30_app606-fMS_end"/>
+                  xml:id="c57-0154__main__d4e28921">which</del>
+            <seg xml:id="C30_app604-fMS_end"/>
+    It is 
+        <seg xml:id="C30_app606-fMS_start"/>
+        a indeed a <lb n="c57-0154__main__8"/>tale so
+        <seg xml:id="C30_app606-fMS_end"/>
             <seg xml:id="C30_app607-fMS_start"/>
-            <del ana="start"
-                  instant="true"
+            <del instant="true"
                   rend="strikethrough"
-                  xml:id="c57-0154__main__d4e28927"/>wonderf<del ana="end"/> strange that I<seg xml:id="C30_app607-fMS_end"/>fear you would <lb n="c57-0154__main__9"/>not credit <seg xml:id="C30_app609-fMS_start"/>it<seg xml:id="C30_app609-fMS_end"/>were there not <seg xml:id="C30_app611-fMS_start"/>somthing<seg xml:id="C30_app611-fMS_end"/>in <lb n="c57-0154__main__10"/>truth <seg xml:id="C30_app613-fMS_start"/>which<seg xml:id="C30_app613-fMS_end"/>however <seg xml:id="C30_app615-fMS_start"/>wonderful<seg xml:id="C30_app615-fMS_end"/>forces <lb n="c57-0154__main__11"/>conviction. The story is <sga-add place="superlinear" th:sID="c57-0154__main__d4e28936"/>too <sga-add th:eID="c57-0154__main__d4e28936"/>connected to be <w ana="start"/>mis<lb n="c57-0154__main__12"/>taken<w ana="end"/> for a <seg xml:id="C30_app618-fMS_start"/>dream<seg xml:id="C30_app618-fMS_end"/>&amp; I have no motive <lb n="c57-0154__main__13"/>for <seg xml:id="C30_app620-fMS_start"/>falsehood.<seg xml:id="C30_app620-fMS_end"/>My <seg xml:id="C30_app622-fMS_start"/>manner<seg xml:id="C30_app622-fMS_end"/>as I <seg xml:id="C30_app624-fMS_start"/>said this <lb n="c57-0154__main__14"/>
-            <del ana="start"
-                  instant="true"
+                  xml:id="c57-0154__main__d4e28927">wonderf</del> strange that I
+        <seg xml:id="C30_app607-fMS_end"/>
+    fear you would <lb n="c57-0154__main__9"/>not credit 
+        <seg xml:id="C30_app609-fMS_start"/>
+        it
+        <seg xml:id="C30_app609-fMS_end"/>
+    were there not 
+        <seg xml:id="C30_app611-fMS_start"/>
+        somthing
+        <seg xml:id="C30_app611-fMS_end"/>
+    in <lb n="c57-0154__main__10"/>truth 
+        <seg xml:id="C30_app613-fMS_start"/>
+        which
+        <seg xml:id="C30_app613-fMS_end"/>
+    however 
+        <seg xml:id="C30_app615-fMS_start"/>
+        wonderful
+        <seg xml:id="C30_app615-fMS_end"/>
+    forces <lb n="c57-0154__main__11"/>conviction. The story is <sga-add place="superlinear" th:sID="c57-0154__main__d4e28936"/>too <sga-add th:eID="c57-0154__main__d4e28936"/>connected to be <w ana="start"/>mis<lb n="c57-0154__main__12"/>taken<w ana="end"/> for a 
+        <seg xml:id="C30_app618-fMS_start"/>
+        dream
+        <seg xml:id="C30_app618-fMS_end"/>
+    &amp; I have no motive <lb n="c57-0154__main__13"/>for 
+        <seg xml:id="C30_app620-fMS_start"/>
+        falsehood.
+        <seg xml:id="C30_app620-fMS_end"/>
+    My 
+        <seg xml:id="C30_app622-fMS_start"/>
+        manner
+        <seg xml:id="C30_app622-fMS_end"/>
+    as I 
+        <seg xml:id="C30_app624-fMS_start"/>
+        said this <lb n="c57-0154__main__14"/>
+            <del instant="true"
                   rend="strikethrough"
-                  xml:id="c57-0154__main__d4e28950"/>wals<del ana="end"/>
-            <seg xml:id="C30_app624-fMS_end"/>was <seg xml:id="C30_app626-fMS_start"/>impressive<seg xml:id="C30_app626-fMS_end"/>but calm; I had formed <lb n="c57-0154__main__15"/>in my own heart <seg xml:id="C30_app628-fMS_start"/>the<seg xml:id="C30_app628-fMS_end"/>resolution to pursue <lb n="c57-0154__main__16"/>my destroyer to <seg xml:id="C30_app630-fMS_start"/>death<seg xml:id="C30_app630-fMS_end"/>&amp; this purpose quieted <seg xml:id="C30_app632-fMS_start"/>
+                  xml:id="c57-0154__main__d4e28950">wals</del>
+            <seg xml:id="C30_app624-fMS_end"/>
+    was 
+        <seg xml:id="C30_app626-fMS_start"/>
+        impressive
+        <seg xml:id="C30_app626-fMS_end"/>
+    but calm; I had formed <lb n="c57-0154__main__15"/>in my own heart 
+        <seg xml:id="C30_app628-fMS_start"/>
+        the
+        <seg xml:id="C30_app628-fMS_end"/>
+    resolution to pursue <lb n="c57-0154__main__16"/>my destroyer to 
+        <seg xml:id="C30_app630-fMS_start"/>
+        death
+        <seg xml:id="C30_app630-fMS_end"/>
+    &amp; this purpose quieted 
+        <seg xml:id="C30_app632-fMS_start"/>
             <lb n="c57-0154__main__17"/> my agony &amp; <mod th:sID="c57-0154__main__d4e28960"/>
             <sga-add place="sublinear" th:sID="c57-0154__main__d4e28962"/>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            <metamark function="insert">^</metamark>
             <sga-add th:eID="c57-0154__main__d4e28962"/>
             <sga-add hand="#pbs" place="superlinear" th:sID="c57-0154__main__d4e28968"/>provisionally <sga-add th:eID="c57-0154__main__d4e28968"/>
             <mod th:eID="c57-0154__main__d4e28960"/>
-            <seg xml:id="C30_app632-fMS_end"/>reconciled me to life. I now <lb n="c57-0154__main__18"/>related my <seg xml:id="C30_app634-fMS_start"/>history<seg xml:id="C30_app634-fMS_end"/>
-            <seg xml:id="C30_app635-fMS_start"/>briefly<seg xml:id="C30_app635-fMS_end"/>but with firmness <lb n="c57-0154__main__19"/>&amp; <seg xml:id="C30_app637-fMS_start"/>precision – marking<seg xml:id="C30_app637-fMS_end"/>dates with <seg xml:id="C30_app639-fMS_start"/>accuracy <lb n="c57-0154__main__20"/>and never deviating into invective or <lb n="c57-0154__main__21"/>exclamation.<seg xml:id="C30_app639-fMS_end"/>The magistrate appeared at <lb n="c57-0154__main__22"/>first perfectly <seg xml:id="C30_app641-fMS_start"/>incredulous<seg xml:id="C30_app641-fMS_end"/>but as I <w ana="start"/>con<lb n="c57-0154__main__23"/>tinued<w ana="end"/> he became <seg xml:id="C30_app643-fMS_start"/>
-            <del ana="start"
-                  instant="true"
+            <seg xml:id="C30_app632-fMS_end"/>
+    reconciled me to life. I now <lb n="c57-0154__main__18"/>related my 
+        <seg xml:id="C30_app634-fMS_start"/>
+        history
+        <seg xml:id="C30_app634-fMS_end"/>
+            <seg xml:id="C30_app635-fMS_start"/>
+        briefly
+        <seg xml:id="C30_app635-fMS_end"/>
+    but with firmness <lb n="c57-0154__main__19"/>&amp; 
+        <seg xml:id="C30_app637-fMS_start"/>
+        precision – marking
+        <seg xml:id="C30_app637-fMS_end"/>
+    dates with 
+        <seg xml:id="C30_app639-fMS_start"/>
+        accuracy <lb n="c57-0154__main__20"/>and never deviating into invective or <lb n="c57-0154__main__21"/>exclamation.
+        <seg xml:id="C30_app639-fMS_end"/>
+    The magistrate appeared at <lb n="c57-0154__main__22"/>first perfectly 
+        <seg xml:id="C30_app641-fMS_start"/>
+        incredulous
+        <seg xml:id="C30_app641-fMS_end"/>
+    but as I <w ana="start"/>con<lb n="c57-0154__main__23"/>tinued<w ana="end"/> he became 
+        <seg xml:id="C30_app643-fMS_start"/>
+            <del instant="true"
                   rend="strikethrough"
-                  xml:id="c57-0154__main__d4e28989"/>be<del ana="end"/> more<seg xml:id="C30_app643-fMS_end"/>
-            <seg xml:id="C30_app644-fMS_start"/>atte <mod th:sID="c57-0154__main__d4e28993"/>
-            <mdel ana="start"/>m<mdel ana="end"/>
+                  xml:id="c57-0154__main__d4e28989">be</del> more
+        <seg xml:id="C30_app643-fMS_end"/>
+            <seg xml:id="C30_app644-fMS_start"/>
+        atte <mod th:sID="c57-0154__main__d4e28993"/>
+            <mdel>m</mdel>
             <sga-add place="intralinear" th:sID="c57-0154__main__d4e28997"/>nt <sga-add th:eID="c57-0154__main__d4e28997"/>
-            <mod th:eID="c57-0154__main__d4e28993"/> ive &amp;<lb n="c57-0154__main__24"/>interrested –I<seg xml:id="C30_app644-fMS_end"/>saw him sometimes shudder <lb n="c57-0154__main__25"/>with horror, at others a lively <seg xml:id="C30_app646-fMS_start"/>surprise <lb n="c57-0154__main__26"/>unmi <mod th:sID="c57-0154__main__d4e29007"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0154__main__d4e29009"/>xed<del ana="end"/>
+            <mod th:eID="c57-0154__main__d4e28993"/> ive &amp;<lb n="c57-0154__main__24"/>interrested –I
+        <seg xml:id="C30_app644-fMS_end"/>
+    saw him sometimes shudder <lb n="c57-0154__main__25"/>with horror, at others a lively 
+        <seg xml:id="C30_app646-fMS_start"/>
+        surprise <lb n="c57-0154__main__26"/>unmi <mod th:sID="c57-0154__main__d4e29007"/>
+            <del rend="strikethrough" xml:id="c57-0154__main__d4e29009">xed</del>
             <sga-add hand="#pbs" place="superlinear" th:sID="c57-0154__main__d4e29012"/>ngled <sga-add th:eID="c57-0154__main__d4e29012"/>
             <mod th:eID="c57-0154__main__d4e29007"/>
-            <seg xml:id="C30_app646-fMS_end"/>with <seg xml:id="C30_app648-fMS_start"/>disbelief was painted <lb n="c57-0154__main__27"/>on his countenance.<seg xml:id="C30_app648-fMS_end"/>When I had concluded <lb n="c57-0154__main__28"/>my <seg xml:id="C30_app650-fMS_start"/>
-            <del ana="start"
-                  instant="true"
+            <seg xml:id="C30_app646-fMS_end"/>
+    with 
+        <seg xml:id="C30_app648-fMS_start"/>
+        disbelief was painted <lb n="c57-0154__main__27"/>on his countenance.
+        <seg xml:id="C30_app648-fMS_end"/>
+    When I had concluded <lb n="c57-0154__main__28"/>my 
+        <seg xml:id="C30_app650-fMS_start"/>
+            <del instant="true"
                   rend="strikethrough"
-                  xml:id="c57-0154__main__d4e29021"/>relation I<del ana="end"/> narration<seg xml:id="C30_app650-fMS_end"/>I <seg xml:id="C30_app652-fMS_start"/>said. <milestone unit="tei:p-END"/>
+                  xml:id="c57-0154__main__d4e29021">relation I</del> narration
+        <seg xml:id="C30_app650-fMS_end"/>
+    I 
+        <seg xml:id="C30_app652-fMS_start"/>
+        said. <milestone unit="tei:p-END"/>
             <milestone unit="tei:p-START"/>
-            <lb n="c57-0154__main__29"/>This<seg xml:id="C30_app652-fMS_end"/>is the being whom I <seg xml:id="C30_app654-fMS_start"/>accuse<seg xml:id="C30_app654-fMS_end"/>
-            <lb n="c57-0154__main__30"/>and for whose <seg xml:id="C30_app656-fMS_start"/>detection<seg xml:id="C30_app656-fMS_end"/>&amp; punishment <lb n="c57-0154__main__31"/>I call upon you <sga-add hand="#pbs" place="superlinear" th:sID="c57-0154__main__d4e29033"/>to <sga-add th:eID="c57-0154__main__d4e29033"/>exert your whole <seg xml:id="C30_app659-fMS_start"/>power <lb n="c57-0154__main__32"/>
+            <lb n="c57-0154__main__29"/>This
+        <seg xml:id="C30_app652-fMS_end"/>
+    is the being whom I 
+        <seg xml:id="C30_app654-fMS_start"/>
+        accuse
+        <seg xml:id="C30_app654-fMS_end"/>
+            <lb n="c57-0154__main__30"/>and for whose 
+        <seg xml:id="C30_app656-fMS_start"/>
+        detection
+        <seg xml:id="C30_app656-fMS_end"/>
+    &amp; punishment <lb n="c57-0154__main__31"/>I call upon you <sga-add hand="#pbs" place="superlinear" th:sID="c57-0154__main__d4e29033"/>to <sga-add th:eID="c57-0154__main__d4e29033"/>exert your whole 
+        <seg xml:id="C30_app659-fMS_start"/>
+        power <lb n="c57-0154__main__32"/>
             <mod th:sID="c57-0154__main__d4e29038"/>
-            <mdel ana="start"/>Th<mdel ana="end"/>
+            <mdel>Th</mdel>
             <seg xml:id="C30_app659-fMS_end"/>
-            <sga-add place="intralinear" th:sID="c57-0154__main__d4e29042"/>It <seg xml:id="C30_app661-fMS_start"/>
+            <sga-add place="intralinear" th:sID="c57-0154__main__d4e29042"/>It 
+        <seg xml:id="C30_app661-fMS_start"/>
             <sga-add th:eID="c57-0154__main__d4e29042"/>
-            <mdel ana="start"/>is<mdel ana="end"/>
-            <mod th:eID="c57-0154__main__d4e29038"/> is your duty as a<seg xml:id="C30_app661-fMS_end"/>
-            <seg xml:id="C30_app662-fMS_start"/>magist <mod th:sID="c57-0154__main__d4e29048"/>
+            <mdel>is</mdel>
+            <mod th:eID="c57-0154__main__d4e29038"/> is your duty as a
+        <seg xml:id="C30_app661-fMS_end"/>
+            <seg xml:id="C30_app662-fMS_start"/>
+        magist <mod th:sID="c57-0154__main__d4e29048"/>
             <sga-add place="sublinear" th:sID="c57-0154__main__d4e29050"/>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            <metamark function="insert">^</metamark>
             <sga-add th:eID="c57-0154__main__d4e29050"/>
             <sga-add place="superlinear" th:sID="c57-0154__main__d4e29056"/>r <sga-add th:eID="c57-0154__main__d4e29056"/>
-            <mod th:eID="c57-0154__main__d4e29048"/> ate and <lb n="c57-0154__main__33"/>I believe &amp; hope<seg xml:id="C30_app662-fMS_end"/>your feelings as a man <seg xml:id="C30_app664-fMS_start"/>
-            <lb n="c57-0154__main__34"/>do<seg xml:id="C30_app664-fMS_end"/>not <seg xml:id="C30_app666-fMS_start"/>revol <mod th:sID="c57-0154__main__d4e29065"/>
-            <mdel ana="start"/>d<mdel ana="end"/>
+            <mod th:eID="c57-0154__main__d4e29048"/> ate and <lb n="c57-0154__main__33"/>I believe &amp; hope
+        <seg xml:id="C30_app662-fMS_end"/>
+    your feelings as a man 
+        <seg xml:id="C30_app664-fMS_start"/>
+            <lb n="c57-0154__main__34"/>do
+        <seg xml:id="C30_app664-fMS_end"/>
+    not 
+        <seg xml:id="C30_app666-fMS_start"/>
+        revol <mod th:sID="c57-0154__main__d4e29065"/>
+            <mdel>d</mdel>
             <sga-add place="intralinear" th:sID="c57-0154__main__d4e29069"/>t <sga-add th:eID="c57-0154__main__d4e29069"/>
             <mod th:eID="c57-0154__main__d4e29065"/>
-            <seg xml:id="C30_app666-fMS_end"/>from the execution <lb n="c57-0154__main__35"/>of <seg xml:id="C30_app668-fMS_start"/>
+            <seg xml:id="C30_app666-fMS_end"/>
+    from the execution <lb n="c57-0154__main__35"/>of 
+        <seg xml:id="C30_app668-fMS_start"/>
             <mod th:sID="c57-0154__main__d4e29075"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0154__main__d4e29077"/>your<del ana="end"/>
-            <sga-add hand="#pbs" place="superlinear" th:sID="c57-0154__main__d4e29080"/>those<seg xml:id="C30_app668-fMS_end"/>
+            <del rend="strikethrough" xml:id="c57-0154__main__d4e29077">your</del>
+            <sga-add hand="#pbs" place="superlinear" th:sID="c57-0154__main__d4e29080"/>those
+        <seg xml:id="C30_app668-fMS_end"/>
             <sga-add th:eID="c57-0154__main__d4e29080"/>
-            <mod th:eID="c57-0154__main__d4e29075"/>functions on this <seg xml:id="C30_app670-fMS_start"/>occasion.—<seg xml:id="C30_app670-fMS_end"/>
+            <mod th:eID="c57-0154__main__d4e29075"/>functions on this 
+        <seg xml:id="C30_app670-fMS_start"/>
+        occasion.—
+        <seg xml:id="C30_app670-fMS_end"/>
             <milestone unit="tei:p-END"/>
             <milestone unit="tei:p-START"/>
-            <lb n="c57-0154__main__36"/>This address caused a considerable <lb n="c57-0155__main__1"/>change in the <seg xml:id="C30_app672-fMS_start"/>phisiognomy of my auditor<seg xml:id="C30_app672-fMS_end"/>
-            <lb n="c57-0155__main__2"/>He had heard my <seg xml:id="C30_app674-fMS_start"/>
+            <lb n="c57-0154__main__36"/>This address caused a considerable <lb n="c57-0155__main__1"/>change in the 
+        <seg xml:id="C30_app672-fMS_start"/>
+        phisiognomy of my auditor
+        <seg xml:id="C30_app672-fMS_end"/>
+            <lb n="c57-0155__main__2"/>He had heard my 
+        <seg xml:id="C30_app674-fMS_start"/>
             <mod th:sID="c57-0155__main__d4e29100"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0155__main__d4e29102"/>tale<del ana="end"/>
-            <sga-add place="superlinear" th:sID="c57-0155__main__d4e29105"/>story<seg xml:id="C30_app674-fMS_end"/>
+            <del rend="strikethrough" xml:id="c57-0155__main__d4e29102">tale</del>
+            <sga-add place="superlinear" th:sID="c57-0155__main__d4e29105"/>story
+        <seg xml:id="C30_app674-fMS_end"/>
             <sga-add th:eID="c57-0155__main__d4e29105"/>
-            <mod th:eID="c57-0155__main__d4e29100"/>with <seg xml:id="C30_app676-fMS_start"/>th <mod th:sID="c57-0155__main__d4e29109"/>
-            <mdel ana="start"/>e<mdel ana="end"/>
+            <mod th:eID="c57-0155__main__d4e29100"/>with 
+        <seg xml:id="C30_app676-fMS_start"/>
+        th <mod th:sID="c57-0155__main__d4e29109"/>
+            <mdel>e</mdel>
             <sga-add place="intralinear" th:sID="c57-0155__main__d4e29113"/>at <sga-add th:eID="c57-0155__main__d4e29113"/>
             <mod th:eID="c57-0155__main__d4e29109"/>
-            <seg xml:id="C30_app676-fMS_end"/>half kind of belief <lb n="c57-0155__main__3"/>that is given to a tale of spirits and <seg xml:id="C30_app678-fMS_start"/>ghosts<seg xml:id="C30_app678-fMS_end"/>but <lb n="c57-0155__main__4"/>when he was called upon to act officially in <seg xml:id="C30_app680-fMS_start"/>
-            <lb n="c57-0155__main__5"/>consequence of it <del ana="start" rend="strikethrough" xml:id="c57-0155__main__d4e29124"/>his<del ana="end"/>
-            <seg xml:id="C30_app680-fMS_end"/>the whole tide of his <w ana="start"/>incre<lb n="c57-0155__main__6"/>dulity<w ana="end"/>
-            <seg xml:id="C30_app682-fMS_start"/>returned – He however<seg xml:id="C30_app682-fMS_end"/>answered <seg xml:id="C30_app684-fMS_start"/>mildly. <milestone unit="tei:p-END"/>
+            <seg xml:id="C30_app676-fMS_end"/>
+    half kind of belief <lb n="c57-0155__main__3"/>that is given to a tale of spirits and 
+        <seg xml:id="C30_app678-fMS_start"/>
+        ghosts
+        <seg xml:id="C30_app678-fMS_end"/>
+    but <lb n="c57-0155__main__4"/>when he was called upon to act officially in 
+        <seg xml:id="C30_app680-fMS_start"/>
+            <lb n="c57-0155__main__5"/>consequence of it <del rend="strikethrough" xml:id="c57-0155__main__d4e29124">his</del>
+            <seg xml:id="C30_app680-fMS_end"/>
+    the whole tide of his <w ana="start"/>incre<lb n="c57-0155__main__6"/>dulity<w ana="end"/>
+            <seg xml:id="C30_app682-fMS_start"/>
+        returned – He however
+        <seg xml:id="C30_app682-fMS_end"/>
+    answered 
+        <seg xml:id="C30_app684-fMS_start"/>
+        mildly. <milestone unit="tei:p-END"/>
             <milestone unit="tei:p-START"/>
-            <lb n="c57-0155__main__7"/>I<seg xml:id="C30_app684-fMS_end"/>would willingly afford you every aid in <lb n="c57-0155__main__8"/>your pursuit; but the creature of whom you <lb n="c57-0155__main__9"/>speak appears to have powers which would <lb n="c57-0155__main__10"/>put all my exertions to <seg xml:id="C30_app686-fMS_start"/>defiance <del ana="start" rend="strikethrough" xml:id="c57-0155__main__d4e29144"/>for<del ana="end"/>
-            <seg xml:id="C30_app686-fMS_end"/>Who <lb n="c57-0155__main__11"/>can follow an animal <seg xml:id="C30_app688-fMS_start"/>
+            <lb n="c57-0155__main__7"/>I
+        <seg xml:id="C30_app684-fMS_end"/>
+    would willingly afford you every aid in <lb n="c57-0155__main__8"/>your pursuit; but the creature of whom you <lb n="c57-0155__main__9"/>speak appears to have powers which would <lb n="c57-0155__main__10"/>put all my exertions to 
+        <seg xml:id="C30_app686-fMS_start"/>
+        defiance <del rend="strikethrough" xml:id="c57-0155__main__d4e29144">for</del>
+            <seg xml:id="C30_app686-fMS_end"/>
+    Who <lb n="c57-0155__main__11"/>can follow an animal 
+        <seg xml:id="C30_app688-fMS_start"/>
             <mod th:sID="c57-0155__main__d4e29150"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0155__main__d4e29152"/>who<del ana="end"/>
-            <sga-add hand="#pbs" place="superlinear" th:sID="c57-0155__main__d4e29155"/>which<seg xml:id="C30_app688-fMS_end"/>
+            <del rend="strikethrough" xml:id="c57-0155__main__d4e29152">who</del>
+            <sga-add hand="#pbs" place="superlinear" th:sID="c57-0155__main__d4e29155"/>which
+        <seg xml:id="C30_app688-fMS_end"/>
             <sga-add th:eID="c57-0155__main__d4e29155"/>
-            <mod th:eID="c57-0155__main__d4e29150"/>can traverse <seg xml:id="C30_app690-fMS_start"/>
+            <mod th:eID="c57-0155__main__d4e29150"/>can traverse 
+        <seg xml:id="C30_app690-fMS_start"/>
             <lb n="c57-0155__main__12"/>
-            <del ana="start"
-                  instant="true"
+            <del instant="true"
                   rend="strikethrough"
-                  xml:id="c57-0155__main__d4e29161"/>se<del ana="end"/> the sea of<seg xml:id="C30_app690-fMS_end"/>
-            <seg xml:id="C30_app691-fMS_start"/>ice<seg xml:id="C30_app691-fMS_end"/>and inhabit caves &amp; <seg xml:id="C30_app693-fMS_start"/>dens<seg xml:id="C30_app693-fMS_end"/>
-            <lb n="c57-0155__main__13"/>where no man would venture to <seg xml:id="C30_app695-fMS_start"/>intrude<delSpan rend="vertical_line" spanTo="#c57-0155.01"/>
+                  xml:id="c57-0155__main__d4e29161">se</del> the sea of
+        <seg xml:id="C30_app690-fMS_end"/>
+            <seg xml:id="C30_app691-fMS_start"/>
+        ice
+        <seg xml:id="C30_app691-fMS_end"/>
+    and inhabit caves &amp; 
+        <seg xml:id="C30_app693-fMS_start"/>
+        dens
+        <seg xml:id="C30_app693-fMS_end"/>
+            <lb n="c57-0155__main__13"/>where no man would venture to 
+        <seg xml:id="C30_app695-fMS_start"/>
+        intrude<delSpan rend="vertical_line" spanTo="#c57-0155.01"/>
             <milestone unit="tei:p-END"/>
             <milestone unit="tei:p-START"/>
             <lb n="c57-0155__main__14"/>But such a wretch, I replied, may be <w ana="start"/>hun<lb n="c57-0155__main__15"/>ted<w ana="end"/> like the Chamois &amp; be destroyed like a <lb n="c57-0155__main__16"/>beast of prey. <milestone unit="tei:p-END"/>
             <milestone unit="tei:p-START"/>
             <lb n="c57-0155__main__17"/>Certainly; but some months have <lb n="c57-0155__main__18"/>elapsed since the commission <delSpan anchor="c57-0155.01"/>
-            <lb n="c57-0155__main__19"/>besides<seg xml:id="C30_app695-fMS_end"/>some months have elapsed since <lb n="c57-0155__main__20"/>the commission of his <seg xml:id="C30_app697-fMS_start"/>crimes<seg xml:id="C30_app697-fMS_end"/>&amp; <seg xml:id="C30_app699-fMS_start"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0155__main__d4e29195"/>wh<del ana="end"/> no one<seg xml:id="C30_app699-fMS_end"/>
+            <lb n="c57-0155__main__19"/>besides
+        <seg xml:id="C30_app695-fMS_end"/>
+    some months have elapsed since <lb n="c57-0155__main__20"/>the commission of his 
+        <seg xml:id="C30_app697-fMS_start"/>
+        crimes
+        <seg xml:id="C30_app697-fMS_end"/>
+    &amp; 
+        <seg xml:id="C30_app699-fMS_start"/>
+            <del rend="strikethrough" xml:id="c57-0155__main__d4e29195">wh</del> no one
+        <seg xml:id="C30_app699-fMS_end"/>
             <seg xml:id="C30_app700-fMS_start"/>
-            <lb n="c57-0155__main__21"/>may<seg xml:id="C30_app700-fMS_end"/>conjecture to what place he has <seg xml:id="C30_app702-fMS_start"/>
+            <lb n="c57-0155__main__21"/>may
+        <seg xml:id="C30_app700-fMS_end"/>
+    conjecture to what place he has 
+        <seg xml:id="C30_app702-fMS_start"/>
             <lb n="c57-0155__main__22"/>wandered <mod th:sID="c57-0155__main__d4e29202"/>
-            <mdel ana="start"/>&amp;<mdel ana="end"/>
+            <mdel>&amp;</mdel>
             <seg xml:id="C30_app702-fMS_end"/>
             <sga-add hand="#pbs" place="superlinear" th:sID="c57-0155__main__d4e29206"/>or <sga-add th:eID="c57-0155__main__d4e29206"/>
-            <mod th:eID="c57-0155__main__d4e29202"/>what <seg xml:id="C30_app705-fMS_start"/>
+            <mod th:eID="c57-0155__main__d4e29202"/>what 
+        <seg xml:id="C30_app705-fMS_start"/>
             <mod th:sID="c57-0155__main__d4e29210"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0155__main__d4e29212"/>country<del ana="end"/>
-            <sga-add hand="#pbs" place="superlinear" th:sID="c57-0155__main__d4e29215"/>region<seg xml:id="C30_app705-fMS_end"/>
+            <del rend="strikethrough" xml:id="c57-0155__main__d4e29212">country</del>
+            <sga-add hand="#pbs" place="superlinear" th:sID="c57-0155__main__d4e29215"/>region
+        <seg xml:id="C30_app705-fMS_end"/>
             <sga-add th:eID="c57-0155__main__d4e29215"/>
-            <mod th:eID="c57-0155__main__d4e29210"/>he may now <seg xml:id="C30_app707-fMS_start"/>
-            <lb n="c57-0155__main__23"/>inhabit.<seg xml:id="C30_app707-fMS_end"/>
+            <mod th:eID="c57-0155__main__d4e29210"/>he may now 
+        <seg xml:id="C30_app707-fMS_start"/>
+            <lb n="c57-0155__main__23"/>inhabit.
+        <seg xml:id="C30_app707-fMS_end"/>
             <milestone unit="tei:p-END"/>
             <milestone unit="tei:p-START"/>
             <seg xml:id="C30_app709-fMS_start"/>
-            <lb n="c57-0155__main__24"/>I<seg xml:id="C30_app709-fMS_end"/>do not <seg xml:id="C30_app711-fMS_start"/>doubt, I replied,<seg xml:id="C30_app711-fMS_end"/>that he hovers <lb n="c57-0155__main__25"/>near the <seg xml:id="C30_app713-fMS_start"/>
+            <lb n="c57-0155__main__24"/>I
+        <seg xml:id="C30_app709-fMS_end"/>
+    do not 
+        <seg xml:id="C30_app711-fMS_start"/>
+        doubt, I replied,
+        <seg xml:id="C30_app711-fMS_end"/>
+    that he hovers <lb n="c57-0155__main__25"/>near the 
+        <seg xml:id="C30_app713-fMS_start"/>
             <mod th:sID="c57-0155__main__d4e29228"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0155__main__d4e29230"/>place where<del ana="end"/>
+            <del rend="strikethrough" xml:id="c57-0155__main__d4e29230">place where</del>
             <sga-add place="sublinear" th:sID="c57-0155__main__d4e29233"/>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            <metamark function="insert">^</metamark>
             <sga-add th:eID="c57-0155__main__d4e29233"/>
-            <sga-add place="superlinear" th:sID="c57-0155__main__d4e29239"/>spot which<seg xml:id="C30_app713-fMS_end"/>
+            <sga-add place="superlinear" th:sID="c57-0155__main__d4e29239"/>spot which
+        <seg xml:id="C30_app713-fMS_end"/>
             <sga-add th:eID="c57-0155__main__d4e29239"/>
-            <mod th:eID="c57-0155__main__d4e29228"/>I <seg xml:id="C30_app715-fMS_start"/>
+            <mod th:eID="c57-0155__main__d4e29228"/>I 
+        <seg xml:id="C30_app715-fMS_start"/>
             <mod th:sID="c57-0155__main__d4e29243"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0155__main__d4e29245"/>live<del ana="end"/>
+            <del rend="strikethrough" xml:id="c57-0155__main__d4e29245">live</del>
             <sga-add place="sublinear" th:sID="c57-0155__main__d4e29248"/>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            <metamark function="insert">^</metamark>
             <sga-add th:eID="c57-0155__main__d4e29248"/>
             <sga-add place="superlinear" th:sID="c57-0155__main__d4e29254"/>inhabit <sga-add th:eID="c57-0155__main__d4e29254"/>
-            <mod th:eID="c57-0155__main__d4e29243"/> –<seg xml:id="C30_app715-fMS_end"/>And if he <lb n="c57-0155__main__26"/>has indeed taken refuge in the <seg xml:id="C30_app717-fMS_start"/>alps<seg xml:id="C30_app717-fMS_end"/>he <lb n="c57-0155__main__27"/>may be hunted like the <seg xml:id="C30_app719-fMS_start"/>chamois &amp;<w ana="start"/>des<lb n="c57-0155__main__28"/>troyed<w ana="end"/>
-            <seg xml:id="C30_app719-fMS_end"/>as a beast of prey. But I perceive <lb n="c57-0155__main__29"/>your <seg xml:id="C30_app721-fMS_start"/>thoughts —<seg xml:id="C30_app721-fMS_end"/>you do not credit my <seg xml:id="C30_app723-fMS_start"/>
-            <lb n="c57-0155__main__30"/>narrative<seg xml:id="C30_app723-fMS_end"/>and do not intend to <seg xml:id="C30_app725-fMS_start"/>
-            <del ana="start"
-                  instant="true"
+            <mod th:eID="c57-0155__main__d4e29243"/> –
+        <seg xml:id="C30_app715-fMS_end"/>
+    And if he <lb n="c57-0155__main__26"/>has indeed taken refuge in the 
+        <seg xml:id="C30_app717-fMS_start"/>
+        alps
+        <seg xml:id="C30_app717-fMS_end"/>
+    he <lb n="c57-0155__main__27"/>may be hunted like the 
+        <seg xml:id="C30_app719-fMS_start"/>
+        chamois &amp;<w ana="start"/>des<lb n="c57-0155__main__28"/>troyed<w ana="end"/>
+            <seg xml:id="C30_app719-fMS_end"/>
+    as a beast of prey. But I perceive <lb n="c57-0155__main__29"/>your 
+        <seg xml:id="C30_app721-fMS_start"/>
+        thoughts —
+        <seg xml:id="C30_app721-fMS_end"/>
+    you do not credit my 
+        <seg xml:id="C30_app723-fMS_start"/>
+            <lb n="c57-0155__main__30"/>narrative
+        <seg xml:id="C30_app723-fMS_end"/>
+    and do not intend to 
+        <seg xml:id="C30_app725-fMS_start"/>
+            <del instant="true"
                   rend="strikethrough"
-                  xml:id="c57-0155__main__d4e29274"/>inflict<del ana="end"/>
-            <lb n="c57-0155__main__31"/>pursue my enemy with <sga-add place="superlinear" th:sID="c57-0155__main__d4e29279"/>the<seg xml:id="C30_app725-fMS_end"/>
-            <sga-add th:eID="c57-0155__main__d4e29279"/>punishment <seg xml:id="C30_app727-fMS_start"/>
-            <lb n="c57-0155__main__32"/>that <del ana="start" rend="strikethrough" xml:id="c57-0155__main__d4e29284"/>
-            <unclear ana="start" reason="illegible"/>h<unclear ana="end"/>
-            <del ana="end"/>
-            <seg xml:id="C30_app727-fMS_end"/>is his <seg xml:id="C30_app729-fMS_start"/>desert.<seg xml:id="C30_app729-fMS_end"/>
+                  xml:id="c57-0155__main__d4e29274">inflict</del>
+            <lb n="c57-0155__main__31"/>pursue my enemy with <sga-add place="superlinear" th:sID="c57-0155__main__d4e29279"/>the
+        <seg xml:id="C30_app725-fMS_end"/>
+            <sga-add th:eID="c57-0155__main__d4e29279"/>punishment 
+        <seg xml:id="C30_app727-fMS_start"/>
+            <lb n="c57-0155__main__32"/>that <del rend="strikethrough" xml:id="c57-0155__main__d4e29284">
+               <unclear reason="illegible">h</unclear>
+            </del>
+            <seg xml:id="C30_app727-fMS_end"/>
+    is his 
+        <seg xml:id="C30_app729-fMS_start"/>
+        desert.
+        <seg xml:id="C30_app729-fMS_end"/>
             <milestone unit="tei:p-END"/>
             <milestone unit="tei:p-START"/>
-            <lb n="c57-0155__main__33"/>As I <seg xml:id="C30_app731-fMS_start"/>spoke<seg xml:id="C30_app731-fMS_end"/>rage sparkled in my <seg xml:id="C30_app733-fMS_start"/>
-            <lb n="c57-0155__main__34"/>eyes –<seg xml:id="C30_app733-fMS_end"/>The magistrate was <seg xml:id="C30_app735-fMS_start"/>intimidated <lb n="c57-0155__main__35"/>You<seg xml:id="C30_app735-fMS_end"/>are <seg xml:id="C30_app737-fMS_start"/>mistaken,<seg xml:id="C30_app737-fMS_end"/>said <seg xml:id="C30_app739-fMS_start"/>he <del ana="start" rend="strikethrough" xml:id="c57-0155__main__d4e29299"/>an<del ana="end"/> I<seg xml:id="C30_app739-fMS_end"/>will <lb n="c57-0155__main__36"/>exert <seg xml:id="C30_app741-fMS_start"/>myself<seg xml:id="C30_app741-fMS_end"/>and if it is <seg xml:id="C30_app743-fMS_start"/>
+            <lb n="c57-0155__main__33"/>As I 
+        <seg xml:id="C30_app731-fMS_start"/>
+        spoke
+        <seg xml:id="C30_app731-fMS_end"/>
+    rage sparkled in my 
+        <seg xml:id="C30_app733-fMS_start"/>
+            <lb n="c57-0155__main__34"/>eyes –
+        <seg xml:id="C30_app733-fMS_end"/>
+    The magistrate was 
+        <seg xml:id="C30_app735-fMS_start"/>
+        intimidated <lb n="c57-0155__main__35"/>You
+        <seg xml:id="C30_app735-fMS_end"/>
+    are 
+        <seg xml:id="C30_app737-fMS_start"/>
+        mistaken,
+        <seg xml:id="C30_app737-fMS_end"/>
+    said 
+        <seg xml:id="C30_app739-fMS_start"/>
+        he <del rend="strikethrough" xml:id="c57-0155__main__d4e29299">an</del> I
+        <seg xml:id="C30_app739-fMS_end"/>
+    will <lb n="c57-0155__main__36"/>exert 
+        <seg xml:id="C30_app741-fMS_start"/>
+        myself
+        <seg xml:id="C30_app741-fMS_end"/>
+    and if it is 
+        <seg xml:id="C30_app743-fMS_start"/>
             <mod th:sID="c57-0155__main__d4e29304"/>
             <sga-add place="sublinear" th:sID="c57-0155__main__d4e29306"/>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            <metamark function="insert">^</metamark>
             <sga-add th:eID="c57-0155__main__d4e29306"/>
-            <sga-add place="superlinear" th:sID="c57-0155__main__d4e29312"/>in<seg xml:id="C30_app743-fMS_end"/>
+            <sga-add place="superlinear" th:sID="c57-0155__main__d4e29312"/>in
+        <seg xml:id="C30_app743-fMS_end"/>
             <sga-add th:eID="c57-0155__main__d4e29312"/>
-            <mod th:eID="c57-0155__main__d4e29304"/>my power to <lb n="c57-0155__main__37"/>seize the <seg xml:id="C30_app745-fMS_start"/>monster<seg xml:id="C30_app745-fMS_end"/>be assured that he <lb n="c57-0156__main__1"/>shall suffer punishment proportionate to <lb n="c57-0156__main__2"/>his <seg xml:id="C30_app747-fMS_start"/>crimes –<seg xml:id="C30_app747-fMS_end"/>But I <seg xml:id="C30_app749-fMS_start"/>fear<seg xml:id="C30_app749-fMS_end"/>from what you <seg xml:id="C30_app751-fMS_start"/>
+            <mod th:eID="c57-0155__main__d4e29304"/>my power to <lb n="c57-0155__main__37"/>seize the 
+        <seg xml:id="C30_app745-fMS_start"/>
+        monster
+        <seg xml:id="C30_app745-fMS_end"/>
+    be assured that he <lb n="c57-0156__main__1"/>shall suffer punishment proportionate to <lb n="c57-0156__main__2"/>his 
+        <seg xml:id="C30_app747-fMS_start"/>
+        crimes –
+        <seg xml:id="C30_app747-fMS_end"/>
+    But I 
+        <seg xml:id="C30_app749-fMS_start"/>
+        fear
+        <seg xml:id="C30_app749-fMS_end"/>
+    from what you 
+        <seg xml:id="C30_app751-fMS_start"/>
             <mod th:sID="c57-0156__main__d4e29331"/>
             <sga-add place="sublinear" th:sID="c57-0156__main__d4e29333"/>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            <metamark function="insert">^</metamark>
             <sga-add th:eID="c57-0156__main__d4e29333"/>
             <sga-add hand="#pbs" place="superlinear" th:sID="c57-0156__main__d4e29339"/>have <sga-add th:eID="c57-0156__main__d4e29339"/>
             <mod th:eID="c57-0156__main__d4e29331"/>
-            <w ana="start"/>your<lb n="c57-0156__main__3"/>self<w ana="end"/> described to<seg xml:id="C30_app751-fMS_end"/>
+            <w ana="start"/>your<lb n="c57-0156__main__3"/>self<w ana="end"/> described to
+        <seg xml:id="C30_app751-fMS_end"/>
             <seg xml:id="C30_app752-fMS_start"/>
             <mod th:sID="c57-0156__main__d4e29350"/>
             <sga-add place="sublinear" th:sID="c57-0156__main__d4e29352"/>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            <metamark function="insert">^</metamark>
             <sga-add th:eID="c57-0156__main__d4e29352"/>
-            <sga-add place="superlinear" th:sID="c57-0156__main__d4e29358"/>be<seg xml:id="C30_app752-fMS_end"/>
+            <sga-add place="superlinear" th:sID="c57-0156__main__d4e29358"/>be
+        <seg xml:id="C30_app752-fMS_end"/>
             <seg xml:id="C30_app753-fMS_start"/>
             <sga-add th:eID="c57-0156__main__d4e29358"/>
             <mod th:eID="c57-0156__main__d4e29350"/> hi <mod th:sID="c57-0156__main__d4e29362"/>
-            <mdel ana="start"/>n<mdel ana="end"/>
+            <mdel>n</mdel>
             <sga-add place="intralinear" th:sID="c57-0156__main__d4e29366"/>s <sga-add th:eID="c57-0156__main__d4e29366"/>
-            <mod th:eID="c57-0156__main__d4e29362"/> properties<seg xml:id="C30_app753-fMS_end"/>that this will <lb n="c57-0156__main__4"/>prove <seg xml:id="C30_app755-fMS_start"/>impracticable<seg xml:id="C30_app755-fMS_end"/>and <seg xml:id="C30_app757-fMS_start"/>that —<seg xml:id="C30_app757-fMS_end"/>while every <lb n="c57-0156__main__5"/>proper measure is <seg xml:id="C30_app759-fMS_start"/>pursued<seg xml:id="C30_app759-fMS_end"/>
-            <seg xml:id="C30_app760-fMS_start"/>you should<seg xml:id="C30_app760-fMS_end"/>
+            <mod th:eID="c57-0156__main__d4e29362"/> properties
+        <seg xml:id="C30_app753-fMS_end"/>
+    that this will <lb n="c57-0156__main__4"/>prove 
+        <seg xml:id="C30_app755-fMS_start"/>
+        impracticable
+        <seg xml:id="C30_app755-fMS_end"/>
+    and 
+        <seg xml:id="C30_app757-fMS_start"/>
+        that —
+        <seg xml:id="C30_app757-fMS_end"/>
+    while every <lb n="c57-0156__main__5"/>proper measure is 
+        <seg xml:id="C30_app759-fMS_start"/>
+        pursued
+        <seg xml:id="C30_app759-fMS_end"/>
+            <seg xml:id="C30_app760-fMS_start"/>
+        you should
+        <seg xml:id="C30_app760-fMS_end"/>
             <seg xml:id="C30_app761-fMS_start"/>
-            <lb n="c57-0156__main__6"/>endeavour to make up your mind to<seg xml:id="C30_app761-fMS_end"/>
-            <seg xml:id="C30_app762-fMS_start"/>a <lb n="c57-0156__main__7"/>di <mod th:sID="c57-0156__main__d4e29379"/>
-            <mdel ana="start"/>ss<mdel ana="end"/>
+            <lb n="c57-0156__main__6"/>endeavour to make up your mind to
+        <seg xml:id="C30_app761-fMS_end"/>
+            <seg xml:id="C30_app762-fMS_start"/>
+        a <lb n="c57-0156__main__7"/>di <mod th:sID="c57-0156__main__d4e29379"/>
+            <mdel>ss</mdel>
             <sga-add hand="#pbs" place="intralinear" th:sID="c57-0156__main__d4e29383"/>s <sga-add th:eID="c57-0156__main__d4e29383"/>
-            <mod th:eID="c57-0156__main__d4e29379"/> appointment<seg xml:id="C30_app762-fMS_end"/>
+            <mod th:eID="c57-0156__main__d4e29379"/> appointment
+        <seg xml:id="C30_app762-fMS_end"/>
             <milestone unit="tei:p-END"/>
             <milestone unit="tei:p-START"/>
             <seg xml:id="C30_app764-fMS_start"/>
-            <lb n="c57-0156__main__8"/>That<seg xml:id="C30_app764-fMS_end"/>cannot <seg xml:id="C30_app766-fMS_start"/>be– said I wildly—But<seg xml:id="C30_app766-fMS_end"/>
+            <lb n="c57-0156__main__8"/>That
+        <seg xml:id="C30_app764-fMS_end"/>
+    cannot 
+        <seg xml:id="C30_app766-fMS_start"/>
+        be– said I wildly—But
+        <seg xml:id="C30_app766-fMS_end"/>
             <lb n="c57-0156__main__9"/>
             <mod th:sID="c57-0156__main__d4e29393"/>
             <anchor xml:id="c57-0156.01"/>
             <lb n="c57-0156__left_margin__1"/>
-            <sga-add th:sID="c57-0156__left_margin__d4e29401"/>all <seg xml:id="C30_app768-fMS_start"/>
+            <sga-add th:sID="c57-0156__left_margin__d4e29401"/>all 
+        <seg xml:id="C30_app768-fMS_start"/>
             <sga-add th:eID="c57-0156__left_margin__d4e29401"/>
             <mod th:sID="c57-0156__main__d4e29404"/>
-            <mdel ana="start"/>w<mdel ana="end"/>
+            <mdel>w</mdel>
             <sga-add place="intralinear" th:sID="c57-0156__main__d4e29408"/>t <sga-add th:eID="c57-0156__main__d4e29408"/>
             <mod th:eID="c57-0156__main__d4e29404"/>
-            <mod th:eID="c57-0156__main__d4e29393"/> hat<seg xml:id="C30_app768-fMS_end"/>I can say <seg xml:id="C30_app770-fMS_start"/>
+            <mod th:eID="c57-0156__main__d4e29393"/> hat
+        <seg xml:id="C30_app768-fMS_end"/>
+    I can say 
+        <seg xml:id="C30_app770-fMS_start"/>
             <mod th:sID="c57-0156__main__d4e29414"/>
             <sga-add place="sublinear" th:sID="c57-0156__main__d4e29416"/>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            <metamark function="insert">^</metamark>
             <sga-add th:eID="c57-0156__main__d4e29416"/>
-            <sga-add place="superlinear" th:sID="c57-0156__main__d4e29422"/>will<seg xml:id="C30_app770-fMS_end"/>
+            <sga-add place="superlinear" th:sID="c57-0156__main__d4e29422"/>will
+        <seg xml:id="C30_app770-fMS_end"/>
             <sga-add th:eID="c57-0156__main__d4e29422"/>
-            <mod th:eID="c57-0156__main__d4e29414"/>be of little <seg xml:id="C30_app772-fMS_start"/>avail; <del ana="start" rend="strikethrough" xml:id="c57-0156__main__d4e29426"/>vengeance<del ana="end"/>
+            <mod th:eID="c57-0156__main__d4e29414"/>be of little 
+        <seg xml:id="C30_app772-fMS_start"/>
+        avail; <del rend="strikethrough" xml:id="c57-0156__main__d4e29426">vengeance</del>
             <seg xml:id="C30_app772-fMS_end"/>
             <lb n="c57-0156__main__10"/>
             <anchor xml:id="c57-0156.03"/>
             <lb n="c57-0156__left_margin__1"/>
-            <sga-add th:sID="c57-0156__left_margin__d4e29437"/>My revenge <sga-add th:eID="c57-0156__left_margin__d4e29437"/>is of no moment to <seg xml:id="C30_app774-fMS_start"/>you yet<seg xml:id="C30_app774-fMS_end"/>while I allow <lb n="c57-0156__main__11"/>it to <seg xml:id="C30_app776-fMS_start"/>
+            <sga-add th:sID="c57-0156__left_margin__d4e29437"/>My revenge <sga-add th:eID="c57-0156__left_margin__d4e29437"/>is of no moment to 
+        <seg xml:id="C30_app774-fMS_start"/>
+        you yet
+        <seg xml:id="C30_app774-fMS_end"/>
+    while I allow <lb n="c57-0156__main__11"/>it to 
+        <seg xml:id="C30_app776-fMS_start"/>
             <mod th:sID="c57-0156__main__d4e29443"/>
             <sga-add place="sublinear" th:sID="c57-0156__main__d4e29445"/>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            <metamark function="insert">^</metamark>
             <sga-add th:eID="c57-0156__main__d4e29445"/>
-            <sga-add place="superlinear" th:sID="c57-0156__main__d4e29451"/>be<seg xml:id="C30_app776-fMS_end"/>
+            <sga-add place="superlinear" th:sID="c57-0156__main__d4e29451"/>be
+        <seg xml:id="C30_app776-fMS_end"/>
             <sga-add th:eID="c57-0156__main__d4e29451"/>
-            <mod th:eID="c57-0156__main__d4e29443"/>a <seg xml:id="C30_app778-fMS_start"/>vice<seg xml:id="C30_app778-fMS_end"/>I confess that it is the <lb n="c57-0156__main__12"/>devouring &amp; only passion of my <seg xml:id="C30_app780-fMS_start"/>soul;<seg xml:id="C30_app780-fMS_end"/>my <lb n="c57-0156__main__13"/>rage is <seg xml:id="C30_app782-fMS_start"/>unspeakable<seg xml:id="C30_app782-fMS_end"/>when I reflect that <lb n="c57-0156__main__14"/>the <seg xml:id="C30_app784-fMS_start"/>murderer<seg xml:id="C30_app784-fMS_end"/>whom I have turned <seg xml:id="C30_app786-fMS_start"/>lo <sga-add place="intralinear" th:sID="c57-0156__main__d4e29461"/>o <sga-add th:eID="c57-0156__main__d4e29461"/>se<seg xml:id="C30_app786-fMS_end"/>
-            <lb n="c57-0156__main__15"/>upon <seg xml:id="C30_app788-fMS_start"/>society<seg xml:id="C30_app788-fMS_end"/>still <seg xml:id="C30_app790-fMS_start"/>exists – <delSpan rend="strikethrough" spanTo="#c57-0156.04"/>I trembled as I spoke <lb n="c57-0156__main__16"/>this <delSpan anchor="c57-0156.04"/>
-            <seg xml:id="C30_app790-fMS_end"/>You refuse my just <seg xml:id="C30_app792-fMS_start"/>demand –<seg xml:id="C30_app792-fMS_end"/>I have <lb n="c57-0156__main__17"/>but one <seg xml:id="C30_app794-fMS_start"/>resource<seg xml:id="C30_app794-fMS_end"/>and I devote <seg xml:id="C30_app796-fMS_start"/>myself<seg xml:id="C30_app796-fMS_end"/>
-            <lb n="c57-0156__main__18"/>either in my life or <seg xml:id="C30_app798-fMS_start"/>death<seg xml:id="C30_app798-fMS_end"/>to his <seg xml:id="C30_app800-fMS_start"/>
-            <w ana="start"/>destruc<lb n="c57-0156__main__19"/>tion<w ana="end"/> – <del ana="start"
-                  instant="true"
+            <mod th:eID="c57-0156__main__d4e29443"/>a 
+        <seg xml:id="C30_app778-fMS_start"/>
+        vice
+        <seg xml:id="C30_app778-fMS_end"/>
+    I confess that it is the <lb n="c57-0156__main__12"/>devouring &amp; only passion of my 
+        <seg xml:id="C30_app780-fMS_start"/>
+        soul;
+        <seg xml:id="C30_app780-fMS_end"/>
+    my <lb n="c57-0156__main__13"/>rage is 
+        <seg xml:id="C30_app782-fMS_start"/>
+        unspeakable
+        <seg xml:id="C30_app782-fMS_end"/>
+    when I reflect that <lb n="c57-0156__main__14"/>the 
+        <seg xml:id="C30_app784-fMS_start"/>
+        murderer
+        <seg xml:id="C30_app784-fMS_end"/>
+    whom I have turned 
+        <seg xml:id="C30_app786-fMS_start"/>
+        lo <sga-add place="intralinear" th:sID="c57-0156__main__d4e29461"/>o <sga-add th:eID="c57-0156__main__d4e29461"/>se
+        <seg xml:id="C30_app786-fMS_end"/>
+            <lb n="c57-0156__main__15"/>upon 
+        <seg xml:id="C30_app788-fMS_start"/>
+        society
+        <seg xml:id="C30_app788-fMS_end"/>
+    still 
+        <seg xml:id="C30_app790-fMS_start"/>
+        exists – <delSpan rend="strikethrough" spanTo="#c57-0156.04"/>I trembled as I spoke <lb n="c57-0156__main__16"/>this <delSpan anchor="c57-0156.04"/>
+            <seg xml:id="C30_app790-fMS_end"/>
+    You refuse my just 
+        <seg xml:id="C30_app792-fMS_start"/>
+        demand –
+        <seg xml:id="C30_app792-fMS_end"/>
+    I have <lb n="c57-0156__main__17"/>but one 
+        <seg xml:id="C30_app794-fMS_start"/>
+        resource
+        <seg xml:id="C30_app794-fMS_end"/>
+    and I devote 
+        <seg xml:id="C30_app796-fMS_start"/>
+        myself
+        <seg xml:id="C30_app796-fMS_end"/>
+            <lb n="c57-0156__main__18"/>either in my life or 
+        <seg xml:id="C30_app798-fMS_start"/>
+        death
+        <seg xml:id="C30_app798-fMS_end"/>
+    to his 
+        <seg xml:id="C30_app800-fMS_start"/>
+            <w ana="start"/>destruc<lb n="c57-0156__main__19"/>tion<w ana="end"/> – <del instant="true"
                   rend="strikethrough"
-                  xml:id="c57-0156__main__d4e29484"/>I will pursue him<del ana="end"/>
-            <seg xml:id="C30_app800-fMS_end"/>I trembled <lb n="c57-0156__main__20"/>with excess of agitation as I said <seg xml:id="C30_app802-fMS_start"/>this<seg xml:id="C30_app802-fMS_end"/>
-            <lb n="c57-0156__main__21"/>there was <seg xml:id="C30_app804-fMS_start"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0156__main__d4e29491"/>a<del ana="end"/>
+                  xml:id="c57-0156__main__d4e29484">I will pursue him</del>
+            <seg xml:id="C30_app800-fMS_end"/>
+    I trembled <lb n="c57-0156__main__20"/>with excess of agitation as I said 
+        <seg xml:id="C30_app802-fMS_start"/>
+        this
+        <seg xml:id="C30_app802-fMS_end"/>
+            <lb n="c57-0156__main__21"/>there was 
+        <seg xml:id="C30_app804-fMS_start"/>
+            <del rend="strikethrough" xml:id="c57-0156__main__d4e29491">a</del>
             <seg xml:id="C30_app804-fMS_end"/>
-            <seg xml:id="C30_app805-fMS_start"/>frenzy<seg xml:id="C30_app805-fMS_end"/>in my <seg xml:id="C30_app807-fMS_start"/>manner<seg xml:id="C30_app807-fMS_end"/>
-            <lb n="c57-0156__main__22"/>&amp; <seg xml:id="C30_app809-fMS_start"/>something<seg xml:id="C30_app809-fMS_end"/>I doubt <seg xml:id="C30_app811-fMS_start"/>not<seg xml:id="C30_app811-fMS_end"/>of that <seg xml:id="C30_app813-fMS_start"/>
+            <seg xml:id="C30_app805-fMS_start"/>
+        frenzy
+        <seg xml:id="C30_app805-fMS_end"/>
+    in my 
+        <seg xml:id="C30_app807-fMS_start"/>
+        manner
+        <seg xml:id="C30_app807-fMS_end"/>
+            <lb n="c57-0156__main__22"/>&amp; 
+        <seg xml:id="C30_app809-fMS_start"/>
+        something
+        <seg xml:id="C30_app809-fMS_end"/>
+    I doubt 
+        <seg xml:id="C30_app811-fMS_start"/>
+        not
+        <seg xml:id="C30_app811-fMS_end"/>
+    of that 
+        <seg xml:id="C30_app813-fMS_start"/>
             <lb n="c57-0156__main__23"/>haught <sga-add hand="#pbs" place="intralinear" th:sID="c57-0156__main__d4e29499"/>y <sga-add th:eID="c57-0156__main__d4e29499"/>
             <seg xml:id="C30_app813-fMS_end"/>
-            <seg xml:id="C30_app814-fMS_start"/>fierceness<seg xml:id="C30_app814-fMS_end"/>
+            <seg xml:id="C30_app814-fMS_start"/>
+        fierceness
+        <seg xml:id="C30_app814-fMS_end"/>
             <seg xml:id="C30_app815-fMS_start"/>
             <mod th:sID="c57-0156__main__d4e29502"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0156__main__d4e29504"/>that<del ana="end"/>
-            <sga-add hand="#pbs" place="superlinear" th:sID="c57-0156__main__d4e29507"/>which<seg xml:id="C30_app815-fMS_end"/>
+            <del rend="strikethrough" xml:id="c57-0156__main__d4e29504">that</del>
+            <sga-add hand="#pbs" place="superlinear" th:sID="c57-0156__main__d4e29507"/>which
+        <seg xml:id="C30_app815-fMS_end"/>
             <sga-add th:eID="c57-0156__main__d4e29507"/>
-            <mod th:eID="c57-0156__main__d4e29502"/>the martyrs of <lb n="c57-0156__main__24"/>old <seg xml:id="C30_app817-fMS_start"/>were<seg xml:id="C30_app817-fMS_end"/>said to <sga-add place="superlinear" th:sID="c57-0156__main__d4e29513"/>have <seg xml:id="C30_app819-fMS_start"/>
-            <sga-add th:eID="c57-0156__main__d4e29513"/> possessed —<seg xml:id="C30_app819-fMS_end"/>But <seg xml:id="C30_app821-fMS_start"/>
+            <mod th:eID="c57-0156__main__d4e29502"/>the martyrs of <lb n="c57-0156__main__24"/>old 
+        <seg xml:id="C30_app817-fMS_start"/>
+        were
+        <seg xml:id="C30_app817-fMS_end"/>
+    said to <sga-add place="superlinear" th:sID="c57-0156__main__d4e29513"/>have 
+        <seg xml:id="C30_app819-fMS_start"/>
+            <sga-add th:eID="c57-0156__main__d4e29513"/> possessed —
+        <seg xml:id="C30_app819-fMS_end"/>
+    But 
+        <seg xml:id="C30_app821-fMS_start"/>
             <mod th:sID="c57-0156__main__d4e29517"/>
-            <mdel ana="start"/>a<mdel ana="end"/>
+            <mdel>a</mdel>
             <sga-add place="sublinear" th:sID="c57-0156__main__d4e29521"/>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            <metamark function="insert">^</metamark>
             <sga-add th:eID="c57-0156__main__d4e29521"/>
-            <sga-add place="superlinear" th:sID="c57-0156__main__d4e29527"/>to<seg xml:id="C30_app821-fMS_end"/>
+            <sga-add place="superlinear" th:sID="c57-0156__main__d4e29527"/>to
+        <seg xml:id="C30_app821-fMS_end"/>
             <sga-add th:eID="c57-0156__main__d4e29527"/>
-            <mod th:eID="c57-0156__main__d4e29517"/>a <seg xml:id="C30_app823-fMS_start"/>
+            <mod th:eID="c57-0156__main__d4e29517"/>a 
+        <seg xml:id="C30_app823-fMS_start"/>
             <lb n="c57-0156__main__25"/>Genev <mod th:sID="c57-0156__main__d4e29533"/>
-            <del ana="start" rend="overwritten" xml:id="c57-0156__main__d4e29535"/>ese<del ana="end"/>
+            <del rend="overwritten" xml:id="c57-0156__main__d4e29535">ese</del>
             <sga-add place="intralinear" th:sID="c57-0156__main__d4e29538"/>an <sga-add th:eID="c57-0156__main__d4e29538"/>
             <mod th:eID="c57-0156__main__d4e29533"/>
-            <seg xml:id="C30_app823-fMS_end"/>magistrate, whose mind was <lb n="c57-0156__main__26"/>occupied by far other ideas than <seg xml:id="C30_app825-fMS_start"/>
+            <seg xml:id="C30_app823-fMS_end"/>
+    magistrate, whose mind was <lb n="c57-0156__main__26"/>occupied by far other ideas than 
+        <seg xml:id="C30_app825-fMS_start"/>
             <lb n="c57-0156__main__27"/>
-            <del ana="start"
-                  instant="true"
+            <del instant="true"
                   rend="strikethrough"
-                  xml:id="c57-0156__main__d4e29546"/>tho<del ana="end"/> those of<seg xml:id="C30_app825-fMS_end"/>
-            <seg xml:id="C30_app826-fMS_start"/>devo <del ana="start" rend="strikethrough" xml:id="c57-0156__main__d4e29550"/>te<del ana="end"/> tion<seg xml:id="C30_app826-fMS_end"/>&amp; <seg xml:id="C30_app828-fMS_start"/>
-            <del ana="start"
-                  instant="true"
+                  xml:id="c57-0156__main__d4e29546">tho</del> those of
+        <seg xml:id="C30_app825-fMS_end"/>
+            <seg xml:id="C30_app826-fMS_start"/>
+        devo <del rend="strikethrough" xml:id="c57-0156__main__d4e29550">te</del> tion
+        <seg xml:id="C30_app826-fMS_end"/>
+    &amp; 
+        <seg xml:id="C30_app828-fMS_start"/>
+            <del instant="true"
                   rend="strikethrough"
-                  xml:id="c57-0156__main__d4e29553"/>heh<del ana="end"/> heroism <del ana="start" rend="strikethrough" xml:id="c57-0156__main__d4e29556"/>&amp;<del ana="end"/>
+                  xml:id="c57-0156__main__d4e29553">heh</del> heroism <del rend="strikethrough" xml:id="c57-0156__main__d4e29556">&amp;</del>
             <seg xml:id="C30_app828-fMS_end"/>
-            <lb n="c57-0156__main__28"/>this elevation of mind had much the <lb n="c57-0156__main__29"/>appearance of madness. He endeavoured <lb n="c57-0156__main__30"/>to <seg xml:id="C30_app830-fMS_start"/>
-            <del ana="start"
-                  instant="true"
+            <lb n="c57-0156__main__28"/>this elevation of mind had much the <lb n="c57-0156__main__29"/>appearance of madness. He endeavoured <lb n="c57-0156__main__30"/>to 
+        <seg xml:id="C30_app830-fMS_start"/>
+            <del instant="true"
                   rend="strikethrough"
-                  xml:id="c57-0156__main__d4e29566"/>calm<del ana="end"/> soothe me as a nurse does <lb n="c57-0156__main__31"/>a<seg xml:id="C30_app830-fMS_end"/>
-            <seg xml:id="C30_app831-fMS_start"/>child<seg xml:id="C30_app831-fMS_end"/>&amp; reverted to my tale as the <lb n="c57-0156__main__32"/>effects of <seg xml:id="C30_app833-fMS_start"/>delirium — Man –<seg xml:id="C30_app833-fMS_end"/>I cried, <seg xml:id="C30_app835-fMS_start"/>how<seg xml:id="C30_app835-fMS_end"/>
-            <lb n="c57-0156__main__33"/>ignorant art thou in thy pride of <seg xml:id="C30_app837-fMS_start"/>
-            <lb n="c57-0156__main__34"/>wisdom.– cease<seg xml:id="C30_app837-fMS_end"/>you know not what <seg xml:id="C30_app839-fMS_start"/>
+                  xml:id="c57-0156__main__d4e29566">calm</del> soothe me as a nurse does <lb n="c57-0156__main__31"/>a
+        <seg xml:id="C30_app830-fMS_end"/>
+            <seg xml:id="C30_app831-fMS_start"/>
+        child
+        <seg xml:id="C30_app831-fMS_end"/>
+    &amp; reverted to my tale as the <lb n="c57-0156__main__32"/>effects of 
+        <seg xml:id="C30_app833-fMS_start"/>
+        delirium — Man –
+        <seg xml:id="C30_app833-fMS_end"/>
+    I cried, 
+        <seg xml:id="C30_app835-fMS_start"/>
+        how
+        <seg xml:id="C30_app835-fMS_end"/>
+            <lb n="c57-0156__main__33"/>ignorant art thou in thy pride of 
+        <seg xml:id="C30_app837-fMS_start"/>
+            <lb n="c57-0156__main__34"/>wisdom.– cease
+        <seg xml:id="C30_app837-fMS_end"/>
+    you know not what 
+        <seg xml:id="C30_app839-fMS_start"/>
             <lb n="c57-0156__main__35"/>
-            <del ana="start" rend="strikethrough" xml:id="c57-0156__main__d4e29580"/>you speak about<del ana="end"/> it is you<seg xml:id="C30_app839-fMS_end"/>
-            <seg xml:id="C30_app840-fMS_start"/>say.<seg xml:id="C30_app840-fMS_end"/>
+            <del rend="strikethrough" xml:id="c57-0156__main__d4e29580">you speak about</del> it is you
+        <seg xml:id="C30_app839-fMS_end"/>
+            <seg xml:id="C30_app840-fMS_start"/>
+        say.
+        <seg xml:id="C30_app840-fMS_end"/>
             <milestone unit="tei:p-END"/>
             <milestone unit="tei:p-START"/>
-            <lb n="c57-0156__main__36"/>I broke from the house <seg xml:id="C30_app842-fMS_start"/>&amp; angry &amp; <lb n="c57-0156__main__37"/>disturbed<seg xml:id="C30_app842-fMS_end"/>retired to meditate <seg xml:id="C30_app844-fMS_start"/>some other mode <lb n="c57-0156__main__38"/>of action.<seg xml:id="C30_app844-fMS_end"/>
+            <lb n="c57-0156__main__36"/>I broke from the house 
+        <seg xml:id="C30_app842-fMS_start"/>
+        &amp; angry &amp; <lb n="c57-0156__main__37"/>disturbed
+        <seg xml:id="C30_app842-fMS_end"/>
+    retired to meditate 
+        <seg xml:id="C30_app844-fMS_start"/>
+        some other mode <lb n="c57-0156__main__38"/>of action.
+        <seg xml:id="C30_app844-fMS_end"/>
          </div>
       </body>
    </text>

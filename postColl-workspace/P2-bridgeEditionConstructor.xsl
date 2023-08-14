@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xpath-default-namespace="http://www.tei-c.org/ns/1.0"
-    xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
     xmlns="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    exclude-result-prefixes="xs" version="3.0">
+    exclude-result-prefixes="#all" version="3.0">
     <!--2018-10-10 ebb: Updated and simplified to process current files that DO have meaningful rdgGrp elements. -->
     <!--2018-06-21 ebb updated 2018-08-01: Bridge Edition Constructor Part 2: This second phase begins building the output Bridge editions by consuming the <app> and and <rdg> elements to replace them with <seg> elements that hold the identifiers of their apps and indication of whether they are portions.
    This stylesheet does NOT YET generate the spine file. We're deferring that to a later stage when we know where the <seg> elements turn up in relation to the hierarchy of the edition elements. 
@@ -34,12 +33,12 @@
                         </teiHeader>
                         <text>
                             <body>
-                                <ab type="alignmentChunk" xml:id="{$chunk}">
+                                &lt;div type="collation" xml:id="Unit_<xsl:value-of select="$chunk"/>"&gt;
                                     <xsl:apply-templates select="$currentP1File//app">
                                         <xsl:with-param name="currentWit" as="xs:string"
                                             select="current()" tunnel="yes"/>
                                     </xsl:apply-templates>
-                                </ab>
+                                &lt;/div&gt;
                             </body>
                         </text>
                     </TEI>
@@ -63,8 +62,19 @@
         <xsl:text> </xsl:text>
     </xsl:template>
     <xsl:template match="rdg" mode="variant">
-        <seg xml:id="{ancestor::app/@xml:id}-{@wit}_start"/>
+        &lt;seg xml:id="<xsl:value-of select="ancestor::app/@xml:id"/>-<xsl:value-of select="@wit"/>_start"/&gt;
         <xsl:apply-templates select="."/>
-        <seg xml:id="{ancestor::app/@xml:id}-{@wit}_end"/>
+        &lt;seg xml:id="<xsl:value-of select="ancestor::app/@xml:id"/>-<xsl:value-of select="@wit"/>_end"/&gt;
+    </xsl:template>
+    <xsl:template match="text()">
+        <xsl:analyze-string select="." regex="&amp;">
+            <xsl:matching-substring>
+                <xsl:text>&amp;amp;</xsl:text>
+            </xsl:matching-substring>
+            <xsl:non-matching-substring>
+                <xsl:value-of select="."/>
+            </xsl:non-matching-substring>
+        </xsl:analyze-string>
+  
     </xsl:template>
 </xsl:stylesheet>

@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../segMarkerTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xmlns:mith="http://mith.umd.edu/sc/ns1#"
-      xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
       xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
    <teiHeader>
       <fileDesc>
@@ -21,7 +19,7 @@
             <p>Produced from collation output prepared in batch file processing
                                     on  2023-08-10 05:16:38.996137 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-10T06:04:28.504824-04:00.</p>
+                                    Variorum spine on 2023-08-14T01:32:24.815998-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -34,127 +32,498 @@
             <seg th:eID="C28_app1-fThomas"/>
             <pb xml:id="F1818_v3_095" n="091"/>
             <seg th:sID="C28_app3-fThomas"/>
-            <head ana="start"/>CHAPTER V.<head ana="end"/>
+            <head>CHAPTER V.</head>
             <seg th:eID="C28_app3-fThomas"/>
             <seg th:sID="C28_app4-fThomas__I" part="I"/>
             <seg th:eID="C28_app4-fThomas__I" part="I"/>
             <p xml:id="novel1_letter4_chapter21_div4_div23_p1">
                <seg th:sID="C28_app4-fThomas__F" part="F"/>
                <seg th:eID="C28_app4-fThomas__F" part="F"/>
-               <seg th:sID="C28_app5-fThomas"/>W<hi xml:id="novel1_letter4_chapter21_div4_div23_p1_hi1">E</hi>
+               <seg th:sID="C28_app5-fThomas"/>
+        W<hi xml:id="novel1_letter4_chapter21_div4_div23_p1_hi1">E</hi>
                <seg th:eID="C28_app5-fThomas"/>
-               <seg th:sID="C28_app6-fThomas"/>had resolved not to go to<seg th:eID="C28_app6-fThomas"/>
-               <seg th:sID="C28_app7-fThomas"/>London,<seg th:eID="C28_app7-fThomas"/>
-               <seg th:sID="C28_app8-fThomas"/>but<seg th:eID="C28_app8-fThomas"/>
-               <seg th:sID="C28_app9-fThomas"/>to<seg th:eID="C28_app9-fThomas"/>
-               <seg th:sID="C28_app10-fThomas"/>cross the country to<seg th:eID="C28_app10-fThomas"/>
-               <seg th:sID="C28_app11-fThomas"/>Portsmouth,<seg th:eID="C28_app11-fThomas"/>
-               <seg th:sID="C28_app12-fThomas"/>and<seg th:eID="C28_app12-fThomas"/>
-               <seg th:sID="C28_app13-fThomas"/>thence to embark<seg th:eID="C28_app13-fThomas"/>
-               <seg th:sID="C28_app14-fThomas"/>for<seg th:eID="C28_app14-fThomas"/>
-               <seg th:sID="C28_app15-fThomas"/>Havre. I preferred this<seg th:eID="C28_app15-fThomas"/>
-               <seg th:sID="C28_app16-fThomas"/>plan principally because I dreaded to see again those places in which I had enjoyed a few moments of tranquillity with my beloved<seg th:eID="C28_app16-fThomas"/>
-               <seg th:sID="C28_app17-fThomas"/>Clerval.<seg th:eID="C28_app17-fThomas"/>
-               <seg th:sID="C28_app18-fThomas"/>I thought with horror of seeing<seg th:eID="C28_app18-fThomas"/>
-               <seg th:sID="C28_app19-fThomas"/>again<seg th:eID="C28_app19-fThomas"/>
-               <seg th:sID="C28_app20-fThomas"/>those<seg th:eID="C28_app20-fThomas"/>
-               <seg th:sID="C28_app21-fThomas"/>persons<seg th:eID="C28_app21-fThomas"/>
-               <seg th:sID="C28_app22-fThomas"/>whom we had been accustomed to visit<seg th:eID="C28_app22-fThomas"/>
-               <seg th:sID="C28_app23-fThomas"/>together,<seg th:eID="C28_app23-fThomas"/>
-               <seg th:sID="C28_app24-fThomas"/>and<seg th:eID="C28_app24-fThomas"/>
-               <seg th:sID="C28_app25-fThomas"/>who might<seg th:eID="C28_app25-fThomas"/>
-               <seg th:sID="C28_app26-fThomas"/>make<seg th:eID="C28_app26-fThomas"/>
-               <seg th:sID="C28_app27-fThomas"/>inquiries<seg th:eID="C28_app27-fThomas"/>
-               <seg th:sID="C28_app28-fThomas"/>concerning an<seg th:eID="C28_app28-fThomas"/>
-               <seg th:sID="C28_app29-fThomas"/>event,<seg th:eID="C28_app29-fThomas"/>
-               <seg th:sID="C28_app30-fThomas"/>the very remembrance of which<seg th:eID="C28_app30-fThomas"/>
-               <seg th:sID="C28_app31-fThomas"/>made<seg th:eID="C28_app31-fThomas"/>
-               <seg th:sID="C28_app32-fThomas"/>me again feel<seg th:eID="C28_app32-fThomas"/>
-               <seg th:sID="C28_app33-fThomas"/>the pang<seg th:eID="C28_app33-fThomas"/>
-               <seg th:sID="C28_app34-fThomas"/>I endured<pb xml:id="F1818_v3_096" n="092"/> when I gazed on his lifeless<seg th:eID="C28_app34-fThomas"/>
-               <seg th:sID="C28_app35-fThomas"/>form in the inn at——.<seg th:eID="C28_app35-fThomas"/>
+               <seg th:sID="C28_app6-fThomas"/>
+        had resolved not to go to
+        <seg th:eID="C28_app6-fThomas"/>
+               <seg th:sID="C28_app7-fThomas"/>
+        London,
+        <seg th:eID="C28_app7-fThomas"/>
+               <seg th:sID="C28_app8-fThomas"/>
+        but
+        <seg th:eID="C28_app8-fThomas"/>
+               <seg th:sID="C28_app9-fThomas"/>
+        to
+        <seg th:eID="C28_app9-fThomas"/>
+               <seg th:sID="C28_app10-fThomas"/>
+        cross the country to
+        <seg th:eID="C28_app10-fThomas"/>
+               <seg th:sID="C28_app11-fThomas"/>
+        Portsmouth,
+        <seg th:eID="C28_app11-fThomas"/>
+               <seg th:sID="C28_app12-fThomas"/>
+        and
+        <seg th:eID="C28_app12-fThomas"/>
+               <seg th:sID="C28_app13-fThomas"/>
+        thence to embark
+        <seg th:eID="C28_app13-fThomas"/>
+               <seg th:sID="C28_app14-fThomas"/>
+        for
+        <seg th:eID="C28_app14-fThomas"/>
+               <seg th:sID="C28_app15-fThomas"/>
+        Havre. I preferred this
+        <seg th:eID="C28_app15-fThomas"/>
+               <seg th:sID="C28_app16-fThomas"/>
+        plan principally because I dreaded to see again those places in which I had enjoyed a few moments of tranquillity with my beloved
+        <seg th:eID="C28_app16-fThomas"/>
+               <seg th:sID="C28_app17-fThomas"/>
+        Clerval.
+        <seg th:eID="C28_app17-fThomas"/>
+               <seg th:sID="C28_app18-fThomas"/>
+        I thought with horror of seeing
+        <seg th:eID="C28_app18-fThomas"/>
+               <seg th:sID="C28_app19-fThomas"/>
+        again
+        <seg th:eID="C28_app19-fThomas"/>
+               <seg th:sID="C28_app20-fThomas"/>
+        those
+        <seg th:eID="C28_app20-fThomas"/>
+               <seg th:sID="C28_app21-fThomas"/>
+        persons
+        <seg th:eID="C28_app21-fThomas"/>
+               <seg th:sID="C28_app22-fThomas"/>
+        whom we had been accustomed to visit
+        <seg th:eID="C28_app22-fThomas"/>
+               <seg th:sID="C28_app23-fThomas"/>
+        together,
+        <seg th:eID="C28_app23-fThomas"/>
+               <seg th:sID="C28_app24-fThomas"/>
+        and
+        <seg th:eID="C28_app24-fThomas"/>
+               <seg th:sID="C28_app25-fThomas"/>
+        who might
+        <seg th:eID="C28_app25-fThomas"/>
+               <seg th:sID="C28_app26-fThomas"/>
+        make
+        <seg th:eID="C28_app26-fThomas"/>
+               <seg th:sID="C28_app27-fThomas"/>
+        inquiries
+        <seg th:eID="C28_app27-fThomas"/>
+               <seg th:sID="C28_app28-fThomas"/>
+        concerning an
+        <seg th:eID="C28_app28-fThomas"/>
+               <seg th:sID="C28_app29-fThomas"/>
+        event,
+        <seg th:eID="C28_app29-fThomas"/>
+               <seg th:sID="C28_app30-fThomas"/>
+        the very remembrance of which
+        <seg th:eID="C28_app30-fThomas"/>
+               <seg th:sID="C28_app31-fThomas"/>
+        made
+        <seg th:eID="C28_app31-fThomas"/>
+               <seg th:sID="C28_app32-fThomas"/>
+        me again feel
+        <seg th:eID="C28_app32-fThomas"/>
+               <seg th:sID="C28_app33-fThomas"/>
+        the pang
+        <seg th:eID="C28_app33-fThomas"/>
+               <seg th:sID="C28_app34-fThomas"/>
+        I endured<pb xml:id="F1818_v3_096" n="092"/> when I gazed on his lifeless
+        <seg th:eID="C28_app34-fThomas"/>
+               <seg th:sID="C28_app35-fThomas"/>
+        form in the inn at——.
+        <seg th:eID="C28_app35-fThomas"/>
                <seg th:sID="C28_app36-fThomas__I" part="I"/>
                <seg th:eID="C28_app36-fThomas__I" part="I"/>
             </p>
             <seg th:sID="C28_app36-fThomas__F" part="F"/>
             <seg th:eID="C28_app36-fThomas__F" part="F"/>
             <p xml:id="novel1_letter4_chapter21_div4_div23_p2">
-               <seg th:sID="C28_app38-fThomas"/>As for my father,<seg th:eID="C28_app38-fThomas"/>
-               <seg th:sID="C28_app39-fThomas"/>his desires and exertions were bounded to the again seeing me<seg th:eID="C28_app39-fThomas"/>
-               <seg th:sID="C28_app40-fThomas"/>restored to health and peace of mind. His tenderness and attentions were<seg th:eID="C28_app40-fThomas"/>
-               <seg th:sID="C28_app41-fThomas"/>unremitting;<seg th:eID="C28_app41-fThomas"/>
-               <seg th:sID="C28_app42-fThomas"/>my grief and gloom was<seg th:eID="C28_app42-fThomas"/>
-               <seg th:sID="C28_app43-fThomas"/>obstinate,<seg th:eID="C28_app43-fThomas"/>
-               <seg th:sID="C28_app44-fThomas"/>but he would not despair.<seg th:eID="C28_app44-fThomas"/>Sometimes he thought that I felt deeply the degradation of being obliged to answer a charge of <seg th:sID="C28_app46-fThomas"/>murder,<seg th:eID="C28_app46-fThomas"/>and he endeavoured <seg th:sID="C28_app48-fThomas"/>to <del ana="start" rend="strikethrough"/>
-               <hi xml:id="novel1_letter4_chapter21_div4_div23_p2_del1_hi1">prove to me the futility of pride.</hi>
-               <del ana="end"/>
-               <add ana="start"/>inspire me with more philosophic sentiments. But his arguments drawn from general observation failed in reaching the core of my incurable disease.<add ana="end"/>
+               <seg th:sID="C28_app38-fThomas"/>
+        As for my father,
+        <seg th:eID="C28_app38-fThomas"/>
+               <seg th:sID="C28_app39-fThomas"/>
+        his desires and exertions were bounded to the again seeing me
+        <seg th:eID="C28_app39-fThomas"/>
+               <seg th:sID="C28_app40-fThomas"/>
+        restored to health and peace of mind. His tenderness and attentions were
+        <seg th:eID="C28_app40-fThomas"/>
+               <seg th:sID="C28_app41-fThomas"/>
+        unremitting;
+        <seg th:eID="C28_app41-fThomas"/>
+               <seg th:sID="C28_app42-fThomas"/>
+        my grief and gloom was
+        <seg th:eID="C28_app42-fThomas"/>
+               <seg th:sID="C28_app43-fThomas"/>
+        obstinate,
+        <seg th:eID="C28_app43-fThomas"/>
+               <seg th:sID="C28_app44-fThomas"/>
+        but he would not despair.
+        <seg th:eID="C28_app44-fThomas"/>
+    Sometimes he thought that I felt deeply the degradation of being obliged to answer a charge of 
+        <seg th:sID="C28_app46-fThomas"/>
+        murder,
+        <seg th:eID="C28_app46-fThomas"/>
+    and he endeavoured 
+        <seg th:sID="C28_app48-fThomas"/>
+        to <del rend="strikethrough">
+                  <hi xml:id="novel1_letter4_chapter21_div4_div23_p2_del1_hi1">prove to me the futility of pride.</hi>
+               </del>
+               <add>inspire me with more philosophic sentiments. But his arguments drawn from general observation failed in reaching the core of my incurable disease.</add>
                <seg th:eID="C28_app48-fThomas"/>
                <seg th:sID="C28_app49-fThomas__I" part="I"/>
                <seg th:eID="C28_app49-fThomas__I" part="I"/>
             </p>
             <p xml:id="novel1_letter4_chapter21_div4_div23_p3">
-               <seg th:sID="C28_app49-fThomas__F" part="F"/> “Alas!<seg th:eID="C28_app49-fThomas__F" part="F"/>my <seg th:sID="C28_app51-fThomas"/>father,”<seg th:eID="C28_app51-fThomas"/>said I, <seg th:sID="C28_app53-fThomas"/>“how<seg th:eID="C28_app53-fThomas"/>little do you know <seg th:sID="C28_app55-fThomas"/>me.<seg th:eID="C28_app55-fThomas"/>Human beings, their feelings and <seg th:sID="C28_app57-fThomas"/>passions,<seg th:eID="C28_app57-fThomas"/>would indeed be <seg th:sID="C28_app59-fThomas"/>degraded,<seg th:eID="C28_app59-fThomas"/>if such a wretch as I felt pride. <seg th:sID="C28_app61-fThomas"/>Justine,<seg th:eID="C28_app61-fThomas"/>poor unhappy <seg th:sID="C28_app63-fThomas"/>Justine,<seg th:eID="C28_app63-fThomas"/>was as innocent as <seg th:sID="C28_app65-fThomas"/>I,<seg th:eID="C28_app65-fThomas"/>and she suffered the same <seg th:sID="C28_app67-fThomas"/>charge;<seg th:eID="C28_app67-fThomas"/>she died for <seg th:sID="C28_app69-fThomas"/>it;<seg th:eID="C28_app69-fThomas"/>and I am the cause of <seg th:sID="C28_app71-fThomas"/>this—I<seg th:eID="C28_app71-fThomas"/>murdered her. <seg th:sID="C28_app73-fThomas"/>William, Justine,<pb xml:id="F1818_v3_097" n="093"/>
-               <seg th:eID="C28_app73-fThomas"/>and <seg th:sID="C28_app75-fThomas"/>Henry—they<seg th:eID="C28_app75-fThomas"/>all died by my <seg th:sID="C28_app77-fThomas"/>hands.”<seg th:eID="C28_app77-fThomas"/>
+               <seg th:sID="C28_app49-fThomas__F" part="F"/> “Alas!
+        <seg th:eID="C28_app49-fThomas__F" part="F"/>
+    my 
+        <seg th:sID="C28_app51-fThomas"/>
+        father,”
+        <seg th:eID="C28_app51-fThomas"/>
+    said I, 
+        <seg th:sID="C28_app53-fThomas"/>
+        “how
+        <seg th:eID="C28_app53-fThomas"/>
+    little do you know 
+        <seg th:sID="C28_app55-fThomas"/>
+        me.
+        <seg th:eID="C28_app55-fThomas"/>
+    Human beings, their feelings and 
+        <seg th:sID="C28_app57-fThomas"/>
+        passions,
+        <seg th:eID="C28_app57-fThomas"/>
+    would indeed be 
+        <seg th:sID="C28_app59-fThomas"/>
+        degraded,
+        <seg th:eID="C28_app59-fThomas"/>
+    if such a wretch as I felt pride. 
+        <seg th:sID="C28_app61-fThomas"/>
+        Justine,
+        <seg th:eID="C28_app61-fThomas"/>
+    poor unhappy 
+        <seg th:sID="C28_app63-fThomas"/>
+        Justine,
+        <seg th:eID="C28_app63-fThomas"/>
+    was as innocent as 
+        <seg th:sID="C28_app65-fThomas"/>
+        I,
+        <seg th:eID="C28_app65-fThomas"/>
+    and she suffered the same 
+        <seg th:sID="C28_app67-fThomas"/>
+        charge;
+        <seg th:eID="C28_app67-fThomas"/>
+    she died for 
+        <seg th:sID="C28_app69-fThomas"/>
+        it;
+        <seg th:eID="C28_app69-fThomas"/>
+    and I am the cause of 
+        <seg th:sID="C28_app71-fThomas"/>
+        this—I
+        <seg th:eID="C28_app71-fThomas"/>
+    murdered her. 
+        <seg th:sID="C28_app73-fThomas"/>
+        William, Justine,<pb xml:id="F1818_v3_097" n="093"/>
+               <seg th:eID="C28_app73-fThomas"/>
+    and 
+        <seg th:sID="C28_app75-fThomas"/>
+        Henry—they
+        <seg th:eID="C28_app75-fThomas"/>
+    all died by my 
+        <seg th:sID="C28_app77-fThomas"/>
+        hands.”
+        <seg th:eID="C28_app77-fThomas"/>
             </p>
-            <p xml:id="novel1_letter4_chapter21_div4_div23_p4"> My father had <seg th:sID="C28_app79-fThomas"/>often,<seg th:eID="C28_app79-fThomas"/>during my <seg th:sID="C28_app81-fThomas"/>imprisonment,<seg th:eID="C28_app81-fThomas"/>heard me make the same <seg th:sID="C28_app83-fThomas"/>assertion;<seg th:eID="C28_app83-fThomas"/>when <seg th:sID="C28_app85-fThomas"/>I<seg th:eID="C28_app85-fThomas"/>
-               <seg th:sID="C28_app86-fThomas"/>thus<seg th:eID="C28_app86-fThomas"/>
-               <seg th:sID="C28_app87-fThomas"/>accused<seg th:eID="C28_app87-fThomas"/>myself, he sometimes seemed to <seg th:sID="C28_app89-fThomas"/>desire an explanation,<seg th:eID="C28_app89-fThomas"/>and at others he appeared to consider it as <seg th:sID="C28_app91-fThomas"/>caused by<seg th:eID="C28_app91-fThomas"/>
-               <seg th:sID="C28_app92-fThomas"/>delirium, and that,<seg th:eID="C28_app92-fThomas"/>during my <seg th:sID="C28_app94-fThomas"/>illness,<seg th:eID="C28_app94-fThomas"/>some idea of this kind had presented itself to my <seg th:sID="C28_app96-fThomas"/>imagination,<seg th:eID="C28_app96-fThomas"/>the <seg th:sID="C28_app98-fThomas"/>remembrance<seg th:eID="C28_app98-fThomas"/>of which I preserved in my <seg th:sID="C28_app100-fThomas"/>convalescence. I<seg th:eID="C28_app100-fThomas"/>avoided <seg th:sID="C28_app102-fThomas"/>explanation, and<seg th:eID="C28_app102-fThomas"/>maintained a continual silence concerning the wretch I had created. <seg th:sID="C28_app104-fThomas__I" part="I"/>
+            <p xml:id="novel1_letter4_chapter21_div4_div23_p4"> My father had 
+        <seg th:sID="C28_app79-fThomas"/>
+        often,
+        <seg th:eID="C28_app79-fThomas"/>
+    during my 
+        <seg th:sID="C28_app81-fThomas"/>
+        imprisonment,
+        <seg th:eID="C28_app81-fThomas"/>
+    heard me make the same 
+        <seg th:sID="C28_app83-fThomas"/>
+        assertion;
+        <seg th:eID="C28_app83-fThomas"/>
+    when 
+        <seg th:sID="C28_app85-fThomas"/>
+        I
+        <seg th:eID="C28_app85-fThomas"/>
+               <seg th:sID="C28_app86-fThomas"/>
+        thus
+        <seg th:eID="C28_app86-fThomas"/>
+               <seg th:sID="C28_app87-fThomas"/>
+        accused
+        <seg th:eID="C28_app87-fThomas"/>
+    myself, he sometimes seemed to 
+        <seg th:sID="C28_app89-fThomas"/>
+        desire an explanation,
+        <seg th:eID="C28_app89-fThomas"/>
+    and at others he appeared to consider it as 
+        <seg th:sID="C28_app91-fThomas"/>
+        caused by
+        <seg th:eID="C28_app91-fThomas"/>
+               <seg th:sID="C28_app92-fThomas"/>
+        delirium, and that,
+        <seg th:eID="C28_app92-fThomas"/>
+    during my 
+        <seg th:sID="C28_app94-fThomas"/>
+        illness,
+        <seg th:eID="C28_app94-fThomas"/>
+    some idea of this kind had presented itself to my 
+        <seg th:sID="C28_app96-fThomas"/>
+        imagination,
+        <seg th:eID="C28_app96-fThomas"/>
+    the 
+        <seg th:sID="C28_app98-fThomas"/>
+        remembrance
+        <seg th:eID="C28_app98-fThomas"/>
+    of which I preserved in my 
+        <seg th:sID="C28_app100-fThomas"/>
+        convalescence. I
+        <seg th:eID="C28_app100-fThomas"/>
+    avoided 
+        <seg th:sID="C28_app102-fThomas"/>
+        explanation, and
+        <seg th:eID="C28_app102-fThomas"/>
+    maintained a continual silence concerning the wretch I had created. 
+        <seg th:sID="C28_app104-fThomas__I" part="I"/>
                <seg th:eID="C28_app104-fThomas__I" part="I"/>
                <hi xml:id="novel1_letter4_chapter21_div4_div23_p4_hi1">
-                  <seg th:sID="C28_app104-fThomas__F" part="F"/>I<seg th:eID="C28_app104-fThomas__F" part="F"/>had a <seg th:sID="C28_app106-fThomas"/>feeling<seg th:eID="C28_app106-fThomas"/>that I should be supposed <seg th:sID="C28_app108-fThomas__I" part="I"/>mad<seg th:eID="C28_app108-fThomas__I" part="I"/>
+                  <seg th:sID="C28_app104-fThomas__F" part="F"/>I
+        <seg th:eID="C28_app104-fThomas__F" part="F"/>
+    had a 
+        <seg th:sID="C28_app106-fThomas"/>
+        feeling
+        <seg th:eID="C28_app106-fThomas"/>
+    that I should be supposed 
+        <seg th:sID="C28_app108-fThomas__I" part="I"/>
+        mad<seg th:eID="C28_app108-fThomas__I" part="I"/>
                </hi>
-               <seg th:sID="C28_app108-fThomas__F" part="F"/>,<seg th:eID="C28_app108-fThomas__F" part="F"/>and this <seg th:sID="C28_app110-fThomas"/>for ever<seg th:eID="C28_app110-fThomas"/>
-               <seg th:sID="C28_app111-fThomas"/>chained<seg th:eID="C28_app111-fThomas"/>
-               <seg th:sID="C28_app112-fThomas"/>my tongue,<seg th:eID="C28_app112-fThomas"/>when I would have given <seg th:sID="C28_app114-fThomas"/>the whole world to have confided the fatal secret.<seg th:eID="C28_app114-fThomas"/>
+               <seg th:sID="C28_app108-fThomas__F" part="F"/>,
+        <seg th:eID="C28_app108-fThomas__F" part="F"/>
+    and this 
+        <seg th:sID="C28_app110-fThomas"/>
+        for ever
+        <seg th:eID="C28_app110-fThomas"/>
+               <seg th:sID="C28_app111-fThomas"/>
+        chained
+        <seg th:eID="C28_app111-fThomas"/>
+               <seg th:sID="C28_app112-fThomas"/>
+        my tongue,
+        <seg th:eID="C28_app112-fThomas"/>
+    when I would have given 
+        <seg th:sID="C28_app114-fThomas"/>
+        the whole world to have confided the fatal secret.
+        <seg th:eID="C28_app114-fThomas"/>
                <seg th:sID="C28_app115-fThomas__I" part="I"/>
                <seg th:eID="C28_app115-fThomas__I" part="I"/>
             </p>
             <p xml:id="novel1_letter4_chapter21_div4_div23_p5">
-               <seg th:sID="C28_app115-fThomas__F" part="F"/> Upon this<seg th:eID="C28_app115-fThomas__F" part="F"/>occasion <seg th:sID="C28_app117-fThomas"/>my father<seg th:eID="C28_app117-fThomas"/>
-               <seg th:sID="C28_app118-fThomas"/>said,<seg th:eID="C28_app118-fThomas"/>with an expression of unbounded <seg th:sID="C28_app120-fThomas"/>wonder, “What do you mean, Victor? <pb xml:id="F1818_v3_098" n="094"/>are you mad?<seg th:eID="C28_app120-fThomas"/>My dear son, I entreat you <seg th:sID="C28_app122-fThomas"/>never<seg th:eID="C28_app122-fThomas"/>to make <seg th:sID="C28_app124-fThomas"/>such<seg th:eID="C28_app124-fThomas"/>an assertion <seg th:sID="C28_app126-fThomas"/>again.”<seg th:eID="C28_app126-fThomas"/>
+               <seg th:sID="C28_app115-fThomas__F" part="F"/> Upon this
+        <seg th:eID="C28_app115-fThomas__F" part="F"/>
+    occasion 
+        <seg th:sID="C28_app117-fThomas"/>
+        my father
+        <seg th:eID="C28_app117-fThomas"/>
+               <seg th:sID="C28_app118-fThomas"/>
+        said,
+        <seg th:eID="C28_app118-fThomas"/>
+    with an expression of unbounded 
+        <seg th:sID="C28_app120-fThomas"/>
+        wonder, “What do you mean, Victor? <pb xml:id="F1818_v3_098" n="094"/>are you mad?
+        <seg th:eID="C28_app120-fThomas"/>
+    My dear son, I entreat you 
+        <seg th:sID="C28_app122-fThomas"/>
+        never
+        <seg th:eID="C28_app122-fThomas"/>
+    to make 
+        <seg th:sID="C28_app124-fThomas"/>
+        such
+        <seg th:eID="C28_app124-fThomas"/>
+    an assertion 
+        <seg th:sID="C28_app126-fThomas"/>
+        again.”
+        <seg th:eID="C28_app126-fThomas"/>
             </p>
             <p xml:id="novel1_letter4_chapter21_div4_div23_p6">
-               <seg th:sID="C28_app128-fThomas"/>“I<seg th:eID="C28_app128-fThomas"/>am not <seg th:sID="C28_app130-fThomas"/>mad,”<seg th:eID="C28_app130-fThomas"/>I cried <seg th:sID="C28_app132-fThomas"/>energetically; “the<seg th:eID="C28_app132-fThomas"/>sun and the <seg th:sID="C28_app134-fThomas"/>heavens,<seg th:eID="C28_app134-fThomas"/>who have viewed my <seg th:sID="C28_app136-fThomas"/>operations,<seg th:eID="C28_app136-fThomas"/>can bear witness of my truth. I <seg th:sID="C28_app138-fThomas"/>am<seg th:eID="C28_app138-fThomas"/>the assassin of those most innocent <seg th:sID="C28_app140-fThomas"/>victims;<seg th:eID="C28_app140-fThomas"/>they died by my machinations. A thousand times would I <seg th:sID="C28_app142-fThomas"/>have shed my own<seg th:eID="C28_app142-fThomas"/>
-               <seg th:sID="C28_app143-fThomas"/>blood,<seg th:eID="C28_app143-fThomas"/>drop <seg th:sID="C28_app145-fThomas"/>by<seg th:eID="C28_app145-fThomas"/>
-               <seg th:sID="C28_app146-fThomas"/>drop,<seg th:eID="C28_app146-fThomas"/>to have saved their <seg th:sID="C28_app148-fThomas"/>lives;<seg th:eID="C28_app148-fThomas"/>but I could not, my father, indeed I could not sacrifice the whole human <seg th:sID="C28_app150-fThomas"/>race.”<seg th:eID="C28_app150-fThomas"/>
+               <seg th:sID="C28_app128-fThomas"/>
+        “I
+        <seg th:eID="C28_app128-fThomas"/>
+    am not 
+        <seg th:sID="C28_app130-fThomas"/>
+        mad,”
+        <seg th:eID="C28_app130-fThomas"/>
+    I cried 
+        <seg th:sID="C28_app132-fThomas"/>
+        energetically; “the
+        <seg th:eID="C28_app132-fThomas"/>
+    sun and the 
+        <seg th:sID="C28_app134-fThomas"/>
+        heavens,
+        <seg th:eID="C28_app134-fThomas"/>
+    who have viewed my 
+        <seg th:sID="C28_app136-fThomas"/>
+        operations,
+        <seg th:eID="C28_app136-fThomas"/>
+    can bear witness of my truth. I 
+        <seg th:sID="C28_app138-fThomas"/>
+        am
+        <seg th:eID="C28_app138-fThomas"/>
+    the assassin of those most innocent 
+        <seg th:sID="C28_app140-fThomas"/>
+        victims;
+        <seg th:eID="C28_app140-fThomas"/>
+    they died by my machinations. A thousand times would I 
+        <seg th:sID="C28_app142-fThomas"/>
+        have shed my own
+        <seg th:eID="C28_app142-fThomas"/>
+               <seg th:sID="C28_app143-fThomas"/>
+        blood,
+        <seg th:eID="C28_app143-fThomas"/>
+    drop 
+        <seg th:sID="C28_app145-fThomas"/>
+        by
+        <seg th:eID="C28_app145-fThomas"/>
+               <seg th:sID="C28_app146-fThomas"/>
+        drop,
+        <seg th:eID="C28_app146-fThomas"/>
+    to have saved their 
+        <seg th:sID="C28_app148-fThomas"/>
+        lives;
+        <seg th:eID="C28_app148-fThomas"/>
+    but I could not, my father, indeed I could not sacrifice the whole human 
+        <seg th:sID="C28_app150-fThomas"/>
+        race.”
+        <seg th:eID="C28_app150-fThomas"/>
                <seg th:sID="C28_app151-fThomas__I" part="I"/>
-               <add ana="start" place="bottom_and_following_pages"/>What could induce me to talk thus incoherently of the dread<del-INNER ana="start"/>ful subject<del-INNER ana="end"/> that I dared not explain?—In truth, it was insanity, not of the understanding but of the heart, which <del-INNER ana="start" rend="strikethrough"/>produced a state of reckless<del-INNER ana="end"/>caused me always to think of one thing, of one<pb n="95"/> sentiment, and <del-INNER ana="start" rend="strikethrough"/>that<del-INNER ana="end"/> thus there would at times escape to my lips, as a half stifled <del-INNER ana="start"/>groan<del-INNER ana="end"/>sigh may; though else unseen &amp; unheard, just move<del-INNER ana="start" rend="strikethrough"/>s<del-INNER ana="end"/> the flame that surrounds the marty at the stake. But though he sigh, he will not recant, &amp; though I, more weak, gave vent to my pent up thoughts in words such as these, yet I shrunk unalterably from any thing that should reveal the existence of my enemy.<add ana="end"/>
+               <add place="bottom_and_following_pages">What could induce me to talk thus incoherently of the dread<del-INNER>ful subject</del-INNER> that I dared not explain?—In truth, it was insanity, not of the understanding but of the heart, which <del-INNER rend="strikethrough">produced a state of reckless</del-INNER>caused me always to think of one thing, of one<pb n="95"/> sentiment, and <del-INNER rend="strikethrough">that</del-INNER> thus there would at times escape to my lips, as a half stifled <del-INNER>groan</del-INNER>sigh may; though else unseen &amp; unheard, just move<del-INNER rend="strikethrough">s</del-INNER> the flame that surrounds the marty at the stake. But though he sigh, he will not recant, &amp; though I, more weak, gave vent to my pent up thoughts in words such as these, yet I shrunk unalterably from any thing that should reveal the existence of my enemy.</add>
                <seg th:eID="C28_app151-fThomas__I" part="I"/>
             </p>
             <p xml:id="novel1_letter4_chapter21_div4_div23_p7">
-               <seg th:sID="C28_app151-fThomas__F" part="F"/> The conclusion of this speech<seg th:eID="C28_app151-fThomas__F" part="F"/>
-               <seg th:sID="C28_app152-fThomas"/>convinced<seg th:eID="C28_app152-fThomas"/>my father that my ideas were <seg th:sID="C28_app154-fThomas"/>deranged,<seg th:eID="C28_app154-fThomas"/>and <seg th:sID="C28_app156-fThomas"/>he<seg th:eID="C28_app156-fThomas"/>instantly <seg th:sID="C28_app158-fThomas"/>changed<seg th:eID="C28_app158-fThomas"/>the subject of our <seg th:sID="C28_app160-fThomas"/>conversation, and<seg th:eID="C28_app160-fThomas"/>endeavoured to alter the course of my thoughts. He wished as much as possible to obliterate the memory of the scenes <seg th:sID="C28_app162-fThomas"/>that had taken place in Ireland,<seg th:eID="C28_app162-fThomas"/>
-               <pb xml:id="F1818_v3_099" n="095"/>and never <seg th:sID="C28_app164-fThomas"/>alluded to<seg th:eID="C28_app164-fThomas"/>
-               <seg th:sID="C28_app165-fThomas"/>them,<seg th:eID="C28_app165-fThomas"/>or suffered me to speak of my misfortunes. <seg th:sID="C28_app167-fThomas__I" part="I"/>
+               <seg th:sID="C28_app151-fThomas__F" part="F"/> The conclusion of this speech
+        <seg th:eID="C28_app151-fThomas__F" part="F"/>
+               <seg th:sID="C28_app152-fThomas"/>
+        convinced
+        <seg th:eID="C28_app152-fThomas"/>
+    my father that my ideas were 
+        <seg th:sID="C28_app154-fThomas"/>
+        deranged,
+        <seg th:eID="C28_app154-fThomas"/>
+    and 
+        <seg th:sID="C28_app156-fThomas"/>
+        he
+        <seg th:eID="C28_app156-fThomas"/>
+    instantly 
+        <seg th:sID="C28_app158-fThomas"/>
+        changed
+        <seg th:eID="C28_app158-fThomas"/>
+    the subject of our 
+        <seg th:sID="C28_app160-fThomas"/>
+        conversation, and
+        <seg th:eID="C28_app160-fThomas"/>
+    endeavoured to alter the course of my thoughts. He wished as much as possible to obliterate the memory of the scenes 
+        <seg th:sID="C28_app162-fThomas"/>
+        that had taken place in Ireland,
+        <seg th:eID="C28_app162-fThomas"/>
+               <pb xml:id="F1818_v3_099" n="095"/>and never 
+        <seg th:sID="C28_app164-fThomas"/>
+        alluded to
+        <seg th:eID="C28_app164-fThomas"/>
+               <seg th:sID="C28_app165-fThomas"/>
+        them,
+        <seg th:eID="C28_app165-fThomas"/>
+    or suffered me to speak of my misfortunes. 
+        <seg th:sID="C28_app167-fThomas__I" part="I"/>
                <seg th:eID="C28_app167-fThomas__I" part="I"/>
             </p>
             <p xml:id="novel1_letter4_chapter21_div4_div23_p8">
                <seg th:sID="C28_app167-fThomas__F" part="F"/>
-               <seg th:eID="C28_app167-fThomas__F" part="F"/>As time passed away I became more <seg th:sID="C28_app169-fThomas"/>calm:<seg th:eID="C28_app169-fThomas"/>misery had her dwelling in my <seg th:sID="C28_app171-fThomas"/>heart,<seg th:eID="C28_app171-fThomas"/>but I no longer talked in the same incoherent manner  <seg th:sID="C28_app174-fThomas"/>of my own crimes; sufficient for me was the consciousness of them. By the utmost<seg th:eID="C28_app174-fThomas"/>
-               <seg th:sID="C28_app175-fThomas"/>self-violence,<seg th:eID="C28_app175-fThomas"/>I curbed the imperious voice of <seg th:sID="C28_app177-fThomas"/>wretchedness,<seg th:eID="C28_app177-fThomas"/>which <seg th:sID="C28_app179-fThomas"/>sometimes desired<seg th:eID="C28_app179-fThomas"/>to declare itself to the whole <seg th:sID="C28_app181-fThomas"/>world;<seg th:eID="C28_app181-fThomas"/>and my manners were calmer and more composed than they had ever been since <seg th:sID="C28_app183-fThomas__I" part="I"/>
+               <seg th:eID="C28_app167-fThomas__F" part="F"/>
+    As time passed away I became more 
+        <seg th:sID="C28_app169-fThomas"/>
+        calm:
+        <seg th:eID="C28_app169-fThomas"/>
+    misery had her dwelling in my 
+        <seg th:sID="C28_app171-fThomas"/>
+        heart,
+        <seg th:eID="C28_app171-fThomas"/>
+    but I no longer talked in the same incoherent manner  
+        <seg th:sID="C28_app174-fThomas"/>
+        of my own crimes; sufficient for me was the consciousness of them. By the utmost
+        <seg th:eID="C28_app174-fThomas"/>
+               <seg th:sID="C28_app175-fThomas"/>
+        self-violence,
+        <seg th:eID="C28_app175-fThomas"/>
+    I curbed the imperious voice of 
+        <seg th:sID="C28_app177-fThomas"/>
+        wretchedness,
+        <seg th:eID="C28_app177-fThomas"/>
+    which 
+        <seg th:sID="C28_app179-fThomas"/>
+        sometimes desired
+        <seg th:eID="C28_app179-fThomas"/>
+    to declare itself to the whole 
+        <seg th:sID="C28_app181-fThomas"/>
+        world;
+        <seg th:eID="C28_app181-fThomas"/>
+    and my manners were calmer and more composed than they had ever been since 
+        <seg th:sID="C28_app183-fThomas__I" part="I"/>
                <seg th:eID="C28_app183-fThomas__I" part="I"/>
                <hi xml:id="novel1_letter4_chapter21_div4_div23_p9_hi1">
-                  <seg th:sID="C28_app183-fThomas__F" part="F"/>my<seg th:eID="C28_app183-fThomas__F" part="F"/>journey to <seg th:sID="C28_app185-fThomas__I" part="I"/>
-                  <add ana="start" place="margin"/>Montavert and<add ana="end"/> the sea of ice. <seg th:eID="C28_app185-fThomas__I" part="I"/>
+                  <seg th:sID="C28_app183-fThomas__F" part="F"/>my
+        <seg th:eID="C28_app183-fThomas__F" part="F"/>
+    journey to 
+        <seg th:sID="C28_app185-fThomas__I" part="I"/>
+                  <add xmlns:xs="http://www.w3.org/2001/XMLSchema" place="margin">Montavert and</add> the sea of ice. <seg th:eID="C28_app185-fThomas__I" part="I"/>
                </hi>
                <seg th:sID="C28_app185-fThomas__F" part="F"/>
                <seg th:eID="C28_app185-fThomas__F" part="F"/>
             </p>
             <p xml:id="novel1_letter4_chapter21_div4_div23_p9">
-               <seg th:sID="C28_app187-fThomas"/>We arrived at Havre on the<seg th:eID="C28_app187-fThomas"/>
-               <seg th:sID="C28_app188-fThomas"/>8th<seg th:eID="C28_app188-fThomas"/>
-               <seg th:sID="C28_app189-fThomas"/>of<seg th:eID="C28_app189-fThomas"/>
-               <seg th:sID="C28_app190-fThomas"/>May,<seg th:eID="C28_app190-fThomas"/>
-               <seg th:sID="C28_app191-fThomas"/>and instantly proceeded<seg th:eID="C28_app191-fThomas"/>to <seg th:sID="C28_app193-fThomas"/>Paris,<seg th:eID="C28_app193-fThomas"/>
-               <seg th:sID="C28_app194-fThomas"/>where my father had some<seg th:eID="C28_app194-fThomas"/>
-               <seg th:sID="C28_app195-fThomas"/>business<seg th:eID="C28_app195-fThomas"/>
-               <seg th:sID="C28_app196-fThomas"/>which detained<seg th:eID="C28_app196-fThomas"/>
-               <seg th:sID="C28_app197-fThomas"/>us<seg th:eID="C28_app197-fThomas"/>
-               <seg th:sID="C28_app198-fThomas"/>a few weeks. <seg th:eID="C28_app198-fThomas"/>
-               <seg th:sID="C28_app199-fThomas"/>In this<seg th:eID="C28_app199-fThomas"/>
-               <seg th:sID="C28_app200-fThomas"/>city,<seg th:eID="C28_app200-fThomas"/>I received the following letter from <seg th:sID="C28_app202-fThomas__I" part="I"/>Elizabeth:— <seg th:eID="C28_app202-fThomas__I" part="I"/>
+               <seg th:sID="C28_app187-fThomas"/>
+        We arrived at Havre on the
+        <seg th:eID="C28_app187-fThomas"/>
+               <seg th:sID="C28_app188-fThomas"/>
+        8th
+        <seg th:eID="C28_app188-fThomas"/>
+               <seg th:sID="C28_app189-fThomas"/>
+        of
+        <seg th:eID="C28_app189-fThomas"/>
+               <seg th:sID="C28_app190-fThomas"/>
+        May,
+        <seg th:eID="C28_app190-fThomas"/>
+               <seg th:sID="C28_app191-fThomas"/>
+        and instantly proceeded
+        <seg th:eID="C28_app191-fThomas"/>
+    to 
+        <seg th:sID="C28_app193-fThomas"/>
+        Paris,
+        <seg th:eID="C28_app193-fThomas"/>
+               <seg th:sID="C28_app194-fThomas"/>
+        where my father had some
+        <seg th:eID="C28_app194-fThomas"/>
+               <seg th:sID="C28_app195-fThomas"/>
+        business
+        <seg th:eID="C28_app195-fThomas"/>
+               <seg th:sID="C28_app196-fThomas"/>
+        which detained
+        <seg th:eID="C28_app196-fThomas"/>
+               <seg th:sID="C28_app197-fThomas"/>
+        us
+        <seg th:eID="C28_app197-fThomas"/>
+               <seg th:sID="C28_app198-fThomas"/>
+        a few weeks. 
+        <seg th:eID="C28_app198-fThomas"/>
+               <seg th:sID="C28_app199-fThomas"/>
+        In this
+        <seg th:eID="C28_app199-fThomas"/>
+               <seg th:sID="C28_app200-fThomas"/>
+        city,
+        <seg th:eID="C28_app200-fThomas"/>
+    I received the following letter from 
+        <seg th:sID="C28_app202-fThomas__I" part="I"/>
+        Elizabeth:— <seg th:eID="C28_app202-fThomas__I" part="I"/>
             </p>
             <seg th:sID="C28_app202-fThomas__F" part="F"/>
             <seg th:eID="C28_app202-fThomas__F" part="F"/>
