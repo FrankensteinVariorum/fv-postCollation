@@ -8,7 +8,9 @@
          <publicationStmt xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                            xmlns:mith="http://mith.umd.edu/sc/ns1#"
                            xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                           xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
+                           xmlns:tei="http://www.tei-c.org/ns/1.0"
+                           xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                           xmlns:xs="http://www.w3.org/2001/XMLSchema">
             <authority>Frankenstein Variorum Project</authority>
             <date>2023—</date>
             <availability>
@@ -19,721 +21,1606 @@
          <sourceDesc xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                       xmlns:mith="http://mith.umd.edu/sc/ns1#"
                       xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                      xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
+                      xmlns:tei="http://www.tei-c.org/ns/1.0"
+                      xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                      xmlns:xs="http://www.w3.org/2001/XMLSchema">
             <p>Produced from collation output prepared in batch file processing
                                     on  2023-08-10 04:28:37.275267 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-13T15:56:26.205192-04:00.</p>
+                                    Variorum spine on 2023-08-13T22:02:36.149836-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
          <div type="collation">
-            <anchor type="collate" xml:id="C12"/>
-            <milestone unit="tei:p-START"/>
-            <lb n="c56-0065__main__1"/>"Dear, dear <seg xml:id="C12_app2-fMS_start"/>Elizabeth"<seg xml:id="C12_app2-fMS_end"/>I <seg xml:id="C12_app4-fMS_start"/>exclaimed<seg xml:id="C12_app4-fMS_end"/>
-            <lb n="c56-0065__main__2"/>when I had read her <seg xml:id="C12_app6-fMS_start"/>letter"–I<seg xml:id="C12_app6-fMS_end"/>will write <seg xml:id="C12_app8-fMS_start"/>
-            <lb n="c56-0065__main__3"/>instantly<seg xml:id="C12_app8-fMS_end"/>and relieve them from the <seg xml:id="C12_app10-fMS_start"/>
-            <lb n="c56-0065__main__4"/>great pain<seg xml:id="C12_app10-fMS_end"/>they must feel." <seg xml:id="C12_app12-fMS_start"/>
-            <milestone unit="tei:p-END"/>
-            <milestone unit="tei:p-START"/>
-            <lb n="c56-0065__main__5"/>I wrote, and this exertion greatly <lb n="c56-0065__main__6"/>fatigued<seg xml:id="C12_app12-fMS_end"/>
-            <seg xml:id="C12_app13-fMS_start"/>me <sga-add hand="#pbs" place="intralinear" xml:id="c56-0065__main__d5e13438">; </sga-add> b <mod xml:id="c56-0065__main__d5e13441">
-               <mdel>y</mdel>
-               <sga-add place="intralinear" xml:id="c56-0065__main__d5e13445">ut </sga-add>
-            </mod>
-            <seg xml:id="C12_app13-fMS_end"/>my convalescence <seg xml:id="C12_app15-fMS_start"/>
-            <mod xml:id="c56-0065__main__d5e13449">
-               <del rend="strikethrough" xml:id="c56-0065__main__d5e13451">was</del>
-               <anchor xml:id="c56-0065.01"/>
-               <lb n="c56-0065__left_margin__1"/>
-               <sga-add xml:id="c56-0065__left_margin__d5e13460">had<seg xml:id="C12_app15-fMS_end"/>
-                  <seg xml:id="C12_app16-fMS_start"/>
-               </sga-add>
-            </mod>
-            <lb n="c56-0065__main__7"/>commenced<seg xml:id="C12_app16-fMS_end"/>and <seg xml:id="C12_app18-fMS_start"/>
-            <mod xml:id="c56-0065__main__d5e13467">
-               <del rend="strikethrough" xml:id="c56-0065__main__d5e13469">went <sga-add place="superlinear" xml:id="c56-0065__main__d5e13471">on </sga-add>
+            <anchor xmlns="" type="collate" xml:id="C12"/>
+            <milestone xmlns="" unit="tei:p-START"/>
+            <lb xmlns="" n="c56-0065__main__1"/>"Dear, dear 
+        <seg xml:id="C12_app2-fMS">
+        Elizabeth"
+        </seg>
+    I 
+        <seg xml:id="C12_app4-fMS">
+        exclaimed
+        </seg>
+            <lb xmlns="" n="c56-0065__main__2"/>when I had read her 
+        <seg xml:id="C12_app6-fMS">
+        letter"–I
+        </seg>
+    will write 
+        <seg xml:id="C12_app8-fMS">
+               <lb xmlns="" n="c56-0065__main__3"/>instantly
+        </seg>
+    and relieve them from the 
+        <seg xml:id="C12_app10-fMS">
+               <lb xmlns="" n="c56-0065__main__4"/>great pain
+        </seg>
+    they must feel." 
+        <seg xml:id="C12_app12-fMS">
+               <milestone xmlns="" unit="tei:p-END"/>
+               <milestone xmlns="" unit="tei:p-START"/>
+               <lb xmlns="" n="c56-0065__main__5"/>I wrote, and this exertion greatly <lb xmlns="" n="c56-0065__main__6"/>fatigued
+        </seg>
+            <seg xml:id="C12_app13-fMS">
+        me <sga-add hand="#pbs" place="intralinear" xml:id="c56-0065__main__d5e13438">; </sga-add> b <mod xml:id="c56-0065__main__d5e13441">
+                  <mdel xmlns="">y</mdel>
+                  <sga-add place="intralinear" xml:id="c56-0065__main__d5e13445">ut </sga-add>
+               </mod>
+            </seg>
+    my convalescence 
+        <seg xml:id="C12_app15-fMS">
+               <mod xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                     th:sID="c56-0065__main__d5e13449"/>
+               <del xmlns="" rend="strikethrough" xml:id="c56-0065__main__d5e13451">was</del>
+               <anchor xmlns="" xml:id="c56-0065.01"/>
+               <lb xmlns="" n="c56-0065__left_margin__1"/>
+               <sga-add xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                         th:sID="c56-0065__left_margin__d5e13460"/>had
+        </seg>
+            <del xmlns="" rend="strikethrough" xml:id="c56-0065__main__d5e13451">was</del>
+            <anchor xmlns="" xml:id="c56-0065.01"/>
+            <lb xmlns="" n="c56-0065__left_margin__1"/>
+            <sga-add xml:id="c56-0065__left_margin__d5e13460">had
+        
+            </sga-add>
+            
+    and 
+        <seg xml:id="C12_app18-fMS">
+               <mod xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                     th:sID="c56-0065__main__d5e13467"/>
+               <del xmlns="" rend="strikethrough" xml:id="c56-0065__main__d5e13469">went <sga-add xmlns="http://www.tei-c.org/ns/1.0"
+                            place="superlinear"
+                            xml:id="c56-0065__main__d5e13471">on </sga-add>
                </del>
-               <sga-add hand="#pbs" place="superlinear" xml:id="c56-0065__main__d5e13475">proceeded<seg xml:id="C12_app18-fMS_end"/>
-                  <seg xml:id="C12_app19-fMS_start"/>
-               </sga-add>
-            </mod> regularly–in<seg xml:id="C12_app19-fMS_end"/>
-            <lb n="c56-0065__main__8"/>another fortnight I was able to <lb n="c56-0065__main__9"/>leave my chamber. <seg xml:id="C12_app21-fMS_start"/>
-            <lb n="c56-0065__main__10"/>
-            <metamark function="separate">______</metamark>
-            <lb n="c56-0066__main__1"/>
-            <milestone spanTo="#c56-0066.05" unit="tei:head"/> Chap. 8 <shi rend="sup"/>
-            <seg xml:id="C12_app21-fMS_end"/>
-            <anchor xml:id="c56-0066.05"/>
-            <lb n="c56-0066__main__2"/>one of my first duties on my recovery was <lb n="c56-0066__main__3"/>to introduce Clerval to the <seg xml:id="C12_app23-fMS_start"/>
+               <sga-add xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                         hand="#pbs"
+                         place="superlinear"
+                         th:sID="c56-0065__main__d5e13475"/>proceeded
+        </seg>
+            <del xmlns="" rend="strikethrough" xml:id="c56-0065__main__d5e13469">went <sga-add xmlns="http://www.tei-c.org/ns/1.0"
+                         place="superlinear"
+                         xml:id="c56-0065__main__d5e13471">on </sga-add>
+            </del>
+            <sga-add hand="#pbs" place="superlinear" xml:id="c56-0065__main__d5e13475">proceeded
+        
+            </sga-add>
+            <lb xmlns="" n="c56-0065__main__8"/>another fortnight I was able to <lb xmlns="" n="c56-0065__main__9"/>leave my chamber. 
+        <seg xml:id="C12_app21-fMS">
+               <lb xmlns="" n="c56-0065__main__10"/>
+               <metamark xmlns="" function="separate">______</metamark>
+               <lb xmlns="" n="c56-0066__main__1"/>
+               <milestone xmlns="" spanTo="#c56-0066.05" unit="tei:head"/> Chap. 8 <shi xmlns="" rend="sup"/>
+            </seg>
+            <anchor xmlns="" xml:id="c56-0066.05"/>
+            <lb xmlns="" n="c56-0066__main__2"/>one of my first duties on my recovery was <lb xmlns="" n="c56-0066__main__3"/>to introduce Clerval to the 
+        <seg xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                  th:sID="C12_app23-fMS"/>
             <mod xml:id="c56-0066__main__d5e13514">
                <sga-add place="sublinear" xml:id="c56-0066__main__d5e13516">
-                  <metamark function="insert">^</metamark>
+                  <metamark xmlns="" function="insert">^</metamark>
                </sga-add>
-               <sga-add place="superlinear" xml:id="c56-0066__main__d5e13522">several<seg xml:id="C12_app23-fMS_end"/>
-               </sga-add>
-            </mod>professors of <lb n="c56-0066__main__4"/>the university. <seg xml:id="C12_app25-fMS_start"/>And in doing<seg xml:id="C12_app25-fMS_end"/>
-            <seg xml:id="C12_app26-fMS_start"/>this<seg xml:id="C12_app26-fMS_end"/>I <seg xml:id="C12_app28-fMS_start"/>under <lb n="c56-0066__main__5"/>went <del rend="strikethrough" xml:id="c56-0066__main__d5e13530">torments</del>
-            <seg xml:id="C12_app28-fMS_end"/>a kind of rough <seg xml:id="C12_app30-fMS_start"/>usage <lb n="c56-0066__main__6"/>
-            <del rend="strikethrough" xml:id="c56-0066__main__d5e13536">that</del>
-            <seg xml:id="C12_app30-fMS_end"/>ill <seg xml:id="C12_app32-fMS_start"/>
-            <del rend="strikethrough" xml:id="c56-0066__main__d5e13539">befitten</del> befitt <mod xml:id="c56-0066__main__d5e13542">
-               <mdel>ed</mdel>
-               <sga-add hand="#pbs" place="intralinear" xml:id="c56-0066__main__d5e13546">ing </sga-add>
-            </mod>
-            <seg xml:id="C12_app32-fMS_end"/>the wounds <sga-add place="intralinear" xml:id="c56-0066__main__d5e13550">that </sga-add>
-            <lb n="c56-0066__main__7"/>my mind had sustained. Ever since the <lb n="c56-0066__main__8"/>fatal <seg xml:id="C12_app34-fMS_start"/>night –<seg xml:id="C12_app34-fMS_end"/>the end of my <seg xml:id="C12_app36-fMS_start"/>labours &amp;<lb n="c56-0066__main__9"/>the<seg xml:id="C12_app36-fMS_end"/>beginning of my <seg xml:id="C12_app38-fMS_start"/>misfortunes <del rend="strikethrough" xml:id="c56-0066__main__d5e13560">
-               <unclear>(</unclear>
-            </del>
-            <seg xml:id="C12_app38-fMS_end"/>I had <lb n="c56-0066__main__10"/>conceived a violent antipathy even to <lb n="c56-0066__main__11"/>the name of <seg xml:id="C12_app40-fMS_start"/>
-            <mod xml:id="c56-0066__main__d5e13569">
-               <mdel>Ch</mdel>
-               <del rend="strikethrough" xml:id="c56-0066__main__d5e13573">Chemistry</del>
-               <sga-add place="superlinear" xml:id="c56-0066__main__d5e13576">Natural<seg xml:id="C12_app40-fMS_end"/>
-                  <seg xml:id="C12_app41-fMS_start"/>Philosophy </sga-add>
-            </mod> .<seg xml:id="C12_app41-fMS_end"/>When I was <w ana="start"/>other<lb n="c56-0066__main__12"/>wise<w ana="end"/> quite restored to <seg xml:id="C12_app43-fMS_start"/>health<seg xml:id="C12_app43-fMS_end"/>the sight of <sga-add hand="#pbs" place="intralinear" xml:id="c56-0066__main__d5e13587">a </sga-add>
-            <lb n="c56-0066__main__13"/>Chemical instrument <seg xml:id="C12_app45-fMS_start"/>
-            <delSpan rend="strikethrough" spanTo="#c56-0066.02"/>brought on <lb n="c56-0066__main__14"/>again <delSpan anchor="c56-0066.02"/>
-            <sga-add hand="#pbs" place="superlinear" xml:id="c56-0066__main__d5e13599">renewed </sga-add>
-            <anchor xml:id="c56-0066.01"/>
-            <seg xml:id="C12_app45-fMS_end"/>all <seg xml:id="C12_app47-fMS_start"/>
-            <mod xml:id="c56-0066__main__d5e13604">
-               <sga-add place="sublinear" xml:id="c56-0066__main__d5e13606">
-                  <metamark function="insert">^</metamark>
-               </sga-add>
-               <sga-add hand="#pbs" place="superlinear" xml:id="c56-0066__main__d5e13612">the agony of<seg xml:id="C12_app47-fMS_end"/>
-                  <seg xml:id="C12_app48-fMS_start"/>my </sga-add>
-            </mod> my<seg xml:id="C12_app48-fMS_end"/>
-            <seg xml:id="C12_app49-fMS_start"/>
-            <sga-add place="sublinear" xml:id="c56-0066__main__d5e13616">
-               <metamark function="insert">^</metamark>
-            </sga-add> nervous<seg xml:id="C12_app49-fMS_end"/>
-            <seg xml:id="C12_app50-fMS_start"/>symtoms. <del rend="strikethrough" xml:id="c56-0066__main__d5e13622">Lo</del>
-            <seg xml:id="C12_app50-fMS_end"/>
-            <lb n="c56-0066__main__15"/>Henry saw <seg xml:id="C12_app52-fMS_start"/>this<seg xml:id="C12_app52-fMS_end"/>and had <seg xml:id="C12_app54-fMS_start"/>
-            <mod xml:id="c56-0066__main__d5e13628">
-               <mdel>p</mdel>
-               <del rend="strikethrough" xml:id="c56-0066__main__d5e13632">packed up</del>
-               <sga-add place="superlinear" xml:id="c56-0066__main__d5e13635">removed </sga-add>
-            </mod>
-            <lb n="c56-0066__main__16"/>all my<seg xml:id="C12_app54-fMS_end"/>
-            <seg xml:id="C12_app55-fMS_start"/>
-            <mod xml:id="c56-0066__main__d5e13641">
-               <del rend="strikethrough" xml:id="c56-0066__main__d5e13643">machines</del>
-               <del rend="strikethrough" xml:id="c56-0066__main__d5e13646">in a chest</del>
-               <sga-add place="superlinear" xml:id="c56-0066__main__d5e13649">apparatus from my<seg xml:id="C12_app55-fMS_end"/>
-                  <seg xml:id="C12_app56-fMS_start"/>
-                  <del rend="strikethrough" xml:id="c56-0066__main__d5e13651">che</del> view </sga-add>
-            </mod>
-            <seg xml:id="C12_app56-fMS_end"/>he had also <lb n="c56-0066__main__17"/>changed my <seg xml:id="C12_app58-fMS_start"/>
-            <mod xml:id="c56-0066__main__d5e13658">
-               <del rend="strikethrough" xml:id="c56-0066__main__d5e13660">room</del>
-               <sga-add place="superlinear" xml:id="c56-0066__main__d5e13663">ap <mdel>p</mdel> artment, </sga-add>
-            </mod>
-            <seg xml:id="C12_app58-fMS_end"/>for he perceived that <lb n="c56-0066__main__18"/>I had <seg xml:id="C12_app60-fMS_start"/>
-            <mod xml:id="c56-0066__main__d5e13672">
-               <mdel>a</mdel>
-               <sga-add hand="#pbs" place="superlinear" xml:id="c56-0066__main__d5e13676">acquired<seg xml:id="C12_app60-fMS_end"/>
-                  <seg xml:id="C12_app61-fMS_start"/>
-               </sga-add>
-            </mod>
-            <seg xml:id="C12_app61-fMS_end"/>dislike <seg xml:id="C12_app63-fMS_start"/>to<seg xml:id="C12_app63-fMS_end"/>the room which had <lb n="c56-0066__main__19"/>previously been my <seg xml:id="C12_app65-fMS_start"/>workshop.<seg xml:id="C12_app65-fMS_end"/>But these <lb n="c56-0066__main__20"/>cares of Clerval were <seg xml:id="C12_app67-fMS_start"/>
-            <mod xml:id="c56-0066__main__d5e13684">
-               <del rend="strikethrough" xml:id="c56-0066__main__d5e13686">thrown away</del>
-               <sga-add hand="#pbs" place="superlinear" xml:id="c56-0066__main__d5e13689">made of no avail<seg xml:id="C12_app67-fMS_end"/>
-               </sga-add>
-            </mod>when <lb n="c56-0066__main__21"/>I visited the professors. <seg xml:id="C12_app69-fMS_start"/>even my excellent <lb n="c56-0066__main__22"/>M. Waldman inflicted torture when <lb n="c56-0066__main__23"/>he<seg xml:id="C12_app69-fMS_end"/>
-            <seg xml:id="C12_app70-fMS_start"/>praised<seg xml:id="C12_app70-fMS_end"/>with <seg xml:id="C12_app72-fMS_start"/>
-            <del rend="strikethrough" xml:id="c56-0066__main__d5e13700">the</del> kindness and warmth, <lb n="c56-0066__main__24"/>the astonishing progress<seg xml:id="C12_app72-fMS_end"/>
-            <seg xml:id="C12_app73-fMS_start"/>that I had made <lb n="c56-0066__main__25"/>in the sciences. He soon perceived<seg xml:id="C12_app73-fMS_end"/>
-            <seg xml:id="C12_app74-fMS_start"/>
-            <mod xml:id="c56-0066__main__d5e13707">
-               <mdel>my</mdel>
-               <anchor xml:id="c56-0066.03"/>
-               <lb n="c56-0066__left_margin__1"/>
-               <sga-add hand="#pbs" xml:id="c56-0066__left_margin__d5e13717">that I<seg xml:id="C12_app74-fMS_end"/>
-                  <seg xml:id="C12_app75-fMS_start"/>
-               </sga-add>
-            </mod>
-            <lb n="c56-0066__main__26"/> dislike <sga-add hand="#pbs" place="intralinear" xml:id="c56-0066__main__d5e13725">d </sga-add>
-            <del rend="strikethrough" xml:id="c56-0066__main__d5e13728">of</del>
-            <seg xml:id="C12_app75-fMS_end"/>the <seg xml:id="C12_app77-fMS_start"/>subject,<seg xml:id="C12_app77-fMS_end"/>
-            <seg xml:id="C12_app78-fMS_start"/>but<seg xml:id="C12_app78-fMS_end"/>not guessing <lb n="c56-0066__main__27"/>the real <seg xml:id="C12_app80-fMS_start"/>cause<seg xml:id="C12_app80-fMS_end"/>he attributed <seg xml:id="C12_app82-fMS_start"/>
-            <mod xml:id="c56-0066__main__d5e13733">
-               <mdel>to</mdel>
-               <mdel>it</mdel>
-               <anchor xml:id="c56-0066.04"/>
-               <lb n="c56-0066__left_margin__1"/>
-               <sga-add hand="#pbs" xml:id="c56-0066__left_margin__d5e13745">my feelings </sga-add>
-            </mod>
-            <lb n="c56-0066__main__28"/>to<seg xml:id="C12_app82-fMS_end"/>
-            <seg xml:id="C12_app83-fMS_start"/>modesty <del rend="strikethrough" xml:id="c56-0066__main__d5e13753">on hearing myself praised</del>
-            <lb n="c56-0067__main__1"/>
-            <del rend="strikethrough" xml:id="c56-0067__main__d5e13766">he therefore</del>
-            <seg xml:id="C12_app83-fMS_end"/>
-            <anchor xml:id="c56-0067.01"/>
-            <lb n="c56-0067__left_margin__1"/>
-            <sga-add xml:id="c56-0067__left_margin__d5e13775">and </sga-add>changed the subject from <lb n="c56-0067__main__2"/>my <seg xml:id="C12_app86-fMS_start"/>improvement,<seg xml:id="C12_app86-fMS_end"/>to the science itself, <lb n="c56-0067__main__3"/>with <seg xml:id="C12_app88-fMS_start"/>
-            <del rend="strikethrough" xml:id="c56-0067__main__d5e13783">an</del> a<seg xml:id="C12_app88-fMS_end"/>
-            <seg xml:id="C12_app89-fMS_start"/>desire<seg xml:id="C12_app89-fMS_end"/>as I evidently <seg xml:id="C12_app91-fMS_start"/>saw<seg xml:id="C12_app91-fMS_end"/>
-            <lb n="c56-0067__main__4"/>of drawing <seg xml:id="C12_app93-fMS_start"/>
-            <del rend="strikethrough" xml:id="c56-0067__main__d5e13788">friend</del> me out.<seg xml:id="C12_app93-fMS_end"/>
-            <seg xml:id="C12_app94-fMS_start"/>
-            <del rend="strikethrough" xml:id="c56-0067__main__d5e13791">K</del>
-            <delSpan rend="strikethrough" spanTo="#c56-0067.02"/>Kind <lb n="c56-0067__main__5"/>friend he tortured me without <delSpan anchor="c56-0067.02"/>
-            <delSpan rend="strikethrough" spanTo="#c56-0067.03"/>but <lb n="c56-0067__main__6"/>it <delSpan anchor="c56-0067.03"/>
-            <del rend="strikethrough" xml:id="c56-0067__main__d5e13807">How cruel is</del> What could I do? <lb n="c56-0067__main__7"/>He meant to<seg xml:id="C12_app94-fMS_end"/>
-            <seg xml:id="C12_app95-fMS_start"/>please <del rend="strikethrough" xml:id="c56-0067__main__d5e13813">and</del>
-            <del rend="strikethrough" xml:id="c56-0067__main__d5e13816">me</del>
-            <seg xml:id="C12_app95-fMS_end"/>&amp; he <seg xml:id="C12_app97-fMS_start"/>
-            <lb n="c56-0067__main__8"/>
-            <mod xml:id="c56-0067__main__d5e13821">
-               <del rend="strikethrough" xml:id="c56-0067__main__d5e13823">tortured</del>
-               <anchor xml:id="c56-0067.04"/>
-               <lb n="c56-0067__left_margin__1"/>
-               <sga-add xml:id="c56-0067__left_margin__d5e13832">tormented<seg xml:id="C12_app97-fMS_end"/>
-                  <seg xml:id="C12_app98-fMS_start"/>
-               </sga-add>
-            </mod> me <mod xml:id="c56-0067__main__d5e13836">
-               <del rend="strikethrough" xml:id="c56-0067__main__d5e13838">it was</del>
-               <seg xml:id="C12_app98-fMS_end"/>
-               <sga-add place="superlinear" xml:id="c56-0067__main__d5e13841">I felt </sga-add>
-            </mod>as if he <seg xml:id="C12_app101-fMS_start"/>
-            <del rend="strikethrough" xml:id="c56-0067__main__d5e13846">had</del>
-            <seg xml:id="C12_app101-fMS_end"/>
-            <lb n="c56-0067__main__9"/>
-            <anchor xml:id="c56-0067.05"/>
-            <lb n="c56-0067__left_margin__1"/>
-            <sga-add xml:id="c56-0067__left_margin__d5e13857">placed <seg xml:id="C12_app103-fMS_start"/>
-            </sga-add>carefully<seg xml:id="C12_app103-fMS_end"/>one by <seg xml:id="C12_app105-fMS_start"/>one <del rend="strikethrough" xml:id="c56-0067__main__d5e13860">placed</del>
-            <seg xml:id="C12_app105-fMS_end"/>in my <lb n="c56-0067__main__10"/>view those instruments which were <lb n="c56-0067__main__11"/>
-            <anchor xml:id="c56-0067.06"/>
-            <lb n="c56-0067__left_margin__1"/>
-            <sga-add xml:id="c56-0067__left_margin__d5e13874">to be </sga-add>afterwards used in putting me to a <lb n="c56-0067__main__12"/>slow and cruel <seg xml:id="C12_app107-fMS_start"/>
-            <del rend="strikethrough" xml:id="c56-0067__main__d5e13879">dre</del> death. I writhed <lb n="c56-0067__main__13"/>under his words, yet dared not<seg xml:id="C12_app107-fMS_end"/>
-            <seg xml:id="C12_app108-fMS_start"/>shew <lb n="c56-0067__main__14"/>
-            <del rend="strikethrough" xml:id="c56-0067__main__d5e13887">my</del>
-            <seg xml:id="C12_app108-fMS_end"/>the pain I felt. Clerval, whose <lb n="c56-0067__main__15"/>eyes and feelings were always quick <lb n="c56-0067__main__16"/>in <seg xml:id="C12_app110-fMS_start"/>di <sga-add hand="#pbs" place="intralinear" xml:id="c56-0067__main__d5e13894">s </sga-add>cerning<seg xml:id="C12_app110-fMS_end"/>the sensations of <seg xml:id="C12_app112-fMS_start"/>others<seg xml:id="C12_app112-fMS_end"/>
-            <lb n="c56-0067__main__17"/>declined the <seg xml:id="C12_app114-fMS_start"/>subject alledging <mod xml:id="c56-0067__main__d5e13900">
-               <mdel>in</mdel>
-               <sga-add place="sublinear" xml:id="c56-0067__main__d5e13904">
-                  <metamark function="insert">^</metamark>
-                  <seg xml:id="C12_app114-fMS_end"/>
-               </sga-add>
-               <sga-add place="superlinear" xml:id="c56-0067__main__d5e13910">his <seg xml:id="C12_app116-fMS_start"/>
-               </sga-add>
-            </mod>
-            <lb n="c56-0067__main__18"/>ignorance<seg xml:id="C12_app116-fMS_end"/>&amp; the conversation took <lb n="c56-0067__main__19"/>a more general turn. I thanked <seg xml:id="C12_app118-fMS_start"/>him<seg xml:id="C12_app118-fMS_end"/>
-            <lb n="c56-0067__main__20"/>from my heart, but I did not speak. <seg xml:id="C12_app120-fMS_start"/>
-            <lb n="c56-0067__main__21"/> I plainly saw<seg xml:id="C12_app120-fMS_end"/>that he was surprised, <lb n="c56-0067__main__22"/>but he never attempted to draw <lb n="c56-0067__main__23"/>my secret from <seg xml:id="C12_app122-fMS_start"/>me,<seg xml:id="C12_app122-fMS_end"/>and although <lb n="c56-0067__main__24"/>I loved him with a mixture of <seg xml:id="C12_app124-fMS_start"/>
-            <lb n="c56-0067__main__25"/>
-            <mod xml:id="c56-0067__main__d5e13931">
-               <del rend="strikethrough" xml:id="c56-0067__main__d5e13933">love</del>
-               <anchor xml:id="c56-0067.07"/>
-               <lb n="c56-0067__left_margin__1"/>
-               <sga-add xml:id="c56-0067__left_margin__d5e13942">affection<seg xml:id="C12_app124-fMS_end"/>
-               </sga-add>
-            </mod>and reverence that knew <seg xml:id="C12_app126-fMS_start"/>no <lb n="c56-0067__main__26"/>bounds,<seg xml:id="C12_app126-fMS_end"/>yet I could never <seg xml:id="C12_app128-fMS_start"/>
-            <del rend="strikethrough" xml:id="c56-0067__main__d5e13948">
-               <unclear>pr</unclear>
-            </del> persuade <lb n="c56-0067__main__27"/>myself to confide to him that event <lb n="c56-0067__main__28"/>which was so often present to my<seg xml:id="C12_app128-fMS_end"/>
-            <seg xml:id="C12_app129-fMS_start"/>
-            <lb n="c56-0067__main__29"/>thoughts,<seg xml:id="C12_app129-fMS_end"/>but which I feared the detail <lb n="c56-0067__main__30"/>to another would only impress more deeply. <milestone unit="tei:p-END"/>
-            <milestone unit="tei:p-START"/>
-            <seg xml:id="C12_app131-fMS_start"/>
-            <lb n="c56-0068__main__1"/>M <shi rend="sup">r</shi> .<seg xml:id="C12_app131-fMS_end"/>Krempe was not <seg xml:id="C12_app133-fMS_start"/>
+               <sga-add xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                         place="superlinear"
+                         th:sID="c56-0066__main__d5e13522"/>several
+        
+            </mod>several
+        
+            <mod xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                  th:eID="c56-0066__main__d5e13514"/>professors of <lb xmlns="" n="c56-0066__main__4"/>the university. 
+        <seg xml:id="C12_app25-fMS">
+        And in doing
+        </seg>
+            <seg xml:id="C12_app26-fMS">
+        this
+        </seg>
+    I 
+        <seg xml:id="C12_app28-fMS">
+        under <lb xmlns="" n="c56-0066__main__5"/>went <del xmlns="" rend="strikethrough" xml:id="c56-0066__main__d5e13530">torments</del>
+            </seg>
+    a kind of rough 
+        <seg xml:id="C12_app30-fMS">
+        usage <lb xmlns="" n="c56-0066__main__6"/>
+               <del xmlns="" rend="strikethrough" xml:id="c56-0066__main__d5e13536">that</del>
+            </seg>
+    ill 
+        <seg xml:id="C12_app32-fMS">
+               <del xmlns="" rend="strikethrough" xml:id="c56-0066__main__d5e13539">befitten</del> befitt <mod xml:id="c56-0066__main__d5e13542">
+                  <mdel xmlns="">ed</mdel>
+                  <sga-add hand="#pbs" place="intralinear" xml:id="c56-0066__main__d5e13546">ing </sga-add>
+               </mod>
+            </seg>
+    the wounds <sga-add place="intralinear" xml:id="c56-0066__main__d5e13550">that </sga-add>
+            <lb xmlns="" n="c56-0066__main__7"/>my mind had sustained. Ever since the <lb xmlns="" n="c56-0066__main__8"/>fatal 
+        <seg xml:id="C12_app34-fMS">
+        night –
+        </seg>
+    the end of my 
+        <seg xml:id="C12_app36-fMS">
+        labours &amp;<lb xmlns="" n="c56-0066__main__9"/>the
+        </seg>
+    beginning of my 
+        <seg xml:id="C12_app38-fMS">
+        misfortunes <del xmlns="" rend="strikethrough" xml:id="c56-0066__main__d5e13560">
+                  <unclear>(</unclear>
+               </del>
+            </seg>
+    I had <lb xmlns="" n="c56-0066__main__10"/>conceived a violent antipathy even to <lb xmlns="" n="c56-0066__main__11"/>the name of 
+        <seg xml:id="C12_app40-fMS">
+               <mod xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                     th:sID="c56-0066__main__d5e13569"/>
+               <mdel xmlns="">Ch</mdel>
+               <del xmlns="" rend="strikethrough" xml:id="c56-0066__main__d5e13573">Chemistry</del>
+               <sga-add xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                         place="superlinear"
+                         th:sID="c56-0066__main__d5e13576"/>Natural
+        </seg>
+            <mdel xmlns="">Ch</mdel>
+            <del xmlns="" rend="strikethrough" xml:id="c56-0066__main__d5e13573">Chemistry</del>
+            <sga-add place="superlinear" xml:id="c56-0066__main__d5e13576">Natural
+        
+        Philosophy </sga-add>
+            
+    When I was <w xmlns="" ana="start"/>other<lb xmlns="" n="c56-0066__main__12"/>wise<w xmlns="" ana="end"/> quite restored to 
+        <seg xml:id="C12_app43-fMS">
+        health
+        </seg>
+    the sight of <sga-add hand="#pbs" place="intralinear" xml:id="c56-0066__main__d5e13587">a </sga-add>
+            <lb xmlns="" n="c56-0066__main__13"/>Chemical instrument 
+        <seg xml:id="C12_app45-fMS">
+               <delSpan xmlns="" rend="strikethrough" spanTo="#c56-0066.02"/>brought on <lb xmlns="" n="c56-0066__main__14"/>again <delSpan xmlns="" anchor="c56-0066.02"/>
+               <sga-add hand="#pbs" place="superlinear" xml:id="c56-0066__main__d5e13599">renewed </sga-add>
+               <anchor xmlns="" xml:id="c56-0066.01"/>
+            </seg>
+    all 
+        <seg xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                  th:sID="C12_app47-fMS"/>
+            <mod xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                  th:sID="c56-0066__main__d5e13604"/>
+            <sga-add place="sublinear" xml:id="c56-0066__main__d5e13606">
+               <metamark xmlns="" function="insert">^</metamark>
+            </sga-add>
+            <sga-add hand="#pbs" place="superlinear" xml:id="c56-0066__main__d5e13612">the agony of
+        
+        my </sga-add>
+            <seg xml:id="C12_app49-fMS">
+               <sga-add place="sublinear" xml:id="c56-0066__main__d5e13616">
+                  <metamark xmlns="" function="insert">^</metamark>
+               </sga-add> nervous
+        </seg>
+            <seg xml:id="C12_app50-fMS">
+        symtoms. <del xmlns="" rend="strikethrough" xml:id="c56-0066__main__d5e13622">Lo</del>
+            </seg>
+            <lb xmlns="" n="c56-0066__main__15"/>Henry saw 
+        <seg xml:id="C12_app52-fMS">
+        this
+        </seg>
+    and had 
+        <seg xml:id="C12_app54-fMS">
+               <mod xml:id="c56-0066__main__d5e13628">
+                  <mdel xmlns="">p</mdel>
+                  <del xmlns="" rend="strikethrough" xml:id="c56-0066__main__d5e13632">packed up</del>
+                  <sga-add place="superlinear" xml:id="c56-0066__main__d5e13635">removed </sga-add>
+               </mod>
+               <lb xmlns="" n="c56-0066__main__16"/>all my
+        </seg>
+            <seg xml:id="C12_app55-fMS">
+               <mod xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                     th:sID="c56-0066__main__d5e13641"/>
+               <del xmlns="" rend="strikethrough" xml:id="c56-0066__main__d5e13643">machines</del>
+               <del xmlns="" rend="strikethrough" xml:id="c56-0066__main__d5e13646">in a chest</del>
+               <sga-add xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                         place="superlinear"
+                         th:sID="c56-0066__main__d5e13649"/>apparatus from my
+        </seg>
+            <del xmlns="" rend="strikethrough" xml:id="c56-0066__main__d5e13643">machines</del>
+            <del xmlns="" rend="strikethrough" xml:id="c56-0066__main__d5e13646">in a chest</del>
+            <sga-add place="superlinear" xml:id="c56-0066__main__d5e13649">apparatus from my
+        
+            <del xmlns="" rend="strikethrough" xml:id="c56-0066__main__d5e13651">che</del> view </sga-add>
+            
+    he had also <lb xmlns="" n="c56-0066__main__17"/>changed my 
+        <seg xml:id="C12_app58-fMS">
+               <mod xml:id="c56-0066__main__d5e13658">
+                  <del xmlns="" rend="strikethrough" xml:id="c56-0066__main__d5e13660">room</del>
+                  <sga-add place="superlinear" xml:id="c56-0066__main__d5e13663">ap <mdel xmlns="">p</mdel> artment, </sga-add>
+               </mod>
+            </seg>
+    for he perceived that <lb xmlns="" n="c56-0066__main__18"/>I had 
+        <seg xml:id="C12_app60-fMS">
+               <mod xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                     th:sID="c56-0066__main__d5e13672"/>
+               <mdel xmlns="">a</mdel>
+               <sga-add xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                         hand="#pbs"
+                         place="superlinear"
+                         th:sID="c56-0066__main__d5e13676"/>acquired
+        </seg>
+            <mdel xmlns="">a</mdel>
+            <sga-add hand="#pbs" place="superlinear" xml:id="c56-0066__main__d5e13676">acquired
+        
+            </sga-add>
+            
+    dislike 
+        <seg xml:id="C12_app63-fMS">
+        to
+        </seg>
+    the room which had <lb xmlns="" n="c56-0066__main__19"/>previously been my 
+        <seg xml:id="C12_app65-fMS">
+        workshop.
+        </seg>
+    But these <lb xmlns="" n="c56-0066__main__20"/>cares of Clerval were 
+        <seg xml:id="C12_app67-fMS">
+               <mod xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                     th:sID="c56-0066__main__d5e13684"/>
+               <del xmlns="" rend="strikethrough" xml:id="c56-0066__main__d5e13686">thrown away</del>
+               <sga-add xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                         hand="#pbs"
+                         place="superlinear"
+                         th:sID="c56-0066__main__d5e13689"/>made of no avail
+        </seg>
+            <del xmlns="" rend="strikethrough" xml:id="c56-0066__main__d5e13686">thrown away</del>
+            <sga-add xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                      hand="#pbs"
+                      place="superlinear"
+                      th:sID="c56-0066__main__d5e13689"/>made of no avail
+        
+            <mod xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                  th:eID="c56-0066__main__d5e13684"/>when <lb xmlns="" n="c56-0066__main__21"/>I visited the professors. 
+        <seg xml:id="C12_app69-fMS">
+        even my excellent <lb xmlns="" n="c56-0066__main__22"/>M. Waldman inflicted torture when <lb xmlns="" n="c56-0066__main__23"/>he
+        </seg>
+            <seg xml:id="C12_app70-fMS">
+        praised
+        </seg>
+    with 
+        <seg xml:id="C12_app72-fMS">
+               <del xmlns="" rend="strikethrough" xml:id="c56-0066__main__d5e13700">the</del> kindness and warmth, <lb xmlns="" n="c56-0066__main__24"/>the astonishing progress
+        </seg>
+            <seg xml:id="C12_app73-fMS">
+        that I had made <lb xmlns="" n="c56-0066__main__25"/>in the sciences. He soon perceived
+        </seg>
+            <seg xml:id="C12_app74-fMS">
+               <mod xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                     th:sID="c56-0066__main__d5e13707"/>
+               <mdel xmlns="">my</mdel>
+               <anchor xmlns="" xml:id="c56-0066.03"/>
+               <lb xmlns="" n="c56-0066__left_margin__1"/>
+               <sga-add xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                         hand="#pbs"
+                         th:sID="c56-0066__left_margin__d5e13717"/>that I
+        </seg>
+            <mdel xmlns="">my</mdel>
+            <anchor xmlns="" xml:id="c56-0066.03"/>
+            <lb xmlns="" n="c56-0066__left_margin__1"/>
+            <sga-add hand="#pbs" xml:id="c56-0066__left_margin__d5e13717">that I
+        
+            </sga-add>
+            <mod xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                  th:eID="c56-0066__main__d5e13707"/>
+            <lb xmlns="" n="c56-0066__main__26"/> dislike <sga-add hand="#pbs" place="intralinear" xml:id="c56-0066__main__d5e13725">d </sga-add>
+            <del xmlns="" rend="strikethrough" xml:id="c56-0066__main__d5e13728">of</del>
+            <seg xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                  th:eID="C12_app75-fMS"/>
+    the 
+        <seg xml:id="C12_app77-fMS">
+        subject,
+        </seg>
+            <seg xml:id="C12_app78-fMS">
+        but
+        </seg>
+    not guessing <lb xmlns="" n="c56-0066__main__27"/>the real 
+        <seg xml:id="C12_app80-fMS">
+        cause
+        </seg>
+    he attributed 
+        <seg xml:id="C12_app82-fMS">
+               <mod xml:id="c56-0066__main__d5e13733">
+                  <mdel xmlns="">to</mdel>
+                  <mdel xmlns="">it</mdel>
+                  <anchor xmlns="" xml:id="c56-0066.04"/>
+                  <lb xmlns="" n="c56-0066__left_margin__1"/>
+                  <sga-add hand="#pbs" xml:id="c56-0066__left_margin__d5e13745">my feelings </sga-add>
+               </mod>
+               <lb xmlns="" n="c56-0066__main__28"/>to
+        </seg>
+            <seg xml:id="C12_app83-fMS">
+        modesty <del xmlns="" rend="strikethrough" xml:id="c56-0066__main__d5e13753">on hearing myself praised</del>
+               <lb xmlns="" n="c56-0067__main__1"/>
+               <del xmlns="" rend="strikethrough" xml:id="c56-0067__main__d5e13766">he therefore</del>
+            </seg>
+            <anchor xmlns="" xml:id="c56-0067.01"/>
+            <lb xmlns="" n="c56-0067__left_margin__1"/>
+            <sga-add xml:id="c56-0067__left_margin__d5e13775">and </sga-add>changed the subject from <lb xmlns="" n="c56-0067__main__2"/>my 
+        <seg xml:id="C12_app86-fMS">
+        improvement,
+        </seg>
+    to the science itself, <lb xmlns="" n="c56-0067__main__3"/>with 
+        <seg xml:id="C12_app88-fMS">
+               <del xmlns="" rend="strikethrough" xml:id="c56-0067__main__d5e13783">an</del> a
+        </seg>
+            <seg xml:id="C12_app89-fMS">
+        desire
+        </seg>
+    as I evidently 
+        <seg xml:id="C12_app91-fMS">
+        saw
+        </seg>
+            <lb xmlns="" n="c56-0067__main__4"/>of drawing 
+        <seg xml:id="C12_app93-fMS">
+               <del xmlns="" rend="strikethrough" xml:id="c56-0067__main__d5e13788">friend</del> me out.
+        </seg>
+            <seg xml:id="C12_app94-fMS">
+               <del xmlns="" rend="strikethrough" xml:id="c56-0067__main__d5e13791">K</del>
+               <delSpan xmlns="" rend="strikethrough" spanTo="#c56-0067.02"/>Kind <lb xmlns="" n="c56-0067__main__5"/>friend he tortured me without <delSpan xmlns="" anchor="c56-0067.02"/>
+               <delSpan xmlns="" rend="strikethrough" spanTo="#c56-0067.03"/>but <lb xmlns="" n="c56-0067__main__6"/>it <delSpan xmlns="" anchor="c56-0067.03"/>
+               <del xmlns="" rend="strikethrough" xml:id="c56-0067__main__d5e13807">How cruel is</del> What could I do? <lb xmlns="" n="c56-0067__main__7"/>He meant to
+        </seg>
+            <seg xml:id="C12_app95-fMS">
+        please <del xmlns="" rend="strikethrough" xml:id="c56-0067__main__d5e13813">and</del>
+               <del xmlns="" rend="strikethrough" xml:id="c56-0067__main__d5e13816">me</del>
+            </seg>
+    &amp; he 
+        <seg xml:id="C12_app97-fMS">
+               <lb xmlns="" n="c56-0067__main__8"/>
+               <mod xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                     th:sID="c56-0067__main__d5e13821"/>
+               <del xmlns="" rend="strikethrough" xml:id="c56-0067__main__d5e13823">tortured</del>
+               <anchor xmlns="" xml:id="c56-0067.04"/>
+               <lb xmlns="" n="c56-0067__left_margin__1"/>
+               <sga-add xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                         th:sID="c56-0067__left_margin__d5e13832"/>tormented
+        </seg>
+            <del xmlns="" rend="strikethrough" xml:id="c56-0067__main__d5e13823">tortured</del>
+            <anchor xmlns="" xml:id="c56-0067.04"/>
+            <lb xmlns="" n="c56-0067__left_margin__1"/>
+            <sga-add xml:id="c56-0067__left_margin__d5e13832">tormented
+        
+            </sga-add>
+            <del xmlns="" rend="strikethrough" xml:id="c56-0067__main__d5e13838">it was</del>
+            <seg xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                  th:eID="C12_app98-fMS"/>
+            <sga-add place="superlinear" xml:id="c56-0067__main__d5e13841">I felt </sga-add>
+            <mod xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                  th:eID="c56-0067__main__d5e13836"/>as if he 
+        <seg xml:id="C12_app101-fMS">
+               <del xmlns="" rend="strikethrough" xml:id="c56-0067__main__d5e13846">had</del>
+            </seg>
+            <lb xmlns="" n="c56-0067__main__9"/>
+            <anchor xmlns="" xml:id="c56-0067.05"/>
+            <lb xmlns="" n="c56-0067__left_margin__1"/>
+            <sga-add xml:id="c56-0067__left_margin__d5e13857">placed 
+        <seg xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                     th:sID="C12_app103-fMS"/>
+            </sga-add>
+            
+    one by 
+        <seg xml:id="C12_app105-fMS">
+        one <del xmlns="" rend="strikethrough" xml:id="c56-0067__main__d5e13860">placed</del>
+            </seg>
+    in my <lb xmlns="" n="c56-0067__main__10"/>view those instruments which were <lb xmlns="" n="c56-0067__main__11"/>
+            <anchor xmlns="" xml:id="c56-0067.06"/>
+            <lb xmlns="" n="c56-0067__left_margin__1"/>
+            <sga-add xml:id="c56-0067__left_margin__d5e13874">to be </sga-add>afterwards used in putting me to a <lb xmlns="" n="c56-0067__main__12"/>slow and cruel 
+        <seg xml:id="C12_app107-fMS">
+               <del xmlns="" rend="strikethrough" xml:id="c56-0067__main__d5e13879">dre</del> death. I writhed <lb xmlns="" n="c56-0067__main__13"/>under his words, yet dared not
+        </seg>
+            <seg xml:id="C12_app108-fMS">
+        shew <lb xmlns="" n="c56-0067__main__14"/>
+               <del xmlns="" rend="strikethrough" xml:id="c56-0067__main__d5e13887">my</del>
+            </seg>
+    the pain I felt. Clerval, whose <lb xmlns="" n="c56-0067__main__15"/>eyes and feelings were always quick <lb xmlns="" n="c56-0067__main__16"/>in 
+        <seg xml:id="C12_app110-fMS">
+        di <sga-add hand="#pbs" place="intralinear" xml:id="c56-0067__main__d5e13894">s </sga-add>cerning
+        </seg>
+    the sensations of 
+        <seg xml:id="C12_app112-fMS">
+        others
+        </seg>
+            <lb xmlns="" n="c56-0067__main__17"/>declined the 
+        <seg xml:id="C12_app114-fMS">
+        subject alledging <mod xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                     th:sID="c56-0067__main__d5e13900"/>
+               <mdel xmlns="">in</mdel>
+               <sga-add xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                         place="sublinear"
+                         th:sID="c56-0067__main__d5e13904"/>
+               <metamark xmlns="" function="insert">^</metamark>
+            </seg>
+            <mdel xmlns="">in</mdel>
+            <sga-add xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                      place="sublinear"
+                      th:sID="c56-0067__main__d5e13904"/>
+            <metamark xmlns="" function="insert">^</metamark>
+            <sga-add place="superlinear" xml:id="c56-0067__main__d5e13910">his 
+        <seg xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                     th:sID="C12_app116-fMS"/>
+            </sga-add>
+            <sga-add xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                      th:eID="c56-0067__main__d5e13910"/>
+            
+    &amp; the conversation took <lb xmlns="" n="c56-0067__main__19"/>a more general turn. I thanked 
+        <seg xml:id="C12_app118-fMS">
+        him
+        </seg>
+            <lb xmlns="" n="c56-0067__main__20"/>from my heart, but I did not speak. 
+        <seg xml:id="C12_app120-fMS">
+               <lb xmlns="" n="c56-0067__main__21"/> I plainly saw
+        </seg>
+    that he was surprised, <lb xmlns="" n="c56-0067__main__22"/>but he never attempted to draw <lb xmlns="" n="c56-0067__main__23"/>my secret from 
+        <seg xml:id="C12_app122-fMS">
+        me,
+        </seg>
+    and although <lb xmlns="" n="c56-0067__main__24"/>I loved him with a mixture of 
+        <seg xml:id="C12_app124-fMS">
+               <lb xmlns="" n="c56-0067__main__25"/>
+               <mod xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                     th:sID="c56-0067__main__d5e13931"/>
+               <del xmlns="" rend="strikethrough" xml:id="c56-0067__main__d5e13933">love</del>
+               <anchor xmlns="" xml:id="c56-0067.07"/>
+               <lb xmlns="" n="c56-0067__left_margin__1"/>
+               <sga-add xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                         th:sID="c56-0067__left_margin__d5e13942"/>affection
+        </seg>
+            <del xmlns="" rend="strikethrough" xml:id="c56-0067__main__d5e13933">love</del>
+            <anchor xmlns="" xml:id="c56-0067.07"/>
+            <lb xmlns="" n="c56-0067__left_margin__1"/>
+            <sga-add xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                      th:sID="c56-0067__left_margin__d5e13942"/>affection
+        
+            <mod xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                  th:eID="c56-0067__main__d5e13931"/>and reverence that knew 
+        <seg xml:id="C12_app126-fMS">
+        no <lb xmlns="" n="c56-0067__main__26"/>bounds,
+        </seg>
+    yet I could never 
+        <seg xml:id="C12_app128-fMS">
+               <del xmlns="" rend="strikethrough" xml:id="c56-0067__main__d5e13948">
+                  <unclear>pr</unclear>
+               </del> persuade <lb xmlns="" n="c56-0067__main__27"/>myself to confide to him that event <lb xmlns="" n="c56-0067__main__28"/>which was so often present to my
+        </seg>
+            <seg xml:id="C12_app129-fMS">
+               <lb xmlns="" n="c56-0067__main__29"/>thoughts,
+        </seg>
+    but which I feared the detail <lb xmlns="" n="c56-0067__main__30"/>to another would only impress more deeply. <milestone xmlns="" unit="tei:p-END"/>
+            <milestone xmlns="" unit="tei:p-START"/>
+            <seg xml:id="C12_app131-fMS">
+               <lb xmlns="" n="c56-0068__main__1"/>M <shi xmlns="" rend="sup">r</shi> .
+        </seg>
+    Krempe was not 
+        <seg xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                  th:sID="C12_app133-fMS"/>
             <mod xml:id="c56-0068__main__d5e13977">
                <sga-add place="sublinear" xml:id="c56-0068__main__d5e13979">
-                  <metamark function="insert">^</metamark>
+                  <metamark xmlns="" function="insert">^</metamark>
                </sga-add>
-               <sga-add place="superlinear" xml:id="c56-0068__main__d5e13985">equally<seg xml:id="C12_app133-fMS_end"/>
-                  <seg xml:id="C12_app134-fMS_start"/>
-               </sga-add>
-            </mod> docile <del rend="strikethrough" xml:id="c56-0068__main__d5e13989">yet</del>
+               <sga-add place="superlinear" xml:id="c56-0068__main__d5e13985">equally
+        
+            </sga-add>
+            </mod> docile <del xmlns="" rend="strikethrough" xml:id="c56-0068__main__d5e13989">yet</del>
             <sga-add place="superlinear" xml:id="c56-0068__main__d5e13993">&amp;</sga-add>
-            <delSpan rend="strikethrough" spanTo="#c56-0068.02"/>weak <lb n="c56-0068__main__2"/>as<seg xml:id="C12_app134-fMS_end"/>my <seg xml:id="C12_app136-fMS_start"/>illness had made me <delSpan anchor="c56-0068.02"/>
-            <anchor xml:id="c56-0068.03"/>
-            <lb n="c56-0068__left_margin__1"/>in my then <lb n="c56-0068__left_margin__2"/>condition<seg xml:id="C12_app136-fMS_end"/>of <lb n="c56-0068__left_margin__3"/>almost <seg xml:id="C12_app138-fMS_start"/>
-            <w ana="start"/>in<lb n="c56-0068__left_margin__4"/>supportable<w ana="end"/>
-            <lb n="c56-0068__left_margin__5"/>sensitiveness <anchor xml:id="c56-0068.04"/>
-            <anchor xml:id="c56-0068.01"/>
-            <seg xml:id="C12_app138-fMS_end"/>his harsh <lb n="c56-0068__main__3"/>blunt <seg xml:id="C12_app140-fMS_start"/>econiums<seg xml:id="C12_app140-fMS_end"/>gave me even more <lb n="c56-0068__main__4"/>pain <seg xml:id="C12_app142-fMS_start"/>
-            <del rend="strikethrough" xml:id="c56-0068__main__d5e14033">that</del> than the benevolent <lb n="c56-0068__main__5"/>approbation of M.<seg xml:id="C12_app142-fMS_end"/>
-            <seg xml:id="C12_app143-fMS_start"/>Waldman —"Dam <mod xml:id="c56-0068__main__d5e14038">
-               <mdel>m</mdel>
-               <sga-add place="intralinear" xml:id="c56-0068__main__d5e14042">n </sga-add>
-            </mod>
-            <lb n="c56-0068__main__6"/>"the fellow,"<seg xml:id="C12_app143-fMS_end"/>cried <seg xml:id="C12_app145-fMS_start"/>he "Why M <shi rend="sup">r</shi> . Clerval <lb n="c56-0068__main__7"/>"I tell<seg xml:id="C12_app145-fMS_end"/>you he has <seg xml:id="C12_app147-fMS_start"/>
-            <del rend="strikethrough" xml:id="c56-0068__main__d5e14054">beaut</del> outstript<seg xml:id="C12_app147-fMS_end"/>
-            <seg xml:id="C12_app148-fMS_start"/>
-            <lb n="c56-0068__main__8"/> "us all– ay<seg xml:id="C12_app148-fMS_end"/>stare if you <seg xml:id="C12_app150-fMS_start"/>please<seg xml:id="C12_app150-fMS_end"/>but <seg xml:id="C12_app152-fMS_start"/>
-            <lb n="c56-0068__main__9"/>"it<seg xml:id="C12_app152-fMS_end"/>is <seg xml:id="C12_app154-fMS_start"/>nevertheless<seg xml:id="C12_app154-fMS_end"/>
-            <seg xml:id="C12_app155-fMS_start"/>true –<seg xml:id="C12_app155-fMS_end"/>A youngster <seg xml:id="C12_app157-fMS_start"/>
-            <lb n="c56-0068__main__10"/>"who<seg xml:id="C12_app157-fMS_end"/>but <seg xml:id="C12_app159-fMS_start"/>
-            <del rend="strikethrough" xml:id="c56-0068__main__d5e14064">two</del> three<seg xml:id="C12_app159-fMS_end"/>years <seg xml:id="C12_app161-fMS_start"/>ago<seg xml:id="C12_app161-fMS_end"/>believed <seg xml:id="C12_app163-fMS_start"/>
-            <lb n="c56-0068__main__11"/>"Cornelius<seg xml:id="C12_app163-fMS_end"/>
-            <seg xml:id="C12_app164-fMS_start"/>Agrippa<seg xml:id="C12_app164-fMS_end"/>
-            <seg xml:id="C12_app165-fMS_start"/>
-            <mod xml:id="c56-0068__main__d5e14069">
-               <del rend="strikethrough" xml:id="c56-0068__main__d5e14071">to be</del>
+            <delSpan xmlns="" rend="strikethrough" spanTo="#c56-0068.02"/>weak <lb xmlns="" n="c56-0068__main__2"/>as
+        <seg xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                  th:eID="C12_app134-fMS"/>
+    my 
+        <seg xml:id="C12_app136-fMS">
+        illness had made me <delSpan xmlns="" anchor="c56-0068.02"/>
+               <anchor xmlns="" xml:id="c56-0068.03"/>
+               <lb xmlns="" n="c56-0068__left_margin__1"/>in my then <lb xmlns="" n="c56-0068__left_margin__2"/>condition
+        </seg>
+    of <lb xmlns="" n="c56-0068__left_margin__3"/>almost 
+        <seg xml:id="C12_app138-fMS">
+               <w xmlns="" ana="start"/>in<lb xmlns="" n="c56-0068__left_margin__4"/>supportable<w xmlns="" ana="end"/>
+               <lb xmlns="" n="c56-0068__left_margin__5"/>sensitiveness <anchor xmlns="" xml:id="c56-0068.04"/>
+               <anchor xmlns="" xml:id="c56-0068.01"/>
+            </seg>
+    his harsh <lb xmlns="" n="c56-0068__main__3"/>blunt 
+        <seg xml:id="C12_app140-fMS">
+        econiums
+        </seg>
+    gave me even more <lb xmlns="" n="c56-0068__main__4"/>pain 
+        <seg xml:id="C12_app142-fMS">
+               <del xmlns="" rend="strikethrough" xml:id="c56-0068__main__d5e14033">that</del> than the benevolent <lb xmlns="" n="c56-0068__main__5"/>approbation of M.
+        </seg>
+            <seg xml:id="C12_app143-fMS">
+        Waldman —"Dam <mod xml:id="c56-0068__main__d5e14038">
+                  <mdel xmlns="">m</mdel>
+                  <sga-add place="intralinear" xml:id="c56-0068__main__d5e14042">n </sga-add>
+               </mod>
+               <lb xmlns="" n="c56-0068__main__6"/>"the fellow,"
+        </seg>
+    cried 
+        <seg xml:id="C12_app145-fMS">
+        he "Why M <shi xmlns="" rend="sup">r</shi> . Clerval <lb xmlns="" n="c56-0068__main__7"/>"I tell
+        </seg>
+    you he has 
+        <seg xml:id="C12_app147-fMS">
+               <del xmlns="" rend="strikethrough" xml:id="c56-0068__main__d5e14054">beaut</del> outstript
+        </seg>
+            <seg xml:id="C12_app148-fMS">
+               <lb xmlns="" n="c56-0068__main__8"/> "us all– ay
+        </seg>
+    stare if you 
+        <seg xml:id="C12_app150-fMS">
+        please
+        </seg>
+    but 
+        <seg xml:id="C12_app152-fMS">
+               <lb xmlns="" n="c56-0068__main__9"/>"it
+        </seg>
+    is 
+        <seg xml:id="C12_app154-fMS">
+        nevertheless
+        </seg>
+            <seg xml:id="C12_app155-fMS">
+        true –
+        </seg>
+    A youngster 
+        <seg xml:id="C12_app157-fMS">
+               <lb xmlns="" n="c56-0068__main__10"/>"who
+        </seg>
+    but 
+        <seg xml:id="C12_app159-fMS">
+               <del xmlns="" rend="strikethrough" xml:id="c56-0068__main__d5e14064">two</del> three
+        </seg>
+    years 
+        <seg xml:id="C12_app161-fMS">
+        ago
+        </seg>
+    believed 
+        <seg xml:id="C12_app163-fMS">
+               <lb xmlns="" n="c56-0068__main__11"/>"Cornelius
+        </seg>
+            <seg xml:id="C12_app164-fMS">
+        Agrippa
+        </seg>
+            <seg xml:id="C12_app165-fMS">
+               <mod xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                     th:sID="c56-0068__main__d5e14069"/>
+               <del xmlns="" rend="strikethrough" xml:id="c56-0068__main__d5e14071">to be</del>
                <sga-add place="sublinear" xml:id="c56-0068__main__d5e14074">
-                  <metamark function="insert">^</metamark>
+                  <metamark xmlns="" function="insert">^</metamark>
                </sga-add>
-               <sga-add place="superlinear" xml:id="c56-0068__main__d5e14080">as firmly as<seg xml:id="C12_app165-fMS_end"/>
-                  <seg xml:id="C12_app166-fMS_start"/>the<seg xml:id="C12_app166-fMS_end"/>
-                  <seg xml:id="C12_app167-fMS_start"/>
-               </sga-add>
-            </mod> gospel<seg xml:id="C12_app167-fMS_end"/>has <seg xml:id="C12_app169-fMS_start"/>
-            <lb n="c56-0068__main__12"/>"now<seg xml:id="C12_app169-fMS_end"/>set himself at the head of <seg xml:id="C12_app171-fMS_start"/>
-            <lb n="c56-0068__main__13"/>"the university<seg xml:id="C12_app171-fMS_end"/>&amp; if he is not soon <seg xml:id="C12_app173-fMS_start"/>
-            <lb n="c56-0068__main__14"/>"pulled down<seg xml:id="C12_app173-fMS_end"/>we shall all be out <seg xml:id="C12_app175-fMS_start"/>
-            <lb n="c56-0068__main__15"/>"of countenance.—Aye, Aye,<seg xml:id="C12_app175-fMS_end"/>continued <seg xml:id="C12_app177-fMS_start"/>
-            <lb n="c56-0068__main__16"/>"he<seg xml:id="C12_app177-fMS_end"/>observing my <seg xml:id="C12_app179-fMS_start"/>
-            <mod xml:id="c56-0068__main__d5e14095">
-               <del rend="strikethrough" xml:id="c56-0068__main__d5e14097">countenance</del>
-               <sga-add place="sublinear" xml:id="c56-0068__main__d5e14100">
-                  <metamark function="insert">^</metamark>
-               </sga-add>
-               <sga-add place="superlinear" xml:id="c56-0068__main__d5e14106">face </sga-add>
-            </mod>
-            <w ana="start"/>ex<lb n="c56-0068__main__17"/>pressive<w ana="end"/> of<seg xml:id="C12_app179-fMS_end"/>
-            <seg xml:id="C12_app180-fMS_start"/>suffering "Mr. <del rend="strikethrough" xml:id="c56-0068__main__d5e14117">f</del>
-            <seg xml:id="C12_app180-fMS_end"/>
-            <w ana="start"/>Franken<lb n="c56-0068__main__18"/>stein<w ana="end"/> is <seg xml:id="C12_app182-fMS_start"/>modest<seg xml:id="C12_app182-fMS_end"/>an excellent quality in <seg xml:id="C12_app184-fMS_start"/>
-            <lb n="c56-0068__main__19"/>"a<seg xml:id="C12_app184-fMS_end"/>young <seg xml:id="C12_app186-fMS_start"/>man;<seg xml:id="C12_app186-fMS_end"/>Young men should be <seg xml:id="C12_app188-fMS_start"/>
-            <lb n="c56-0068__main__20"/>"diffident<seg xml:id="C12_app188-fMS_end"/>of <seg xml:id="C12_app190-fMS_start"/>themselves<seg xml:id="C12_app190-fMS_end"/>you <seg xml:id="C12_app192-fMS_start"/>know M<shi rend="sup"> </shi>
-            <lb n="c56-0068__main__21"/>"<seg xml:id="C12_app192-fMS_end"/>
-            <seg xml:id="C12_app193-fMS_start"/>Clerval;<seg xml:id="C12_app193-fMS_end"/>I was myself when <seg xml:id="C12_app195-fMS_start"/>young<seg xml:id="C12_app195-fMS_end"/>but <seg xml:id="C12_app197-fMS_start"/>
-            <lb n="c56-0068__main__22"/>"one soon grows<seg xml:id="C12_app197-fMS_end"/>out <seg xml:id="C12_app199-fMS_start"/>of that."<seg xml:id="C12_app199-fMS_end"/>
-            <milestone unit="tei:p-END"/>
-            <milestone unit="tei:p-START"/>
-            <seg xml:id="C12_app201-fMS_start"/>
-            <lb n="c56-0068__main__23"/>M <shi rend="sup"/>
-            <seg xml:id="C12_app201-fMS_end"/>Krempe had now commenced <seg xml:id="C12_app203-fMS_start"/>
-            <lb n="c56-0068__main__24"/>
-            <mod xml:id="c56-0068__main__d5e14154">
-               <del rend="strikethrough" xml:id="c56-0068__main__d5e14156">the subject of his own praise</del>
-               <sga-add place="superlinear" xml:id="c56-0068__main__d5e14159">an eulogy on<seg xml:id="C12_app203-fMS_end"/>
-                  <seg xml:id="C12_app204-fMS_start"/>himself </sga-add>
-            </mod> and that<seg xml:id="C12_app204-fMS_end"/>
-            <lb n="c56-0068__main__25"/>happily turned the conversation <lb n="c56-0068__main__26"/>from <seg xml:id="C12_app206-fMS_start"/>the<seg xml:id="C12_app206-fMS_end"/>subject that was so <seg xml:id="C12_app208-fMS_start"/>
-            <mod xml:id="c56-0068__main__d5e14167">
-               <del rend="strikethrough" xml:id="c56-0068__main__d5e14169">painful</del>
-               <sga-add hand="#pbs" place="superlinear" xml:id="c56-0068__main__d5e14172">agonizing<seg xml:id="C12_app208-fMS_end"/>
-               </sga-add>
-            </mod>
-            <lb n="c56-0068__main__27"/>to me. <milestone unit="tei:p-END"/>
-            <milestone unit="tei:p-START"/>
-            <lb n="c56-0068__main__28"/>Clerval <seg xml:id="C12_app210-fMS_start"/>was no natural philosopher. <lb n="c56-0068__main__29"/>His imagination was too vivid<seg xml:id="C12_app210-fMS_end"/>for <seg xml:id="C12_app212-fMS_start"/>
-            <lb n="c56-0069__main__1"/> the minutiæ<seg xml:id="C12_app212-fMS_end"/>
-            <seg xml:id="C12_app213-fMS_start"/>of science.<seg xml:id="C12_app213-fMS_end"/>
-            <seg xml:id="C12_app214-fMS_start"/>
-            <del rend="strikethrough" xml:id="c56-0069__main__d5e14195">La</del>
-            <w ana="start"/>Lan<lb n="c56-0069__main__2"/>guages<w ana="end"/> were his<seg xml:id="C12_app214-fMS_end"/>
-            <seg xml:id="C12_app215-fMS_start"/>
-            <mod xml:id="c56-0069__main__d5e14205">
-               <del rend="strikethrough" xml:id="c56-0069__main__d5e14207">chief</del>
-               <sga-add place="sublinear" xml:id="c56-0069__main__d5e14210">
-                  <metamark function="insert">^</metamark>
-               </sga-add>
-               <sga-add place="superlinear" xml:id="c56-0069__main__d5e14216">principal </sga-add>
-            </mod> study for he <lb n="c56-0069__main__3"/>wished<seg xml:id="C12_app215-fMS_end"/>
-            <seg xml:id="C12_app218-fMS_start"/>to<seg xml:id="C12_app218-fMS_end"/>open a field <seg xml:id="C12_app220-fMS_start"/>for<seg xml:id="C12_app220-fMS_end"/>
-            <seg xml:id="C12_app221-fMS_start"/>
-            <mod xml:id="c56-0069__main__d5e14222">
-               <del rend="strikethrough" xml:id="c56-0069__main__d5e14224">
-                  <sga-add place="sublinear" xml:id="c56-0069__main__d5e14226">
-                     <metamark function="insert">^</metamark>
+               <sga-add xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                         place="superlinear"
+                         th:sID="c56-0068__main__d5e14080"/>as firmly as
+        </seg>
+            <del xmlns="" rend="strikethrough" xml:id="c56-0068__main__d5e14071">to be</del>
+            <sga-add place="sublinear" xml:id="c56-0068__main__d5e14074">
+               <metamark xmlns="" function="insert">^</metamark>
+            </sga-add>
+            <sga-add place="superlinear" xml:id="c56-0068__main__d5e14080">as firmly as
+        
+            </sga-add>
+            
+    has 
+        <seg xml:id="C12_app169-fMS">
+               <lb xmlns="" n="c56-0068__main__12"/>"now
+        </seg>
+    set himself at the head of 
+        <seg xml:id="C12_app171-fMS">
+               <lb xmlns="" n="c56-0068__main__13"/>"the university
+        </seg>
+    &amp; if he is not soon 
+        <seg xml:id="C12_app173-fMS">
+               <lb xmlns="" n="c56-0068__main__14"/>"pulled down
+        </seg>
+    we shall all be out 
+        <seg xml:id="C12_app175-fMS">
+               <lb xmlns="" n="c56-0068__main__15"/>"of countenance.—Aye, Aye,
+        </seg>
+    continued 
+        <seg xml:id="C12_app177-fMS">
+               <lb xmlns="" n="c56-0068__main__16"/>"he
+        </seg>
+    observing my 
+        <seg xml:id="C12_app179-fMS">
+               <mod xml:id="c56-0068__main__d5e14095">
+                  <del xmlns="" rend="strikethrough" xml:id="c56-0068__main__d5e14097">countenance</del>
+                  <sga-add place="sublinear" xml:id="c56-0068__main__d5e14100">
+                     <metamark xmlns="" function="insert">^</metamark>
                   </sga-add>
-                  <sga-add place="superlinear" xml:id="c56-0069__main__d5e14232">him </sga-add>
+                  <sga-add place="superlinear" xml:id="c56-0068__main__d5e14106">face </sga-add>
+               </mod>
+               <w xmlns="" ana="start"/>ex<lb xmlns="" n="c56-0068__main__17"/>pressive<w xmlns="" ana="end"/> of
+        </seg>
+            <seg xml:id="C12_app180-fMS">
+        suffering "Mr. <del xmlns="" rend="strikethrough" xml:id="c56-0068__main__d5e14117">f</del>
+            </seg>
+            <w xmlns="" ana="start"/>Franken<lb xmlns="" n="c56-0068__main__18"/>stein<w xmlns="" ana="end"/> is 
+        <seg xml:id="C12_app182-fMS">
+        modest
+        </seg>
+    an excellent quality in 
+        <seg xml:id="C12_app184-fMS">
+               <lb xmlns="" n="c56-0068__main__19"/>"a
+        </seg>
+    young 
+        <seg xml:id="C12_app186-fMS">
+        man;
+        </seg>
+    Young men should be 
+        <seg xml:id="C12_app188-fMS">
+               <lb xmlns="" n="c56-0068__main__20"/>"diffident
+        </seg>
+    of 
+        <seg xml:id="C12_app190-fMS">
+        themselves
+        </seg>
+    you 
+        <seg xml:id="C12_app192-fMS">
+        know M<shi xmlns="" rend="sup"> </shi>
+               <lb xmlns="" n="c56-0068__main__21"/>"
+        </seg>
+            <seg xml:id="C12_app193-fMS">
+        Clerval;
+        </seg>
+    I was myself when 
+        <seg xml:id="C12_app195-fMS">
+        young
+        </seg>
+    but 
+        <seg xml:id="C12_app197-fMS">
+               <lb xmlns="" n="c56-0068__main__22"/>"one soon grows
+        </seg>
+    out 
+        <seg xml:id="C12_app199-fMS">
+        of that."
+        </seg>
+            <milestone xmlns="" unit="tei:p-END"/>
+            <milestone xmlns="" unit="tei:p-START"/>
+            <seg xml:id="C12_app201-fMS">
+               <lb xmlns="" n="c56-0068__main__23"/>M <shi xmlns="" rend="sup"/>
+            </seg>
+    Krempe had now commenced 
+        <seg xml:id="C12_app203-fMS">
+               <lb xmlns="" n="c56-0068__main__24"/>
+               <mod xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                     th:sID="c56-0068__main__d5e14154"/>
+               <del xmlns="" rend="strikethrough" xml:id="c56-0068__main__d5e14156">the subject of his own praise</del>
+               <sga-add xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                         place="superlinear"
+                         th:sID="c56-0068__main__d5e14159"/>an eulogy on
+        </seg>
+            <del xmlns="" rend="strikethrough" xml:id="c56-0068__main__d5e14156">the subject of his own praise</del>
+            <sga-add place="superlinear" xml:id="c56-0068__main__d5e14159">an eulogy on
+        
+        himself </sga-add>
+            <lb xmlns="" n="c56-0068__main__25"/>happily turned the conversation <lb xmlns="" n="c56-0068__main__26"/>from 
+        <seg xml:id="C12_app206-fMS">
+        the
+        </seg>
+    subject that was so 
+        <seg xml:id="C12_app208-fMS">
+               <mod xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                     th:sID="c56-0068__main__d5e14167"/>
+               <del xmlns="" rend="strikethrough" xml:id="c56-0068__main__d5e14169">painful</del>
+               <sga-add xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                         hand="#pbs"
+                         place="superlinear"
+                         th:sID="c56-0068__main__d5e14172"/>agonizing
+        </seg>
+            <del xmlns="" rend="strikethrough" xml:id="c56-0068__main__d5e14169">painful</del>
+            <sga-add xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                      hand="#pbs"
+                      place="superlinear"
+                      th:sID="c56-0068__main__d5e14172"/>agonizing
+        
+            <mod xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                  th:eID="c56-0068__main__d5e14167"/>
+            <lb xmlns="" n="c56-0068__main__27"/>to me. <milestone xmlns="" unit="tei:p-END"/>
+            <milestone xmlns="" unit="tei:p-START"/>
+            <lb xmlns="" n="c56-0068__main__28"/>Clerval 
+        <seg xml:id="C12_app210-fMS">
+        was no natural philosopher. <lb xmlns="" n="c56-0068__main__29"/>His imagination was too vivid
+        </seg>
+    for 
+        <seg xml:id="C12_app212-fMS">
+               <lb xmlns="" n="c56-0069__main__1"/> the minutiæ
+        </seg>
+            <seg xml:id="C12_app213-fMS">
+        of science.
+        </seg>
+            <seg xml:id="C12_app214-fMS">
+               <del xmlns="" rend="strikethrough" xml:id="c56-0069__main__d5e14195">La</del>
+               <w xmlns="" ana="start"/>Lan<lb xmlns="" n="c56-0069__main__2"/>guages<w xmlns="" ana="end"/> were his
+        </seg>
+            <seg xml:id="C12_app215-fMS">
+               <mod xml:id="c56-0069__main__d5e14205">
+                  <del xmlns="" rend="strikethrough" xml:id="c56-0069__main__d5e14207">chief</del>
+                  <sga-add place="sublinear" xml:id="c56-0069__main__d5e14210">
+                     <metamark xmlns="" function="insert">^</metamark>
+                  </sga-add>
+                  <sga-add place="superlinear" xml:id="c56-0069__main__d5e14216">principal </sga-add>
+               </mod> study for he <lb xmlns="" n="c56-0069__main__3"/>wished
+        </seg>
+            <seg xml:id="C12_app218-fMS">
+        to
+        </seg>
+    open a field 
+        <seg xml:id="C12_app220-fMS">
+        for
+        </seg>
+            <seg xml:id="C12_app221-fMS">
+               <mod xml:id="c56-0069__main__d5e14222">
+                  <del xmlns="" rend="strikethrough" xml:id="c56-0069__main__d5e14224">
+                     <sga-add xmlns="http://www.tei-c.org/ns/1.0"
+                               place="sublinear"
+                               xml:id="c56-0069__main__d5e14226">
+                        <metamark xmlns="" function="insert">^</metamark>
+                     </sga-add>
+                     <sga-add xmlns="http://www.tei-c.org/ns/1.0"
+                               place="superlinear"
+                               xml:id="c56-0069__main__d5e14232">him </sga-add>
+                  </del>
+               </mod>
+               <w xmlns="" ana="start"/>self-instruc<lb xmlns="" n="c56-0069__main__4"/>tion<w xmlns="" ana="end"/> on his
+        </seg>
+            <seg xml:id="C12_app222-fMS">
+        return – <del xmlns="" rend="strikethrough" xml:id="c56-0069__main__d5e14244">Greek</del> Persian <lb xmlns="" n="c56-0069__main__5"/>
+               <del xmlns="" rend="strikethrough" xml:id="c56-0069__main__d5e14249">&amp;</del> Arabic
+        </seg>
+            <seg xml:id="C12_app223-fMS">
+        &amp;
+        </seg>
+            <seg xml:id="C12_app224-fMS">
+        Hebrew
+        </seg>
+            <seg xml:id="C12_app225-fMS">
+        gained
+        </seg>
+    his 
+        <seg xml:id="C12_app227-fMS">
+               <w xmlns="" ana="start"/>atten<lb xmlns="" n="c56-0069__main__6"/>tion<w xmlns="" ana="end"/>
+               <mod xml:id="c56-0069__main__d5e14259">
+                  <del xmlns="" rend="strikethrough" xml:id="c56-0069__main__d5e14261">when</del>
+                  <sga-add place="superlinear" xml:id="c56-0069__main__d5e14264">
+                     <metamark xmlns="" function="displacement" xml:id="c56-0069.01">X</metamark>
+                     <lb xmlns="" n="c56-0069__left_margin__1"/>
+                     <sga-add hand="#pbs" xml:id="c56-0069__left_margin__d5e14273">so soon as <metamark xmlns=""
+                                   xmlns:mith="http://mith.umd.edu/sc/ns1#"
+                                   xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
+                                   xmlns:tei="http://www.tei-c.org/ns/1.0"
+                                   xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                                   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                                   function="displacement">X</metamark>
+                     </sga-add>
+                  </sga-add>
+               </mod>
+            </seg>
+            <seg xml:id="C12_app229-fMS">
+        he had
+        </seg>
+            <seg xml:id="C12_app230-fMS">
+        become
+        </seg>
+            <seg xml:id="C12_app231-fMS">
+               <w xmlns="" ana="start"/>perfect<lb xmlns="" n="c56-0069__main__7"/>ly<w xmlns="" ana="end"/> master of
+        </seg>
+            <seg xml:id="C12_app232-fMS">
+        the Greek &amp;
+        </seg>
+            <seg xml:id="C12_app233-fMS">
+        Latin <w xmlns="" ana="start"/>langua<lb xmlns="" n="c56-0069__main__8"/>ges<w xmlns="" ana="end"/>.
+        </seg>
+            <seg xml:id="C12_app234-fMS">
+        For my own
+        </seg>
+            <seg xml:id="C12_app235-fMS">
+        part
+        </seg>
+    idleness had <lb xmlns="" n="c56-0069__main__9"/>ever been irksome to 
+        <seg xml:id="C12_app237-fMS">
+        me
+        </seg>
+    and <lb xmlns="" n="c56-0069__main__10"/>now that I 
+        <seg xml:id="C12_app239-fMS">
+        wished to
+        </seg>
+    fly from 
+        <seg xml:id="C12_app241-fMS">
+               <w xmlns="" ana="start"/>reflec<lb xmlns="" n="c56-0069__main__11"/>tion<w xmlns="" ana="end"/>
+            </seg>
+    and hated my former 
+        <seg xml:id="C12_app243-fMS">
+        studies <lb xmlns="" n="c56-0069__main__12"/>
+               <del xmlns="" rend="strikethrough" xml:id="c56-0069__main__d5e14308">
+                  <unclear>a</unclear>
                </del>
-            </mod>
-            <w ana="start"/>self-instruc<lb n="c56-0069__main__4"/>tion<w ana="end"/> on his<seg xml:id="C12_app221-fMS_end"/>
-            <seg xml:id="C12_app222-fMS_start"/>return – <del rend="strikethrough" xml:id="c56-0069__main__d5e14244">Greek</del> Persian <lb n="c56-0069__main__5"/>
-            <del rend="strikethrough" xml:id="c56-0069__main__d5e14249">&amp;</del> Arabic<seg xml:id="C12_app222-fMS_end"/>
-            <seg xml:id="C12_app223-fMS_start"/>&amp;<seg xml:id="C12_app223-fMS_end"/>
-            <seg xml:id="C12_app224-fMS_start"/>Hebrew<seg xml:id="C12_app224-fMS_end"/>
-            <seg xml:id="C12_app225-fMS_start"/>gained<seg xml:id="C12_app225-fMS_end"/>his <seg xml:id="C12_app227-fMS_start"/>
-            <w ana="start"/>atten<lb n="c56-0069__main__6"/>tion<w ana="end"/>
-            <mod xml:id="c56-0069__main__d5e14259">
-               <del rend="strikethrough" xml:id="c56-0069__main__d5e14261">when</del>
-               <sga-add place="superlinear" xml:id="c56-0069__main__d5e14264">
-                  <metamark function="displacement" xml:id="c56-0069.01">X</metamark>
-                  <lb n="c56-0069__left_margin__1"/>
-                  <sga-add hand="#pbs" xml:id="c56-0069__left_margin__d5e14273">so soon as <metamark xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                                xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                                xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                                function="displacement">X</metamark>
-                  </sga-add>
-               </sga-add>
-            </mod>
-            <seg xml:id="C12_app227-fMS_end"/>
-            <seg xml:id="C12_app229-fMS_start"/>he had<seg xml:id="C12_app229-fMS_end"/>
-            <seg xml:id="C12_app230-fMS_start"/>become<seg xml:id="C12_app230-fMS_end"/>
-            <seg xml:id="C12_app231-fMS_start"/>
-            <w ana="start"/>perfect<lb n="c56-0069__main__7"/>ly<w ana="end"/> master of<seg xml:id="C12_app231-fMS_end"/>
-            <seg xml:id="C12_app232-fMS_start"/>the Greek &amp;<seg xml:id="C12_app232-fMS_end"/>
-            <seg xml:id="C12_app233-fMS_start"/>Latin <w ana="start"/>langua<lb n="c56-0069__main__8"/>ges<w ana="end"/>.<seg xml:id="C12_app233-fMS_end"/>
-            <seg xml:id="C12_app234-fMS_start"/>For my own<seg xml:id="C12_app234-fMS_end"/>
-            <seg xml:id="C12_app235-fMS_start"/>part<seg xml:id="C12_app235-fMS_end"/>idleness had <lb n="c56-0069__main__9"/>ever been irksome to <seg xml:id="C12_app237-fMS_start"/>me<seg xml:id="C12_app237-fMS_end"/>and <lb n="c56-0069__main__10"/>now that I <seg xml:id="C12_app239-fMS_start"/>wished to<seg xml:id="C12_app239-fMS_end"/>fly from <seg xml:id="C12_app241-fMS_start"/>
-            <w ana="start"/>reflec<lb n="c56-0069__main__11"/>tion<w ana="end"/>
-            <seg xml:id="C12_app241-fMS_end"/>and hated my former <seg xml:id="C12_app243-fMS_start"/>studies <lb n="c56-0069__main__12"/>
-            <del rend="strikethrough" xml:id="c56-0069__main__d5e14308">
-               <unclear>a</unclear>
-            </del>
-            <seg xml:id="C12_app243-fMS_end"/>I <seg xml:id="C12_app245-fMS_start"/>found<seg xml:id="C12_app245-fMS_end"/>great relief in being the <seg xml:id="C12_app247-fMS_start"/>
-            <lb n="c56-0069__main__13"/>fellow pupil <mod xml:id="c56-0069__main__d5e14315">
-               <mdel>of</mdel>
-               <seg xml:id="C12_app247-fMS_end"/>
-               <sga-add place="superlinear" xml:id="c56-0069__main__d5e14319">with </sga-add>
-            </mod>my <seg xml:id="C12_app250-fMS_start"/>
-            <del rend="strikethrough" xml:id="c56-0069__main__d5e14323">fr</del> friend<seg xml:id="C12_app250-fMS_end"/>and <seg xml:id="C12_app252-fMS_start"/>
-            <lb n="c56-0069__main__14"/>
-            <del rend="strikethrough" xml:id="c56-0069__main__d5e14329">I not a only</del> found<seg xml:id="C12_app252-fMS_end"/>
-            <seg xml:id="C12_app253-fMS_start"/>
-            <mod xml:id="c56-0069__main__d5e14332">
-               <del rend="strikethrough" xml:id="c56-0069__main__d5e14334">instruct</del>
-               <sga-add place="superlinear" xml:id="c56-0069__main__d5e14337">not only </sga-add>
-            </mod>
-            <w ana="start"/>instruc<lb n="c56-0069__main__15"/>tion<w ana="end"/> but consolation in the works of <lb n="c56-0069__main__16"/>the orientalists.<seg xml:id="C12_app253-fMS_end"/>
-            <seg xml:id="C12_app254-fMS_start"/>
-            <del rend="strikethrough" xml:id="c56-0069__main__d5e14350">There is something soothing</del>
-            <seg xml:id="C12_app254-fMS_end"/>
-            <lb n="c56-0069__main__17"/>Their melancholy is <seg xml:id="C12_app256-fMS_start"/>soothing<seg xml:id="C12_app256-fMS_end"/>and their <lb n="c56-0069__main__18"/>joy <seg xml:id="C12_app258-fMS_start"/>elevating<seg xml:id="C12_app258-fMS_end"/>to a degree I never <seg xml:id="C12_app260-fMS_start"/>before <lb n="c56-0069__main__19"/>experienced in<seg xml:id="C12_app260-fMS_end"/>
-            <seg xml:id="C12_app261-fMS_start"/>
+            </seg>
+    I 
+        <seg xml:id="C12_app245-fMS">
+        found
+        </seg>
+    great relief in being the 
+        <seg xml:id="C12_app247-fMS">
+               <lb xmlns="" n="c56-0069__main__13"/>fellow pupil <mod xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                     th:sID="c56-0069__main__d5e14315"/>
+               <mdel xmlns="">of</mdel>
+            </seg>
+            <mdel xmlns="">of</mdel>
+            <seg xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                  th:eID="C12_app247-fMS"/>
+            <sga-add place="superlinear" xml:id="c56-0069__main__d5e14319">with </sga-add>
+            <mod xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                  th:eID="c56-0069__main__d5e14315"/>my 
+        <seg xml:id="C12_app250-fMS">
+               <del xmlns="" rend="strikethrough" xml:id="c56-0069__main__d5e14323">fr</del> friend
+        </seg>
+    and 
+        <seg xml:id="C12_app252-fMS">
+               <lb xmlns="" n="c56-0069__main__14"/>
+               <del xmlns="" rend="strikethrough" xml:id="c56-0069__main__d5e14329">I not a only</del> found
+        </seg>
+            <seg xml:id="C12_app253-fMS">
+               <mod xml:id="c56-0069__main__d5e14332">
+                  <del xmlns="" rend="strikethrough" xml:id="c56-0069__main__d5e14334">instruct</del>
+                  <sga-add place="superlinear" xml:id="c56-0069__main__d5e14337">not only </sga-add>
+               </mod>
+               <w xmlns="" ana="start"/>instruc<lb xmlns="" n="c56-0069__main__15"/>tion<w xmlns="" ana="end"/> but consolation in the works of <lb xmlns="" n="c56-0069__main__16"/>the orientalists.
+        </seg>
+            <seg xml:id="C12_app254-fMS">
+               <del xmlns="" rend="strikethrough" xml:id="c56-0069__main__d5e14350">There is something soothing</del>
+            </seg>
+            <lb xmlns="" n="c56-0069__main__17"/>Their melancholy is 
+        <seg xml:id="C12_app256-fMS">
+        soothing
+        </seg>
+    and their <lb xmlns="" n="c56-0069__main__18"/>joy 
+        <seg xml:id="C12_app258-fMS">
+        elevating
+        </seg>
+    to a degree I never 
+        <seg xml:id="C12_app260-fMS">
+        before <lb xmlns="" n="c56-0069__main__19"/>experienced in
+        </seg>
+            <seg xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                  th:sID="C12_app261-fMS"/>
             <mod xml:id="c56-0069__main__d5e14359">
-               <del rend="strikethrough" xml:id="c56-0069__main__d5e14361">reading</del>
+               <del xmlns="" rend="strikethrough" xml:id="c56-0069__main__d5e14361">reading</del>
                <sga-add place="sublinear" xml:id="c56-0069__main__d5e14364">
-                  <metamark function="insert">^</metamark>
+                  <metamark xmlns="" function="insert">^</metamark>
                </sga-add>
-               <sga-add place="superlinear" xml:id="c56-0069__main__d5e14370">studying<seg xml:id="C12_app261-fMS_end"/>
-                  <seg xml:id="C12_app262-fMS_start"/>
-               </sga-add>
+               <sga-add place="superlinear" xml:id="c56-0069__main__d5e14370">studying
+        
+            </sga-add>
             </mod>
             <mod xml:id="c56-0069__main__d5e14374">
-               <del rend="strikethrough" xml:id="c56-0069__main__d5e14376">any</del>
+               <del xmlns="" rend="strikethrough" xml:id="c56-0069__main__d5e14376">any</del>
                <sga-add place="sublinear" xml:id="c56-0069__main__d5e14379">
-                  <metamark function="insert">^</metamark>
+                  <metamark xmlns="" function="insert">^</metamark>
                </sga-add>
                <sga-add hand="#pbs" place="superlinear" xml:id="c56-0069__main__d5e14385">the authors of </sga-add>
-               <sga-add place="superlinear" xml:id="c56-0069__main__d5e14388">any<seg xml:id="C12_app262-fMS_end"/>
-               </sga-add>
-            </mod>other <seg xml:id="C12_app264-fMS_start"/>
-            <mod xml:id="c56-0069__main__d5e14393">
-               <del rend="strikethrough" xml:id="c56-0069__main__d5e14395">books.</del>
-               <sga-add place="sublinear" xml:id="c56-0069__main__d5e14398">
-                  <metamark function="insert">^</metamark>
-               </sga-add>
-               <sga-add place="superlinear" xml:id="c56-0069__main__d5e14404">country. </sga-add>
-            </mod>
-            <lb n="c56-0069__main__20"/>When you read<seg xml:id="C12_app264-fMS_end"/>
-            <seg xml:id="C12_app265-fMS_start"/>
-            <del rend="strikethrough" xml:id="c56-0069__main__d5e14410">s</del> their<seg xml:id="C12_app265-fMS_end"/>
-            <seg xml:id="C12_app266-fMS_start"/>
-            <del rend="strikethrough" xml:id="c56-0069__main__d5e14413">
-               <unclear>li</unclear>
-            </del> writings<seg xml:id="C12_app266-fMS_end"/>life <lb n="c56-0069__main__21"/>appears to consist in a warm sun <lb n="c56-0069__main__22"/>and <seg xml:id="C12_app268-fMS_start"/>gardens<seg xml:id="C12_app268-fMS_end"/>of <seg xml:id="C12_app270-fMS_start"/>roses – in<seg xml:id="C12_app270-fMS_end"/>the smiles &amp;<lb n="c56-0069__main__23"/>
+               <sga-add xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                         place="superlinear"
+                         th:sID="c56-0069__main__d5e14388"/>any
+        
+            </mod>any
+        
+            <mod xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                  th:eID="c56-0069__main__d5e14374"/>other 
+        <seg xml:id="C12_app264-fMS">
+               <mod xml:id="c56-0069__main__d5e14393">
+                  <del xmlns="" rend="strikethrough" xml:id="c56-0069__main__d5e14395">books.</del>
+                  <sga-add place="sublinear" xml:id="c56-0069__main__d5e14398">
+                     <metamark xmlns="" function="insert">^</metamark>
+                  </sga-add>
+                  <sga-add place="superlinear" xml:id="c56-0069__main__d5e14404">country. </sga-add>
+               </mod>
+               <lb xmlns="" n="c56-0069__main__20"/>When you read
+        </seg>
+            <seg xml:id="C12_app265-fMS">
+               <del xmlns="" rend="strikethrough" xml:id="c56-0069__main__d5e14410">s</del> their
+        </seg>
+            <seg xml:id="C12_app266-fMS">
+               <del xmlns="" rend="strikethrough" xml:id="c56-0069__main__d5e14413">
+                  <unclear>li</unclear>
+               </del> writings
+        </seg>
+    life <lb xmlns="" n="c56-0069__main__21"/>appears to consist in a warm sun <lb xmlns="" n="c56-0069__main__22"/>and 
+        <seg xml:id="C12_app268-fMS">
+        gardens
+        </seg>
+    of 
+        <seg xml:id="C12_app270-fMS">
+        roses – in
+        </seg>
+    the smiles &amp;<lb xmlns="" n="c56-0069__main__23"/>
             <mod xml:id="c56-0069__main__d5e14425">
-               <seg xml:id="C12_app272-fMS_start"/>
-               <del rend="strikethrough" xml:id="c56-0069__main__d5e14427">tears</del>
-               <anchor xml:id="c56-0069.02"/>
-               <lb n="c56-0069__left_margin__1"/>
-               <sga-add xml:id="c56-0069__left_margin__d5e14436">frowns<seg xml:id="C12_app272-fMS_end"/>
-               </sga-add>
-            </mod>of a fair <seg xml:id="C12_app274-fMS_start"/>enemy<seg xml:id="C12_app274-fMS_end"/>and the fire <lb n="c56-0069__main__24"/>that consumes your own <seg xml:id="C12_app276-fMS_start"/>heart<seg xml:id="C12_app276-fMS_end"/>
-            <lb n="c56-0069__main__25"/>How different from the <seg xml:id="C12_app278-fMS_start"/>man <mod xml:id="c56-0069__main__d5e14444">
-               <sga-add place="sublinear" xml:id="c56-0069__main__d5e14446">
-                  <metamark function="insert">^</metamark>
-               </sga-add>
-               <sga-add place="superlinear" xml:id="c56-0069__main__d5e14452">l </sga-add>
-            </mod> y<seg xml:id="C12_app278-fMS_end"/>&amp; <seg xml:id="C12_app280-fMS_start"/>
-            <del rend="strikethrough" xml:id="c56-0069__main__d5e14456">warlike</del>
-            <lb n="c56-0069__main__26"/>
-            <anchor xml:id="c56-0069.03"/>
-            <lb n="c56-0069__left_margin__1"/>
-            <sga-add hand="#pbs" xml:id="c56-0069__left_margin__d5e14468">heroical<seg xml:id="C12_app280-fMS_end"/>
-               <seg xml:id="C12_app281-fMS_start"/>
-            </sga-add>poet <mod xml:id="c56-0069__main__d5e14472">
-               <mdel/>
+               <seg xml:id="C12_app272-fMS">
+                  <del xmlns="" rend="strikethrough" xml:id="c56-0069__main__d5e14427">tears</del>
+                  <anchor xmlns="" xml:id="c56-0069.02"/>
+                  <lb xmlns="" n="c56-0069__left_margin__1"/>
+                  <sga-add xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                            th:sID="c56-0069__left_margin__d5e14436"/>frowns
+        </seg>frowns
+        
+            </mod>of a fair 
+        <seg xml:id="C12_app274-fMS">
+        enemy
+        </seg>
+    and the fire <lb xmlns="" n="c56-0069__main__24"/>that consumes your own 
+        <seg xml:id="C12_app276-fMS">
+        heart
+        </seg>
+            <lb xmlns="" n="c56-0069__main__25"/>How different from the 
+        <seg xml:id="C12_app278-fMS">
+        man <mod xml:id="c56-0069__main__d5e14444">
+                  <sga-add place="sublinear" xml:id="c56-0069__main__d5e14446">
+                     <metamark xmlns="" function="insert">^</metamark>
+                  </sga-add>
+                  <sga-add place="superlinear" xml:id="c56-0069__main__d5e14452">l </sga-add>
+               </mod> y
+        </seg>
+    &amp; 
+        <seg xml:id="C12_app280-fMS">
+               <del xmlns="" rend="strikethrough" xml:id="c56-0069__main__d5e14456">warlike</del>
+               <lb xmlns="" n="c56-0069__main__26"/>
+               <anchor xmlns="" xml:id="c56-0069.03"/>
+               <lb xmlns="" n="c56-0069__left_margin__1"/>
+               <sga-add xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                         hand="#pbs"
+                         th:sID="c56-0069__left_margin__d5e14468"/>heroical
+        </seg>heroical
+        
+            <sga-add xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                      th:eID="c56-0069__left_margin__d5e14468"/>poet <mod xml:id="c56-0069__main__d5e14472">
+               <mdel xmlns=""/>
                <sga-add hand="#pbs" place="intralinear" xml:id="c56-0069__main__d5e14479">ry </sga-add>
             </mod>
-            <seg xml:id="C12_app281-fMS_end"/>of Greece &amp; <seg xml:id="C12_app283-fMS_start"/>Rome.<seg xml:id="C12_app283-fMS_end"/>
-            <milestone unit="tei:p-END"/>
-            <milestone unit="tei:p-START"/>
-            <lb n="c56-0069__main__27"/>Summer passed away in these <seg xml:id="C12_app285-fMS_start"/>
-            <lb n="c56-0069__main__28"/>
-            <mod xml:id="c56-0069__main__d5e14490">
-               <del rend="strikethrough" xml:id="c56-0069__main__d5e14492">studies</del>
-               <sga-add xml:id="c56-0069__main__d5e14495">
-                  <anchor xml:id="c56-0069.04"/>
-                  <lb n="c56-0069__left_margin__1"/>
-                  <sga-add xml:id="c56-0069__left_margin__d5e14503">occupations<seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                           xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                           xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                           xml:id="C12_app285-fMS_end"/>
-                  </sga-add>
-               </sga-add>
-            </mod>&amp; my return to Geneva was <lb n="c56-0069__main__29"/>fixed for the latter end of <seg xml:id="C12_app287-fMS_start"/>Autum <mod xml:id="c56-0069__main__d5e14510">
-               <mdel>m</mdel>
-               <sga-add place="intralinear" xml:id="c56-0069__main__d5e14514">n </sga-add>
-            </mod>
-            <seg xml:id="C12_app287-fMS_end"/>but <lb n="c56-0070__main__1"/>being delayed by several <seg xml:id="C12_app289-fMS_start"/>accidents<seg xml:id="C12_app289-fMS_end"/>winter <lb n="c56-0070__main__2"/>&amp; snow arrived, <seg xml:id="C12_app291-fMS_start"/>
-            <del rend="strikethrough" xml:id="c56-0070__main__d5e14530">and</del> the roads were <lb n="c56-0070__main__3"/>deemed<seg xml:id="C12_app291-fMS_end"/>
-            <seg xml:id="C12_app292-fMS_start"/>impassable<seg xml:id="C12_app292-fMS_end"/>and my <seg xml:id="C12_app294-fMS_start"/>
-            <mod xml:id="c56-0070__main__d5e14535">
-               <del xml:id="c56-0070__main__d5e14537">return</del>
-               <sga-add place="sublinear" xml:id="c56-0070__main__d5e14539">
-                  <metamark function="insert">^</metamark>
-               </sga-add>
-               <sga-add place="superlinear" xml:id="c56-0070__main__d5e14545">journey<seg xml:id="C12_app294-fMS_end"/>
-                  <seg xml:id="C12_app295-fMS_start"/>
-               </sga-add>
-            </mod>
-            <lb n="c56-0070__main__4"/>
-            <mod xml:id="c56-0070__main__d5e14552">
-               <del rend="strikethrough" xml:id="c56-0070__main__d5e14554">delayed</del>
-               <anchor xml:id="c56-0070.01"/>
-               <lb n="c56-0070__left_margin__1"/>was<seg xml:id="C12_app295-fMS_end"/>
-               <seg xml:id="C12_app296-fMS_start"/>
-               <lb n="c56-0070__left_margin__2"/>retarted <anchor xml:id="c56-0070.02"/>
-            </mod> untill<seg xml:id="C12_app296-fMS_end"/>the <seg xml:id="C12_app298-fMS_start"/>
+            <seg xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                  th:eID="C12_app281-fMS"/>
+    of Greece &amp; 
+        <seg xml:id="C12_app283-fMS">
+        Rome.
+        </seg>
+            <milestone xmlns="" unit="tei:p-END"/>
+            <milestone xmlns="" unit="tei:p-START"/>
+            <lb xmlns="" n="c56-0069__main__27"/>Summer passed away in these 
+        <seg xml:id="C12_app285-fMS">
+               <lb xmlns="" n="c56-0069__main__28"/>
+               <mod xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                     th:sID="c56-0069__main__d5e14490"/>
+               <del xmlns="" rend="strikethrough" xml:id="c56-0069__main__d5e14492">studies</del>
+               <sga-add xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                         th:sID="c56-0069__main__d5e14495"/>
+               <anchor xmlns="" xml:id="c56-0069.04"/>
+               <lb xmlns="" n="c56-0069__left_margin__1"/>
+               <sga-add xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                         th:sID="c56-0069__left_margin__d5e14503"/>occupations
+        </seg>
+            <del xmlns="" rend="strikethrough" xml:id="c56-0069__main__d5e14492">studies</del>
+            <sga-add xml:id="c56-0069__main__d5e14495">
+               <anchor xmlns="" xml:id="c56-0069.04"/>
+               <lb xmlns="" n="c56-0069__left_margin__1"/>
+               <sga-add xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                         th:sID="c56-0069__left_margin__d5e14503"/>occupations
+        
+            </sga-add>occupations
+        
+            <sga-add xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                      th:eID="c56-0069__main__d5e14495"/>
+            <mod xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                  th:eID="c56-0069__main__d5e14490"/>&amp; my return to Geneva was <lb xmlns="" n="c56-0069__main__29"/>fixed for the latter end of 
+        <seg xml:id="C12_app287-fMS">
+        Autum <mod xml:id="c56-0069__main__d5e14510">
+                  <mdel xmlns="">m</mdel>
+                  <sga-add place="intralinear" xml:id="c56-0069__main__d5e14514">n </sga-add>
+               </mod>
+            </seg>
+    but <lb xmlns="" n="c56-0070__main__1"/>being delayed by several 
+        <seg xml:id="C12_app289-fMS">
+        accidents
+        </seg>
+    winter <lb xmlns="" n="c56-0070__main__2"/>&amp; snow arrived, 
+        <seg xml:id="C12_app291-fMS">
+               <del xmlns="" rend="strikethrough" xml:id="c56-0070__main__d5e14530">and</del> the roads were <lb xmlns="" n="c56-0070__main__3"/>deemed
+        </seg>
+            <seg xml:id="C12_app292-fMS">
+        impassable
+        </seg>
+    and my 
+        <seg xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                  th:sID="C12_app294-fMS"/>
+            <mod xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                  th:sID="c56-0070__main__d5e14535"/>
+            <del xmlns="" xml:id="c56-0070__main__d5e14537">return</del>
+            <sga-add place="sublinear" xml:id="c56-0070__main__d5e14539">
+               <metamark xmlns="" function="insert">^</metamark>
+            </sga-add>
+            <sga-add place="superlinear" xml:id="c56-0070__main__d5e14545">journey
+        
+            </sga-add>
+            <del xmlns="" rend="strikethrough" xml:id="c56-0070__main__d5e14554">delayed</del>
+            <anchor xmlns="" xml:id="c56-0070.01"/>
+            <lb xmlns="" n="c56-0070__left_margin__1"/>was
+        
+            <lb xmlns="" n="c56-0070__left_margin__2"/>retarted <anchor xmlns="" xml:id="c56-0070.02"/>
+            
+    the 
+        <seg xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                  th:sID="C12_app298-fMS"/>
             <mod xml:id="c56-0070__main__d5e14571">
                <sga-add place="sublinear" xml:id="c56-0070__main__d5e14573">
-                  <metamark function="insert">^</metamark>
+                  <metamark xmlns="" function="insert">^</metamark>
                </sga-add>
-               <sga-add hand="#pbs" place="superlinear" xml:id="c56-0070__main__d5e14579">ensuing<seg xml:id="C12_app298-fMS_end"/>
-               </sga-add>
-            </mod>spring. I felt this <lb n="c56-0070__main__5"/>delay very <seg xml:id="C12_app300-fMS_start"/>bitterly <mod xml:id="c56-0070__main__d5e14585">
-               <sga-add place="sublinear" xml:id="c56-0070__main__d5e14587">
-                  <metamark function="insert">^</metamark>
-                  <seg xml:id="C12_app300-fMS_end"/>
-               </sga-add>
-               <sga-add place="superlinear" xml:id="c56-0070__main__d5e14593">for </sga-add>
-            </mod>I longed to see my <lb n="c56-0070__main__6"/>native <seg xml:id="C12_app303-fMS_start"/>
-            <mod xml:id="c56-0070__main__d5e14600">
-               <mdel>c</mdel>
-               <sga-add place="intralinear" xml:id="c56-0070__main__d5e14604">t </sga-add>
-            </mod> own<seg xml:id="C12_app303-fMS_end"/>and my beloved <seg xml:id="C12_app305-fMS_start"/>friends <lb n="c56-0070__main__7"/>
-            <del rend="strikethrough" xml:id="c56-0070__main__d5e14610">and</del>
-            <seg xml:id="C12_app305-fMS_end"/>my return had only been delayed <lb n="c56-0070__main__8"/>so <seg xml:id="C12_app307-fMS_start"/>long<seg xml:id="C12_app307-fMS_end"/>from an unwillingness to leave <lb n="c56-0070__main__9"/>Clerval in a strange <seg xml:id="C12_app309-fMS_start"/>town<seg xml:id="C12_app309-fMS_end"/>before he <lb n="c56-0070__main__10"/>had become acquainted with its <seg xml:id="C12_app313-fMS_start"/>
-            <w ana="start"/>in<lb n="c56-0070__main__11"/>habitants<w ana="end"/>.<seg xml:id="C12_app313-fMS_end"/>The <seg xml:id="C12_app315-fMS_start"/>winter <mod xml:id="c56-0070__main__d5e14626">
-               <sga-add place="sublinear" xml:id="c56-0070__main__d5e14628">
-                  <metamark function="insert">^</metamark>
-               </sga-add>
-               <sga-add place="superlinear" xml:id="c56-0070__main__d5e14634">however </sga-add>
-            </mod>
-            <seg xml:id="C12_app315-fMS_end"/>was <seg xml:id="C12_app317-fMS_start"/>
-            <mod xml:id="c56-0070__main__d5e14638">
-               <del rend="strikethrough" xml:id="c56-0070__main__d5e14640">however</del>
-               <sga-add place="superlinear" xml:id="c56-0070__main__d5e14643">
-                  <mdel>s</mdel> spent<seg xml:id="C12_app317-fMS_end"/>
-                  <seg xml:id="C12_app318-fMS_start"/>
-               </sga-add>
-            </mod>
-            <lb n="c56-0070__main__12"/>
-            <del rend="strikethrough" xml:id="c56-0070__main__d5e14652">a</del> cheerful <sga-add place="intralinear" xml:id="c56-0070__main__d5e14655">ly </sga-add>
-            <del rend="strikethrough" xml:id="c56-0070__main__d5e14658">one</del>
-            <seg xml:id="C12_app318-fMS_end"/>and although the <lb n="c56-0070__main__13"/>spring was uncommonly <seg xml:id="C12_app320-fMS_start"/>late<seg xml:id="C12_app320-fMS_end"/>when <lb n="c56-0070__main__14"/>it <seg xml:id="C12_app322-fMS_start"/>came<seg xml:id="C12_app322-fMS_end"/>its beauty compensated <seg xml:id="C12_app324-fMS_start"/>
-            <lb n="c56-0070__main__15"/>
-            <del rend="strikethrough" xml:id="c56-0070__main__d5e14668">for</del>
-            <seg xml:id="C12_app324-fMS_end"/>its dilatoriness. <seg xml:id="C12_app326-fMS_start"/>
-            <del rend="strikethrough" xml:id="c56-0070__main__d5e14671">Ma</del>
-            <seg xml:id="C12_app326-fMS_end"/>The month <lb n="c56-0070__main__16"/>of May <seg xml:id="C12_app328-fMS_start"/>was<seg xml:id="C12_app328-fMS_end"/>already <seg xml:id="C12_app330-fMS_start"/>
-            <del rend="strikethrough" xml:id="c56-0070__main__d5e14676">finis</del>
-            <del rend="strikethrough" xml:id="c56-0070__main__d5e14679">end</del>
-            <w ana="start"/>com<lb n="c56-0070__main__17"/>pleated<w ana="end"/>,<seg xml:id="C12_app330-fMS_end"/>and <seg xml:id="C12_app332-fMS_start"/>I expected daily the <lb n="c56-0070__main__18"/>letter that<seg xml:id="C12_app332-fMS_end"/>was to fix the date of <lb n="c56-0070__main__19"/>my <seg xml:id="C12_app334-fMS_start"/>
+               <sga-add xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                         hand="#pbs"
+                         place="superlinear"
+                         th:sID="c56-0070__main__d5e14579"/>ensuing
+        
+            </mod>ensuing
+        
+            <mod xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                  th:eID="c56-0070__main__d5e14571"/>spring. I felt this <lb xmlns="" n="c56-0070__main__5"/>delay very 
+        <seg xml:id="C12_app300-fMS">
+        bitterly <mod xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                     th:sID="c56-0070__main__d5e14585"/>
+               <sga-add xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                         place="sublinear"
+                         th:sID="c56-0070__main__d5e14587"/>
+               <metamark xmlns="" function="insert">^</metamark>
+            </seg>
+            <sga-add xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                      place="sublinear"
+                      th:sID="c56-0070__main__d5e14587"/>
+            <metamark xmlns="" function="insert">^</metamark>
+            <sga-add place="superlinear" xml:id="c56-0070__main__d5e14593">for </sga-add>
+            <mod xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                  th:eID="c56-0070__main__d5e14585"/>I longed to see my <lb xmlns="" n="c56-0070__main__6"/>native 
+        <seg xml:id="C12_app303-fMS">
+               <mod xml:id="c56-0070__main__d5e14600">
+                  <mdel xmlns="">c</mdel>
+                  <sga-add place="intralinear" xml:id="c56-0070__main__d5e14604">t </sga-add>
+               </mod> own
+        </seg>
+    and my beloved 
+        <seg xml:id="C12_app305-fMS">
+        friends <lb xmlns="" n="c56-0070__main__7"/>
+               <del xmlns="" rend="strikethrough" xml:id="c56-0070__main__d5e14610">and</del>
+            </seg>
+    my return had only been delayed <lb xmlns="" n="c56-0070__main__8"/>so 
+        <seg xml:id="C12_app307-fMS">
+        long
+        </seg>
+    from an unwillingness to leave <lb xmlns="" n="c56-0070__main__9"/>Clerval in a strange 
+        <seg xml:id="C12_app309-fMS">
+        town
+        </seg>
+    before he <lb xmlns="" n="c56-0070__main__10"/>had become acquainted with its 
+        <seg xml:id="C12_app313-fMS">
+               <w xmlns="" ana="start"/>in<lb xmlns="" n="c56-0070__main__11"/>habitants<w xmlns="" ana="end"/>.
+        </seg>
+    The 
+        <seg xml:id="C12_app315-fMS">
+        winter <mod xml:id="c56-0070__main__d5e14626">
+                  <sga-add place="sublinear" xml:id="c56-0070__main__d5e14628">
+                     <metamark xmlns="" function="insert">^</metamark>
+                  </sga-add>
+                  <sga-add place="superlinear" xml:id="c56-0070__main__d5e14634">however </sga-add>
+               </mod>
+            </seg>
+    was 
+        <seg xml:id="C12_app317-fMS">
+               <mod xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                     th:sID="c56-0070__main__d5e14638"/>
+               <del xmlns="" rend="strikethrough" xml:id="c56-0070__main__d5e14640">however</del>
+               <sga-add xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                         place="superlinear"
+                         th:sID="c56-0070__main__d5e14643"/>
+               <mdel xmlns="">s</mdel> spent
+        </seg>
+            <del xmlns="" rend="strikethrough" xml:id="c56-0070__main__d5e14640">however</del>
+            <sga-add place="superlinear" xml:id="c56-0070__main__d5e14643">
+               <mdel xmlns="">s</mdel> spent
+        
+            </sga-add>
+            <mod xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                  th:eID="c56-0070__main__d5e14638"/>
+            <lb xmlns="" n="c56-0070__main__12"/>
+            <del xmlns="" rend="strikethrough" xml:id="c56-0070__main__d5e14652">a</del> cheerful <sga-add place="intralinear" xml:id="c56-0070__main__d5e14655">ly </sga-add>
+            <del xmlns="" rend="strikethrough" xml:id="c56-0070__main__d5e14658">one</del>
+            <seg xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                  th:eID="C12_app318-fMS"/>
+    and although the <lb xmlns="" n="c56-0070__main__13"/>spring was uncommonly 
+        <seg xml:id="C12_app320-fMS">
+        late
+        </seg>
+    when <lb xmlns="" n="c56-0070__main__14"/>it 
+        <seg xml:id="C12_app322-fMS">
+        came
+        </seg>
+    its beauty compensated 
+        <seg xml:id="C12_app324-fMS">
+               <lb xmlns="" n="c56-0070__main__15"/>
+               <del xmlns="" rend="strikethrough" xml:id="c56-0070__main__d5e14668">for</del>
+            </seg>
+    its dilatoriness. 
+        <seg xml:id="C12_app326-fMS">
+               <del xmlns="" rend="strikethrough" xml:id="c56-0070__main__d5e14671">Ma</del>
+            </seg>
+    The month <lb xmlns="" n="c56-0070__main__16"/>of May 
+        <seg xml:id="C12_app328-fMS">
+        was
+        </seg>
+    already 
+        <seg xml:id="C12_app330-fMS">
+               <del xmlns="" rend="strikethrough" xml:id="c56-0070__main__d5e14676">finis</del>
+               <del xmlns="" rend="strikethrough" xml:id="c56-0070__main__d5e14679">end</del>
+               <w xmlns="" ana="start"/>com<lb xmlns="" n="c56-0070__main__17"/>pleated<w xmlns="" ana="end"/>,
+        </seg>
+    and 
+        <seg xml:id="C12_app332-fMS">
+        I expected daily the <lb xmlns="" n="c56-0070__main__18"/>letter that
+        </seg>
+    was to fix the date of <lb xmlns="" n="c56-0070__main__19"/>my 
+        <seg xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                  th:sID="C12_app334-fMS"/>
             <mod xml:id="c56-0070__main__d5e14693">
-               <del rend="strikethrough" xml:id="c56-0070__main__d5e14695">return</del>
+               <del xmlns="" rend="strikethrough" xml:id="c56-0070__main__d5e14695">return</del>
                <sga-add place="sublinear" xml:id="c56-0070__main__d5e14698">
-                  <metamark function="insert">^</metamark>
+                  <metamark xmlns="" function="insert">^</metamark>
                </sga-add>
-               <sga-add place="superlinear" xml:id="c56-0070__main__d5e14704">departure,<seg xml:id="C12_app334-fMS_end"/>
-               </sga-add>
-            </mod>When Henry proposed <lb n="c56-0070__main__20"/>a pedestrian tour in environs of <seg xml:id="C12_app338-fMS_start"/>
-            <lb n="c56-0070__main__21"/>Ingolstadt<seg xml:id="C12_app338-fMS_end"/>that I might bid farewell <lb n="c56-0070__main__22"/>to the country I had so long <seg xml:id="C12_app342-fMS_start"/>
-            <w ana="start"/>in<lb n="c56-0070__main__23"/>habited<w ana="end"/>.–<seg xml:id="C12_app342-fMS_end"/>I <seg xml:id="C12_app344-fMS_start"/>acceeded<seg xml:id="C12_app344-fMS_end"/>with pleasure to <lb n="c56-0070__main__24"/>this <seg xml:id="C12_app346-fMS_start"/>propos <mod xml:id="c56-0070__main__d5e14724">
-               <mdel>al</mdel>
-               <sga-add place="sublinear" xml:id="c56-0070__main__d5e14728">
-                  <metamark function="insert">^</metamark>
-               </sga-add>
-               <sga-add place="superlinear" xml:id="c56-0070__main__d5e14734">ition </sga-add>
-            </mod> –<seg xml:id="C12_app346-fMS_end"/>I was fond of <seg xml:id="C12_app348-fMS_start"/>Exercise<seg xml:id="C12_app348-fMS_end"/>
-            <lb n="c56-0070__main__25"/>and Clerval had always been my <lb n="c56-0070__main__26"/>favourite companion in <seg xml:id="C12_app350-fMS_start"/>
+               <sga-add xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                         place="superlinear"
+                         th:sID="c56-0070__main__d5e14704"/>departure,
+        
+            </mod>departure,
+        
+            <mod xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                  th:eID="c56-0070__main__d5e14693"/>When Henry proposed <lb xmlns="" n="c56-0070__main__20"/>a pedestrian tour in environs of 
+        <seg xml:id="C12_app338-fMS">
+               <lb xmlns="" n="c56-0070__main__21"/>Ingolstadt
+        </seg>
+    that I might bid farewell <lb xmlns="" n="c56-0070__main__22"/>to the country I had so long 
+        <seg xml:id="C12_app342-fMS">
+               <w xmlns="" ana="start"/>in<lb xmlns="" n="c56-0070__main__23"/>habited<w xmlns="" ana="end"/>.–
+        </seg>
+    I 
+        <seg xml:id="C12_app344-fMS">
+        acceeded
+        </seg>
+    with pleasure to <lb xmlns="" n="c56-0070__main__24"/>this 
+        <seg xml:id="C12_app346-fMS">
+        propos <mod xml:id="c56-0070__main__d5e14724">
+                  <mdel xmlns="">al</mdel>
+                  <sga-add place="sublinear" xml:id="c56-0070__main__d5e14728">
+                     <metamark xmlns="" function="insert">^</metamark>
+                  </sga-add>
+                  <sga-add place="superlinear" xml:id="c56-0070__main__d5e14734">ition </sga-add>
+               </mod> –
+        </seg>
+    I was fond of 
+        <seg xml:id="C12_app348-fMS">
+        Exercise
+        </seg>
+            <lb xmlns="" n="c56-0070__main__25"/>and Clerval had always been my <lb xmlns="" n="c56-0070__main__26"/>favourite companion in 
+        <seg xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                  th:sID="C12_app350-fMS"/>
             <mod xml:id="c56-0070__main__d5e14742">
-               <mdel>j</mdel>
+               <mdel xmlns="">j</mdel>
                <sga-add place="sublinear" xml:id="c56-0070__main__d5e14746">
-                  <metamark function="insert">^</metamark>
+                  <metamark xmlns="" function="insert">^</metamark>
                </sga-add>
-               <sga-add place="superlinear" xml:id="c56-0070__main__d5e14752">the<seg xml:id="C12_app350-fMS_end"/>
-               </sga-add>
-            </mod>rambles <lb n="c56-0070__main__27"/>of this nature that I had taken <lb n="c56-0070__main__28"/>among the scenes of my native <seg xml:id="C12_app352-fMS_start"/>coun <lb n="c56-0071__main__1"/>try.<seg xml:id="C12_app352-fMS_end"/>We passed a fortnight in these <seg xml:id="C12_app354-fMS_start"/>
-            <lb n="c56-0071__main__2"/>perambulations.<seg xml:id="C12_app354-fMS_end"/>My health and spirits had long <lb n="c56-0071__main__3"/>been <seg xml:id="C12_app356-fMS_start"/>restored<seg xml:id="C12_app356-fMS_end"/>and they gained <seg xml:id="C12_app358-fMS_start"/>add <mod xml:id="c56-0071__main__d5e14774">
-               <mdel>i</mdel>
-               <sga-add place="intralinear" xml:id="c56-0071__main__d5e14778">it </sga-add>
-            </mod> ional vigour<seg xml:id="C12_app358-fMS_end"/>
-            <lb n="c56-0071__main__4"/>from the salubrious air <seg xml:id="C12_app360-fMS_start"/>
-            <del rend="strikethrough" xml:id="c56-0071__main__d5e14785">, <sga-add place="superlinear" xml:id="c56-0071__main__d5e14787">
-                  <metamark>X</metamark>
-               </sga-add>
-            </del> I breathed,<seg xml:id="C12_app360-fMS_end"/>
-            <seg xml:id="C12_app361-fMS_start"/>
-            <mod xml:id="c56-0071__main__d5e14793">
-               <sga-add place="superlinear" xml:id="c56-0071__main__d5e14795">
-                  <metamark function="displacement" xml:id="c56-0071.01">X</metamark>
-                  <lb n="c56-0071__left_margin__1"/>the natural <lb n="c56-0071__left_margin__2"/>incidents of <lb n="c56-0071__left_margin__3"/>our<seg xml:id="C12_app361-fMS_end"/>
-                  <seg xml:id="C12_app362-fMS_start"/>progress <metamark>X</metamark>
-                  <anchor xml:id="c56-0071.02"/>
-               </sga-add>
-            </mod>
-            <seg xml:id="C12_app362-fMS_end"/>and the <lb n="c56-0071__main__5"/>conversation of my friend. Study had before <seg xml:id="C12_app364-fMS_start"/>
-            <lb n="c56-0071__main__6"/>rendered<seg xml:id="C12_app364-fMS_end"/>me <seg xml:id="C12_app366-fMS_start"/>unsocia <mod xml:id="c56-0071__main__d5e14822">
-               <del rend="overwritten" xml:id="c56-0071__main__d5e14824">ble</del>
-               <sga-add hand="#pbs" place="intralinear" xml:id="c56-0071__main__d5e14827">l, </sga-add>
-            </mod> –I <sga-add hand="#pbs" place="superlinear" xml:id="c56-0071__main__d5e14831">had </sga-add> shunned<seg xml:id="C12_app366-fMS_end"/>the <seg xml:id="C12_app368-fMS_start"/>
-            <del rend="strikethrough" xml:id="c56-0071__main__d5e14835">face</del>
-            <lb n="c56-0071__main__7"/>company<seg xml:id="C12_app368-fMS_end"/>of my <seg xml:id="C12_app370-fMS_start"/>fellow beings<seg xml:id="C12_app370-fMS_end"/>But Clerval <lb n="c56-0071__main__8"/>called forth the better feelings of my <seg xml:id="C12_app372-fMS_start"/>heart.<seg xml:id="C12_app372-fMS_end"/>
-            <lb n="c56-0071__main__9"/>he again taught me to love the aspect <lb n="c56-0071__main__10"/>of <seg xml:id="C12_app374-fMS_start"/>nature<seg xml:id="C12_app374-fMS_end"/>and the cheerful faces of <seg xml:id="C12_app376-fMS_start"/>
-            <w ana="start"/>chil<lb n="c56-0071__main__11"/>dren<w ana="end"/>.<seg xml:id="C12_app376-fMS_end"/>Excellent Friend! How sincerely did you <lb n="c56-0071__main__12"/>love <seg xml:id="C12_app378-fMS_start"/>me<seg xml:id="C12_app378-fMS_end"/>and endeavour to elevate my <seg xml:id="C12_app380-fMS_start"/>
-            <lb n="c56-0071__main__13"/>mind<seg xml:id="C12_app380-fMS_end"/>
-            <seg xml:id="C12_app381-fMS_start"/>untill<seg xml:id="C12_app381-fMS_end"/>it was on a level with <lb n="c56-0071__main__14"/>your <seg xml:id="C12_app383-fMS_start"/>own.<seg xml:id="C12_app383-fMS_end"/>A selfish <seg xml:id="C12_app385-fMS_start"/>persuit <del rend="strikethrough" xml:id="c56-0071__main__d5e14859">e</del>
-            <seg xml:id="C12_app385-fMS_end"/>had <w ana="start"/>cramp<lb n="c56-0071__main__15"/>ed<w ana="end"/> and narrowed <seg xml:id="C12_app387-fMS_start"/>
-            <mod xml:id="c56-0071__main__d5e14869">
-               <mdel>it</mdel>
-               <sga-add place="sublinear" xml:id="c56-0071__main__d5e14873">
-                  <metamark function="insert">^</metamark>
-               </sga-add>
-               <sga-add place="superlinear" xml:id="c56-0071__main__d5e14879">me </sga-add>
-            </mod> untill<seg xml:id="C12_app387-fMS_end"/>your <seg xml:id="C12_app389-fMS_start"/>gentle <lb n="c56-0071__main__16"/>ness<seg xml:id="C12_app389-fMS_end"/>&amp; affection warmed &amp; opened <seg xml:id="C12_app391-fMS_start"/>
-            <mod xml:id="c56-0071__main__d5e14885">
-               <mdel>it</mdel>
-               <sga-add place="sublinear" xml:id="c56-0071__main__d5e14889">
-                  <metamark function="insert">^</metamark>
-               </sga-add>
-               <sga-add place="superlinear" xml:id="c56-0071__main__d5e14895">my<seg xml:id="C12_app391-fMS_end"/>
-                  <seg xml:id="C12_app392-fMS_start"/>senses </sga-add>
-            </mod> . <delSpan spanTo="#c56-0071.03"/>and <lb n="c56-0071__main__17"/>now <delSpan anchor="c56-0071.03"/>
-            <seg xml:id="C12_app392-fMS_end"/>I <seg xml:id="C12_app394-fMS_start"/>
-            <mod xml:id="c56-0071__main__d5e14906">
-               <sga-add place="sublinear" xml:id="c56-0071__main__d5e14908">
-                  <metamark function="insert">^</metamark>
-               </sga-add>
-               <del rend="strikethrough" xml:id="c56-0071__main__d5e14914">
-                  <sga-add place="superlinear" xml:id="c56-0071__main__d5e14916">now </sga-add>
-               </del>
-            </mod> became the same happy creature<seg xml:id="C12_app394-fMS_end"/>
-            <seg xml:id="C12_app395-fMS_start"/>
-            <lb n="c56-0071__main__18"/>who<seg xml:id="C12_app395-fMS_end"/>a few years ago, <seg xml:id="C12_app397-fMS_start"/>loving<seg xml:id="C12_app397-fMS_end"/>&amp; beloved by <lb n="c56-0071__main__19"/>all, had no sorrow or <seg xml:id="C12_app399-fMS_start"/>care – <del rend="strikethrough" xml:id="c56-0071__main__d5e14926">I</del>
-            <del rend="strikethrough" xml:id="c56-0071__main__d5e14929">and</del>
-            <seg xml:id="C12_app399-fMS_end"/>when <seg xml:id="C12_app401-fMS_start"/>
-            <lb n="c56-0071__main__20"/>happy <mod xml:id="c56-0071__main__d5e14934">
-               <mdel>so</mdel>
-               <mdel/>
-            </mod>
-            <delSpan spanTo="#c56-0071.04"/>soul was more fitted than mine <lb n="c56-0071__main__21"/>for feeling delight <delSpan anchor="c56-0071.04"/>
-            <del rend="strikethrough" xml:id="c56-0071__main__d5e14952">in</del>
-            <seg xml:id="C12_app401-fMS_end"/>inanimate nature <seg xml:id="C12_app403-fMS_start"/>
-            <sga-add place="superlinear" xml:id="c56-0071__main__d5e14955">
-               <metamark function="displacement" xml:id="c56-0071.05">X</metamark>
-               <lb n="c56-0071__left_margin__1"/>
-               <metamark function="displacement">X</metamark> had the <lb n="c56-0071__left_margin__2"/>power of<seg xml:id="C12_app403-fMS_end"/>
-               <seg xml:id="C12_app404-fMS_start"/>
-               <w ana="start"/>bes<lb n="c56-0071__left_margin__3"/>
-               <del rend="strikethrough" xml:id="c56-0071__left_margin__d5e14976">bo</del> towing<w ana="end"/>
-               <seg xml:id="C12_app404-fMS_end"/>on <lb n="c56-0071__left_margin__4"/>me the most <lb n="c56-0071__left_margin__5"/>delightful <seg xml:id="C12_app406-fMS_start"/>
-               <lb n="c56-0071__left_margin__6"/>sensations <anchor xml:id="c56-0071.06"/>
-            </sga-add> —<seg xml:id="C12_app406-fMS_end"/>
-            <lb n="c56-0071__main__22"/>A serene sky <seg xml:id="C12_app408-fMS_start"/>
-            <del rend="strikethrough" xml:id="c56-0071__main__d5e14994">filled</del> and verdant<seg xml:id="C12_app408-fMS_end"/>
-            <seg xml:id="C12_app409-fMS_start"/>
-            <del rend="strikethrough" xml:id="c56-0071__main__d5e14997">s</del> fields <lb n="c56-0071__main__23"/>filled me with<seg xml:id="C12_app409-fMS_end"/>
-            <seg xml:id="C12_app410-fMS_start"/>extasy.– <mod xml:id="c56-0071__main__d5e15003">
-               <mdel>t</mdel>
+               <sga-add xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                         place="superlinear"
+                         th:sID="c56-0070__main__d5e14752"/>the
+        
+            </mod>the
+        
+            <mod xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                  th:eID="c56-0070__main__d5e14742"/>rambles <lb xmlns="" n="c56-0070__main__27"/>of this nature that I had taken <lb xmlns="" n="c56-0070__main__28"/>among the scenes of my native 
+        <seg xml:id="C12_app352-fMS">
+        coun <lb xmlns="" n="c56-0071__main__1"/>try.
+        </seg>
+    We passed a fortnight in these 
+        <seg xml:id="C12_app354-fMS">
+               <lb xmlns="" n="c56-0071__main__2"/>perambulations.
+        </seg>
+    My health and spirits had long <lb xmlns="" n="c56-0071__main__3"/>been 
+        <seg xml:id="C12_app356-fMS">
+        restored
+        </seg>
+    and they gained 
+        <seg xml:id="C12_app358-fMS">
+        add <mod xml:id="c56-0071__main__d5e14774">
+                  <mdel xmlns="">i</mdel>
+                  <sga-add place="intralinear" xml:id="c56-0071__main__d5e14778">it </sga-add>
+               </mod> ional vigour
+        </seg>
+            <lb xmlns="" n="c56-0071__main__4"/>from the salubrious air 
+        <seg xml:id="C12_app360-fMS">
+               <del xmlns="" rend="strikethrough" xml:id="c56-0071__main__d5e14785">, <sga-add xmlns="http://www.tei-c.org/ns/1.0"
+                            place="superlinear"
+                            xml:id="c56-0071__main__d5e14787">
+                     <metamark xmlns="">X</metamark>
+                  </sga-add>
+               </del> I breathed,
+        </seg>
+            <seg xml:id="C12_app361-fMS">
+               <mod xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                     th:sID="c56-0071__main__d5e14793"/>
+               <sga-add xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                         place="superlinear"
+                         th:sID="c56-0071__main__d5e14795"/>
+               <metamark xmlns="" function="displacement" xml:id="c56-0071.01">X</metamark>
+               <lb xmlns="" n="c56-0071__left_margin__1"/>the natural <lb xmlns="" n="c56-0071__left_margin__2"/>incidents of <lb xmlns="" n="c56-0071__left_margin__3"/>our
+        </seg>
+            <sga-add place="superlinear" xml:id="c56-0071__main__d5e14795">
+               <metamark xmlns="" function="displacement" xml:id="c56-0071.01">X</metamark>
+               <lb xmlns="" n="c56-0071__left_margin__1"/>the natural <lb xmlns="" n="c56-0071__left_margin__2"/>incidents of <lb xmlns="" n="c56-0071__left_margin__3"/>our
+        
+        progress <metamark xmlns="">X</metamark>
+               <anchor xmlns="" xml:id="c56-0071.02"/>
+            </sga-add>
+            
+    and the <lb xmlns="" n="c56-0071__main__5"/>conversation of my friend. Study had before 
+        <seg xml:id="C12_app364-fMS">
+               <lb xmlns="" n="c56-0071__main__6"/>rendered
+        </seg>
+    me 
+        <seg xml:id="C12_app366-fMS">
+        unsocia <mod xml:id="c56-0071__main__d5e14822">
+                  <del xmlns="" rend="overwritten" xml:id="c56-0071__main__d5e14824">ble</del>
+                  <sga-add hand="#pbs" place="intralinear" xml:id="c56-0071__main__d5e14827">l, </sga-add>
+               </mod> –I <sga-add hand="#pbs" place="superlinear" xml:id="c56-0071__main__d5e14831">had </sga-add> shunned
+        </seg>
+    the 
+        <seg xml:id="C12_app368-fMS">
+               <del xmlns="" rend="strikethrough" xml:id="c56-0071__main__d5e14835">face</del>
+               <lb xmlns="" n="c56-0071__main__7"/>company
+        </seg>
+    of my 
+        <seg xml:id="C12_app370-fMS">
+        fellow beings
+        </seg>
+    But Clerval <lb xmlns="" n="c56-0071__main__8"/>called forth the better feelings of my 
+        <seg xml:id="C12_app372-fMS">
+        heart.
+        </seg>
+            <lb xmlns="" n="c56-0071__main__9"/>he again taught me to love the aspect <lb xmlns="" n="c56-0071__main__10"/>of 
+        <seg xml:id="C12_app374-fMS">
+        nature
+        </seg>
+    and the cheerful faces of 
+        <seg xml:id="C12_app376-fMS">
+               <w xmlns="" ana="start"/>chil<lb xmlns="" n="c56-0071__main__11"/>dren<w xmlns="" ana="end"/>.
+        </seg>
+    Excellent Friend! How sincerely did you <lb xmlns="" n="c56-0071__main__12"/>love 
+        <seg xml:id="C12_app378-fMS">
+        me
+        </seg>
+    and endeavour to elevate my 
+        <seg xml:id="C12_app380-fMS">
+               <lb xmlns="" n="c56-0071__main__13"/>mind
+        </seg>
+            <seg xml:id="C12_app381-fMS">
+        untill
+        </seg>
+    it was on a level with <lb xmlns="" n="c56-0071__main__14"/>your 
+        <seg xml:id="C12_app383-fMS">
+        own.
+        </seg>
+    A selfish 
+        <seg xml:id="C12_app385-fMS">
+        persuit <del xmlns="" rend="strikethrough" xml:id="c56-0071__main__d5e14859">e</del>
+            </seg>
+    had <w xmlns="" ana="start"/>cramp<lb xmlns="" n="c56-0071__main__15"/>ed<w xmlns="" ana="end"/> and narrowed 
+        <seg xml:id="C12_app387-fMS">
+               <mod xml:id="c56-0071__main__d5e14869">
+                  <mdel xmlns="">it</mdel>
+                  <sga-add place="sublinear" xml:id="c56-0071__main__d5e14873">
+                     <metamark xmlns="" function="insert">^</metamark>
+                  </sga-add>
+                  <sga-add place="superlinear" xml:id="c56-0071__main__d5e14879">me </sga-add>
+               </mod> untill
+        </seg>
+    your 
+        <seg xml:id="C12_app389-fMS">
+        gentle <lb xmlns="" n="c56-0071__main__16"/>ness
+        </seg>
+    &amp; affection warmed &amp; opened 
+        <seg xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                  th:sID="C12_app391-fMS"/>
+            <mod xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                  th:sID="c56-0071__main__d5e14885"/>
+            <mdel xmlns="">it</mdel>
+            <sga-add place="sublinear" xml:id="c56-0071__main__d5e14889">
+               <metamark xmlns="" function="insert">^</metamark>
+            </sga-add>
+            <sga-add place="superlinear" xml:id="c56-0071__main__d5e14895">my
+        
+        senses </sga-add>
+            
+    I 
+        <seg xml:id="C12_app394-fMS">
+               <mod xml:id="c56-0071__main__d5e14906">
+                  <sga-add place="sublinear" xml:id="c56-0071__main__d5e14908">
+                     <metamark xmlns="" function="insert">^</metamark>
+                  </sga-add>
+                  <del xmlns="" rend="strikethrough" xml:id="c56-0071__main__d5e14914">
+                     <sga-add xmlns="http://www.tei-c.org/ns/1.0"
+                               place="superlinear"
+                               xml:id="c56-0071__main__d5e14916">now </sga-add>
+                  </del>
+               </mod> became the same happy creature
+        </seg>
+            <seg xml:id="C12_app395-fMS">
+               <lb xmlns="" n="c56-0071__main__18"/>who
+        </seg>
+    a few years ago, 
+        <seg xml:id="C12_app397-fMS">
+        loving
+        </seg>
+    &amp; beloved by <lb xmlns="" n="c56-0071__main__19"/>all, had no sorrow or 
+        <seg xml:id="C12_app399-fMS">
+        care – <del xmlns="" rend="strikethrough" xml:id="c56-0071__main__d5e14926">I</del>
+               <del xmlns="" rend="strikethrough" xml:id="c56-0071__main__d5e14929">and</del>
+            </seg>
+    when 
+        <seg xml:id="C12_app401-fMS">
+               <lb xmlns="" n="c56-0071__main__20"/>happy <mod xml:id="c56-0071__main__d5e14934">
+                  <mdel xmlns="">so</mdel>
+                  <mdel xmlns=""/>
+               </mod>
+               <delSpan xmlns="" spanTo="#c56-0071.04"/>soul was more fitted than mine <lb xmlns="" n="c56-0071__main__21"/>for feeling delight <delSpan xmlns="" anchor="c56-0071.04"/>
+               <del xmlns="" rend="strikethrough" xml:id="c56-0071__main__d5e14952">in</del>
+            </seg>
+    inanimate nature 
+        <seg xml:id="C12_app403-fMS">
+               <sga-add xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                         place="superlinear"
+                         th:sID="c56-0071__main__d5e14955"/>
+               <metamark xmlns="" function="displacement" xml:id="c56-0071.05">X</metamark>
+               <lb xmlns="" n="c56-0071__left_margin__1"/>
+               <metamark xmlns="" function="displacement">X</metamark> had the <lb xmlns="" n="c56-0071__left_margin__2"/>power of
+        </seg>
+            <metamark xmlns="" function="displacement" xml:id="c56-0071.05">X</metamark>
+            <lb xmlns="" n="c56-0071__left_margin__1"/>
+            <metamark xmlns="" function="displacement">X</metamark> had the <lb xmlns="" n="c56-0071__left_margin__2"/>power of
+        <seg xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                  th:eID="C12_app403-fMS"/>
+            <seg xml:id="C12_app404-fMS">
+               <w xmlns="" ana="start"/>bes<lb xmlns="" n="c56-0071__left_margin__3"/>
+               <del xmlns="" rend="strikethrough" xml:id="c56-0071__left_margin__d5e14976">bo</del> towing<w xmlns="" ana="end"/>
+            </seg>
+    on <lb xmlns="" n="c56-0071__left_margin__4"/>me the most <lb xmlns="" n="c56-0071__left_margin__5"/>delightful 
+        <seg xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                  th:sID="C12_app406-fMS"/>
+            <lb xmlns="" n="c56-0071__left_margin__6"/>sensations <anchor xmlns="" xml:id="c56-0071.06"/>
+            <lb xmlns="" n="c56-0071__main__22"/>A serene sky 
+        <seg xml:id="C12_app408-fMS">
+               <del xmlns="" rend="strikethrough" xml:id="c56-0071__main__d5e14994">filled</del> and verdant
+        </seg>
+            <seg xml:id="C12_app409-fMS">
+               <del xmlns="" rend="strikethrough" xml:id="c56-0071__main__d5e14997">s</del> fields <lb xmlns="" n="c56-0071__main__23"/>filled me with
+        </seg>
+            <seg xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                  th:sID="C12_app410-fMS"/>
+        extasy.– <mod xml:id="c56-0071__main__d5e15003">
+               <mdel xmlns="">t</mdel>
                <sga-add place="intralinear" xml:id="c56-0071__main__d5e15007">T </sga-add>
             </mod> he <mod xml:id="c56-0071__main__d5e15011">
-               <sga-add place="sublinear" xml:id="c56-0071__main__d5e15013">
-                  <metamark function="insert">^</metamark>
-                  <seg xml:id="C12_app410-fMS_end"/>
-               </sga-add>
+               <sga-add xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                         place="sublinear"
+                         th:sID="c56-0071__main__d5e15013"/>
+               <metamark xmlns="" function="insert">^</metamark>
                <sga-add place="superlinear" xml:id="c56-0071__main__d5e15019">present </sga-add>
-            </mod>season was indeed <seg xml:id="C12_app413-fMS_start"/>
-            <lb n="c56-0071__main__24"/>divine –<seg xml:id="C12_app413-fMS_end"/>the flowers of spring <seg xml:id="C12_app415-fMS_start"/>
-            <mod xml:id="c56-0071__main__d5e15025">
-               <del rend="strikethrough" xml:id="c56-0071__main__d5e15027">blossomed</del>
-               <sga-add place="sublinear" xml:id="c56-0071__main__d5e15030">
-                  <metamark function="insert">^</metamark>
-               </sga-add>
-               <sga-add place="superlinear" xml:id="c56-0071__main__d5e15036">bloomed<seg xml:id="C12_app415-fMS_end"/>
-               </sga-add>
-            </mod>in the <seg xml:id="C12_app417-fMS_start"/>
-            <lb n="c56-0071__main__25"/>hedges<seg xml:id="C12_app417-fMS_end"/>while those of summer were <w ana="start"/>al<lb n="c56-0071__main__26"/>ready<w ana="end"/> in <seg xml:id="C12_app419-fMS_start"/>bud–<seg xml:id="C12_app419-fMS_end"/>I <seg xml:id="C12_app421-fMS_start"/>
-            <del rend="strikethrough" xml:id="c56-0071__main__d5e15049">dis</del> was<seg xml:id="C12_app421-fMS_end"/>
-            <seg xml:id="C12_app422-fMS_start"/>not disturbed<seg xml:id="C12_app422-fMS_end"/>by <lb n="c56-0071__main__27"/>thoughts <seg xml:id="C12_app424-fMS_start"/>that<seg xml:id="C12_app424-fMS_end"/>during the <seg xml:id="C12_app426-fMS_start"/>preceeding<seg xml:id="C12_app426-fMS_end"/>
-            <lb n="c56-0071__main__28"/>year pressed upon <seg xml:id="C12_app430-fMS_start"/>me not <w ana="start"/>withstand<lb n="c56-0071__main__29"/>ing<w ana="end"/>
-            <seg xml:id="C12_app430-fMS_end"/>my endeavours to throw them <seg xml:id="C12_app432-fMS_start"/>off<seg xml:id="C12_app432-fMS_end"/>
-            <sga-add hand="#pbs" place="sublinear" xml:id="c56-0071__main__d5e15063">with an invincible <seg xml:id="C12_app434-fMS_start"/>burthen.<seg xml:id="C12_app434-fMS_end"/>
-            </sga-add>
-            <lb n="c56-0071__main__30"/>Henry <seg xml:id="C12_app436-fMS_start"/>
-            <del rend="strikethrough" xml:id="c56-0071__main__d5e15068">a</del> rejoiced<seg xml:id="C12_app436-fMS_end"/>
-            <seg xml:id="C12_app437-fMS_start"/>
-            <del rend="strikethrough" xml:id="c56-0071__main__d5e15072">im</del> in my<seg xml:id="C12_app437-fMS_end"/>
-            <seg xml:id="C12_app438-fMS_start"/>gaiety<seg xml:id="C12_app438-fMS_end"/>and <lb n="c56-0071__main__31"/>sincerely <seg xml:id="C12_app440-fMS_start"/>sympathized<seg xml:id="C12_app440-fMS_end"/>in my <seg xml:id="C12_app442-fMS_start"/>
-            <mod xml:id="c56-0071__main__d5e15077">
-               <del rend="strikethrough" xml:id="c56-0071__main__d5e15079">joy</del>
-               <sga-add place="superlinear" xml:id="c56-0071__main__d5e15082">feelings </sga-add>
-            </mod> –<seg xml:id="C12_app442-fMS_end"/>he <w ana="start"/>exer<lb n="c56-0072__main__1"/>ted<w ana="end"/> himself to amuse me, while he expressed <lb n="c56-0072__main__2"/>the <seg xml:id="C12_app444-fMS_start"/>feelings<seg xml:id="C12_app444-fMS_end"/>that <seg xml:id="C12_app446-fMS_start"/>
-            <del rend="strikethrough" xml:id="c56-0072__main__d5e15103">al</del> filled his<seg xml:id="C12_app446-fMS_end"/>
-            <seg xml:id="C12_app447-fMS_start"/>
-            <mod xml:id="c56-0072__main__d5e15106">
-               <del rend="strikethrough" xml:id="c56-0072__main__d5e15108">mind</del>
-               <sga-add place="sublinear" xml:id="c56-0072__main__d5e15111">
-                  <metamark function="insert">^</metamark>
-               </sga-add>
-               <sga-add place="superlinear" xml:id="c56-0072__main__d5e15117">soul </sga-add>
-            </mod> .<seg xml:id="C12_app447-fMS_end"/>The <lb n="c56-0072__main__3"/>resources of his mind on this occasion <lb n="c56-0072__main__4"/>were truly <seg xml:id="C12_app449-fMS_start"/>astonishing. <delSpan rend="strikethrough" spanTo="#c56-0072.01"/>As we rested during <lb n="c56-0072__main__5"/>the sultry heat of noon he invented <delSpan anchor="c56-0072.01"/>
-            <lb n="c56-0072__main__6"/>his<seg xml:id="C12_app449-fMS_end"/>conversation was full of <seg xml:id="C12_app451-fMS_start"/>imagination<seg xml:id="C12_app451-fMS_end"/>
-            <lb n="c56-0072__main__7"/>and very often, in imitation of the <seg xml:id="C12_app453-fMS_start"/>
-            <w ana="start"/>persi<lb n="c56-0072__main__8"/>an<w ana="end"/>&amp;<seg xml:id="C12_app453-fMS_end"/>Arabic writers, he invented tales <lb n="c56-0072__main__9"/>of <seg xml:id="C12_app455-fMS_start"/>
-            <mod xml:id="c56-0072__main__d5e15145">
-               <del rend="strikethrough" xml:id="c56-0072__main__d5e15147">great</del>
-               <sga-add place="sublinear" xml:id="c56-0072__main__d5e15150">
-                  <metamark function="insert">^</metamark>
-               </sga-add>
-               <sga-add place="superlinear" xml:id="c56-0072__main__d5e15156">wonderful<seg xml:id="C12_app455-fMS_end"/>
-               </sga-add>
-            </mod>fancy and <seg xml:id="C12_app457-fMS_start"/>interrest.<seg xml:id="C12_app457-fMS_end"/>At other <lb n="c56-0072__main__10"/>times he repeated my favourite <seg xml:id="C12_app459-fMS_start"/>poems<seg xml:id="C12_app459-fMS_end"/>
-            <lb n="c56-0072__main__11"/>or drew me out into <seg xml:id="C12_app461-fMS_start"/>arguments<seg xml:id="C12_app461-fMS_end"/>which <lb n="c56-0072__main__12"/>he supported with great ingenuity. <milestone unit="tei:p-END"/>
-            <milestone unit="tei:p-START"/>
-            <lb n="c56-0072__main__13"/>We returned <seg xml:id="C12_app463-fMS_start"/>
-            <mod xml:id="c56-0072__main__d5e15171">
-               <sga-add place="sublinear" xml:id="c56-0072__main__d5e15173">
-                  <metamark function="insert">^</metamark>
-               </sga-add>
-               <sga-add place="superlinear" xml:id="c56-0072__main__d5e15179">to our<seg xml:id="C12_app463-fMS_end"/>
-                  <seg xml:id="C12_app464-fMS_start"/>colledge </sga-add>
             </mod>
-            <seg xml:id="C12_app464-fMS_end"/>on a sunday <seg xml:id="C12_app466-fMS_start"/>–<seg xml:id="C12_app466-fMS_end"/>the <seg xml:id="C12_app468-fMS_start"/>pea <lb n="c56-0072__main__14"/>sants<seg xml:id="C12_app468-fMS_end"/>were <seg xml:id="C12_app470-fMS_start"/>dancing<seg xml:id="C12_app470-fMS_end"/>and every one we <lb n="c56-0072__main__15"/>met appeared <seg xml:id="C12_app472-fMS_start"/>joyful<seg xml:id="C12_app472-fMS_end"/>and <seg xml:id="C12_app474-fMS_start"/>happy –<seg xml:id="C12_app474-fMS_end"/>my <lb n="c56-0072__main__16"/>own spirits were <seg xml:id="C12_app476-fMS_start"/>high<seg xml:id="C12_app476-fMS_end"/>and I bounded <lb n="c56-0072__main__17"/>along with <seg xml:id="C12_app478-fMS_start"/>
-            <del rend="strikethrough" xml:id="c56-0072__main__d5e15192">a</del> feelings of<seg xml:id="C12_app478-fMS_end"/>
-            <seg xml:id="C12_app479-fMS_start"/>
-            <del rend="strikethrough" xml:id="c56-0072__main__d5e15195">hilarity</del>
-            <delSpan rend="strikethrough" spanTo="#c56-0072.03"/>unbound <lb n="c56-0072__main__18"/>ed <delSpan anchor="c56-0072.03"/>
-            <anchor xml:id="c56-0072.04"/>
-            <lb n="c56-0072__left_margin__1"/>
-            <sga-add xml:id="c56-0072__left_margin__d5e15211">unbridled </sga-add>
-            <anchor xml:id="c56-0072.02"/>
-            <seg xml:id="C12_app479-fMS_end"/>joy and hilarity. <seg xml:id="C12_app481-fMS_start"/>
-            <lb n="c56-0072__main__19"/>
-            <sga-add xml:id="c56-0072__main__d5e15219">
-               <metamark function="count">20</metamark>
-               <seg xml:id="C12_app481-fMS_end"/>
-               <seg xml:id="C12_app482-fMS_start"/>
+            <metamark xmlns="" function="insert">^</metamark>
+            <sga-add place="superlinear" xml:id="c56-0071__main__d5e15019">present </sga-add>
+            <mod xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                  th:eID="c56-0071__main__d5e15011"/>season was indeed 
+        <seg xml:id="C12_app413-fMS">
+               <lb xmlns="" n="c56-0071__main__24"/>divine –
+        </seg>
+    the flowers of spring 
+        <seg xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                  th:sID="C12_app415-fMS"/>
+            <mod xml:id="c56-0071__main__d5e15025">
+               <del xmlns="" rend="strikethrough" xml:id="c56-0071__main__d5e15027">blossomed</del>
+               <sga-add place="sublinear" xml:id="c56-0071__main__d5e15030">
+                  <metamark xmlns="" function="insert">^</metamark>
+               </sga-add>
+               <sga-add xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                         place="superlinear"
+                         th:sID="c56-0071__main__d5e15036"/>bloomed
+        
+            </mod>bloomed
+        
+            <mod xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                  th:eID="c56-0071__main__d5e15025"/>in the 
+        <seg xml:id="C12_app417-fMS">
+               <lb xmlns="" n="c56-0071__main__25"/>hedges
+        </seg>
+    while those of summer were <w xmlns="" ana="start"/>al<lb xmlns="" n="c56-0071__main__26"/>ready<w xmlns="" ana="end"/> in 
+        <seg xml:id="C12_app419-fMS">
+        bud–
+        </seg>
+    I 
+        <seg xml:id="C12_app421-fMS">
+               <del xmlns="" rend="strikethrough" xml:id="c56-0071__main__d5e15049">dis</del> was
+        </seg>
+            <seg xml:id="C12_app422-fMS">
+        not disturbed
+        </seg>
+    by <lb xmlns="" n="c56-0071__main__27"/>thoughts 
+        <seg xml:id="C12_app424-fMS">
+        that
+        </seg>
+    during the 
+        <seg xml:id="C12_app426-fMS">
+        preceeding
+        </seg>
+            <lb xmlns="" n="c56-0071__main__28"/>year pressed upon 
+        <seg xml:id="C12_app430-fMS">
+        me not <w xmlns="" ana="start"/>withstand<lb xmlns="" n="c56-0071__main__29"/>ing<w xmlns="" ana="end"/>
+            </seg>
+    my endeavours to throw them 
+        <seg xml:id="C12_app432-fMS">
+        off
+        </seg>
+            <sga-add hand="#pbs" place="sublinear" xml:id="c56-0071__main__d5e15063">with an invincible 
+        <seg xml:id="C12_app434-fMS">
+        burthen.
+        </seg>
             </sga-add>
-            <lb n="c56-0072__main__20"/>
-            <sga-add xml:id="c56-0072__main__d5e15227">
-               <seg xml:id="C12_app482-fMS_end"/>
-               <metamark function="count">15</metamark>
+            <lb xmlns="" n="c56-0071__main__30"/>Henry 
+        <seg xml:id="C12_app436-fMS">
+               <del xmlns="" rend="strikethrough" xml:id="c56-0071__main__d5e15068">a</del> rejoiced
+        </seg>
+            <seg xml:id="C12_app437-fMS">
+               <del xmlns="" rend="strikethrough" xml:id="c56-0071__main__d5e15072">im</del> in my
+        </seg>
+            <seg xml:id="C12_app438-fMS">
+        gaiety
+        </seg>
+    and <lb xmlns="" n="c56-0071__main__31"/>sincerely 
+        <seg xml:id="C12_app440-fMS">
+        sympathized
+        </seg>
+    in my 
+        <seg xml:id="C12_app442-fMS">
+               <mod xml:id="c56-0071__main__d5e15077">
+                  <del xmlns="" rend="strikethrough" xml:id="c56-0071__main__d5e15079">joy</del>
+                  <sga-add place="superlinear" xml:id="c56-0071__main__d5e15082">feelings </sga-add>
+               </mod> –
+        </seg>
+    he <w xmlns="" ana="start"/>exer<lb xmlns="" n="c56-0072__main__1"/>ted<w xmlns="" ana="end"/> himself to amuse me, while he expressed <lb xmlns="" n="c56-0072__main__2"/>the 
+        <seg xml:id="C12_app444-fMS">
+        feelings
+        </seg>
+    that 
+        <seg xml:id="C12_app446-fMS">
+               <del xmlns="" rend="strikethrough" xml:id="c56-0072__main__d5e15103">al</del> filled his
+        </seg>
+            <seg xml:id="C12_app447-fMS">
+               <mod xml:id="c56-0072__main__d5e15106">
+                  <del xmlns="" rend="strikethrough" xml:id="c56-0072__main__d5e15108">mind</del>
+                  <sga-add place="sublinear" xml:id="c56-0072__main__d5e15111">
+                     <metamark xmlns="" function="insert">^</metamark>
+                  </sga-add>
+                  <sga-add place="superlinear" xml:id="c56-0072__main__d5e15117">soul </sga-add>
+               </mod> .
+        </seg>
+    The <lb xmlns="" n="c56-0072__main__3"/>resources of his mind on this occasion <lb xmlns="" n="c56-0072__main__4"/>were truly 
+        <seg xml:id="C12_app449-fMS">
+        astonishing. <delSpan xmlns="" rend="strikethrough" spanTo="#c56-0072.01"/>As we rested during <lb xmlns="" n="c56-0072__main__5"/>the sultry heat of noon he invented <delSpan xmlns="" anchor="c56-0072.01"/>
+               <lb xmlns="" n="c56-0072__main__6"/>his
+        </seg>
+    conversation was full of 
+        <seg xml:id="C12_app451-fMS">
+        imagination
+        </seg>
+            <lb xmlns="" n="c56-0072__main__7"/>and very often, in imitation of the 
+        <seg xml:id="C12_app453-fMS">
+               <w xmlns="" ana="start"/>persi<lb xmlns="" n="c56-0072__main__8"/>an<w xmlns="" ana="end"/>&amp;
+        </seg>
+    Arabic writers, he invented tales <lb xmlns="" n="c56-0072__main__9"/>of 
+        <seg xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                  th:sID="C12_app455-fMS"/>
+            <mod xml:id="c56-0072__main__d5e15145">
+               <del xmlns="" rend="strikethrough" xml:id="c56-0072__main__d5e15147">great</del>
+               <sga-add place="sublinear" xml:id="c56-0072__main__d5e15150">
+                  <metamark xmlns="" function="insert">^</metamark>
+               </sga-add>
+               <sga-add xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                         place="superlinear"
+                         th:sID="c56-0072__main__d5e15156"/>wonderful
+        
+            </mod>wonderful
+        
+            <mod xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                  th:eID="c56-0072__main__d5e15145"/>fancy and 
+        <seg xml:id="C12_app457-fMS">
+        interrest.
+        </seg>
+    At other <lb xmlns="" n="c56-0072__main__10"/>times he repeated my favourite 
+        <seg xml:id="C12_app459-fMS">
+        poems
+        </seg>
+            <lb xmlns="" n="c56-0072__main__11"/>or drew me out into 
+        <seg xml:id="C12_app461-fMS">
+        arguments
+        </seg>
+    which <lb xmlns="" n="c56-0072__main__12"/>he supported with great ingenuity. <milestone xmlns="" unit="tei:p-END"/>
+            <milestone xmlns="" unit="tei:p-START"/>
+            <lb xmlns="" n="c56-0072__main__13"/>We returned 
+        <seg xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                  th:sID="C12_app463-fMS"/>
+            <mod xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                  th:sID="c56-0072__main__d5e15171"/>
+            <sga-add place="sublinear" xml:id="c56-0072__main__d5e15173">
+               <metamark xmlns="" function="insert">^</metamark>
             </sga-add>
+            <sga-add place="superlinear" xml:id="c56-0072__main__d5e15179">to our
+        
+        colledge </sga-add>
+            
+    on a sunday 
+        <seg xml:id="C12_app466-fMS">
+        –
+        </seg>
+    the 
+        <seg xml:id="C12_app468-fMS">
+        pea <lb xmlns="" n="c56-0072__main__14"/>sants
+        </seg>
+    were 
+        <seg xml:id="C12_app470-fMS">
+        dancing
+        </seg>
+    and every one we <lb xmlns="" n="c56-0072__main__15"/>met appeared 
+        <seg xml:id="C12_app472-fMS">
+        joyful
+        </seg>
+    and 
+        <seg xml:id="C12_app474-fMS">
+        happy –
+        </seg>
+    my <lb xmlns="" n="c56-0072__main__16"/>own spirits were 
+        <seg xml:id="C12_app476-fMS">
+        high
+        </seg>
+    and I bounded <lb xmlns="" n="c56-0072__main__17"/>along with 
+        <seg xml:id="C12_app478-fMS">
+               <del xmlns="" rend="strikethrough" xml:id="c56-0072__main__d5e15192">a</del> feelings of
+        </seg>
+            <seg xml:id="C12_app479-fMS">
+               <del xmlns="" rend="strikethrough" xml:id="c56-0072__main__d5e15195">hilarity</del>
+               <delSpan xmlns="" rend="strikethrough" spanTo="#c56-0072.03"/>unbound <lb xmlns="" n="c56-0072__main__18"/>ed <delSpan xmlns="" anchor="c56-0072.03"/>
+               <anchor xmlns="" xml:id="c56-0072.04"/>
+               <lb xmlns="" n="c56-0072__left_margin__1"/>
+               <sga-add xml:id="c56-0072__left_margin__d5e15211">unbridled </sga-add>
+               <anchor xmlns="" xml:id="c56-0072.02"/>
+            </seg>
+    joy and hilarity. 
+        <seg xml:id="C12_app481-fMS">
+               <lb xmlns="" n="c56-0072__main__19"/>
+               <sga-add xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                         th:sID="c56-0072__main__d5e15219"/>
+               <metamark xmlns="" function="count">20</metamark>
+            </seg>
+            <metamark xmlns="" function="count">20</metamark>
          </div>
       </body>
    </text>

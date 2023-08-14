@@ -8,7 +8,9 @@
          <titleStmt>
             <title>Bridge Phase 5:  Witness fThomas, Collation unit C24</title>
          </titleStmt>
-         <publicationStmt xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+         <publicationStmt xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                           xmlns:tei="http://www.tei-c.org/ns/1.0"
+                           xmlns:xs="http://www.w3.org/2001/XMLSchema">
             <authority>Frankenstein Variorum Project</authority>
             <date>2023—</date>
             <availability>
@@ -16,251 +18,603 @@
                                         Attribution-ShareAlike 3.0 Unported License</licence>
             </availability>
          </publicationStmt>
-         <sourceDesc xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+         <sourceDesc xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                      xmlns:tei="http://www.tei-c.org/ns/1.0"
+                      xmlns:xs="http://www.w3.org/2001/XMLSchema">
             <p>Produced from collation output prepared in batch file processing
                                     on  2023-08-10 04:59:47.522273 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-13T15:56:26.205192-04:00.</p>
+                                    Variorum spine on 2023-08-13T22:02:36.149836-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
          <div type="collation">
-            <anchor type="collate" xml:id="C24"/>
-            <milestone unit="chapter" type="start" n="17"/>
-            <seg th:sID="C24_app2-fThomas__I" part="I"/>
-            <head>CHAPTER I.</head>
-            <p xml:id="novel1_letter4_chapter17_div4_div19_p1">D<hi xml:id="novel1_letter4_chapter17_div4_div19_p1_hi1">AY</hi>
-               <seg th:eID="C24_app2-fThomas__F" part="F"/>after day, week after <seg th:sID="C24_app4-fThomas"/>week,<seg th:eID="C24_app4-fThomas"/>passed away on my return to  <seg th:sID="C24_app7-fThomas"/>Geneva;<seg th:eID="C24_app7-fThomas"/>and I <seg th:sID="C24_app9-fThomas"/>could<seg th:eID="C24_app9-fThomas"/>not <seg th:sID="C24_app11-fThomas"/>collect<seg th:eID="C24_app11-fThomas"/>the courage to <seg th:sID="C24_app13-fThomas"/>recommence<seg th:eID="C24_app13-fThomas"/>my work. <seg th:sID="C24_app15-fThomas"/>I feared the vengeance of the disappointed fiend, yet I was unable to overcome my repugnance to the task which was enjoined me. I found that I could not compose a female without again devoting several months to profound study and labo<pb xml:id="F1818_v3_006" n="002"/>rious disquisition. I had heard of some discoveries having been made by an English philosopher, the knowledge of which was material to my success, and I sometimes thought of obtaining my father’s consent to visit England for this purpose; but I clung to every pretence of delay, and could not resolve to interrupt my returning tranquillity. My health, which had hitherto declined, was now much restored;<seg th:eID="C24_app15-fThomas"/>and my <seg th:sID="C24_app17-fThomas"/>spirits,<seg th:eID="C24_app17-fThomas"/>when unchecked by the memory of my unhappy promise, rose <seg th:sID="C24_app19-fThomas"/>proportionably.<seg th:eID="C24_app19-fThomas"/>My father saw this <seg th:sID="C24_app21-fThomas"/>change<seg th:eID="C24_app21-fThomas"/>with <seg th:sID="C24_app23-fThomas"/>pleasure,<seg th:eID="C24_app23-fThomas"/>and he turned his thoughts towards the best <seg th:sID="C24_app25-fThomas"/>method<seg th:eID="C24_app25-fThomas"/>of eradicating the remains of my <seg th:sID="C24_app27-fThomas"/>melancholy,<seg th:eID="C24_app27-fThomas"/>which every now and then would return by <seg th:sID="C24_app29-fThomas"/>fits,<seg th:eID="C24_app29-fThomas"/>and with a devouring blackness overcast the approaching <seg th:sID="C24_app31-fThomas"/>sunshine.<seg th:eID="C24_app31-fThomas"/>At these moments I took refuge in the most perfect <seg th:sID="C24_app33-fThomas"/>solitude. I passed whole <pb xml:id="F1818_v3_007" n="003"/>days on the lake alone in a little boat,<seg th:eID="C24_app33-fThomas"/>watching the <seg th:sID="C24_app35-fThomas"/>clouds,<seg th:eID="C24_app35-fThomas"/>and listening to  the  <seg th:sID="C24_app39-fThomas"/>rippling<seg th:eID="C24_app39-fThomas"/>of the waves, silent and listless. But the fresh air and bright sun seldom failed to restore me to some degree of <seg th:sID="C24_app41-fThomas"/>composure; and,<seg th:eID="C24_app41-fThomas"/>on my <seg th:sID="C24_app43-fThomas"/>return,<seg th:eID="C24_app43-fThomas"/>I met the <seg th:sID="C24_app45-fThomas"/>salutations of my friends with a readier<seg th:eID="C24_app45-fThomas"/>
-               <seg th:sID="C24_app46-fThomas"/>smile<seg th:eID="C24_app46-fThomas"/>and a  more cheerful  <seg th:sID="C24_app50-fThomas__I" part="I"/>heart. </p>
-            <seg th:eID="C24_app50-fThomas__F" part="F"/>
-            <p xml:id="novel1_letter4_chapter17_div4_div19_p2"> It was after my return from one of <seg th:sID="C24_app52-fThomas"/>these<seg th:eID="C24_app52-fThomas"/>
-               <seg th:sID="C24_app53-fThomas"/>rambles<seg th:eID="C24_app53-fThomas"/>that my <seg th:sID="C24_app55-fThomas"/>father,<seg th:eID="C24_app55-fThomas"/>calling me <seg th:sID="C24_app57-fThomas"/>aside,<seg th:eID="C24_app57-fThomas"/>thus <seg th:sID="C24_app59-fThomas"/>addressed me:—<seg th:eID="C24_app59-fThomas"/>
+            <anchor xmlns="" type="collate" xml:id="C24"/>
+            <milestone xmlns="" unit="chapter" type="start" n="17"/>
+            <seg th:eID="__F" part="F"/>D<hi xml:id="novel1_letter4_chapter17_div4_div19_p1_hi1">AY</hi>
+            <seg th:eID="__F" part="F"/>
+    after day, week after 
+        <seg th:eID="__F" part="F"/>
+    passed away on my return to  
+        <seg th:eID="__F" part="F"/>
+    and I 
+        <seg th:eID="__F" part="F"/>
+    not 
+        <seg th:eID="__F" part="F"/>
+    the courage to 
+        <seg th:eID="__F" part="F"/>
+    my work. 
+        <seg th:eID="__F" part="F"/>
+    and my 
+        <seg th:eID="__F" part="F"/>
+    when unchecked by the memory of my unhappy promise, rose 
+        <seg th:eID="__F" part="F"/>
+    My father saw this 
+        <seg th:eID="__F" part="F"/>
+    with 
+        <seg th:eID="__F" part="F"/>
+    and he turned his thoughts towards the best 
+        <seg th:eID="__F" part="F"/>
+    of eradicating the remains of my 
+        <seg th:eID="__F" part="F"/>
+    which every now and then would return by 
+        <seg th:eID="__F" part="F"/>
+    and with a devouring blackness overcast the approaching 
+        <seg th:eID="__F" part="F"/>
+    At these moments I took refuge in the most perfect 
+        <seg th:eID="__F" part="F"/>
+    watching the 
+        <seg th:eID="__F" part="F"/>
+    and listening to  the  
+        <seg th:eID="__F" part="F"/>
+    of the waves, silent and listless. But the fresh air and bright sun seldom failed to restore me to some degree of 
+        <seg th:eID="__F" part="F"/>
+    on my 
+        <seg th:eID="__F" part="F"/>
+    I met the 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    and a  more cheerful  
+        <seg th:eID="__F" part="F"/>
+        heart. 
+            <p xml:id="novel1_letter4_chapter17_div4_div19_p2"> It was after my return from one of 
+        <seg th:eID="__F" part="F"/>
+               <seg th:eID="__F" part="F"/>
+    that my 
+        <seg th:eID="__F" part="F"/>
+    calling me 
+        <seg th:eID="__F" part="F"/>
+    thus 
+        <seg th:eID="__F" part="F"/>
             </p>
-            <p xml:id="novel1_letter4_chapter17_div4_div19_p3">
-               <seg th:sID="C24_app61-fThomas"/>“I<seg th:eID="C24_app61-fThomas"/>am happy to remark, my dear son, that <seg th:sID="C24_app63-fThomas"/>you have<seg th:eID="C24_app63-fThomas"/>
-               <seg th:sID="C24_app64-fThomas"/>resumed your former<seg th:eID="C24_app64-fThomas"/>
-               <seg th:sID="C24_app65-fThomas"/>pleasures,<seg th:eID="C24_app65-fThomas"/>and seem to be returning to yourself. And yet <seg th:sID="C24_app67-fThomas"/>you are still<seg th:eID="C24_app67-fThomas"/>
-               <seg th:sID="C24_app68-fThomas"/>unhappy,<seg th:eID="C24_app68-fThomas"/>and still avoid our society. <seg th:sID="C24_app70-fThomas__I" part="I"/>For some time I was lost in conjecture as to the cause of this; but yesterday an idea struck me, and if it is well founded, I conjure you to avow it. Reserve on such a point would be not only <pb xml:id="F1818_v3_008" n="004"/>useless, but draw down treble misery on us all.” </p>
-            <p xml:id="novel1_letter4_chapter17_div4_div19_p4"> I trembled violently at<seg th:eID="C24_app70-fThomas__F" part="F"/>
-               <seg th:sID="C24_app71-fThomas"/>this<seg th:eID="C24_app71-fThomas"/>
-               <seg th:sID="C24_app72-fThomas__I" part="I"/>exordium, and my father continued— </p>
-            <p xml:id="novel1_letter4_chapter17_div4_div19_p5"> “I confess, my son, that I have always looked forward to your marriage with<seg th:eID="C24_app72-fThomas__F" part="F"/>
-               <seg th:sID="C24_app73-fThomas"/>your cousin<seg th:eID="C24_app73-fThomas"/>
-               <seg th:sID="C24_app74-fThomas"/>as the tie of our domestic comfort, and the stay of my declining years. You were attached to each other from your earliest infancy; you studied together, and appeared, in dispositions and tastes, entirely suited to one another. But so blind is the experience of man, that what I conceived to be the best assistants to my<seg th:eID="C24_app74-fThomas"/>
-               <seg th:sID="C24_app75-fThomas"/>plan<seg th:eID="C24_app75-fThomas"/>
-               <seg th:sID="C24_app76-fThomas"/>may have entirely destroyed it. You, perhaps, regard her as your sister, without any wish that she might become your wife. Nay, you may have met with another whom you may love; and, considering yourself as bound in honour to<seg th:eID="C24_app76-fThomas"/>
-               <seg th:sID="C24_app77-fThomas"/>your cousin,<seg th:eID="C24_app77-fThomas"/>
-               <seg th:sID="C24_app78-fThomas__I" part="I"/>this struggle <pb xml:id="F1818_v3_009" n="005"/>may occasion the poignant misery which you appear to feel.” </p>
-            <p xml:id="novel1_letter4_chapter17_div4_div19_p6"> “My dear father, re-assure yourself. I love my cousin tenderly and sincerely. I never saw any<seg th:eID="C24_app78-fThomas__F" part="F"/>
-               <seg th:sID="C24_app79-fThomas"/>woman<seg th:eID="C24_app79-fThomas"/>
-               <seg th:sID="C24_app80-fThomas__I" part="I"/>who excited, as Elizabeth does, my warmest admiration and affection. My future hopes and prospects are entirely bound up in the expectation of our union.” </p>
-            <p xml:id="novel1_letter4_chapter17_div4_div19_p7"> “The expression of your sentiments on this subject, my dear Victor, gives me more pleasure than I have<seg th:eID="C24_app80-fThomas__F" part="F"/>for some time <seg th:sID="C24_app82-fThomas"/>experienced. If you feel thus, we shall assuredly be happy, however present events may cast a gloom over us.<seg th:eID="C24_app82-fThomas"/>But it is this <seg th:sID="C24_app84-fThomas"/>gloom,<seg th:eID="C24_app84-fThomas"/>which appears to have taken <seg th:sID="C24_app86-fThomas"/>so<seg th:eID="C24_app86-fThomas"/>strong a hold of your <seg th:sID="C24_app88-fThomas"/>mind,<seg th:eID="C24_app88-fThomas"/>that I wish to <seg th:sID="C24_app90-fThomas"/>dissipate.<seg th:eID="C24_app90-fThomas"/>Tell <seg th:sID="C24_app92-fThomas"/>me, therefore,<seg th:eID="C24_app92-fThomas"/>whether you object to an immediate <seg th:sID="C24_app94-fThomas"/>solemnization<seg th:eID="C24_app94-fThomas"/>of the marriage. We have been <seg th:sID="C24_app96-fThomas"/>unfortunate,<seg th:eID="C24_app96-fThomas"/>and recent events have drawn us from <pb xml:id="F1818_v3_010" n="006"/>that <seg th:sID="C24_app98-fThomas"/>every-day<seg th:eID="C24_app98-fThomas"/>tranquillity <seg th:sID="C24_app100-fThomas"/>befitting my years and infirmities. You are<seg th:eID="C24_app100-fThomas"/>
-               <seg th:sID="C24_app101-fThomas"/>younger;<seg th:eID="C24_app101-fThomas"/>yet I do not suppose, possessed as you are of a competent <seg th:sID="C24_app103-fThomas"/>fortune,<seg th:eID="C24_app103-fThomas"/>that an early marriage would at all interfere with any future plans of honour and utility <seg th:sID="C24_app105-fThomas"/>that you may have<seg th:eID="C24_app105-fThomas"/>
-               <seg th:sID="C24_app106-fThomas"/>formed.<seg th:eID="C24_app106-fThomas"/>Do not <seg th:sID="C24_app108-fThomas"/>suppose, however,<seg th:eID="C24_app108-fThomas"/>that I wish to dictate happiness to <seg th:sID="C24_app110-fThomas"/>you,<seg th:eID="C24_app110-fThomas"/>or that a delay on your part would cause me any <seg th:sID="C24_app112-fThomas"/>serious<seg th:eID="C24_app112-fThomas"/>
-               <seg th:sID="C24_app113-fThomas"/>uneasiness. Interpret<seg th:eID="C24_app113-fThomas"/>my words with <seg th:sID="C24_app115-fThomas"/>candour,<seg th:eID="C24_app115-fThomas"/>and answer <seg th:sID="C24_app117-fThomas"/>me,<seg th:eID="C24_app117-fThomas"/>I conjure <seg th:sID="C24_app119-fThomas"/>you,<seg th:eID="C24_app119-fThomas"/>with confidence and <seg th:sID="C24_app121-fThomas"/>sincerity.”<seg th:eID="C24_app121-fThomas"/>
-            </p>
-            <p xml:id="novel1_letter4_chapter17_div4_div19_p8"> I listened to my father in <seg th:sID="C24_app123-fThomas"/>silence,<seg th:eID="C24_app123-fThomas"/>and remained <seg th:sID="C24_app125-fThomas"/>for<seg th:eID="C24_app125-fThomas"/>
-               <seg th:sID="C24_app126-fThomas"/>some time incapable of<seg th:eID="C24_app126-fThomas"/>offering any reply. I revolved rapidly in my mind a multitude of <seg th:sID="C24_app128-fThomas"/>thoughts,<seg th:eID="C24_app128-fThomas"/>and <seg th:sID="C24_app130-fThomas"/>endeavoured to<seg th:eID="C24_app130-fThomas"/>
-               <seg th:sID="C24_app131-fThomas"/>arrive at<seg th:eID="C24_app131-fThomas"/>some conclusion. Alas! to me the idea of an immediate union with my <seg th:sID="C24_app133-fThomas"/>cousin<seg th:eID="C24_app133-fThomas"/>was one of horror and dismay. I was bound <pb xml:id="F1818_v3_011" n="007"/>by a solemn <seg th:sID="C24_app135-fThomas"/>promise,<seg th:eID="C24_app135-fThomas"/>which I had not yet <seg th:sID="C24_app137-fThomas"/>fulfilled,<seg th:eID="C24_app137-fThomas"/>and dared not break; <seg th:sID="C24_app139-fThomas"/>or,<seg th:eID="C24_app139-fThomas"/>if I <seg th:sID="C24_app141-fThomas"/>did,<seg th:eID="C24_app141-fThomas"/>what manifold miseries might not impend over me and <seg th:sID="C24_app143-fThomas"/>my devoted<seg th:eID="C24_app143-fThomas"/>family! <seg th:sID="C24_app145-fThomas"/>Could I enter into a festival with this deadly weight yet hanging round my<seg th:eID="C24_app145-fThomas"/>
-               <seg th:sID="C24_app146-fThomas"/>neck,<seg th:eID="C24_app146-fThomas"/>and bowing me to the ground. <seg th:sID="C24_app148-fThomas"/>I must<seg th:eID="C24_app148-fThomas"/>perform my  <seg th:sID="C24_app150-fThomas"/>engagement,<seg th:eID="C24_app150-fThomas"/>and let the monster depart with his <seg th:sID="C24_app152-fThomas"/>mate,<seg th:eID="C24_app152-fThomas"/>
-               <seg th:sID="C24_app153-fThomas__I" part="I"/>
-               <hi xml:id="novel1_letter4_chapter17_div4_div19_p8_hi1">before<seg th:eID="C24_app153-fThomas__F" part="F"/>I allowed myself to enjoy the delight of <seg th:sID="C24_app155-fThomas"/>an union<seg th:eID="C24_app155-fThomas"/>from which I expected <seg th:sID="C24_app157-fThomas__I" part="I"/>peace.</hi>
-               <seg th:eID="C24_app157-fThomas__F" part="F"/>
-               <seg th:sID="C24_app158-fThomas__I" part="I"/>
-            </p>
-            <p xml:id="novel1_letter4_chapter17_div4_div19_p9">
-               <seg th:eID="C24_app158-fThomas__F" part="F"/>I <seg th:sID="C24_app160-fThomas"/>remembered<seg th:eID="C24_app160-fThomas"/>also the necessity <seg th:sID="C24_app162-fThomas"/>imposed upon me<seg th:eID="C24_app162-fThomas"/>of either <seg th:sID="C24_app164-fThomas"/>journeying<seg th:eID="C24_app164-fThomas"/>to  <seg th:sID="C24_app166-fThomas"/>England,<seg th:eID="C24_app166-fThomas"/>or entering into a long correspondence with <seg th:sID="C24_app168-fThomas"/>those<seg th:eID="C24_app168-fThomas"/>philosophers of that  <seg th:sID="C24_app171-fThomas"/>country,<seg th:eID="C24_app171-fThomas"/>whose knowledge and discoveries <seg th:sID="C24_app173-fThomas"/>were<seg th:eID="C24_app173-fThomas"/>
-               <seg th:sID="C24_app174-fThomas"/>of<seg th:eID="C24_app174-fThomas"/>
-               <seg th:sID="C24_app175-fThomas"/>indispensable<seg th:eID="C24_app175-fThomas"/>
-               <seg th:sID="C24_app176-fThomas"/>use<seg th:eID="C24_app176-fThomas"/>to me <seg th:sID="C24_app178-fThomas"/>in my present<seg th:eID="C24_app178-fThomas"/>
-               <seg th:sID="C24_app179-fThomas"/>undertaking.<seg th:eID="C24_app179-fThomas"/>The latter method of obtaining the desired intelligence was dilatory and <seg th:sID="C24_app181-fThomas"/>unsatisfactory: besides,<seg th:eID="C24_app181-fThomas"/>
-               <seg th:sID="C24_app182-fThomas"/>any<seg th:eID="C24_app182-fThomas"/>
-               <seg th:sID="C24_app183-fThomas"/>variation<seg th:eID="C24_app183-fThomas"/>
-               <seg th:sID="C24_app184-fThomas"/>was<seg th:eID="C24_app184-fThomas"/>
-               <seg th:sID="C24_app185-fThomas"/>
-               <pb xml:id="F1818_v3_012" n="008"/>agreeable<seg th:eID="C24_app185-fThomas"/>
-               <seg th:sID="C24_app186-fThomas"/>to<seg th:eID="C24_app186-fThomas"/>
-               <seg th:sID="C24_app187-fThomas"/>me,<seg th:eID="C24_app187-fThomas"/>
-               <seg th:sID="C24_app188-fThomas"/>and I was delighted with the idea of spending a year or two<seg th:eID="C24_app188-fThomas"/>
-               <seg th:sID="C24_app189-fThomas"/>in change of scene and variety of<seg th:eID="C24_app189-fThomas"/>
-               <seg th:sID="C24_app190-fThomas"/>occupation,<seg th:eID="C24_app190-fThomas"/>
-               <seg th:sID="C24_app191-fThomas"/>in absence from<seg th:eID="C24_app191-fThomas"/>my <seg th:sID="C24_app193-fThomas"/>family;<seg th:eID="C24_app193-fThomas"/>
-               <seg th:sID="C24_app194-fThomas"/>during which <seg th:eID="C24_app194-fThomas"/>
-               <seg th:sID="C24_app195-fThomas"/>period<seg th:eID="C24_app195-fThomas"/>
-               <seg th:sID="C24_app196-fThomas"/>some event might happen which would restore me to them<seg th:eID="C24_app196-fThomas"/>in peace and <seg th:sID="C24_app198-fThomas"/>happiness:<seg th:eID="C24_app198-fThomas"/>my promise <seg th:sID="C24_app200-fThomas"/>might be<seg th:eID="C24_app200-fThomas"/>fulfilled, <seg th:sID="C24_app202-fThomas"/>and<seg th:eID="C24_app202-fThomas"/>the monster <seg th:sID="C24_app204-fThomas"/>have departed;<seg th:eID="C24_app204-fThomas"/>or <seg th:sID="C24_app206-fThomas"/>some<seg th:eID="C24_app206-fThomas"/>
-               <seg th:sID="C24_app207-fThomas"/>accident might<seg th:eID="C24_app207-fThomas"/>
-               <seg th:sID="C24_app208-fThomas"/>occur to destroy<seg th:eID="C24_app208-fThomas"/>
-               <seg th:sID="C24_app209-fThomas"/>him,<seg th:eID="C24_app209-fThomas"/>and put <seg th:sID="C24_app211-fThomas"/>an<seg th:eID="C24_app211-fThomas"/>end to my slavery for <seg th:sID="C24_app213-fThomas__I" part="I"/>ever. </p>
-            <p xml:id="novel1_letter4_chapter17_div4_div19_p10"> These<seg th:eID="C24_app213-fThomas__F" part="F"/>feelings dictated my answer to my father. I <seg th:sID="C24_app215-fThomas"/>expressed<seg th:eID="C24_app215-fThomas"/>
-               <seg th:sID="C24_app216-fThomas"/>a<seg th:eID="C24_app216-fThomas"/>wish  <seg th:sID="C24_app218-fThomas"/>to visit<seg th:eID="C24_app218-fThomas"/>
-               <seg th:sID="C24_app219-fThomas"/>England; but,<seg th:eID="C24_app219-fThomas"/>concealing <seg th:sID="C24_app221-fThomas"/>the<seg th:eID="C24_app221-fThomas"/>true reasons  <seg th:sID="C24_app223-fThomas"/>of this<seg th:eID="C24_app223-fThomas"/>
-               <seg th:sID="C24_app224-fThomas"/>request,<seg th:eID="C24_app224-fThomas"/>I clothed my desires under <seg th:sID="C24_app226-fThomas__I" part="I"/>the guise of wishing to travel and see the world before I sat down for life within the walls of my native town.</p>
-            <seg th:eID="C24_app226-fThomas__F" part="F"/>
-            <seg th:sID="C24_app227-fThomas__I" part="I"/>
-            <p xml:id="novel1_letter4_chapter17_div4_div19_p11"> I urged my<seg th:eID="C24_app227-fThomas__F" part="F"/>
-               <seg th:sID="C24_app228-fThomas"/>entreaty<seg th:eID="C24_app228-fThomas"/>
-               <seg th:sID="C24_app229-fThomas"/>with <seg th:eID="C24_app229-fThomas"/>
-               <seg th:sID="C24_app230-fThomas"/>earnestness,<seg th:eID="C24_app230-fThomas"/>
-               <seg th:sID="C24_app231-fThomas"/>and my father was easily induced to<seg th:eID="C24_app231-fThomas"/>
-               <seg th:sID="C24_app232-fThomas"/>comply;<seg th:eID="C24_app232-fThomas"/>
-               <seg th:sID="C24_app233-fThomas"/>for a more indulgent and<seg th:eID="C24_app233-fThomas"/>
-               <seg th:sID="C24_app234-fThomas"/>
-               <pb xml:id="F1818_v3_013" n="009"/>less dictatorial parent did not exist upon earth. Our plan was soon arranged. I should travel to<seg th:eID="C24_app234-fThomas"/>
-               <seg th:sID="C24_app235-fThomas"/>Strasburgh,<seg th:eID="C24_app235-fThomas"/>
-               <seg th:sID="C24_app236-fThomas"/>where Clerval would join<seg th:eID="C24_app236-fThomas"/>
-               <seg th:sID="C24_app237-fThomas"/>me.<seg th:eID="C24_app237-fThomas"/>
-               <seg th:sID="C24_app238-fThomas"/>Some short time would be spent in the towns of<seg th:eID="C24_app238-fThomas"/>
-               <seg th:sID="C24_app239-fThomas"/>Holland, and<seg th:eID="C24_app239-fThomas"/>
-               <seg th:sID="C24_app240-fThomas"/>our principal stay would be in England.<seg th:eID="C24_app240-fThomas"/>
-               <seg th:sID="C24_app241-fThomas"/>We should return by <seg th:eID="C24_app241-fThomas"/>
-               <seg th:sID="C24_app242-fThomas"/>France; and<seg th:eID="C24_app242-fThomas"/>
-               <seg th:sID="C24_app243-fThomas"/>it<seg th:eID="C24_app243-fThomas"/>
-               <seg th:sID="C24_app244-fThomas"/>was agreed that <seg th:eID="C24_app244-fThomas"/>
-               <seg th:sID="C24_app245-fThomas"/>the<seg th:eID="C24_app245-fThomas"/>
-               <seg th:sID="C24_app246-fThomas__I" part="I"/>tour should occupy the space of two years. </p>
-            <p xml:id="novel1_letter4_chapter17_div4_div19_p12"> My father pleased himself with the<seg th:eID="C24_app246-fThomas__F" part="F"/>
-               <seg th:sID="C24_app247-fThomas"/>reflection,<seg th:eID="C24_app247-fThomas"/>
-               <seg th:sID="C24_app248-fThomas"/>that<seg th:eID="C24_app248-fThomas"/>
-               <seg th:sID="C24_app249-fThomas"/>my union with Elizabeth should take place<seg th:eID="C24_app249-fThomas"/>
-               <seg th:sID="C24_app250-fThomas"/>immediately on my return to Geneva.<seg th:eID="C24_app250-fThomas"/>
-               <seg th:sID="C24_app251-fThomas"/>“These<seg th:eID="C24_app251-fThomas"/>
-               <seg th:sID="C24_app252-fThomas"/>two<seg th:eID="C24_app252-fThomas"/>
-               <seg th:sID="C24_app253-fThomas"/>years,”<seg th:eID="C24_app253-fThomas"/>
-               <seg th:sID="C24_app254-fThomas"/>said he,<seg th:eID="C24_app254-fThomas"/>
-               <seg th:sID="C24_app255-fThomas"/>“will<seg th:eID="C24_app255-fThomas"/>
-               <seg th:sID="C24_app256-fThomas"/>pass<seg th:eID="C24_app256-fThomas"/>
-               <seg th:sID="C24_app257-fThomas"/>swiftly,<seg th:eID="C24_app257-fThomas"/>
-               <seg th:sID="C24_app258-fThomas"/>and it will be the last delay that will oppose itself to your<seg th:eID="C24_app258-fThomas"/>
-               <seg th:sID="C24_app259-fThomas"/>happiness.<seg th:eID="C24_app259-fThomas"/>
-               <seg th:sID="C24_app260-fThomas__I" part="I"/>
-               <hi xml:id="novel1_letter4_chapter17_div4_div19_p12_hi1">And,<seg th:eID="C24_app260-fThomas__F" part="F"/>
-                  <seg th:sID="C24_app261-fThomas"/>indeed,<seg th:eID="C24_app261-fThomas"/>
-                  <seg th:sID="C24_app262-fThomas"/>I earnestly desire that period to<seg th:eID="C24_app262-fThomas"/>
-                  <seg th:sID="C24_app263-fThomas"/>arrive,<seg th:eID="C24_app263-fThomas"/>
-                  <seg th:sID="C24_app264-fThomas"/>when we shall all be<seg th:eID="C24_app264-fThomas"/>
-                  <seg th:sID="C24_app265-fThomas"/>united,<seg th:eID="C24_app265-fThomas"/>
-                  <seg th:sID="C24_app266-fThomas"/>and neither hopes or fears arise to disturb our domestic<seg th:eID="C24_app266-fThomas"/>
-                  <seg th:sID="C24_app267-fThomas__I" part="I"/>calm.</hi>”<seg th:eID="C24_app267-fThomas__F" part="F"/>
-               <seg th:sID="C24_app268-fThomas__I" part="I"/>
-            </p>
-            <p xml:id="novel1_letter4_chapter17_div4_div19_p13">
-               <seg th:eID="C24_app268-fThomas__F" part="F"/>
-               <seg th:sID="C24_app269-fThomas"/>“I<seg th:eID="C24_app269-fThomas"/>
-               <seg th:sID="C24_app270-fThomas"/>am<seg th:eID="C24_app270-fThomas"/>
-               <seg th:sID="C24_app271-fThomas"/>content,”<seg th:eID="C24_app271-fThomas"/>
-               <seg th:sID="C24_app272-fThomas"/>I<seg th:eID="C24_app272-fThomas"/>
-               <seg th:sID="C24_app273-fThomas"/>replied, “with<seg th:eID="C24_app273-fThomas"/>
-               <seg th:sID="C24_app274-fThomas"/>
-               <pb xml:id="F1818_v3_014" n="010"/>your arrangement. By that time we shall<seg th:eID="C24_app274-fThomas"/>
-               <seg th:sID="C24_app275-fThomas"/>both<seg th:eID="C24_app275-fThomas"/>
-               <seg th:sID="C24_app276-fThomas"/>have <seg th:eID="C24_app276-fThomas"/>
-               <seg th:sID="C24_app277-fThomas"/>become<seg th:eID="C24_app277-fThomas"/>
-               <seg th:sID="C24_app278-fThomas"/>wiser,<seg th:eID="C24_app278-fThomas"/>
-               <seg th:sID="C24_app279-fThomas"/>and I hope<seg th:eID="C24_app279-fThomas"/>
-               <seg th:sID="C24_app280-fThomas"/>happier,<seg th:eID="C24_app280-fThomas"/>
-               <seg th:sID="C24_app281-fThomas"/>than we<seg th:eID="C24_app281-fThomas"/>
-               <seg th:sID="C24_app282-fThomas"/>at present<seg th:eID="C24_app282-fThomas"/>
-               <seg th:sID="C24_app283-fThomas"/>are.”<seg th:eID="C24_app283-fThomas"/>
-               <seg th:sID="C24_app284-fThomas"/>I<seg th:eID="C24_app284-fThomas"/>
-               <seg th:sID="C24_app285-fThomas"/>sighed;<seg th:eID="C24_app285-fThomas"/>
-               <seg th:sID="C24_app286-fThomas"/>but my father kindly forbore<seg th:eID="C24_app286-fThomas"/>
-               <seg th:sID="C24_app287-fThomas"/>to<seg th:eID="C24_app287-fThomas"/>
-               <seg th:sID="C24_app288-fThomas"/>question me further<seg th:eID="C24_app288-fThomas"/>
-               <seg th:sID="C24_app289-fThomas"/>concerning the cause of my <seg th:eID="C24_app289-fThomas"/>
-               <seg th:sID="C24_app290-fThomas"/>dejection.<seg th:eID="C24_app290-fThomas"/>
-               <seg th:sID="C24_app291-fThomas"/>He hoped that new<seg th:eID="C24_app291-fThomas"/>
-               <seg th:sID="C24_app292-fThomas"/>scenes,<seg th:eID="C24_app292-fThomas"/>
-               <seg th:sID="C24_app293-fThomas"/>and the amusement of<seg th:eID="C24_app293-fThomas"/>
-               <seg th:sID="C24_app294-fThomas"/>travelling,<seg th:eID="C24_app294-fThomas"/>
-               <seg th:sID="C24_app295-fThomas"/>would restore my<seg th:eID="C24_app295-fThomas"/>
-               <seg th:sID="C24_app296-fThomas"/>tranquillity.<seg th:eID="C24_app296-fThomas"/>
-            </p>
-            <p xml:id="novel1_letter4_chapter17_div4_div19_p14"> I now <seg th:sID="C24_app298-fThomas"/>made arrangements<seg th:eID="C24_app298-fThomas"/>for my  <seg th:sID="C24_app300-fThomas"/>journey;<seg th:eID="C24_app300-fThomas"/>but one feeling haunted <seg th:sID="C24_app302-fThomas"/>me,<seg th:eID="C24_app302-fThomas"/>which filled <seg th:sID="C24_app304-fThomas"/>me with fear and agitation. During my absence I should leave my friends unconscious of the existence of their enemy, and unprotected from his attacks,<seg th:eID="C24_app304-fThomas"/>
-               <seg th:sID="C24_app305-fThomas"/>exasperated as he might be by my departure. But he had promised to follow me wherever I might<seg th:eID="C24_app305-fThomas"/>
-               <seg th:sID="C24_app306-fThomas"/>go;<seg th:eID="C24_app306-fThomas"/>and would he not accompany me to England? This <seg th:sID="C24_app308-fThomas"/>imagination<seg th:eID="C24_app308-fThomas"/>was dreadful in  <seg th:sID="C24_app310-fThomas"/>itself,<seg th:eID="C24_app310-fThomas"/>but <seg th:sID="C24_app312-fThomas"/>soothing, inasmuch<seg th:eID="C24_app312-fThomas"/>as <seg th:sID="C24_app314-fThomas"/>it supposed the safety of<seg th:eID="C24_app314-fThomas"/>my  <seg th:sID="C24_app316-fThomas"/>friends.<seg th:eID="C24_app316-fThomas"/>I was <seg th:sID="C24_app318-fThomas"/>agonized<seg th:eID="C24_app318-fThomas"/>with <seg th:sID="C24_app320-fThomas"/>the idea of<seg th:eID="C24_app320-fThomas"/>
-               <seg th:sID="C24_app321-fThomas"/>the<seg th:eID="C24_app321-fThomas"/>pos<pb xml:id="F1818_v3_015" n="011"/>sibility that the reverse of this might happen. <seg th:sID="C24_app323-fThomas"/>But<seg th:eID="C24_app323-fThomas"/>through the whole period during which I was the slave of my <seg th:sID="C24_app325-fThomas"/>creature,<seg th:eID="C24_app325-fThomas"/>I allowed myself to be <seg th:sID="C24_app327-fThomas"/>governed by<seg th:eID="C24_app327-fThomas"/>the impulses of the <seg th:sID="C24_app329-fThomas"/>moment;<seg th:eID="C24_app329-fThomas"/>and my <seg th:sID="C24_app331-fThomas"/>present sensations strongly intimated<seg th:eID="C24_app331-fThomas"/>
-               <seg th:sID="C24_app332-fThomas__I" part="I"/>that the fiend would follow me, and exempt my family from the danger of his machinations.</p>
-            <p xml:id="novel1_letter4_chapter17_div4_div19_p15">
-               <seg th:eID="C24_app332-fThomas__F" part="F"/>
-               <seg th:sID="C24_app333-fThomas"/>It was in the latter end of August that I departed, to pass two years of exile. Elizabeth approved of the reasons of my departure, and only regretted that she had not the same opportunities of enlarging her experience, and cultivating her understanding. She wept, however, as she bade me farewell, and entreated me to return happy and tranquil. “We all,” said she, “depend upon you; and if you are miserable, what must be our feelings?”<seg th:eID="C24_app333-fThomas"/>
-               <seg th:sID="C24_app334-fThomas__I" part="I"/>
-            </p>
-            <p xml:id="novel1_letter4_chapter17_div4_div19_p16">
-               <pb xml:id="F1818_v3_016" n="012"/>I threw myself into the carriage that was to convey me away, hardly knowing whither I was going, and careless of what was passing around. I remembered only, and it was with a bitter anguish that I reflected on it, to order that my chemical instruments should be packed to go with<seg th:eID="C24_app334-fThomas__F" part="F"/>
-               <seg th:sID="C24_app335-fThomas"/>me: for I resolved to fulfil my promise while abroad, and return, if possible, a free man.<seg th:eID="C24_app335-fThomas"/>
-               <seg th:sID="C24_app336-fThomas"/>Filled with dreary imaginations, I passed through<seg th:eID="C24_app336-fThomas"/>many beautiful and majestic <seg th:sID="C24_app338-fThomas"/>scenes;<seg th:eID="C24_app338-fThomas"/>but my eyes were fixed and <seg th:sID="C24_app340-fThomas"/>unobserving.<seg th:eID="C24_app340-fThomas"/>I <seg th:sID="C24_app342-fThomas"/>could only<seg th:eID="C24_app342-fThomas"/>
-               <seg th:sID="C24_app343-fThomas"/>think<seg th:eID="C24_app343-fThomas"/>of the bourne of my <seg th:sID="C24_app345-fThomas"/>travels,<seg th:eID="C24_app345-fThomas"/>and the work which was to occupy me whilst they endured. <seg th:sID="C24_app347-fThomas__I" part="I"/>
-            </p>
-            <p xml:id="novel1_letter4_chapter17_div4_div19_p17">
-               <seg th:eID="C24_app347-fThomas__F" part="F"/>After some days <seg th:sID="C24_app349-fThomas"/>spent<seg th:eID="C24_app349-fThomas"/>in listless <seg th:sID="C24_app351-fThomas"/>indolence,<seg th:eID="C24_app351-fThomas"/>during which I <seg th:sID="C24_app353-fThomas"/>traversed many<seg th:eID="C24_app353-fThomas"/>
-               <seg th:sID="C24_app354-fThomas"/>leagues,<seg th:eID="C24_app354-fThomas"/>I arrived at <seg th:sID="C24_app356-fThomas"/>Strasburgh,<seg th:eID="C24_app356-fThomas"/>where I waited two days for Clerval. He <seg th:sID="C24_app358-fThomas"/>came.<seg th:eID="C24_app358-fThomas"/>Alas, how great was the contrast between <seg th:sID="C24_app360-fThomas"/>
-               <pb xml:id="F1818_v3_017" n="013"/>us!<seg th:eID="C24_app360-fThomas"/>He was alive to every new scene; joyful when he saw the beauties of <seg th:sID="C24_app362-fThomas"/>the<seg th:eID="C24_app362-fThomas"/>
-               <seg th:sID="C24_app363-fThomas"/>setting sun,<seg th:eID="C24_app363-fThomas"/>and more happy when he <seg th:sID="C24_app365-fThomas"/>beheld<seg th:eID="C24_app365-fThomas"/>it <seg th:sID="C24_app367-fThomas"/>rise, and recommence<seg th:eID="C24_app367-fThomas"/>a new day. He pointed out to me the shifting colours <seg th:sID="C24_app369-fThomas"/>of the<seg th:eID="C24_app369-fThomas"/>
-               <seg th:sID="C24_app370-fThomas"/>landscape,<seg th:eID="C24_app370-fThomas"/>and the appearances of the sky. <seg th:sID="C24_app372-fThomas"/>“This<seg th:eID="C24_app372-fThomas"/>is what it is to <seg th:sID="C24_app374-fThomas"/>live,”<seg th:eID="C24_app374-fThomas"/>he cried, <seg th:sID="C24_app376-fThomas"/>“now<seg th:eID="C24_app376-fThomas"/>I enjoy <seg th:sID="C24_app378-fThomas"/>existence!<seg th:eID="C24_app378-fThomas"/>But you, my dear Frankenstein, <seg th:sID="C24_app380-fThomas"/>wherefore are you<seg th:eID="C24_app380-fThomas"/>desponding  <seg th:sID="C24_app382-fThomas"/>and<seg th:eID="C24_app382-fThomas"/>
-               <seg th:sID="C24_app383-fThomas"/>sorrowful?”<seg th:eID="C24_app383-fThomas"/>
-               <seg th:sID="C24_app384-fThomas"/>In truth,<seg th:eID="C24_app384-fThomas"/>I was occupied by gloomy <seg th:sID="C24_app386-fThomas"/>thoughts,<seg th:eID="C24_app386-fThomas"/>and neither saw the <seg th:sID="C24_app388-fThomas"/>descent<seg th:eID="C24_app388-fThomas"/>of the evening  <seg th:sID="C24_app390-fThomas"/>star,<seg th:eID="C24_app390-fThomas"/>nor the golden <seg th:sID="C24_app392-fThomas"/>sun-rise<seg th:eID="C24_app392-fThomas"/>reflected in the <seg th:sID="C24_app394-fThomas"/>Rhine.—And<seg th:eID="C24_app394-fThomas"/>you, my friend, would be far more amused with the journal of <seg th:sID="C24_app396-fThomas"/>Clerval,<seg th:eID="C24_app396-fThomas"/>who observed the scenery with an eye of feeling and delight, than <seg th:sID="C24_app398-fThomas"/>to listen<seg th:eID="C24_app398-fThomas"/>to my <seg th:sID="C24_app400-fThomas"/>reflections.<seg th:eID="C24_app400-fThomas"/>I, a miserable <seg th:sID="C24_app402-fThomas"/>wretch,<seg th:eID="C24_app402-fThomas"/>haunted by a curse that shut up every avenue to enjoyment. </p>
-            <p xml:id="novel1_letter4_chapter17_div4_div19_p18"> We had agreed to <seg th:sID="C24_app404-fThomas"/>descend<seg th:eID="C24_app404-fThomas"/>the Rhine <pb xml:id="F1818_v3_018" n="014"/>in a boat from <seg th:sID="C24_app406-fThomas"/>Strasburgh<seg th:eID="C24_app406-fThomas"/>to <seg th:sID="C24_app408-fThomas"/>Rotterdam,<seg th:eID="C24_app408-fThomas"/>whence we might take shipping for London. During this <seg th:sID="C24_app410-fThomas"/>voyage,<seg th:eID="C24_app410-fThomas"/>we passed <seg th:sID="C24_app412-fThomas"/>by<seg th:eID="C24_app412-fThomas"/>many willowy <seg th:sID="C24_app414-fThomas"/>islands,<seg th:eID="C24_app414-fThomas"/>and saw several beautiful towns. We <seg th:sID="C24_app416-fThomas"/>staid<seg th:eID="C24_app416-fThomas"/>a day at Manheim, <seg th:sID="C24_app418-fThomas"/>and,<seg th:eID="C24_app418-fThomas"/>on the fifth from our departure from <seg th:sID="C24_app420-fThomas"/>Strasburgh,<seg th:eID="C24_app420-fThomas"/>arrived at Mayence. The course of the Rhine below Mayence becomes much more picturesque. The river descends <seg th:sID="C24_app422-fThomas"/>rapidly,<seg th:eID="C24_app422-fThomas"/>and winds between <seg th:sID="C24_app424-fThomas"/>hills,<seg th:eID="C24_app424-fThomas"/>not <seg th:sID="C24_app426-fThomas"/>high,<seg th:eID="C24_app426-fThomas"/>but <seg th:sID="C24_app428-fThomas"/>steep,<seg th:eID="C24_app428-fThomas"/>and of beautiful forms. We saw many ruined <seg th:sID="C24_app430-fThomas"/>castles<seg th:eID="C24_app430-fThomas"/>standing on the edges <seg th:sID="C24_app432-fThomas"/>of<seg th:eID="C24_app432-fThomas"/>
-               <seg th:sID="C24_app433-fThomas"/>precipices,<seg th:eID="C24_app433-fThomas"/>surrounded by black <seg th:sID="C24_app435-fThomas"/>woods,<seg th:eID="C24_app435-fThomas"/>high and inaccessible. This part of the <seg th:sID="C24_app437-fThomas"/>Rhine, indeed,<seg th:eID="C24_app437-fThomas"/>presents a <seg th:sID="C24_app439-fThomas"/>singularly variegated<seg th:eID="C24_app439-fThomas"/>
-               <seg th:sID="C24_app440-fThomas"/>landscape.<seg th:eID="C24_app440-fThomas"/>In one spot you view rugged hills, ruined  <seg th:sID="C24_app443-fThomas"/>castles<seg th:eID="C24_app443-fThomas"/>overlooking tremendous <seg th:sID="C24_app445-fThomas"/>precipices,<seg th:eID="C24_app445-fThomas"/>with the dark Rhine rushing <seg th:sID="C24_app447-fThomas"/>beneath; and,<seg th:eID="C24_app447-fThomas"/>on the sudden turn of a <seg th:sID="C24_app449-fThomas"/>promontory,<seg th:eID="C24_app449-fThomas"/>flourishing <seg th:sID="C24_app451-fThomas"/>vineyards,<seg th:eID="C24_app451-fThomas"/>with <pb xml:id="F1818_v3_019" n="015"/>green sloping <seg th:sID="C24_app453-fThomas"/>banks,<seg th:eID="C24_app453-fThomas"/>and a meandering <seg th:sID="C24_app455-fThomas"/>river, and populous<seg th:eID="C24_app455-fThomas"/>
-               <seg th:sID="C24_app456-fThomas"/>towns,<seg th:eID="C24_app456-fThomas"/>occupy the scene. <seg th:sID="C24_app458-fThomas__I" part="I"/>
-            </p>
-            <p xml:id="novel1_letter4_chapter17_div4_div19_p19">
-               <seg th:eID="C24_app458-fThomas__F" part="F"/>We travelled at the time of the <seg th:sID="C24_app460-fThomas"/>vintage,<seg th:eID="C24_app460-fThomas"/>and heard the song of the <seg th:sID="C24_app462-fThomas"/>labourers,<seg th:eID="C24_app462-fThomas"/>as we glided down the stream. Even I, depressed in <seg th:sID="C24_app464-fThomas"/>mind <add place="margin">by remor</add> ,<seg th:eID="C24_app464-fThomas"/>and my spirits continually agitated by gloomy <seg th:sID="C24_app466-fThomas"/>feelings,<seg th:eID="C24_app466-fThomas"/>even I was pleased. I lay at the bottom of the <seg th:sID="C24_app468-fThomas"/>boat, and,<seg th:eID="C24_app468-fThomas"/>as I gazed on the cloudless blue <seg th:sID="C24_app470-fThomas"/>sky,<seg th:eID="C24_app470-fThomas"/>I <seg th:sID="C24_app472-fThomas"/>seemed to<seg th:eID="C24_app472-fThomas"/>
-               <seg th:sID="C24_app473-fThomas"/>drink<seg th:eID="C24_app473-fThomas"/>in a tranquillity to which I had long been a stranger. And if these were my <seg th:sID="C24_app475-fThomas"/>sensations,<seg th:eID="C24_app475-fThomas"/>who can describe those of <seg th:sID="C24_app477-fThomas"/>Henry?<seg th:eID="C24_app477-fThomas"/>He felt as if he had been transported to <seg th:sID="C24_app479-fThomas"/>Fairy-land,<seg th:eID="C24_app479-fThomas"/>and enjoyed a happiness seldom tasted by man. <seg th:sID="C24_app481-fThomas"/>“I<seg th:eID="C24_app481-fThomas"/>have <seg th:sID="C24_app483-fThomas"/>seen,”<seg th:eID="C24_app483-fThomas"/>he said, <seg th:sID="C24_app485-fThomas"/>“the<seg th:eID="C24_app485-fThomas"/>most beautiful scenes of my own <seg th:sID="C24_app487-fThomas"/>country;<seg th:eID="C24_app487-fThomas"/>I have <seg th:sID="C24_app489-fThomas"/>visited<seg th:eID="C24_app489-fThomas"/>the lakes of Lucerne and <seg th:sID="C24_app491-fThomas"/>Uri,<seg th:eID="C24_app491-fThomas"/>where the snowy mountains descend almost perpendicu<pb xml:id="F1818_v3_020" n="016"/>larly to the <seg th:sID="C24_app493-fThomas"/>water,<seg th:eID="C24_app493-fThomas"/>casting black and impenetrable <seg th:sID="C24_app495-fThomas"/>shades,<seg th:eID="C24_app495-fThomas"/>which <seg th:sID="C24_app497-fThomas"/>would cause<seg th:eID="C24_app497-fThomas"/>a gloomy and mournful  <seg th:sID="C24_app499-fThomas"/>appearance,<seg th:eID="C24_app499-fThomas"/>were it not for the most verdant islands that relieve the eye by their gay <seg th:sID="C24_app501-fThomas"/>appearance;<seg th:eID="C24_app501-fThomas"/>I have seen this lake agitated by a <seg th:sID="C24_app503-fThomas"/>tempest,<seg th:eID="C24_app503-fThomas"/>when the wind tore up whirlwinds of <seg th:sID="C24_app505-fThomas"/>water,<seg th:eID="C24_app505-fThomas"/>and gave you an idea of what the <seg th:sID="C24_app507-fThomas"/>water-spout<seg th:eID="C24_app507-fThomas"/>must be on the great <seg th:sID="C24_app509-fThomas"/>ocean, and<seg th:eID="C24_app509-fThomas"/>the waves dash with fury <seg th:sID="C24_app511-fThomas"/>the<seg th:eID="C24_app511-fThomas"/>
-               <seg th:sID="C24_app512-fThomas"/>base of the<seg th:eID="C24_app512-fThomas"/>
-               <seg th:sID="C24_app513-fThomas"/>mountain,<seg th:eID="C24_app513-fThomas"/>where the priest and his mistress were overwhelmed by an <seg th:sID="C24_app515-fThomas"/>avalanche,<seg th:eID="C24_app515-fThomas"/>and where their dying voices are still said to be heard amid the pauses of the <seg th:sID="C24_app517-fThomas"/>nightly wind;<seg th:eID="C24_app517-fThomas"/>I have seen the <seg th:sID="C24_app519-fThomas"/>mountains of La<seg th:eID="C24_app519-fThomas"/>
-               <seg th:sID="C24_app520-fThomas"/>Valais,<seg th:eID="C24_app520-fThomas"/>and the Pays de <seg th:sID="C24_app522-fThomas"/>Vaud:<seg th:eID="C24_app522-fThomas"/>but this country, Victor, pleases me more than all those wonders. The mountains of Switzerland are more majestic and <seg th:sID="C24_app524-fThomas"/>strange;<seg th:eID="C24_app524-fThomas"/>but there is a charm in the banks of this divine <seg th:sID="C24_app526-fThomas"/>river,<seg th:eID="C24_app526-fThomas"/>
-               <pb xml:id="F1818_v3_021" n="017"/>that I never before saw equalled. Look at that castle which overhangs <seg th:sID="C24_app528-fThomas"/>yon<seg th:eID="C24_app528-fThomas"/>
-               <seg th:sID="C24_app529-fThomas"/>precipice;<seg th:eID="C24_app529-fThomas"/>and that also on the <seg th:sID="C24_app531-fThomas"/>island,<seg th:eID="C24_app531-fThomas"/>almost concealed <seg th:sID="C24_app533-fThomas"/>amongst<seg th:eID="C24_app533-fThomas"/>the foliage of those lovely <seg th:sID="C24_app535-fThomas"/>trees; and<seg th:eID="C24_app535-fThomas"/>now that group of <seg th:sID="C24_app537-fThomas"/>labourers<seg th:eID="C24_app537-fThomas"/>coming from among their vines; and that village <seg th:sID="C24_app539-fThomas"/>half-hid<seg th:eID="C24_app539-fThomas"/>in the recess of the mountain. <seg th:sID="C24_app541-fThomas"/>Oh, surely,<seg th:eID="C24_app541-fThomas"/>the spirit that inhabits and guards this place has a soul more in <seg th:sID="C24_app543-fThomas"/>harmony<seg th:eID="C24_app543-fThomas"/>with  <seg th:sID="C24_app545-fThomas"/>man,<seg th:eID="C24_app545-fThomas"/>than those who pile the <seg th:sID="C24_app547-fThomas"/>glacier,<seg th:eID="C24_app547-fThomas"/>or retire to the inaccessible peaks of the mountains of our own <seg th:sID="C24_app549-fThomas__I" part="I"/>country.” </p>
-            <seg th:eID="C24_app549-fThomas__F" part="F"/>
-            <seg th:sID="C24_app550-fThomas__I" part="I"/>
-            <p xml:id="novel1_letter4_chapter17_div4_div19_p20">Clerval! beloved friend! even now it delights me to record your words, and to dwell on the praise of which you are so eminently deserving. He was a being formed in the <cit xml:id="novel1_letter4_chapter17_div4_div19_p20_cit1">
-                  <quote xml:id="novel1_letter4_chapter17_div4_div19_p20_cit1_quote1">“very poetry of nature.*”</quote>
-                  <note xml:id="novel1_letter4_chapter17_div4_div19_p20_cit1_note1">* <bibl/>Leigh Hunt’s “Rimini.”<bibl/>
-                  </note>
-               </cit> His wild and enthusiastic imagination was chastened by the sen<pb xml:id="F1818_v3_022" n="018"/>sibility of his heart. His soul overflowed with ardent affections, and his friendship was of that devoted and wondrous nature that the worldly-minded teach us to look for only in the imagination. But even human sympathies were not sufficient to satisfy his eager mind. The scenery of external nature, which others regard only with admiration, he loved with ardour:<seg th:eID="C24_app550-fThomas__F" part="F"/>
-               <seg th:sID="C24_app551-fThomas__I" part="I"/>
-               <cit xml:id="novel1_letter4_chapter17_div4_div19_p20_cit2">
-                  <quote xml:id="novel1_letter4_chapter17_div4_div19_p20_cit2_quote1">
-                     <lg xml:id="novel1_letter4_chapter17_div4_div19_p20_cit2_quote1_lg1">
-                        <l xml:id="novel1_letter4_chapter17_div4_div19_p20_cit2_quote1_lg1_l1"> ————————————“The sounding cataract </l>
-                        <l xml:id="novel1_letter4_chapter17_div4_div19_p20_cit2_quote1_lg1_l2"> Haunted<seg th:eID="C24_app551-fThomas__F" part="F"/>
-                           <seg th:sID="C24_app552-fThomas"/>
-                           <hi xml:id="novel1_letter4_chapter17_div4_div19_p20_cit2_quote1_lg1_l2_hi1">him</hi>
-                           <seg th:eID="C24_app552-fThomas"/>
-                           <seg th:sID="C24_app553-fThomas__I" part="I"/>like a passion: the tall rock, </l>
-                        <l xml:id="novel1_letter4_chapter17_div4_div19_p20_cit2_quote1_lg1_l3"> The mountain, and the deep and gloomy wood, </l>
-                        <l xml:id="novel1_letter4_chapter17_div4_div19_p20_cit2_quote1_lg1_l4"> Their colours and their forms, were then to him </l>
-                        <l xml:id="novel1_letter4_chapter17_div4_div19_p20_cit2_quote1_lg1_l5"> An appetite; a feeling, and a love, </l>
-                        <l xml:id="novel1_letter4_chapter17_div4_div19_p20_cit2_quote1_lg1_l6"> That had no need of a remoter charm, </l>
-                        <l xml:id="novel1_letter4_chapter17_div4_div19_p20_cit2_quote1_lg1_l7"> By thought supplied, or any interest </l>
-                        <l xml:id="novel1_letter4_chapter17_div4_div19_p20_cit2_quote1_lg1_l8">
-                           <seg th:eID="C24_app553-fThomas__F" part="F"/>
-                           <seg th:sID="C24_app554-fThomas"/>Unborrowed<seg th:eID="C24_app554-fThomas"/>
-                           <seg th:sID="C24_app555-fThomas__I" part="I"/>from the eye*.” </l>
-                     </lg>
-                  </quote>
-                  <seg th:eID="C24_app555-fThomas__F" part="F"/>
-                  <seg th:sID="C24_app556-fThomas"/>
-                  <note xml:id="novel1_letter4_chapter17_div4_div19_p20_cit2_note1">* <bibl/>Wordsworth’s "Tintern Abbey."<bibl/>
-                  </note>
-                  <seg th:eID="C24_app556-fThomas"/>
-                  <seg th:sID="C24_app557-fThomas__I" part="I"/>
-               </cit>
-            </p>
-            <p xml:id="novel1_letter4_chapter17_div4_div19_p21"> And where does he now exist? Is this gentle and lovely being lost<seg th:eID="C24_app557-fThomas__F" part="F"/>
-               <seg th:sID="C24_app558-fThomas"/>forever?<seg th:eID="C24_app558-fThomas"/>
-               <seg th:sID="C24_app559-fThomas"/>Has this<seg th:eID="C24_app559-fThomas"/>
-               <seg th:sID="C24_app560-fThomas"/>mind<seg th:eID="C24_app560-fThomas"/>
-               <seg th:sID="C24_app561-fThomas"/>so replete with <pb xml:id="F1818_v3_023" n="019"/>ideas, imaginations fanciful and magnificent, which formed a world, whose existence depended on the life of its<seg th:eID="C24_app561-fThomas"/>
-               <seg th:sID="C24_app562-fThomas"/>creator; has<seg th:eID="C24_app562-fThomas"/>
-               <seg th:sID="C24_app563-fThomas"/>this mind perished? Does it now only exist in my memory? No, it is not thus; your form so divinely wrought, and beaming with beauty, has decayed, but your spirit still visits and consoles your unhappy friend.<seg th:eID="C24_app563-fThomas"/>
-            </p>
-            <seg th:sID="C24_app565-fThomas"/>
-            <p xml:id="novel1_letter4_chapter17_div4_div19_p22"> Pardon this gush of sorrow; these ineffectual words are but a slight tribute to the unexampled worth of Henry, but they soothe my heart, overflowing with the anguish which his remembrance creates. I will proceed with my tale. </p>
-            <seg th:eID="C24_app565-fThomas"/>
+            <p th:sID="novel1_letter4_chapter17_div4_div19_p3"/>
+            <seg th:eID="__F" part="F"/>
+    am happy to remark, my dear son, that 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    and seem to be returning to yourself. And yet 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    and still avoid our society. 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    for some time 
+        <seg th:eID="__F" part="F"/>
+    But it is this 
+        <seg th:eID="__F" part="F"/>
+    which appears to have taken 
+        <seg th:eID="__F" part="F"/>
+    strong a hold of your 
+        <seg th:eID="__F" part="F"/>
+    that I wish to 
+        <seg th:eID="__F" part="F"/>
+    Tell 
+        <seg th:eID="__F" part="F"/>
+    whether you object to an immediate 
+        <seg th:eID="__F" part="F"/>
+    of the marriage. We have been 
+        <seg th:eID="__F" part="F"/>
+    and recent events have drawn us from <pb xmlns="" xml:id="F1818_v3_010" n="006"/>that 
+        <seg th:eID="__F" part="F"/>
+    tranquillity 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    yet I do not suppose, possessed as you are of a competent 
+        <seg th:eID="__F" part="F"/>
+    that an early marriage would at all interfere with any future plans of honour and utility 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    Do not 
+        <seg th:eID="__F" part="F"/>
+    that I wish to dictate happiness to 
+        <seg th:eID="__F" part="F"/>
+    or that a delay on your part would cause me any 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    my words with 
+        <seg th:eID="__F" part="F"/>
+    and answer 
+        <seg th:eID="__F" part="F"/>
+    I conjure 
+        <seg th:eID="__F" part="F"/>
+    with confidence and 
+        <seg th:eID="__F" part="F"/>
+            <p th:eID="novel1_letter4_chapter17_div4_div19_p7"/>
+            <p th:sID="novel1_letter4_chapter17_div4_div19_p8"/> I listened to my father in 
+        <seg th:eID="__F" part="F"/>
+    and remained 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    offering any reply. I revolved rapidly in my mind a multitude of 
+        <seg th:eID="__F" part="F"/>
+    and 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    some conclusion. Alas! to me the idea of an immediate union with my 
+        <seg th:eID="__F" part="F"/>
+    was one of horror and dismay. I was bound <pb xmlns="" xml:id="F1818_v3_011" n="007"/>by a solemn 
+        <seg th:eID="__F" part="F"/>
+    which I had not yet 
+        <seg th:eID="__F" part="F"/>
+    and dared not break; 
+        <seg th:eID="__F" part="F"/>
+    if I 
+        <seg th:eID="__F" part="F"/>
+    what manifold miseries might not impend over me and 
+        <seg th:eID="__F" part="F"/>
+    family! 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    and bowing me to the ground. 
+        <seg th:eID="__F" part="F"/>
+    perform my  
+        <seg th:eID="__F" part="F"/>
+    and let the monster depart with his 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>before
+        <seg th:eID="__F" part="F"/>
+    I allowed myself to enjoy the delight of 
+        <seg th:eID="__F" part="F"/>
+    from which I expected 
+        <seg th:eID="__F" part="F"/>
+        peace.
+            <seg th:eID="__F" part="F"/>
+    I 
+        <seg th:eID="__F" part="F"/>
+    also the necessity 
+        <seg th:eID="__F" part="F"/>
+    of either 
+        <seg th:eID="__F" part="F"/>
+    to  
+        <seg th:eID="__F" part="F"/>
+    or entering into a long correspondence with 
+        <seg th:eID="__F" part="F"/>
+    philosophers of that  
+        <seg th:eID="__F" part="F"/>
+    whose knowledge and discoveries 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    to me 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    The latter method of obtaining the desired intelligence was dilatory and 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    my 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    in peace and 
+        <seg th:eID="__F" part="F"/>
+    my promise 
+        <seg th:eID="__F" part="F"/>
+    fulfilled, 
+        <seg th:eID="__F" part="F"/>
+    the monster 
+        <seg th:eID="__F" part="F"/>
+    or 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    and put 
+        <seg th:eID="__F" part="F"/>
+    end to my slavery for 
+        <seg th:eID="__F" part="F"/>
+    feelings dictated my answer to my father. I 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    wish  
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    concealing 
+        <seg th:eID="__F" part="F"/>
+    true reasons  
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    I clothed my desires under 
+        <seg th:eID="__F" part="F"/>
+        the guise of wishing to travel and see the world before I sat down for life within the walls of my native town.
+            <seg th:eID="__F" part="F"/> I urged my
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>And,
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+        calm.
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <p th:eID="novel1_letter4_chapter17_div4_div19_p13"/>
+            <p th:sID="novel1_letter4_chapter17_div4_div19_p14"/> I now 
+        <seg th:eID="__F" part="F"/>
+    for my  
+        <seg th:eID="__F" part="F"/>
+    but one feeling haunted 
+        <seg th:eID="__F" part="F"/>
+    which filled 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    and would he not accompany me to England? This 
+        <seg th:eID="__F" part="F"/>
+    was dreadful in  
+        <seg th:eID="__F" part="F"/>
+    but 
+        <seg th:eID="__F" part="F"/>
+    as 
+        <seg th:eID="__F" part="F"/>
+    my  
+        <seg th:eID="__F" part="F"/>
+    I was 
+        <seg th:eID="__F" part="F"/>
+    with 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    pos<pb xmlns="" xml:id="F1818_v3_015" n="011"/>sibility that the reverse of this might happen. 
+        <seg th:eID="__F" part="F"/>
+    through the whole period during which I was the slave of my 
+        <seg th:eID="__F" part="F"/>
+    I allowed myself to be 
+        <seg th:eID="__F" part="F"/>
+    the impulses of the 
+        <seg th:eID="__F" part="F"/>
+    and my 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    many beautiful and majestic 
+        <seg th:eID="__F" part="F"/>
+    but my eyes were fixed and 
+        <seg th:eID="__F" part="F"/>
+    I 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    of the bourne of my 
+        <seg th:eID="__F" part="F"/>
+    and the work which was to occupy me whilst they endured. 
+        <seg th:eID="__F" part="F"/>
+    After some days 
+        <seg th:eID="__F" part="F"/>
+    in listless 
+        <seg th:eID="__F" part="F"/>
+    during which I 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    I arrived at 
+        <seg th:eID="__F" part="F"/>
+    where I waited two days for Clerval. He 
+        <seg th:eID="__F" part="F"/>
+    Alas, how great was the contrast between 
+        <seg th:eID="__F" part="F"/>
+    He was alive to every new scene; joyful when he saw the beauties of 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    and more happy when he 
+        <seg th:eID="__F" part="F"/>
+    it 
+        <seg th:eID="__F" part="F"/>
+    a new day. He pointed out to me the shifting colours 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    and the appearances of the sky. 
+        <seg th:eID="__F" part="F"/>
+    is what it is to 
+        <seg th:eID="__F" part="F"/>
+    he cried, 
+        <seg th:eID="__F" part="F"/>
+    I enjoy 
+        <seg th:eID="__F" part="F"/>
+    But you, my dear Frankenstein, 
+        <seg th:eID="__F" part="F"/>
+    desponding  
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    I was occupied by gloomy 
+        <seg th:eID="__F" part="F"/>
+    and neither saw the 
+        <seg th:eID="__F" part="F"/>
+    of the evening  
+        <seg th:eID="__F" part="F"/>
+    nor the golden 
+        <seg th:eID="__F" part="F"/>
+    reflected in the 
+        <seg th:eID="__F" part="F"/>
+    you, my friend, would be far more amused with the journal of 
+        <seg th:eID="__F" part="F"/>
+    who observed the scenery with an eye of feeling and delight, than 
+        <seg th:eID="__F" part="F"/>
+    to my 
+        <seg th:eID="__F" part="F"/>
+    I, a miserable 
+        <seg th:eID="__F" part="F"/>
+    haunted by a curse that shut up every avenue to enjoyment. <p th:eID="novel1_letter4_chapter17_div4_div19_p17"/>
+            <p th:sID="novel1_letter4_chapter17_div4_div19_p18"/> We had agreed to 
+        <seg th:eID="__F" part="F"/>
+    the Rhine <pb xmlns="" xml:id="F1818_v3_018" n="014"/>in a boat from 
+        <seg th:eID="__F" part="F"/>
+    to 
+        <seg th:eID="__F" part="F"/>
+    whence we might take shipping for London. During this 
+        <seg th:eID="__F" part="F"/>
+    we passed 
+        <seg th:eID="__F" part="F"/>
+    many willowy 
+        <seg th:eID="__F" part="F"/>
+    and saw several beautiful towns. We 
+        <seg th:eID="__F" part="F"/>
+    a day at Manheim, 
+        <seg th:eID="__F" part="F"/>
+    on the fifth from our departure from 
+        <seg th:eID="__F" part="F"/>
+    arrived at Mayence. The course of the Rhine below Mayence becomes much more picturesque. The river descends 
+        <seg th:eID="__F" part="F"/>
+    and winds between 
+        <seg th:eID="__F" part="F"/>
+    not 
+        <seg th:eID="__F" part="F"/>
+    but 
+        <seg th:eID="__F" part="F"/>
+    and of beautiful forms. We saw many ruined 
+        <seg th:eID="__F" part="F"/>
+    standing on the edges 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    surrounded by black 
+        <seg th:eID="__F" part="F"/>
+    high and inaccessible. This part of the 
+        <seg th:eID="__F" part="F"/>
+    presents a 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    In one spot you view rugged hills, ruined  
+        <seg th:eID="__F" part="F"/>
+    overlooking tremendous 
+        <seg th:eID="__F" part="F"/>
+    with the dark Rhine rushing 
+        <seg th:eID="__F" part="F"/>
+    on the sudden turn of a 
+        <seg th:eID="__F" part="F"/>
+    flourishing 
+        <seg th:eID="__F" part="F"/>
+    with <pb xmlns="" xml:id="F1818_v3_019" n="015"/>green sloping 
+        <seg th:eID="__F" part="F"/>
+    and a meandering 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    occupy the scene. 
+        <seg th:eID="__F" part="F"/>
+    We travelled at the time of the 
+        <seg th:eID="__F" part="F"/>
+    and heard the song of the 
+        <seg th:eID="__F" part="F"/>
+    as we glided down the stream. Even I, depressed in 
+        <seg th:eID="__F" part="F"/>
+    and my spirits continually agitated by gloomy 
+        <seg th:eID="__F" part="F"/>
+    even I was pleased. I lay at the bottom of the 
+        <seg th:eID="__F" part="F"/>
+    as I gazed on the cloudless blue 
+        <seg th:eID="__F" part="F"/>
+    I 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    in a tranquillity to which I had long been a stranger. And if these were my 
+        <seg th:eID="__F" part="F"/>
+    who can describe those of 
+        <seg th:eID="__F" part="F"/>
+    He felt as if he had been transported to 
+        <seg th:eID="__F" part="F"/>
+    and enjoyed a happiness seldom tasted by man. 
+        <seg th:eID="__F" part="F"/>
+    have 
+        <seg th:eID="__F" part="F"/>
+    he said, 
+        <seg th:eID="__F" part="F"/>
+    most beautiful scenes of my own 
+        <seg th:eID="__F" part="F"/>
+    I have 
+        <seg th:eID="__F" part="F"/>
+    the lakes of Lucerne and 
+        <seg th:eID="__F" part="F"/>
+    where the snowy mountains descend almost perpendicu<pb xmlns="" xml:id="F1818_v3_020" n="016"/>larly to the 
+        <seg th:eID="__F" part="F"/>
+    casting black and impenetrable 
+        <seg th:eID="__F" part="F"/>
+    which 
+        <seg th:eID="__F" part="F"/>
+    a gloomy and mournful  
+        <seg th:eID="__F" part="F"/>
+    were it not for the most verdant islands that relieve the eye by their gay 
+        <seg th:eID="__F" part="F"/>
+    I have seen this lake agitated by a 
+        <seg th:eID="__F" part="F"/>
+    when the wind tore up whirlwinds of 
+        <seg th:eID="__F" part="F"/>
+    and gave you an idea of what the 
+        <seg th:eID="__F" part="F"/>
+    must be on the great 
+        <seg th:eID="__F" part="F"/>
+    the waves dash with fury 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    where the priest and his mistress were overwhelmed by an 
+        <seg th:eID="__F" part="F"/>
+    and where their dying voices are still said to be heard amid the pauses of the 
+        <seg th:eID="__F" part="F"/>
+    I have seen the 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    and the Pays de 
+        <seg th:eID="__F" part="F"/>
+    but this country, Victor, pleases me more than all those wonders. The mountains of Switzerland are more majestic and 
+        <seg th:eID="__F" part="F"/>
+    but there is a charm in the banks of this divine 
+        <seg th:eID="__F" part="F"/>
+            <pb xmlns="" xml:id="F1818_v3_021" n="017"/>that I never before saw equalled. Look at that castle which overhangs 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    and that also on the 
+        <seg th:eID="__F" part="F"/>
+    almost concealed 
+        <seg th:eID="__F" part="F"/>
+    the foliage of those lovely 
+        <seg th:eID="__F" part="F"/>
+    now that group of 
+        <seg th:eID="__F" part="F"/>
+    coming from among their vines; and that village 
+        <seg th:eID="__F" part="F"/>
+    in the recess of the mountain. 
+        <seg th:eID="__F" part="F"/>
+    the spirit that inhabits and guards this place has a soul more in 
+        <seg th:eID="__F" part="F"/>
+    with  
+        <seg th:eID="__F" part="F"/>
+    than those who pile the 
+        <seg th:eID="__F" part="F"/>
+    or retire to the inaccessible peaks of the mountains of our own 
+        <seg th:eID="__F" part="F"/>
+        country.” 
+            <seg th:eID="__F" part="F"/>Clerval! beloved friend! even now it delights me to record your words, and to dwell on the praise of which you are so eminently deserving. He was a being formed in the <cit xml:id="novel1_letter4_chapter17_div4_div19_p20_cit1">
+               <quote xml:id="novel1_letter4_chapter17_div4_div19_p20_cit1_quote1">“very poetry of nature.*”</quote>
+               <note xmlns="" xml:id="novel1_letter4_chapter17_div4_div19_p20_cit1_note1">* <bibl/>Leigh Hunt’s “Rimini.”<bibl/>
+               </note>
+            </cit> His wild and enthusiastic imagination was chastened by the sen<pb xmlns="" xml:id="F1818_v3_022" n="018"/>sibility of his heart. His soul overflowed with ardent affections, and his friendship was of that devoted and wondrous nature that the worldly-minded teach us to look for only in the imagination. But even human sympathies were not sufficient to satisfy his eager mind. The scenery of external nature, which others regard only with admiration, he loved with ardour:
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <quote th:sID="novel1_letter4_chapter17_div4_div19_p20_cit2_quote1"/>
+            <lg th:sID="novel1_letter4_chapter17_div4_div19_p20_cit2_quote1_lg1"/>
+            <l xml:id="novel1_letter4_chapter17_div4_div19_p20_cit2_quote1_lg1_l1"> ————————————“The sounding cataract </l>
+            <l th:sID="novel1_letter4_chapter17_div4_div19_p20_cit2_quote1_lg1_l2"/> Haunted
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+        like a passion: the tall rock, 
+            
+        from the eye*.” <l th:eID="novel1_letter4_chapter17_div4_div19_p20_cit2_quote1_lg1_l8"/>
+            <lg th:eID="novel1_letter4_chapter17_div4_div19_p20_cit2_quote1_lg1"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <p th:eID="novel1_letter4_chapter17_div4_div19_p21"/>
+            <seg th:eID="__F" part="F"/>
          </div>
       </body>
    </text>

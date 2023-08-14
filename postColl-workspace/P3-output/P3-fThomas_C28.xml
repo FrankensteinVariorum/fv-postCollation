@@ -11,7 +11,7 @@
          <titleStmt>
             <title>Bridge Phase 3:  Witness fThomas, Collation unit C28</title>
          </titleStmt>
-         <publicationStmt xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+         <publicationStmt>
             <authority>Frankenstein Variorum Project</authority>
             <date>2023—</date>
             <availability>
@@ -19,11 +19,11 @@
                                         Attribution-ShareAlike 3.0 Unported License</licence>
             </availability>
          </publicationStmt>
-         <sourceDesc xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+         <sourceDesc>
             <p>Produced from collation output prepared in batch file processing
                                     on  2023-08-10 05:16:38.996137 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-13T15:56:26.205192-04:00.</p>
+                                    Variorum spine on 2023-08-13T22:02:36.149836-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -31,12 +31,12 @@
       <body>
          <div type="collation" xml:id="C28">
             <seg th:sID="C28_app1-fThomas"/>
-            <anchor xmlns="" type="collate" xml:id="C28"/>
-            <milestone xmlns="" unit="chapter" type="start" n="21"/>
+            <anchor type="collate" xml:id="C28"/>
+            <milestone unit="chapter" type="start" n="21"/>
             <seg th:eID="C28_app1-fThomas"/>
-            <pb xmlns="" xml:id="F1818_v3_095" n="091"/>
+            <pb xml:id="F1818_v3_095" n="091"/>
             <seg th:sID="C28_app3-fThomas"/>
-            <head xmlns="">CHAPTER V.</head>
+            <head>CHAPTER V.</head>
             <seg th:eID="C28_app3-fThomas"/>
             <seg th:sID="C28_app4-fThomas"/>
             <p th:sID="novel1_letter4_chapter21_div4_div23_p1"/>
@@ -129,7 +129,7 @@
         the pang
         <seg th:eID="C28_app33-fThomas"/>
             <seg th:sID="C28_app34-fThomas"/>
-        I endured<pb xmlns="" xml:id="F1818_v3_096" n="092"/> when I gazed on his lifeless
+        I endured<pb xml:id="F1818_v3_096" n="092"/> when I gazed on his lifeless
         <seg th:eID="C28_app34-fThomas"/>
             <seg th:sID="C28_app35-fThomas"/>
         form in the inn at——.
@@ -165,12 +165,10 @@
         <seg th:eID="C28_app46-fThomas"/>
     and he endeavoured 
         <seg th:sID="C28_app48-fThomas"/>
-        to <del xmlns="" rend="strikethrough">
-               <hi xmlns="http://www.tei-c.org/ns/1.0"
-                   th:sID="novel1_letter4_chapter21_div4_div23_p2_del1_hi1"/>prove to me the futility of pride.<hi xmlns="http://www.tei-c.org/ns/1.0"
-                   th:eID="novel1_letter4_chapter21_div4_div23_p2_del1_hi1"/>
+        to <del rend="strikethrough">
+               <hi th:sID="novel1_letter4_chapter21_div4_div23_p2_del1_hi1"/>prove to me the futility of pride.<hi th:eID="novel1_letter4_chapter21_div4_div23_p2_del1_hi1"/>
             </del>
-            <add xmlns="">inspire me with more philosophic sentiments. But his arguments drawn from general observation failed in reaching the core of my incurable disease.</add>
+            <add>inspire me with more philosophic sentiments. But his arguments drawn from general observation failed in reaching the core of my incurable disease.</add>
             <seg th:eID="C28_app48-fThomas"/>
             <seg th:sID="C28_app49-fThomas"/>
             <p th:eID="novel1_letter4_chapter21_div4_div23_p2"/>
@@ -222,7 +220,7 @@
         <seg th:eID="C28_app71-fThomas"/>
     murdered her. 
         <seg th:sID="C28_app73-fThomas"/>
-        William, Justine,<pb xmlns="" xml:id="F1818_v3_097" n="093"/>
+        William, Justine,<pb xml:id="F1818_v3_097" n="093"/>
             <seg th:eID="C28_app73-fThomas"/>
     and 
         <seg th:sID="C28_app75-fThomas"/>
@@ -325,7 +323,7 @@
         <seg th:eID="C28_app118-fThomas"/>
     with an expression of unbounded 
         <seg th:sID="C28_app120-fThomas"/>
-        wonder, “What do you mean, Victor? <pb xmlns="" xml:id="F1818_v3_098" n="094"/>are you mad?
+        wonder, “What do you mean, Victor? <pb xml:id="F1818_v3_098" n="094"/>are you mad?
         <seg th:eID="C28_app120-fThomas"/>
     My dear son, I entreat you 
         <seg th:sID="C28_app122-fThomas"/>
@@ -391,7 +389,7 @@
         race.”
         <seg th:eID="C28_app150-fThomas"/>
             <seg th:sID="C28_app151-fThomas"/>
-            <add xmlns="" place="bottom_and_following_pages">What could induce me to talk thus incoherently of the dread<del-INNER>ful subject</del-INNER> that I dared not explain?—In truth, it was insanity, not of the understanding but of the heart, which <del-INNER rend="strikethrough">produced a state of reckless</del-INNER>caused me always to think of one thing, of one<pb n="95"/> sentiment, and <del-INNER rend="strikethrough">that</del-INNER> thus there would at times escape to my lips, as a half stifled <del-INNER>groan</del-INNER>sigh may; though else unseen &amp; unheard, just move<del-INNER rend="strikethrough">s</del-INNER> the flame that surrounds the marty at the stake. But though he sigh, he will not recant, &amp; though I, more weak, gave vent to my pent up thoughts in words such as these, yet I shrunk unalterably from any thing that should reveal the existence of my enemy.</add>
+            <add place="bottom_and_following_pages">What could induce me to talk thus incoherently of the dread<del-INNER>ful subject</del-INNER> that I dared not explain?—In truth, it was insanity, not of the understanding but of the heart, which <del-INNER rend="strikethrough">produced a state of reckless</del-INNER>caused me always to think of one thing, of one<pb n="95"/> sentiment, and <del-INNER rend="strikethrough">that</del-INNER> thus there would at times escape to my lips, as a half stifled <del-INNER>groan</del-INNER>sigh may; though else unseen &amp; unheard, just move<del-INNER rend="strikethrough">s</del-INNER> the flame that surrounds the marty at the stake. But though he sigh, he will not recant, &amp; though I, more weak, gave vent to my pent up thoughts in words such as these, yet I shrunk unalterably from any thing that should reveal the existence of my enemy.</add>
             <p th:eID="novel1_letter4_chapter21_div4_div23_p6"/>
             <p th:sID="novel1_letter4_chapter21_div4_div23_p7"/> The conclusion of this speech
         <seg th:eID="C28_app151-fThomas"/>
@@ -418,7 +416,7 @@
         <seg th:sID="C28_app162-fThomas"/>
         that had taken place in Ireland,
         <seg th:eID="C28_app162-fThomas"/>
-            <pb xmlns="" xml:id="F1818_v3_099" n="095"/>and never 
+            <pb xml:id="F1818_v3_099" n="095"/>and never 
         <seg th:sID="C28_app164-fThomas"/>
         alluded to
         <seg th:eID="C28_app164-fThomas"/>
@@ -463,7 +461,7 @@
         <seg th:eID="C28_app183-fThomas"/>
     journey to 
         <seg th:sID="C28_app185-fThomas"/>
-            <add xmlns="" place="margin">Montavert and</add> the sea of ice. <hi th:eID="novel1_letter4_chapter21_div4_div23_p9_hi1"/>
+            <add place="margin">Montavert and</add> the sea of ice. <hi th:eID="novel1_letter4_chapter21_div4_div23_p9_hi1"/>
             <seg th:eID="C28_app185-fThomas"/>
             <p th:eID="novel1_letter4_chapter21_div4_div23_p8"/>
             <p th:sID="novel1_letter4_chapter21_div4_div23_p9"/>

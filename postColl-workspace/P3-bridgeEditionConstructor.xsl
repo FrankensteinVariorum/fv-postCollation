@@ -52,12 +52,6 @@
             </xsl:result-document>
         </xsl:for-each>
     </xsl:template>
-<xsl:template match="*[local-name() = 'div']">
-        <xsl:element name="div" xmlns="http://www.tei-c.org/ns/1.0" xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
-            <xsl:copy-of select="@*"/>
-            <xsl:apply-templates/>
-        </xsl:element>
-    </xsl:template>
     <xsl:template match="*[@*[matches(name(), '[se]ID')]]">
         <!-- 2023-08-13 ebb: add the th: namespace prefix to the Trojan horse attributes. -->
         <xsl:element name="{local-name()}">
@@ -70,7 +64,12 @@
             <xsl:apply-templates/>
         </xsl:element>        
     </xsl:template>
- 
+    <xsl:template match="*[not(contains(name(), 'title'))][not(@*[contains(name(), 'ID')])]">
+        <xsl:element name="{local-name()}" xmlns="http://www.tei-c.org/ns/1.0" xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
+            <xsl:copy-of select="@*"/>
+            <xsl:apply-templates/>
+        </xsl:element>
+    </xsl:template> 
    <xsl:template match="titleStmt/title">
         <title>
             <xsl:text>Bridge Phase 3: </xsl:text>

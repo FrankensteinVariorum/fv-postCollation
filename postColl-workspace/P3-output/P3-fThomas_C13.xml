@@ -11,7 +11,7 @@
          <titleStmt>
             <title>Bridge Phase 3:  Witness fThomas, Collation unit C13</title>
          </titleStmt>
-         <publicationStmt xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+         <publicationStmt>
             <authority>Frankenstein Variorum Project</authority>
             <date>2023—</date>
             <availability>
@@ -19,11 +19,11 @@
                                         Attribution-ShareAlike 3.0 Unported License</licence>
             </availability>
          </publicationStmt>
-         <sourceDesc xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+         <sourceDesc>
             <p>Produced from collation output prepared in batch file processing
                                     on  2023-08-10 04:29:17.954749 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-13T15:56:26.205192-04:00.</p>
+                                    Variorum spine on 2023-08-13T22:02:36.149836-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -31,9 +31,9 @@
       <body>
          <div type="collation" xml:id="C13">
             <seg th:sID="C13_app2-fThomas"/>
-            <anchor xmlns="" type="collate" xml:id="C13"/>
-            <milestone xmlns="" unit="chapter" type="start" n="6"/>
-            <head xmlns="">CHAPTER VI.</head>
+            <anchor type="collate" xml:id="C13"/>
+            <milestone unit="chapter" type="start" n="6"/>
+            <head>CHAPTER VI.</head>
             <p th:sID="novel1_letter4_chapter6_div4_div6_p1"/>O<hi th:sID="novel1_letter4_chapter6_div4_div6_p1_hi1"/>N<hi th:eID="novel1_letter4_chapter6_div4_div6_p1_hi1"/>
             <seg th:eID="C13_app2-fThomas"/>
     my 
@@ -43,15 +43,9 @@
     I found the following letter from my 
         <seg th:sID="C13_app6-fThomas"/>
         father:—<p th:eID="novel1_letter4_chapter6_div4_div6_p1"/>
-            <del xmlns="" rend="strikethrough" medium="pencil">
-               <ab xmlns="http://www.tei-c.org/ns/1.0"
-                   th:sID="novel1_letter4_chapter6_div4_div6_del1_ab1"/>
-               <hi xmlns="http://www.tei-c.org/ns/1.0"
-                   th:sID="novel1_letter4_chapter6_div4_div6_del1_ab1_hi1"/>”To<hi xmlns="http://www.tei-c.org/ns/1.0"
-                   th:eID="novel1_letter4_chapter6_div4_div6_del1_ab1_hi1"/> V. F<hi xmlns="http://www.tei-c.org/ns/1.0"
-                   th:sID="novel1_letter4_chapter6_div4_div6_del1_ab1_hi2"/>RANKENSTEIN<hi xmlns="http://www.tei-c.org/ns/1.0"
-                   th:eID="novel1_letter4_chapter6_div4_div6_del1_ab1_hi2"/>.<ab xmlns="http://www.tei-c.org/ns/1.0"
-                   th:eID="novel1_letter4_chapter6_div4_div6_del1_ab1"/>
+            <del rend="strikethrough" medium="pencil">
+               <ab th:sID="novel1_letter4_chapter6_div4_div6_del1_ab1"/>
+               <hi th:sID="novel1_letter4_chapter6_div4_div6_del1_ab1_hi1"/>”To<hi th:eID="novel1_letter4_chapter6_div4_div6_del1_ab1_hi1"/> V. F<hi th:sID="novel1_letter4_chapter6_div4_div6_del1_ab1_hi2"/>RANKENSTEIN<hi th:eID="novel1_letter4_chapter6_div4_div6_del1_ab1_hi2"/>.<ab th:eID="novel1_letter4_chapter6_div4_div6_del1_ab1"/>
             </del>
             <p th:sID="novel1_letter4_chapter6_div4_div6_p2"/>“<hi th:sID="novel1_letter4_chapter6_div4_div6_p2_hi1"/>MY DEAR VICTOR<hi th:eID="novel1_letter4_chapter6_div4_div6_p2_hi1"/>,<p th:eID="novel1_letter4_chapter6_div4_div6_p2"/>
             <p th:sID="novel1_letter4_chapter6_div4_div6_p3"/>“You
@@ -102,7 +96,7 @@
         <seg th:eID="C13_app26-fThomas"/>
     when 
         <seg th:sID="C13_app28-fThomas"/>
-            <pb xmlns="" xml:id="F1818_v1_147" n="135"/>you
+            <pb xml:id="F1818_v1_147" n="135"/>you
         <seg th:eID="C13_app28-fThomas"/>
     expected a happy and 
         <seg th:sID="C13_app30-fThomas"/>
@@ -204,7 +198,7 @@
         <seg th:sID="C13_app75-fThomas"/>
         brothers,
         <seg th:eID="C13_app75-fThomas"/>
-    went to walk in Plainpalais. The evening was <pb xmlns="" xml:id="F1818_v1_148" n="136"/>warm and serene, and we prolonged our walk 
+    went to walk in Plainpalais. The evening was <pb xml:id="F1818_v1_148" n="136"/>warm and serene, and we prolonged our walk 
         <seg th:sID="C13_app77-fThomas"/>
         farther than usual. It was
         <seg th:eID="C13_app77-fThomas"/>
@@ -314,7 +308,7 @@
         <seg th:eID="C13_app127-fThomas"/>
     my sweet 
         <seg th:sID="C13_app129-fThomas"/>
-            <pb xmlns="" xml:id="F1818_v1_149" n="137"/>boy
+            <pb xml:id="F1818_v1_149" n="137"/>boy
         <seg th:eID="C13_app129-fThomas"/>
     had lost himself, and was exposed to all the damps and dews of 
         <seg th:sID="C13_app131-fThomas"/>
@@ -416,28 +410,28 @@
         <seg th:sID="C13_app175-fThomas"/>
         sigh.
         <seg th:eID="C13_app175-fThomas"/>
-            <pb xmlns="" xml:id="F1818_v1_150" n="138"/>She told 
+            <pb xml:id="F1818_v1_150" n="138"/>She told 
         <seg th:sID="C13_app177-fThomas"/>
         me,
         <seg th:eID="C13_app177-fThomas"/>
     that that same evening William had 
         <seg th:sID="C13_app179-fThomas"/>
-            <del xmlns="" rend="strikethrough">teazed</del>
-            <add xmlns="" place="above">entreated</add>
+            <del rend="strikethrough">teazed</del>
+            <add place="above">entreated</add>
             <seg th:eID="C13_app179-fThomas"/>
     her to let him 
         <seg th:sID="C13_app181-fThomas"/>
         wear a
         <seg th:eID="C13_app181-fThomas"/>
             <seg th:sID="C13_app182-fThomas"/>
-            <del xmlns="" rend="strikethrough">very valuable</del>
+            <del rend="strikethrough">very valuable</del>
             <seg th:eID="C13_app182-fThomas"/>
             <seg th:sID="C13_app183-fThomas"/>
         miniature that
         <seg th:eID="C13_app183-fThomas"/>
     she possessed of your mother. 
         <seg th:sID="C13_app185-fThomas"/>
-            <add xmlns="" place="margin">Which was set in jewels. </add> This picture is
+            <add place="margin">Which was set in jewels. </add> This picture is
         <seg th:eID="C13_app185-fThomas"/>
             <seg th:sID="C13_app186-fThomas"/>
         gone,
@@ -523,7 +517,7 @@
         <seg th:eID="C13_app222-fThomas"/>
     Victor; not brooding 
         <seg th:sID="C13_app224-fThomas"/>
-        thoughts <pb xmlns="" xml:id="F1818_v1_151" n="139"/>of vengeance against the
+        thoughts <pb xml:id="F1818_v1_151" n="139"/>of vengeance against the
         <seg th:eID="C13_app224-fThomas"/>
             <seg th:sID="C13_app225-fThomas"/>
         assassin,
@@ -604,7 +598,7 @@
         <seg th:sID="C13_app261-fThomas"/>
         bitterness,
         <seg th:eID="C13_app261-fThomas"/>
-    “are you always to be <pb xmlns="" xml:id="F1818_v1_152" n="140"/>unhappy? 
+    “are you always to be <pb xml:id="F1818_v1_152" n="140"/>unhappy? 
         <seg th:sID="C13_app263-fThomas"/>
         My
         <seg th:eID="C13_app263-fThomas"/>
@@ -710,7 +704,7 @@
         <seg th:eID="C13_app309-fThomas"/>
     is at 
         <seg th:sID="C13_app311-fThomas"/>
-        rest: he does not <pb xmlns="" xml:id="F1818_v1_153" n="141"/>now feel the murderer’s grasp;
+        rest: he does not <pb xml:id="F1818_v1_153" n="141"/>now feel the murderer’s grasp;
         <seg th:eID="C13_app311-fThomas"/>
     a 
         <seg th:sID="C13_app313-fThomas"/>
@@ -780,7 +774,7 @@
         <seg th:sID="C13_app343-fThomas"/>
         sympathize
         <seg th:eID="C13_app343-fThomas"/>
-    with <pb xmlns="" xml:id="F1818_v1_154" n="142"/>my loved and sorrowing 
+    with <pb xml:id="F1818_v1_154" n="142"/>my loved and sorrowing 
         <seg th:sID="C13_app345-fThomas"/>
         friends;
         <seg th:eID="C13_app345-fThomas"/>
@@ -902,7 +896,7 @@
         <seg th:eID="C13_app399-fThomas"/>
     and the snowy 
         <seg th:sID="C13_app401-fThomas"/>
-            <pb xmlns="" xml:id="F1818_v1_155" n="143"/>mountains, “the palaces
+            <pb xml:id="F1818_v1_155" n="143"/>mountains, “the palaces
         <seg th:eID="C13_app401-fThomas"/>
     of 
         <seg th:sID="C13_app403-fThomas"/>
@@ -998,7 +992,7 @@
         <seg th:eID="C13_app446-fThomas"/>
     My 
         <seg th:sID="C13_app448-fThomas"/>
-            <pb xmlns="" xml:id="F1818_v1_156" n="144"/>country,
+            <pb xml:id="F1818_v1_156" n="144"/>country,
         <seg th:eID="C13_app448-fThomas"/>
     my beloved 
         <seg th:sID="C13_app450-fThomas"/>
@@ -1112,7 +1106,7 @@
         <seg th:eID="C13_app500-fThomas"/>
     night at 
         <seg th:sID="C13_app502-fThomas"/>
-            <pb xmlns="" xml:id="F1818_v1_157" n="145"/>Secheron,
+            <pb xml:id="F1818_v1_157" n="145"/>Secheron,
         <seg th:eID="C13_app502-fThomas"/>
     a village 
         <seg th:sID="C13_app504-fThomas"/>
@@ -1127,11 +1121,11 @@
         <seg th:eID="C13_app507-fThomas"/>
     The 
         <seg th:sID="C13_app509-fThomas"/>
-        sky <add xmlns="" place="margin">above </add>
+        sky <add place="margin">above </add>
             <seg th:eID="C13_app509-fThomas"/>
     was 
         <seg th:sID="C13_app511-fThomas"/>
-        serene; <del xmlns="" rend="strikethrough">and,</del>
+        serene; <del rend="strikethrough">and,</del>
             <seg th:eID="C13_app511-fThomas"/>
     as I was unable to 
         <seg th:sID="C13_app513-fThomas"/>
@@ -1190,7 +1184,7 @@
         increased.
         <seg th:eID="C13_app539-fThomas"/>
             <seg th:sID="C13_app540-fThomas"/>
-            <add xmlns="">
+            <add>
                <del-INNER>but</del-INNER>
                <add-INNER place="overtop">And</add-INNER> the clouds were gathering on the <del-INNER>ris</del-INNER> horison, mass rising above mass, while the lightning they emitted shewed their shapes and size.</add>
             <p th:eID="novel1_letter4_chapter6_div4_div6_p27"/>
@@ -1224,7 +1218,7 @@
         <seg th:eID="C13_app552-fThomas"/>
     the 
         <seg th:sID="C13_app554-fThomas"/>
-            <pb xmlns="" xml:id="F1818_v1_158" n="146"/>Juras,
+            <pb xml:id="F1818_v1_158" n="146"/>Juras,
         <seg th:eID="C13_app554-fThomas"/>
     and the Alps of 
         <seg th:sID="C13_app556-fThomas"/>
@@ -1316,7 +1310,7 @@
         <seg th:sID="C13_app596-fThomas"/>
         hands,
         <seg th:eID="C13_app596-fThomas"/>
-            <pb xmlns="" xml:id="F1818_v1_159" n="147"/>and 
+            <pb xml:id="F1818_v1_159" n="147"/>and 
         <seg th:sID="C13_app598-fThomas"/>
         exclaimed aloud,
         <seg th:eID="C13_app598-fThomas"/>
@@ -1424,7 +1418,7 @@
         <seg th:sID="C13_app649-fThomas"/>
         passed me quickly,
         <seg th:eID="C13_app649-fThomas"/>
-    and I lost <pb xmlns="" xml:id="F1818_v1_160" n="148"/>it in the gloom. 
+    and I lost <pb xml:id="F1818_v1_160" n="148"/>it in the gloom. 
         <seg th:sID="C13_app651-fThomas"/>
         Nothing in
         <seg th:eID="C13_app651-fThomas"/>
@@ -1520,7 +1514,7 @@
         <seg th:sID="C13_app698-fThomas"/>
         bed side;
         <seg th:eID="C13_app698-fThomas"/>
-    its depar<pb xmlns="" xml:id="F1818_v1_161" n="149"/>ture. 
+    its depar<pb xml:id="F1818_v1_161" n="149"/>ture. 
         <seg th:sID="C13_app700-fThomas"/>
         Two years
         <seg th:eID="C13_app700-fThomas"/>
@@ -1643,7 +1637,7 @@
         <seg th:sID="C13_app755-fThomas"/>
         dawned;
         <seg th:eID="C13_app755-fThomas"/>
-    and I directed my steps <pb xmlns="" xml:id="F1818_v1_162" n="150"/>towards the 
+    and I directed my steps <pb xml:id="F1818_v1_162" n="150"/>towards the 
         <seg th:sID="C13_app757-fThomas"/>
         town.
         <seg th:eID="C13_app757-fThomas"/>
@@ -1729,9 +1723,9 @@
         <seg th:eID="C13_app795-fThomas"/>
     relatives to commence  
         <seg th:sID="C13_app797-fThomas"/>
-        it. <pb xmlns="" xml:id="F1818_v1_163" n="151"/>
-            <del xmlns="" rend="strikethrough">Besides</del>
-            <add xmlns="" place="margin">And</add>,
+        it. <pb xml:id="F1818_v1_163" n="151"/>
+            <del rend="strikethrough">Besides</del>
+            <add place="margin">And</add>,
         <seg th:eID="C13_app797-fThomas"/>
     of what use would be pursuit? Who could arrest a creature 
         <seg th:sID="C13_app799-fThomas"/>
@@ -1805,7 +1799,7 @@
         <seg th:sID="C13_app832-fThomas"/>
         Beaufort
         <seg th:eID="C13_app832-fThomas"/>
-    in an ago<pb xmlns="" xml:id="F1818_v1_164" n="152"/>ny of 
+    in an ago<pb xml:id="F1818_v1_164" n="152"/>ny of 
         <seg th:sID="C13_app834-fThomas"/>
         despair,
         <seg th:eID="C13_app834-fThomas"/>
@@ -1898,11 +1892,11 @@
         your 
         <seg th:eID="C13_app874-fThomas"/>
             <seg th:sID="C13_app875-fThomas"/>
-        welcome. <del xmlns="" rend="strikethrough">Our father looks so sorrowful: this dreadful event seems to have revived in his mind his grief on the death of Mamma. Poor Elizabeth also is quite inconsolable.”</del>
-            <add xmlns="">the sense of our misfortune is yet unalleviated; the silence of our father is uninterrupted, and there is something more distressing than tears in his unaltered sadness—while poor Elizabeth, seeking solitude and for ever weeping, already begins to feel the effects of incessant grief—for her colour is gone, and her eyes are hollow &amp; lustreless</add>
+        welcome. <del rend="strikethrough">Our father looks so sorrowful: this dreadful event seems to have revived in his mind his grief on the death of Mamma. Poor Elizabeth also is quite inconsolable.”</del>
+            <add>the sense of our misfortune is yet unalleviated; the silence of our father is uninterrupted, and there is something more distressing than tears in his unaltered sadness—while poor Elizabeth, seeking solitude and for ever weeping, already begins to feel the effects of incessant grief—for her colour is gone, and her eyes are hollow &amp; lustreless</add>
             <seg th:eID="C13_app875-fThomas"/>
             <seg th:sID="C13_app876-fThomas"/>
-        Er<pb xmlns="" xml:id="F1818_v1_165" n="153"/>nest began to weep as he said these words. <p th:eID="novel1_letter4_chapter6_div4_div6_p34"/>
+        Er<pb xml:id="F1818_v1_165" n="153"/>nest began to weep as he said these words. <p th:eID="novel1_letter4_chapter6_div4_div6_p34"/>
             <p th:sID="novel1_letter4_chapter6_div4_div6_p35"/> “Do
         <seg th:eID="C13_app876-fThomas"/>
             <seg th:sID="C13_app877-fThomas"/>
@@ -1930,8 +1924,8 @@
         house after so long an absence.
         <seg th:eID="C13_app884-fThomas"/>
             <seg th:sID="C13_app885-fThomas"/>
-            <del xmlns="" rend="strikethrough">But, tell me, how does my father support his misfortunes? and how is</del>
-            <add xmlns="">You must assist me in acquiring sufficient calmness to console my father and support</add> my poor Elizabeth <del xmlns="" rend="strikethrough">?</del> ” <p th:eID="novel1_letter4_chapter6_div4_div6_p35"/>
+            <del rend="strikethrough">But, tell me, how does my father support his misfortunes? and how is</del>
+            <add>You must assist me in acquiring sufficient calmness to console my father and support</add> my poor Elizabeth <del rend="strikethrough">?</del> ” <p th:eID="novel1_letter4_chapter6_div4_div6_p35"/>
             <seg th:eID="C13_app885-fThomas"/>
             <p th:sID="novel1_letter4_chapter6_div4_div6_p36"/>
             <seg th:sID="C13_app887-fThomas"/>
@@ -1977,7 +1971,7 @@
             <p th:eID="novel1_letter4_chapter6_div4_div6_p37"/>
             <p th:sID="novel1_letter4_chapter6_div4_div6_p38"/> “I do not know what you 
         <seg th:sID="C13_app907-fThomas"/>
-        mean; but we were all very unhappy when <pb xmlns="" xml:id="F1818_v1_166" n="154"/>she was discovered.
+        mean; but we were all very unhappy when <pb xml:id="F1818_v1_166" n="154"/>she was discovered.
         <seg th:eID="C13_app907-fThomas"/>
     No one would 
         <seg th:sID="C13_app909-fThomas"/>
@@ -2119,7 +2113,7 @@
         <seg th:sID="C13_app972-fThomas"/>
         had
         <seg th:eID="C13_app972-fThomas"/>
-            <pb xmlns="" xml:id="F1818_v1_167" n="155"/>been 
+            <pb xml:id="F1818_v1_167" n="155"/>been 
         <seg th:sID="C13_app974-fThomas"/>
         discovered,
         <seg th:eID="C13_app974-fThomas"/>
@@ -2205,7 +2199,7 @@
         <seg th:eID="C13_app1013-fThomas"/>
     is innocent.” <p th:eID="novel1_letter4_chapter6_div4_div6_p42"/>
             <p th:sID="novel1_letter4_chapter6_div4_div6_p43"/>
-            <pb xmlns="" xml:id="F1818_v1_168" n="156"/>At that instant my father 
+            <pb xml:id="F1818_v1_168" n="156"/>At that instant my father 
         <seg th:sID="C13_app1015-fThomas"/>
         entered. I saw unhappiness deeply impressed on his countenance, but he endeavoured to welcome me cheerfully; and, after we had exchanged our mournful greeting, would have introduced some other topic than that of our disaster, had not
         <seg th:eID="C13_app1015-fThomas"/>
@@ -2285,7 +2279,7 @@
         <seg th:eID="C13_app1050-fThomas"/>
             <p th:eID="novel1_letter4_chapter6_div4_div6_p46"/>
             <p th:sID="novel1_letter4_chapter6_div4_div6_p47"/>
-            <pb xmlns="" xml:id="F1818_v1_169" n="157"/>This speech calmed me. I was firmly convinced in my own mind that 
+            <pb xml:id="F1818_v1_169" n="157"/>This speech calmed me. I was firmly convinced in my own mind that 
         <seg th:sID="C13_app1052-fThomas"/>
         Justine,
         <seg th:eID="C13_app1052-fThomas"/>
@@ -2384,7 +2378,7 @@
         and
         <seg th:eID="C13_app1087-fThomas"/>
             <seg th:sID="C13_app1088-fThomas"/>
-            <pb xmlns="" xml:id="F1818_v1_170" n="158"/>expressive
+            <pb xml:id="F1818_v1_170" n="158"/>expressive
         <seg th:eID="C13_app1088-fThomas"/>
             <seg th:sID="C13_app1089-fThomas"/>
         of
@@ -2523,7 +2517,7 @@
     even after the 
         <seg th:sID="C13_app1147-fThomas"/>
         sad death of my little William.” <p th:eID="novel1_letter4_chapter6_div4_div6_p48"/>
-            <p th:sID="novel1_letter4_chapter6_div4_div6_p49"/> “She is innocent, my Elizabeth,” <pb xmlns="" xml:id="F1818_v1_171" n="159"/>said
+            <p th:sID="novel1_letter4_chapter6_div4_div6_p49"/> “She is innocent, my Elizabeth,” <pb xml:id="F1818_v1_171" n="159"/>said
         <seg th:eID="C13_app1147-fThomas"/>
             <seg th:sID="C13_app1148-fThomas"/>
         I, “and
@@ -2600,10 +2594,10 @@
         partiality.” <p th:eID="novel1_letter4_chapter6_div4_div6_p51"/>
             <seg th:eID="C13_app1181-fThomas"/>
             <seg th:sID="C13_app1182-fThomas"/>
-            <pb xmlns="" xml:id="F1818_v1_172" n="160"/>
+            <pb xml:id="F1818_v1_172" n="160"/>
             <seg th:eID="C13_app1182-fThomas"/>
             <seg th:sID="C13_app1183-fThomas"/>
-            <milestone xmlns="" unit="chapter" type="end" n="6"/>
+            <milestone unit="chapter" type="end" n="6"/>
             <seg th:eID="C13_app1183-fThomas"/>
          </div>
       </body>

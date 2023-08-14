@@ -11,7 +11,7 @@
          <titleStmt>
             <title>Bridge Phase 3:  Witness f1831, Collation unit C04</title>
          </titleStmt>
-         <publicationStmt xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+         <publicationStmt>
             <authority>Frankenstein Variorum Project</authority>
             <date>2023—</date>
             <availability>
@@ -19,11 +19,11 @@
                                         Attribution-ShareAlike 3.0 Unported License</licence>
             </availability>
          </publicationStmt>
-         <sourceDesc xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+         <sourceDesc>
             <p>Produced from collation output prepared in batch file processing
                                     on  2023-08-10 04:17:19.377366 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-13T15:56:26.205192-04:00.</p>
+                                    Variorum spine on 2023-08-13T22:02:36.149836-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -31,13 +31,13 @@
       <body>
          <div type="collation" xml:id="C04">
             <seg th:sID="C04_app1-f1831"/>
-            <anchor xmlns="" type="collate" xml:id="C04"/>
-            <milestone xmlns="" unit="letter" type="start" n="3"/>
-            <head xmlns="">LETTER III.</head>
+            <anchor type="collate" xml:id="C04"/>
+            <milestone unit="letter" type="start" n="3"/>
+            <head>LETTER III.</head>
             <seg th:eID="C04_app1-f1831"/>
             <seg th:sID="C04_app2-f1831"/>
-            <head xmlns="">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" th:sID="novel1_letter3_div3_head2_hi1"/>To Mrs. Saville, England.<hi xmlns="http://www.tei-c.org/ns/1.0" th:eID="novel1_letter3_div3_head2_hi1"/>
+            <head>
+               <hi th:sID="novel1_letter3_div3_head2_hi1"/>To Mrs. Saville, England.<hi th:eID="novel1_letter3_div3_head2_hi1"/>
             </head>
             <seg th:eID="C04_app2-f1831"/>
             <seg th:sID="C04_app3-f1831"/>
@@ -130,10 +130,10 @@
             <p th:eID="novel1_letter3_div3_p8"/>
             <seg th:eID="C04_app30-f1831"/>
             <seg th:sID="C04_app31-f1831"/>
-            <pb xmlns="" xml:id="F1831_v_027" n="11"/>
+            <pb xml:id="F1831_v_027" n="11"/>
             <seg th:eID="C04_app31-f1831"/>
             <seg th:sID="C04_app32-f1831"/>
-            <milestone xmlns="" unit="letter" type="end" n="3"/>
+            <milestone unit="letter" type="end" n="3"/>
             <seg th:eID="C04_app32-f1831"/>
          </div>
       </body>

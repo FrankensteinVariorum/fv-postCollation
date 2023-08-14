@@ -8,7 +8,9 @@
          <titleStmt>
             <title>Bridge Phase 5:  Witness f1831, Collation unit C12</title>
          </titleStmt>
-         <publicationStmt xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+         <publicationStmt xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                           xmlns:tei="http://www.tei-c.org/ns/1.0"
+                           xmlns:xs="http://www.w3.org/2001/XMLSchema">
             <authority>Frankenstein Variorum Project</authority>
             <date>2023—</date>
             <availability>
@@ -16,105 +18,486 @@
                                         Attribution-ShareAlike 3.0 Unported License</licence>
             </availability>
          </publicationStmt>
-         <sourceDesc xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+         <sourceDesc xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                      xmlns:tei="http://www.tei-c.org/ns/1.0"
+                      xmlns:xs="http://www.w3.org/2001/XMLSchema">
             <p>Produced from collation output prepared in batch file processing
                                     on  2023-08-10 04:28:37.275267 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-13T15:56:26.205192-04:00.</p>
+                                    Variorum spine on 2023-08-13T22:02:36.149836-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
          <div type="collation">
-            <anchor type="collate" xml:id="C12"/>
-            <p xml:id="novel1_letter4_chapter6_div4_div6_p14"> “Dear, dear <seg th:sID="C12_app2-f1831"/>Elizabeth!”<seg th:eID="C12_app2-f1831"/>I <seg th:sID="C12_app4-f1831"/>exclaimed,<seg th:eID="C12_app4-f1831"/>when I had read her <seg th:sID="C12_app6-f1831"/>letter, “I<seg th:eID="C12_app6-f1831"/>will write <seg th:sID="C12_app8-f1831"/>instantly,<seg th:eID="C12_app8-f1831"/>and relieve them from the <seg th:sID="C12_app10-f1831"/>anxiety<seg th:eID="C12_app10-f1831"/>they must feel.” <seg th:sID="C12_app12-f1831"/>I wrote, and this exertion greatly fatigued<seg th:eID="C12_app12-f1831"/>
-               <seg th:sID="C12_app13-f1831"/>me; but<seg th:eID="C12_app13-f1831"/>my convalescence <seg th:sID="C12_app15-f1831"/>had<seg th:eID="C12_app15-f1831"/>
-               <seg th:sID="C12_app16-f1831"/>commenced,<seg th:eID="C12_app16-f1831"/>and <seg th:sID="C12_app18-f1831"/>proceeded<seg th:eID="C12_app18-f1831"/>
-               <seg th:sID="C12_app19-f1831"/>regularly. In<seg th:eID="C12_app19-f1831"/>another fortnight I was able to leave my chamber.<pb xml:id="F1831_v_069" n="53"/>
-               <seg th:sID="C12_app21-f1831__I" part="I"/>
-            </p>
-            <p xml:id="novel1_letter4_chapter6_div4_div6_p15">
-               <seg th:eID="C12_app21-f1831__F" part="F"/>One of my first duties on my recovery was to introduce Clerval to the <seg th:sID="C12_app23-f1831"/>several<seg th:eID="C12_app23-f1831"/>professors of the university.  <seg th:sID="C12_app25-f1831"/>In doing<seg th:eID="C12_app25-f1831"/>
-               <seg th:sID="C12_app26-f1831"/>this,<seg th:eID="C12_app26-f1831"/>I <seg th:sID="C12_app28-f1831"/>underwent<seg th:eID="C12_app28-f1831"/>a kind of rough <seg th:sID="C12_app30-f1831"/>usage,<seg th:eID="C12_app30-f1831"/>ill <seg th:sID="C12_app32-f1831"/>befitting<seg th:eID="C12_app32-f1831"/>the wounds that my mind had sustained. Ever since the fatal <seg th:sID="C12_app34-f1831"/>night,<seg th:eID="C12_app34-f1831"/>the end of my <seg th:sID="C12_app36-f1831"/>labours, and the<seg th:eID="C12_app36-f1831"/>beginning of my <seg th:sID="C12_app38-f1831"/>misfortunes,<seg th:eID="C12_app38-f1831"/>I had conceived a violent antipathy even to the name of <seg th:sID="C12_app40-f1831"/>natural<seg th:eID="C12_app40-f1831"/>
-               <seg th:sID="C12_app41-f1831"/>philosophy.<seg th:eID="C12_app41-f1831"/>When I was otherwise quite restored to <seg th:sID="C12_app43-f1831"/>health,<seg th:eID="C12_app43-f1831"/>the sight of a chemical instrument <seg th:sID="C12_app45-f1831"/>would renew<seg th:eID="C12_app45-f1831"/>all <seg th:sID="C12_app47-f1831"/>the agony of<seg th:eID="C12_app47-f1831"/>
-               <seg th:sID="C12_app48-f1831"/>my<seg th:eID="C12_app48-f1831"/>
-               <seg th:sID="C12_app49-f1831"/>nervous<seg th:eID="C12_app49-f1831"/>
-               <seg th:sID="C12_app50-f1831"/>symptoms.<seg th:eID="C12_app50-f1831"/>Henry saw <seg th:sID="C12_app52-f1831"/>this,<seg th:eID="C12_app52-f1831"/>and had <seg th:sID="C12_app54-f1831"/>removed all my<seg th:eID="C12_app54-f1831"/>
-               <seg th:sID="C12_app55-f1831"/>apparatus from my<seg th:eID="C12_app55-f1831"/>
-               <seg th:sID="C12_app56-f1831"/>view.<seg th:eID="C12_app56-f1831"/>He had also changed my <seg th:sID="C12_app58-f1831"/>apartment;<seg th:eID="C12_app58-f1831"/>for he perceived that I had <seg th:sID="C12_app60-f1831"/>acquired<seg th:eID="C12_app60-f1831"/>
-               <seg th:sID="C12_app61-f1831"/>a<seg th:eID="C12_app61-f1831"/>dislike <seg th:sID="C12_app63-f1831"/>for<seg th:eID="C12_app63-f1831"/>the room which had previously been my <seg th:sID="C12_app65-f1831"/>laboratory.<seg th:eID="C12_app65-f1831"/>But these cares of Clerval were <seg th:sID="C12_app67-f1831"/>made of no avail<seg th:eID="C12_app67-f1831"/>when I visited the professors.  <seg th:sID="C12_app69-f1831"/>M. Waldman inflicted torture when he<seg th:eID="C12_app69-f1831"/>
-               <seg th:sID="C12_app70-f1831"/>praised,<seg th:eID="C12_app70-f1831"/>with <seg th:sID="C12_app72-f1831"/>kindness and warmth, the astonishing progress<seg th:eID="C12_app72-f1831"/>
-               <seg th:sID="C12_app73-f1831"/>I had made in the sciences. He soon perceived<seg th:eID="C12_app73-f1831"/>
-               <seg th:sID="C12_app74-f1831"/>that I<seg th:eID="C12_app74-f1831"/>
-               <seg th:sID="C12_app75-f1831"/>disliked<seg th:eID="C12_app75-f1831"/>the <seg th:sID="C12_app77-f1831"/>subject;<seg th:eID="C12_app77-f1831"/>
-               <seg th:sID="C12_app78-f1831"/>but<seg th:eID="C12_app78-f1831"/>not guessing the real <seg th:sID="C12_app80-f1831"/>cause,<seg th:eID="C12_app80-f1831"/>he attributed <seg th:sID="C12_app82-f1831"/>my feelings to<seg th:eID="C12_app82-f1831"/>
-               <seg th:sID="C12_app83-f1831"/>modesty,<seg th:eID="C12_app83-f1831"/>and changed the subject from my  <seg th:sID="C12_app86-f1831"/>improvement,<seg th:eID="C12_app86-f1831"/>to the science itself, with <seg th:sID="C12_app88-f1831"/>a<seg th:eID="C12_app88-f1831"/>
-               <seg th:sID="C12_app89-f1831"/>desire,<seg th:eID="C12_app89-f1831"/>as I evidently <seg th:sID="C12_app91-f1831"/>saw,<seg th:eID="C12_app91-f1831"/>of drawing <seg th:sID="C12_app93-f1831"/>me out.<seg th:eID="C12_app93-f1831"/>
-               <seg th:sID="C12_app94-f1831"/>What could I do? He meant to<seg th:eID="C12_app94-f1831"/>
-               <seg th:sID="C12_app95-f1831"/>please,<seg th:eID="C12_app95-f1831"/>and he <seg th:sID="C12_app97-f1831"/>tormented<seg th:eID="C12_app97-f1831"/>
-               <seg th:sID="C12_app98-f1831"/>me.<seg th:eID="C12_app98-f1831"/>I felt as if he  <seg th:sID="C12_app101-f1831"/>had<seg th:eID="C12_app101-f1831"/>placed <seg th:sID="C12_app103-f1831"/>carefully,<seg th:eID="C12_app103-f1831"/>one by <seg th:sID="C12_app105-f1831"/>one,<seg th:eID="C12_app105-f1831"/>in my view those instruments which were to be afterwards used in putting me to a slow and cruel <seg th:sID="C12_app107-f1831"/>death. I writhed under his words, yet dared not<seg th:eID="C12_app107-f1831"/>
-               <seg th:sID="C12_app108-f1831"/>exhibit<seg th:eID="C12_app108-f1831"/>the pain I felt. Clerval, whose eyes and feelings were always quick in <seg th:sID="C12_app110-f1831"/>discerning<seg th:eID="C12_app110-f1831"/>the sensations of <seg th:sID="C12_app112-f1831"/>others,<seg th:eID="C12_app112-f1831"/>declined the <seg th:sID="C12_app114-f1831"/>subject, alleging, in excuse,<seg th:eID="C12_app114-f1831"/>his <seg th:sID="C12_app116-f1831"/>total ignorance;<seg th:eID="C12_app116-f1831"/>and the conversation took a more general turn. I thanked <seg th:sID="C12_app118-f1831"/>my friend<seg th:eID="C12_app118-f1831"/>from my heart, but I did not speak. <seg th:sID="C12_app120-f1831"/>I saw plainly<seg th:eID="C12_app120-f1831"/>that he was surprised, but he never attempted to draw my secret from <seg th:sID="C12_app122-f1831"/>me;<seg th:eID="C12_app122-f1831"/>and although I loved him with a mixture of <seg th:sID="C12_app124-f1831"/>affection<seg th:eID="C12_app124-f1831"/>and reverence that knew  <seg th:sID="C12_app126-f1831"/>no bounds,<seg th:eID="C12_app126-f1831"/>yet I could never <seg th:sID="C12_app128-f1831"/>persuade myself to confide to him that event which was so often present to my<seg th:eID="C12_app128-f1831"/>
-               <seg th:sID="C12_app129-f1831"/>recollection,<seg th:eID="C12_app129-f1831"/>but which I feared the detail to another would only impress more deeply. </p>
+            <anchor xmlns="" type="collate" xml:id="C12"/>
+            <p th:sID="novel1_letter4_chapter6_div4_div6_p14"/> “Dear, dear 
+        <seg th:eID="__F" part="F"/>
+    I 
+        <seg th:eID="__F" part="F"/>
+    when I had read her 
+        <seg th:eID="__F" part="F"/>
+    will write 
+        <seg th:eID="__F" part="F"/>
+    and relieve them from the 
+        <seg th:eID="__F" part="F"/>
+    they must feel.” 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    my convalescence 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    and 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    another fortnight I was able to leave my chamber.<pb xmlns="" xml:id="F1831_v_069" n="53"/>
+            <seg th:eID="__F" part="F"/>
+    One of my first duties on my recovery was to introduce Clerval to the 
+        <seg th:eID="__F" part="F"/>
+    professors of the university.  
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    I 
+        <seg th:eID="__F" part="F"/>
+    a kind of rough 
+        <seg th:eID="__F" part="F"/>
+    ill 
+        <seg th:eID="__F" part="F"/>
+    the wounds that my mind had sustained. Ever since the fatal 
+        <seg th:eID="__F" part="F"/>
+    the end of my 
+        <seg th:eID="__F" part="F"/>
+    beginning of my 
+        <seg th:eID="__F" part="F"/>
+    I had conceived a violent antipathy even to the name of 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    When I was otherwise quite restored to 
+        <seg th:eID="__F" part="F"/>
+    the sight of a chemical instrument 
+        <seg th:eID="__F" part="F"/>
+    all 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    Henry saw 
+        <seg th:eID="__F" part="F"/>
+    and had 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    He had also changed my 
+        <seg th:eID="__F" part="F"/>
+    for he perceived that I had 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    dislike 
+        <seg th:eID="__F" part="F"/>
+    the room which had previously been my 
+        <seg th:eID="__F" part="F"/>
+    But these cares of Clerval were 
+        <seg th:eID="__F" part="F"/>
+    when I visited the professors.  
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    with 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    the 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    not guessing the real 
+        <seg th:eID="__F" part="F"/>
+    he attributed 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    and changed the subject from my  
+        <seg th:eID="__F" part="F"/>
+    to the science itself, with 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    as I evidently 
+        <seg th:eID="__F" part="F"/>
+    of drawing 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    and he 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    I felt as if he  
+        <seg th:eID="__F" part="F"/>
+    placed 
+        <seg th:eID="__F" part="F"/>
+    one by 
+        <seg th:eID="__F" part="F"/>
+    in my view those instruments which were to be afterwards used in putting me to a slow and cruel 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    the pain I felt. Clerval, whose eyes and feelings were always quick in 
+        <seg th:eID="__F" part="F"/>
+    the sensations of 
+        <seg th:eID="__F" part="F"/>
+    declined the 
+        <seg th:eID="__F" part="F"/>
+    his 
+        <seg th:eID="__F" part="F"/>
+    and the conversation took a more general turn. I thanked 
+        <seg th:eID="__F" part="F"/>
+    from my heart, but I did not speak. 
+        <seg th:eID="__F" part="F"/>
+    that he was surprised, but he never attempted to draw my secret from 
+        <seg th:eID="__F" part="F"/>
+    and although I loved him with a mixture of 
+        <seg th:eID="__F" part="F"/>
+    and reverence that knew  
+        <seg th:eID="__F" part="F"/>
+    yet I could never 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    but which I feared the detail to another would only impress more deeply. <p th:eID="novel1_letter4_chapter6_div4_div6_p15"/>
             <p xml:id="novel1_letter4_chapter6_div4_div6_p16">
-               <seg th:sID="C12_app131-f1831"/>M.<seg th:eID="C12_app131-f1831"/>Krempe was not <seg th:sID="C12_app133-f1831"/>equally<seg th:eID="C12_app133-f1831"/>
-               <seg th:sID="C12_app134-f1831"/>docile; and in<seg th:eID="C12_app134-f1831"/>my <seg th:sID="C12_app136-f1831"/>condition at that time,<seg th:eID="C12_app136-f1831"/>of almost <seg th:sID="C12_app138-f1831"/>insupportable sensitiveness,<seg th:eID="C12_app138-f1831"/>his harsh blunt <seg th:sID="C12_app140-f1831"/>encomiums<seg th:eID="C12_app140-f1831"/>gave me even more pain <seg th:sID="C12_app142-f1831"/>than the bene<pb xml:id="F1831_v_070" n="54"/>volent approbation of M.<seg th:eID="C12_app142-f1831"/>
-               <seg th:sID="C12_app143-f1831"/>Waldman. “D—n the fellow!”<seg th:eID="C12_app143-f1831"/>cried <seg th:sID="C12_app145-f1831"/>he; “why, M. Clerval, I assure<seg th:eID="C12_app145-f1831"/>you he has <seg th:sID="C12_app147-f1831"/>outstript<seg th:eID="C12_app147-f1831"/>
-               <seg th:sID="C12_app148-f1831"/>us all. Ay,<seg th:eID="C12_app148-f1831"/>stare if you <seg th:sID="C12_app150-f1831"/>please;<seg th:eID="C12_app150-f1831"/>but <seg th:sID="C12_app152-f1831"/>it<seg th:eID="C12_app152-f1831"/>is <seg th:sID="C12_app154-f1831"/>nevertheless<seg th:eID="C12_app154-f1831"/>
-               <seg th:sID="C12_app155-f1831"/>true.<seg th:eID="C12_app155-f1831"/>A youngster <seg th:sID="C12_app157-f1831"/>who,<seg th:eID="C12_app157-f1831"/>but <seg th:sID="C12_app159-f1831"/>a few<seg th:eID="C12_app159-f1831"/>years <seg th:sID="C12_app161-f1831"/>ago,<seg th:eID="C12_app161-f1831"/>believed <seg th:sID="C12_app163-f1831"/>in Cornelius<seg th:eID="C12_app163-f1831"/>
-               <seg th:sID="C12_app164-f1831"/>Agrippa<seg th:eID="C12_app164-f1831"/>
-               <seg th:sID="C12_app165-f1831"/>as firmly as<seg th:eID="C12_app165-f1831"/>
-               <seg th:sID="C12_app166-f1831"/>in the<seg th:eID="C12_app166-f1831"/>
-               <seg th:sID="C12_app167-f1831"/>gospel,<seg th:eID="C12_app167-f1831"/>has <seg th:sID="C12_app169-f1831"/>now<seg th:eID="C12_app169-f1831"/>set himself at the head of <seg th:sID="C12_app171-f1831"/>the university;<seg th:eID="C12_app171-f1831"/>and if he is not soon <seg th:sID="C12_app173-f1831"/>pulled down,<seg th:eID="C12_app173-f1831"/>we shall all be out <seg th:sID="C12_app175-f1831"/>of countenance.—Ay, ay,”<seg th:eID="C12_app175-f1831"/>continued <seg th:sID="C12_app177-f1831"/>he,<seg th:eID="C12_app177-f1831"/>observing my <seg th:sID="C12_app179-f1831"/>face expressive of<seg th:eID="C12_app179-f1831"/>
-               <seg th:sID="C12_app180-f1831"/>suffering, “M.<seg th:eID="C12_app180-f1831"/>Frankenstein is <seg th:sID="C12_app182-f1831"/>modest;<seg th:eID="C12_app182-f1831"/>an excellent quality in <seg th:sID="C12_app184-f1831"/>a<seg th:eID="C12_app184-f1831"/>young <seg th:sID="C12_app186-f1831"/>man.<seg th:eID="C12_app186-f1831"/>Young men should be <seg th:sID="C12_app188-f1831"/>diffident<seg th:eID="C12_app188-f1831"/>of <seg th:sID="C12_app190-f1831"/>themselves,<seg th:eID="C12_app190-f1831"/>you <seg th:sID="C12_app192-f1831"/>know, M.<seg th:eID="C12_app192-f1831"/>
-               <seg th:sID="C12_app193-f1831"/>Clerval:<seg th:eID="C12_app193-f1831"/>I was myself when <seg th:sID="C12_app195-f1831"/>young;<seg th:eID="C12_app195-f1831"/>but <seg th:sID="C12_app197-f1831"/>that wears<seg th:eID="C12_app197-f1831"/>out <seg th:sID="C12_app199-f1831"/>in a very short time.”<seg th:eID="C12_app199-f1831"/>
+               <seg th:eID="__F" part="F"/>
+    Krempe was not 
+        <seg th:eID="__F" part="F"/>
+               <seg th:eID="__F" part="F"/>
+    my 
+        <seg th:eID="__F" part="F"/>
+    of almost 
+        <seg th:eID="__F" part="F"/>
+    his harsh blunt 
+        <seg th:eID="__F" part="F"/>
+    gave me even more pain 
+        <seg th:eID="__F" part="F"/>
+               <seg th:eID="__F" part="F"/>
+    cried 
+        <seg th:eID="__F" part="F"/>
+    you he has 
+        <seg th:eID="__F" part="F"/>
+               <seg th:eID="__F" part="F"/>
+    stare if you 
+        <seg th:eID="__F" part="F"/>
+    but 
+        <seg th:eID="__F" part="F"/>
+    is 
+        <seg th:eID="__F" part="F"/>
+               <seg th:eID="__F" part="F"/>
+    A youngster 
+        <seg th:eID="__F" part="F"/>
+    but 
+        <seg th:eID="__F" part="F"/>
+    years 
+        <seg th:eID="__F" part="F"/>
+    believed 
+        <seg th:eID="__F" part="F"/>
+               <seg th:eID="__F" part="F"/>
+               <seg th:eID="__F" part="F"/>
+               <seg th:eID="__F" part="F"/>
+               <seg th:eID="__F" part="F"/>
+    has 
+        <seg th:eID="__F" part="F"/>
+    set himself at the head of 
+        <seg th:eID="__F" part="F"/>
+    and if he is not soon 
+        <seg th:eID="__F" part="F"/>
+    we shall all be out 
+        <seg th:eID="__F" part="F"/>
+    continued 
+        <seg th:eID="__F" part="F"/>
+    observing my 
+        <seg th:eID="__F" part="F"/>
+               <seg th:eID="__F" part="F"/>
+    Frankenstein is 
+        <seg th:eID="__F" part="F"/>
+    an excellent quality in 
+        <seg th:eID="__F" part="F"/>
+    young 
+        <seg th:eID="__F" part="F"/>
+    Young men should be 
+        <seg th:eID="__F" part="F"/>
+    of 
+        <seg th:eID="__F" part="F"/>
+    you 
+        <seg th:eID="__F" part="F"/>
+               <seg th:eID="__F" part="F"/>
+    I was myself when 
+        <seg th:eID="__F" part="F"/>
+    but 
+        <seg th:eID="__F" part="F"/>
+    out 
+        <seg th:eID="__F" part="F"/>
             </p>
             <p xml:id="novel1_letter4_chapter6_div4_div6_p17">
-               <seg th:sID="C12_app201-f1831"/>M.<seg th:eID="C12_app201-f1831"/>Krempe had now commenced <seg th:sID="C12_app203-f1831"/>an eulogy on<seg th:eID="C12_app203-f1831"/>
-               <seg th:sID="C12_app204-f1831"/>himself, which<seg th:eID="C12_app204-f1831"/>happily turned the conversation from <seg th:sID="C12_app206-f1831"/>a<seg th:eID="C12_app206-f1831"/>subject that was so <seg th:sID="C12_app208-f1831"/>annoying<seg th:eID="C12_app208-f1831"/>to me. </p>
-            <p xml:id="novel1_letter4_chapter6_div4_div6_p18"> Clerval <seg th:sID="C12_app210-f1831"/>had never sympathised in my tastes<seg th:eID="C12_app210-f1831"/>for <seg th:sID="C12_app212-f1831"/>natural science;<seg th:eID="C12_app212-f1831"/>
-               <seg th:sID="C12_app216-f1831"/>and<seg th:eID="C12_app216-f1831"/>
-               <seg th:sID="C12_app217-f1831"/>his literary pursuits differed wholly from those which had occupied me. He came to the university with the design of making himself complete master of the oriental languages, as thus he should<seg th:eID="C12_app217-f1831"/>open a field <seg th:sID="C12_app220-f1831"/>for the plan of life he had marked out for himself. Resolved to pursue no inglorious career, he turned his eyes toward the East, as affording scope for his spirit of enterprise. The Persian, Arabic, and Sanscrit languages engaged<seg th:eID="C12_app220-f1831"/>his <seg th:sID="C12_app227-f1831"/>attention,<seg th:eID="C12_app227-f1831"/>
-               <seg th:sID="C12_app228-f1831"/>and I was easily induced to enter on the same studies.<seg th:eID="C12_app228-f1831"/>Idleness had ever been irksome to <seg th:sID="C12_app237-f1831"/>me,<seg th:eID="C12_app237-f1831"/>and now that I <seg th:sID="C12_app239-f1831"/>wished to<seg th:eID="C12_app239-f1831"/>fly from <seg th:sID="C12_app241-f1831"/>reflection,<seg th:eID="C12_app241-f1831"/>and hated my former <seg th:sID="C12_app243-f1831"/>studies,<seg th:eID="C12_app243-f1831"/>I <seg th:sID="C12_app245-f1831"/>felt<seg th:eID="C12_app245-f1831"/>great relief in being the <seg th:sID="C12_app247-f1831"/>fellow-pupil<seg th:eID="C12_app247-f1831"/>with my  <seg th:sID="C12_app250-f1831"/>friend,<seg th:eID="C12_app250-f1831"/>and <seg th:sID="C12_app252-f1831"/>found<seg th:eID="C12_app252-f1831"/>
-               <seg th:sID="C12_app253-f1831"/>not only instruction but consolation in the works of the orientalists.<seg th:eID="C12_app253-f1831"/>
-               <seg th:sID="C12_app254-f1831"/>I did not, like him, attempt a critical knowledge of their dialects, for I did not contemplate making any other use of them than temporary amusement. I read merely to understand their meaning, and they well repaid my labours.<seg th:eID="C12_app254-f1831"/>Their melancholy is <seg th:sID="C12_app256-f1831"/>soothing,<seg th:eID="C12_app256-f1831"/>and their joy <seg th:sID="C12_app258-f1831"/>elevating,<seg th:eID="C12_app258-f1831"/>to a degree I never <seg th:sID="C12_app260-f1831"/>experienced in<seg th:eID="C12_app260-f1831"/>
-               <seg th:sID="C12_app261-f1831"/>studying<seg th:eID="C12_app261-f1831"/>
-               <seg th:sID="C12_app262-f1831"/>the authors of any<seg th:eID="C12_app262-f1831"/>other  <seg th:sID="C12_app264-f1831"/>country. When you read<seg th:eID="C12_app264-f1831"/>
-               <seg th:sID="C12_app265-f1831"/>their<seg th:eID="C12_app265-f1831"/>
-               <seg th:sID="C12_app266-f1831"/>writings,<seg th:eID="C12_app266-f1831"/>life appears to consist in a warm sun and <seg th:sID="C12_app268-f1831"/>a garden<seg th:eID="C12_app268-f1831"/>of <seg th:sID="C12_app270-f1831"/>roses,—in<seg th:eID="C12_app270-f1831"/>the smiles and <seg th:sID="C12_app272-f1831"/>frowns<seg th:eID="C12_app272-f1831"/>of a fair  <seg th:sID="C12_app274-f1831"/>enemy,<seg th:eID="C12_app274-f1831"/>and the fire that consumes your own <seg th:sID="C12_app276-f1831"/>heart.<seg th:eID="C12_app276-f1831"/>How different from the <seg th:sID="C12_app278-f1831"/>manly<seg th:eID="C12_app278-f1831"/>and <seg th:sID="C12_app280-f1831"/>heroical<seg th:eID="C12_app280-f1831"/>
-               <seg th:sID="C12_app281-f1831"/>poetry<seg th:eID="C12_app281-f1831"/>of Greece and <seg th:sID="C12_app283-f1831"/>Rome!<pb xml:id="F1831_v_071" n="55"/>
-               <seg th:eID="C12_app283-f1831"/>
+               <seg th:eID="__F" part="F"/>
+    Krempe had now commenced 
+        <seg th:eID="__F" part="F"/>
+               <seg th:eID="__F" part="F"/>
+    happily turned the conversation from 
+        <seg th:eID="__F" part="F"/>
+    subject that was so 
+        <seg th:eID="__F" part="F"/>
+    to me. </p>
+            <p xml:id="novel1_letter4_chapter6_div4_div6_p18"> Clerval 
+        <seg th:eID="__F" part="F"/>
+    for 
+        <seg th:eID="__F" part="F"/>
+               <seg th:eID="__F" part="F"/>
+               <seg th:eID="__F" part="F"/>
+    open a field 
+        <seg th:eID="__F" part="F"/>
+    his 
+        <seg th:eID="__F" part="F"/>
+               <seg th:eID="__F" part="F"/>
+    Idleness had ever been irksome to 
+        <seg th:eID="__F" part="F"/>
+    and now that I 
+        <seg th:eID="__F" part="F"/>
+    fly from 
+        <seg th:eID="__F" part="F"/>
+    and hated my former 
+        <seg th:eID="__F" part="F"/>
+    I 
+        <seg th:eID="__F" part="F"/>
+    great relief in being the 
+        <seg th:eID="__F" part="F"/>
+    with my  
+        <seg th:eID="__F" part="F"/>
+    and 
+        <seg th:eID="__F" part="F"/>
+               <seg th:eID="__F" part="F"/>
+               <seg th:eID="__F" part="F"/>
+    Their melancholy is 
+        <seg th:eID="__F" part="F"/>
+    and their joy 
+        <seg th:eID="__F" part="F"/>
+    to a degree I never 
+        <seg th:eID="__F" part="F"/>
+               <seg th:eID="__F" part="F"/>
+               <seg th:eID="__F" part="F"/>
+    other  
+        <seg th:eID="__F" part="F"/>
+               <seg th:eID="__F" part="F"/>
+               <seg th:eID="__F" part="F"/>
+    life appears to consist in a warm sun and 
+        <seg th:eID="__F" part="F"/>
+    of 
+        <seg th:eID="__F" part="F"/>
+    the smiles and 
+        <seg th:eID="__F" part="F"/>
+    of a fair  
+        <seg th:eID="__F" part="F"/>
+    and the fire that consumes your own 
+        <seg th:eID="__F" part="F"/>
+    How different from the 
+        <seg th:eID="__F" part="F"/>
+    and 
+        <seg th:eID="__F" part="F"/>
+               <seg th:eID="__F" part="F"/>
+    of Greece and 
+        <seg th:eID="__F" part="F"/>
             </p>
-            <p xml:id="novel1_letter4_chapter6_div4_div6_p19"> Summer passed away in these <seg th:sID="C12_app285-f1831"/>occupations,<seg th:eID="C12_app285-f1831"/>and my return to Geneva was fixed for the latter end of <seg th:sID="C12_app287-f1831"/>autumn;<seg th:eID="C12_app287-f1831"/>but being delayed by several <seg th:sID="C12_app289-f1831"/>accidents,<seg th:eID="C12_app289-f1831"/>winter and snow arrived, <seg th:sID="C12_app291-f1831"/>the roads were deemed<seg th:eID="C12_app291-f1831"/>
-               <seg th:sID="C12_app292-f1831"/>impassable,<seg th:eID="C12_app292-f1831"/>and my <seg th:sID="C12_app294-f1831"/>journey<seg th:eID="C12_app294-f1831"/>
-               <seg th:sID="C12_app295-f1831"/>was<seg th:eID="C12_app295-f1831"/>
-               <seg th:sID="C12_app296-f1831"/>retarded until<seg th:eID="C12_app296-f1831"/>the <seg th:sID="C12_app298-f1831"/>ensuing<seg th:eID="C12_app298-f1831"/>spring. I felt this delay very  <seg th:sID="C12_app300-f1831"/>bitterly;<seg th:eID="C12_app300-f1831"/>for I longed to see my native  <seg th:sID="C12_app303-f1831"/>town<seg th:eID="C12_app303-f1831"/>and my beloved <seg th:sID="C12_app305-f1831"/>friends.<seg th:eID="C12_app305-f1831"/>My return had only been delayed so <seg th:sID="C12_app307-f1831"/>long,<seg th:eID="C12_app307-f1831"/>from an unwillingness to leave Clerval in a strange <seg th:sID="C12_app309-f1831"/>place,<seg th:eID="C12_app309-f1831"/>before he had become acquainted with <seg th:sID="C12_app311-f1831"/>any of<seg th:eID="C12_app311-f1831"/>its <seg th:sID="C12_app313-f1831"/>inhabitants.<seg th:eID="C12_app313-f1831"/>The <seg th:sID="C12_app315-f1831"/>winter, however,<seg th:eID="C12_app315-f1831"/>was <seg th:sID="C12_app317-f1831"/>spent<seg th:eID="C12_app317-f1831"/>
-               <seg th:sID="C12_app318-f1831"/>cheerfully;<seg th:eID="C12_app318-f1831"/>and although the spring was uncommonly <seg th:sID="C12_app320-f1831"/>late,<seg th:eID="C12_app320-f1831"/>when it <seg th:sID="C12_app322-f1831"/>came<seg th:eID="C12_app322-f1831"/>its beauty compensated <seg th:sID="C12_app324-f1831"/>for<seg th:eID="C12_app324-f1831"/>its dilatoriness. <seg th:sID="C12_app326-f1831__I" part="I"/>
-            </p>
-            <p xml:id="novel1_letter4_chapter6_div4_div6_p20">
-               <seg th:eID="C12_app326-f1831__F" part="F"/>The month of May <seg th:sID="C12_app328-f1831"/>had<seg th:eID="C12_app328-f1831"/>already <seg th:sID="C12_app330-f1831"/>commenced,<seg th:eID="C12_app330-f1831"/>and <seg th:sID="C12_app332-f1831"/>I expected the letter daily which<seg th:eID="C12_app332-f1831"/>was to fix the date of my <seg th:sID="C12_app334-f1831"/>departure,<seg th:eID="C12_app334-f1831"/>when Henry proposed a pedestrian tour in  <seg th:sID="C12_app336-f1831"/>the<seg th:eID="C12_app336-f1831"/>environs of <seg th:sID="C12_app338-f1831"/>Ingolstadt,<seg th:eID="C12_app338-f1831"/>that I might bid <seg th:sID="C12_app340-f1831"/>a personal<seg th:eID="C12_app340-f1831"/>farewell to the country I had so long <seg th:sID="C12_app342-f1831"/>inhabited.<seg th:eID="C12_app342-f1831"/>I <seg th:sID="C12_app344-f1831"/>acceded<seg th:eID="C12_app344-f1831"/>with pleasure to this <seg th:sID="C12_app346-f1831"/>proposition:<seg th:eID="C12_app346-f1831"/>I was fond of <seg th:sID="C12_app348-f1831"/>exercise,<seg th:eID="C12_app348-f1831"/>and Clerval had always been my favourite companion in <seg th:sID="C12_app350-f1831"/>the<seg th:eID="C12_app350-f1831"/>rambles of this nature that I had taken among the scenes of my native  <seg th:sID="C12_app352-f1831__I" part="I"/>country. </p>
-            <p xml:id="novel1_letter4_chapter6_div4_div6_p21">
-               <seg th:eID="C12_app352-f1831__F" part="F"/>We passed a fortnight in these <seg th:sID="C12_app354-f1831"/>perambulations:<seg th:eID="C12_app354-f1831"/>my health and spirits had long been <seg th:sID="C12_app356-f1831"/>restored,<seg th:eID="C12_app356-f1831"/>and they gained <seg th:sID="C12_app358-f1831"/>additional strength<seg th:eID="C12_app358-f1831"/>from the salubrious air <seg th:sID="C12_app360-f1831"/>I breathed,<seg th:eID="C12_app360-f1831"/>
-               <seg th:sID="C12_app361-f1831"/>the natural incidents of our<seg th:eID="C12_app361-f1831"/>
-               <seg th:sID="C12_app362-f1831"/>progress,<seg th:eID="C12_app362-f1831"/>and the conversation of my friend. Study had before <seg th:sID="C12_app364-f1831"/>secluded<seg th:eID="C12_app364-f1831"/>me <seg th:sID="C12_app366-f1831"/>from<seg th:eID="C12_app366-f1831"/>the <seg th:sID="C12_app368-f1831"/>intercourse<seg th:eID="C12_app368-f1831"/>of my <seg th:sID="C12_app370-f1831"/>fellow-creatures, and rendered me unsocial;<seg th:eID="C12_app370-f1831"/>but Clerval called forth the better feelings of my <seg th:sID="C12_app372-f1831"/>heart;<seg th:eID="C12_app372-f1831"/>he again taught me to love the aspect of <seg th:sID="C12_app374-f1831"/>nature,<seg th:eID="C12_app374-f1831"/>and the cheerful faces of <seg th:sID="C12_app376-f1831"/>children.<seg th:eID="C12_app376-f1831"/>Excellent friend! how sincerely did you love <seg th:sID="C12_app378-f1831"/>me,<seg th:eID="C12_app378-f1831"/>and endeavour to elevate my <seg th:sID="C12_app380-f1831"/>mind<seg th:eID="C12_app380-f1831"/>
-               <seg th:sID="C12_app381-f1831"/>until<seg th:eID="C12_app381-f1831"/>it was on a level with your <seg th:sID="C12_app383-f1831"/>own!<seg th:eID="C12_app383-f1831"/>A selfish <seg th:sID="C12_app385-f1831"/>pursuit<seg th:eID="C12_app385-f1831"/>had cramped and narrowed <seg th:sID="C12_app387-f1831"/>me, until<seg th:eID="C12_app387-f1831"/>your <seg th:sID="C12_app389-f1831"/>gentleness<seg th:eID="C12_app389-f1831"/>and affection warmed and opened <seg th:sID="C12_app391-f1831"/>my<seg th:eID="C12_app391-f1831"/>
-               <seg th:sID="C12_app392-f1831"/>senses;<seg th:eID="C12_app392-f1831"/>I <seg th:sID="C12_app394-f1831"/>became the same happy creature<seg th:eID="C12_app394-f1831"/>
-               <seg th:sID="C12_app395-f1831"/>who,<seg th:eID="C12_app395-f1831"/>a few years ago, <seg th:sID="C12_app397-f1831"/>loved<seg th:eID="C12_app397-f1831"/>and beloved by all, had no sorrow or <seg th:sID="C12_app399-f1831"/>care.<seg th:eID="C12_app399-f1831"/>When <seg th:sID="C12_app401-f1831"/>happy,<seg th:eID="C12_app401-f1831"/>inanimate nature <seg th:sID="C12_app403-f1831"/>had the power of<seg th:eID="C12_app403-f1831"/>
-               <seg th:sID="C12_app404-f1831"/>bestowing<seg th:eID="C12_app404-f1831"/>on me the most delightful <seg th:sID="C12_app406-f1831"/>sensations.<seg th:eID="C12_app406-f1831"/>A serene sky <seg th:sID="C12_app408-f1831"/>and verdant<seg th:eID="C12_app408-f1831"/>
-               <seg th:sID="C12_app409-f1831"/>fields filled me with<seg th:eID="C12_app409-f1831"/>
-               <seg th:sID="C12_app410-f1831"/>ecstasy. The<seg th:eID="C12_app410-f1831"/>present season was indeed  <seg th:sID="C12_app413-f1831"/>divine;<seg th:eID="C12_app413-f1831"/>the flowers of spring <seg th:sID="C12_app415-f1831"/>bloomed<seg th:eID="C12_app415-f1831"/>in the  <seg th:sID="C12_app417-f1831"/>hedges,<seg th:eID="C12_app417-f1831"/>while those<pb xml:id="F1831_v_072" n="56"/> of summer were already in <seg th:sID="C12_app419-f1831"/>bud.<seg th:eID="C12_app419-f1831"/>I <seg th:sID="C12_app421-f1831"/>was<seg th:eID="C12_app421-f1831"/>
-               <seg th:sID="C12_app422-f1831"/>undisturbed<seg th:eID="C12_app422-f1831"/>by thoughts <seg th:sID="C12_app424-f1831"/>which<seg th:eID="C12_app424-f1831"/>during the <seg th:sID="C12_app426-f1831"/>preceding<seg th:eID="C12_app426-f1831"/>year <seg th:sID="C12_app428-f1831"/>had<seg th:eID="C12_app428-f1831"/>pressed upon <seg th:sID="C12_app430-f1831"/>me, notwithstanding<seg th:eID="C12_app430-f1831"/>my endeavours to throw them <seg th:sID="C12_app432-f1831"/>off,<seg th:eID="C12_app432-f1831"/>with an invincible <seg th:sID="C12_app434-f1831__I" part="I"/>burden. </p>
-            <p xml:id="novel1_letter4_chapter6_div4_div6_p22">
-               <seg th:eID="C12_app434-f1831__F" part="F"/>Henry <seg th:sID="C12_app436-f1831"/>rejoiced<seg th:eID="C12_app436-f1831"/>
-               <seg th:sID="C12_app437-f1831"/>in my<seg th:eID="C12_app437-f1831"/>
-               <seg th:sID="C12_app438-f1831"/>gaiety,<seg th:eID="C12_app438-f1831"/>and sincerely <seg th:sID="C12_app440-f1831"/>sympathised<seg th:eID="C12_app440-f1831"/>in my <seg th:sID="C12_app442-f1831"/>feelings:<seg th:eID="C12_app442-f1831"/>he exerted himself to amuse me, while he expressed the <seg th:sID="C12_app444-f1831"/>sensations<seg th:eID="C12_app444-f1831"/>that <seg th:sID="C12_app446-f1831"/>filled his<seg th:eID="C12_app446-f1831"/>
-               <seg th:sID="C12_app447-f1831"/>soul.<seg th:eID="C12_app447-f1831"/>The resources of his mind on this occasion were truly <seg th:sID="C12_app449-f1831"/>astonishing: his<seg th:eID="C12_app449-f1831"/>conversation was full of <seg th:sID="C12_app451-f1831"/>imagination;<seg th:eID="C12_app451-f1831"/>and very often, in imitation of the <seg th:sID="C12_app453-f1831"/>Persian and<seg th:eID="C12_app453-f1831"/>Arabic writers, he invented tales of <seg th:sID="C12_app455-f1831"/>wonderful<seg th:eID="C12_app455-f1831"/>fancy and  <seg th:sID="C12_app457-f1831"/>passion.<seg th:eID="C12_app457-f1831"/>At other times he repeated my favourite <seg th:sID="C12_app459-f1831"/>poems,<seg th:eID="C12_app459-f1831"/>or drew me out into <seg th:sID="C12_app461-f1831"/>arguments,<seg th:eID="C12_app461-f1831"/>which he supported with great ingenuity. </p>
-            <p xml:id="novel1_letter4_chapter6_div4_div6_p23"> We returned <seg th:sID="C12_app463-f1831"/>to our<seg th:eID="C12_app463-f1831"/>
-               <seg th:sID="C12_app464-f1831"/>college<seg th:eID="C12_app464-f1831"/>on a Sunday <seg th:sID="C12_app466-f1831"/>afternoon:<seg th:eID="C12_app466-f1831"/>the <seg th:sID="C12_app468-f1831"/>peasants<seg th:eID="C12_app468-f1831"/>were <seg th:sID="C12_app470-f1831"/>dancing,<seg th:eID="C12_app470-f1831"/>and every one we met appeared <seg th:sID="C12_app472-f1831"/>gay<seg th:eID="C12_app472-f1831"/>and <seg th:sID="C12_app474-f1831"/>happy.<seg th:eID="C12_app474-f1831"/>My own spirits were <seg th:sID="C12_app476-f1831"/>high,<seg th:eID="C12_app476-f1831"/>and I bounded along with <seg th:sID="C12_app478-f1831"/>feelings of<seg th:eID="C12_app478-f1831"/>
-               <seg th:sID="C12_app479-f1831"/>unbridled<seg th:eID="C12_app479-f1831"/>joy and hilarity. <seg th:sID="C12_app481-f1831__I" part="I"/>
-            </p>
-            <seg th:eID="C12_app481-f1831__F" part="F"/>
-            <milestone unit="chapter" type="end" n="6"/>
+            <p th:sID="novel1_letter4_chapter6_div4_div6_p19"/> Summer passed away in these 
+        <seg th:eID="__F" part="F"/>
+    and my return to Geneva was fixed for the latter end of 
+        <seg th:eID="__F" part="F"/>
+    but being delayed by several 
+        <seg th:eID="__F" part="F"/>
+    winter and snow arrived, 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    and my 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    the 
+        <seg th:eID="__F" part="F"/>
+    spring. I felt this delay very  
+        <seg th:eID="__F" part="F"/>
+    for I longed to see my native  
+        <seg th:eID="__F" part="F"/>
+    and my beloved 
+        <seg th:eID="__F" part="F"/>
+    My return had only been delayed so 
+        <seg th:eID="__F" part="F"/>
+    from an unwillingness to leave Clerval in a strange 
+        <seg th:eID="__F" part="F"/>
+    before he had become acquainted with 
+        <seg th:eID="__F" part="F"/>
+    its 
+        <seg th:eID="__F" part="F"/>
+    The 
+        <seg th:eID="__F" part="F"/>
+    was 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    and although the spring was uncommonly 
+        <seg th:eID="__F" part="F"/>
+    when it 
+        <seg th:eID="__F" part="F"/>
+    its beauty compensated 
+        <seg th:eID="__F" part="F"/>
+    its dilatoriness. 
+        <seg th:eID="__F" part="F"/>
+    The month of May 
+        <seg th:eID="__F" part="F"/>
+    already 
+        <seg th:eID="__F" part="F"/>
+    and 
+        <seg th:eID="__F" part="F"/>
+    was to fix the date of my 
+        <seg th:eID="__F" part="F"/>
+    when Henry proposed a pedestrian tour in  
+        <seg th:eID="__F" part="F"/>
+    environs of 
+        <seg th:eID="__F" part="F"/>
+    that I might bid 
+        <seg th:eID="__F" part="F"/>
+    farewell to the country I had so long 
+        <seg th:eID="__F" part="F"/>
+    I 
+        <seg th:eID="__F" part="F"/>
+    with pleasure to this 
+        <seg th:eID="__F" part="F"/>
+    I was fond of 
+        <seg th:eID="__F" part="F"/>
+    and Clerval had always been my favourite companion in 
+        <seg th:eID="__F" part="F"/>
+    rambles of this nature that I had taken among the scenes of my native  
+        <seg th:eID="__F" part="F"/>
+    We passed a fortnight in these 
+        <seg th:eID="__F" part="F"/>
+    my health and spirits had long been 
+        <seg th:eID="__F" part="F"/>
+    and they gained 
+        <seg th:eID="__F" part="F"/>
+    from the salubrious air 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    and the conversation of my friend. Study had before 
+        <seg th:eID="__F" part="F"/>
+    me 
+        <seg th:eID="__F" part="F"/>
+    the 
+        <seg th:eID="__F" part="F"/>
+    of my 
+        <seg th:eID="__F" part="F"/>
+    but Clerval called forth the better feelings of my 
+        <seg th:eID="__F" part="F"/>
+    he again taught me to love the aspect of 
+        <seg th:eID="__F" part="F"/>
+    and the cheerful faces of 
+        <seg th:eID="__F" part="F"/>
+    Excellent friend! how sincerely did you love 
+        <seg th:eID="__F" part="F"/>
+    and endeavour to elevate my 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    it was on a level with your 
+        <seg th:eID="__F" part="F"/>
+    A selfish 
+        <seg th:eID="__F" part="F"/>
+    had cramped and narrowed 
+        <seg th:eID="__F" part="F"/>
+    your 
+        <seg th:eID="__F" part="F"/>
+    and affection warmed and opened 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    I 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    a few years ago, 
+        <seg th:eID="__F" part="F"/>
+    and beloved by all, had no sorrow or 
+        <seg th:eID="__F" part="F"/>
+    When 
+        <seg th:eID="__F" part="F"/>
+    inanimate nature 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    on me the most delightful 
+        <seg th:eID="__F" part="F"/>
+    A serene sky 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    present season was indeed  
+        <seg th:eID="__F" part="F"/>
+    the flowers of spring 
+        <seg th:eID="__F" part="F"/>
+    in the  
+        <seg th:eID="__F" part="F"/>
+    while those<pb xmlns="" xml:id="F1831_v_072" n="56"/> of summer were already in 
+        <seg th:eID="__F" part="F"/>
+    I 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    by thoughts 
+        <seg th:eID="__F" part="F"/>
+    during the 
+        <seg th:eID="__F" part="F"/>
+    year 
+        <seg th:eID="__F" part="F"/>
+    pressed upon 
+        <seg th:eID="__F" part="F"/>
+    my endeavours to throw them 
+        <seg th:eID="__F" part="F"/>
+    with an invincible 
+        <seg th:eID="__F" part="F"/>
+    Henry 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    and sincerely 
+        <seg th:eID="__F" part="F"/>
+    in my 
+        <seg th:eID="__F" part="F"/>
+    he exerted himself to amuse me, while he expressed the 
+        <seg th:eID="__F" part="F"/>
+    that 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    The resources of his mind on this occasion were truly 
+        <seg th:eID="__F" part="F"/>
+    conversation was full of 
+        <seg th:eID="__F" part="F"/>
+    and very often, in imitation of the 
+        <seg th:eID="__F" part="F"/>
+    Arabic writers, he invented tales of 
+        <seg th:eID="__F" part="F"/>
+    fancy and  
+        <seg th:eID="__F" part="F"/>
+    At other times he repeated my favourite 
+        <seg th:eID="__F" part="F"/>
+    or drew me out into 
+        <seg th:eID="__F" part="F"/>
+    which he supported with great ingenuity. <p th:eID="novel1_letter4_chapter6_div4_div6_p22"/>
+            <p th:sID="novel1_letter4_chapter6_div4_div6_p23"/> We returned 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    on a Sunday 
+        <seg th:eID="__F" part="F"/>
+    the 
+        <seg th:eID="__F" part="F"/>
+    were 
+        <seg th:eID="__F" part="F"/>
+    and every one we met appeared 
+        <seg th:eID="__F" part="F"/>
+    and 
+        <seg th:eID="__F" part="F"/>
+    My own spirits were 
+        <seg th:eID="__F" part="F"/>
+    and I bounded along with 
+        <seg th:eID="__F" part="F"/>
+            <seg th:eID="__F" part="F"/>
+    joy and hilarity. 
+        <seg th:eID="__F" part="F"/>
+            <milestone xmlns="" unit="chapter" type="end" n="6"/>
          </div>
       </body>
    </text>
