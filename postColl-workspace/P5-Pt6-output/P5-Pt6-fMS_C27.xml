@@ -18,9 +18,9 @@
          </publicationStmt>
          <sourceDesc>
             <p>Produced from collation output prepared in batch file processing
-                                    on  2023-08-10 05:10:36.561649 .</p>
+                                    on  2023-08-14 19:13:17.493889 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-14T01:32:24.815998-04:00.</p>
+                                    Variorum spine on 2023-08-14T15:36:32.322696-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -242,9 +242,14 @@
         </seg> 
     &amp;<mod xml:id="c57-0117__main__d4e21617">
                <sga-add place="sublinear" xml:id="c57-0117__main__d4e21619">
-                  <metamark function="insert">^</metamark>
+                  <seg part="I" xml:id="C27_app88-fMS__I">
+                     <metamark function="insert">^</metamark>
+                  </seg>
                </sga-add>
-               <sga-add place="superlinear" xml:id="c57-0117__main__d4e21625">even </sga-add>
+               <sga-add place="superlinear" xml:id="c57-0117__main__d4e21625">
+                  <seg part="F" xml:id="C27_app88-fMS__F">even
+        </seg>
+               </sga-add>
             </mod>that the body <lb n="c57-0117__main__34"/>was not 
         <seg xml:id="C27_app90-fMS">
         yet
@@ -1865,11 +1870,7 @@
             <seg xml:id="C27_app714-fMS">
                <lb n="c57-0126__main__24"/>My father, said,
         </seg> 
-    I, while every 
-         <seg xml:id="C27_app716-fMS">
-               <w ana="start"/>fea<lb n="c57-0126__main__25"/>ture<w ana="end"/>&amp;
-        </seg> 
-    every muscle was relaxed from <lb n="c57-0126__main__26"/>anguish to 
+    I, while every <w ana="start"/>fea<lb n="c57-0126__main__25"/>ture<w ana="end"/>&amp; every muscle was relaxed from <lb n="c57-0126__main__26"/>anguish to 
         <seg xml:id="C27_app718-fMS">
         pleasure – Is
         </seg> 

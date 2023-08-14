@@ -17,9 +17,9 @@
          </publicationStmt>
          <sourceDesc>
             <p>Produced from collation output prepared in batch file processing
-                                    on  2023-08-10 04:23:20.438794 .</p>
+                                    on  2023-08-14 18:26:44.488658 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-14T01:32:24.815998-04:00.</p>
+                                    Variorum spine on 2023-08-14T15:36:32.322696-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -2380,9 +2380,14 @@
                <sga-add place="sublinear" xml:id="c56-0042__main__d5e9070">
                   <seg th:sID="C09_app648-fMS__F" part="F"/>
                   <seg th:eID="C09_app648-fMS__F" part="F"/>
+                  <seg th:sID="C09_app649-fMS__I" part="I"/>
                   <metamark function="insert">^</metamark>
+                  <seg th:eID="C09_app649-fMS__I" part="I"/>
                </sga-add>
-               <sga-add hand="#pbs" place="superlinear" xml:id="c56-0042__main__d5e9076">all that related to </sga-add>
+               <sga-add hand="#pbs" place="superlinear" xml:id="c56-0042__main__d5e9076">
+                  <seg th:sID="C09_app649-fMS__F" part="F"/>all that related to
+        <seg th:eID="C09_app649-fMS__F" part="F"/>
+               </sga-add>
             </mod>my feelings of 
         <seg th:sID="C09_app651-fMS"/>
         affection, untill

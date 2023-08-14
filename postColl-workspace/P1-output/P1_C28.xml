@@ -15,9 +15,9 @@
          </publicationStmt>
          <sourceDesc>
             <p>Produced from collation output prepared in batch file processing
-                                    on  2023-08-10 05:16:38.996137 .</p>
+                                    on  2023-08-14 19:19:28.126415 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-14T01:32:24.815998-04:00.</p>
+                                    Variorum spine on 2023-08-14T15:36:32.322696-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -103,7 +103,7 @@
                   <rdg wit="f1823">to</rdg>
                   <rdg wit="fThomas">to</rdg>
                </rdgGrp>
-               <rdgGrp n="['', '&lt;del&gt;to go&lt;/del&gt;', '', '', 'to']" xml:id="C28_app9_rg2">
+               <rdgGrp n="['', '&lt;del&gt;to go&lt;/del&gt;', '', '^', 'to']" xml:id="C28_app9_rg2">
                   <rdg wit="fMS">&lt;mod sID="c57-0132__main__d4e24503"/&gt; &lt;del rend="strikethrough" xml:id="c57-0132__main__d4e24505"&gt;to go&lt;/del&gt; &lt;sga-add place="sublinear" sID="c57-0132__main__d4e24508"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c57-0132__main__d4e24508"/&gt;&lt;sga-add place="superlinear" sID="c57-0132__main__d4e24514"/&gt;to</rdg>
                </rdgGrp>
             </app>
@@ -178,7 +178,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C28_app17">
-               <rdgGrp n="['cl', '', '&lt;mdel&gt;ai&lt;/mdel&gt;', '', '', 'e', '', 'rval', '–', 'and']"
+               <rdgGrp n="['cl', '', '&lt;mdel&gt;ai&lt;/mdel&gt;', '', '^', 'e', '', 'rval', '–', 'and']"
                         xml:id="C28_app17_rg1">
                   <rdg wit="fMS">Cl &lt;mod sID="c57-0132__main__d4e24542"/&gt; &lt;mdel&gt;ai&lt;/mdel&gt; &lt;sga-add place="sublinear" sID="c57-0132__main__d4e24546"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c57-0132__main__d4e24546"/&gt;&lt;sga-add place="superlinear" sID="c57-0132__main__d4e24552"/&gt;e &lt;sga-add eID="c57-0132__main__d4e24552"/&gt;&lt;mod eID="c57-0132__main__d4e24542"/&gt; rval – And</rdg>
                </rdgGrp>
@@ -426,7 +426,8 @@
                </rdgGrp>
             </app>
             <app xml:id="C28_app43">
-               <rdgGrp n="['&lt;w ana=&#34;start&#34;/&gt;o', 'bs', 'ti', 'nate']" xml:id="C28_app43_rg1">
+               <rdgGrp n="['&lt;w ana=&#34;start&#34;/&gt;o', 'bs', 'ti', 'nate&lt;w ana=&#34;end&#34;/&gt;']"
+                        xml:id="C28_app43_rg1">
                   <rdg wit="fMS">&lt;w ana="start"/&gt;o &lt;sga-add place="sublinear" sID="c57-0132__main__d4e24608"/&gt;bs &lt;sga-add eID="c57-0132__main__d4e24608"/&gt;ti &lt;lb n="c57-0132__main__21"/&gt;nate&lt;w ana="end"/&gt;</rdg>
                </rdgGrp>
                <rdgGrp n="['obstinate,']" xml:id="C28_app43_rg2">
@@ -1010,7 +1011,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C28_app100">
-               <rdgGrp n="['convalescence .', '&lt;del&gt;i&lt;/del&gt;']" xml:id="C28_app100_rg1">
+               <rdgGrp n="['convalescence', '&lt;del&gt;i&lt;/del&gt;']" xml:id="C28_app100_rg1">
                   <rdg wit="fMS">&lt;w ana="start"/&gt;conva&lt;lb n="c57-0133__main__13"/&gt;lescence&lt;w ana="end"/&gt;. &lt;del rend="strikethrough" xml:id="c57-0133__main__d4e24742"&gt;I&lt;/del&gt;</rdg>
                </rdgGrp>
                <rdgGrp n="['convalescence.', 'i']" xml:id="C28_app100_rg2">
@@ -2028,7 +2029,7 @@
                   <rdg wit="f1823">us</rdg>
                   <rdg wit="fThomas">us</rdg>
                </rdgGrp>
-               <rdgGrp n="['', '', 'us']" xml:id="C28_app197_rg2">
+               <rdgGrp n="['', '^', 'us']" xml:id="C28_app197_rg2">
                   <rdg wit="fMS">&lt;mod sID="c57-0134__main__d4e24962"/&gt;&lt;sga-add place="sublinear" sID="c57-0134__main__d4e24964"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c57-0134__main__d4e24964"/&gt;&lt;sga-add hand="#pbs" place="superlinear" sID="c57-0134__main__d4e24970"/&gt;us</rdg>
                </rdgGrp>
             </app>

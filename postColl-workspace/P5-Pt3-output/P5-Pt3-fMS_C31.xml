@@ -17,9 +17,9 @@
          </publicationStmt>
          <sourceDesc>
             <p>Produced from collation output prepared in batch file processing
-                                    on  2023-08-10 07:16:05.227859 .</p>
+                                    on  2023-08-14 19:24:17.623657 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-14T01:32:24.815998-04:00.</p>
+                                    Variorum spine on 2023-08-14T15:36:32.322696-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -590,9 +590,14 @@
         <seg th:eID="C31_app173-fMS"/>
     &amp;<mod xml:id="c57-0158__main__d4e30202">
                <sga-add place="sublinear" xml:id="c57-0158__main__d4e30204">
+                  <seg th:sID="C31_app175-fMS__I" part="I"/>
                   <metamark function="insert">^</metamark>
+                  <seg th:eID="C31_app175-fMS__I" part="I"/>
                </sga-add>
-               <sga-add hand="#pbs" place="superlinear" xml:id="c57-0158__main__d4e30210">tread the </sga-add>
+               <sga-add hand="#pbs" place="superlinear" xml:id="c57-0158__main__d4e30210">
+                  <seg th:sID="C31_app175-fMS__F" part="F"/>tread the
+        <seg th:eID="C31_app175-fMS__F" part="F"/>
+               </sga-add>
             </mod>green herbage of 
         <seg th:sID="C31_app177-fMS"/>
         earth
@@ -1437,22 +1442,15 @@
             <w ana="start"/>dæ<lb n="c57-0161__main__21"/>mon<w ana="end"/>
             <seg th:eID="C31_app489-fMS"/>
     more as a task enjoined by heaven, 
-        <seg th:sID="C31_app491-fMS__I" part="I"/>
-            <seg th:eID="C31_app491-fMS__I" part="I"/>
+        <seg th:sID="C31_app491-fMS"/>
             <sga-add xml:id="c57-0161__main__d4e31067">
-               <seg th:sID="C31_app491-fMS__F" part="F"/>
                <metamark function="displacement" xml:id="c57-0161.05">X</metamark>
                <lb n="c57-0161__left_margin__1"/>
-               <metamark function="displacement">X</metamark> as the mechanical <lb n="c57-0161__left_margin__2"/>impulse of <lb n="c57-0161__left_margin__3"/>some power of which <lb n="c57-0161__left_margin__4"/>I was
-        <seg th:eID="C31_app491-fMS__F" part="F"/>
-               <seg th:sID="C31_app492-fMS__I" part="I"/>
-               <w ana="start"/>uncon<lb n="c57-0161__left_margin__5"/>scious,<w ana="end"/>
+               <metamark function="displacement">X</metamark> as the mechanical <lb n="c57-0161__left_margin__2"/>impulse of <lb n="c57-0161__left_margin__3"/>some power of which <lb n="c57-0161__left_margin__4"/>I was <w ana="start"/>uncon<lb n="c57-0161__left_margin__5"/>scious,<w ana="end"/>
                <anchor xml:id="c57-0161.06"/>
-               <seg th:eID="C31_app492-fMS__I" part="I"/>
             </sga-add>
-            <seg th:sID="C31_app492-fMS__F" part="F"/>
             <lb n="c57-0161__main__22"/>than
-        <seg th:eID="C31_app492-fMS__F" part="F"/>
+        <seg th:eID="C31_app491-fMS"/>
     the ardent desire of my soul. <milestone unit="tei:p-END"/>
             <milestone unit="tei:p-START"/>
             <lb n="c57-0161__main__23"/>What his feelings were whom I 
@@ -1720,11 +1718,7 @@
                <sga-add place="intralinear" xml:id="c57-0162__main__d4e31405">red</sga-add>
             </mod>"
         <seg th:eID="C31_app578-fMS"/>
-    My 
-        <seg th:sID="C31_app580-fMS"/>
-            <w ana="start"/>cou<lb n="c57-0162__main__27"/>rage<w ana="end"/>&amp;
-        <seg th:eID="C31_app580-fMS"/>
-    perseverance were 
+    My <w ana="start"/>cou<lb n="c57-0162__main__27"/>rage<w ana="end"/>&amp; perseverance were 
         <seg th:sID="C31_app582-fMS"/>
         inspired with <lb n="c57-0162__main__28"/>new strength
         <seg th:eID="C31_app582-fMS"/>

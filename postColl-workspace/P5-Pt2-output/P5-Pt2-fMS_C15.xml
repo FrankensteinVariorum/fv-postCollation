@@ -17,9 +17,9 @@
          </publicationStmt>
          <sourceDesc>
             <p>Produced from collation output prepared in batch file processing
-                                    on  2023-08-10 04:37:43.634059 .</p>
+                                    on  2023-08-14 18:40:41.866885 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-14T01:32:24.815998-04:00.</p>
+                                    Variorum spine on 2023-08-14T15:36:32.322696-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -160,9 +160,14 @@
         <seg th:eID="C15_app40-fMS"/>
             <lb n="c56-0108__main__23"/>description<mod xml:id="c56-0108__main__d5e22625">
                <sga-add place="sublinear" xml:id="c56-0108__main__d5e22627">
+                  <seg th:sID="C15_app42-fMS__I" part="I"/>
                   <metamark function="insert">^</metamark>
+                  <seg th:eID="C15_app42-fMS__I" part="I"/>
                </sga-add>
-               <sga-add place="superlinear" xml:id="c56-0108__main__d5e22633">horrible, </sga-add>
+               <sga-add place="superlinear" xml:id="c56-0108__main__d5e22633">
+                  <seg th:sID="C15_app42-fMS__F" part="F"/>horrible,
+        <seg th:eID="C15_app42-fMS__F" part="F"/>
+               </sga-add>
             </mod>and 
         <seg th:sID="C15_app44-fMS"/>
             <del rend="smear" xml:id="c56-0108__main__d5e22637">
@@ -656,7 +661,7 @@
             <seg th:eID="C15_app219-fMS__I" part="I"/>
             <mod xml:id="c56-0111__main__d5e23219">
                <sga-add place="sublinear" xml:id="c56-0111__main__d5e23221">
-                  <metamark function="insert">&gt;^</metamark>
+                  <metamark function="insert">&amp;gt;^</metamark>
                </sga-add>
                <sga-add hand="#pbs" place="superlinear" xml:id="c56-0111__main__d5e23227">
                   <seg th:sID="C15_app219-fMS__F" part="F"/>might
@@ -805,7 +810,7 @@
                <seg th:sID="C15_app269-fMS__F" part="F"/>
                <metamark function="displacement" xml:id="c56-0112.02">X</metamark>
                <lb n="c56-0112__left_margin__1"/>
-               <metamark function="displacement"/> There was <lb n="c56-0112__left_margin__2"/>always scope <lb n="c56-0112__left_margin__3"/>for
+               <metamark function="displacement"> </metamark> There was <lb n="c56-0112__left_margin__2"/>always scope <lb n="c56-0112__left_margin__3"/>for
         <seg th:eID="C15_app269-fMS__F" part="F"/>
                <seg th:sID="C15_app270-fMS"/>
         fear
@@ -1045,7 +1050,7 @@
                   <seg th:sID="C15_app349-fMS__F" part="F"/>
                   <metamark function="displacement" xml:id="c56-0113.06">X</metamark>
                   <lb n="c56-0113__left_margin__1"/>
-                  <metamark function="displacement"/>
+                  <metamark function="displacement"> </metamark>
                   <seg th:eID="C15_app349-fMS__F" part="F"/>
     At least they <lb n="c56-0113__left_margin__2"/>were remote, <lb n="c56-0113__left_margin__3"/>and more <lb n="c56-0113__left_margin__4"/>familiar to 
         <seg th:sID="C15_app351-fMS"/>
