@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xpath-default-namespace="http://www.tei-c.org/ns/1.0"
-    xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-    xmlns:mith="http://mith.umd.edu/sc/ns1#"
     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
     xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs" version="3.0">
@@ -29,10 +27,7 @@
                 select="tokenize(base-uri(), '/')[last()] ! substring-before(., '.') ! substring-after(., '_')"/>
 
             <xsl:result-document method="xml" indent="yes" href="P5-Pt1-output/{$filename}">
-                <TEI xmlns="http://www.tei-c.org/ns/1.0"
-                    xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                    xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                    xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
+                <TEI>
                     <xsl:apply-templates select="descendant::teiHeader"/>
                     <text>
                         <body>

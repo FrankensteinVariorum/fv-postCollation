@@ -2,10 +2,8 @@
 <xsl:stylesheet 
     xpath-default-namespace="http://www.tei-c.org/ns/1.0"
     xmlns="http://www.tei-c.org/ns/1.0"
-    xmlns:tei="http://www.tei-c.org/ns/1.0"
-    xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:mith="http://mith.umd.edu/sc/ns1#"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" 
     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
  
     version="3.0">

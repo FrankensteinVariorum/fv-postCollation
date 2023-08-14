@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Bridge Phase 4:  Witness fThomas, Collation unit C07</title>
          </titleStmt>
-         <publicationStmt xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                           xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                           xmlns:tei="http://www.tei-c.org/ns/1.0"
-                           xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+         <publicationStmt>
             <authority>Frankenstein Variorum Project</authority>
             <date>2023—</date>
             <availability>
@@ -17,15 +14,11 @@
                                         Attribution-ShareAlike 3.0 Unported License</licence>
             </availability>
          </publicationStmt>
-         <sourceDesc xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                      xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                      xmlns:tei="http://www.tei-c.org/ns/1.0"
-                      xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                      xmlns:xs="http://www.w3.org/2001/XMLSchema">
+         <sourceDesc>
             <p>Produced from collation output prepared in batch file processing
                                     on  2023-08-10 04:18:13.976688 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-13T23:37:48.036894-04:00.</p>
+                                    Variorum spine on 2023-08-13T23:44:19.755326-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -36,7 +29,7 @@
             <anchor type="collate" xml:id="C07"/>
             <milestone unit="chapter" type="start" n="1"/>
             <head>CHAPTER I.</head>
-            <p xml:id="novel1_letter4_chapter1_div4_div1_p1"> I <hi xml:id="novel1_letter4_chapter1_div4_div1_p1_hi1">AM</hi> by birth a Genevese; and my family is one of the most distinguished of that republic. My ancestors had been for many years counsellors and syndics; and my father had filled several public situations with honour and reputation. He was respected by all who knew
+            <p xml:id="novel1_letter4_chapter1_div4_div1_p1"> I <hi xml:id="novel1_letter4_chapter1_div4_div1_p1_hi1">AM</hi>AM by birth a Genevese; and my family is one of the most distinguished of that republic. My ancestors had been for many years counsellors and syndics; and my father had filled several public situations with honour and reputation. He was respected by all who knew
         <seg xml:id="C07_app1-fThomas_end"/>
                <seg xml:id="C07_app2-fThomas_start"/>
         him
@@ -122,16 +115,16 @@
             <seg xml:id="C07_app27-fThomas_end"/>
             <seg xml:id="C07_app28-fThomas_start"/>
             <p xml:id="novel1_letter4_chapter1_div4_div1_p6">
-               <del rend="strikethrough">When my father became a husband and a parent, he found his time so occupied by the duties of his new situation, that he</del>
-               <add>As my father’s age encreased he became more attached to the quiet of a domestic life, and he gradually</add> relinquished <del rend="strikethrough">many of</del> his public employments, and devoted himself <add place="margin">with ardour </add>to the education of his children.
+               <del rend="strikethrough">When my father became a husband and a parent, he found his time so occupied by the duties of his new situation, that he</del>When my father became a husband and a parent, he found his time so occupied by the duties of his new situation, that he
+            <add>As my father’s age encreased he became more attached to the quiet of a domestic life, and he gradually</add>As my father’s age encreased he became more attached to the quiet of a domestic life, and he gradually relinquished <del rend="strikethrough">many of</del>many of his public employments, and devoted himself <add place="margin">with ardour </add>with ardour to the education of his children.
         <seg xml:id="C07_app28-fThomas_end"/>
                <seg xml:id="C07_app29-fThomas_start"/>
         Of these I was the eldest, and the destined suc<pb xml:id="F1818_v1_056" n="044"/>cessor to all his labours and utility. No creature could have more tender parents than mine. My improvement and health were their constant care, especially as I remained for several years their only child. But before I continue my narrative, I must record an incident which took place when I was four years of age. </p>
             <p xml:id="novel1_letter4_chapter1_div4_div1_p7"> My father had a sister, whom he tenderly loved, and who had married early in life an Italian gentleman. Soon after her marriage, she had accompanied her husband
         <seg xml:id="C07_app29-fThomas_end"/>
                <seg xml:id="C07_app30-fThomas_start"/>
-        into <del>her</del>
-               <add>his</add> native country,
+        into <del>her</del>her
+            <add>his</add>his native country,
         <seg xml:id="C07_app30-fThomas_end"/>
                <seg xml:id="C07_app31-fThomas_start"/>
         and for some years my father had very little communication with her. About the time I mentioned she died; and a few months afterwards he received a letter from her husband, acquainting him with his intention of marrying an Italian lady, and requesting my father to take charge of the in<pb xml:id="F1818_v1_057" n="045"/>fant Elizabeth, the only child of his deceased sister. “It is my wish,” he said, “that you should consider her as your own daughter, and educate her thus. Her
@@ -147,8 +140,8 @@
         shewed
         <seg xml:id="C07_app34-fThomas_end"/>
                <seg xml:id="C07_app35-fThomas_start"/>
-               <add>every </add> sign <del>s even then</del>
-               <seg xml:id="C07_app35-fThomas_end"/>
+               <add>every </add>every  sign <del>s even then</del>s even then
+            <seg xml:id="C07_app35-fThomas_end"/>
                <seg xml:id="C07_app36-fThomas_start"/>
         of a gentle and affectionate disposition. These indications, and a desire to bind as closely as possible the ties of domestic love, determined my mother to consider <pb xml:id="F1818_v1_058" n="046"/>Elizabeth as my future wife; a design which she never found reason to repent.
         <seg xml:id="C07_app36-fThomas_end"/>
