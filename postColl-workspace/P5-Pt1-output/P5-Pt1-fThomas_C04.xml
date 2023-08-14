@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
+      xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Bridge Phase 5:  Witness fThomas, Collation unit C04</title>
          </titleStmt>
-         <publicationStmt>
+         <publicationStmt xmlns:xs="http://www.w3.org/2001/XMLSchema">
             <authority>Frankenstein Variorum Project</authority>
             <date>2023—</date>
             <availability>
@@ -14,11 +14,11 @@
                                         Attribution-ShareAlike 3.0 Unported License</licence>
             </availability>
          </publicationStmt>
-         <sourceDesc>
+         <sourceDesc xmlns:xs="http://www.w3.org/2001/XMLSchema">
             <p>Produced from collation output prepared in batch file processing
                                     on  2023-08-10 04:17:19.377366 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-13T23:44:19.755326-04:00.</p>
+                                    Variorum spine on 2023-08-14T01:29:03.071811-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -32,7 +32,7 @@
             <seg th:eID="C04_app1-fThomas"/>
             <seg th:sID="C04_app2-fThomas"/>
             <ab xml:id="novel1_letter3_div3_ab1">
-               <hi xml:id="novel1_letter3_div3_ab1_hi1">To Mrs.</hi>To Mrs. S<hi xml:id="novel1_letter3_div3_ab1_hi2">AVILLE</hi>AVILLE, <hi xml:id="novel1_letter3_div3_ab1_hi3">England.</hi>England.
+               <hi xml:id="novel1_letter3_div3_ab1_hi1">To Mrs.</hi> S<hi xml:id="novel1_letter3_div3_ab1_hi2">AVILLE</hi>, <hi xml:id="novel1_letter3_div3_ab1_hi3">England.</hi>
             </ab>
             <seg th:eID="C04_app2-fThomas"/>
             <seg th:sID="C04_app3-fThomas__I" part="I"/>
@@ -40,11 +40,11 @@
             <p xml:id="novel1_letter3_div3_p2">
                <seg th:eID="C04_app3-fThomas__F" part="F"/>
                <seg th:sID="C04_app4-fThomas"/>
-               <hi xml:id="novel1_letter3_div3_p2_hi1">MY DEAR SISTER</hi>MY DEAR SISTER,
+               <hi xml:id="novel1_letter3_div3_p2_hi1">MY DEAR SISTER</hi>,
         <seg th:eID="C04_app4-fThomas"/>
                <seg th:sID="C04_app5-fThomas__I" part="I"/>
             </p>
-            <p xml:id="novel1_letter3_div3_p3"> I <hi xml:id="novel1_letter3_div3_p3_hi1">WRITE</hi>WRITE a few lines in haste, to say that I am safe, and well advanced on my voyage. This letter will reach England by a
+            <p xml:id="novel1_letter3_div3_p3"> I <hi xml:id="novel1_letter3_div3_p3_hi1">WRITE</hi> a few lines in haste, to say that I am safe, and well advanced on my voyage. This letter will reach England by a
         <seg th:eID="C04_app5-fThomas__F" part="F"/>
                <seg th:sID="C04_app6-fThomas"/>
         merchant-man
@@ -53,22 +53,22 @@
         now on its homeward voyage from Archangel; more fortunate than I, who may not see my native land, perhaps, for many years. I am, however, in good spirits: my
         <seg th:eID="C04_app7-fThomas"/>
                <seg th:sID="C04_app8-fThomas"/>
-               <del>men</del>men
-            <add>crew</add>crew
-            <seg th:eID="C04_app8-fThomas"/>
+               <del>men</del>
+               <add>crew</add>
+               <seg th:eID="C04_app8-fThomas"/>
                <seg th:sID="C04_app9-fThomas"/>
         are
         <seg th:eID="C04_app9-fThomas"/>
                <seg th:sID="C04_app10-fThomas"/>
-               <del>bold</del>bold
-            <add>gallant fellows</add>gallant fellows , <del>and apparently</del>and apparently
-            <add>&amp; I am</add>&amp; I am
-            <seg th:eID="C04_app10-fThomas"/>
+               <del>bold</del>
+               <add>gallant fellows</add> , <del>and apparently</del>
+               <add>&amp; I am</add>
+               <seg th:eID="C04_app10-fThomas"/>
                <seg th:sID="C04_app11-fThomas"/>
         firm of purpose; nor do the floating sheets of ice that continually pass us, indi<pb xml:id="F1818_v1_031" n="019"/>cating the dangers of the region towards which we are advancing, appear to dismay them. We have already reached a very high latitude; but it is the height of summer, and although not so warm as in England, the southern gales, which blow us speedily towards those shores which I so ardently desire to attain, breathe a degree of renovating warmth which I had not expected.
         <seg th:eID="C04_app11-fThomas"/>
                <seg th:sID="C04_app12-fThomas__I" part="I"/>
-               <add place="margin">The appearance of the sky is indiscribably beautiful; clear by day, and illuminated at night by the Aurora Borealis <del-INNER rend="strikethrough">w</del-INNER> which spreads a roseate tinge over the heavens, &amp; over the sea which reflects it’s splendour.</add>The appearance of the sky is indiscribably beautiful; clear by day, and illuminated at night by the Aurora Borealis <del-INNER rend="strikethrough">w</del-INNER>w which spreads a roseate tinge over the heavens, &amp; over the sea which reflects it’s splendour.
+               <add place="margin">The appearance of the sky is indiscribably beautiful; clear by day, and illuminated at night by the Aurora Borealis <del-INNER rend="strikethrough">w</del-INNER> which spreads a roseate tinge over the heavens, &amp; over the sea which reflects it’s splendour.</add>
             </p>
             <p xml:id="novel1_letter3_div3_p4"> No incidents have hitherto befallen
         <seg th:eID="C04_app12-fThomas__F" part="F"/>
@@ -79,16 +79,16 @@
         that would make a figure in a letter. One or two
         <seg th:eID="C04_app14-fThomas"/>
                <seg th:sID="C04_app15-fThomas"/>
-               <del>stiff</del>stiff
-            <add>hard</add>hard
-            <seg th:eID="C04_app15-fThomas"/>
+               <del>stiff</del>
+               <add>hard</add>
+               <seg th:eID="C04_app15-fThomas"/>
                <seg th:sID="C04_app16-fThomas"/>
         gales, and the
         <seg th:eID="C04_app16-fThomas"/>
                <seg th:sID="C04_app17-fThomas"/>
-               <del>breaking</del>breaking
-            <add>carrying away</add>carrying away
-            <seg th:eID="C04_app17-fThomas"/>
+               <del>breaking</del>
+               <add>carrying away</add>
+               <seg th:eID="C04_app17-fThomas"/>
                <seg th:sID="C04_app18-fThomas"/>
         of a
         <seg th:eID="C04_app18-fThomas"/>

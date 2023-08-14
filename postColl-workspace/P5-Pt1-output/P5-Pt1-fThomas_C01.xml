@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
+      xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Bridge Phase 5:  Witness fThomas, Collation unit C01</title>
          </titleStmt>
-         <publicationStmt>
+         <publicationStmt xmlns:xs="http://www.w3.org/2001/XMLSchema">
             <authority>Frankenstein Variorum Project</authority>
             <date>2023—</date>
             <availability>
@@ -14,11 +14,11 @@
                                         Attribution-ShareAlike 3.0 Unported License</licence>
             </availability>
          </publicationStmt>
-         <sourceDesc>
+         <sourceDesc xmlns:xs="http://www.w3.org/2001/XMLSchema">
             <p>Produced from collation output prepared in batch file processing
                                     on  2023-08-10 04:16:18.293583 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-13T23:44:19.755326-04:00.</p>
+                                    Variorum spine on 2023-08-14T01:29:03.071811-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -32,11 +32,11 @@
             <milestone unit="preface" type="start" n="1"/>
             <pb xml:id="F1818_v1_007" n="viii"/>
             <head>PREFACE.</head>
-            <p xml:id="preface1_p1"> T<hi xml:id="preface1_p1_hi1">HE</hi>HE event on which this fiction is founded has been supposed, by Dr. Darwin, and some of the physiological writers of Germany, as not of impossible occurrence. I shall not be supposed as according the remotest degree of serious faith to such an imagination; yet, in assuming it as the basis of a work of fancy, I have not considered myself as merely weaving a series of supernatural terrors. The event on <pb xml:id="F1818_v1_008" n="viii"/>which the interest of the story depends is exempt from the disadvantages of a mere tale of spectres or enchantment. It was recommended by the novelty of the situations which it developes; and, however impossible as a physical fact, affords a point of view to the imagination for the delineating of human passions more comprehensive and commanding than any which the ordinary relations of existing events can yield. </p>
+            <p xml:id="preface1_p1"> T<hi xml:id="preface1_p1_hi1">HE</hi> event on which this fiction is founded has been supposed, by Dr. Darwin, and some of the physiological writers of Germany, as not of impossible occurrence. I shall not be supposed as according the remotest degree of serious faith to such an imagination; yet, in assuming it as the basis of a work of fancy, I have not considered myself as merely weaving a series of supernatural terrors. The event on <pb xml:id="F1818_v1_008" n="viii"/>which the interest of the story depends is exempt from the disadvantages of a mere tale of spectres or enchantment. It was recommended by the novelty of the situations which it developes; and, however impossible as a physical fact, affords a point of view to the imagination for the delineating of human passions more comprehensive and commanding than any which the ordinary relations of existing events can yield. </p>
             <p xml:id="preface1_p2"> I have thus endeavoured to preserve the truth of the elementary principles of human nature, while I have not scrupled to innovate upon their combinations. The 
         <seg th:eID="C01_app1-fThomas__F" part="F"/>
                <seg th:sID="C01_app2-fThomas"/>
-               <hi xml:id="preface1_p2_hi1">Iliad</hi>Iliad,
+               <hi xml:id="preface1_p2_hi1">Iliad</hi>,
         <seg th:eID="C01_app2-fThomas"/>
                <seg th:sID="C01_app3-fThomas"/>
         the tragic poetry of
@@ -48,35 +48,27 @@
         in the
         <seg th:eID="C01_app5-fThomas"/>
                <seg th:sID="C01_app6-fThomas"/>
-               <hi xml:id="preface1_p2_hi2">Tempest</hi>Tempest
-            <seg th:eID="C01_app6-fThomas"/>
+               <hi xml:id="preface1_p2_hi2">Tempest</hi>
+               <seg th:eID="C01_app6-fThomas"/>
                <seg th:sID="C01_app7-fThomas"/>
         and
         <seg th:eID="C01_app7-fThomas"/>
-               <seg th:sID="C01_app8-fThomas"/>
+               <seg th:sID="C01_app8-fThomas__I" part="I"/>
                <hi xml:id="preface1_p2_hi3">Mid<pb xmlns:xs="http://www.w3.org/2001/XMLSchema"
-                      xml:id="F1818_v1_009"
-                      n="ix"/>summer
+                       xml:id="F1818_v1_009"
+                       n="ix"/>summer
         <seg th:eID="C01_app8-fThomas__F" part="F"/>
                   <seg th:sID="C01_app9-fThomas"/>
         Night’s
         <seg th:eID="C01_app9-fThomas"/>
                   <seg th:sID="C01_app10-fThomas__I" part="I"/>
-        Dream</hi>Mid<pb xmlns:xs="http://www.w3.org/2001/XMLSchema"
-                   xml:id="F1818_v1_009"
-                   n="ix"/>summer
-        <seg th:eID="C01_app8-fThomas"/>
-               <seg th:sID="C01_app9-fThomas"/>
-        Night’s
-        <seg th:eID="C01_app9-fThomas"/>
-               <seg th:sID="C01_app10-fThomas"/>
-        Dream,—and
-        <seg th:eID="C01_app10-fThomas"/>
+        Dream</hi>,—and
+        <seg th:eID="C01_app10-fThomas__F" part="F"/>
                <seg th:sID="C01_app11-fThomas"/>
         most especially Milton, in
         <seg th:eID="C01_app11-fThomas"/>
                <seg th:sID="C01_app12-fThomas"/>
-               <hi xml:id="preface1_p2_hi4">Paradise Lost</hi>Paradise Lost,
+               <hi xml:id="preface1_p2_hi4">Paradise Lost</hi>,
         <seg th:eID="C01_app12-fThomas"/>
                <seg th:sID="C01_app13-fThomas__I" part="I"/>
         conform to this rule; and the most humble novelist, who seeks to confer or receive amusement from his labours, may, without presumption, apply to prose fiction a licence, or rather a rule, from the adoption of which so many exquisite combinations of human feeling have resulted in the highest specimens of poetry. </p>

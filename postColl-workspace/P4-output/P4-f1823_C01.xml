@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Bridge Phase 4:  Witness f1823, Collation unit C01</title>
          </titleStmt>
-         <publicationStmt>
+         <publicationStmt xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                           xmlns:xs="http://www.w3.org/2001/XMLSchema">
             <authority>Frankenstein Variorum Project</authority>
             <date>2023—</date>
             <availability>
@@ -14,11 +14,12 @@
                                         Attribution-ShareAlike 3.0 Unported License</licence>
             </availability>
          </publicationStmt>
-         <sourceDesc>
+         <sourceDesc xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                      xmlns:xs="http://www.w3.org/2001/XMLSchema">
             <p>Produced from collation output prepared in batch file processing
                                     on  2023-08-10 04:16:18.293583 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-13T23:44:19.755326-04:00.</p>
+                                    Variorum spine on 2023-08-14T01:29:03.071811-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -32,7 +33,7 @@
             <pb xml:id="F1823_v1_012"/>
             <milestone unit="preface" type="start" n="1"/>
             <head>PREFACE.</head>
-            <p xml:id="preface1_p1"> T<hi xml:id="preface1_p1_hi1">HE</hi>HE event on which this fiction is founded has been supposed, by Dr. Darwin, and some of the physiological writers of Germany, as not of impossible occurrence. I shall not be supposed as according the remotest degree of serious faith to such an imagination; yet, in assuming it as the basis of a work of fancy, I have not considered myself as merely <pb xml:id="F1823_v1_013" n="vi"/>weaving a series of supernatural terrors. The event on which the interest of the story depends is exempt from the disadvantages of a mere tale of spectres or enchantment. It was recommended by the novelty of the situations which it developes; and, however impossible as a physical fact, affords a point of view to the imagination for the delineating of human passions more comprehensive and commanding than any which the ordinary relations of existing events can yield. </p>
+            <p xml:id="preface1_p1"> T<hi xml:id="preface1_p1_hi1">HE</hi> event on which this fiction is founded has been supposed, by Dr. Darwin, and some of the physiological writers of Germany, as not of impossible occurrence. I shall not be supposed as according the remotest degree of serious faith to such an imagination; yet, in assuming it as the basis of a work of fancy, I have not considered myself as merely <pb xml:id="F1823_v1_013" n="vi"/>weaving a series of supernatural terrors. The event on which the interest of the story depends is exempt from the disadvantages of a mere tale of spectres or enchantment. It was recommended by the novelty of the situations which it developes; and, however impossible as a physical fact, affords a point of view to the imagination for the delineating of human passions more comprehensive and commanding than any which the ordinary relations of existing events can yield. </p>
             <p xml:id="preface1_p2"> I have thus endeavoured to preserve the truth of the elementary <pb xml:id="F1823_v1_014" n="vii"/>principles of human nature, while I have not scrupled to innovate upon their combinations. The 
         <seg xml:id="C01_app1-f1823_end"/>
                <seg xml:id="C01_app2-f1823_start"/>
