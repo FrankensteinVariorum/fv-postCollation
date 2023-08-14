@@ -4,10 +4,7 @@
   xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema"
   xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse" exclude-result-prefixes="xs th"
   version="3.0">
-  <!-- 2023-07-10 ebb: OLD ISSUE? Possibly unnecessary now: Do we really need to add a tei: prefixed namespace in addition to the default namespace?
-    If we do, it may be to our output variorum edition files to support use of xml pointers in the Variorum edition, 
-  so we are still adding it. It does not cause any harm. It means that we can refer to TEI elements as either `seg` or `tei:seg` when we write XSLT to match them in the
-  source files. -->
+  
   <!-- ebb: Run this with Saxon at command line to raise paired seg markers, using:
     java -jar saxon.jar -s:P5-Pt5-output/ -xsl:P5-Pt6spaceHandling.xsl -o:P5-Pt6-output/ 
     -->

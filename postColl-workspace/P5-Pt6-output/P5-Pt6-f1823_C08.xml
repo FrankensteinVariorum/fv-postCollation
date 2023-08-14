@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../segMarkerTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xmlns:mith="http://mith.umd.edu/sc/ns1#"
-      xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-      xmlns:tei="http://www.tei-c.org/ns/1.0">
+     xmlns:mith="http://mith.umd.edu/sc/ns1#"
+     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
+     xmlns:tei="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -21,14 +21,14 @@
             <p>Produced from collation output prepared in batch file processing
                                     on  2023-08-10 04:18:32.874484 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-13T23:37:48.036894-04:00.</p>
+                                    Variorum spine on 2023-08-13T23:44:19.755326-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
          <div xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               type="collation">
+              type="collation">
             <anchor type="collate" xml:id="C08"/>
             <seg part="I" xml:id="C08_app2-f1823__I">
             </seg>
@@ -490,8 +490,8 @@
         </seg> 
     contents; and I continued to read with the  
          <seg xml:id="C08_app182-f1823">
-        greadest <note resp="FV-Team-rm">Apparently a printer error for greatest</note>
-               </seg> 
+        greadest <note resp="FV-Team-rm">Apparently a printer error for greatest</note>Apparently a printer error for greatest
+            </seg> 
     avidity. </p>
             <p xml:id="novel1_letter4_chapter1_div4_div1_p17"> When I returned home, my first care was to procure  
         <seg xml:id="C08_app185-f1823">
@@ -1319,8 +1319,8 @@
             </seg>
             <p xml:id="novel1_letter4_chapter2_div4_div2_p1">
                <seg xml:id="C08_app488-f1823">
-        W<hi xml:id="novel1_letter4_chapter2_div4_div2_p1_hi1">HEN</hi>
-               </seg> 
+        W<hi xml:id="novel1_letter4_chapter2_div4_div2_p1_hi1">HEN</hi>HEN
+            </seg> 
     I had attained the age of 
          <seg xml:id="C08_app490-f1823">
         seventeen,
@@ -1893,8 +1893,8 @@
         </seg> 
     I was now alone. 
          <seg xml:id="C08_app729-f1823">
-        In th e niversity, <note text="FV-Team-rm ">The facsimile of the 1823 edition shows this not 'the university': apparently a typsetting error.</note>
-               </seg> 
+        In th e niversity, <note text="FV-Team-rm ">The facsimile of the 1823 edition shows this not 'the university': apparently a typsetting error.</note>The facsimile of the 1823 edition shows this not 'the university': apparently a typsetting error.
+            </seg> 
     whither I was 
          <seg xml:id="C08_app731-f1823">
         going,

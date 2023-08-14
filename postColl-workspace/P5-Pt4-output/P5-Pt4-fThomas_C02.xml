@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../segMarkerTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xmlns:mith="http://mith.umd.edu/sc/ns1#"
-      xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-      xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
+     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -21,7 +19,7 @@
             <p>Produced from collation output prepared in batch file processing
                                     on  2023-08-10 04:16:30.871111 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-13T23:37:48.036894-04:00.</p>
+                                    Variorum spine on 2023-08-13T23:44:19.755326-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -48,19 +46,19 @@
             <seg th:sID="C02_app4-fThomas"/>
             <head>LETTER I</head>
             <ab xml:id="novel1_letter1_div1_ab1">
-               <hi xml:id="novel1_letter1_div1_ab1_hi1">To Mrs.</hi> S<hi xml:id="novel1_letter1_div1_ab1_hi2">AVILLE</hi>, <hi xml:id="novel1_letter1_div1_ab1_hi3">England.</hi>
+               <hi xml:id="novel1_letter1_div1_ab1_hi1">To Mrs.</hi>To Mrs. S<hi xml:id="novel1_letter1_div1_ab1_hi2">AVILLE</hi>AVILLE, <hi xml:id="novel1_letter1_div1_ab1_hi3">England.</hi>England.
             </ab>
             <seg th:eID="C02_app4-fThomas"/>
             <seg th:sID="C02_app5-fThomas__I" part="I"/>
             <p xml:id="novel1_letter1_div1_p1"> St. Petersburgh, Dec. 11th, 17—. </p>
-            <p xml:id="novel1_letter1_div1_p2"> Y<hi xml:id="novel1_letter1_div1_p2_hi1">OU</hi> will rejoice to hear that no disaster has accompanied the commencement of an enterprise which you have regarded with such evil forebodings. I arrived here yesterday; and my first task is to assure my dear sister of my welfare, and increasing confidence in the success of my undertaking. </p>
+            <p xml:id="novel1_letter1_div1_p2"> Y<hi xml:id="novel1_letter1_div1_p2_hi1">OU</hi>OU will rejoice to hear that no disaster has accompanied the commencement of an enterprise which you have regarded with such evil forebodings. I arrived here yesterday; and my first task is to assure my dear sister of my welfare, and increasing confidence in the success of my undertaking. </p>
             <seg th:eID="C02_app5-fThomas__I" part="I"/>
             <p xml:id="novel1_letter1_div1_p3">
                <seg th:sID="C02_app5-fThomas__F" part="F"/> I am already far north of London; and as I walk in the streets of Peters<pb xml:id="F1818_v1_014" n="002"/>burgh, I feel a cold northern breeze play upon my cheeks, which braces my nerves, and fills me with delight. Do you understand this feeling? This breeze, which has travelled from the regions towards which I am advancing, gives me a foretaste of those icy climes. Inspirited by this wind of promise, my day dreams become more fervent and vivid. I try in vain to be persuaded that the pole is the seat of frost and desolation; it ever presents itself to my imagination as the region of beauty and delight. There, Margaret, the sun is
         <seg th:eID="C02_app5-fThomas__F" part="F"/>
                <seg th:sID="C02_app6-fThomas"/>
-               <del rend="strikethrough">for ever</del>
-               <add place="above">constantly</add> visible <add place="margin">for more than half the year</add> ;
+               <del rend="strikethrough">for ever</del>for ever
+            <add place="above">constantly</add>constantly visible <add place="margin">for more than half the year</add>for more than half the year ;
         <seg th:eID="C02_app6-fThomas"/>
                <seg th:sID="C02_app7-fThomas"/>
         its broad disk just skirting the horizon, and diffusing a perpetual splendour. There—for with your leave, my sister, I will put some trust in preceding navigators—there snow and frost are banished; and, sailing over a calm sea, we may be wafted to a land surpassing in wonders <pb xml:id="F1818_v1_015" n="003"/>and in beauty every region hitherto discovered on the habitable globe. Its productions and features may be without example, as the
@@ -72,9 +70,9 @@
         of the heavenly bodies undoubtedly are in those undiscovered solitudes. What may not be expected in a country
         <seg th:eID="C02_app9-fThomas"/>
                <seg th:sID="C02_app10-fThomas"/>
-               <del rend="strikethrough">of eternal light?</del>
-               <add place="margin">ruled by different laws and in which numerous circumstances enforce a belief that the aspect of nature differs essentially from anything of which we have any experience.</add>
-               <seg th:eID="C02_app10-fThomas"/>
+               <del rend="strikethrough">of eternal light?</del>of eternal light?
+            <add place="margin">ruled by different laws and in which numerous circumstances enforce a belief that the aspect of nature differs essentially from anything of which we have any experience.</add>ruled by different laws and in which numerous circumstances enforce a belief that the aspect of nature differs essentially from anything of which we have any experience.
+            <seg th:eID="C02_app10-fThomas"/>
                <seg th:sID="C02_app11-fThomas__I" part="I"/>
         I may there discover the wondrous power which attracts the needle; and may regulate a thousand celestial observations, that require only this voyage to render their seeming eccentricities consistent for ever. I shall satiate my ardent curiosity with the sight of a part of the world never before visited, and may tread a land never before imprinted by the foot of man. These are my enticements, and they are sufficient to conquer all fear of danger or death, and to induce me to commence this laborious voyage with the joy a child feels when he embarks <pb xml:id="F1818_v1_016" n="004"/>in a little boat, with his holiday mates, on an expedition of discovery up his native river. But, supposing all these conjectures to be false, you cannot contest the inestimable benefit which I shall confer on all mankind to the last generation, by discovering a passage near the pole to those countries, to reach which at present so many months are requisite; or by ascertaining the secret of the magnet, which, if at all possible, can only be effected by an undertaking such as mine. <seg th:eID="C02_app11-fThomas__I" part="I"/>
             </p>
@@ -156,7 +154,7 @@
             </p>
             <seg th:sID="C02_app29-fThomas__F" part="F"/>
             <p xml:id="novel1_letter1_div1_p11"> Your affectionate brother, </p>
-            <p xml:id="novel1_letter1_div1_p12"> R. W<hi xml:id="novel1_letter1_div1_p12_hi1">ALTON</hi>. </p>
+            <p xml:id="novel1_letter1_div1_p12"> R. W<hi xml:id="novel1_letter1_div1_p12_hi1">ALTON</hi>ALTON. </p>
             <seg th:eID="C02_app29-fThomas__F" part="F"/>
             <seg th:sID="C02_app30-fThomas"/>
             <pb xml:id="F1818_v1_022" n="010"/>
