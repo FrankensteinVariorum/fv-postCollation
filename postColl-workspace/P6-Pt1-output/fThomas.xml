@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<teiCorpus xmlns:tei="http://www.tei-c.org/ns/1.0"><?xml-model href="../segMarkerTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-   <TEI xmlns="http://www.tei-c.org/ns/1.0"
-         xmlns:mith="http://mith.umd.edu/sc/ns1#"
-         xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein">
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0"><?xml-model href="../segMarkerTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+   <TEI xmlns:tei="http://www.tei-c.org/ns/1.0"
+        xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
       <teiHeader>
          <fileDesc>
             <titleStmt>
@@ -20,14 +19,13 @@
                <p>Produced from collation output prepared in batch file processing
                                     on  2023-08-10 04:16:18.293583 .</p>
                <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-13T23:37:48.036894-04:00.</p>
+                                    Variorum spine on 2023-08-13T23:44:19.755326-04:00.</p>
             </sourceDesc>
          </fileDesc>
       </teiHeader>
       <text>
          <body>
-            <div xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  type="collation">
+            <div type="collation">
                <seg part="I" xml:id="C01_app1-fThomas__I">
                   <milestone unit="volume" n="1"/>
                   <milestone unit="frontmatter" type="start" n="1"/>
@@ -35,13 +33,13 @@
                   <milestone unit="preface" type="start" n="1"/>
                   <pb xml:id="F1818_v1_007" n="viii"/>
                   <head>PREFACE.</head>
-                  <p xml:id="preface1_p1"> T<hi xml:id="preface1_p1_hi1">HE</hi> event on which this fiction is founded has been supposed, by Dr. Darwin, and some of the physiological writers of Germany, as not of impossible occurrence. I shall not be supposed as according the remotest degree of serious faith to such an imagination; yet, in assuming it as the basis of a work of fancy, I have not considered myself as merely weaving a series of supernatural terrors. The event on <pb xml:id="F1818_v1_008" n="viii"/>which the interest of the story depends is exempt from the disadvantages of a mere tale of spectres or enchantment. It was recommended by the novelty of the situations which it developes; and, however impossible as a physical fact, affords a point of view to the imagination for the delineating of human passions more comprehensive and commanding than any which the ordinary relations of existing events can yield. </p>
+                  <p xml:id="preface1_p1"> T<hi xml:id="preface1_p1_hi1">HE</hi>HE event on which this fiction is founded has been supposed, by Dr. Darwin, and some of the physiological writers of Germany, as not of impossible occurrence. I shall not be supposed as according the remotest degree of serious faith to such an imagination; yet, in assuming it as the basis of a work of fancy, I have not considered myself as merely weaving a series of supernatural terrors. The event on <pb xml:id="F1818_v1_008" n="viii"/>which the interest of the story depends is exempt from the disadvantages of a mere tale of spectres or enchantment. It was recommended by the novelty of the situations which it developes; and, however impossible as a physical fact, affords a point of view to the imagination for the delineating of human passions more comprehensive and commanding than any which the ordinary relations of existing events can yield. </p>
                </seg>
                <p xml:id="preface1_p2">
                   <seg part="F" xml:id="C01_app1-fThomas__F"> I have thus endeavoured to preserve the truth of the elementary principles of human nature, while I have not scrupled to innovate upon their combinations. The 
         </seg>
                   <seg xml:id="C01_app2-fThomas">
-                     <hi xml:id="preface1_p2_hi1">Iliad</hi>,
+                     <hi xml:id="preface1_p2_hi1">Iliad</hi>Iliad,
         </seg>
                   <seg xml:id="C01_app3-fThomas">
         the tragic poetry of
@@ -53,31 +51,37 @@
         in the
         </seg>
                   <seg xml:id="C01_app6-fThomas">
-                     <hi xml:id="preface1_p2_hi2">Tempest</hi>
-                  </seg>
+                     <hi xml:id="preface1_p2_hi2">Tempest</hi>Tempest
+            </seg>
                   <seg xml:id="C01_app7-fThomas">
         and
         </seg>
-                  <seg part="I" xml:id="C01_app8-fThomas__I">
-               </seg>
-                  <hi xml:id="preface1_p2_hi3">
-                     <seg part="F" xml:id="C01_app8-fThomas__F">Mid<pb xmlns:xs="http://www.w3.org/2001/XMLSchema"
-                             xml:id="F1818_v1_009"
-                             n="ix"/>summer
-        </seg>
-                     <seg xml:id="C01_app9-fThomas">
+                  <seg xml:id="C01_app8-fThomas">
+                     <hi xml:id="preface1_p2_hi3">Mid<pb xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                            xml:id="F1818_v1_009"
+                            n="ix"/>summer
+        <seg part="F" xml:id="C01_app8-fThomas__F">
+                  </seg>
+                        <seg xml:id="C01_app9-fThomas">
         Night’s
         </seg>
-                     <seg part="I" xml:id="C01_app10-fThomas__I">
-        Dream</seg>
-                  </hi>
-                  <seg part="F" xml:id="C01_app10-fThomas__F">,—and
+                        <seg part="I" xml:id="C01_app10-fThomas__I">
+                  </seg> 
+        Dream</hi>Mid<pb xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                         xml:id="F1818_v1_009"
+                         n="ix"/>summer
+        </seg>
+                  <seg xml:id="C01_app9-fThomas">
+        Night’s
+        </seg>
+                  <seg xml:id="C01_app10-fThomas">
+        Dream,—and
         </seg>
                   <seg xml:id="C01_app11-fThomas">
         most especially Milton, in
         </seg>
                   <seg xml:id="C01_app12-fThomas">
-                     <hi xml:id="preface1_p2_hi4">Paradise Lost</hi>,
+                     <hi xml:id="preface1_p2_hi4">Paradise Lost</hi>Paradise Lost,
         </seg>
                   <seg part="I" xml:id="C01_app13-fThomas__I">
         conform to this rule; and the most humble novelist, who seeks to confer or receive amusement from his labours, may, without presumption, apply to prose fiction a licence, or rather a rule, from the adoption of which so many exquisite combinations of human feeling have resulted in the highest specimens of poetry. </seg>
@@ -109,9 +113,8 @@
       </text>
    </TEI>
    <?xml-model href="../segMarkerTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-   <TEI xmlns="http://www.tei-c.org/ns/1.0"
-         xmlns:mith="http://mith.umd.edu/sc/ns1#"
-         xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein">
+   <TEI xmlns:tei="http://www.tei-c.org/ns/1.0"
+        xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
       <teiHeader>
          <fileDesc>
             <titleStmt>
@@ -129,14 +132,13 @@
                <p>Produced from collation output prepared in batch file processing
                                     on  2023-08-10 04:16:30.871111 .</p>
                <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-13T23:37:48.036894-04:00.</p>
+                                    Variorum spine on 2023-08-13T23:44:19.755326-04:00.</p>
             </sourceDesc>
          </fileDesc>
       </teiHeader>
       <text>
          <body>
-            <div xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  type="collation">
+            <div type="collation">
                <seg xml:id="C02_app1-fThomas">
                   <anchor type="collate" xml:id="C02"/>
                   <milestone unit="novel" type="start" n="1"/>
@@ -157,19 +159,19 @@
                <seg xml:id="C02_app4-fThomas">
                   <head>LETTER I</head>
                   <ab xml:id="novel1_letter1_div1_ab1">
-                     <hi xml:id="novel1_letter1_div1_ab1_hi1">To Mrs.</hi> S<hi xml:id="novel1_letter1_div1_ab1_hi2">AVILLE</hi>, <hi xml:id="novel1_letter1_div1_ab1_hi3">England.</hi>
-                  </ab>
+                     <hi xml:id="novel1_letter1_div1_ab1_hi1">To Mrs.</hi>To Mrs. S<hi xml:id="novel1_letter1_div1_ab1_hi2">AVILLE</hi>AVILLE, <hi xml:id="novel1_letter1_div1_ab1_hi3">England.</hi>England.
+            </ab>
                </seg>
                <seg part="I" xml:id="C02_app5-fThomas__I">
                   <p xml:id="novel1_letter1_div1_p1"> St. Petersburgh, Dec. 11th, 17—. </p>
-                  <p xml:id="novel1_letter1_div1_p2"> Y<hi xml:id="novel1_letter1_div1_p2_hi1">OU</hi> will rejoice to hear that no disaster has accompanied the commencement of an enterprise which you have regarded with such evil forebodings. I arrived here yesterday; and my first task is to assure my dear sister of my welfare, and increasing confidence in the success of my undertaking. </p>
+                  <p xml:id="novel1_letter1_div1_p2"> Y<hi xml:id="novel1_letter1_div1_p2_hi1">OU</hi>OU will rejoice to hear that no disaster has accompanied the commencement of an enterprise which you have regarded with such evil forebodings. I arrived here yesterday; and my first task is to assure my dear sister of my welfare, and increasing confidence in the success of my undertaking. </p>
                </seg>
                <p xml:id="novel1_letter1_div1_p3">
                   <seg part="F" xml:id="C02_app5-fThomas__F"> I am already far north of London; and as I walk in the streets of Peters<pb xml:id="F1818_v1_014" n="002"/>burgh, I feel a cold northern breeze play upon my cheeks, which braces my nerves, and fills me with delight. Do you understand this feeling? This breeze, which has travelled from the regions towards which I am advancing, gives me a foretaste of those icy climes. Inspirited by this wind of promise, my day dreams become more fervent and vivid. I try in vain to be persuaded that the pole is the seat of frost and desolation; it ever presents itself to my imagination as the region of beauty and delight. There, Margaret, the sun is
         </seg>
                   <seg xml:id="C02_app6-fThomas">
-                     <del rend="strikethrough">for ever</del>
-                     <add place="above">constantly</add> visible <add place="margin">for more than half the year</add> ;
+                     <del rend="strikethrough">for ever</del>for ever
+            <add place="above">constantly</add>constantly visible <add place="margin">for more than half the year</add>for more than half the year ;
         </seg>
                   <seg xml:id="C02_app7-fThomas">
         its broad disk just skirting the horizon, and diffusing a perpetual splendour. There—for with your leave, my sister, I will put some trust in preceding navigators—there snow and frost are banished; and, sailing over a calm sea, we may be wafted to a land surpassing in wonders <pb xml:id="F1818_v1_015" n="003"/>and in beauty every region hitherto discovered on the habitable globe. Its productions and features may be without example, as the
@@ -181,9 +183,9 @@
         of the heavenly bodies undoubtedly are in those undiscovered solitudes. What may not be expected in a country
         </seg>
                   <seg xml:id="C02_app10-fThomas">
-                     <del rend="strikethrough">of eternal light?</del>
-                     <add place="margin">ruled by different laws and in which numerous circumstances enforce a belief that the aspect of nature differs essentially from anything of which we have any experience.</add>
-                  </seg>
+                     <del rend="strikethrough">of eternal light?</del>of eternal light?
+            <add place="margin">ruled by different laws and in which numerous circumstances enforce a belief that the aspect of nature differs essentially from anything of which we have any experience.</add>ruled by different laws and in which numerous circumstances enforce a belief that the aspect of nature differs essentially from anything of which we have any experience.
+            </seg>
                   <seg part="I" xml:id="C02_app11-fThomas__I">
         I may there discover the wondrous power which attracts the needle; and may regulate a thousand celestial observations, that require only this voyage to render their seeming eccentricities consistent for ever. I shall satiate my ardent curiosity with the sight of a part of the world never before visited, and may tread a land never before imprinted by the foot of man. These are my enticements, and they are sufficient to conquer all fear of danger or death, and to induce me to commence this laborious voyage with the joy a child feels when he embarks <pb xml:id="F1818_v1_016" n="004"/>in a little boat, with his holiday mates, on an expedition of discovery up his native river. But, supposing all these conjectures to be false, you cannot contest the inestimable benefit which I shall confer on all mankind to the last generation, by discovering a passage near the pole to those countries, to reach which at present so many months are requisite; or by ascertaining the secret of the magnet, which, if at all possible, can only be effected by an undertaking such as mine. </seg>
                </p>
@@ -265,7 +267,7 @@
                </p>
                <seg part="F" xml:id="C02_app29-fThomas__F">
                   <p xml:id="novel1_letter1_div1_p11"> Your affectionate brother, </p>
-                  <p xml:id="novel1_letter1_div1_p12"> R. W<hi xml:id="novel1_letter1_div1_p12_hi1">ALTON</hi>. </p>
+                  <p xml:id="novel1_letter1_div1_p12"> R. W<hi xml:id="novel1_letter1_div1_p12_hi1">ALTON</hi>ALTON. </p>
                </seg>
                <seg xml:id="C02_app30-fThomas">
                   <pb xml:id="F1818_v1_022" n="010"/>
@@ -278,9 +280,8 @@
       </text>
    </TEI>
    <?xml-model href="../segMarkerTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-   <TEI xmlns="http://www.tei-c.org/ns/1.0"
-         xmlns:mith="http://mith.umd.edu/sc/ns1#"
-         xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein">
+   <TEI xmlns:tei="http://www.tei-c.org/ns/1.0"
+        xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
       <teiHeader>
          <fileDesc>
             <titleStmt>
@@ -298,14 +299,13 @@
                <p>Produced from collation output prepared in batch file processing
                                     on  2023-08-10 04:16:57.906256 .</p>
                <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-13T23:37:48.036894-04:00.</p>
+                                    Variorum spine on 2023-08-13T23:44:19.755326-04:00.</p>
             </sourceDesc>
          </fileDesc>
       </teiHeader>
       <text>
          <body>
-            <div xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  type="collation">
+            <div type="collation">
                <seg xml:id="C03_app1-fThomas">
                   <anchor type="collate" xml:id="C03"/>
                   <milestone unit="letter" type="start" n="2"/>
@@ -313,8 +313,8 @@
                </seg>
                <seg xml:id="C03_app2-fThomas">
                   <ab xml:id="novel1_letter2_div2_ab1">
-                     <hi xml:id="novel1_letter2_div2_ab1_hi1">To Mrs.</hi> S<hi xml:id="novel1_letter2_div2_ab1_hi2">AVILLE</hi>, <hi xml:id="novel1_letter2_div2_ab1_hi3">England.</hi>
-                  </ab>
+                     <hi xml:id="novel1_letter2_div2_ab1_hi1">To Mrs.</hi>To Mrs. S<hi xml:id="novel1_letter2_div2_ab1_hi2">AVILLE</hi>AVILLE, <hi xml:id="novel1_letter2_div2_ab1_hi3">England.</hi>England.
+            </ab>
                </seg>
                <seg part="I" xml:id="C03_app3-fThomas__I">
                   <p xml:id="novel1_letter2_div2_p1"> Archangel, 28th March, 17—. </p>
@@ -347,7 +347,7 @@
         school-boys
         </seg>
                   <seg part="I" xml:id="C03_app11-fThomas__I">
-        of fifteen. It is true that I have thought more, and that my day dreams are more extended and magnificent; but they want (as the painters call it) <hi xml:id="novel1_letter2_div2_p3_hi1">keeping;</hi> and I greatly need a friend who would have sense enough not to despise me as romantic, and affection <pb xml:id="F1818_v1_025" n="013"/>enough for me to endeavour to regulate my mind. </seg>
+        of fifteen. It is true that I have thought more, and that my day dreams are more extended and magnificent; but they want (as the painters call it) <hi xml:id="novel1_letter2_div2_p3_hi1">keeping;</hi>keeping; and I greatly need a friend who would have sense enough not to despise me as romantic, and affection <pb xml:id="F1818_v1_025" n="013"/>enough for me to endeavour to regulate my mind. </seg>
                </p>
                <p xml:id="novel1_letter2_div2_p4">
                   <seg part="F" xml:id="C03_app11-fThomas__F"> Well, these are useless complaints; I shall certainly find no friend on the wide ocean, nor even here in Archangel, among merchants and seamen. Yet some feelings, unallied to the dross of human nature, beat even in these rugged bosoms. My lieutenant, for instance, is a man of wonderful courage and enterprise; he is madly desirous
@@ -371,9 +371,9 @@
         He is, indeed, of so amiable a nature, that he will not hunt (a favourite, and almost the only amusement here), because he cannot endure to spill blood.
         </seg>
                   <seg xml:id="C03_app17-fThomas">
-                     <del rend="strikethrough">He is, moreover, heroically generous.</del>
-                     <add place="bottom" anchor="yes">I will relate to you an anecdote of his life, recounted to me by the parties themselves, which exemplifies the generosity, I had almost said the heroism of his nature.</add>
-                  </seg>
+                     <del rend="strikethrough">He is, moreover, heroically generous.</del>He is, moreover, heroically generous.
+            <add place="bottom" anchor="yes">I will relate to you an anecdote of his life, recounted to me by the parties themselves, which exemplifies the generosity, I had almost said the heroism of his nature.</add>I will relate to you an anecdote of his life, recounted to me by the parties themselves, which exemplifies the generosity, I had almost said the heroism of his nature.
+            </seg>
                   <seg xml:id="C03_app18-fThomas">
         Some years ago he loved a young Russian lady, of moderate fortune; and having amassed a considerable sum in prize-money, the father of the girl consented to the match. He saw his mistress once before the destined ceremony; but she was bathed in tears, and, throwing herself at his feet, entreated him to spare her, confessing at the same time that she loved another, but that he was poor, and that her father would never consent to the union. My generous friend reassured the suppliant, and on being informed of the name of her
         </seg>
@@ -393,15 +393,15 @@
         has passed all his life on board a vessel, and has scarcely an idea beyond the
         </seg>
                   <seg xml:id="C03_app24-fThomas">
-                     <del rend="strikethrough">rope</del>
-                     <add place="above">ship</add>
-                  </seg>
+                     <del rend="strikethrough">rope</del>rope
+            <add place="above">ship</add>ship
+            </seg>
                   <seg xml:id="C03_app25-fThomas">
         and the
         </seg>
                   <seg xml:id="C03_app26-fThomas">
-                     <del rend="strikethrough">shroud</del>
-                     <add place="above">crew</add> .
+                     <del rend="strikethrough">shroud</del>shroud
+            <add place="above">crew</add>crew .
         </seg>
                   <seg part="I" xml:id="C03_app27-fThomas__I">
                </seg>
@@ -443,7 +443,7 @@
                   <seg part="F" xml:id="C03_app37-fThomas__F"> I cannot describe to you my sensations on the near prospect of my undertaking. It is impossible to communicate to you a conception of the trembling sensation, half pleasurable and half fearful, with which I am preparing to depart. I am going to unexplored regions, to “the land of mist and <pb xml:id="F1818_v1_029" n="017"/>snow;”
         </seg>
                   <seg xml:id="C03_app38-fThomas">
-                     <note place="bottom" anchored="yes" resp="#MWS">Coleridge's Antient Mariner.</note> but I shall kill no albatross, therefore do not be alarmed
+                     <note place="bottom" anchored="yes" resp="#MWS">Coleridge's Antient Mariner.</note>Coleridge's Antient Mariner. but I shall kill no albatross, therefore do not be alarmed
         </seg>
                   <seg xml:id="C03_app39-fThomas">
         for my safety.
@@ -468,7 +468,7 @@
                </p>
                <seg part="F" xml:id="C03_app44-fThomas__F">
                   <p xml:id="novel1_letter2_div2_p9"> Your affectionate brother, </p>
-                  <p xml:id="novel1_letter2_div2_p10"> R<hi xml:id="novel1_letter2_div2_p10_hi1">OBERT</hi> W<hi xml:id="novel1_letter2_div2_p10_hi2">ALTON</hi>. </p>
+                  <p xml:id="novel1_letter2_div2_p10"> R<hi xml:id="novel1_letter2_div2_p10_hi1">OBERT</hi>OBERT W<hi xml:id="novel1_letter2_div2_p10_hi2">ALTON</hi>ALTON. </p>
                </seg>
                <seg xml:id="C03_app45-fThomas">
                   <pb xml:id="F1818_v1_030" n="018"/>
@@ -481,9 +481,8 @@
       </text>
    </TEI>
    <?xml-model href="../segMarkerTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-   <TEI xmlns="http://www.tei-c.org/ns/1.0"
-         xmlns:mith="http://mith.umd.edu/sc/ns1#"
-         xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein">
+   <TEI xmlns:tei="http://www.tei-c.org/ns/1.0"
+        xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
       <teiHeader>
          <fileDesc>
             <titleStmt>
@@ -501,14 +500,13 @@
                <p>Produced from collation output prepared in batch file processing
                                     on  2023-08-10 04:17:19.377366 .</p>
                <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-13T23:37:48.036894-04:00.</p>
+                                    Variorum spine on 2023-08-13T23:44:19.755326-04:00.</p>
             </sourceDesc>
          </fileDesc>
       </teiHeader>
       <text>
          <body>
-            <div xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  type="collation">
+            <div type="collation">
                <seg xml:id="C04_app1-fThomas">
                   <anchor type="collate" xml:id="C04"/>
                   <milestone unit="letter" type="start" n="3"/>
@@ -516,8 +514,8 @@
                </seg>
                <seg xml:id="C04_app2-fThomas">
                   <ab xml:id="novel1_letter3_div3_ab1">
-                     <hi xml:id="novel1_letter3_div3_ab1_hi1">To Mrs.</hi> S<hi xml:id="novel1_letter3_div3_ab1_hi2">AVILLE</hi>, <hi xml:id="novel1_letter3_div3_ab1_hi3">England.</hi>
-                  </ab>
+                     <hi xml:id="novel1_letter3_div3_ab1_hi1">To Mrs.</hi>To Mrs. S<hi xml:id="novel1_letter3_div3_ab1_hi2">AVILLE</hi>AVILLE, <hi xml:id="novel1_letter3_div3_ab1_hi3">England.</hi>England.
+            </ab>
                </seg>
                <seg part="I" xml:id="C04_app3-fThomas__I">
                   <p xml:id="novel1_letter3_div3_p1"> July 7th, 17—. </p>
@@ -526,13 +524,13 @@
                   <seg part="F" xml:id="C04_app3-fThomas__F">
                </seg>
                   <seg xml:id="C04_app4-fThomas">
-                     <hi xml:id="novel1_letter3_div3_p2_hi1">MY DEAR SISTER</hi>,
+                     <hi xml:id="novel1_letter3_div3_p2_hi1">MY DEAR SISTER</hi>MY DEAR SISTER,
         </seg>
                   <seg part="I" xml:id="C04_app5-fThomas__I">
                </seg>
                </p>
                <p xml:id="novel1_letter3_div3_p3">
-                  <seg part="F" xml:id="C04_app5-fThomas__F"> I <hi xml:id="novel1_letter3_div3_p3_hi1">WRITE</hi> a few lines in haste, to say that I am safe, and well advanced on my voyage. This letter will reach England by a
+                  <seg part="F" xml:id="C04_app5-fThomas__F"> I <hi xml:id="novel1_letter3_div3_p3_hi1">WRITE</hi>WRITE a few lines in haste, to say that I am safe, and well advanced on my voyage. This letter will reach England by a
         </seg>
                   <seg xml:id="C04_app6-fThomas">
         merchant-man
@@ -541,23 +539,23 @@
         now on its homeward voyage from Archangel; more fortunate than I, who may not see my native land, perhaps, for many years. I am, however, in good spirits: my
         </seg>
                   <seg xml:id="C04_app8-fThomas">
-                     <del>men</del>
-                     <add>crew</add>
-                  </seg>
+                     <del>men</del>men
+            <add>crew</add>crew
+            </seg>
                   <seg xml:id="C04_app9-fThomas">
         are
         </seg>
                   <seg xml:id="C04_app10-fThomas">
-                     <del>bold</del>
-                     <add>gallant fellows</add> , <del>and apparently</del>
-                     <add>&amp; I am</add>
-                  </seg>
+                     <del>bold</del>bold
+            <add>gallant fellows</add>gallant fellows , <del>and apparently</del>and apparently
+            <add>&amp; I am</add>&amp; I am
+            </seg>
                   <seg xml:id="C04_app11-fThomas">
         firm of purpose; nor do the floating sheets of ice that continually pass us, indi<pb xml:id="F1818_v1_031" n="019"/>cating the dangers of the region towards which we are advancing, appear to dismay them. We have already reached a very high latitude; but it is the height of summer, and although not so warm as in England, the southern gales, which blow us speedily towards those shores which I so ardently desire to attain, breathe a degree of renovating warmth which I had not expected.
         </seg>
                   <seg part="I" xml:id="C04_app12-fThomas__I">
-                     <add place="margin">The appearance of the sky is indiscribably beautiful; clear by day, and illuminated at night by the Aurora Borealis <del-INNER rend="strikethrough">w</del-INNER> which spreads a roseate tinge over the heavens, &amp; over the sea which reflects it’s splendour.</add>
-                  </seg>
+                     <add place="margin">The appearance of the sky is indiscribably beautiful; clear by day, and illuminated at night by the Aurora Borealis <del-INNER rend="strikethrough">w</del-INNER> which spreads a roseate tinge over the heavens, &amp; over the sea which reflects it’s splendour.</add>The appearance of the sky is indiscribably beautiful; clear by day, and illuminated at night by the Aurora Borealis <del-INNER rend="strikethrough">w</del-INNER>w which spreads a roseate tinge over the heavens, &amp; over the sea which reflects it’s splendour.
+            </seg>
                </p>
                <p xml:id="novel1_letter3_div3_p4">
                   <seg part="F" xml:id="C04_app12-fThomas__F"> No incidents have hitherto befallen
@@ -569,16 +567,16 @@
         that would make a figure in a letter. One or two
         </seg>
                   <seg xml:id="C04_app15-fThomas">
-                     <del>stiff</del>
-                     <add>hard</add>
-                  </seg>
+                     <del>stiff</del>stiff
+            <add>hard</add>hard
+            </seg>
                   <seg xml:id="C04_app16-fThomas">
         gales, and the
         </seg>
                   <seg xml:id="C04_app17-fThomas">
-                     <del>breaking</del>
-                     <add>carrying away</add>
-                  </seg>
+                     <del>breaking</del>breaking
+            <add>carrying away</add>carrying away
+            </seg>
                   <seg xml:id="C04_app18-fThomas">
         of a
         </seg>
@@ -641,9 +639,8 @@
       </text>
    </TEI>
    <?xml-model href="../segMarkerTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-   <TEI xmlns="http://www.tei-c.org/ns/1.0"
-         xmlns:mith="http://mith.umd.edu/sc/ns1#"
-         xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein">
+   <TEI xmlns:tei="http://www.tei-c.org/ns/1.0"
+        xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
       <teiHeader>
          <fileDesc>
             <titleStmt>
@@ -661,14 +658,13 @@
                <p>Produced from collation output prepared in batch file processing
                                     on  2023-08-10 04:17:28.125710 .</p>
                <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-13T23:37:48.036894-04:00.</p>
+                                    Variorum spine on 2023-08-13T23:44:19.755326-04:00.</p>
             </sourceDesc>
          </fileDesc>
       </teiHeader>
       <text>
          <body>
-            <div xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  type="collation">
+            <div type="collation">
                <seg xml:id="C05_app1-fThomas">
                   <anchor type="collate" xml:id="C05"/>
                   <milestone unit="letter" type="start" n="4"/>
@@ -677,8 +673,8 @@
                <seg xml:id="C05_app2-fThomas">
                   <head>
                      <ab xml:id="novel1_letter4_div4_head2_ab1">
-                        <hi xml:id="novel1_letter4_div4_head2_ab1_hi1">To Mrs.</hi> S<hi xml:id="novel1_letter4_div4_head2_ab1_hi2">AVILLE</hi>, <hi xml:id="novel1_letter4_div4_head2_ab1_hi3">England.</hi>
-                     </ab>
+                        <hi xml:id="novel1_letter4_div4_head2_ab1_hi1">To Mrs.</hi>To Mrs. S<hi xml:id="novel1_letter4_div4_head2_ab1_hi2">AVILLE</hi>AVILLE, <hi xml:id="novel1_letter4_div4_head2_ab1_hi3">England.</hi>England.
+               </ab>
                   </head>
                </seg>
                <seg part="I" xml:id="C05_app3-fThomas__I">
@@ -688,7 +684,7 @@
                   <seg part="F" xml:id="C05_app3-fThomas__F"> So strange an accident has happened to us, that I cannot forbear recording
         </seg>
                   <seg xml:id="C05_app4-fThomas">
-        it <add place="margin">in writing</add> ,
+        it <add place="margin">in writing</add>in writing ,
         </seg>
                   <seg part="I" xml:id="C05_app5-fThomas__I">
         although it is very probable that you will see me before these papers can come into your possession. </seg>
@@ -706,7 +702,7 @@
                   <seg part="F" xml:id="C05_app7-fThomas__F"> About two o’clock the mist cleared away, and we beheld, stretched out in every direction, vast and irregular
         </seg>
                   <seg xml:id="C05_app8-fThomas">
-                     <add place="margin">mountains &amp; </add> plains of ice,
+                     <add place="margin">mountains &amp; </add>mountains &amp;  plains of ice,
         </seg>
                   <seg part="I" xml:id="C05_app9-fThomas__I">
         which seemed to have no end. Some of my comrades groaned, and my own mind began to grow watchful with anxious thoughts, when a strange sight suddenly attracted our attention, and diverted our solicitude from our own situation. We perceived a low carriage, fixed on a sledge and drawn by dogs, pass on towards the north, at the distance of half a mile: a being which had the shape of a man, but apparently of gigantic stature, sat in the sledge, and guided the dogs. We watched the rapid progress of the traveller with our telescopes, until he was lost among the distant inequalities of the ice. </seg>
@@ -716,8 +712,8 @@
                      <pb xml:id="F1818_v1_035" n="023"/>This appearance excited our unqualified wonder. We were, as we believed, many hundred miles from any land; but this apparition seemed to denote that it was not, in reality, so distant as we had supposed. Shut in, however, by ice, it was impossible to follow his track,
         </seg>
                   <seg xml:id="C05_app10-fThomas">
-        which we had observed with the greatest attention. <add place="bottom">Are we then near land, and is this unknown wast inhabited by giants, of which the being we saw is a specimen? Such an idea is contrary to all experience, but if what we saw was an optical delusion, it was the most perfect and wonderful recorded in the history of nature.</add>
-                  </seg>
+        which we had observed with the greatest attention. <add place="bottom">Are we then near land, and is this unknown wast inhabited by giants, of which the being we saw is a specimen? Such an idea is contrary to all experience, but if what we saw was an optical delusion, it was the most perfect and wonderful recorded in the history of nature.</add>Are we then near land, and is this unknown wast inhabited by giants, of which the being we saw is a specimen? Such an idea is contrary to all experience, but if what we saw was an optical delusion, it was the most perfect and wonderful recorded in the history of nature.
+            </seg>
                   <seg part="I" xml:id="C05_app11-fThomas__I">
                </seg>
                </p>
@@ -803,9 +799,9 @@
         to be upon deck, to watch for the sledge which had before appeared; but I have persuaded him to remain in the cabin, for he is far too weak to sustain the rawness of the atmosphere.
         </seg>
                   <seg xml:id="C05_app28-fThomas">
-                     <del>But</del>
-                     <add>And</add>
-                  </seg>
+                     <del>But</del>But
+            <add>And</add>And
+            </seg>
                   <seg part="I" xml:id="C05_app29-fThomas__I">
         I have promised that some one should watch for him, and give him instant notice if any new object should appear in sight. </seg>
                </p>
@@ -820,9 +816,8 @@
       </text>
    </TEI>
    <?xml-model href="../segMarkerTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-   <TEI xmlns="http://www.tei-c.org/ns/1.0"
-         xmlns:mith="http://mith.umd.edu/sc/ns1#"
-         xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein">
+   <TEI xmlns:tei="http://www.tei-c.org/ns/1.0"
+        xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
       <teiHeader>
          <fileDesc>
             <titleStmt>
@@ -840,14 +835,13 @@
                <p>Produced from collation output prepared in batch file processing
                                     on  2023-08-10 04:18:00.464044 .</p>
                <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-13T23:37:48.036894-04:00.</p>
+                                    Variorum spine on 2023-08-13T23:44:19.755326-04:00.</p>
             </sourceDesc>
          </fileDesc>
       </teiHeader>
       <text>
          <body>
-            <div xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  type="collation">
+            <div type="collation">
                <seg part="I" xml:id="C06_app1-fThomas__I">
                   <anchor type="collate" xml:id="C06"/>
                   <p xml:id="novel1_letter4_div4_p25"> August 13th, 17—. </p>
@@ -862,7 +856,7 @@
         without feeling the most poignant grief? He is so gentle, yet so wise; his mind is so cultivated; and when he speaks,
         </seg>
                   <seg part="I" xml:id="C06_app4-fThomas__I">
-                     <add>in his native language which is French, </add> although his words are culled with the choicest art, yet they flow with rapidity and unparalleled eloquence. </seg>
+                     <add>in his native language which is French, </add>in his native language which is French,  although his words are culled with the choicest art, yet they flow with rapidity and unparalleled eloquence. </seg>
                </p>
                <p xml:id="novel1_letter4_div4_p27">
                   <seg part="F" xml:id="C06_app4-fThomas__F"> He is now much recovered from his illness, and is continually on the deck, apparently watching for the sledge that preceded his own. Yet, although un<pb xml:id="F1818_v1_044" n="032"/>happy, he is not so utterly occupied by his own misery, but that he interests himself deeply in the
@@ -877,15 +871,15 @@
         asked me many questions concerning my design; and I have related my little history frankly to him. He appeared pleased with the confidence, and suggested several alterations in my plan, which I shall find exceedingly useful. There is no pedantry in his manner; but all he does appears to spring solely from the interest he instinctively takes in the welfare of those who surround him. He is often overcome by
         </seg>
                   <seg xml:id="C06_app8-fThomas">
-                     <add>a</add>
-                  </seg>
+                     <add>a</add>a
+            </seg>
                   <seg xml:id="C06_app9-fThomas">
         gloom,
         </seg>
                   <seg xml:id="C06_app10-fThomas">
-                     <del rend="strikethrough">and then he sits by himself, and tries to overcome all that is sullen or unsocial in his humour. These paroxysms pass from him like a cloud from before the sun, though his dejection never leaves him.</del>
-                     <add>Which veils his countenance like deep night—he neither speaks or notices anything around him, but sitting on a gun will gaze on the sea and I have sometimes observed his dark eyelash wet with a tear which falls <del-INNER rend="strikethrough">silently</del-INNER> silently in the deep. This unobtrusive sorrow excites in me the most painful interest, and he will at times reward my sympathy by throwing aside this veil of mortal woe, and then his ardent looks, his deep toned voice and powerful eloquence entrance me with delight.</add>
-                  </seg>
+                     <del rend="strikethrough">and then he sits by himself, and tries to overcome all that is sullen or unsocial in his humour. These paroxysms pass from him like a cloud from before the sun, though his dejection never leaves him.</del>and then he sits by himself, and tries to overcome all that is sullen or unsocial in his humour. These paroxysms pass from him like a cloud from before the sun, though his dejection never leaves him.
+            <add>Which veils his countenance like deep night—he neither speaks or notices anything around him, but sitting on a gun will gaze on the sea and I have sometimes observed his dark eyelash wet with a tear which falls <del-INNER rend="strikethrough">silently</del-INNER> silently in the deep. This unobtrusive sorrow excites in me the most painful interest, and he will at times reward my sympathy by throwing aside this veil of mortal woe, and then his ardent looks, his deep toned voice and powerful eloquence entrance me with delight.</add>Which veils his countenance like deep night—he neither speaks or notices anything around him, but sitting on a gun will gaze on the sea and I have sometimes observed his dark eyelash wet with a tear which falls <del-INNER rend="strikethrough">silently</del-INNER>silently silently in the deep. This unobtrusive sorrow excites in me the most painful interest, and he will at times reward my sympathy by throwing aside this veil of mortal woe, and then his ardent looks, his deep toned voice and powerful eloquence entrance me with delight.
+            </seg>
                   <seg part="I" xml:id="C06_app11-fThomas__I">
         I have endeavoured to win his confidence; and I trust that I have suc<pb xml:id="F1818_v1_045" n="033"/>ceeded. One day I mentioned to him the desire I had always felt of finding a friend who might sympathize with me, and direct me by his counsel. I said, I did not belong to that class of men who are offended by advice. “I am self-educated, and perhaps I hardly rely sufficiently upon my own powers. I wish therefore that my companion should be wiser and more experienced than myself, to confirm and support me; nor have I believed it impossible to find a true friend.”</seg>
                </p>
@@ -994,8 +988,8 @@
         to record, as nearly as possible in his own words, what he has related during the day. If I should be engaged, I will at least make notes. This manuscript will doubtless afford you the greatest
         </seg>
                   <seg xml:id="C06_app37-fThomas">
-                     <hi xml:id="novel1_letter4_div4_p36_hi1">pleasure</hi>
-                     <note place="below" resp="#MWS">impossible</note> :
+                     <hi xml:id="novel1_letter4_div4_p36_hi1">pleasure</hi>pleasure
+            <note place="below" resp="#MWS">impossible</note>impossible :
         </seg>
                   <seg xml:id="C06_app38-fThomas">
         but to me, <pb xml:id="F1818_v1_050" n="038"/>who know him, and who hear it from his own lips, with what interest and sympathy shall I read it in some future day!
@@ -1017,9 +1011,8 @@
       </text>
    </TEI>
    <?xml-model href="../segMarkerTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-   <TEI xmlns="http://www.tei-c.org/ns/1.0"
-         xmlns:mith="http://mith.umd.edu/sc/ns1#"
-         xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein">
+   <TEI xmlns:tei="http://www.tei-c.org/ns/1.0"
+        xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
       <teiHeader>
          <fileDesc>
             <titleStmt>
@@ -1037,21 +1030,20 @@
                <p>Produced from collation output prepared in batch file processing
                                     on  2023-08-10 04:18:13.976688 .</p>
                <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-13T23:37:48.036894-04:00.</p>
+                                    Variorum spine on 2023-08-13T23:44:19.755326-04:00.</p>
             </sourceDesc>
          </fileDesc>
       </teiHeader>
       <text>
          <body>
-            <div xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  type="collation">
+            <div type="collation">
                <seg part="I" xml:id="C07_app1-fThomas__I">
                   <anchor type="collate" xml:id="C07"/>
                   <milestone unit="chapter" type="start" n="1"/>
                   <head>CHAPTER I.</head>
                </seg>
                <p xml:id="novel1_letter4_chapter1_div4_div1_p1">
-                  <seg part="F" xml:id="C07_app1-fThomas__F"> I <hi xml:id="novel1_letter4_chapter1_div4_div1_p1_hi1">AM</hi> by birth a Genevese; and my family is one of the most distinguished of that republic. My ancestors had been for many years counsellors and syndics; and my father had filled several public situations with honour and reputation. He was respected by all who knew
+                  <seg part="F" xml:id="C07_app1-fThomas__F"> I <hi xml:id="novel1_letter4_chapter1_div4_div1_p1_hi1">AM</hi>AM by birth a Genevese; and my family is one of the most distinguished of that republic. My ancestors had been for many years counsellors and syndics; and my father had filled several public situations with honour and reputation. He was respected by all who knew
         </seg>
                   <seg xml:id="C07_app2-fThomas">
         him
@@ -1149,8 +1141,8 @@
             </seg>
                <p xml:id="novel1_letter4_chapter1_div4_div1_p6">
                   <seg part="F" xml:id="C07_app28-fThomas__F">
-                     <del rend="strikethrough">When my father became a husband and a parent, he found his time so occupied by the duties of his new situation, that he</del>
-                     <add>As my father’s age encreased he became more attached to the quiet of a domestic life, and he gradually</add> relinquished <del rend="strikethrough">many of</del> his public employments, and devoted himself <add place="margin">with ardour </add>to the education of his children.
+                     <del rend="strikethrough">When my father became a husband and a parent, he found his time so occupied by the duties of his new situation, that he</del>When my father became a husband and a parent, he found his time so occupied by the duties of his new situation, that he
+            <add>As my father’s age encreased he became more attached to the quiet of a domestic life, and he gradually</add>As my father’s age encreased he became more attached to the quiet of a domestic life, and he gradually relinquished <del rend="strikethrough">many of</del>many of his public employments, and devoted himself <add place="margin">with ardour </add>with ardour to the education of his children.
         </seg>
                   <seg part="I" xml:id="C07_app29-fThomas__I">
         Of these I was the eldest, and the destined suc<pb xml:id="F1818_v1_056" n="044"/>cessor to all his labours and utility. No creature could have more tender parents than mine. My improvement and health were their constant care, especially as I remained for several years their only child. But before I continue my narrative, I must record an incident which took place when I was four years of age. </seg>
@@ -1159,8 +1151,8 @@
                   <seg part="F" xml:id="C07_app29-fThomas__F"> My father had a sister, whom he tenderly loved, and who had married early in life an Italian gentleman. Soon after her marriage, she had accompanied her husband
         </seg>
                   <seg xml:id="C07_app30-fThomas">
-        into <del>her</del>
-                     <add>his</add> native country,
+        into <del>her</del>her
+            <add>his</add>his native country,
         </seg>
                   <seg xml:id="C07_app31-fThomas">
         and for some years my father had very little communication with her. About the time I mentioned she died; and a few months afterwards he received a letter from her husband, acquainting him with his intention of marrying an Italian lady, and requesting my father to take charge of the in<pb xml:id="F1818_v1_057" n="045"/>fant Elizabeth, the only child of his deceased sister. “It is my wish,” he said, “that you should consider her as your own daughter, and educate her thus. Her
@@ -1178,8 +1170,8 @@
         shewed
         </seg>
                   <seg xml:id="C07_app35-fThomas">
-                     <add>every </add> sign <del>s even then</del>
-                  </seg>
+                     <add>every </add>every  sign <del>s even then</del>s even then
+            </seg>
                   <seg xml:id="C07_app36-fThomas">
         of a gentle and affectionate disposition. These indications, and a desire to bind as closely as possible the ties of domestic love, determined my mother to consider <pb xml:id="F1818_v1_058" n="046"/>Elizabeth as my future wife; a design which she never found reason to repent.
         </seg>
@@ -1196,9 +1188,8 @@
       </text>
    </TEI>
    <?xml-model href="../segMarkerTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-   <TEI xmlns="http://www.tei-c.org/ns/1.0"
-         xmlns:mith="http://mith.umd.edu/sc/ns1#"
-         xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein">
+   <TEI xmlns:tei="http://www.tei-c.org/ns/1.0"
+        xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
       <teiHeader>
          <fileDesc>
             <titleStmt>
@@ -1216,14 +1207,13 @@
                <p>Produced from collation output prepared in batch file processing
                                     on  2023-08-10 04:18:32.874484 .</p>
                <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-13T23:37:48.036894-04:00.</p>
+                                    Variorum spine on 2023-08-13T23:44:19.755326-04:00.</p>
             </sourceDesc>
          </fileDesc>
       </teiHeader>
       <text>
          <body>
-            <div xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  type="collation">
+            <div type="collation">
                <anchor type="collate" xml:id="C08"/>
                <seg part="I" xml:id="C08_app2-fThomas__I">
             </seg>
@@ -1376,7 +1366,7 @@
         </seg> 
     He was a boy of singular talent and 
          <seg xml:id="C08_app52-fThomas">
-        fancy. <del>I remember,</del> when he was nine years old, he wrote a fairy tale, which was the delight and amazement of all his companions.
+        fancy. <del>I remember,</del>I remember, when he was nine years old, he wrote a fairy tale, which was the delight and amazement of all his companions.
         </seg>
                   <seg xml:id="C08_app53-fThomas">
         His favourite study
@@ -1395,10 +1385,10 @@
                   <seg part="F" xml:id="C08_app58-fThomas__F">
                </seg>
                   <seg xml:id="C08_app59-fThomas">
-                     <del rend="margin_line">No youth could have passed more <pb xml:id="F1818_v1_061" n="049"/>happily than mine. My parents were indulgent, and my companions amiable. Our studies were never forced; and by some means we always had an end placed in view, which excited us to ardour in the prosecution of them. It was by this method, and not by emulation, that we were urged to application. Elizabeth was not incited to apply herself to drawing, that her companions might not outstrip her; but through the desire of pleasing her aunt, by the representation of some favourite scene done by her own hand. We learned Latin and English, that we might read the writings in those languages; and so far from study being made odious to us through punishment, we loved application, and our amusements would have been the labours of other children. Perhaps we did not read so many books, or learn languages so <pb xml:id="F1818_v1_062" n="050"/>quickly, as those who are disciplined according to the ordinary methods; but what we learned was impressed the more deeply on our memories.</del>
-                     <note resp="#MWS">bad</note>
-                     <add place="bottom">With what delight do I even now remember the details of our domestic circle, and the happy years of my childhood. Joy attended on my steps—and the ardent affection that attached me to my excellent parents, my beloved Elizabeth, and Henry, the brother of my soul, has given almost a religious and sacred feeling to the recollections of a period passed beneath their eyes, and in their society.</add>
-                  </seg>
+                     <del rend="margin_line">No youth could have passed more <pb xml:id="F1818_v1_061" n="049"/>happily than mine. My parents were indulgent, and my companions amiable. Our studies were never forced; and by some means we always had an end placed in view, which excited us to ardour in the prosecution of them. It was by this method, and not by emulation, that we were urged to application. Elizabeth was not incited to apply herself to drawing, that her companions might not outstrip her; but through the desire of pleasing her aunt, by the representation of some favourite scene done by her own hand. We learned Latin and English, that we might read the writings in those languages; and so far from study being made odious to us through punishment, we loved application, and our amusements would have been the labours of other children. Perhaps we did not read so many books, or learn languages so <pb xml:id="F1818_v1_062" n="050"/>quickly, as those who are disciplined according to the ordinary methods; but what we learned was impressed the more deeply on our memories.</del>No youth could have passed more <pb xml:id="F1818_v1_061" n="049"/>happily than mine. My parents were indulgent, and my companions amiable. Our studies were never forced; and by some means we always had an end placed in view, which excited us to ardour in the prosecution of them. It was by this method, and not by emulation, that we were urged to application. Elizabeth was not incited to apply herself to drawing, that her companions might not outstrip her; but through the desire of pleasing her aunt, by the representation of some favourite scene done by her own hand. We learned Latin and English, that we might read the writings in those languages; and so far from study being made odious to us through punishment, we loved application, and our amusements would have been the labours of other children. Perhaps we did not read so many books, or learn languages so <pb xml:id="F1818_v1_062" n="050"/>quickly, as those who are disciplined according to the ordinary methods; but what we learned was impressed the more deeply on our memories.
+            <note resp="#MWS">bad</note>bad
+            <add place="bottom">With what delight do I even now remember the details of our domestic circle, and the happy years of my childhood. Joy attended on my steps—and the ardent affection that attached me to my excellent parents, my beloved Elizabeth, and Henry, the brother of my soul, has given almost a religious and sacred feeling to the recollections of a period passed beneath their eyes, and in their society.</add>With what delight do I even now remember the details of our domestic circle, and the happy years of my childhood. Joy attended on my steps—and the ardent affection that attached me to my excellent parents, my beloved Elizabeth, and Henry, the brother of my soul, has given almost a religious and sacred feeling to the recollections of a period passed beneath their eyes, and in their society.
+            </seg>
                   <seg part="I" xml:id="C08_app60-fThomas__I">
                </seg>
                </p>
@@ -1497,9 +1487,9 @@
         </seg> 
     to 
          <seg xml:id="C08_app92-fThomas">
-                     <del>state</del>
-                     <add>relate</add>
-                  </seg> 
+                     <del>state</del>state
+            <add>relate</add>relate
+            </seg> 
     those facts which led to my 
          <seg xml:id="C08_app94-fThomas">
         predilection
@@ -1570,9 +1560,9 @@
         </seg> 
     I communicated my discovery to my father. 
          <seg xml:id="C08_app127-fThomas">
-                     <del rend="strikethrough">I cannot help remarking here the many opportunities instructors possess of directing the attention of their pupils to useful knowledge, which they utterly neglect. My father looked</del>
-                     <add>who looking</add> carelessly at the title-page of my book, <del rend="strikethrough">and</del>
-                  </seg>
+                     <del rend="strikethrough">I cannot help remarking here the many opportunities instructors possess of directing the attention of their pupils to useful knowledge, which they utterly neglect. My father looked</del>I cannot help remarking here the many opportunities instructors possess of directing the attention of their pupils to useful knowledge, which they utterly neglect. My father looked
+            <add>who looking</add>who looking carelessly at the title-page of my book, <del rend="strikethrough">and</del>and
+            </seg>
                   <seg xml:id="C08_app129-fThomas">
         said, “Ah!
         </seg> 
@@ -2199,8 +2189,8 @@
         drew down that fluid from the clouds. 
         </seg>
                   <seg part="I" xml:id="C08_app386-fThomas__I">
-                     <note resp="#MWS" cert="low">you said your family was not sientific.</note>
-                  </seg>
+                     <note resp="#MWS" cert="low">you said your family was not sientific.</note>you said your family was not sientific.
+            </seg>
                </p>
                <p xml:id="novel1_letter4_chapter1_div4_div1_p24">
                   <seg part="F" xml:id="C08_app386-fThomas__F"> This last
@@ -2515,8 +2505,8 @@
                </seg>
                <p xml:id="novel1_letter4_chapter2_div4_div2_p1">
                   <seg xml:id="C08_app488-fThomas">
-        W<hi xml:id="novel1_letter4_chapter2_div4_div2_p1_hi1">HEN</hi>
-                  </seg> 
+        W<hi xml:id="novel1_letter4_chapter2_div4_div2_p1_hi1">HEN</hi>HEN
+            </seg> 
     I had attained the age of 
          <seg xml:id="C08_app490-fThomas">
         seventeen,
@@ -2644,8 +2634,8 @@
         this
         </seg>
                   <seg xml:id="C08_app548-fThomas">
-                     <del>admirable</del>
-                     <add>amiable</add> woman
+                     <del>admirable</del>admirable
+            <add>amiable</add>amiable woman
         </seg> 
     did not desert her. She joined the hands of Elizabeth and 
          <seg xml:id="C08_app550-fThomas">
@@ -3016,9 +3006,9 @@
         Henry
         </seg>
                   <seg xml:id="C08_app703-fThomas">
-                     <del>had a refined mind; he had no desire to be idle, and was well pleased to become his father’s partner, but he believed that a man might be a very good trader, and yet possess a cultivated understanding.</del>
-                     <add>loved poetry and his mind was filled with the imagery and sublime sentiments of the masters of that art. A poet himself, he turned with <del-INNER>y</del-INNER> disgust from the details of ordinary life. His own <del-INNER>soul</del-INNER> mind was all the possession that he prized, beautiful &amp; majestic thoughts the only wealth he coveted—daring as the eagle and as free, common laws could not be applied to him; and while you gazed on him you felt his soul’s spark was more divine—more truly stolen from Apollo’s sacred fire, than the glimmering ember that animates other men.</add>
-                  </seg>
+                     <del>had a refined mind; he had no desire to be idle, and was well pleased to become his father’s partner, but he believed that a man might be a very good trader, and yet possess a cultivated understanding.</del>had a refined mind; he had no desire to be idle, and was well pleased to become his father’s partner, but he believed that a man might be a very good trader, and yet possess a cultivated understanding.
+            <add>loved poetry and his mind was filled with the imagery and sublime sentiments of the masters of that art. A poet himself, he turned with <del-INNER>y</del-INNER> disgust from the details of ordinary life. His own <del-INNER>soul</del-INNER> mind was all the possession that he prized, beautiful &amp; majestic thoughts the only wealth he coveted—daring as the eagle and as free, common laws could not be applied to him; and while you gazed on him you felt his soul’s spark was more divine—more truly stolen from Apollo’s sacred fire, than the glimmering ember that animates other men.</add>loved poetry and his mind was filled with the imagery and sublime sentiments of the masters of that art. A poet himself, he turned with <del-INNER>y</del-INNER>y disgust from the details of ordinary life. His own <del-INNER>soul</del-INNER>soul mind was all the possession that he prized, beautiful &amp; majestic thoughts the only wealth he coveted—daring as the eagle and as free, common laws could not be applied to him; and while you gazed on him you felt his soul’s spark was more divine—more truly stolen from Apollo’s sacred fire, than the glimmering ember that animates other men.
+            </seg>
                </p>
                <p xml:id="novel1_letter4_chapter2_div4_div2_p5"> We 
         <seg xml:id="C08_app705-fThomas">
@@ -3880,13 +3870,13 @@
         mankind.” I listened
         </seg>
                   <seg xml:id="C08_app1101-fThomas">
-                     <del rend="strikethrough">to his statement, which was delivered</del>
-                     <add>to him with interest for he spoke</add>
-                  </seg> 
+                     <del rend="strikethrough">to his statement, which was delivered</del>to his statement, which was delivered
+            <add>to him with interest for he spoke</add>to him with interest for he spoke
+            </seg> 
     without 
          <seg xml:id="C08_app1103-fThomas">
-                     <del rend="strikethrough">any</del>
-                  </seg> 
+                     <del rend="strikethrough">any</del>any
+            </seg> 
     presumption 
          <seg xml:id="C08_app1105-fThomas">
         or affectation;

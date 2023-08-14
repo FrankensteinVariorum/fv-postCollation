@@ -3,10 +3,9 @@
     xmlns:fv="https://github.com/FrankensteinVariorum"
     xmlns="http://www.tei-c.org/ns/1.0"
     xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:mith="http://mith.umd.edu/sc/ns1#"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-    xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-    exclude-result-prefixes="xs th mith fv cx tei" version="3.0">
+    exclude-result-prefixes="#all" version="3.0">
 
     <!--2018-10-17 updated 2019-03-16, 2023-07-04, 2023-07-13, 2023-08-09 ebb: This XSLT generates the “spine” files for the Variorum. 
         These files differ from the P1 stage of processing because the P1 form contains the complete texts of all edition files, mapping them to critical apparatus markup with variant apps (containing multiple rdgGrps or divergent forms) as well as invariant apps (containing only one rdgGrp where all editions run in unison). For the purposes of the Variorum encoding, our “spine” needs only to work with the variant passages, because those are the passages we will highlight and interlink in the Variorum interface. So, in this stage of processing we remove the invariant apps from P1 in generating the Variorum “spines”. We are processing rdgGrps in this XSLT.

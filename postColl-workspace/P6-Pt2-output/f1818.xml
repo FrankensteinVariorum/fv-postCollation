@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xmlns:tei="http://www.tei-c.org/ns/1.0"
-      xmlns:var="https://frankensteinvariorum.github.io">
+     xmlns:fv="https://frankensteinvariorum.github.io"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -17,36 +19,29 @@
          </publicationStmt>
          <sourceDesc>
             <p>Produced from a corpus of collation output files for the Frankenstein Variorum
-                  digital edition on 2023-08-13T23:38:07.967511-04:00.</p>
+                  digital edition on 2023-08-14T01:13:43.511507-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
          <anchor type="semantic"
-                  subtype="start end start"
-                  xml:id="f1818_vol_1_preface"/>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               part="I"
-               xml:id="C01_app1-f1818__I">
+                 subtype="start end start"
+                 xml:id="f1818_vol_1_preface"/>
+         <seg part="I" xml:id="C01_app1-f1818__I">
             <milestone unit="volume" n="1"/>
             <milestone unit="frontmatter" type="start" n="1"/>
             <milestone unit="frontmatter" type="end" n="1"/>
             <milestone unit="preface" type="start" n="1"/>
             <pb xml:id="F1818_v1_007" n="viii"/>
             <head>PREFACE.</head>
-            <p xml:id="preface1_p1"> T<hi xml:id="preface1_p1_hi1">HE</hi> event on which this fiction is founded has been supposed, by Dr. Darwin, and some of the physiological writers of Germany, as not of impossible occurrence. I shall not be supposed as according the remotest degree of serious faith to such an imagination; yet, in assuming it as the basis of a work of fancy, I have not considered myself as merely weaving a series of supernatural terrors. The event on <pb xml:id="F1818_v1_008" n="viii"/>which the interest of the story depends is exempt from the disadvantages of a mere tale of spectres or enchantment. It was recommended by the novelty of the situations which it developes; and, however impossible as a physical fact, affords a point of view to the imagination for the delineating of human passions more comprehensive and commanding than any which the ordinary relations of existing events can yield. </p>
+            <p xml:id="preface1_p1"> T<hi xml:id="preface1_p1_hi1">HE</hi>HE event on which this fiction is founded has been supposed, by Dr. Darwin, and some of the physiological writers of Germany, as not of impossible occurrence. I shall not be supposed as according the remotest degree of serious faith to such an imagination; yet, in assuming it as the basis of a work of fancy, I have not considered myself as merely weaving a series of supernatural terrors. The event on <pb xml:id="F1818_v1_008" n="viii"/>which the interest of the story depends is exempt from the disadvantages of a mere tale of spectres or enchantment. It was recommended by the novelty of the situations which it developes; and, however impossible as a physical fact, affords a point of view to the imagination for the delineating of human passions more comprehensive and commanding than any which the ordinary relations of existing events can yield. </p>
          </seg>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="preface1_p2">
+         <p xml:id="preface1_p2">
             <seg part="F" xml:id="C01_app1-f1818__F"> I have thus endeavoured to preserve the truth of the elementary principles of human nature, while I have not scrupled to innovate upon their combinations. The 
         </seg>
             <seg xml:id="C01_app2-f1818">
-               <hi xml:id="preface1_p2_hi1">Iliad</hi>,
+               <hi xml:id="preface1_p2_hi1">Iliad</hi>Iliad,
         </seg>
             <seg xml:id="C01_app3-f1818">
         the tragic poetry of
@@ -58,39 +53,38 @@
         in the
         </seg>
             <seg xml:id="C01_app6-f1818">
-               <hi xml:id="preface1_p2_hi2">Tempest</hi>
+               <hi xml:id="preface1_p2_hi2">Tempest</hi>Tempest
             </seg>
             <seg xml:id="C01_app7-f1818">
         and
         </seg>
-            <seg part="I" xml:id="C01_app8-f1818__I">
-               </seg>
-            <hi xml:id="preface1_p2_hi3">
-               <seg part="F" xml:id="C01_app8-f1818__F">Mid<pb xmlns:xs="http://www.w3.org/2001/XMLSchema"
-                       xml:id="F1818_v1_009"
-                       n="ix"/>summer
-        </seg>
-               <seg xml:id="C01_app9-f1818">
+            <seg xml:id="C01_app8-f1818">
+               <hi xml:id="preface1_p2_hi3">Mid<pb xml:id="F1818_v1_009" n="ix"/>summer
+        <seg part="F" xml:id="C01_app8-f1818__F">
+                  </seg>
+                  <seg xml:id="C01_app9-f1818">
         Night’s
         </seg>
-               <seg part="I" xml:id="C01_app10-f1818__I">
-        Dream</seg>
-            </hi>
-            <seg part="F" xml:id="C01_app10-f1818__F">,—and
+                  <seg part="I" xml:id="C01_app10-f1818__I">
+                  </seg> 
+        Dream</hi>Mid<pb xml:id="F1818_v1_009" n="ix"/>summer
+        </seg>
+            <seg xml:id="C01_app9-f1818">
+        Night’s
+        </seg>
+            <seg xml:id="C01_app10-f1818">
+        Dream,—and
         </seg>
             <seg xml:id="C01_app11-f1818">
         most especially Milton, in
         </seg>
             <seg xml:id="C01_app12-f1818">
-               <hi xml:id="preface1_p2_hi4">Paradise Lost</hi>,
+               <hi xml:id="preface1_p2_hi4">Paradise Lost</hi>Paradise Lost,
         </seg>
             <seg part="I" xml:id="C01_app13-f1818__I">
         conform to this rule; and the most humble novelist, who seeks to confer or receive amusement from his labours, may, without presumption, apply to prose fiction a licence, or rather a rule, from the adoption of which so many exquisite combinations of human feeling have resulted in the highest specimens of poetry. </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="preface1_p3">
+         <p xml:id="preface1_p3">
             <seg part="F" xml:id="C01_app13-f1818__F"> The circumstance on which my story rests was suggested in casual conversation. It was
         </seg>
             <seg xml:id="C01_app14-f1818">
@@ -99,43 +93,26 @@
             <seg part="I" xml:id="C01_app15-f1818__I">
         partly as a source of amusement, and partly as an expedient for exercising any untried resources of mind. Other motives were mingled with these, as the work pro<pb xml:id="F1818_v1_010" n="x"/>ceeded. I am by no means indifferent to the manner in which whatever moral tendencies exist in the sentiments or characters it contains shall affect the reader; yet my chief concern in this respect has been limited to the avoiding the enervating effects of the novels of the present day, and to the exhibition of the amiableness of domestic affection, and the excellence of universal virtue. The opinions which naturally spring from the character and situation of the hero are by no means to be conceived as existing always in my own conviction; nor is any inference justly to be drawn from the following pages as prejudicing any philosophical doctrine of whatever kind. </seg>
          </p>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               part="M"
-               xml:id="C01_app15-f1818__M">
+         <seg part="M" xml:id="C01_app15-f1818__M">
             <p xml:id="preface1_p4">
                <pb xml:id="F1818_v1_011" n="xi"/>It is a subject also of additional interest to the author, that this story was begun in the majestic region where the scene is principally laid, and in society which cannot cease to be regretted. I passed the summer of 1816 in the environs of Geneva. The season was cold and rainy, and in the evenings we crowded around a blazing wood fire, and occasionally amused ourselves with some German stories of ghosts, which happened to fall into our hands. These tales excited in us a playful desire of imitation. Two other friends (a tale from the pen of one of whom would be far more acceptable to the public than any thing I can ever hope to produce) and <pb xml:id="F1818_v1_012" n="xii"/>myself agreed to write each a story, founded on some supernatural occurrence. </p>
          </seg>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="preface1_p5">
+         <p xml:id="preface1_p5">
             <seg part="F" xml:id="C01_app15-f1818__F"> The weather, however, suddenly became serene; and my two friends left me on a journey among the Alps, and lost, in the magnificent scenes which they present, all memory of their ghostly visions. The following tale is the only one which has been completed.
         </seg>
             <seg part="I" xml:id="C01_app16-f1818__I">
                </seg>
          </p>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               part="F"
-               xml:id="C01_app16-f1818__F">
+         <seg part="F" xml:id="C01_app16-f1818__F">
             <milestone unit="preface" type="end" n="1"/>
          </seg>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               xml:id="C02_app1-f1818">
+         <seg xml:id="C02_app1-f1818">
             <anchor type="collate" xml:id="C02"/>
             <milestone unit="novel" type="start" n="1"/>
             <pb xml:id="F1818_v1_013"/>
             <head>FRANKENSTEIN;</head>
          </seg>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               xml:id="C02_app2-f1818">
+         <seg xml:id="C02_app2-f1818">
             <head>
                <hi xml:id="novel1_head2_hi1">OR, THE</hi>
             </head>
@@ -144,33 +121,20 @@
             </head>
          </seg>
          <anchor type="semantic" subtype="start" xml:id="f1818_vol_1_letter_i"/>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               xml:id="C02_app3-f1818">
+         <seg xml:id="C02_app3-f1818">
             <milestone unit="letter" type="start" n="1"/>
          </seg>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               xml:id="C02_app4-f1818">
+         <seg xml:id="C02_app4-f1818">
             <head>LETTER I</head>
             <ab xml:id="novel1_letter1_div1_ab1">
-               <hi xml:id="novel1_letter1_div1_ab1_hi1">To Mrs.</hi> S<hi xml:id="novel1_letter1_div1_ab1_hi2">AVILLE</hi>, <hi xml:id="novel1_letter1_div1_ab1_hi3">England.</hi>
+               <hi xml:id="novel1_letter1_div1_ab1_hi1">To Mrs.</hi>To Mrs. S<hi xml:id="novel1_letter1_div1_ab1_hi2">AVILLE</hi>AVILLE, <hi xml:id="novel1_letter1_div1_ab1_hi3">England.</hi>England.
             </ab>
          </seg>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               part="I"
-               xml:id="C02_app5-f1818__I">
+         <seg part="I" xml:id="C02_app5-f1818__I">
             <p xml:id="novel1_letter1_div1_p1"> St. Petersburgh, Dec. 11th, 17—. </p>
-            <p xml:id="novel1_letter1_div1_p2"> Y<hi xml:id="novel1_letter1_div1_p2_hi1">OU</hi> will rejoice to hear that no disaster has accompanied the commencement of an enterprise which you have regarded with such evil forebodings. I arrived here yesterday; and my first task is to assure my dear sister of my welfare, and increasing confidence in the success of my undertaking. </p>
+            <p xml:id="novel1_letter1_div1_p2"> Y<hi xml:id="novel1_letter1_div1_p2_hi1">OU</hi>OU will rejoice to hear that no disaster has accompanied the commencement of an enterprise which you have regarded with such evil forebodings. I arrived here yesterday; and my first task is to assure my dear sister of my welfare, and increasing confidence in the success of my undertaking. </p>
          </seg>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter1_div1_p3">
+         <p xml:id="novel1_letter1_div1_p3">
             <seg part="F" xml:id="C02_app5-f1818__F"> I am already far north of London; and as I walk in the streets of Peters<pb xml:id="F1818_v1_014" n="002"/>burgh, I feel a cold northern breeze play upon my cheeks, which braces my nerves, and fills me with delight. Do you understand this feeling? This breeze, which has travelled from the regions towards which I am advancing, gives me a foretaste of those icy climes. Inspirited by this wind of promise, my day dreams become more fervent and vivid. I try in vain to be persuaded that the pole is the seat of frost and desolation; it ever presents itself to my imagination as the region of beauty and delight. There, Margaret, the sun is
         </seg>
             <seg xml:id="C02_app6-f1818">
@@ -191,10 +155,7 @@
             <seg part="I" xml:id="C02_app11-f1818__I">
         I may there discover the wondrous power which attracts the needle; and may regulate a thousand celestial observations, that require only this voyage to render their seeming eccentricities consistent for ever. I shall satiate my ardent curiosity with the sight of a part of the world never before visited, and may tread a land never before imprinted by the foot of man. These are my enticements, and they are sufficient to conquer all fear of danger or death, and to induce me to commence this laborious voyage with the joy a child feels when he embarks <pb xml:id="F1818_v1_016" n="004"/>in a little boat, with his holiday mates, on an expedition of discovery up his native river. But, supposing all these conjectures to be false, you cannot contest the inestimable benefit which I shall confer on all mankind to the last generation, by discovering a passage near the pole to those countries, to reach which at present so many months are requisite; or by ascertaining the secret of the magnet, which, if at all possible, can only be effected by an undertaking such as mine. </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter1_div1_p4">
+         <p xml:id="novel1_letter1_div1_p4">
             <seg part="F" xml:id="C02_app11-f1818__F"> These reflections have dispelled the agitation with which I began my letter, and I feel my heart glow with an enthusiasm which elevates me to heaven; for nothing contributes so much to
         </seg>
             <seg xml:id="C02_app12-f1818">
@@ -209,10 +170,7 @@
             <seg part="I" xml:id="C02_app15-f1818__I">
         life. </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter1_div1_p5">
+         <p xml:id="novel1_letter1_div1_p5">
             <seg part="F" xml:id="C02_app15-f1818__F"> These visions faded when I perused, for the first time, those poets whose effusions entranced my soul, and lifted it to heaven. I also became a poet, <pb xml:id="F1818_v1_018" n="006"/>and for one year lived in a Paradise of my own creation; I imagined that I also might obtain a niche in the temple where the names of Homer and
         </seg>
             <seg xml:id="C02_app16-f1818">
@@ -221,17 +179,10 @@
             <seg part="I" xml:id="C02_app17-f1818__I">
         are consecrated. You are well acquainted with my failure, and how heavily I bore the disappointment. But just at that time I inherited the fortune of my cousin, and my thoughts were turned into the channel of their earlier bent. </seg>
          </p>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               part="M"
-               xml:id="C02_app17-f1818__M">
+         <seg part="M" xml:id="C02_app17-f1818__M">
             <p xml:id="novel1_letter1_div1_p6"> Six years have passed since I resolved on my present undertaking. I can, even now, remember the hour from which I dedicated myself to this great enterprise. I commenced by inuring my body to hardship. I accompanied the whale-fishers on several expeditions to the North Sea; I voluntarily endured cold, famine, thirst, and want of sleep; I often worked harder than the common sailors during the day, and devoted my <pb xml:id="F1818_v1_019" n="007"/>nights to the study of mathematics, the theory of medicine, and those branches of physical science from which a naval adventurer might derive the greatest practical advantage. Twice I actually hired myself as an under-mate in a Greenland whaler, and acquitted myself to admiration. I must own I felt a little proud, when my captain offered me the second dignity in the vessel, and entreated me to remain with the greatest earnestness; so valuable did he consider my services. </p>
          </seg>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter1_div1_p7">
+         <p xml:id="novel1_letter1_div1_p7">
             <seg part="F" xml:id="C02_app17-f1818__F"> And now, dear Margaret, do I not deserve to accomplish some great purpose? My life might have been passed in ease and luxury; but I preferred glory to every enticement that wealth placed in my path. Oh, that some encouraging voice would answer in the affirmative! My courage and my resolution is firm; but my hopes fluctuate, <pb xml:id="F1818_v1_020" n="008"/>and my spirits are often depressed. I am about to proceed on a long and difficult
         </seg>
             <seg xml:id="C02_app18-f1818">
@@ -246,10 +197,7 @@
             <seg part="I" xml:id="C02_app21-f1818__I">
         are failing. </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter1_div1_p8">
+         <p xml:id="novel1_letter1_div1_p8">
             <seg part="F" xml:id="C02_app21-f1818__F"> This is the most favourable period for travelling in Russia. They fly quickly over the snow in their sledges; the motion is pleasant, and, in my opinion, far more agreeable than that of an English stage-coach. The cold is not excessive, if you are
         </seg>
             <seg xml:id="C02_app22-f1818">
@@ -264,10 +212,7 @@
             <seg part="I" xml:id="C02_app25-f1818__I">
         dress which I have already adopted; for there is a great difference between walking the deck and remaining seated motionless for hours, when no exercise prevents the blood from actually freezing in your veins. I have no ambition to lose my life on the post-road between St. Petersburgh and Archangel. </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter1_div1_p9">
+         <p xml:id="novel1_letter1_div1_p9">
             <seg part="F" xml:id="C02_app25-f1818__F">
                <pb xml:id="F1818_v1_021" n="009"/>I shall depart for the latter town in a fortnight or three weeks; and my intention is to hire a ship there, which can easily be done by paying the insurance for the owner, and to engage as many sailors as I think necessary among those who are accustomed to the whale-fishing. I do not intend to sail until the month of
         </seg>
@@ -277,10 +222,7 @@
             <seg part="I" xml:id="C02_app27-f1818__I">
         and when shall I return? Ah, dear sister, how can I answer this question? If I succeed, many, many months, perhaps years, will pass before you and I may meet. If I fail, you will see me again soon, or never. </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter1_div1_p10">
+         <p xml:id="novel1_letter1_div1_p10">
             <seg part="F" xml:id="C02_app27-f1818__F"> Farewell, my dear,
         </seg>
             <seg xml:id="C02_app28-f1818">
@@ -289,54 +231,31 @@
             <seg part="I" xml:id="C02_app29-f1818__I">
         Margaret. Heaven shower down blessings on you, and save me, that I may again and again testify my gratitude for all your love and kindness. </seg>
          </p>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               part="F"
-               xml:id="C02_app29-f1818__F">
+         <seg part="F" xml:id="C02_app29-f1818__F">
             <p xml:id="novel1_letter1_div1_p11"> Your affectionate brother, </p>
-            <p xml:id="novel1_letter1_div1_p12"> R. W<hi xml:id="novel1_letter1_div1_p12_hi1">ALTON</hi>. </p>
+            <p xml:id="novel1_letter1_div1_p12"> R. W<hi xml:id="novel1_letter1_div1_p12_hi1">ALTON</hi>ALTON. </p>
          </seg>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               xml:id="C02_app30-f1818">
+         <seg xml:id="C02_app30-f1818">
             <pb xml:id="F1818_v1_022" n="010"/>
          </seg>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               xml:id="C02_app31-f1818">
+         <seg xml:id="C02_app31-f1818">
             <milestone unit="letter" type="end" n="1"/>
          </seg>
          <anchor type="semantic" subtype="start" xml:id="f1818_vol_1_letter_ii"/>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               xml:id="C03_app1-f1818">
+         <seg xml:id="C03_app1-f1818">
             <anchor type="collate" xml:id="C03"/>
             <milestone unit="letter" type="start" n="2"/>
             <head>LETTER II.</head>
          </seg>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               xml:id="C03_app2-f1818">
+         <seg xml:id="C03_app2-f1818">
             <ab xml:id="novel1_letter2_div2_ab1">
-               <hi xml:id="novel1_letter2_div2_ab1_hi1">To Mrs.</hi> S<hi xml:id="novel1_letter2_div2_ab1_hi2">AVILLE</hi>, <hi xml:id="novel1_letter2_div2_ab1_hi3">England.</hi>
+               <hi xml:id="novel1_letter2_div2_ab1_hi1">To Mrs.</hi>To Mrs. S<hi xml:id="novel1_letter2_div2_ab1_hi2">AVILLE</hi>AVILLE, <hi xml:id="novel1_letter2_div2_ab1_hi3">England.</hi>England.
             </ab>
          </seg>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               part="I"
-               xml:id="C03_app3-f1818__I">
+         <seg part="I" xml:id="C03_app3-f1818__I">
             <p xml:id="novel1_letter2_div2_p1"> Archangel, 28th March, 17—. </p>
          </seg>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter2_div2_p2">
+         <p xml:id="novel1_letter2_div2_p2">
             <seg part="F" xml:id="C03_app3-f1818__F"> How slowly the time passes here, encompassed as I am by frost and
         </seg>
             <seg xml:id="C03_app4-f1818">
@@ -351,10 +270,7 @@
             <seg part="I" xml:id="C03_app7-f1818__I">
         appear to be men on whom I can depend, and are certainly possessed of dauntless courage. </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter2_div2_p3">
+         <p xml:id="novel1_letter2_div2_p3">
             <seg part="F" xml:id="C03_app7-f1818__F"> But I have one want which I have never yet been able to satisfy; and the absence of the object of which I <pb xml:id="F1818_v1_023" n="011"/>now feel as a most severe evil. I have no friend, Margaret: when I am glowing with the enthusiasm of success, there will be none to participate my joy; if I am assailed by disappointment, no one will endeavour to sustain me in dejection. I shall commit my thoughts to paper, it is true; but that is a poor medium for the communication of feeling. I desire the company of a man who could
         </seg>
             <seg xml:id="C03_app8-f1818">
@@ -367,12 +283,9 @@
         school-boys
         </seg>
             <seg part="I" xml:id="C03_app11-f1818__I">
-        of fifteen. It is true that I have thought more, and that my day dreams are more extended and magnificent; but they want (as the painters call it) <hi xml:id="novel1_letter2_div2_p3_hi1">keeping;</hi> and I greatly need a friend who would have sense enough not to despise me as romantic, and affection <pb xml:id="F1818_v1_025" n="013"/>enough for me to endeavour to regulate my mind. </seg>
+        of fifteen. It is true that I have thought more, and that my day dreams are more extended and magnificent; but they want (as the painters call it) <hi xml:id="novel1_letter2_div2_p3_hi1">keeping;</hi>keeping; and I greatly need a friend who would have sense enough not to despise me as romantic, and affection <pb xml:id="F1818_v1_025" n="013"/>enough for me to endeavour to regulate my mind. </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter2_div2_p4">
+         <p xml:id="novel1_letter2_div2_p4">
             <seg part="F" xml:id="C03_app11-f1818__F"> Well, these are useless complaints; I shall certainly find no friend on the wide ocean, nor even here in Archangel, among merchants and seamen. Yet some feelings, unallied to the dross of human nature, beat even in these rugged bosoms. My lieutenant, for instance, is a man of wonderful courage and enterprise; he is madly desirous
         </seg>
             <seg xml:id="C03_app12-f1818">
@@ -381,10 +294,7 @@
             <seg part="I" xml:id="C03_app13-f1818__I">
         He is an Englishman, and in the midst of national and professional prejudices, unsoftened by cultivation, retains some of the noblest endowments of humanity. I first became acquainted with him on board a whale vessel: finding that he was unemployed in this city, I easily engaged him to assist in my enterprise. </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter2_div2_p5">
+         <p xml:id="novel1_letter2_div2_p5">
             <seg part="F" xml:id="C03_app13-f1818__F"> The master is a person of an excellent disposition, and is remarkable in <pb xml:id="F1818_v1_026" n="014"/>the ship for his
         </seg>
             <seg xml:id="C03_app14-f1818">
@@ -429,10 +339,7 @@
             <seg part="I" xml:id="C03_app27-f1818__I">
                </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter2_div2_p6">
+         <p xml:id="novel1_letter2_div2_p6">
             <seg part="F" xml:id="C03_app27-f1818__F">
                </seg>
             <seg xml:id="C03_app28-f1818">
@@ -465,10 +372,7 @@
             <seg part="I" xml:id="C03_app37-f1818__I">
         whenever the safety of others is committed to my care. </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter2_div2_p7">
+         <p xml:id="novel1_letter2_div2_p7">
             <seg part="F" xml:id="C03_app37-f1818__F"> I cannot describe to you my sensations on the near prospect of my undertaking. It is impossible to communicate to you a conception of the trembling sensation, half pleasurable and half fearful, with which I am preparing to depart. I am going to unexplored regions, to “the land of mist and <pb xml:id="F1818_v1_029" n="017"/>snow;”
         </seg>
             <seg xml:id="C03_app38-f1818">
@@ -480,10 +384,7 @@
             <seg part="I" xml:id="C03_app40-f1818__I">
                </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter2_div2_p8">
+         <p xml:id="novel1_letter2_div2_p8">
             <seg part="F" xml:id="C03_app40-f1818__F">
                </seg>
             <seg xml:id="C03_app41-f1818">
@@ -498,67 +399,41 @@
             <seg part="I" xml:id="C03_app44-f1818__I">
         on some occasions when I need them most to support my spirits. I love you very tenderly. Remember me with affection, should you never hear from me again. </seg>
          </p>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               part="F"
-               xml:id="C03_app44-f1818__F">
+         <seg part="F" xml:id="C03_app44-f1818__F">
             <p xml:id="novel1_letter2_div2_p9"> Your affectionate brother, </p>
-            <p xml:id="novel1_letter2_div2_p10"> R<hi xml:id="novel1_letter2_div2_p10_hi1">OBERT</hi> W<hi xml:id="novel1_letter2_div2_p10_hi2">ALTON</hi>. </p>
+            <p xml:id="novel1_letter2_div2_p10"> R<hi xml:id="novel1_letter2_div2_p10_hi1">OBERT</hi>OBERT W<hi xml:id="novel1_letter2_div2_p10_hi2">ALTON</hi>ALTON. </p>
          </seg>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               xml:id="C03_app45-f1818">
+         <seg xml:id="C03_app45-f1818">
             <pb xml:id="F1818_v1_030" n="018"/>
          </seg>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               xml:id="C03_app46-f1818">
+         <seg xml:id="C03_app46-f1818">
             <milestone unit="letter" type="end" n="2"/>
          </seg>
          <anchor type="semantic" subtype="start" xml:id="f1818_vol_1_letter_iii"/>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               xml:id="C04_app1-f1818">
+         <seg xml:id="C04_app1-f1818">
             <anchor type="collate" xml:id="C04"/>
             <milestone unit="letter" type="start" n="3"/>
             <head>LETTER III.</head>
          </seg>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               xml:id="C04_app2-f1818">
+         <seg xml:id="C04_app2-f1818">
             <ab xml:id="novel1_letter3_div3_ab1">
-               <hi xml:id="novel1_letter3_div3_ab1_hi1">To Mrs.</hi> S<hi xml:id="novel1_letter3_div3_ab1_hi2">AVILLE</hi>, <hi xml:id="novel1_letter3_div3_ab1_hi3">England.</hi>
+               <hi xml:id="novel1_letter3_div3_ab1_hi1">To Mrs.</hi>To Mrs. S<hi xml:id="novel1_letter3_div3_ab1_hi2">AVILLE</hi>AVILLE, <hi xml:id="novel1_letter3_div3_ab1_hi3">England.</hi>England.
             </ab>
          </seg>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               part="I"
-               xml:id="C04_app3-f1818__I">
+         <seg part="I" xml:id="C04_app3-f1818__I">
             <p xml:id="novel1_letter3_div3_p1"> July 7th, 17—. </p>
          </seg>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter3_div3_p2">
+         <p xml:id="novel1_letter3_div3_p2">
             <seg part="F" xml:id="C04_app3-f1818__F">
                </seg>
             <seg xml:id="C04_app4-f1818">
-               <hi xml:id="novel1_letter3_div3_p2_hi1">MY DEAR SISTER</hi>,
+               <hi xml:id="novel1_letter3_div3_p2_hi1">MY DEAR SISTER</hi>MY DEAR SISTER,
         </seg>
             <seg part="I" xml:id="C04_app5-f1818__I">
                </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter3_div3_p3">
-            <seg part="F" xml:id="C04_app5-f1818__F"> I <hi xml:id="novel1_letter3_div3_p3_hi1">WRITE</hi> a few lines in haste, to say that I am safe, and well advanced on my voyage. This letter will reach England by a
+         <p xml:id="novel1_letter3_div3_p3">
+            <seg part="F" xml:id="C04_app5-f1818__F"> I <hi xml:id="novel1_letter3_div3_p3_hi1">WRITE</hi>WRITE a few lines in haste, to say that I am safe, and well advanced on my voyage. This letter will reach England by a
         </seg>
             <seg xml:id="C04_app6-f1818">
         merchant-man
@@ -581,10 +456,7 @@
             <seg part="I" xml:id="C04_app12-f1818__I">
                </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter3_div3_p4">
+         <p xml:id="novel1_letter3_div3_p4">
             <seg part="F" xml:id="C04_app12-f1818__F"> No incidents have hitherto befallen
         </seg>
             <seg xml:id="C04_app13-f1818">
@@ -617,10 +489,7 @@
             <seg part="I" xml:id="C04_app22-f1818__I">
         if nothing worse happen to us during our voyage. </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter3_div3_p5">
+         <p xml:id="novel1_letter3_div3_p5">
             <seg part="F" xml:id="C04_app22-f1818__F"> Adieu, my dear Margaret. Be assured, that for my own sake, as well as
         </seg>
             <seg xml:id="C04_app23-f1818">
@@ -629,28 +498,14 @@
             <seg part="I" xml:id="C04_app24-f1818__I">
         I will not rashly encounter dan<pb xml:id="F1818_v1_032" n="020"/>ger. I will be cool, persevering, and prudent. </seg>
          </p>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               part="F"
-               xml:id="C04_app24-f1818__F">
+         <seg part="F" xml:id="C04_app24-f1818__F">
             </seg>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               xml:id="C04_app25-f1818">
+         <seg xml:id="C04_app25-f1818">
             <p xml:id="novel1_letter3_div3_p6">Remember me to all my English friends.</p>
          </seg>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               part="I"
-               xml:id="C04_app26-f1818__I">
+         <seg part="I" xml:id="C04_app26-f1818__I">
             </seg>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter3_div3_p7">
+         <p xml:id="novel1_letter3_div3_p7">
             <seg part="F" xml:id="C04_app26-f1818__F">
                </seg>
             <seg xml:id="C04_app27-f1818">
@@ -659,10 +514,7 @@
             <seg part="I" xml:id="C04_app28-f1818__I">
                </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter3_div3_p8">
+         <p xml:id="novel1_letter3_div3_p8">
             <seg part="F" xml:id="C04_app28-f1818__F">
                </seg>
             <seg xml:id="C04_app29-f1818">
@@ -671,54 +523,31 @@
             <seg part="I" xml:id="C04_app30-f1818__I">
                </seg>
          </p>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               part="F"
-               xml:id="C04_app30-f1818__F">
+         <seg part="F" xml:id="C04_app30-f1818__F">
             </seg>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               xml:id="C04_app31-f1818">
+         <seg xml:id="C04_app31-f1818">
             <pb xml:id="F1818_v1_033" n="021"/>
          </seg>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               xml:id="C04_app32-f1818">
+         <seg xml:id="C04_app32-f1818">
             <milestone unit="letter" type="end" n="3"/>
          </seg>
          <anchor type="semantic" subtype="start" xml:id="f1818_vol_1_letter_iv"/>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               xml:id="C05_app1-f1818">
+         <seg xml:id="C05_app1-f1818">
             <anchor type="collate" xml:id="C05"/>
             <milestone unit="letter" type="start" n="4"/>
             <head>LETTER IV.</head>
          </seg>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               xml:id="C05_app2-f1818">
+         <seg xml:id="C05_app2-f1818">
             <head>
                <ab xml:id="novel1_letter4_div4_head2_ab1">
-                  <hi xml:id="novel1_letter4_div4_head2_ab1_hi1">To Mrs.</hi> S<hi xml:id="novel1_letter4_div4_head2_ab1_hi2">AVILLE</hi>, <hi xml:id="novel1_letter4_div4_head2_ab1_hi3">England.</hi>
+                  <hi xml:id="novel1_letter4_div4_head2_ab1_hi1">To Mrs.</hi>To Mrs. S<hi xml:id="novel1_letter4_div4_head2_ab1_hi2">AVILLE</hi>AVILLE, <hi xml:id="novel1_letter4_div4_head2_ab1_hi3">England.</hi>England.
                </ab>
             </head>
          </seg>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               part="I"
-               xml:id="C05_app3-f1818__I">
+         <seg part="I" xml:id="C05_app3-f1818__I">
             <p xml:id="novel1_letter4_div4_p1"> August 5th, 17—. </p>
          </seg>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_div4_p2">
+         <p xml:id="novel1_letter4_div4_p2">
             <seg part="F" xml:id="C05_app3-f1818__F"> So strange an accident has happened to us, that I cannot forbear recording
         </seg>
             <seg xml:id="C05_app4-f1818">
@@ -727,10 +556,7 @@
             <seg part="I" xml:id="C05_app5-f1818__I">
         although it is very probable that you will see me before these papers can come into your possession. </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_div4_p3">
+         <p xml:id="novel1_letter4_div4_p3">
             <seg part="F" xml:id="C05_app5-f1818__F"> Last Monday (July 31st), we were nearly surrounded by ice, which closed in the ship on all sides, scarcely leaving her the
         </seg>
             <seg xml:id="C05_app6-f1818">
@@ -739,10 +565,7 @@
             <seg part="I" xml:id="C05_app7-f1818__I">
         in which she floated. Our situation was somewhat dangerous, especially as we were compassed round by a very thick fog. We accordingly lay to, hoping that some <pb xml:id="F1818_v1_034" n="022"/>change would take place in the atmosphere and weather. </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_div4_p4">
+         <p xml:id="novel1_letter4_div4_p4">
             <seg part="F" xml:id="C05_app7-f1818__F"> About two o’clock the mist cleared away, and we beheld, stretched out in every direction, vast and irregular
         </seg>
             <seg xml:id="C05_app8-f1818">
@@ -751,10 +574,7 @@
             <seg part="I" xml:id="C05_app9-f1818__I">
         which seemed to have no end. Some of my comrades groaned, and my own mind began to grow watchful with anxious thoughts, when a strange sight suddenly attracted our attention, and diverted our solicitude from our own situation. We perceived a low carriage, fixed on a sledge and drawn by dogs, pass on towards the north, at the distance of half a mile: a being which had the shape of a man, but apparently of gigantic stature, sat in the sledge, and guided the dogs. We watched the rapid progress of the traveller with our telescopes, until he was lost among the distant inequalities of the ice. </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_div4_p5">
+         <p xml:id="novel1_letter4_div4_p5">
             <seg part="F" xml:id="C05_app9-f1818__F">
                <pb xml:id="F1818_v1_035" n="023"/>This appearance excited our unqualified wonder. We were, as we believed, many hundred miles from any land; but this apparition seemed to denote that it was not, in reality, so distant as we had supposed. Shut in, however, by ice, it was impossible to follow his track,
         </seg>
@@ -764,20 +584,13 @@
             <seg part="I" xml:id="C05_app11-f1818__I">
                </seg>
          </p>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               part="M"
-               xml:id="C05_app11-f1818__M">
+         <seg part="M" xml:id="C05_app11-f1818__M">
             <p xml:id="novel1_letter4_div4_p6"> About two hours after this occurrence, we heard the ground sea; and before night the ice broke, and freed our ship. We, however, lay to until the morning, fearing to encounter in the dark those large loose masses which float about after the breaking up of the ice. I profited of this time to rest for a few hours. </p>
             <p xml:id="novel1_letter4_div4_p7"> In the morning, however, as soon as it was light, I went upon deck, and found all the sailors busy on one side <pb xml:id="F1818_v1_036" n="024"/>of the vessel, apparently talking to some one in the sea. It was, in fact, a sledge, like that we had seen before, which had drifted towards us in the night, on a large fragment of ice. Only one dog remained alive; but there was a human being within it, whom the sailors were persuading to enter the vessel. He was not, as the other traveller seemed to be, a savage inhabitant of some undiscovered island, but an European. When I appeared on deck, the master said, “Here is our captain, and he will not allow you to perish on the open sea.” </p>
             <p xml:id="novel1_letter4_div4_p8"> On perceiving me, the stranger addressed me in English, although with a foreign accent. “Before I come on board your vessel,” said he, “will you have the kindness to inform me whither you are bound?” </p>
             <p xml:id="novel1_letter4_div4_p9"> You may conceive my astonishment <pb xml:id="F1818_v1_037" n="025"/>on hearing such a question addressed to me from a man on the brink of destruction, and to whom I should have supposed that my vessel would have been a resource which he would not have exchanged for the most precious wealth the earth can afford. I replied, however, that we were on a voyage of discovery towards the northern pole. </p>
          </seg>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_div4_p10">
+         <p xml:id="novel1_letter4_div4_p10">
             <seg part="F" xml:id="C05_app11-f1818__F"> Upon hearing this he appeared satisfied, and consented to come on board. Good God! Margaret, if you had seen the man who thus capitulated for his safety, your surprise would have been boundless. His limbs were nearly frozen, and his body dreadfully emaciated by fatigue and suffering. I never saw a man in so wretched a condition. We attempted to carry him into the cabin; but as soon as he had quitted the fresh air, he fainted. We accordingly <pb xml:id="F1818_v1_038" n="026"/>brought him back to the deck, and restored him to animation by rubbing him with brandy, and forcing him to swallow a small quantity. As soon as he
         </seg>
             <seg xml:id="C05_app12-f1818">
@@ -798,21 +611,14 @@
             <seg part="I" xml:id="C05_app17-f1818__I">
         By slow degrees he recovered, and ate a little soup, which restored him wonderfully. </seg>
          </p>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               part="M"
-               xml:id="C05_app17-f1818__M">
+         <seg part="M" xml:id="C05_app17-f1818__M">
             <p xml:id="novel1_letter4_div4_p11"> Two days passed in this manner before he was able to speak; and I often feared that his sufferings had deprived him of understanding. When he had in some measure recovered, I removed him to my own cabin, and attended on him as much as my duty would permit. I never saw a more interesting creature: his eyes have generally an expression of wildness, and even madness; but there are moments when, if any one performs an act of kindness <pb xml:id="F1818_v1_039" n="027"/>towards him, or does him any the most trifling service, his whole countenance is lighted up, as it were, with a beam of benevolence and sweetness that I never saw equalled. But he is generally melancholy and despairing; and sometimes he gnashes his teeth, as if impatient of the weight of woes that oppresses him. </p>
             <p xml:id="novel1_letter4_div4_p12"> When my guest was a little recovered, I had great trouble to keep off the men, who wished to ask him a thousand questions; but I would not allow him to be tormented by their idle curiosity, in a state of body and mind whose restoration evidently depended upon entire repose. Once, however, the lieutenant asked, Why he had come so far upon the ice in so strange a vehicle? </p>
             <p xml:id="novel1_letter4_div4_p13"> His countenance instantly assumed an aspect of the deepest gloom; and he <pb xml:id="F1818_v1_040" n="028"/>replied, “To seek one who fled from me.” </p>
             <p xml:id="novel1_letter4_div4_p14"> “And did the man whom you pursued travel in the same fashion?” </p>
             <p xml:id="novel1_letter4_div4_p15"> “Yes.” </p>
          </seg>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_div4_p16">
+         <p xml:id="novel1_letter4_div4_p16">
             <seg part="F" xml:id="C05_app17-f1818__F"> “Then I fancy we have seen him;
         </seg>
             <seg xml:id="C05_app18-f1818">
@@ -821,10 +627,7 @@
             <seg part="I" xml:id="C05_app19-f1818__I">
         the day before we picked you up, we saw some dogs drawing a sledge, with a man in it, across the ice.” </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_div4_p17">
+         <p xml:id="novel1_letter4_div4_p17">
             <seg part="F" xml:id="C05_app19-f1818__F"> This aroused the stranger’s attention; and he asked a multitude of questions concerning the route which the dæmon, as he called him, had pursued. Soon after, when he was alone with me, he
         </seg>
             <seg xml:id="C05_app20-f1818">
@@ -839,19 +642,12 @@
             <seg part="I" xml:id="C05_app23-f1818__I">
                </seg>
          </p>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               part="M"
-               xml:id="C05_app23-f1818__M">
+         <seg part="M" xml:id="C05_app23-f1818__M">
             <p xml:id="novel1_letter4_div4_p18"> “Certainly; it would indeed be very impertinent and inhuman in me to trouble you with any inquisitiveness of mine.” </p>
             <p xml:id="novel1_letter4_div4_p19">
                <pb xml:id="F1818_v1_041" n="029"/>“And yet you rescued me from a strange and perilous situation; you have benevolently restored me to life.” </p>
          </seg>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_div4_p20">
+         <p xml:id="novel1_letter4_div4_p20">
             <seg part="F" xml:id="C05_app23-f1818__F"> Soon after this he
         </seg>
             <seg xml:id="C05_app24-f1818">
@@ -860,10 +656,7 @@
             <seg part="I" xml:id="C05_app25-f1818__I">
         if I thought that the breaking up of the ice had destroyed the other sledge? I replied, that I could not answer with any degree of certainty; for the ice had not broken until near midnight, and the traveller might have arrived at a place of safety before that time; but of this I could not judge. </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_div4_p21">
+         <p xml:id="novel1_letter4_div4_p21">
             <seg part="F" xml:id="C05_app25-f1818__F"> From this time
         </seg>
             <seg xml:id="C05_app26-f1818">
@@ -878,28 +671,17 @@
             <seg part="I" xml:id="C05_app29-f1818__I">
         I have promised that some one should watch for him, and give him instant notice if any new object should appear in sight. </seg>
          </p>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               part="F"
-               xml:id="C05_app29-f1818__F">
+         <seg part="F" xml:id="C05_app29-f1818__F">
             <p xml:id="novel1_letter4_div4_p22">
                <pb xml:id="F1818_v1_042" n="030"/>Such is my journal of what relates to this strange occurrence up to the present day. The stranger has gradually improved in health, but is very silent, and appears uneasy when any one except myself enters his cabin. Yet his manners are so conciliating and gentle, that the sailors are all interested in him, although they have had very little communication with him. For my own part, I begin to love him as a brother; and his constant and deep grief fills me with sympathy and compassion. He must have been a noble creature in his better days, being even now in wreck so attractive and amiable. </p>
             <p xml:id="novel1_letter4_div4_p23"> I said in one of my letters, my dear Margaret, that I should find no friend on the wide ocean; yet I have found a man who, before his spirit had been broken by misery, I should have been <pb xml:id="F1818_v1_043" n="031"/>happy to have possessed as the brother of my heart. </p>
             <p xml:id="novel1_letter4_div4_p24"> I shall continue my journal concerning the stranger at intervals, should I have any fresh incidents to record. </p>
          </seg>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               part="I"
-               xml:id="C06_app1-f1818__I">
+         <seg part="I" xml:id="C06_app1-f1818__I">
             <anchor type="collate" xml:id="C06"/>
             <p xml:id="novel1_letter4_div4_p25"> August 13th, 17—. </p>
          </seg>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_div4_p26">
+         <p xml:id="novel1_letter4_div4_p26">
             <seg part="F" xml:id="C06_app1-f1818__F"> My affection for my guest increases every day. He excites at once my admiration and my pity to an astonishing degree. How can I see so noble a creature destroyed by
         </seg>
             <seg xml:id="C06_app2-f1818">
@@ -911,13 +693,8 @@
             <seg part="I" xml:id="C06_app4-f1818__I">
         although his words are culled with the choicest art, yet they flow with rapidity and unparalleled eloquence. </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_div4_p27">
-            <seg part="F" xml:id="C06_app4-f1818__F"> He is now much recovered from his illness, and is continually on the deck, apparently watching for the sledge that preceded his own. Yet, although un<pb xmlns:xs="http://www.w3.org/2001/XMLSchema"
-                    xml:id="F1818_v1_044"
-                    n="032"/>happy, he is not so utterly occupied by his own misery, but that he interests himself deeply in the
+         <p xml:id="novel1_letter4_div4_p27">
+            <seg part="F" xml:id="C06_app4-f1818__F"> He is now much recovered from his illness, and is continually on the deck, apparently watching for the sledge that preceded his own. Yet, although un<pb xml:id="F1818_v1_044" n="032"/>happy, he is not so utterly occupied by his own misery, but that he interests himself deeply in the
         </seg>
             <seg xml:id="C06_app5-f1818">
         employments
@@ -935,47 +712,25 @@
         and then he sits by himself, and tries to overcome all that is sullen or unsocial in his humour. These paroxysms pass from him like a cloud from before the sun, though his dejection never leaves him.
         </seg>
             <seg part="I" xml:id="C06_app11-f1818__I">
-        I have endeavoured to win his confidence; and I trust that I have suc<pb xmlns:xs="http://www.w3.org/2001/XMLSchema"
-                    xml:id="F1818_v1_045"
-                    n="033"/>ceeded. One day I mentioned to him the desire I had always felt of finding a friend who might sympathize with me, and direct me by his counsel. I said, I did not belong to that class of men who are offended by advice. “I am self-educated, and perhaps I hardly rely sufficiently upon my own powers. I wish therefore that my companion should be wiser and more experienced than myself, to confirm and support me; nor have I believed it impossible to find a true friend.”</seg>
+        I have endeavoured to win his confidence; and I trust that I have suc<pb xml:id="F1818_v1_045" n="033"/>ceeded. One day I mentioned to him the desire I had always felt of finding a friend who might sympathize with me, and direct me by his counsel. I said, I did not belong to that class of men who are offended by advice. “I am self-educated, and perhaps I hardly rely sufficiently upon my own powers. I wish therefore that my companion should be wiser and more experienced than myself, to confirm and support me; nor have I believed it impossible to find a true friend.”</seg>
          </p>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               part="F"
-               xml:id="C06_app11-f1818__F">
+         <seg part="F" xml:id="C06_app11-f1818__F">
             </seg>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               part="I"
-               xml:id="C06_app12-f1818__I">
+         <seg part="I" xml:id="C06_app12-f1818__I">
             </seg>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_div4_p28">
+         <p xml:id="novel1_letter4_div4_p28">
             <seg part="F" xml:id="C06_app12-f1818__F"> “I agree with you,” replied the
         </seg>
             <seg xml:id="C06_app13-f1818">
         stranger, “in believing that friendship is not only a desirable, but a possible acquisition.
         </seg>
             <seg part="I" xml:id="C06_app14-f1818__I">
-        I once had a friend, the most noble of human creatures, and am entitled, therefore, to judge respecting friendship. You have hope, and the world before you, and have no cause for despair. But I—I have lost <pb xmlns:xs="http://www.w3.org/2001/XMLSchema"
-                    xml:id="F1818_v1_046"
-                    n="034"/>every thing, and cannot begin life anew.” </seg>
+        I once had a friend, the most noble of human creatures, and am entitled, therefore, to judge respecting friendship. You have hope, and the world before you, and have no cause for despair. But I—I have lost <pb xml:id="F1818_v1_046" n="034"/>every thing, and cannot begin life anew.” </seg>
          </p>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               part="M"
-               xml:id="C06_app14-f1818__M">
+         <seg part="M" xml:id="C06_app14-f1818__M">
             <p xml:id="novel1_letter4_div4_p29"> As he said this, his countenance became expressive of a calm settled grief, that touched me to the heart. But he was silent, and presently retired to his cabin. </p>
          </seg>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_div4_p30">
+         <p xml:id="novel1_letter4_div4_p30">
             <seg part="F" xml:id="C06_app14-f1818__F"> Even broken in spirit as he is, no one can feel more deeply than he does the beauties of nature. The starry sky, the sea, and every sight afforded by these wonderful regions, seems still to have the power of elevating his soul from earth. Such a man has a double existence: he may suffer misery, and be overwhelmed by disappointments;
         </seg>
             <seg xml:id="C06_app15-f1818">
@@ -984,39 +739,23 @@
             <seg part="I" xml:id="C06_app16-f1818__I">
         when he has retired into himself, he will be like a celestial spirit, that has a halo around him, within whose circle no grief or folly ventures. </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_div4_p31">
+         <p xml:id="novel1_letter4_div4_p31">
             <seg part="F" xml:id="C06_app16-f1818__F"> Will you
         </seg>
             <seg xml:id="C06_app17-f1818">
         laugh
         </seg>
             <seg xml:id="C06_app18-f1818">
-        at the enthusiasm I express concerning this divine wan<pb xmlns:xs="http://www.w3.org/2001/XMLSchema"
-                    xml:id="F1818_v1_047"
-                    n="035"/>derer?
+        at the enthusiasm I express concerning this divine wan<pb xml:id="F1818_v1_047" n="035"/>derer?
         </seg>
             <seg part="I" xml:id="C06_app19-f1818__I">
         If you do, you must have certainly lost that simplicity which was once your characteristic charm. Yet, if you will, smile at the warmth of my expressions, while I find every day new causes for repeating them.</seg>
          </p>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               part="F"
-               xml:id="C06_app19-f1818__F">
+         <seg part="F" xml:id="C06_app19-f1818__F">
             </seg>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               part="I"
-               xml:id="C06_app20-f1818__I">
+         <seg part="I" xml:id="C06_app20-f1818__I">
             </seg>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_div4_p32">
+         <p xml:id="novel1_letter4_div4_p32">
             <seg part="F" xml:id="C06_app20-f1818__F"> August
         </seg>
             <seg xml:id="C06_app21-f1818">
@@ -1025,10 +764,7 @@
             <seg part="I" xml:id="C06_app22-f1818__I">
         17—. </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_div4_p33">
+         <p xml:id="novel1_letter4_div4_p33">
             <seg part="F" xml:id="C06_app22-f1818__F"> Yesterday the stranger said to me, “You may easily perceive, Captain Walton, that I have suffered great and unparalleled misfortunes. I had determined,
         </seg>
             <seg xml:id="C06_app23-f1818">
@@ -1050,17 +786,12 @@
         yet,
         </seg>
             <seg xml:id="C06_app29-f1818">
-        if you are inclined, <pb xmlns:xs="http://www.w3.org/2001/XMLSchema"
-                    xml:id="F1818_v1_048"
-                    n="036"/>listen to my tale. I believe that the strange incidents connected with it will afford a view of nature, which may enlarge your faculties and understanding. You will hear of powers and occurrences, such as you have been accustomed to believe impossible: but I do not doubt
+        if you are inclined, <pb xml:id="F1818_v1_048" n="036"/>listen to my tale. I believe that the strange incidents connected with it will afford a view of nature, which may enlarge your faculties and understanding. You will hear of powers and occurrences, such as you have been accustomed to believe impossible: but I do not doubt
         </seg>
             <seg part="I" xml:id="C06_app30-f1818__I">
         that my tale conveys in its series internal evidence of the truth of the events of which it is composed.” </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_div4_p34">
+         <p xml:id="novel1_letter4_div4_p34">
             <seg part="F" xml:id="C06_app30-f1818__F"> You may easily
         </seg>
             <seg xml:id="C06_app31-f1818">
@@ -1069,13 +800,8 @@
             <seg part="I" xml:id="C06_app32-f1818__I">
         that I was much gratified by the offered communication; yet I could not endure that he should renew his grief by a recital of his misfortunes. I felt the greatest eagerness to hear the promised narrative, partly from curiosity, and partly from a strong desire to ameliorate his fate, if it were in my power. I expressed these feelings in my answer. </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_div4_p35">
-            <seg part="F" xml:id="C06_app32-f1818__F"> “I thank you,” he replied, “for <pb xmlns:xs="http://www.w3.org/2001/XMLSchema"
-                    xml:id="F1818_v1_049"
-                    n="037"/>your sympathy, but it is useless; my fate is nearly fulfilled. I wait but for one event, and then I shall repose in peace. I understand your feeling,” continued he, perceiving that I wished to interrupt him; “but you are mistaken, my friend, if thus you will allow me to name you; nothing can alter my destiny: listen to my history, and you will perceive how irrevocably it is
+         <p xml:id="novel1_letter4_div4_p35">
+            <seg part="F" xml:id="C06_app32-f1818__F"> “I thank you,” he replied, “for <pb xml:id="F1818_v1_049" n="037"/>your sympathy, but it is useless; my fate is nearly fulfilled. I wait but for one event, and then I shall repose in peace. I understand your feeling,” continued he, perceiving that I wished to interrupt him; “but you are mistaken, my friend, if thus you will allow me to name you; nothing can alter my destiny: listen to my history, and you will perceive how irrevocably it is
         </seg>
             <seg xml:id="C06_app33-f1818">
         determined.
@@ -1083,10 +809,7 @@
             <seg part="I" xml:id="C06_app34-f1818__I">
                </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_div4_p36">
+         <p xml:id="novel1_letter4_div4_p36">
             <seg part="F" xml:id="C06_app34-f1818__F"> He then told me, that he would commence his narrative the next day when I should be at leisure. This promise drew from me the warmest thanks. I have resolved every night, when I am not
         </seg>
             <seg xml:id="C06_app35-f1818">
@@ -1099,23 +822,14 @@
         pleasure:
         </seg>
             <seg xml:id="C06_app38-f1818">
-        but to me, <pb xmlns:xs="http://www.w3.org/2001/XMLSchema"
-                    xml:id="F1818_v1_050"
-                    n="038"/>who know him, and who hear it from his own lips, with what interest and sympathy shall I read it in some future day!
+        but to me, <pb xml:id="F1818_v1_050" n="038"/>who know him, and who hear it from his own lips, with what interest and sympathy shall I read it in some future day!
         </seg>
             <seg part="I" xml:id="C06_app39-f1818__I">
                </seg>
          </p>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               part="F"
-               xml:id="C06_app39-f1818__F">
+         <seg part="F" xml:id="C06_app39-f1818__F">
             </seg>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               xml:id="C06_app40-f1818">
+         <seg xml:id="C06_app40-f1818">
             <pb xml:id="F1818_v1_051" n="039"/>
             <head>FRANKENSTEIN;</head>
             <head>
@@ -1123,20 +837,13 @@
             <head>THE MODERN PROMETHEUS.</head>
          </seg>
          <anchor type="semantic" subtype="start" xml:id="f1818_vol_1_chapter_i"/>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               part="I"
-               xml:id="C07_app1-f1818__I">
+         <seg part="I" xml:id="C07_app1-f1818__I">
             <anchor type="collate" xml:id="C07"/>
             <milestone unit="chapter" type="start" n="1"/>
             <head>CHAPTER I.</head>
          </seg>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_chapter1_div4_div1_p1">
-            <seg part="F" xml:id="C07_app1-f1818__F"> I <hi xml:id="novel1_letter4_chapter1_div4_div1_p1_hi1">AM</hi> by birth a Genevese; and my family is one of the most distinguished of that republic. My ancestors had been for many years counsellors and syndics; and my father had filled several public situations with honour and reputation. He was respected by all who knew
+         <p xml:id="novel1_letter4_chapter1_div4_div1_p1">
+            <seg part="F" xml:id="C07_app1-f1818__F"> I <hi xml:id="novel1_letter4_chapter1_div4_div1_p1_hi1">AM</hi>AM by birth a Genevese; and my family is one of the most distinguished of that republic. My ancestors had been for many years counsellors and syndics; and my father had filled several public situations with honour and reputation. He was respected by all who knew
         </seg>
             <seg xml:id="C07_app2-f1818">
         him
@@ -1168,10 +875,7 @@
             <seg part="I" xml:id="C07_app11-f1818__I">
                </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_chapter1_div4_div1_p2">
+         <p xml:id="novel1_letter4_chapter1_div4_div1_p2">
             <seg part="F" xml:id="C07_app11-f1818__F"> As the circumstances of his marriage illustrate his character, I cannot refrain from relating them. One of his most intimate friends was a merchant, who, from a flourishing state, fell, through numerous mischances, into poverty. This man, whose name was Beaufort, was of a proud and unbending disposition, and could not bear to live in poverty and oblivion in the same country where he had formerly been distinguished for his rank and magnificence. Having paid his debts, therefore, in the most honourable manner, he retreated with his daughter to the town of Lucerne, where he lived unknown and in wretchedness. My father loved Beau<pb xml:id="F1818_v1_053" n="041"/>fort with the truest friendship, and was deeply grieved by his retreat in these unfortunate circumstances. He
         </seg>
             <seg xml:id="C07_app12-f1818">
@@ -1201,10 +905,7 @@
             <seg part="I" xml:id="C07_app20-f1818__I">
         him to begin the world again through his credit and assistance. </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_chapter1_div4_div1_p3">
+         <p xml:id="novel1_letter4_chapter1_div4_div1_p3">
             <seg part="F" xml:id="C07_app20-f1818__F"> Beaufort had taken effectual measures to conceal himself; and it was ten months before my father discovered his abode. Overjoyed at this discovery, he hastened to the house, which was situated in a mean street, near the Reuss. But when he entered, misery and despair alone welcomed him. Beaufort had saved but a very small sum of money from the wreck of his fortunes; but it was sufficient to provide him with sustenance for some months, and in the mean time he hoped to procure some respectable employment in a mer<pb xml:id="F1818_v1_054" n="042"/>chant’s house. The interval
         </seg>
             <seg xml:id="C07_app21-f1818">
@@ -1213,17 +914,10 @@
             <seg part="I" xml:id="C07_app22-f1818__I">
         spent in inaction; his grief only became more deep and rankling, when he had leisure for reflection; and at length it took so fast hold of his mind, that at the end of three months he lay on a bed of sickness, incapable of any exertion. </seg>
          </p>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               part="M"
-               xml:id="C07_app22-f1818__M">
+         <seg part="M" xml:id="C07_app22-f1818__M">
             <p xml:id="novel1_letter4_chapter1_div4_div1_p4"> His daughter attended him with the greatest tenderness; but she saw with despair that their little fund was rapidly decreasing, and that there was no other prospect of support. But Caroline Beaufort possessed a mind of an uncommon mould; and her courage rose to support her in her adversity. She procured plain work; she plaited straw; and by various means contrived to earn a pittance scarcely sufficient to support life. </p>
          </seg>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_chapter1_div4_div1_p5">
+         <p xml:id="novel1_letter4_chapter1_div4_div1_p5">
             <seg part="F" xml:id="C07_app22-f1818__F"> Several months passed in this manner. Her father grew worse; her time <pb xml:id="F1818_v1_055" n="043"/>was more entirely occupied in attending him; her means of subsistence decreased; and in the tenth month her father died in her arms, leaving her an orphan and a beggar. This last blow overcame her; and she knelt by Beaufort’s coffin, weeping bitterly, when my father entered the chamber. He came like a protecting spirit to the poor girl, who committed herself to his
         </seg>
             <seg xml:id="C07_app23-f1818">
@@ -1241,31 +935,17 @@
             <seg part="I" xml:id="C07_app27-f1818__I">
                </seg>
          </p>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               part="F"
-               xml:id="C07_app27-f1818__F">
+         <seg part="F" xml:id="C07_app27-f1818__F">
             </seg>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               part="I"
-               xml:id="C07_app28-f1818__I">
+         <seg part="I" xml:id="C07_app28-f1818__I">
             </seg>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_chapter1_div4_div1_p6">
+         <p xml:id="novel1_letter4_chapter1_div4_div1_p6">
             <seg part="F" xml:id="C07_app28-f1818__F">When my father became a husband and a parent, he found his time so occupied by the duties of his new situation, that he relinquished many of his public employments, and devoted himself to the education of his children.
         </seg>
             <seg part="I" xml:id="C07_app29-f1818__I">
         Of these I was the eldest, and the destined suc<pb xml:id="F1818_v1_056" n="044"/>cessor to all his labours and utility. No creature could have more tender parents than mine. My improvement and health were their constant care, especially as I remained for several years their only child. But before I continue my narrative, I must record an incident which took place when I was four years of age. </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_chapter1_div4_div1_p7">
+         <p xml:id="novel1_letter4_chapter1_div4_div1_p7">
             <seg part="F" xml:id="C07_app29-f1818__F"> My father had a sister, whom he tenderly loved, and who had married early in life an Italian gentleman. Soon after her marriage, she had accompanied her husband
         </seg>
             <seg xml:id="C07_app30-f1818">
@@ -1280,10 +960,7 @@
             <seg part="I" xml:id="C07_app33-f1818__I">
         fortune is secured to her, the documents of which I will commit to your keeping. Reflect upon this proposition; and decide whether you would prefer educating your niece yourself to her being brought up by a stepmother.” </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_chapter1_div4_div1_p8">
+         <p xml:id="novel1_letter4_chapter1_div4_div1_p8">
             <seg part="F" xml:id="C07_app33-f1818__F"> My father did not hesitate, and immediately went to Italy, that he might accompany the little Elizabeth to her future home. I have often heard my mother say, that she was at that time the most beautiful child she had ever seen, and
         </seg>
             <seg xml:id="C07_app34-f1818">
@@ -1298,33 +975,15 @@
             <seg part="I" xml:id="C07_app37-f1818__I">
                </seg>
          </p>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               part="F"
-               xml:id="C07_app37-f1818__F">
+         <seg part="F" xml:id="C07_app37-f1818__F">
             </seg>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               xml:id="C07_app38-f1818">
+         <seg xml:id="C07_app38-f1818">
             <p xml:id="novel1_letter4_chapter1_div4_div1_p9"> From this time Elizabeth Lavenza became my playfellow, and, as we grew older, my friend. She was docile and good tempered, yet gay and playful as a summer insect. Although she was lively and animated, her feelings were strong and deep, and her disposition uncommonly affectionate. No one could better enjoy liberty, yet no one could submit with more grace than she did to constraint and caprice. Her imagination was luxuriant, yet her capability of application was great. Her person was the image of her mind; her hazel eyes, although as lively as a bird’s, possessed an attractive softness. Her figure was light and airy; and, though capable of enduring great fatigue, she appeared the most fragile creature in the world. While I admired <pb xml:id="F1818_v1_059" n="047"/>her understanding and fancy, I loved to tend on her, as I should on a favourite animal; and I never saw so much grace both of person and mind united to so little pretension. </p>
          </seg>
-         <anchor xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  type="collate"
-                  xml:id="C08"/>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               part="I"
-               xml:id="C08_app2-f1818__I">
+         <anchor type="collate" xml:id="C08"/>
+         <seg part="I" xml:id="C08_app2-f1818__I">
             </seg>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_chapter1_div4_div1_p10">
+         <p xml:id="novel1_letter4_chapter1_div4_div1_p10">
             <seg part="F" xml:id="C08_app2-f1818__F">Every one adored Elizabeth. If the
         </seg>
             <seg xml:id="C08_app3-f1818">
@@ -1432,22 +1091,11 @@
             <seg part="I" xml:id="C08_app37-f1818__I">
                </seg>
          </p>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               part="F"
-               xml:id="C08_app37-f1818__F">
+         <seg part="F" xml:id="C08_app37-f1818__F">
             </seg>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               part="I"
-               xml:id="C08_app38-f1818__I">
+         <seg part="I" xml:id="C08_app38-f1818__I">
             </seg>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_chapter1_div4_div1_p11">
+         <p xml:id="novel1_letter4_chapter1_div4_div1_p11">
             <seg part="F" xml:id="C08_app38-f1818__F">
                </seg>
             <seg xml:id="C08_app39-f1818">
@@ -1499,10 +1147,7 @@
             <seg part="I" xml:id="C08_app58-f1818__I">
                </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_chapter1_div4_div1_p12">
+         <p xml:id="novel1_letter4_chapter1_div4_div1_p12">
             <seg part="F" xml:id="C08_app58-f1818__F">
                </seg>
             <seg xml:id="C08_app59-f1818">
@@ -1511,22 +1156,11 @@
             <seg part="I" xml:id="C08_app60-f1818__I">
                </seg>
          </p>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               part="F"
-               xml:id="C08_app60-f1818__F">
+         <seg part="F" xml:id="C08_app60-f1818__F">
             </seg>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               part="I"
-               xml:id="C08_app61-f1818__I">
+         <seg part="I" xml:id="C08_app61-f1818__I">
             </seg>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_chapter1_div4_div1_p13">
+         <p xml:id="novel1_letter4_chapter1_div4_div1_p13">
             <seg part="F" xml:id="C08_app61-f1818__F"> In this
         </seg>
             <seg xml:id="C08_app62-f1818">
@@ -1574,16 +1208,9 @@
             <seg part="I" xml:id="C08_app76-f1818__I">
         and we were never completely happy when Clerval was absent. </seg>
          </p>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               part="F"
-               xml:id="C08_app76-f1818__F">
+         <seg part="F" xml:id="C08_app76-f1818__F">
             </seg>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_chapter1_div4_div1_p14">
+         <p xml:id="novel1_letter4_chapter1_div4_div1_p14">
             <seg xml:id="C08_app78-f1818">
         I feel
         </seg>
@@ -1608,10 +1235,7 @@
             <seg part="I" xml:id="C08_app85-f1818__I">
         to my after tale of misery: for when I would account to myself for the birth of that passion, which afterwards ruled my destiny, I find it arise, like a mountain river, from ignoble and almost forgotten sources; but, swelling as it proceeded, it became the torrent which, in its course, has swept away all my hopes and joys. </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_chapter1_div4_div1_p15">
+         <p xml:id="novel1_letter4_chapter1_div4_div1_p15">
             <seg part="F" xml:id="C08_app85-f1818__F">
                </seg> 
     Natural philosophy 
@@ -1722,10 +1346,7 @@
          <seg part="I" xml:id="C08_app136-f1818__I">
         trash.” </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_chapter1_div4_div1_p16">
+         <p xml:id="novel1_letter4_chapter1_div4_div1_p16">
             <seg part="F" xml:id="C08_app136-f1818__F"> If,
         </seg> 
     instead of this 
@@ -1823,10 +1444,7 @@
         greatest
         </seg> 
     avidity. </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_chapter1_div4_div1_p17"> When I returned home, my first care was to procure  
+         <p xml:id="novel1_letter4_chapter1_div4_div1_p17"> When I returned home, my first care was to procure  
         <seg xml:id="C08_app185-f1818">
         the
         </seg> 
@@ -1888,10 +1506,7 @@
             <seg part="I" xml:id="C08_app207-f1818__I">
                </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_chapter1_div4_div1_p18">
+         <p xml:id="novel1_letter4_chapter1_div4_div1_p18">
             <seg part="F" xml:id="C08_app207-f1818__F">
                </seg> 
     It may appear 
@@ -1990,10 +1605,7 @@
         death!
         </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_chapter1_div4_div1_p19"> Nor were these my only 
+         <p xml:id="novel1_letter4_chapter1_div4_div1_p19"> Nor were these my only 
         <seg xml:id="C08_app253-f1818">
         visions.
         </seg> 
@@ -2026,10 +1638,7 @@
             <seg part="I" xml:id="C08_app266-f1818__I">
                </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_chapter1_div4_div1_p20">
+         <p xml:id="novel1_letter4_chapter1_div4_div1_p20">
             <seg part="F" xml:id="C08_app266-f1818__F"> The natural
         </seg>
             <seg xml:id="C08_app267-f1818">
@@ -2080,10 +1689,7 @@
             <seg part="I" xml:id="C08_app282-f1818__I">
         by a gentleman whom we were in the habit of visiting. </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_chapter1_div4_div1_p21">
+         <p xml:id="novel1_letter4_chapter1_div4_div1_p21">
             <seg part="F" xml:id="C08_app282-f1818__F"> The ignorance of
         </seg>
             <seg xml:id="C08_app283-f1818">
@@ -2138,10 +1744,7 @@
         mind.
         </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_chapter1_div4_div1_p22">
+         <p xml:id="novel1_letter4_chapter1_div4_div1_p22">
             <seg xml:id="C08_app301-f1818">
         When I was about
         </seg>
@@ -2272,10 +1875,7 @@
          <seg part="I" xml:id="C08_app360-f1818__I">
                </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_chapter1_div4_div1_p23">
+         <p xml:id="novel1_letter4_chapter1_div4_div1_p23">
             <seg part="F" xml:id="C08_app360-f1818__F">
                </seg>
             <seg xml:id="C08_app361-f1818">
@@ -2356,10 +1956,7 @@
             <seg part="I" xml:id="C08_app386-f1818__I">
                </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_chapter1_div4_div1_p24">
+         <p xml:id="novel1_letter4_chapter1_div4_div1_p24">
             <seg part="F" xml:id="C08_app386-f1818__F"> This last
         </seg>
             <seg xml:id="C08_app387-f1818">
@@ -2389,10 +1986,7 @@
             <seg part="I" xml:id="C08_app395-f1818__I">
         was influenced by the following circumstance. </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_chapter1_div4_div1_p25">
+         <p xml:id="novel1_letter4_chapter1_div4_div1_p25">
             <seg part="F" xml:id="C08_app395-f1818__F"> My father expressed a wish that I should attend a course of lectures upon natural philosophy, to which I 
         </seg>
             <seg xml:id="C08_app396-f1818">
@@ -2464,10 +2058,7 @@
             <seg part="I" xml:id="C08_app418-f1818__I">
                </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_chapter1_div4_div1_p26">
+         <p xml:id="novel1_letter4_chapter1_div4_div1_p26">
             <seg part="F" xml:id="C08_app418-f1818__F"> My 
         </seg>
             <seg xml:id="C08_app419-f1818">
@@ -2510,10 +2101,7 @@
         of this various literature. 
         </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_chapter1_div4_div1_p27">
+         <p xml:id="novel1_letter4_chapter1_div4_div1_p27">
             <seg xml:id="C08_app433-f1818">
         Another task
         </seg>
@@ -2607,10 +2195,7 @@
             <seg part="I" xml:id="C08_app463-f1818__I">
                </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_chapter1_div4_div1_p28">
+         <p xml:id="novel1_letter4_chapter1_div4_div1_p28">
             <seg part="F" xml:id="C08_app463-f1818__F">
                </seg>
             <seg xml:id="C08_app464-f1818">
@@ -2670,42 +2255,22 @@
             <seg part="I" xml:id="C08_app482-f1818__I">
                </seg>
          </p>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               part="F"
-               xml:id="C08_app482-f1818__F">
+         <seg part="F" xml:id="C08_app482-f1818__F">
             </seg>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               xml:id="C08_app483-f1818">
+         <seg xml:id="C08_app483-f1818">
             <milestone unit="chapter" type="end" n="1"/>
          </seg>
          <anchor type="semantic" subtype="start" xml:id="f1818_vol_1_chapter_ii"/>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               xml:id="C08_app484-f1818">
+         <seg xml:id="C08_app484-f1818">
             <milestone unit="chapter" type="start" n="2"/>
          </seg>
-         <pb xmlns:mith="http://mith.umd.edu/sc/ns1#"
-              xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-              xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-              xml:id="F1818_v1_073"
-              n="061"/>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               xml:id="C08_app486-f1818">
+         <pb xml:id="F1818_v1_073" n="061"/>
+         <seg xml:id="C08_app486-f1818">
             <head>CHAPTER II.</head>
          </seg>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_chapter2_div4_div2_p1">
+         <p xml:id="novel1_letter4_chapter2_div4_div2_p1">
             <seg xml:id="C08_app488-f1818">
-        W<hi xml:id="novel1_letter4_chapter2_div4_div2_p1_hi1">HEN</hi>
+        W<hi xml:id="novel1_letter4_chapter2_div4_div2_p1_hi1">HEN</hi>HEN
             </seg> 
     I had attained the age of 
          <seg xml:id="C08_app490-f1818">
@@ -2890,10 +2455,7 @@
         in
         </seg> 
     another world.” </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_chapter2_div4_div2_p2"> She died 
+         <p xml:id="novel1_letter4_chapter2_div4_div2_p2"> She died 
         <seg xml:id="C08_app577-f1818">
         calmly;
         </seg> 
@@ -3032,10 +2594,7 @@
                <pb xml:id="F1818_v1_077" n="065"/>ourselves fortunate,
         </seg> 
     whilst one remains whom the spoiler has not seized. </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_chapter2_div4_div2_p3"> My  
+         <p xml:id="novel1_letter4_chapter2_div4_div2_p3"> My  
         <seg xml:id="C08_app642-f1818">
         journey to
         </seg>
@@ -3158,10 +2717,7 @@
         beheld her so enchanting as at this time, when she was continually endeavouring to con<pb xml:id="F1818_v1_078" n="066"/>tribute to the happiness of others, entirely forgetful of herself.
         </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_chapter2_div4_div2_p4"> The day of my departure at 
+         <p xml:id="novel1_letter4_chapter2_div4_div2_p4"> The day of my departure at 
         <seg xml:id="C08_app686-f1818">
         length arrived.
         </seg>
@@ -3217,10 +2773,7 @@
         had a refined mind; he had no desire to be idle, and was well pleased to become his father’s partner, but he believed that a man might be a very good trader, and yet possess a cultivated understanding.
         </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_chapter2_div4_div2_p5"> We 
+         <p xml:id="novel1_letter4_chapter2_div4_div2_p5"> We 
         <seg xml:id="C08_app705-f1818">
         sat late,
         </seg>
@@ -3264,10 +2817,7 @@
         me.
         </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_chapter2_div4_div2_p6"> I threw myself into the chaise that was to convey me 
+         <p xml:id="novel1_letter4_chapter2_div4_div2_p6"> I threw myself into the chaise that was to convey me 
         <seg xml:id="C08_app720-f1818">
         away,
         </seg> 
@@ -3386,10 +2936,7 @@
          <seg part="I" xml:id="C08_app776-f1818__I">
         been folly to repent. </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_chapter2_div4_div2_p7">
+         <p xml:id="novel1_letter4_chapter2_div4_div2_p7">
             <seg part="F" xml:id="C08_app776-f1818__F"> I had
         </seg>
             <seg xml:id="C08_app777-f1818">
@@ -3419,10 +2966,7 @@
          <seg part="I" xml:id="C08_app789-f1818__I">
                </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_chapter2_div4_div2_p8">
+         <p xml:id="novel1_letter4_chapter2_div4_div2_p8">
             <seg part="F" xml:id="C08_app789-f1818__F">
                <pb xml:id="F1818_v1_081" n="069"/>The next morning I delivered my letters of introduction,
         </seg> 
@@ -3458,10 +3002,7 @@
          <seg part="I" xml:id="C08_app803-f1818__I">
         nonsense?” </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_chapter2_div4_div2_p9">
+         <p xml:id="novel1_letter4_chapter2_div4_div2_p9">
             <seg part="F" xml:id="C08_app803-f1818__F">
                </seg> 
     I replied in the 
@@ -3577,10 +3118,7 @@
          <seg part="I" xml:id="C08_app857-f1818__I">
                </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_chapter2_div4_div2_p10">
+         <p xml:id="novel1_letter4_chapter2_div4_div2_p10">
             <seg part="F" xml:id="C08_app857-f1818__F">
                </seg> 
     So 
@@ -3641,10 +3179,7 @@
         missed.
         </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_chapter2_div4_div2_p11"> I returned 
+         <p xml:id="novel1_letter4_chapter2_div4_div2_p11"> I returned 
         <seg xml:id="C08_app886-f1818">
         home,
         </seg> 
@@ -3740,10 +3275,7 @@
         grandeur
         </seg> 
     for realities of little worth. </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_chapter2_div4_div2_p12"> Such were my reflections during  
+         <p xml:id="novel1_letter4_chapter2_div4_div2_p12"> Such were my reflections during  
         <seg xml:id="C08_app932-f1818">
         the <pb xml:id="F1818_v1_084" n="072"/>first two or three days spent almost in solitude.
         </seg> 
@@ -3783,10 +3315,7 @@
         hitherto been
         </seg> 
     out of town. </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_chapter2_div4_div2_p13">
+         <p xml:id="novel1_letter4_chapter2_div4_div2_p13">
             <seg xml:id="C08_app951-f1818">
         Partly from
         </seg>
@@ -3896,10 +3425,7 @@
         forget:—
         </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_chapter2_div4_div2_p14"> “The ancient teachers of this 
+         <p xml:id="novel1_letter4_chapter2_div4_div2_p14"> “The ancient teachers of this 
         <seg xml:id="C08_app1002-f1818">
         science,”
         </seg> 
@@ -4021,10 +3547,7 @@
         shadows.”
         </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_chapter2_div4_div2_p15">
+         <p xml:id="novel1_letter4_chapter2_div4_div2_p15">
             <seg xml:id="C08_app1061-f1818">
         I departed highly pleased with the professor and his lecture, and paid him a visit the same evening.
         </seg> 
@@ -4137,10 +3660,7 @@
         procure.
         </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_chapter2_div4_div2_p16"> “I am 
+         <p xml:id="novel1_letter4_chapter2_div4_div2_p16"> “I am 
         <seg xml:id="C08_app1115-f1818">
         happy,”
         </seg> 
@@ -4253,10 +3773,7 @@
         philosophy, including mathematics.”
         </seg>
          </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_chapter2_div4_div2_p17">
+         <p xml:id="novel1_letter4_chapter2_div4_div2_p17">
             <pb xml:id="F1818_v1_089" n="077"/>He then took me into his 
         <seg xml:id="C08_app1169-f1818">
         laboratory,
@@ -4306,21 +3823,14 @@
         requested;
         </seg> 
     and I took my leave. </p>
-         <p xmlns:mith="http://mith.umd.edu/sc/ns1#"
-             xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-             xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-             xml:id="novel1_letter4_chapter2_div4_div2_p18"> Thus ended a day memorable 
+         <p xml:id="novel1_letter4_chapter2_div4_div2_p18"> Thus ended a day memorable 
         <seg xml:id="C08_app1194-f1818">
         to
         </seg>
             <seg part="I" xml:id="C08_app1195-f1818__I">
         me: it decided my future destiny.</seg>
          </p>
-         <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-               xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-               xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-               part="F"
-               xml:id="C08_app1195-f1818__F">
+         <seg part="F" xml:id="C08_app1195-f1818__F">
             <milestone unit="chapter" type="end" n="2"/>
          </seg>
       </body>

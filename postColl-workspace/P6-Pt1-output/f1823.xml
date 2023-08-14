@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<teiCorpus xmlns:tei="http://www.tei-c.org/ns/1.0"><?xml-model href="../segMarkerTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-   <TEI xmlns="http://www.tei-c.org/ns/1.0"
-         xmlns:mith="http://mith.umd.edu/sc/ns1#"
-         xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein">
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0"><?xml-model href="../segMarkerTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+   <TEI xmlns:tei="http://www.tei-c.org/ns/1.0"
+        xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
       <teiHeader>
          <fileDesc>
             <titleStmt>
@@ -20,14 +19,13 @@
                <p>Produced from collation output prepared in batch file processing
                                     on  2023-08-10 04:16:18.293583 .</p>
                <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-13T23:37:48.036894-04:00.</p>
+                                    Variorum spine on 2023-08-13T23:44:19.755326-04:00.</p>
             </sourceDesc>
          </fileDesc>
       </teiHeader>
       <text>
          <body>
-            <div xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  type="collation">
+            <div type="collation">
                <seg part="I" xml:id="C01_app1-f1823__I">
                   <milestone unit="volume" n="1"/>
                   <milestone unit="frontmatter" type="start" n="1"/>
@@ -35,7 +33,7 @@
                   <pb xml:id="F1823_v1_012"/>
                   <milestone unit="preface" type="start" n="1"/>
                   <head>PREFACE.</head>
-                  <p xml:id="preface1_p1"> T<hi xml:id="preface1_p1_hi1">HE</hi> event on which this fiction is founded has been supposed, by Dr. Darwin, and some of the physiological writers of Germany, as not of impossible occurrence. I shall not be supposed as according the remotest degree of serious faith to such an imagination; yet, in assuming it as the basis of a work of fancy, I have not considered myself as merely <pb xml:id="F1823_v1_013" n="vi"/>weaving a series of supernatural terrors. The event on which the interest of the story depends is exempt from the disadvantages of a mere tale of spectres or enchantment. It was recommended by the novelty of the situations which it developes; and, however impossible as a physical fact, affords a point of view to the imagination for the delineating of human passions more comprehensive and commanding than any which the ordinary relations of existing events can yield. </p>
+                  <p xml:id="preface1_p1"> T<hi xml:id="preface1_p1_hi1">HE</hi>HE event on which this fiction is founded has been supposed, by Dr. Darwin, and some of the physiological writers of Germany, as not of impossible occurrence. I shall not be supposed as according the remotest degree of serious faith to such an imagination; yet, in assuming it as the basis of a work of fancy, I have not considered myself as merely <pb xml:id="F1823_v1_013" n="vi"/>weaving a series of supernatural terrors. The event on which the interest of the story depends is exempt from the disadvantages of a mere tale of spectres or enchantment. It was recommended by the novelty of the situations which it developes; and, however impossible as a physical fact, affords a point of view to the imagination for the delineating of human passions more comprehensive and commanding than any which the ordinary relations of existing events can yield. </p>
                </seg>
                <p xml:id="preface1_p2">
                   <seg part="F" xml:id="C01_app1-f1823__F"> I have thus endeavoured to preserve the truth of the elementary <pb xml:id="F1823_v1_014" n="vii"/>principles of human nature, while I have not scrupled to innovate upon their combinations. The 
@@ -104,9 +102,8 @@
       </text>
    </TEI>
    <?xml-model href="../segMarkerTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-   <TEI xmlns="http://www.tei-c.org/ns/1.0"
-         xmlns:mith="http://mith.umd.edu/sc/ns1#"
-         xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein">
+   <TEI xmlns:tei="http://www.tei-c.org/ns/1.0"
+        xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
       <teiHeader>
          <fileDesc>
             <titleStmt>
@@ -124,14 +121,13 @@
                <p>Produced from collation output prepared in batch file processing
                                     on  2023-08-10 04:16:30.871111 .</p>
                <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-13T23:37:48.036894-04:00.</p>
+                                    Variorum spine on 2023-08-13T23:44:19.755326-04:00.</p>
             </sourceDesc>
          </fileDesc>
       </teiHeader>
       <text>
          <body>
-            <div xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  type="collation">
+            <div type="collation">
                <seg xml:id="C02_app1-f1823">
                   <anchor type="collate" xml:id="C02"/>
                   <milestone unit="novel" type="start" n="1"/>
@@ -153,7 +149,7 @@
                </seg>
                <seg part="I" xml:id="C02_app5-f1823__I">
                   <p xml:id="novel1_letter1_div1_p1"> St. Petersburgh, Dec. 11th, 17—. </p>
-                  <p xml:id="novel1_letter1_div1_p2"> Y<hi xml:id="novel1_letter1_div1_p2_hi1">OU</hi> will rejoice to hear that no disaster has accompanied the commencement of an enterprise which you have regarded with such evil forebodings. I arrived here yesterday; and my first task is to assure my dear sister of my welfare, and increasing confidence in the success of my undertaking. </p>
+                  <p xml:id="novel1_letter1_div1_p2"> Y<hi xml:id="novel1_letter1_div1_p2_hi1">OU</hi>OU will rejoice to hear that no disaster has accompanied the commencement of an enterprise which you have regarded with such evil forebodings. I arrived here yesterday; and my first task is to assure my dear sister of my welfare, and increasing confidence in the success of my undertaking. </p>
                </seg>
                <p xml:id="novel1_letter1_div1_p3">
                   <seg part="F" xml:id="C02_app5-f1823__F"> I am already far north of London; and as I walk in the streets of Peters<pb xml:id="F1823_v1_021" n="2"/>burgh, I feel a cold northern breeze play upon my cheeks, which braces my nerves, and fills me with delight. Do you understand this feeling? This breeze, which has travelled from the regions towards which I am advancing, gives me a foretaste of those icy climes. Inspirited by this wind of promise, my day dreams become more fervent and vivid. I try in vain to be persuaded that the pole is the seat of frost and desolation; it ever presents itself to my imagination as the region of beauty and delight. There, Margaret, the sun is
@@ -254,7 +250,7 @@
                </p>
                <seg part="F" xml:id="C02_app29-f1823__F">
                   <p xml:id="novel1_letter1_div1_p11"> Your affectionate brother, </p>
-                  <p xml:id="novel1_letter1_div1_p12"> R. W<hi xml:id="novel1_letter1_div1_p12_hi1">ALTON</hi>. </p>
+                  <p xml:id="novel1_letter1_div1_p12"> R. W<hi xml:id="novel1_letter1_div1_p12_hi1">ALTON</hi>ALTON. </p>
                </seg>
                <seg xml:id="C02_app31-f1823">
                   <milestone unit="letter" type="end" n="1"/>
@@ -264,9 +260,8 @@
       </text>
    </TEI>
    <?xml-model href="../segMarkerTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-   <TEI xmlns="http://www.tei-c.org/ns/1.0"
-         xmlns:mith="http://mith.umd.edu/sc/ns1#"
-         xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein">
+   <TEI xmlns:tei="http://www.tei-c.org/ns/1.0"
+        xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
       <teiHeader>
          <fileDesc>
             <titleStmt>
@@ -284,14 +279,13 @@
                <p>Produced from collation output prepared in batch file processing
                                     on  2023-08-10 04:16:57.906256 .</p>
                <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-13T23:37:48.036894-04:00.</p>
+                                    Variorum spine on 2023-08-13T23:44:19.755326-04:00.</p>
             </sourceDesc>
          </fileDesc>
       </teiHeader>
       <text>
          <body>
-            <div xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  type="collation">
+            <div type="collation">
                <seg xml:id="C03_app1-f1823">
                   <anchor type="collate" xml:id="C03"/>
                   <pb xml:id="F1823_v1_029" n="10"/>
@@ -333,7 +327,7 @@
         school-boys
         </seg>
                   <seg part="I" xml:id="C03_app11-f1823__I">
-        of fifteen. It is true that I have thought more, and that my day dreams are more extended and magnificent; but they want (as the painters call it) <hi xml:id="novel1_letter2_div2_p3_hi1">keeping;</hi> and I greatly need a friend who would have sense enough not to despise me as romantic, and affection <pb xml:id="F1823_v1_032" n="13"/>enough for me to endeavour to regulate my mind. </seg>
+        of fifteen. It is true that I have thought more, and that my day dreams are more extended and magnificent; but they want (as the painters call it) <hi xml:id="novel1_letter2_div2_p3_hi1">keeping;</hi>keeping; and I greatly need a friend who would have sense enough not to despise me as romantic, and affection <pb xml:id="F1823_v1_032" n="13"/>enough for me to endeavour to regulate my mind. </seg>
                </p>
                <p xml:id="novel1_letter2_div2_p4">
                   <seg part="F" xml:id="C03_app11-f1823__F"> Well, these are useless complaints; I shall certainly find no friend on the wide ocean, nor even here in Archangel, among merchants and seamen. Yet some feelings, unallied to the dross of human nature, beat even in these rugged bosoms. My lieutenant, for instance, is a man of wonderful courage and enterprise; he is madly desirous
@@ -451,7 +445,7 @@
                </p>
                <seg part="F" xml:id="C03_app44-f1823__F">
                   <p xml:id="novel1_letter2_div2_p9"> Your affectionate brother, </p>
-                  <p xml:id="novel1_letter2_div2_p10"> R<hi xml:id="novel1_letter2_div2_p10_hi1">OBERT</hi> W<hi xml:id="novel1_letter2_div2_p10_hi2">ALTON</hi>. </p>
+                  <p xml:id="novel1_letter2_div2_p10"> R<hi xml:id="novel1_letter2_div2_p10_hi1">OBERT</hi>OBERT W<hi xml:id="novel1_letter2_div2_p10_hi2">ALTON</hi>ALTON. </p>
                </seg>
                <seg xml:id="C03_app46-f1823">
                   <milestone unit="letter" type="end" n="2"/>
@@ -461,9 +455,8 @@
       </text>
    </TEI>
    <?xml-model href="../segMarkerTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-   <TEI xmlns="http://www.tei-c.org/ns/1.0"
-         xmlns:mith="http://mith.umd.edu/sc/ns1#"
-         xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein">
+   <TEI xmlns:tei="http://www.tei-c.org/ns/1.0"
+        xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
       <teiHeader>
          <fileDesc>
             <titleStmt>
@@ -481,14 +474,13 @@
                <p>Produced from collation output prepared in batch file processing
                                     on  2023-08-10 04:17:19.377366 .</p>
                <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-13T23:37:48.036894-04:00.</p>
+                                    Variorum spine on 2023-08-13T23:44:19.755326-04:00.</p>
             </sourceDesc>
          </fileDesc>
       </teiHeader>
       <text>
          <body>
-            <div xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  type="collation">
+            <div type="collation">
                <seg xml:id="C04_app1-f1823">
                   <anchor type="collate" xml:id="C04"/>
                   <pb xml:id="F1823_v1_037" n="18"/>
@@ -497,8 +489,8 @@
                </seg>
                <seg xml:id="C04_app2-f1823">
                   <ab xml:id="novel1_letter3_div3_ab1">
-                     <hi xml:id="novel1_letter3_div3_ab1_hi1">To Mrs.</hi> S<hi xml:id="novel1_letter3_div3_ab1_hi2">AVILLE</hi>, <hi xml:id="novel1_letter3_div3_ab1_hi3">England.</hi>
-                  </ab>
+                     <hi xml:id="novel1_letter3_div3_ab1_hi1">To Mrs.</hi>To Mrs. S<hi xml:id="novel1_letter3_div3_ab1_hi2">AVILLE</hi>AVILLE, <hi xml:id="novel1_letter3_div3_ab1_hi3">England.</hi>England.
+            </ab>
                </seg>
                <seg part="I" xml:id="C04_app3-f1823__I">
                   <p xml:id="novel1_letter3_div3_p1"> July 7th, 17—. </p>
@@ -507,13 +499,13 @@
                   <seg part="F" xml:id="C04_app3-f1823__F">
                </seg>
                   <seg xml:id="C04_app4-f1823">
-                     <hi xml:id="novel1_letter3_div3_p2_hi1">MY DEAR SISTER</hi>,
+                     <hi xml:id="novel1_letter3_div3_p2_hi1">MY DEAR SISTER</hi>MY DEAR SISTER,
         </seg>
                   <seg part="I" xml:id="C04_app5-f1823__I">
                </seg>
                </p>
                <p xml:id="novel1_letter3_div3_p3">
-                  <seg part="F" xml:id="C04_app5-f1823__F"> I <hi xml:id="novel1_letter3_div3_p3_hi1">WRITE</hi> a few lines in haste, to say that I am safe, and well advanced on my voyage. This letter will reach England by a
+                  <seg part="F" xml:id="C04_app5-f1823__F"> I <hi xml:id="novel1_letter3_div3_p3_hi1">WRITE</hi>WRITE a few lines in haste, to say that I am safe, and well advanced on my voyage. This letter will reach England by a
         </seg>
                   <seg xml:id="C04_app6-f1823">
         merchant-man
@@ -614,9 +606,8 @@
       </text>
    </TEI>
    <?xml-model href="../segMarkerTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-   <TEI xmlns="http://www.tei-c.org/ns/1.0"
-         xmlns:mith="http://mith.umd.edu/sc/ns1#"
-         xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein">
+   <TEI xmlns:tei="http://www.tei-c.org/ns/1.0"
+        xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
       <teiHeader>
          <fileDesc>
             <titleStmt>
@@ -634,14 +625,13 @@
                <p>Produced from collation output prepared in batch file processing
                                     on  2023-08-10 04:17:28.125710 .</p>
                <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-13T23:37:48.036894-04:00.</p>
+                                    Variorum spine on 2023-08-13T23:44:19.755326-04:00.</p>
             </sourceDesc>
          </fileDesc>
       </teiHeader>
       <text>
          <body>
-            <div xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  type="collation">
+            <div type="collation">
                <seg xml:id="C05_app1-f1823">
                   <anchor type="collate" xml:id="C05"/>
                   <pb xml:id="F1823_v1_040" n="21"/>
@@ -651,8 +641,8 @@
                <seg xml:id="C05_app2-f1823">
                   <head>
                      <ab xml:id="novel1_letter4_div4_head2_ab1">
-                        <hi xml:id="novel1_letter4_div4_head2_ab1_hi1">To Mrs.</hi> S<hi xml:id="novel1_letter4_div4_head2_ab1_hi2">AVILLE</hi>, <hi xml:id="novel1_letter4_div4_head2_ab1_hi3">England.</hi>
-                     </ab>
+                        <hi xml:id="novel1_letter4_div4_head2_ab1_hi1">To Mrs.</hi>To Mrs. S<hi xml:id="novel1_letter4_div4_head2_ab1_hi2">AVILLE</hi>AVILLE, <hi xml:id="novel1_letter4_div4_head2_ab1_hi3">England.</hi>England.
+               </ab>
                   </head>
                </seg>
                <seg part="I" xml:id="C05_app3-f1823__I">
@@ -793,9 +783,8 @@
       </text>
    </TEI>
    <?xml-model href="../segMarkerTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-   <TEI xmlns="http://www.tei-c.org/ns/1.0"
-         xmlns:mith="http://mith.umd.edu/sc/ns1#"
-         xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein">
+   <TEI xmlns:tei="http://www.tei-c.org/ns/1.0"
+        xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
       <teiHeader>
          <fileDesc>
             <titleStmt>
@@ -813,14 +802,13 @@
                <p>Produced from collation output prepared in batch file processing
                                     on  2023-08-10 04:18:00.464044 .</p>
                <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-13T23:37:48.036894-04:00.</p>
+                                    Variorum spine on 2023-08-13T23:44:19.755326-04:00.</p>
             </sourceDesc>
          </fileDesc>
       </teiHeader>
       <text>
          <body>
-            <div xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  type="collation">
+            <div type="collation">
                <seg part="I" xml:id="C06_app1-f1823__I">
                   <anchor type="collate" xml:id="C06"/>
                   <p xml:id="novel1_letter4_div4_p25"> August 13th, 17—. </p>
@@ -839,8 +827,8 @@
                </p>
                <p xml:id="novel1_letter4_div4_p27">
                   <seg part="F" xml:id="C06_app4-f1823__F"> He is now much recovered from his illness, and is continually on the deck, apparently watching for the sledge that preceded his own. Yet, although un<pb xmlns:xs="http://www.w3.org/2001/XMLSchema"
-                          xml:id="F1823_v1_051"
-                          n="32"/>happy, he is not so utterly occupied by his own misery, but that he interests himself deeply in the
+                         xml:id="F1823_v1_051"
+                         n="32"/>happy, he is not so utterly occupied by his own misery, but that he interests himself deeply in the
         </seg>
                   <seg xml:id="C06_app5-f1823">
         employments
@@ -859,8 +847,8 @@
         </seg>
                   <seg part="I" xml:id="C06_app11-f1823__I">
         I have endeavoured to win his confidence; and I trust that I have suc<pb xmlns:xs="http://www.w3.org/2001/XMLSchema"
-                          xml:id="F1823_v1_052"
-                          n="33"/>ceeded. One day I mentioned to him the desire I had always felt of finding a friend who might sympathise with me, and direct me by his counsel. I said, I did not belong to that class of men who are offended by advice. “I am self-educated, and perhaps I hardly rely sufficiently upon my own powers. I wish, therefore, that my companion should be wiser and more experienced than myself, to confirm and support me; nor have I believed it impossible to find a true friend.”</seg>
+                         xml:id="F1823_v1_052"
+                         n="33"/>ceeded. One day I mentioned to him the desire I had always felt of finding a friend who might sympathise with me, and direct me by his counsel. I said, I did not belong to that class of men who are offended by advice. “I am self-educated, and perhaps I hardly rely sufficiently upon my own powers. I wish, therefore, that my companion should be wiser and more experienced than myself, to confirm and support me; nor have I believed it impossible to find a true friend.”</seg>
                </p>
                <seg part="F" xml:id="C06_app11-f1823__F">
             </seg>
@@ -874,8 +862,8 @@
         </seg>
                   <seg part="I" xml:id="C06_app14-f1823__I">
         I once had a friend, the most noble of human creatures, and am entitled, therefore, to judge respecting friendship. You have hope, and the world before you, and have no cause for despair. But I—I have <pb xmlns:xs="http://www.w3.org/2001/XMLSchema"
-                          xml:id="F1823_v1_053"
-                          n="34"/>lost every thing, and cannot begin life anew.” </seg>
+                         xml:id="F1823_v1_053"
+                         n="34"/>lost every thing, and cannot begin life anew.” </seg>
                </p>
                <seg part="M" xml:id="C06_app14-f1823__M">
                   <p xml:id="novel1_letter4_div4_p29"> As he said this, his countenance became expressive of a calm settled grief, that touched me to the heart. But he was silent, and presently retired to his cabin. </p>
@@ -897,8 +885,8 @@
         </seg>
                   <seg xml:id="C06_app18-f1823">
         at the enthusiasm I express concerning this divine wan<pb xmlns:xs="http://www.w3.org/2001/XMLSchema"
-                          xml:id="F1823_v1_054"
-                          n="35"/>derer?
+                         xml:id="F1823_v1_054"
+                         n="35"/>derer?
         </seg>
                   <seg part="I" xml:id="C06_app19-f1823__I">
         If you do, you must have certainly lost that simplicity which was once your characteristic charm. Yet, if you will, smile at the warmth of my expressions, while I find every day new causes for repeating them.</seg>
@@ -939,8 +927,8 @@
         </seg>
                   <seg xml:id="C06_app29-f1823">
         if <pb xmlns:xs="http://www.w3.org/2001/XMLSchema"
-                          xml:id="F1823_v1_055"
-                          n="36"/>you are inclined, listen to my tale. I believe that the strange incidents connected with it will afford a view of nature, which may enlarge your faculties and understanding. You will hear of powers and occurrences, such as you have been accustomed to believe impossible: but I do not doubt
+                         xml:id="F1823_v1_055"
+                         n="36"/>you are inclined, listen to my tale. I believe that the strange incidents connected with it will afford a view of nature, which may enlarge your faculties and understanding. You will hear of powers and occurrences, such as you have been accustomed to believe impossible: but I do not doubt
         </seg>
                   <seg part="I" xml:id="C06_app30-f1823__I">
         that my tale conveys in its series internal evidence of the truth of the events of which it is composed.” </seg>
@@ -956,8 +944,8 @@
                </p>
                <p xml:id="novel1_letter4_div4_p35">
                   <seg part="F" xml:id="C06_app32-f1823__F"> “I thank you,” he replied, “for <pb xmlns:xs="http://www.w3.org/2001/XMLSchema"
-                          xml:id="F1823_v1_056"
-                          n="37"/>your sympathy, but it is useless; my fate is nearly fulfilled. I wait but for one event, and then I shall repose in peace. I understand your feeling,” continued he, perceiving that I wished to interrupt him; “but you are mistaken, my friend, if thus you will allow me to name you; nothing can alter my destiny: listen to my history, and you will perceive how irrevocably it is
+                         xml:id="F1823_v1_056"
+                         n="37"/>your sympathy, but it is useless; my fate is nearly fulfilled. I wait but for one event, and then I shall repose in peace. I understand your feeling,” continued he, perceiving that I wished to interrupt him; “but you are mistaken, my friend, if thus you will allow me to name you; nothing can alter my destiny: listen to my history, and you will perceive how irrevocably it is
         </seg>
                   <seg xml:id="C06_app33-f1823">
         determined.”
@@ -979,8 +967,8 @@
         </seg>
                   <seg xml:id="C06_app38-f1823">
         but to me, <pb xmlns:xs="http://www.w3.org/2001/XMLSchema"
-                          xml:id="F1823_v1_057"
-                          n="38"/>who know him, and who hear it from his own lips, with what interest and sympathy shall I read it in some future day!
+                         xml:id="F1823_v1_057"
+                         n="38"/>who know him, and who hear it from his own lips, with what interest and sympathy shall I read it in some future day!
         </seg>
                   <seg part="I" xml:id="C06_app39-f1823__I">
                </seg>
@@ -999,9 +987,8 @@
       </text>
    </TEI>
    <?xml-model href="../segMarkerTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-   <TEI xmlns="http://www.tei-c.org/ns/1.0"
-         xmlns:mith="http://mith.umd.edu/sc/ns1#"
-         xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein">
+   <TEI xmlns:tei="http://www.tei-c.org/ns/1.0"
+        xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
       <teiHeader>
          <fileDesc>
             <titleStmt>
@@ -1019,21 +1006,20 @@
                <p>Produced from collation output prepared in batch file processing
                                     on  2023-08-10 04:18:13.976688 .</p>
                <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-13T23:37:48.036894-04:00.</p>
+                                    Variorum spine on 2023-08-13T23:44:19.755326-04:00.</p>
             </sourceDesc>
          </fileDesc>
       </teiHeader>
       <text>
          <body>
-            <div xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  type="collation">
+            <div type="collation">
                <seg part="I" xml:id="C07_app1-f1823__I">
                   <anchor type="collate" xml:id="C07"/>
                   <milestone unit="chapter" type="start" n="1"/>
                   <head>CHAPTER I.</head>
                </seg>
                <p xml:id="novel1_letter4_chapter1_div4_div1_p1">
-                  <seg part="F" xml:id="C07_app1-f1823__F"> I <hi xml:id="novel1_letter4_chapter1_div4_div1_p1_hi1">AM</hi> by birth a Genevese; and my family is one of the most distinguished of that republic. My ancestors had been for many years counsellors and syndics; and my father had filled several public situations with honour and reputation. He was respected by all who knew
+                  <seg part="F" xml:id="C07_app1-f1823__F"> I <hi xml:id="novel1_letter4_chapter1_div4_div1_p1_hi1">AM</hi>AM by birth a Genevese; and my family is one of the most distinguished of that republic. My ancestors had been for many years counsellors and syndics; and my father had filled several public situations with honour and reputation. He was respected by all who knew
         </seg>
                   <seg xml:id="C07_app2-f1823">
         him
@@ -1175,9 +1161,8 @@
       </text>
    </TEI>
    <?xml-model href="../segMarkerTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-   <TEI xmlns="http://www.tei-c.org/ns/1.0"
-         xmlns:mith="http://mith.umd.edu/sc/ns1#"
-         xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein">
+   <TEI xmlns:tei="http://www.tei-c.org/ns/1.0"
+        xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
       <teiHeader>
          <fileDesc>
             <titleStmt>
@@ -1195,14 +1180,13 @@
                <p>Produced from collation output prepared in batch file processing
                                     on  2023-08-10 04:18:32.874484 .</p>
                <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-13T23:37:48.036894-04:00.</p>
+                                    Variorum spine on 2023-08-13T23:44:19.755326-04:00.</p>
             </sourceDesc>
          </fileDesc>
       </teiHeader>
       <text>
          <body>
-            <div xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  type="collation">
+            <div type="collation">
                <anchor type="collate" xml:id="C08"/>
                <seg part="I" xml:id="C08_app2-f1823__I">
             </seg>
@@ -1664,8 +1648,8 @@
         </seg> 
     contents; and I continued to read with the  
          <seg xml:id="C08_app182-f1823">
-        greadest <note resp="FV-Team-rm">Apparently a printer error for greatest</note>
-                  </seg> 
+        greadest <note resp="FV-Team-rm">Apparently a printer error for greatest</note>Apparently a printer error for greatest
+            </seg> 
     avidity. </p>
                <p xml:id="novel1_letter4_chapter1_div4_div1_p17"> When I returned home, my first care was to procure  
         <seg xml:id="C08_app185-f1823">
@@ -2493,8 +2477,8 @@
                </seg>
                <p xml:id="novel1_letter4_chapter2_div4_div2_p1">
                   <seg xml:id="C08_app488-f1823">
-        W<hi xml:id="novel1_letter4_chapter2_div4_div2_p1_hi1">HEN</hi>
-                  </seg> 
+        W<hi xml:id="novel1_letter4_chapter2_div4_div2_p1_hi1">HEN</hi>HEN
+            </seg> 
     I had attained the age of 
          <seg xml:id="C08_app490-f1823">
         seventeen,
@@ -3067,8 +3051,8 @@
         </seg> 
     I was now alone. 
          <seg xml:id="C08_app729-f1823">
-        In th e niversity, <note text="FV-Team-rm ">The facsimile of the 1823 edition shows this not 'the university': apparently a typsetting error.</note>
-                  </seg> 
+        In th e niversity, <note text="FV-Team-rm ">The facsimile of the 1823 edition shows this not 'the university': apparently a typsetting error.</note>The facsimile of the 1823 edition shows this not 'the university': apparently a typsetting error.
+            </seg> 
     whither I was 
          <seg xml:id="C08_app731-f1823">
         going,
