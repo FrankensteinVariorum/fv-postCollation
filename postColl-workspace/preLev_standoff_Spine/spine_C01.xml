@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-      xmlns:fv="https://github.com/FrankensteinVariorum"
-      xmlns:mith="http://mith.umd.edu/sc/ns1#"
-      xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
+     xmlns:fv="https://github.com/FrankensteinVariorum">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -68,7 +65,7 @@
             <p>Produced from collation output prepared in batch file processing
                                     on  2023-08-10 04:16:18.293583 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-13T23:37:48.036894-04:00.</p>
+                                    Variorum spine on 2023-08-13T23:44:19.755326-04:00.</p>
          </editorialDecl>
          <appInfo>
             <application ident="collateX" version="1.7.1">
@@ -83,8 +80,8 @@
                                     string-range data that should point to the specirfic location in the Shelley-Godwin
                                     Archive TEI for this page. The prefixDef below indicates how to construct the links: </desc>
             <prefixDef ident="sga"
-                        matchPattern="(c\d+/#/p\d+)"
-                        replacementPattern="https://shelleygodwinarchive.org/sc/oxford/ms_abinger/$1">
+                       matchPattern="(c\d+/#/p\d+)"
+                       replacementPattern="https://shelleygodwinarchive.org/sc/oxford/ms_abinger/$1">
                <p>For example, sga:c57/#/p73 resolves to the URL <ref target="https://shelleygodwinarchive.org/sc/oxford/ms_abinger/c57/#/p73">https://shelleygodwinarchive.org/sc/oxford/ms_abinger/c57/#/p73</ref> linking to 
                                         the webpage that represents page 73 in box 57 of the Oxford Abinger notebooks.</p>
             </prefixDef>
@@ -99,7 +96,7 @@
                   <rdg wit="#fMS"/>
                </rdgGrp>
                <rdgGrp n="['', '', '', '', '', '', 'preface.', '&lt;p-start/&gt;', 't&lt;hi&gt;he&lt;/hi&gt;', 'event', 'on', 'which', 'this', 'fiction', 'is', 'founded', 'has', 'been', 'supposed,', 'by', 'dr.', 'darwin,', 'and', 'some', 'of', 'the', 'physiological', 'writers', 'of', 'germany,', 'as', 'not', 'of', 'impossible', 'occurrence.', 'i', 'shall', 'not', 'be', 'supposed', 'as', 'according', 'the', 'remotest', 'degree', 'of', 'serious', 'faith', 'to', 'such', 'an', 'imagination;', 'yet,', 'in', 'assuming', 'it', 'as', 'the', 'basis', 'of', 'a', 'work', 'of', 'fancy,', 'i', 'have', 'not', 'considered', 'myself', 'as', 'merely', 'weaving', 'a', 'series', 'of', 'supernatural', 'terrors.', 'the', 'event', 'on', 'which', 'the', 'interest', 'of', 'the', 'story', 'depends', 'is', 'exempt', 'from', 'the', 'disadvantages', 'of', 'a', 'mere', 'tale', 'of', 'spectres', 'or', 'enchantment.', 'it', 'was', 'recommended', 'by', 'the', 'novelty', 'of', 'the', 'situations', 'which', 'it', 'developes;', 'and,', 'however', 'impossible', 'as', 'a', 'physical', 'fact,', 'affords', 'a', 'point', 'of', 'view', 'to', 'the', 'imagination', 'for', 'the', 'delineating', 'of', 'human', 'passions', 'more', 'comprehensive', 'and', 'commanding', 'than', 'any', 'which', 'the', 'ordinary', 'relations', 'of', 'existing', 'events', 'can', 'yield.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'i', 'have', 'thus', 'endeavoured', 'to', 'preserve', 'the', 'truth', 'of', 'the', 'elementary', 'principles', 'of', 'human', 'nature,', 'while', 'i', 'have', 'not', 'scrupled', 'to', 'innovate', 'upon', 'their', 'combinations.', 'the']"
-                        xml:id="C01_app1_rg1">
+                       xml:id="C01_app1_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_1_preface.xml#C01_app1-f1818__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_1_preface.xml#C01_app1-f1818__F"/>
@@ -174,7 +171,7 @@
                   </rdg>
                </rdgGrp>
                <rdgGrp n="['greece,—shakspeare', '&lt;note resp=&#34;fv-team-rm&#34;&gt;printer error for shakespeare&lt;/note&gt;', ',']"
-                        xml:id="C01_app4_rg2">
+                       xml:id="C01_app4_rg2">
                   <rdg wit="#f1831">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_preface.xml#C01_app4-f1831"/>
                   </rdg>
@@ -351,7 +348,7 @@
                   <rdg wit="#fMS"/>
                </rdgGrp>
                <rdgGrp n="['conform', 'to', 'this', 'rule;', 'and', 'the', 'most', 'humble', 'novelist,', 'who', 'seeks', 'to', 'confer', 'or', 'receive', 'amusement', 'from', 'his', 'labours,', 'may,', 'without', 'presumption,', 'apply', 'to', 'prose', 'fiction', 'a', 'licence,', 'or', 'rather', 'a', 'rule,', 'from', 'the', 'adoption', 'of', 'which', 'so', 'many', 'exquisite', 'combinations', 'of', 'human', 'feeling', 'have', 'resulted', 'in', 'the', 'highest', 'specimens', 'of', 'poetry.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'the', 'circumstance', 'on', 'which', 'my', 'story', 'rests', 'was', 'suggested', 'in', 'casual', 'conversation.', 'it', 'was']"
-                        xml:id="C01_app13_rg1">
+                       xml:id="C01_app13_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_1_preface.xml#C01_app13-f1818__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_1_preface.xml#C01_app13-f1818__F"/>
@@ -396,7 +393,7 @@
                   <rdg wit="#fMS"/>
                </rdgGrp>
                <rdgGrp n="['partly', 'as', 'a', 'source', 'of', 'amusement,', 'and', 'partly', 'as', 'an', 'expedient', 'for', 'exercising', 'any', 'untried', 'resources', 'of', 'mind.', 'other', 'motives', 'were', 'mingled', 'with', 'these,', 'as', 'the', 'work', 'proceeded.', 'i', 'am', 'by', 'no', 'means', 'indifferent', 'to', 'the', 'manner', 'in', 'which', 'whatever', 'moral', 'tendencies', 'exist', 'in', 'the', 'sentiments', 'or', 'characters', 'it', 'contains', 'shall', 'affect', 'the', 'reader;', 'yet', 'my', 'chief', 'concern', 'in', 'this', 'respect', 'has', 'been', 'limited', 'to', 'the', 'avoiding', 'the', 'enervating', 'effects', 'of', 'the', 'novels', 'of', 'the', 'present', 'day,', 'and', 'to', 'the', 'exhibition', 'of', 'the', 'amiableness', 'of', 'domestic', 'affection,', 'and', 'the', 'excellence', 'of', 'universal', 'virtue.', 'the', 'opinions', 'which', 'naturally', 'spring', 'from', 'the', 'character', 'and', 'situation', 'of', 'the', 'hero', 'are', 'by', 'no', 'means', 'to', 'be', 'conceived', 'as', 'existing', 'always', 'in', 'my', 'own', 'conviction;', 'nor', 'is', 'any', 'inference', 'justly', 'to', 'be', 'drawn', 'from', 'the', 'following', 'pages', 'as', 'prejudicing', 'any', 'philosophical', 'doctrine', 'of', 'whatever', 'kind.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'it', 'is', 'a', 'subject', 'also', 'of', 'additional', 'interest', 'to', 'the', 'author,', 'that', 'this', 'story', 'was', 'begun', 'in', 'the', 'majestic', 'region', 'where', 'the', 'scene', 'is', 'principally', 'laid,', 'and', 'in', 'society', 'which', 'cannot', 'cease', 'to', 'be', 'regretted.', 'i', 'passed', 'the', 'summer', 'of', '1816', 'in', 'the', 'environs', 'of', 'geneva.', 'the', 'season', 'was', 'cold', 'and', 'rainy,', 'and', 'in', 'the', 'evenings', 'we', 'crowded', 'around', 'a', 'blazing', 'wood', 'fire,', 'and', 'occasionally', 'amused', 'ourselves', 'with', 'some', 'german', 'stories', 'of', 'ghosts,', 'which', 'happened', 'to', 'fall', 'into', 'our', 'hands.', 'these', 'tales', 'excited', 'in', 'us', 'a', 'playful', 'desire', 'of', 'imitation.', 'two', 'other', 'friends', '(a', 'tale', 'from', 'the', 'pen', 'of', 'one', 'of', 'whom', 'would', 'be', 'far', 'more', 'acceptable', 'to', 'the', 'public', 'than', 'any', 'thing', 'i', 'can', 'ever', 'hope', 'to', 'produce)', 'and', 'myself', 'agreed', 'to', 'write', 'each', 'a', 'story,', 'founded', 'on', 'some', 'supernatural', 'occurrence.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'the', 'weather,', 'however,', 'suddenly', 'became', 'serene;', 'and', 'my', 'two', 'friends', 'left', 'me', 'on', 'a', 'journey', 'among', 'the', 'alps,', 'and', 'lost,', 'in', 'the', 'magnificent', 'scenes', 'which', 'they', 'present,', 'all', 'memory', 'of', 'their', 'ghostly', 'visions.', 'the', 'following', 'tale', 'is', 'the', 'only', 'one', 'which', 'has', 'been', 'completed.']"
-                        xml:id="C01_app15_rg1">
+                       xml:id="C01_app15_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_1_preface.xml#C01_app15-f1818__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_1_preface.xml#C01_app15-f1818__M"/>
@@ -438,7 +435,7 @@
                   </rdg>
                </rdgGrp>
                <rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;', 'marlow,', 'september,', '1817.', '&lt;p-end/&gt;', '']"
-                        xml:id="C01_app16_rg2">
+                       xml:id="C01_app16_rg2">
                   <rdg wit="#f1831">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_preface.xml#C01_app16-f1831__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_preface.xml#C01_app16-f1831__F"/>
