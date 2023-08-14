@@ -63,9 +63,9 @@
         <xsl:text> </xsl:text>
     </xsl:template>
     <xsl:template match="rdg" mode="variant">
-        &lt;seg sID="<xsl:value-of select="ancestor::app/@xml:id"/>-<xsl:value-of select="@wit"/>"/&gt;
+        &lt;seg xml:id="<xsl:value-of select="ancestor::app/@xml:id"/>-<xsl:value-of select="@wit"/>_start"/&gt;
         <xsl:apply-templates select="."/>
-        &lt;seg eID="<xsl:value-of select="ancestor::app/@xml:id"/>-<xsl:value-of select="@wit"/>"/&gt;
+        &lt;seg xml:id="<xsl:value-of select="ancestor::app/@xml:id"/>-<xsl:value-of select="@wit"/>_end"/&gt;
     </xsl:template>
     <xsl:template match="text()">
         <xsl:analyze-string select="." regex="&amp;">

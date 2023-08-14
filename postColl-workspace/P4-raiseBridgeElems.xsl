@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xpath-default-namespace="http://www.tei-c.org/ns/1.0"
-    xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse" exclude-result-prefixes="#all"
+    xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:mith="http://mith.umd.edu/sc/ns1#"
+    xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
     version="3.0">
     <xsl:output method="xml" indent="no"/>
     <!--2018-07-07 ebb: This stylesheet works to raise "trojan
@@ -15,7 +18,9 @@
     <xsl:variable name="novel-coll" as="document-node()+"
         select="collection('P3-output/?select=*.xml')"/>
     <!--* Experimental:  try adding a key *-->
-    <!--2018-07-23 ebb: This isn't working, and I'm not sure why not. This stylesheet has the recursion function run over a container element, rather than an  entire document node, and I think that must be the problem. Commenting it out for now.   <xsl:key name="start-markers" match="$C10-coll//*[@th:sID]" use="@th:sID"/>
+    <!--2018-07-23 ebb: This isn't working, and I'm not sure why not. This stylesheet has the recursion function run over a container element, 
+        rather than an  entire document node, and I think that must be the problem. Commenting it out for now.   
+        <xsl:key name="start-markers" match="$C10-coll//*[@th:sID]" use="@th:sID"/>
     <xsl:key name="end-markers" match="$C10-coll//*[@th:eID]" use="@th:eID"/>-->
 
     <!--* In all modes, do a shallow copy, suppress namespace nodes,
