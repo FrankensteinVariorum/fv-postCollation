@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xmlns:mith="http://mith.umd.edu/sc/ns1#"
-      xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-      xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
+     xmlns:mith="http://mith.umd.edu/sc/ns1#"
+     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xml:id="fMS_C20">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -27,399 +30,807 @@
    <text>
       <body>
          <div type="collation" xml:id="C20">
-            <seg xml:id="C20_app1-fMS_start"/>
-            <anchor type="collate" xml:id="C20"/>
-            <lb n="c57-0031__main__1"/>
-            <seg xml:id="C20_app1-fMS_end"/>
-            <milestone spanTo="#ci57-0031.11" unit="tei:head"/>
+            <seg th:sID="C20_app1-fMS"/>
+            <anchor xmlns="" type="collate" xml:id="C20"/>
+            <lb xmlns="" n="c57-0031__main__1"/>
+            <seg th:eID="C20_app1-fMS"/>
+            <milestone xmlns="" spanTo="#ci57-0031.11" unit="tei:head"/>
             <sga-add hand="#pbs" th:sID="c57-0031__main__d4e4824"/>
-            <seg xml:id="C20_app3-fMS_start"/>another Chapter <sga-add th:eID="c57-0031__main__d4e4824"/>
-            <anchor xml:id="c57-0031.11"/>
-            <lb n="c57-0031__main__2"/>Sometime<seg xml:id="C20_app3-fMS_end"/>elapsed before I <seg xml:id="C20_app5-fMS_start"/>
-            <del next="#c57-0031.02"
-                  rend="strikethrough"
-                  xml:id="c57-0031__main__d4e4832">became informed</del>
-            <lb n="c57-0031__main__3"/>
-            <anchor xml:id="c57-0031.03"/>
-            <lb n="c57-0031__left_margin__1"/>
-            <del rend="strikethrough" xml:id="c57-0031__left_margin__d4e4843"> of th </del>
-            <anchor xml:id="c57-0031.01"/>
+            <seg th:sID="C20_app3-fMS"/>
+        another Chapter <sga-add th:eID="c57-0031__main__d4e4824"/>
+            <anchor xmlns="" xml:id="c57-0031.11"/>
+            <lb xmlns="" n="c57-0031__main__2"/>Sometime
+        <seg th:eID="C20_app3-fMS"/>
+    elapsed before I 
+        <seg th:sID="C20_app5-fMS"/>
+            <del xmlns=""
+                 next="#c57-0031.02"
+                 rend="strikethrough"
+                 xml:id="c57-0031__main__d4e4832">became informed</del>
+            <lb xmlns="" n="c57-0031__main__3"/>
+            <anchor xmlns="" xml:id="c57-0031.03"/>
+            <lb xmlns="" n="c57-0031__left_margin__1"/>
+            <del xmlns="" rend="strikethrough" xml:id="c57-0031__left_margin__d4e4843"> of th </del>
+            <anchor xmlns="" xml:id="c57-0031.01"/>
             <mod th:sID="c57-0031__main__d4e4849"/>
-            <mdel>of</mdel>
+            <mdel xmlns="">of</mdel>
             <sga-add place="sublinear" th:sID="c57-0031__main__d4e4853"/>
-            <metamark function="insert">^</metamark>
+            <metamark xmlns="" function="insert">^</metamark>
             <sga-add th:eID="c57-0031__main__d4e4853"/>
-            <sga-add place="superlinear" th:sID="c57-0031__main__d4e4859"/>learned<seg xml:id="C20_app5-fMS_end"/>
+            <sga-add place="superlinear" th:sID="c57-0031__main__d4e4859"/>learned
+        <seg th:eID="C20_app5-fMS"/>
             <sga-add th:eID="c57-0031__main__d4e4859"/>
-            <mod th:eID="c57-0031__main__d4e4849"/>the history of my friends. It was one <seg xml:id="C20_app7-fMS_start"/>
-            <del rend="strikethrough" xml:id="c57-0031__main__d4e4864">that</del>
-            <lb n="c57-0031__main__4"/>
-            <anchor xml:id="c57-0031.05"/>
-            <lb n="c57-0031__left_margin__1"/>
+            <mod th:eID="c57-0031__main__d4e4849"/>the history of my friends. It was one 
+        <seg th:sID="C20_app7-fMS"/>
+            <del xmlns="" rend="strikethrough" xml:id="c57-0031__main__d4e4864">that</del>
+            <lb xmlns="" n="c57-0031__main__4"/>
+            <anchor xmlns="" xml:id="c57-0031.05"/>
+            <lb xmlns="" n="c57-0031__left_margin__1"/>
             <sga-add hand="#pbs" th:sID="c57-0031__left_margin__d4e4875"/> which <sga-add th:eID="c57-0031__left_margin__d4e4875"/>
-            <anchor xml:id="c57-0031.04"/>could not fail to impress itself deeply<seg xml:id="C20_app7-fMS_end"/>
-            <seg xml:id="C20_app8-fMS_start"/>
+            <anchor xmlns="" xml:id="c57-0031.04"/>could not fail to impress itself deeply
+        <seg th:eID="C20_app7-fMS"/>
+            <seg th:sID="C20_app8-fMS"/>
             <mod th:sID="c57-0031__main__d4e4881"/>
-            <mdel>in</mdel>
-            <sga-add hand="#pbs" place="superlinear" th:sID="c57-0031__main__d4e4885"/>on<seg xml:id="C20_app8-fMS_end"/>
+            <mdel xmlns="">in</mdel>
+            <sga-add hand="#pbs" place="superlinear" th:sID="c57-0031__main__d4e4885"/>on
+        <seg th:eID="C20_app8-fMS"/>
             <sga-add th:eID="c57-0031__main__d4e4885"/>
-            <mod th:eID="c57-0031__main__d4e4881"/>my <seg xml:id="C20_app10-fMS_start"/>
-            <lb n="c57-0031__main__5"/>mind<seg xml:id="C20_app10-fMS_end"/>unfolding as it did a number of <seg xml:id="C20_app12-fMS_start"/>
-            <lb n="c57-0031__main__6"/>circumstances<seg xml:id="C20_app12-fMS_end"/>each <seg xml:id="C20_app14-fMS_start"/>inter <del rend="strikethrough" xml:id="c57-0031__main__d4e4894">r</del> esting &amp;<w ana="start"/>wonder<lb n="c57-0031__main__7"/>ful<w ana="end"/>
-            <seg xml:id="C20_app14-fMS_end"/>to one so utterly inexperienced as I <lb n="c57-0031__main__8"/>was. <seg xml:id="C20_app16-fMS_start"/>
-            <del rend="vertical_line" xml:id="c57-0031__main__d4e4906">
+            <mod th:eID="c57-0031__main__d4e4881"/>my 
+        <seg th:sID="C20_app10-fMS"/>
+            <lb xmlns="" n="c57-0031__main__5"/>mind
+        <seg th:eID="C20_app10-fMS"/>
+    unfolding as it did a number of 
+        <seg th:sID="C20_app12-fMS"/>
+            <lb xmlns="" n="c57-0031__main__6"/>circumstances
+        <seg th:eID="C20_app12-fMS"/>
+    each 
+        <seg th:sID="C20_app14-fMS"/>
+        inter <del xmlns="" rend="strikethrough" xml:id="c57-0031__main__d4e4894">r</del> esting &amp;<w xmlns="" ana="start"/>wonder<lb xmlns="" n="c57-0031__main__7"/>ful<w xmlns="" ana="end"/>
+            <seg th:eID="C20_app14-fMS"/>
+    to one so utterly inexperienced as I <lb xmlns="" n="c57-0031__main__8"/>was. 
+        <seg th:sID="C20_app16-fMS"/>
+            <del xmlns="" rend="vertical_line" xml:id="c57-0031__main__d4e4906">
                <unclear>2</unclear>
             </del>
-            <seg xml:id="C20_app16-fMS_end"/>
-            <milestone unit="tei:p-START"/>
-            <seg xml:id="C20_app18-fMS_start"/>
-            <lb n="c57-0031__main__9"/>The<seg xml:id="C20_app18-fMS_end"/>name of the old man was De Lacey. <lb n="c57-0031__main__10"/>He was <seg xml:id="C20_app20-fMS_start"/>decended<seg xml:id="C20_app20-fMS_end"/>from a good family in <seg xml:id="C20_app22-fMS_start"/>France <delSpan rend="strikethrough" spanTo="#c57-0031.06"/>&amp;<lb n="c57-0031__main__11"/> untill very lately had lived <delSpan anchor="c57-0031.06"/> where for many years <lb n="c57-0031__main__12"/>he had lived<seg xml:id="C20_app22-fMS_end"/>in <seg xml:id="C20_app24-fMS_start"/>affluence<seg xml:id="C20_app24-fMS_end"/>respected by his <seg xml:id="C20_app26-fMS_start"/>superiors<seg xml:id="C20_app26-fMS_end"/>
-            <lb n="c57-0031__main__13"/>&amp; beloved by his equals. <seg xml:id="C20_app28-fMS_start"/>
-            <delSpan rend="strikethrough" spanTo="#c57-0031.07"/>His two children Felix &amp;<w ana="start"/>Aga<lb n="c57-0031__main__14"/>tha<w ana="end"/>
-            <delSpan anchor="c57-0031.07"/> His son was bred<seg xml:id="C20_app28-fMS_end"/>
-            <seg xml:id="C20_app29-fMS_start"/>
+            <seg th:eID="C20_app16-fMS"/>
+            <milestone xmlns="" unit="tei:p-START"/>
+            <seg th:sID="C20_app18-fMS"/>
+            <lb xmlns="" n="c57-0031__main__9"/>The
+        <seg th:eID="C20_app18-fMS"/>
+    name of the old man was De Lacey. <lb xmlns="" n="c57-0031__main__10"/>He was 
+        <seg th:sID="C20_app20-fMS"/>
+        decended
+        <seg th:eID="C20_app20-fMS"/>
+    from a good family in 
+        <seg th:sID="C20_app22-fMS"/>
+        France <delSpan xmlns="" rend="strikethrough" spanTo="#c57-0031.06"/>&amp;<lb xmlns="" n="c57-0031__main__11"/> untill very lately had lived <delSpan xmlns="" anchor="c57-0031.06"/> where for many years <lb xmlns="" n="c57-0031__main__12"/>he had lived
+        <seg th:eID="C20_app22-fMS"/>
+    in 
+        <seg th:sID="C20_app24-fMS"/>
+        affluence
+        <seg th:eID="C20_app24-fMS"/>
+    respected by his 
+        <seg th:sID="C20_app26-fMS"/>
+        superiors
+        <seg th:eID="C20_app26-fMS"/>
+            <lb xmlns="" n="c57-0031__main__13"/>&amp; beloved by his equals. 
+        <seg th:sID="C20_app28-fMS"/>
+            <delSpan xmlns="" rend="strikethrough" spanTo="#c57-0031.07"/>His two children Felix &amp;<w xmlns="" ana="start"/>Aga<lb xmlns="" n="c57-0031__main__14"/>tha<w xmlns="" ana="end"/>
+            <delSpan xmlns="" anchor="c57-0031.07"/> His son was bred
+        <seg th:eID="C20_app28-fMS"/>
+            <seg th:sID="C20_app29-fMS"/>
             <mod th:sID="c57-0031__main__d4e4939"/>
-            <mdel>t</mdel>
+            <mdel xmlns="">t</mdel>
             <sga-add place="intralinear" th:sID="c57-0031__main__d4e4943"/>i<sga-add th:eID="c57-0031__main__d4e4943"/>
-            <mod th:eID="c57-0031__main__d4e4939"/>n the service of his<seg xml:id="C20_app29-fMS_end"/>
-            <seg xml:id="C20_app30-fMS_start"/>country<seg xml:id="C20_app30-fMS_end"/>
-            <lb n="c57-0031__main__15"/>&amp; Agatha had <seg xml:id="C20_app32-fMS_start"/>
+            <mod th:eID="c57-0031__main__d4e4939"/>n the service of his
+        <seg th:eID="C20_app29-fMS"/>
+            <seg th:sID="C20_app30-fMS"/>
+        country
+        <seg th:eID="C20_app30-fMS"/>
+            <lb xmlns="" n="c57-0031__main__15"/>&amp; Agatha had 
+        <seg th:sID="C20_app32-fMS"/>
             <mod th:sID="c57-0031__main__d4e4949"/>
-            <del rend="strikethrough" xml:id="c57-0031__main__d4e4951">been</del>
-            <sga-add place="superlinear" th:sID="c57-0031__main__d4e4954"/>ranked<seg xml:id="C20_app32-fMS_end"/>
-            <seg xml:id="C20_app33-fMS_start"/>
+            <del xmlns="" rend="strikethrough" xml:id="c57-0031__main__d4e4951">been</del>
+            <sga-add place="superlinear" th:sID="c57-0031__main__d4e4954"/>ranked
+        <seg th:eID="C20_app32-fMS"/>
+            <seg th:sID="C20_app33-fMS"/>
             <sga-add th:eID="c57-0031__main__d4e4954"/>
-            <del rend="strikethrough" xml:id="c57-0031__main__d4e4957">woed</del>
-            <del rend="strikethrough" xml:id="c57-0031__main__d4e4960">by gentlemen</del>
-            <sga-add place="superlinear" th:sID="c57-0031__main__d4e4963"/>with ladies<seg xml:id="C20_app33-fMS_end"/>
+            <del xmlns="" rend="strikethrough" xml:id="c57-0031__main__d4e4957">woed</del>
+            <del xmlns="" rend="strikethrough" xml:id="c57-0031__main__d4e4960">by gentlemen</del>
+            <sga-add place="superlinear" th:sID="c57-0031__main__d4e4963"/>with ladies
+        <seg th:eID="C20_app33-fMS"/>
             <sga-add th:eID="c57-0031__main__d4e4963"/>
-            <mod th:eID="c57-0031__main__d4e4949"/>of the <lb n="c57-0031__main__16"/>highest distinction. A few months <seg xml:id="C20_app35-fMS_start"/>
-            <del next="#c57-0031.09"
-                  rend="strikethrough"
-                  xml:id="c57-0031__main__d4e4970">previous</del>
-            <sga-add hand="#pbs" place="superlinear" th:sID="c57-0031__main__d4e4973"/>before<seg xml:id="C20_app35-fMS_end"/>
-            <seg xml:id="C20_app36-fMS_start"/>
+            <mod th:eID="c57-0031__main__d4e4949"/>of the <lb xmlns="" n="c57-0031__main__16"/>highest distinction. A few months 
+        <seg th:sID="C20_app35-fMS"/>
+            <del xmlns=""
+                 next="#c57-0031.09"
+                 rend="strikethrough"
+                 xml:id="c57-0031__main__d4e4970">previous</del>
+            <sga-add hand="#pbs" place="superlinear" th:sID="c57-0031__main__d4e4973"/>before
+        <seg th:eID="C20_app35-fMS"/>
+            <seg th:sID="C20_app36-fMS"/>
             <sga-add th:eID="c57-0031__main__d4e4973"/>
-            <lb n="c57-0031__main__17"/>
-            <del rend="strikethrough" xml:id="c57-0031__main__d4e4978">to</del>
-            <anchor xml:id="c57-0031.08"/> my<seg xml:id="C20_app36-fMS_end"/>
-            <seg xml:id="C20_app37-fMS_start"/>arrival<seg xml:id="C20_app37-fMS_end"/>they had lived in a large &amp; <w ana="start"/>lux<lb n="c57-0031__main__18"/>urious<w ana="end"/>
-            <seg xml:id="C20_app39-fMS_start"/>city<seg xml:id="C20_app39-fMS_end"/>called Paris, surrounded by <seg xml:id="C20_app41-fMS_start"/>friends<seg xml:id="C20_app41-fMS_end"/>
-            <lb n="c57-0031__main__19"/>&amp; possessed of every enjoyment <seg xml:id="C20_app43-fMS_start"/>that <mod th:sID="c57-0031__main__d4e4992"/>
-            <del rend="strikethrough" xml:id="c57-0031__main__d4e4994">that</del>
-            <sga-add hand="#pbs" place="superlinear" th:sID="c57-0031__main__d4e4997"/>which<seg xml:id="C20_app43-fMS_end"/>
-            <seg xml:id="C20_app44-fMS_start"/>
+            <lb xmlns="" n="c57-0031__main__17"/>
+            <del xmlns="" rend="strikethrough" xml:id="c57-0031__main__d4e4978">to</del>
+            <anchor xmlns="" xml:id="c57-0031.08"/> my
+        <seg th:eID="C20_app36-fMS"/>
+            <seg th:sID="C20_app37-fMS"/>
+        arrival
+        <seg th:eID="C20_app37-fMS"/>
+    they had lived in a large &amp; <w xmlns="" ana="start"/>lux<lb xmlns="" n="c57-0031__main__18"/>urious<w xmlns="" ana="end"/>
+            <seg th:sID="C20_app39-fMS"/>
+        city
+        <seg th:eID="C20_app39-fMS"/>
+    called Paris, surrounded by 
+        <seg th:sID="C20_app41-fMS"/>
+        friends
+        <seg th:eID="C20_app41-fMS"/>
+            <lb xmlns="" n="c57-0031__main__19"/>&amp; possessed of every enjoyment 
+        <seg th:sID="C20_app43-fMS"/>
+        that <mod th:sID="c57-0031__main__d4e4992"/>
+            <del xmlns="" rend="strikethrough" xml:id="c57-0031__main__d4e4994">that</del>
+            <sga-add hand="#pbs" place="superlinear" th:sID="c57-0031__main__d4e4997"/>which
+        <seg th:eID="C20_app43-fMS"/>
+            <seg th:sID="C20_app44-fMS"/>
             <sga-add th:eID="c57-0031__main__d4e4997"/>
             <mod th:eID="c57-0031__main__d4e4992"/> virtue <mod th:sID="c57-0031__main__d4e5001"/>
             <sga-add place="sublinear" th:sID="c57-0031__main__d4e5003"/>
-            <metamark function="insert">^</metamark>
+            <metamark xmlns="" function="insert">^</metamark>
             <sga-add th:eID="c57-0031__main__d4e5003"/>
             <sga-add hand="#pbs"
-                      next="#c57-0031.10"
-                      place="superlinear"
-                      th:sID="c57-0031__main__d4e5009"/>&amp;<seg xml:id="C20_app44-fMS_end"/>refinement of <seg xml:id="C20_app46-fMS_start"/>intellect &amp;<seg xml:id="C20_app46-fMS_end"/>taste, <sga-add th:eID="c57-0031__main__d4e5009"/>
+                     next="#c57-0031.10"
+                     place="superlinear"
+                     th:sID="c57-0031__main__d4e5009"/>&amp;
+        <seg th:eID="C20_app44-fMS"/>
+    refinement of 
+        <seg th:sID="C20_app46-fMS"/>
+        intellect &amp;
+        <seg th:eID="C20_app46-fMS"/>
+    taste, <sga-add th:eID="c57-0031__main__d4e5009"/>
             <mod th:eID="c57-0031__main__d4e5001"/>
-            <w ana="start"/>ac<lb n="c57-0031__main__20"/>companied<w ana="end"/>
-            <seg xml:id="C20_app48-fMS_start"/>with<seg xml:id="C20_app48-fMS_end"/>a <seg xml:id="C20_app50-fMS_start"/>competent fortune<seg xml:id="C20_app50-fMS_end"/>could <lb n="c57-0031__main__21"/>afford. <milestone unit="tei:p-END"/>
-            <milestone unit="tei:p-START"/>
-            <seg xml:id="C20_app52-fMS_start"/>
-            <lb n="c57-0031__main__22"/>The<seg xml:id="C20_app52-fMS_end"/>father of Safie <seg xml:id="C20_app54-fMS_start"/>
+            <w xmlns="" ana="start"/>ac<lb xmlns="" n="c57-0031__main__20"/>companied<w xmlns="" ana="end"/>
+            <seg th:sID="C20_app48-fMS"/>
+        with
+        <seg th:eID="C20_app48-fMS"/>
+    a 
+        <seg th:sID="C20_app50-fMS"/>
+        competent fortune
+        <seg th:eID="C20_app50-fMS"/>
+    could <lb xmlns="" n="c57-0031__main__21"/>afford. <milestone xmlns="" unit="tei:p-END"/>
+            <milestone xmlns="" unit="tei:p-START"/>
+            <seg th:sID="C20_app52-fMS"/>
+            <lb xmlns="" n="c57-0031__main__22"/>The
+        <seg th:eID="C20_app52-fMS"/>
+    father of Safie 
+        <seg th:sID="C20_app54-fMS"/>
             <mod th:sID="c57-0031__main__d4e5027"/>
-            <del rend="strikethrough" xml:id="c57-0031__main__d4e5029">was</del>
-            <sga-add place="superlinear" th:sID="c57-0031__main__d4e5032"/>had been<seg xml:id="C20_app54-fMS_end"/>
+            <del xmlns="" rend="strikethrough" xml:id="c57-0031__main__d4e5029">was</del>
+            <sga-add place="superlinear" th:sID="c57-0031__main__d4e5032"/>had been
+        <seg th:eID="C20_app54-fMS"/>
             <sga-add th:eID="c57-0031__main__d4e5032"/>
-            <mod th:eID="c57-0031__main__d4e5027"/>the cause of their <seg xml:id="C20_app56-fMS_start"/>
-            <lb n="c57-0031__main__23"/>
+            <mod th:eID="c57-0031__main__d4e5027"/>the cause of their 
+        <seg th:sID="C20_app56-fMS"/>
+            <lb xmlns="" n="c57-0031__main__23"/>
             <mod th:sID="c57-0031__main__d4e5038"/>
-            <del rend="strikethrough" xml:id="c57-0031__main__d4e5040">fall</del>
+            <del xmlns="" rend="strikethrough" xml:id="c57-0031__main__d4e5040">fall</del>
             <sga-add hand="#pbs" place="superlinear" th:sID="c57-0031__main__d4e5043"/>ruin; <sga-add th:eID="c57-0031__main__d4e5043"/>
             <mod th:eID="c57-0031__main__d4e5038"/>
-            <seg xml:id="C20_app56-fMS_end"/>He was a <seg xml:id="C20_app58-fMS_start"/>
+            <seg th:eID="C20_app56-fMS"/>
+    He was a 
+        <seg th:sID="C20_app58-fMS"/>
             <mod th:sID="c57-0031__main__d4e5047"/>
-            <mdel>t</mdel>
+            <mdel xmlns="">t</mdel>
             <sga-add place="intralinear" th:sID="c57-0031__main__d4e5051"/>T<sga-add th:eID="c57-0031__main__d4e5051"/>
-            <mod th:eID="c57-0031__main__d4e5047"/>urkish<seg xml:id="C20_app58-fMS_end"/>
-            <seg xml:id="C20_app59-fMS_start"/>Merchant<seg xml:id="C20_app59-fMS_end"/>and had <seg xml:id="C20_app61-fMS_start"/>
-            <lb n="c57-0031__main__24"/>
-            <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0031__main__d4e5057">li</del> inhabited Paris for many<seg xml:id="C20_app61-fMS_end"/>
-            <seg xml:id="C20_app62-fMS_start"/>years. When his person <lb n="c57-0031__main__25"/>became <mod th:sID="c57-0031__main__d4e5063"/>
-            <del rend="strikethrough" xml:id="c57-0031__main__d4e5065">for some</del>
+            <mod th:eID="c57-0031__main__d4e5047"/>urkish
+        <seg th:eID="C20_app58-fMS"/>
+            <seg th:sID="C20_app59-fMS"/>
+        Merchant
+        <seg th:eID="C20_app59-fMS"/>
+    and had 
+        <seg th:sID="C20_app61-fMS"/>
+            <lb xmlns="" n="c57-0031__main__24"/>
+            <del xmlns=""
+                 instant="true"
+                 rend="strikethrough"
+                 xml:id="c57-0031__main__d4e5057">li</del> inhabited Paris for many
+        <seg th:eID="C20_app61-fMS"/>
+            <seg th:sID="C20_app62-fMS"/>
+        years. When his person <lb xmlns="" n="c57-0031__main__25"/>became <mod th:sID="c57-0031__main__d4e5063"/>
+            <del xmlns="" rend="strikethrough" xml:id="c57-0031__main__d4e5065">for some</del>
             <sga-add place="sublinear" th:sID="c57-0031__main__d4e5068"/>
-            <metamark function="insert">^</metamark>
-            <seg xml:id="C20_app62-fMS_end"/>
+            <metamark xmlns="" function="insert">^</metamark>
+            <seg th:eID="C20_app62-fMS"/>
             <sga-add th:eID="c57-0031__main__d4e5068"/>
-            <sga-add hand="#pbs" place="superlinear" th:sID="c57-0031__main__d4e5074"/>for some reason which I could not <seg xml:id="C20_app64-fMS_start"/>learn <sga-add th:eID="c57-0031__main__d4e5074"/>
+            <sga-add hand="#pbs" place="superlinear" th:sID="c57-0031__main__d4e5074"/>for some reason which I could not 
+        <seg th:sID="C20_app64-fMS"/>
+        learn <sga-add th:eID="c57-0031__main__d4e5074"/>
             <mod th:eID="c57-0031__main__d4e5063"/>
-            <seg xml:id="C20_app64-fMS_end"/>obnoxious to the <seg xml:id="C20_app66-fMS_start"/>
-            <w ana="start"/>govern<lb n="c57-0031__main__26"/>ment<w ana="end"/>–<seg xml:id="C20_app66-fMS_end"/>He was seized and cast into prison <lb n="c57-0031__main__27"/>the very day that Safie arrived from <w ana="start"/>Constan<lb n="c57-0031__main__28"/>tinople<w ana="end"/> to join him. He was <seg xml:id="C20_app68-fMS_start"/>tried<seg xml:id="C20_app68-fMS_end"/>&amp; condemned <lb n="c57-0031__main__29"/>to death. The injustice of his sentence was very <seg xml:id="C20_app70-fMS_start"/>
-            <lb n="c57-0031__main__30"/>flagrant<seg xml:id="C20_app70-fMS_end"/>All Paris <seg xml:id="C20_app72-fMS_start"/>were indignant<seg xml:id="C20_app72-fMS_end"/>&amp; it <lb n="c57-0031__main__31"/>was judged that his <seg xml:id="C20_app74-fMS_start"/>relig <del rend="strikethrough" xml:id="c57-0031__main__d4e5100">i</del> ion<seg xml:id="C20_app74-fMS_end"/>and <seg xml:id="C20_app76-fMS_start"/>wealth <lb n="c57-0031__main__32"/>
-            <del rend="strikethrough" xml:id="c57-0031__main__d4e5105">had been the causes of his condemnation rather</del>
-            <lb n="c57-0032__main__1"/>
+            <seg th:eID="C20_app64-fMS"/>
+    obnoxious to the 
+        <seg th:sID="C20_app66-fMS"/>
+            <w xmlns="" ana="start"/>govern<lb xmlns="" n="c57-0031__main__26"/>ment<w xmlns="" ana="end"/>–
+        <seg th:eID="C20_app66-fMS"/>
+    He was seized and cast into prison <lb xmlns="" n="c57-0031__main__27"/>the very day that Safie arrived from <w xmlns="" ana="start"/>Constan<lb xmlns="" n="c57-0031__main__28"/>tinople<w xmlns="" ana="end"/> to join him. He was 
+        <seg th:sID="C20_app68-fMS"/>
+        tried
+        <seg th:eID="C20_app68-fMS"/>
+    &amp; condemned <lb xmlns="" n="c57-0031__main__29"/>to death. The injustice of his sentence was very 
+        <seg th:sID="C20_app70-fMS"/>
+            <lb xmlns="" n="c57-0031__main__30"/>flagrant
+        <seg th:eID="C20_app70-fMS"/>
+    All Paris 
+        <seg th:sID="C20_app72-fMS"/>
+        were indignant
+        <seg th:eID="C20_app72-fMS"/>
+    &amp; it <lb xmlns="" n="c57-0031__main__31"/>was judged that his 
+        <seg th:sID="C20_app74-fMS"/>
+        relig <del xmlns="" rend="strikethrough" xml:id="c57-0031__main__d4e5100">i</del> ion
+        <seg th:eID="C20_app74-fMS"/>
+    and 
+        <seg th:sID="C20_app76-fMS"/>
+        wealth <lb xmlns="" n="c57-0031__main__32"/>
+            <del xmlns="" rend="strikethrough" xml:id="c57-0031__main__d4e5105">had been the causes of his condemnation rather</del>
+            <lb xmlns="" n="c57-0032__main__1"/>
             <mod th:sID="c57-0032__main__d4e5118"/>
-            <anchor xml:id="c57-0032.01"/>
-            <lb n="c57-0032__left_margin__1"/>
-            <del rend="smear" xml:id="c57-0032__left_margin__d4e5126">than</del>
-            <seg xml:id="C20_app76-fMS_end"/>
+            <anchor xmlns="" xml:id="c57-0032.01"/>
+            <lb xmlns="" n="c57-0032__left_margin__1"/>
+            <del xmlns="" rend="smear" xml:id="c57-0032__left_margin__d4e5126">than</del>
+            <seg th:eID="C20_app76-fMS"/>
             <sga-add hand="#pbs"
-                      place="intralinear"
-                      th:sID="c57-0032__left_margin__d4e5129"/>rather <sga-add th:eID="c57-0032__left_margin__d4e5129"/>
+                     place="intralinear"
+                     th:sID="c57-0032__left_margin__d4e5129"/>rather <sga-add th:eID="c57-0032__left_margin__d4e5129"/>
             <sga-add place="intralinear" th:sID="c57-0032__main__d4e5133"/>than <sga-add th:eID="c57-0032__main__d4e5133"/>
-            <mod th:eID="c57-0032__main__d4e5118"/>the crime <seg xml:id="C20_app79-fMS_start"/>alledged<seg xml:id="C20_app79-fMS_end"/>against <seg xml:id="C20_app81-fMS_start"/>him<lb n="c57-0032__main__2"/>
-            <anchor xml:id="c57-0032.02"/>
+            <mod th:eID="c57-0032__main__d4e5118"/>the crime 
+        <seg th:sID="C20_app79-fMS"/>
+        alledged
+        <seg th:eID="C20_app79-fMS"/>
+    against 
+        <seg th:sID="C20_app81-fMS"/>
+        him<lb xmlns="" n="c57-0032__main__2"/>
+            <anchor xmlns="" xml:id="c57-0032.02"/>
             <zone corresp="#c57-0032.02"
-                   type="left_margin"
-                   th:sID="c57-0032__left_margin"/>
-            <addSpan hand="#pbs" spanTo="#c57-0032.03"/>
-            <lb n="c57-0032__left_margin__1"/>had been the <lb n="c57-0032__left_margin__2"/>cause of his <lb n="c57-0032__left_margin__3"/>condemnation<anchor xml:id="c57-0032.03"/>
-            <zone th:eID="c57-0032__left_margin"/>Felix was present at his trial; <del rend="strikethrough" xml:id="c57-0032__main__d4e5155">&amp;</del>
-            <seg xml:id="C20_app81-fMS_end"/>his <sga-add place="superlinear" th:sID="c57-0032__main__d4e5158"/>horror &amp;<sga-add th:eID="c57-0032__main__d4e5158"/>
-            <seg xml:id="C20_app83-fMS_start"/>in<lb n="c57-0032__main__3"/>dignation <mod th:sID="c57-0032__main__d4e5163"/>
+                  type="left_margin"
+                  th:sID="c57-0032__left_margin"/>
+            <addSpan xmlns="" hand="#pbs" spanTo="#c57-0032.03"/>
+            <lb xmlns="" n="c57-0032__left_margin__1"/>had been the <lb xmlns="" n="c57-0032__left_margin__2"/>cause of his <lb xmlns="" n="c57-0032__left_margin__3"/>condemnation<anchor xmlns="" xml:id="c57-0032.03"/>
+            <zone th:eID="c57-0032__left_margin"/>Felix was present at his trial; <del xmlns="" rend="strikethrough" xml:id="c57-0032__main__d4e5155">&amp;</del>
+            <seg th:eID="C20_app81-fMS"/>
+    his <sga-add place="superlinear" th:sID="c57-0032__main__d4e5158"/>horror &amp;<sga-add th:eID="c57-0032__main__d4e5158"/>
+            <seg th:sID="C20_app83-fMS"/>
+        in<lb xmlns="" n="c57-0032__main__3"/>dignation <mod th:sID="c57-0032__main__d4e5163"/>
             <sga-add place="sublinear" th:sID="c57-0032__main__d4e5165"/>
-            <metamark function="insert">^</metamark>
+            <metamark xmlns="" function="insert">^</metamark>
             <sga-add th:eID="c57-0032__main__d4e5165"/>
             <sga-add place="superlinear" th:sID="c57-0032__main__d4e5171"/>w<mod th:sID="c57-0032__main__d4e5173"/>
-            <mdel>as</mdel>
+            <mdel xmlns="">as</mdel>
             <sga-add hand="#pbs" place="intralinear" th:sID="c57-0032__main__d4e5177"/>ere <sga-add th:eID="c57-0032__main__d4e5177"/>
             <mod th:eID="c57-0032__main__d4e5173"/>
             <sga-add th:eID="c57-0032__main__d4e5171"/>
-            <mod th:eID="c57-0032__main__d4e5163"/> uncontrolable<seg xml:id="C20_app83-fMS_end"/>when he heard the <seg xml:id="C20_app85-fMS_start"/>
-            <lb n="c57-0032__main__4"/>
+            <mod th:eID="c57-0032__main__d4e5163"/> uncontrolable
+        <seg th:eID="C20_app83-fMS"/>
+    when he heard the 
+        <seg th:sID="C20_app85-fMS"/>
+            <lb xmlns="" n="c57-0032__main__4"/>
             <mod th:sID="c57-0032__main__d4e5185"/>
-            <del rend="strikethrough" xml:id="c57-0032__main__d4e5187">event.</del>
+            <del xmlns="" rend="strikethrough" xml:id="c57-0032__main__d4e5187">event.</del>
             <sga-add hand="#pbs" place="superlinear" th:sID="c57-0032__main__d4e5190"/>
-            <mdel>of</mdel> decision of the court.<seg xml:id="C20_app85-fMS_end"/>
+            <mdel xmlns="">of</mdel> decision of the court.
+        <seg th:eID="C20_app85-fMS"/>
             <sga-add th:eID="c57-0032__main__d4e5190"/>
-            <mod th:eID="c57-0032__main__d4e5185"/>He <seg xml:id="C20_app87-fMS_start"/>made<seg xml:id="C20_app87-fMS_end"/>at that <seg xml:id="C20_app89-fMS_start"/>moment<seg xml:id="C20_app89-fMS_end"/>a solemn <lb n="c57-0032__main__5"/>vow to deliver <seg xml:id="C20_app91-fMS_start"/>him<seg xml:id="C20_app91-fMS_end"/>&amp; then looked around <lb n="c57-0032__main__6"/>for the means. After many fruitless <lb n="c57-0032__main__7"/>attempts to gain admittance to the <seg xml:id="C20_app93-fMS_start"/>
-            <delSpan rend="strikethrough" spanTo="#c57-0032.04"/>
-            <w ana="start"/>pri<lb n="c57-0032__main__8"/>son<w ana="end"/>
-            <delSpan anchor="c57-0032.04"/>
+            <mod th:eID="c57-0032__main__d4e5185"/>He 
+        <seg th:sID="C20_app87-fMS"/>
+        made
+        <seg th:eID="C20_app87-fMS"/>
+    at that 
+        <seg th:sID="C20_app89-fMS"/>
+        moment
+        <seg th:eID="C20_app89-fMS"/>
+    a solemn <lb xmlns="" n="c57-0032__main__5"/>vow to deliver 
+        <seg th:sID="C20_app91-fMS"/>
+        him
+        <seg th:eID="C20_app91-fMS"/>
+    &amp; then looked around <lb xmlns="" n="c57-0032__main__6"/>for the means. After many fruitless <lb xmlns="" n="c57-0032__main__7"/>attempts to gain admittance to the 
+        <seg th:sID="C20_app93-fMS"/>
+            <delSpan xmlns="" rend="strikethrough" spanTo="#c57-0032.04"/>
+            <w xmlns="" ana="start"/>pri<lb xmlns="" n="c57-0032__main__8"/>son<w xmlns="" ana="end"/>
+            <delSpan xmlns="" anchor="c57-0032.04"/>
             <mod th:sID="c57-0032__main__d4e5214"/>
-            <del rend="strikethrough" xml:id="c57-0032__main__d4e5216">goal</del>
+            <del xmlns="" rend="strikethrough" xml:id="c57-0032__main__d4e5216">goal</del>
             <sga-add hand="#pbs" place="superlinear" th:sID="c57-0032__main__d4e5219"/>prison <sga-add th:eID="c57-0032__main__d4e5219"/>
             <mod th:eID="c57-0032__main__d4e5214"/>
-            <seg xml:id="C20_app93-fMS_end"/>he found a <seg xml:id="C20_app95-fMS_start"/>st <mod th:sID="c57-0032__main__d4e5223"/>
+            <seg th:eID="C20_app93-fMS"/>
+    he found a 
+        <seg th:sID="C20_app95-fMS"/>
+        st <mod th:sID="c57-0032__main__d4e5223"/>
             <sga-add place="sublinear" th:sID="c57-0032__main__d4e5225"/>
-            <metamark function="insert">^</metamark>
+            <metamark xmlns="" function="insert">^</metamark>
             <sga-add th:eID="c57-0032__main__d4e5225"/>
             <sga-add place="superlinear" th:sID="c57-0032__main__d4e5231"/>r <sga-add th:eID="c57-0032__main__d4e5231"/>
-            <mod th:eID="c57-0032__main__d4e5223"/> ongly<seg xml:id="C20_app95-fMS_end"/>grated window <lb n="c57-0032__main__9"/>in an unguarded part of the <seg xml:id="C20_app97-fMS_start"/>
+            <mod th:eID="c57-0032__main__d4e5223"/> ongly
+        <seg th:eID="C20_app95-fMS"/>
+    grated window <lb xmlns="" n="c57-0032__main__9"/>in an unguarded part of the 
+        <seg th:sID="C20_app97-fMS"/>
             <mod th:sID="c57-0032__main__d4e5237"/>
-            <del rend="strikethrough" xml:id="c57-0032__main__d4e5239">prison</del>
+            <del xmlns="" rend="strikethrough" xml:id="c57-0032__main__d4e5239">prison</del>
             <sga-add hand="#pbs" place="superlinear" th:sID="c57-0032__main__d4e5242"/>building, <sga-add th:eID="c57-0032__main__d4e5242"/>
             <mod th:eID="c57-0032__main__d4e5237"/>
-            <lb n="c57-0032__main__10"/>which<seg xml:id="C20_app97-fMS_end"/>
-            <seg xml:id="C20_app98-fMS_start"/>
-            <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0032__main__d4e5249">li</del>
-            <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0032__main__d4e5252">illuminated</del> lighted the dungeon <lb n="c57-0032__main__11"/>of the unfortunate<seg xml:id="C20_app98-fMS_end"/>
-            <seg xml:id="C20_app99-fMS_start"/>Mahometan, who<seg xml:id="C20_app99-fMS_end"/>
-            <lb n="c57-0032__main__12"/>loaded with <seg xml:id="C20_app101-fMS_start"/>chains<seg xml:id="C20_app101-fMS_end"/>waited in despair <lb n="c57-0032__main__13"/>the execution of the barbarous <seg xml:id="C20_app103-fMS_start"/>
-            <w ana="start"/>sen<lb n="c57-0032__main__14"/>tence<w ana="end"/>.<seg xml:id="C20_app103-fMS_end"/>Felix visited the grate at <seg xml:id="C20_app105-fMS_start"/>night <lb n="c57-0032__main__15"/>
-            <del rend="strikethrough" xml:id="c57-0032__main__d4e5270">h</del>
-            <seg xml:id="C20_app105-fMS_end"/>and made know<sga-add place="sublinear" th:sID="c57-0032__main__d4e5273"/>n <sga-add th:eID="c57-0032__main__d4e5273"/>to the prisoner his <lb n="c57-0032__main__16"/>intentions in his favour. The <seg xml:id="C20_app108-fMS_start"/>Turk<seg xml:id="C20_app108-fMS_end"/>
-            <lb n="c57-0032__main__17"/>amazed and <seg xml:id="C20_app110-fMS_start"/>delighted<seg xml:id="C20_app110-fMS_end"/>endeavoured to <seg xml:id="C20_app112-fMS_start"/>
+            <lb xmlns="" n="c57-0032__main__10"/>which
+        <seg th:eID="C20_app97-fMS"/>
+            <seg th:sID="C20_app98-fMS"/>
+            <del xmlns=""
+                 instant="true"
+                 rend="strikethrough"
+                 xml:id="c57-0032__main__d4e5249">li</del>
+            <del xmlns=""
+                 instant="true"
+                 rend="strikethrough"
+                 xml:id="c57-0032__main__d4e5252">illuminated</del> lighted the dungeon <lb xmlns="" n="c57-0032__main__11"/>of the unfortunate
+        <seg th:eID="C20_app98-fMS"/>
+            <seg th:sID="C20_app99-fMS"/>
+        Mahometan, who
+        <seg th:eID="C20_app99-fMS"/>
+            <lb xmlns="" n="c57-0032__main__12"/>loaded with 
+        <seg th:sID="C20_app101-fMS"/>
+        chains
+        <seg th:eID="C20_app101-fMS"/>
+    waited in despair <lb xmlns="" n="c57-0032__main__13"/>the execution of the barbarous 
+        <seg th:sID="C20_app103-fMS"/>
+            <w xmlns="" ana="start"/>sen<lb xmlns="" n="c57-0032__main__14"/>tence<w xmlns="" ana="end"/>.
+        <seg th:eID="C20_app103-fMS"/>
+    Felix visited the grate at 
+        <seg th:sID="C20_app105-fMS"/>
+        night <lb xmlns="" n="c57-0032__main__15"/>
+            <del xmlns="" rend="strikethrough" xml:id="c57-0032__main__d4e5270">h</del>
+            <seg th:eID="C20_app105-fMS"/>
+    and made know<sga-add place="sublinear" th:sID="c57-0032__main__d4e5273"/>n <sga-add th:eID="c57-0032__main__d4e5273"/>to the prisoner his <lb xmlns="" n="c57-0032__main__16"/>intentions in his favour. The 
+        <seg th:sID="C20_app108-fMS"/>
+        Turk
+        <seg th:eID="C20_app108-fMS"/>
+            <lb xmlns="" n="c57-0032__main__17"/>amazed and 
+        <seg th:sID="C20_app110-fMS"/>
+        delighted
+        <seg th:eID="C20_app110-fMS"/>
+    endeavoured to 
+        <seg th:sID="C20_app112-fMS"/>
             <mod th:sID="c57-0032__main__d4e5281"/>
-            <del rend="strikethrough" xml:id="c57-0032__main__d4e5283">warm</del>
-            <anchor xml:id="c57-0032.05"/>
-            <lb n="c57-0032__left_margin__1"/>
+            <del xmlns="" rend="strikethrough" xml:id="c57-0032__main__d4e5283">warm</del>
+            <anchor xmlns="" xml:id="c57-0032.05"/>
+            <lb xmlns="" n="c57-0032__left_margin__1"/>
             <sga-add hand="#pbs" th:sID="c57-0032__left_margin__d4e5292"/>kindle <sga-add th:eID="c57-0032__left_margin__d4e5292"/>
             <mod th:eID="c57-0032__main__d4e5281"/>
-            <lb n="c57-0032__main__18"/>the zeal of his<seg xml:id="C20_app112-fMS_end"/>
-            <seg xml:id="C20_app113-fMS_start"/>
-            <del rend="strikethrough" xml:id="c57-0032__main__d4e5299">promised</del> deliverer by <lb n="c57-0032__main__19"/>promises of reward &amp; wealth. Felix rejected <lb n="c57-0032__main__20"/>his offers with<seg xml:id="C20_app113-fMS_end"/>
-            <seg xml:id="C20_app114-fMS_start"/>contempt<seg xml:id="C20_app114-fMS_end"/>Yet when he <lb n="c57-0032__main__21"/>saw the lovely <seg xml:id="C20_app116-fMS_start"/>Safie<seg xml:id="C20_app116-fMS_end"/>who was allowed <lb n="c57-0032__main__22"/>to visit her <seg xml:id="C20_app118-fMS_start"/>father<seg xml:id="C20_app118-fMS_end"/>&amp; <seg xml:id="C20_app120-fMS_start"/>who<seg xml:id="C20_app120-fMS_end"/>by her <seg xml:id="C20_app122-fMS_start"/>
-            <del rend="strikethrough" xml:id="c57-0032__main__d4e5311">expressive</del>
-            <lb n="c57-0032__main__23"/>gestures<seg xml:id="C20_app122-fMS_end"/>expressed her lively gratitude, the <lb n="c57-0032__main__24"/>youth could not help owning to his own <seg xml:id="C20_app124-fMS_start"/>
-            <lb n="c57-0032__main__25"/>mind<seg xml:id="C20_app124-fMS_end"/>that the captive possessed a <lb n="c57-0032__main__26"/>treasure which <seg xml:id="C20_app126-fMS_start"/>
+            <lb xmlns="" n="c57-0032__main__18"/>the zeal of his
+        <seg th:eID="C20_app112-fMS"/>
+            <seg th:sID="C20_app113-fMS"/>
+            <del xmlns="" rend="strikethrough" xml:id="c57-0032__main__d4e5299">promised</del> deliverer by <lb xmlns="" n="c57-0032__main__19"/>promises of reward &amp; wealth. Felix rejected <lb xmlns="" n="c57-0032__main__20"/>his offers with
+        <seg th:eID="C20_app113-fMS"/>
+            <seg th:sID="C20_app114-fMS"/>
+        contempt
+        <seg th:eID="C20_app114-fMS"/>
+    Yet when he <lb xmlns="" n="c57-0032__main__21"/>saw the lovely 
+        <seg th:sID="C20_app116-fMS"/>
+        Safie
+        <seg th:eID="C20_app116-fMS"/>
+    who was allowed <lb xmlns="" n="c57-0032__main__22"/>to visit her 
+        <seg th:sID="C20_app118-fMS"/>
+        father
+        <seg th:eID="C20_app118-fMS"/>
+    &amp; 
+        <seg th:sID="C20_app120-fMS"/>
+        who
+        <seg th:eID="C20_app120-fMS"/>
+    by her 
+        <seg th:sID="C20_app122-fMS"/>
+            <del xmlns="" rend="strikethrough" xml:id="c57-0032__main__d4e5311">expressive</del>
+            <lb xmlns="" n="c57-0032__main__23"/>gestures
+        <seg th:eID="C20_app122-fMS"/>
+    expressed her lively gratitude, the <lb xmlns="" n="c57-0032__main__24"/>youth could not help owning to his own 
+        <seg th:sID="C20_app124-fMS"/>
+            <lb xmlns="" n="c57-0032__main__25"/>mind
+        <seg th:eID="C20_app124-fMS"/>
+    that the captive possessed a <lb xmlns="" n="c57-0032__main__26"/>treasure which 
+        <seg th:sID="C20_app126-fMS"/>
             <mod th:sID="c57-0032__main__d4e5323"/>
             <sga-add place="sublinear" th:sID="c57-0032__main__d4e5325"/>
-            <metamark function="insert">^</metamark>
+            <metamark xmlns="" function="insert">^</metamark>
             <sga-add th:eID="c57-0032__main__d4e5325"/>
-            <del rend="strikethrough" xml:id="c57-0032__main__d4e5331">
-               <sga-add hand="#pbs" place="superlinear" th:sID="c57-0032__main__d4e5333"/>altho it had not en <sga-add th:eID="c57-0032__main__d4e5333"/>
+            <del xmlns="" rend="strikethrough" xml:id="c57-0032__main__d4e5331">
+               <sga-add xmlns="http://www.tei-c.org/ns/1.0"
+                        hand="#pbs"
+                        place="superlinear"
+                        th:sID="c57-0032__main__d4e5333"/>altho it had not en <sga-add xmlns="http://www.tei-c.org/ns/1.0" th:eID="c57-0032__main__d4e5333"/>
             </del>
-            <mod th:eID="c57-0032__main__d4e5323"/> would fully reward his <lb n="c57-0032__main__27"/>toil &amp; hazard. <milestone unit="tei:p-END"/>
-            <milestone unit="tei:p-START"/>
-            <seg xml:id="C20_app126-fMS_end"/>
-            <seg xml:id="C20_app127-fMS_start"/>
-            <lb n="c57-0032__main__28"/>The<seg xml:id="C20_app127-fMS_end"/>Turk quickly perceived the <w ana="start"/>im<lb n="c57-0032__main__29"/>pression<w ana="end"/> that his daughter had made on<lb n="c57-0033__main__1"/>
-            <seg xml:id="C20_app129-fMS_start"/>heart of Felix <del rend="strikethrough" xml:id="c57-0033__main__d4e5361">and resolved to obtain</del>
-            <delSpan spanTo="#c57-0033.01"/>his <lb n="c57-0033__main__2"/> at any price the full zeal <delSpan anchor="c57-0033.01"/>
-            <seg xml:id="C20_app129-fMS_end"/>and <seg xml:id="C20_app131-fMS_start"/>
+            <mod th:eID="c57-0032__main__d4e5323"/> would fully reward his <lb xmlns="" n="c57-0032__main__27"/>toil &amp; hazard. <milestone xmlns="" unit="tei:p-END"/>
+            <milestone xmlns="" unit="tei:p-START"/>
+            <seg th:eID="C20_app126-fMS"/>
+            <seg th:sID="C20_app127-fMS"/>
+            <lb xmlns="" n="c57-0032__main__28"/>The
+        <seg th:eID="C20_app127-fMS"/>
+    Turk quickly perceived the <w xmlns="" ana="start"/>im<lb xmlns="" n="c57-0032__main__29"/>pression<w xmlns="" ana="end"/> that his daughter had made on<lb xmlns="" n="c57-0033__main__1"/>
+            <seg th:sID="C20_app129-fMS"/>
+        heart of Felix <del xmlns="" rend="strikethrough" xml:id="c57-0033__main__d4e5361">and resolved to obtain</del>
+            <delSpan xmlns="" spanTo="#c57-0033.01"/>his <lb xmlns="" n="c57-0033__main__2"/> at any price the full zeal <delSpan xmlns="" anchor="c57-0033.01"/>
+            <seg th:eID="C20_app129-fMS"/>
+    and 
+        <seg th:sID="C20_app131-fMS"/>
             <mod th:sID="c57-0033__main__d4e5371"/>
-            <del rend="strikethrough" xml:id="c57-0033__main__d4e5373">re <mod th:sID="c57-0033__main__d4e5375"/>
+            <del xmlns="" rend="strikethrough" xml:id="c57-0033__main__d4e5373">re <mod xmlns="http://www.tei-c.org/ns/1.0" th:sID="c57-0033__main__d4e5375"/>
                <mdel/>
-               <sga-add place="intralinear" th:sID="c57-0033__main__d4e5382"/>s <sga-add th:eID="c57-0033__main__d4e5382"/>
-               <mod th:eID="c57-0033__main__d4e5375"/> olved</del>
-            <anchor xml:id="c57-0033.02"/>
-            <lb n="c57-0033__left_margin__1"/>
-            <sga-add th:sID="c57-0033__left_margin__d4e5393"/>endeavored<seg xml:id="C20_app131-fMS_end"/>
+               <sga-add xmlns="http://www.tei-c.org/ns/1.0"
+                        place="intralinear"
+                        th:sID="c57-0033__main__d4e5382"/>s <sga-add xmlns="http://www.tei-c.org/ns/1.0" th:eID="c57-0033__main__d4e5382"/>
+               <mod xmlns="http://www.tei-c.org/ns/1.0" th:eID="c57-0033__main__d4e5375"/> olved</del>
+            <anchor xmlns="" xml:id="c57-0033.02"/>
+            <lb xmlns="" n="c57-0033__left_margin__1"/>
+            <sga-add th:sID="c57-0033__left_margin__d4e5393"/>endeavored
+        <seg th:eID="C20_app131-fMS"/>
             <sga-add th:eID="c57-0033__left_margin__d4e5393"/>
             <mod th:eID="c57-0033__main__d4e5371"/>
-            <lb n="c57-0033__main__3"/>to secure <seg xml:id="C20_app133-fMS_start"/>
-            <del rend="strikethrough" xml:id="c57-0033__main__d4e5399">the</del>
-            <del rend="strikethrough" xml:id="c57-0033__main__d4e5402">interrest</del> him<seg xml:id="C20_app133-fMS_end"/>
-            <seg xml:id="C20_app134-fMS_start"/>
+            <lb xmlns="" n="c57-0033__main__3"/>to secure 
+        <seg th:sID="C20_app133-fMS"/>
+            <del xmlns="" rend="strikethrough" xml:id="c57-0033__main__d4e5399">the</del>
+            <del xmlns="" rend="strikethrough" xml:id="c57-0033__main__d4e5402">interrest</del> him
+        <seg th:eID="C20_app133-fMS"/>
+            <seg th:sID="C20_app134-fMS"/>
             <mod th:sID="c57-0033__main__d4e5405"/>
-            <del rend="strikethrough" xml:id="c57-0033__main__d4e5407">at any pr</del>
+            <del xmlns="" rend="strikethrough" xml:id="c57-0033__main__d4e5407">at any pr</del>
             <sga-add place="sublinear" th:sID="c57-0033__main__d4e5410"/>
-            <metamark function="insert">^</metamark>
+            <metamark xmlns="" function="insert">^</metamark>
             <sga-add th:eID="c57-0033__main__d4e5410"/>
             <sga-add place="superlinear" th:sID="c57-0033__main__d4e5416"/>more entirely<sga-add th:eID="c57-0033__main__d4e5416"/>
             <mod th:eID="c57-0033__main__d4e5405"/>
-            <seg xml:id="C20_app134-fMS_end"/>by <lb n="c57-0033__main__4"/>the promise of her hand in <seg xml:id="C20_app137-fMS_start"/>marriage;<seg xml:id="C20_app137-fMS_end"/>
-            <lb n="c57-0033__main__5"/>Felix was too delicate to accept <seg xml:id="C20_app139-fMS_start"/>
+            <seg th:eID="C20_app134-fMS"/>
+    by <lb xmlns="" n="c57-0033__main__4"/>the promise of her hand in 
+        <seg th:sID="C20_app137-fMS"/>
+        marriage;
+        <seg th:eID="C20_app137-fMS"/>
+            <lb xmlns="" n="c57-0033__main__5"/>Felix was too delicate to accept 
+        <seg th:sID="C20_app139-fMS"/>
             <mod th:sID="c57-0033__main__d4e5425"/>
-            <del rend="strikethrough" xml:id="c57-0033__main__d4e5427">
-               <sga-add hand="#pbs" place="superlinear" th:sID="c57-0033__main__d4e5429"/>offer <sga-add th:eID="c57-0033__main__d4e5429"/>
+            <del xmlns="" rend="strikethrough" xml:id="c57-0033__main__d4e5427">
+               <sga-add xmlns="http://www.tei-c.org/ns/1.0"
+                        hand="#pbs"
+                        place="superlinear"
+                        th:sID="c57-0033__main__d4e5429"/>offer <sga-add xmlns="http://www.tei-c.org/ns/1.0" th:eID="c57-0033__main__d4e5429"/>
             </del>
-            <restore type="smear_strikethrough"> </restore>
+            <restore xmlns="" type="smear_strikethrough"> </restore>
             <sga-add hand="#pbs" place="superlinear" th:sID="c57-0033__main__d4e5439"/>offer <sga-add th:eID="c57-0033__main__d4e5439"/>
-            <mod th:eID="c57-0033__main__d4e5425"/> yet <lb n="c57-0033__main__6"/>he looked forward to the probability of <lb n="c57-0033__main__7"/>that event as the consummation of <lb n="c57-0033__main__8"/>his happiness. <milestone unit="tei:p-END"/>
-            <milestone unit="tei:p-START"/>
-            <lb n="c57-0033__main__9"/>The Turk informed Safie of his <lb n="c57-0033__main__10"/>intentions and <lb n="c57-0033__main__11"/>
-            <metamark function="separate">_________________________</metamark>
-            <lb n="c57-0033__main__12"/> and rank <mod th:sID="c57-0033__main__d4e5463"/>
-            <del rend="strikethrough" xml:id="c57-0033__main__d4e5465">her father</del>
+            <mod th:eID="c57-0033__main__d4e5425"/> yet <lb xmlns="" n="c57-0033__main__6"/>he looked forward to the probability of <lb xmlns="" n="c57-0033__main__7"/>that event as the consummation of <lb xmlns="" n="c57-0033__main__8"/>his happiness. <milestone xmlns="" unit="tei:p-END"/>
+            <milestone xmlns="" unit="tei:p-START"/>
+            <lb xmlns="" n="c57-0033__main__9"/>The Turk informed Safie of his <lb xmlns="" n="c57-0033__main__10"/>intentions and <lb xmlns="" n="c57-0033__main__11"/>
+            <metamark xmlns="" function="separate">_________________________</metamark>
+            <lb xmlns="" n="c57-0033__main__12"/> and rank <mod th:sID="c57-0033__main__d4e5463"/>
+            <del xmlns="" rend="strikethrough" xml:id="c57-0033__main__d4e5465">her father</del>
             <sga-add place="superlinear" th:sID="c57-0033__main__d4e5468"/>the merchant <sga-add th:eID="c57-0033__main__d4e5468"/>
-            <mod th:eID="c57-0033__main__d4e5463"/> commander <lb n="c57-0033__main__13"/>
+            <mod th:eID="c57-0033__main__d4e5463"/> commander <lb xmlns="" n="c57-0033__main__13"/>
             <mod th:sID="c57-0033__main__d4e5475"/>
-            <del rend="strikethrough" xml:id="c57-0033__main__d4e5477">her</del>
+            <del xmlns="" rend="strikethrough" xml:id="c57-0033__main__d4e5477">her</del>
             <sga-add place="superlinear" th:sID="c57-0033__main__d4e5480"/>his daughter<sga-add th:eID="c57-0033__main__d4e5480"/>
             <mod th:eID="c57-0033__main__d4e5475"/>
-            <seg xml:id="C20_app139-fMS_end"/>to think no more of<mod th:sID="c57-0033__main__d4e5484"/>
-            <seg xml:id="C20_app174-fMS_start"/>
-            <del rend="strikethrough" xml:id="c57-0033__main__d4e5486">him</del>
-            <sga-add place="superlinear" th:sID="c57-0033__main__d4e5489"/>her<seg xml:id="C20_app174-fMS_end"/>
-            <seg xml:id="C20_app175-fMS_start"/>lover<sga-add th:eID="c57-0033__main__d4e5489"/>
-            <mod th:eID="c57-0033__main__d4e5484"/> but to <lb n="c57-0033__main__14"/>repare to return to her native country <lb n="c57-0033__main__15"/>with him.–<seg xml:id="C20_app175-fMS_end"/>The generous nature of Safie <lb n="c57-0033__main__16"/>was outraged by this <seg xml:id="C20_app177-fMS_start"/>command –She<seg xml:id="C20_app177-fMS_end"/>
-            <w ana="start"/>attempt<lb n="c57-0033__main__17"/>ed<w ana="end"/> to expostulate with her <seg xml:id="C20_app179-fMS_start"/>father<seg xml:id="C20_app179-fMS_end"/>but <lb n="c57-0033__main__18"/>he left <seg xml:id="C20_app181-fMS_start"/>
-            <del rend="strikethrough" xml:id="c57-0033__main__d4e5508">er</del> her<seg xml:id="C20_app181-fMS_end"/>
-            <seg xml:id="C20_app182-fMS_start"/>angrily <del rend="strikethrough" xml:id="c57-0033__main__d4e5511">re</del>
-            <seg xml:id="C20_app182-fMS_end"/>reiterating his <lb n="c57-0033__main__19"/>tyrannical <seg xml:id="C20_app184-fMS_start"/>
-            <shi rend="underline">command.</shi>
-            <del rend="strikethrough" xml:id="c57-0033__main__d4e5520">orders.</del>
-            <seg xml:id="C20_app184-fMS_end"/>
-            <seg xml:id="C20_app185-fMS_start"/>
-            <milestone unit="tei:p-END"/>
-            <milestone unit="tei:p-START"/>
-            <seg xml:id="C20_app185-fMS_end"/>
-            <seg xml:id="C20_app186-fMS_start"/>
-            <lb n="c57-0033__main__20"/>A<seg xml:id="C20_app186-fMS_end"/>few days <seg xml:id="C20_app188-fMS_start"/>after<seg xml:id="C20_app188-fMS_end"/>the Turk entered <lb n="c57-0033__main__21"/>his <seg xml:id="C20_app190-fMS_start"/>daughters appartment<seg xml:id="C20_app190-fMS_end"/>and told her <seg xml:id="C20_app192-fMS_start"/>
-            <lb n="c57-0033__main__22"/>hastily<seg xml:id="C20_app192-fMS_end"/>that he had reason to believe <lb n="c57-0033__main__23"/>that his residence <seg xml:id="C20_app194-fMS_start"/>in<seg xml:id="C20_app194-fMS_end"/>Leghorn had been <seg xml:id="C20_app196-fMS_start"/>
-            <lb n="c57-0033__main__24"/>divulged<seg xml:id="C20_app196-fMS_end"/>and that he <seg xml:id="C20_app198-fMS_start"/>
+            <seg th:eID="C20_app139-fMS"/>
+    to think no more of<mod th:sID="c57-0033__main__d4e5484"/>
+            <seg th:sID="C20_app174-fMS"/>
+            <del xmlns="" rend="strikethrough" xml:id="c57-0033__main__d4e5486">him</del>
+            <sga-add place="superlinear" th:sID="c57-0033__main__d4e5489"/>her
+        <seg th:eID="C20_app174-fMS"/>
+            <seg th:sID="C20_app175-fMS"/>
+        lover<sga-add th:eID="c57-0033__main__d4e5489"/>
+            <mod th:eID="c57-0033__main__d4e5484"/> but to <lb xmlns="" n="c57-0033__main__14"/>repare to return to her native country <lb xmlns="" n="c57-0033__main__15"/>with him.–
+        <seg th:eID="C20_app175-fMS"/>
+    The generous nature of Safie <lb xmlns="" n="c57-0033__main__16"/>was outraged by this 
+        <seg th:sID="C20_app177-fMS"/>
+        command –She
+        <seg th:eID="C20_app177-fMS"/>
+            <w xmlns="" ana="start"/>attempt<lb xmlns="" n="c57-0033__main__17"/>ed<w xmlns="" ana="end"/> to expostulate with her 
+        <seg th:sID="C20_app179-fMS"/>
+        father
+        <seg th:eID="C20_app179-fMS"/>
+    but <lb xmlns="" n="c57-0033__main__18"/>he left 
+        <seg th:sID="C20_app181-fMS"/>
+            <del xmlns="" rend="strikethrough" xml:id="c57-0033__main__d4e5508">er</del> her
+        <seg th:eID="C20_app181-fMS"/>
+            <seg th:sID="C20_app182-fMS"/>
+        angrily <del xmlns="" rend="strikethrough" xml:id="c57-0033__main__d4e5511">re</del>
+            <seg th:eID="C20_app182-fMS"/>
+    reiterating his <lb xmlns="" n="c57-0033__main__19"/>tyrannical 
+        <seg th:sID="C20_app184-fMS"/>
+            <shi xmlns="" rend="underline">command.</shi>
+            <del xmlns="" rend="strikethrough" xml:id="c57-0033__main__d4e5520">orders.</del>
+            <seg th:eID="C20_app184-fMS"/>
+            <seg th:sID="C20_app185-fMS"/>
+            <milestone xmlns="" unit="tei:p-END"/>
+            <milestone xmlns="" unit="tei:p-START"/>
+            <seg th:eID="C20_app185-fMS"/>
+            <seg th:sID="C20_app186-fMS"/>
+            <lb xmlns="" n="c57-0033__main__20"/>A
+        <seg th:eID="C20_app186-fMS"/>
+    few days 
+        <seg th:sID="C20_app188-fMS"/>
+        after
+        <seg th:eID="C20_app188-fMS"/>
+    the Turk entered <lb xmlns="" n="c57-0033__main__21"/>his 
+        <seg th:sID="C20_app190-fMS"/>
+        daughters appartment
+        <seg th:eID="C20_app190-fMS"/>
+    and told her 
+        <seg th:sID="C20_app192-fMS"/>
+            <lb xmlns="" n="c57-0033__main__22"/>hastily
+        <seg th:eID="C20_app192-fMS"/>
+    that he had reason to believe <lb xmlns="" n="c57-0033__main__23"/>that his residence 
+        <seg th:sID="C20_app194-fMS"/>
+        in
+        <seg th:eID="C20_app194-fMS"/>
+    Leghorn had been 
+        <seg th:sID="C20_app196-fMS"/>
+            <lb xmlns="" n="c57-0033__main__24"/>divulged
+        <seg th:eID="C20_app196-fMS"/>
+    and that he 
+        <seg th:sID="C20_app198-fMS"/>
             <mod th:sID="c57-0033__main__d4e5536"/>
-            <del rend="strikethrough" xml:id="c57-0033__main__d4e5538">would</del>
+            <del xmlns="" rend="strikethrough" xml:id="c57-0033__main__d4e5538">would</del>
             <sga-add place="superlinear" th:sID="c57-0033__main__d4e5541"/>
-            <del rend="strikethrough" xml:id="c57-0033__main__d4e5543">was</del> should<seg xml:id="C20_app198-fMS_end"/>
-            <seg xml:id="C20_app199-fMS_start"/>
+            <del xmlns="" rend="strikethrough" xml:id="c57-0033__main__d4e5543">was</del> should
+        <seg th:eID="C20_app198-fMS"/>
+            <seg th:sID="C20_app199-fMS"/>
             <sga-add th:eID="c57-0033__main__d4e5541"/>
-            <mdel>b</mdel>
-            <mod th:eID="c57-0033__main__d4e5536"/> speedily <lb n="c57-0033__main__25"/>be delivered<seg xml:id="C20_app199-fMS_end"/>
-            <seg xml:id="C20_app200-fMS_start"/>
+            <mdel xmlns="">b</mdel>
+            <mod th:eID="c57-0033__main__d4e5536"/> speedily <lb xmlns="" n="c57-0033__main__25"/>be delivered
+        <seg th:eID="C20_app199-fMS"/>
+            <seg th:sID="C20_app200-fMS"/>
             <mod th:sID="c57-0033__main__d4e5552"/>
             <sga-add place="sublinear" th:sID="c57-0033__main__d4e5554"/>
-            <metamark function="insert">^</metamark>
+            <metamark xmlns="" function="insert">^</metamark>
             <sga-add th:eID="c57-0033__main__d4e5554"/>
-            <sga-add hand="#pbs" place="superlinear" th:sID="c57-0033__main__d4e5560"/>up<seg xml:id="C20_app200-fMS_end"/>
+            <sga-add hand="#pbs" place="superlinear" th:sID="c57-0033__main__d4e5560"/>up
+        <seg th:eID="C20_app200-fMS"/>
             <sga-add th:eID="c57-0033__main__d4e5560"/>
-            <mod th:eID="c57-0033__main__d4e5552"/>to the French <seg xml:id="C20_app202-fMS_start"/>Government– <lb n="c57-0033__main__26"/>
-            <delSpan rend="strikethrough" spanTo="#c57-0033.04"/>He had just heard of a small vessel <lb n="c57-0033__main__27"/>bound for Constantinople which <delSpan anchor="c57-0033.04"/>He had <lb n="c57-0033__main__28"/>consequently hired a vessel to convey him <zone th:eID="c57-0033__main"/>
-            <surface th:eID="ox-ms_abinger_c57-0033"/>&lt;surface lrx="5368" lry="7104" partOf="ox-frankenstein_notebook_b.xml#ox-frankenstein_volume_ii" ulx="0" uly="0" folio="17v" shelfmark="MS. Abinger c. 57" base="ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml" id="ox-ms_abinger_c57-0034" sID="ox-ms_abinger_c57-0034"/&gt;&lt;graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0034.jp2"/&gt;<zone type="main" th:sID="c57-0034__main"/>
-            <lb n="c57-0034__main__1"/>to <del rend="strikethrough" xml:id="c57-0034__main__d4e5585">Can</del> Constantinople <mod th:sID="c57-0034__main__d4e5588"/>
-            <mdel>in</mdel>
-            <seg xml:id="C20_app202-fMS_end"/>
+            <mod th:eID="c57-0033__main__d4e5552"/>to the French 
+        <seg th:sID="C20_app202-fMS"/>
+        Government– <lb xmlns="" n="c57-0033__main__26"/>
+            <delSpan xmlns="" rend="strikethrough" spanTo="#c57-0033.04"/>He had just heard of a small vessel <lb xmlns="" n="c57-0033__main__27"/>bound for Constantinople which <delSpan xmlns="" anchor="c57-0033.04"/>He had <lb xmlns="" n="c57-0033__main__28"/>consequently hired a vessel to convey him <zone th:eID="c57-0033__main"/>
+            <surface th:eID="ox-ms_abinger_c57-0033"/>
+            <surface lrx="5368"
+                     lry="7104"
+                     partOf="ox-frankenstein_notebook_b.xml#ox-frankenstein_volume_ii"
+                     ulx="0"
+                     uly="0"
+                     folio="17v"
+                     shelfmark="MS. Abinger c. 57"
+                     base="ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml"
+                     id="ox-ms_abinger_c57-0034"
+                     th:sID="ox-ms_abinger_c57-0034"/>
+            <graphic xmlns=""
+                     url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0034.jp2"/>
+            <zone type="main" th:sID="c57-0034__main"/>
+            <lb xmlns="" n="c57-0034__main__1"/>to <del xmlns="" rend="strikethrough" xml:id="c57-0034__main__d4e5585">Can</del> Constantinople <mod th:sID="c57-0034__main__d4e5588"/>
+            <mdel xmlns="">in</mdel>
+            <seg th:eID="C20_app202-fMS"/>
             <sga-add hand="#pbs" place="superlinear" th:sID="c57-0034__main__d4e5592"/>for <sga-add th:eID="c57-0034__main__d4e5592"/>
-            <mod th:eID="c57-0034__main__d4e5588"/>which <sga-add hand="#pbs" place="superlinear" th:sID="c57-0034__main__d4e5596"/>city <sga-add th:eID="c57-0034__main__d4e5596"/>he should <lb n="c57-0034__main__2"/>sail in few hours. He intended to leave his <lb n="c57-0034__main__3"/>daughter <seg xml:id="C20_app208-fMS_start"/>
-            <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0034__main__d4e5604">to foll</del> under the care of a<seg xml:id="C20_app208-fMS_end"/>
-            <seg xml:id="C20_app209-fMS_start"/>servant<seg xml:id="C20_app209-fMS_end"/>
-            <lb n="c57-0034__main__4"/>to follow at her leisure with the greater part <lb n="c57-0034__main__5"/>of his <seg xml:id="C20_app211-fMS_start"/>property<seg xml:id="C20_app211-fMS_end"/>which had not yet arrived <lb n="c57-0034__main__6"/>at Leghorn. <milestone unit="tei:p-END"/>
-            <milestone unit="tei:p-START"/>
-            <seg xml:id="C20_app213-fMS_start"/>
-            <lb n="c57-0034__main__7"/>
-            <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0034__main__d4e5618">Lef</del>
-            <del rend="strikethrough" xml:id="c57-0034__main__d4e5621">Deserted by her father</del>
-            <seg xml:id="C20_app213-fMS_end"/>Safie <seg xml:id="C20_app215-fMS_start"/>revolved<seg xml:id="C20_app215-fMS_end"/>
-            <lb n="c57-0034__main__8"/>in her own mind the <seg xml:id="C20_app217-fMS_start"/>
-            <del rend="strikethrough" xml:id="c57-0034__main__d4e5626">various</del> plan<seg xml:id="C20_app217-fMS_end"/>
-            <seg xml:id="C20_app218-fMS_start"/>
-            <del rend="strikethrough" xml:id="c57-0034__main__d4e5629">s</del> of <w ana="start"/>con<lb n="c57-0034__main__9"/>duct<w ana="end"/> that it would become her to pursue <lb n="c57-0034__main__10"/>
-            <sga-add place="superlinear" th:sID="c57-0034__main__d4e5641"/>in this emergency.<seg xml:id="C20_app218-fMS_end"/>
-            <seg xml:id="C20_app219-fMS_start"/>
+            <mod th:eID="c57-0034__main__d4e5588"/>which <sga-add hand="#pbs" place="superlinear" th:sID="c57-0034__main__d4e5596"/>city <sga-add th:eID="c57-0034__main__d4e5596"/>he should <lb xmlns="" n="c57-0034__main__2"/>sail in few hours. He intended to leave his <lb xmlns="" n="c57-0034__main__3"/>daughter 
+        <seg th:sID="C20_app208-fMS"/>
+            <del xmlns=""
+                 instant="true"
+                 rend="strikethrough"
+                 xml:id="c57-0034__main__d4e5604">to foll</del> under the care of a
+        <seg th:eID="C20_app208-fMS"/>
+            <seg th:sID="C20_app209-fMS"/>
+        servant
+        <seg th:eID="C20_app209-fMS"/>
+            <lb xmlns="" n="c57-0034__main__4"/>to follow at her leisure with the greater part <lb xmlns="" n="c57-0034__main__5"/>of his 
+        <seg th:sID="C20_app211-fMS"/>
+        property
+        <seg th:eID="C20_app211-fMS"/>
+    which had not yet arrived <lb xmlns="" n="c57-0034__main__6"/>at Leghorn. <milestone xmlns="" unit="tei:p-END"/>
+            <milestone xmlns="" unit="tei:p-START"/>
+            <seg th:sID="C20_app213-fMS"/>
+            <lb xmlns="" n="c57-0034__main__7"/>
+            <del xmlns=""
+                 instant="true"
+                 rend="strikethrough"
+                 xml:id="c57-0034__main__d4e5618">Lef</del>
+            <del xmlns="" rend="strikethrough" xml:id="c57-0034__main__d4e5621">Deserted by her father</del>
+            <seg th:eID="C20_app213-fMS"/>
+    Safie 
+        <seg th:sID="C20_app215-fMS"/>
+        revolved
+        <seg th:eID="C20_app215-fMS"/>
+            <lb xmlns="" n="c57-0034__main__8"/>in her own mind the 
+        <seg th:sID="C20_app217-fMS"/>
+            <del xmlns="" rend="strikethrough" xml:id="c57-0034__main__d4e5626">various</del> plan
+        <seg th:eID="C20_app217-fMS"/>
+            <seg th:sID="C20_app218-fMS"/>
+            <del xmlns="" rend="strikethrough" xml:id="c57-0034__main__d4e5629">s</del> of <w xmlns="" ana="start"/>con<lb xmlns="" n="c57-0034__main__9"/>duct<w xmlns="" ana="end"/> that it would become her to pursue <lb xmlns="" n="c57-0034__main__10"/>
+            <sga-add place="superlinear" th:sID="c57-0034__main__d4e5641"/>in this emergency.
+        <seg th:eID="C20_app218-fMS"/>
+            <seg th:sID="C20_app219-fMS"/>
             <sga-add th:eID="c57-0034__main__d4e5641"/>
-            <del rend="strikethrough" xml:id="c57-0034__main__d4e5644">The slavery</del> A residence in Turkey was <w ana="start"/>ab<lb n="c57-0034__main__11"/>horrent<w ana="end"/> to<seg xml:id="C20_app219-fMS_end"/>
-            <seg xml:id="C20_app220-fMS_start"/>her –<seg xml:id="C20_app220-fMS_end"/>her religion &amp; feelings were <lb n="c57-0034__main__12"/>alike adverse to it. By some papers <seg xml:id="C20_app224-fMS_start"/>
-            <del rend="strikethrough" xml:id="c57-0034__main__d4e5656">that</del>
-            <lb n="c57-0034__main__13"/>of her<seg xml:id="C20_app224-fMS_end"/>
-            <seg xml:id="C20_app225-fMS_start"/>fathers that<seg xml:id="C20_app225-fMS_end"/>fell into her <seg xml:id="C20_app227-fMS_start"/>hands<seg xml:id="C20_app227-fMS_end"/>she <lb n="c57-0034__main__14"/>heard of the exile of her <seg xml:id="C20_app229-fMS_start"/>lover<seg xml:id="C20_app229-fMS_end"/>and <seg xml:id="C20_app231-fMS_start"/>
-            <del rend="strikethrough" xml:id="c57-0034__main__d4e5664">the</del>
-            <lb n="c57-0034__main__15"/>learnt the name of the spot where <lb n="c57-0034__main__16"/>he<seg xml:id="C20_app231-fMS_end"/>resided. She hesitated some <seg xml:id="C20_app233-fMS_start"/>time<seg xml:id="C20_app233-fMS_end"/>but at <lb n="c57-0034__main__17"/>length she formed her <seg xml:id="C20_app235-fMS_start"/>resolution —Taking<seg xml:id="C20_app235-fMS_end"/>
-            <lb n="c57-0034__main__18"/>with her some jewels that belonged to her, <lb n="c57-0034__main__19"/>and a <seg xml:id="C20_app237-fMS_start"/>small<seg xml:id="C20_app237-fMS_end"/>sum of <seg xml:id="C20_app239-fMS_start"/>money;<seg xml:id="C20_app239-fMS_end"/>she quitted <seg xml:id="C20_app241-fMS_start"/>
-            <lb n="c57-0034__main__20"/>Italy<seg xml:id="C20_app241-fMS_end"/>with <seg xml:id="C20_app243-fMS_start"/>a <sga-add place="intralinear" th:sID="c57-0034__main__d4e5680"/>n <sga-add th:eID="c57-0034__main__d4e5680"/>
-            <del rend="strikethrough" xml:id="c57-0034__main__d4e5683">servant who</del> attendant<seg xml:id="C20_app243-fMS_end"/>a <lb n="c57-0034__main__21"/>native of <seg xml:id="C20_app245-fMS_start"/>Leghorn<seg xml:id="C20_app245-fMS_end"/>but who understood <seg xml:id="C20_app247-fMS_start"/>
-            <delSpan rend="strikethrough" spanTo="#c57-0034.02"/>Tur <lb n="c57-0034__main__22"/>kish <delSpan anchor="c57-0034.02"/>
+            <del xmlns="" rend="strikethrough" xml:id="c57-0034__main__d4e5644">The slavery</del> A residence in Turkey was <w xmlns="" ana="start"/>ab<lb xmlns="" n="c57-0034__main__11"/>horrent<w xmlns="" ana="end"/> to
+        <seg th:eID="C20_app219-fMS"/>
+            <seg th:sID="C20_app220-fMS"/>
+        her –
+        <seg th:eID="C20_app220-fMS"/>
+    her religion &amp; feelings were <lb xmlns="" n="c57-0034__main__12"/>alike adverse to it. By some papers 
+        <seg th:sID="C20_app224-fMS"/>
+            <del xmlns="" rend="strikethrough" xml:id="c57-0034__main__d4e5656">that</del>
+            <lb xmlns="" n="c57-0034__main__13"/>of her
+        <seg th:eID="C20_app224-fMS"/>
+            <seg th:sID="C20_app225-fMS"/>
+        fathers that
+        <seg th:eID="C20_app225-fMS"/>
+    fell into her 
+        <seg th:sID="C20_app227-fMS"/>
+        hands
+        <seg th:eID="C20_app227-fMS"/>
+    she <lb xmlns="" n="c57-0034__main__14"/>heard of the exile of her 
+        <seg th:sID="C20_app229-fMS"/>
+        lover
+        <seg th:eID="C20_app229-fMS"/>
+    and 
+        <seg th:sID="C20_app231-fMS"/>
+            <del xmlns="" rend="strikethrough" xml:id="c57-0034__main__d4e5664">the</del>
+            <lb xmlns="" n="c57-0034__main__15"/>learnt the name of the spot where <lb xmlns="" n="c57-0034__main__16"/>he
+        <seg th:eID="C20_app231-fMS"/>
+    resided. She hesitated some 
+        <seg th:sID="C20_app233-fMS"/>
+        time
+        <seg th:eID="C20_app233-fMS"/>
+    but at <lb xmlns="" n="c57-0034__main__17"/>length she formed her 
+        <seg th:sID="C20_app235-fMS"/>
+        resolution —Taking
+        <seg th:eID="C20_app235-fMS"/>
+            <lb xmlns="" n="c57-0034__main__18"/>with her some jewels that belonged to her, <lb xmlns="" n="c57-0034__main__19"/>and a 
+        <seg th:sID="C20_app237-fMS"/>
+        small
+        <seg th:eID="C20_app237-fMS"/>
+    sum of 
+        <seg th:sID="C20_app239-fMS"/>
+        money;
+        <seg th:eID="C20_app239-fMS"/>
+    she quitted 
+        <seg th:sID="C20_app241-fMS"/>
+            <lb xmlns="" n="c57-0034__main__20"/>Italy
+        <seg th:eID="C20_app241-fMS"/>
+    with 
+        <seg th:sID="C20_app243-fMS"/>
+        a <sga-add place="intralinear" th:sID="c57-0034__main__d4e5680"/>n <sga-add th:eID="c57-0034__main__d4e5680"/>
+            <del xmlns="" rend="strikethrough" xml:id="c57-0034__main__d4e5683">servant who</del> attendant
+        <seg th:eID="C20_app243-fMS"/>
+    a <lb xmlns="" n="c57-0034__main__21"/>native of 
+        <seg th:sID="C20_app245-fMS"/>
+        Leghorn
+        <seg th:eID="C20_app245-fMS"/>
+    but who understood 
+        <seg th:sID="C20_app247-fMS"/>
+            <delSpan xmlns="" rend="strikethrough" spanTo="#c57-0034.02"/>Tur <lb xmlns="" n="c57-0034__main__22"/>kish <delSpan xmlns="" anchor="c57-0034.02"/>
             <sga-add hand="#pbs" place="superlinear" th:sID="c57-0034__main__d4e5695"/>Arabic <sga-add th:eID="c57-0034__main__d4e5695"/>
-            <anchor xml:id="c57-0034.01"/>
-            <seg xml:id="C20_app247-fMS_end"/>and departed for Germany. <seg xml:id="C20_app249-fMS_start"/>She arrived <lb n="c57-0034__main__23"/>
-            <del rend="strikethrough" xml:id="c57-0034__main__d4e5702">safely</del>
-            <seg xml:id="C20_app249-fMS_end"/>in safety at a town about <seg xml:id="C20_app251-fMS_start"/>
+            <anchor xmlns="" xml:id="c57-0034.01"/>
+            <seg th:eID="C20_app247-fMS"/>
+    and departed for Germany. 
+        <seg th:sID="C20_app249-fMS"/>
+        She arrived <lb xmlns="" n="c57-0034__main__23"/>
+            <del xmlns="" rend="strikethrough" xml:id="c57-0034__main__d4e5702">safely</del>
+            <seg th:eID="C20_app249-fMS"/>
+    in safety at a town about 
+        <seg th:sID="C20_app251-fMS"/>
             <mod th:sID="c57-0034__main__d4e5706"/>
-            <mdel>50</mdel>
+            <mdel xmlns="">50</mdel>
             <sga-add place="superlinear" th:sID="c57-0034__main__d4e5710"/>20 <sga-add th:eID="c57-0034__main__d4e5710"/>
             <mod th:eID="c57-0034__main__d4e5706"/>
-            <seg xml:id="C20_app251-fMS_end"/>leagues <lb n="c57-0034__main__24"/>from the Cottage of De <seg xml:id="C20_app253-fMS_start"/>Lacey –<seg xml:id="C20_app253-fMS_end"/>her attendant <seg xml:id="C20_app255-fMS_start"/>
-            <lb n="c57-0034__main__25"/>then fell<seg xml:id="C20_app255-fMS_end"/>
-            <seg xml:id="C20_app256-fMS_start"/>
+            <seg th:eID="C20_app251-fMS"/>
+    leagues <lb xmlns="" n="c57-0034__main__24"/>from the Cottage of De 
+        <seg th:sID="C20_app253-fMS"/>
+        Lacey –
+        <seg th:eID="C20_app253-fMS"/>
+    her attendant 
+        <seg th:sID="C20_app255-fMS"/>
+            <lb xmlns="" n="c57-0034__main__25"/>then fell
+        <seg th:eID="C20_app255-fMS"/>
+            <seg th:sID="C20_app256-fMS"/>
             <mod th:sID="c57-0034__main__d4e5718"/>
             <sga-add place="sublinear" th:sID="c57-0034__main__d4e5720"/>
-            <metamark function="insert">^</metamark>
+            <metamark xmlns="" function="insert">^</metamark>
             <sga-add th:eID="c57-0034__main__d4e5720"/>
-            <sga-add place="superlinear" th:sID="c57-0034__main__d4e5726"/>dangerously<seg xml:id="C20_app256-fMS_end"/>
-            <seg xml:id="C20_app257-fMS_start"/>
+            <sga-add place="superlinear" th:sID="c57-0034__main__d4e5726"/>dangerously
+        <seg th:eID="C20_app256-fMS"/>
+            <seg th:sID="C20_app257-fMS"/>
             <sga-add th:eID="c57-0034__main__d4e5726"/>
-            <mod th:eID="c57-0034__main__d4e5718"/> ill <del rend="strikethrough" xml:id="c57-0034__main__d4e5730">and she was retarded wh</del>
-            <seg xml:id="C20_app257-fMS_end"/>Safie <seg xml:id="C20_app259-fMS_start"/>
-            <lb n="c57-0034__main__26"/>
-            <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0034__main__d4e5736">watched</del> nursed her with the most devoted<seg xml:id="C20_app259-fMS_end"/>
-            <seg xml:id="C20_app260-fMS_start"/>
-            <lb n="c57-0034__main__27"/>affection<seg xml:id="C20_app260-fMS_end"/>but the poor girl <seg xml:id="C20_app262-fMS_start"/>died<seg xml:id="C20_app262-fMS_end"/>&amp;<mod th:sID="c57-0034__main__d4e5741"/>
-            <seg xml:id="C20_app264-fMS_start"/>
-            <del rend="strikethrough" xml:id="c57-0034__main__d4e5743">Safie</del>
+            <mod th:eID="c57-0034__main__d4e5718"/> ill <del xmlns="" rend="strikethrough" xml:id="c57-0034__main__d4e5730">and she was retarded wh</del>
+            <seg th:eID="C20_app257-fMS"/>
+    Safie 
+        <seg th:sID="C20_app259-fMS"/>
+            <lb xmlns="" n="c57-0034__main__26"/>
+            <del xmlns=""
+                 instant="true"
+                 rend="strikethrough"
+                 xml:id="c57-0034__main__d4e5736">watched</del> nursed her with the most devoted
+        <seg th:eID="C20_app259-fMS"/>
+            <seg th:sID="C20_app260-fMS"/>
+            <lb xmlns="" n="c57-0034__main__27"/>affection
+        <seg th:eID="C20_app260-fMS"/>
+    but the poor girl 
+        <seg th:sID="C20_app262-fMS"/>
+        died
+        <seg th:eID="C20_app262-fMS"/>
+    &amp;<mod th:sID="c57-0034__main__d4e5741"/>
+            <seg th:sID="C20_app264-fMS"/>
+            <del xmlns="" rend="strikethrough" xml:id="c57-0034__main__d4e5743">Safie</del>
             <sga-add place="superlinear" th:sID="c57-0034__main__d4e5746"/>the Arabian <sga-add th:eID="c57-0034__main__d4e5746"/>
             <mod th:eID="c57-0034__main__d4e5741"/>
-            <lb n="c57-0034__main__28"/>was left<seg xml:id="C20_app264-fMS_end"/>
-            <seg xml:id="C20_app265-fMS_start"/>alone<seg xml:id="C20_app265-fMS_end"/>unacquainted with the <w ana="start"/>lan<lb n="c57-0035__main__1"/>guage<w ana="end"/> of the <seg xml:id="C20_app267-fMS_start"/>country<seg xml:id="C20_app267-fMS_end"/>and utterly ignorant of <lb n="c57-0035__main__2"/>the customs of the world.– She <seg xml:id="C20_app269-fMS_start"/>fell <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0035__main__d4e5769">hover</del> however <lb n="c57-0035__main__3"/>in to<seg xml:id="C20_app269-fMS_end"/>good <seg xml:id="C20_app271-fMS_start"/>hands– <delSpan rend="strikethrough" spanTo="#c57-0035.01"/>The hostess of the Inn was <w ana="start"/>in<lb n="c57-0035__main__4"/>terrested<w ana="end"/> in her fate <delSpan anchor="c57-0035.01"/>
-            <del rend="strikethrough" xml:id="c57-0035__main__d4e5785">And</del>
-            <del rend="strikethrough" xml:id="c57-0035__main__d4e5789">and</del>
-            <seg xml:id="C20_app271-fMS_end"/>The Italian <seg xml:id="C20_app273-fMS_start"/>
-            <lb n="c57-0035__main__5"/>
+            <lb xmlns="" n="c57-0034__main__28"/>was left
+        <seg th:eID="C20_app264-fMS"/>
+            <seg th:sID="C20_app265-fMS"/>
+        alone
+        <seg th:eID="C20_app265-fMS"/>
+    unacquainted with the <w xmlns="" ana="start"/>lan<lb xmlns="" n="c57-0035__main__1"/>guage<w xmlns="" ana="end"/> of the 
+        <seg th:sID="C20_app267-fMS"/>
+        country
+        <seg th:eID="C20_app267-fMS"/>
+    and utterly ignorant of <lb xmlns="" n="c57-0035__main__2"/>the customs of the world.– She 
+        <seg th:sID="C20_app269-fMS"/>
+        fell <del xmlns=""
+                 instant="true"
+                 rend="strikethrough"
+                 xml:id="c57-0035__main__d4e5769">hover</del> however <lb xmlns="" n="c57-0035__main__3"/>in to
+        <seg th:eID="C20_app269-fMS"/>
+    good 
+        <seg th:sID="C20_app271-fMS"/>
+        hands– <delSpan xmlns="" rend="strikethrough" spanTo="#c57-0035.01"/>The hostess of the Inn was <w xmlns="" ana="start"/>in<lb xmlns="" n="c57-0035__main__4"/>terrested<w xmlns="" ana="end"/> in her fate <delSpan xmlns="" anchor="c57-0035.01"/>
+            <del xmlns="" rend="strikethrough" xml:id="c57-0035__main__d4e5785">And</del>
+            <del xmlns="" rend="strikethrough" xml:id="c57-0035__main__d4e5789">and</del>
+            <seg th:eID="C20_app271-fMS"/>
+    The Italian 
+        <seg th:sID="C20_app273-fMS"/>
+            <lb xmlns="" n="c57-0035__main__5"/>
             <mod th:sID="c57-0035__main__d4e5794"/>
-            <del rend="strikethrough" xml:id="c57-0035__main__d4e5796">before her death</del>
-            <sga-add place="superlinear" th:sID="c57-0035__main__d4e5799"/>had<seg xml:id="C20_app273-fMS_end"/>
+            <del xmlns="" rend="strikethrough" xml:id="c57-0035__main__d4e5796">before her death</del>
+            <sga-add place="superlinear" th:sID="c57-0035__main__d4e5799"/>had
+        <seg th:eID="C20_app273-fMS"/>
             <sga-add th:eID="c57-0035__main__d4e5799"/>
-            <mod th:eID="c57-0035__main__d4e5794"/>mentioned the name of the <lb n="c57-0035__main__6"/>spot for which they were <seg xml:id="C20_app275-fMS_start"/>bound and<seg xml:id="C20_app275-fMS_end"/>after <lb n="c57-0035__main__7"/>her <seg xml:id="C20_app277-fMS_start"/>death<seg xml:id="C20_app277-fMS_end"/>the woman of the house in which <lb n="c57-0035__main__8"/>they had lived took care that Safie should <lb n="c57-0035__main__9"/>arrive <seg xml:id="C20_app279-fMS_start"/>safely at the cottage of her lover.<damage type="tear"/>
+            <mod th:eID="c57-0035__main__d4e5794"/>mentioned the name of the <lb xmlns="" n="c57-0035__main__6"/>spot for which they were 
+        <seg th:sID="C20_app275-fMS"/>
+        bound and
+        <seg th:eID="C20_app275-fMS"/>
+    after <lb xmlns="" n="c57-0035__main__7"/>her 
+        <seg th:sID="C20_app277-fMS"/>
+        death
+        <seg th:eID="C20_app277-fMS"/>
+    the woman of the house in which <lb xmlns="" n="c57-0035__main__8"/>they had lived took care that Safie should <lb xmlns="" n="c57-0035__main__9"/>arrive 
+        <seg th:sID="C20_app279-fMS"/>
+        safely at the cottage of her lover.<damage xmlns="" type="tear"/>
             <zone th:eID="c57-0035__main"/>
-            <surface th:eID="ox-ms_abinger_c57-0035"/> &lt;surface lrx="7230" lry="5034" partOf="ox-frankenstein_notebook_b.xml#ox-frankenstein_volume_ii" ulx="0" uly="0" folio="18v" shelfmark="MS. Abinger c. 57" base="ox-ms_abinger_c57/ox-ms_abinger_c57-0036.xml" id="ox-ms_abinger_c57-0036" sID="ox-ms_abinger_c57-0036"/&gt; &lt;graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0036.jp2"/&gt; <zone type="main" th:sID="c57-0036__main"/>
-            <damage type="tear"/>
+            <surface th:eID="ox-ms_abinger_c57-0035"/>
+            <surface lrx="7230"
+                     lry="5034"
+                     partOf="ox-frankenstein_notebook_b.xml#ox-frankenstein_volume_ii"
+                     ulx="0"
+                     uly="0"
+                     folio="18v"
+                     shelfmark="MS. Abinger c. 57"
+                     base="ox-ms_abinger_c57/ox-ms_abinger_c57-0036.xml"
+                     id="ox-ms_abinger_c57-0036"
+                     th:sID="ox-ms_abinger_c57-0036"/>
+            <graphic xmlns=""
+                     url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0036.jp2"/>
+            <zone type="main" th:sID="c57-0036__main"/>
+            <damage xmlns="" type="tear"/>
             <zone th:eID="c57-0036__main"/>
-            <surface th:eID="ox-ms_abinger_c57-0036"/> &lt;surface lrx="5138" lry="7032" partOf="#ox-frankenstein_volume_ii" ulx="0" uly="0" folio="19r" shelfmark="MS. Abinger c. 57" base="ox-ms_abinger_c57/ox-ms_abinger_c57-0037.xml" id="ox-ms_abinger_c57-0037" sID="ox-ms_abinger_c57-0037"/&gt; &lt;graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0037.jp2"/&gt; <zone type="main" th:sID="c57-0037__main"/>
-            <handShift medium="pen" new="#mws"/>
-            <lb n="c57-0037__main__1"/>
-            <delSpan rend="strikethrough" spanTo="#c57-0037.01"/>having overcome many difficulties succeeded <lb n="c57-0037__main__2"/>at length in joining her lover in his retreat <delSpan anchor="c57-0037.01"/>
-            <seg xml:id="C20_app279-fMS_end"/>
+            <surface th:eID="ox-ms_abinger_c57-0036"/>
+            <surface lrx="5138"
+                     lry="7032"
+                     partOf="#ox-frankenstein_volume_ii"
+                     ulx="0"
+                     uly="0"
+                     folio="19r"
+                     shelfmark="MS. Abinger c. 57"
+                     base="ox-ms_abinger_c57/ox-ms_abinger_c57-0037.xml"
+                     id="ox-ms_abinger_c57-0037"
+                     th:sID="ox-ms_abinger_c57-0037"/>
+            <graphic xmlns=""
+                     url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0037.jp2"/>
+            <zone type="main" th:sID="c57-0037__main"/>
+            <handShift xmlns="" medium="pen" new="#mws"/>
+            <lb xmlns="" n="c57-0037__main__1"/>
+            <delSpan xmlns="" rend="strikethrough" spanTo="#c57-0037.01"/>having overcome many difficulties succeeded <lb xmlns="" n="c57-0037__main__2"/>at length in joining her lover in his retreat <delSpan xmlns="" anchor="c57-0037.01"/>
+            <seg th:eID="C20_app279-fMS"/>
          </div>
       </body>
    </text>

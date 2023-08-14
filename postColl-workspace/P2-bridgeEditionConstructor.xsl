@@ -34,12 +34,12 @@
                         </teiHeader>
                         <text>
                             <body>
-                                &lt;ab type="alignmentChunk" xml:id="{$chunk}"&gt;
+                                &lt;div type="collation" xml:id="<xsl:value-of select="$chunk"/>"&gt;
                                     <xsl:apply-templates select="$currentP1File//app">
                                         <xsl:with-param name="currentWit" as="xs:string"
                                             select="current()" tunnel="yes"/>
                                     </xsl:apply-templates>
-                                &lt;/ab&gt;
+                                &lt;/div&gt;
                             </body>
                         </text>
                     </TEI>
@@ -63,8 +63,19 @@
         <xsl:text> </xsl:text>
     </xsl:template>
     <xsl:template match="rdg" mode="variant">
-        &lt;seg xml:id="{ancestor::app/@xml:id}-{@wit}_start"/&gt;
+        &lt;seg sID="<xsl:value-of select="ancestor::app/@xml:id"/>-<xsl:value-of select="@wit"/>"/&gt;
         <xsl:apply-templates select="."/>
-        &lt;seg xml:id="{ancestor::app/@xml:id}-{@wit}_end"/&gt;
+        &lt;seg eID="<xsl:value-of select="ancestor::app/@xml:id"/>-<xsl:value-of select="@wit"/>"/&gt;
+    </xsl:template>
+    <xsl:template match="text()">
+        <xsl:analyze-string select="." regex="&amp;">
+            <xsl:matching-substring>
+                <xsl:text>&amp;amp;</xsl:text>
+            </xsl:matching-substring>
+            <xsl:non-matching-substring>
+                <xsl:value-of select="."/>
+            </xsl:non-matching-substring>
+        </xsl:analyze-string>
+  
     </xsl:template>
 </xsl:stylesheet>

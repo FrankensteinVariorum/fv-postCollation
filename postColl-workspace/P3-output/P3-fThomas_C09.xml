@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xmlns:mith="http://mith.umd.edu/sc/ns1#"
-      xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-      xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
+     xmlns:mith="http://mith.umd.edu/sc/ns1#"
+     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xml:id="fThomas_C09">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -27,191 +30,1643 @@
    <text>
       <body>
          <div type="collation" xml:id="C09">
-            <seg xml:id="C09_app1-fThomas_start"/>
-            <anchor type="collate" xml:id="C09"/>
-            <seg xml:id="C09_app1-fThomas_end"/>
-            <milestone unit="chapter" type="start" n="3"/>
-            <pb xml:id="F1818_v1_090" n="078"/>
-            <seg xml:id="C09_app3-fThomas_start"/>
-            <head>CHAPTER III.</head>
-            <seg xml:id="C09_app3-fThomas_end"/>
-            <seg xml:id="C09_app4-fThomas_start"/>
+            <seg th:sID="C09_app1-fThomas"/>
+            <anchor xmlns="" type="collate" xml:id="C09"/>
+            <seg th:eID="C09_app1-fThomas"/>
+            <milestone xmlns="" unit="chapter" type="start" n="3"/>
+            <pb xmlns="" xml:id="F1818_v1_090" n="078"/>
+            <seg th:sID="C09_app3-fThomas"/>
+            <head xmlns="">CHAPTER III.</head>
+            <seg th:eID="C09_app3-fThomas"/>
+            <seg th:sID="C09_app4-fThomas"/>
             <p th:sID="novel1_letter4_chapter3_div4_div3_p1"/>
-            <seg xml:id="C09_app4-fThomas_end"/>
-            <seg xml:id="C09_app5-fThomas_start"/>F<hi th:sID="novel1_letter4_chapter3_div4_div3_p1_hi1"/>ROM<hi th:eID="novel1_letter4_chapter3_div4_div3_p1_hi1"/>
-            <seg xml:id="C09_app5-fThomas_end"/>this day natural <seg xml:id="C09_app7-fThomas_start"/>philosophy,<seg xml:id="C09_app7-fThomas_end"/>and particularly <seg xml:id="C09_app9-fThomas_start"/>chemistry, in the most comprehensive sense of the term, became<seg xml:id="C09_app9-fThomas_end"/>nearly my sole  <seg xml:id="C09_app12-fThomas_start"/>occupation.<seg xml:id="C09_app12-fThomas_end"/>I read with ardour <seg xml:id="C09_app14-fThomas_start"/>those<seg xml:id="C09_app14-fThomas_end"/>
-            <seg xml:id="C09_app15-fThomas_start"/>works,<seg xml:id="C09_app15-fThomas_end"/>so full of genius and <seg xml:id="C09_app17-fThomas_start"/>discrimination,<seg xml:id="C09_app17-fThomas_end"/>which modern <seg xml:id="C09_app19-fThomas_start"/>inquirers have written<seg xml:id="C09_app19-fThomas_end"/>on these <seg xml:id="C09_app21-fThomas_start"/>subjects.<seg xml:id="C09_app21-fThomas_end"/>I attended the lectures, and cultivated the <seg xml:id="C09_app23-fThomas_start"/>acquaintance,<seg xml:id="C09_app23-fThomas_end"/>of the men of science of the university; and I found even in <seg xml:id="C09_app25-fThomas_start"/>M.<seg xml:id="C09_app25-fThomas_end"/>Krempe a great deal of sound sense and real <seg xml:id="C09_app27-fThomas_start"/>information, combined,<seg xml:id="C09_app27-fThomas_end"/>it is <seg xml:id="C09_app29-fThomas_start"/>true,<seg xml:id="C09_app29-fThomas_end"/>with a repulsive <seg xml:id="C09_app31-fThomas_start"/>physiognomy<seg xml:id="C09_app31-fThomas_end"/>and manners, but not on that account the less valuable. In M. Waldman I found <pb xml:id="F1818_v1_091" n="079"/>a true friend. His gentleness was never tinged by <seg xml:id="C09_app33-fThomas_start"/>dogmatism;<seg xml:id="C09_app33-fThomas_end"/>and his instructions were given with an air of frankness and good <seg xml:id="C09_app35-fThomas_start"/>nature,<seg xml:id="C09_app35-fThomas_end"/>that banished every idea of  <seg xml:id="C09_app38-fThomas_start"/>pedantry.<seg xml:id="C09_app38-fThomas_end"/>
-            <seg xml:id="C09_app39-fThomas_start"/>It<seg xml:id="C09_app39-fThomas_end"/>
-            <seg xml:id="C09_app40-fThomas_start"/>was, perhaps,<seg xml:id="C09_app40-fThomas_end"/>
-            <seg xml:id="C09_app41-fThomas_start"/>the amiable character of this man that<seg xml:id="C09_app41-fThomas_end"/>
-            <seg xml:id="C09_app42-fThomas_start"/>inclined<seg xml:id="C09_app42-fThomas_end"/>
-            <seg xml:id="C09_app43-fThomas_start"/>me more to<seg xml:id="C09_app43-fThomas_end"/>
-            <seg xml:id="C09_app44-fThomas_start"/>that branch of<seg xml:id="C09_app44-fThomas_end"/>
-            <seg xml:id="C09_app45-fThomas_start"/>natural philosophy which he<seg xml:id="C09_app45-fThomas_end"/>
-            <seg xml:id="C09_app46-fThomas_start"/>professed,<seg xml:id="C09_app46-fThomas_end"/>
-            <seg xml:id="C09_app47-fThomas_start"/>than an intrinsic love for the science itself. But this<seg xml:id="C09_app47-fThomas_end"/>
-            <seg xml:id="C09_app48-fThomas_start"/>state of mind had place<seg xml:id="C09_app48-fThomas_end"/>
-            <seg xml:id="C09_app49-fThomas_start"/>only in the first steps towards<seg xml:id="C09_app49-fThomas_end"/>
-            <seg xml:id="C09_app50-fThomas_start"/>knowledge:<seg xml:id="C09_app50-fThomas_end"/>
-            <seg xml:id="C09_app51-fThomas_start"/>the more fully<seg xml:id="C09_app51-fThomas_end"/>
-            <seg xml:id="C09_app52-fThomas_start"/>I entered <seg xml:id="C09_app52-fThomas_end"/>
-            <seg xml:id="C09_app53-fThomas_start"/>into<seg xml:id="C09_app53-fThomas_end"/>
-            <seg xml:id="C09_app54-fThomas_start"/>the science,<seg xml:id="C09_app54-fThomas_end"/>
-            <seg xml:id="C09_app55-fThomas_start"/>the more<seg xml:id="C09_app55-fThomas_end"/>
-            <seg xml:id="C09_app56-fThomas_start"/>exclusively<seg xml:id="C09_app56-fThomas_end"/>
-            <seg xml:id="C09_app57-fThomas_start"/>I<seg xml:id="C09_app57-fThomas_end"/>
-            <seg xml:id="C09_app58-fThomas_start"/>pursued<seg xml:id="C09_app58-fThomas_end"/>
-            <seg xml:id="C09_app59-fThomas_start"/>it for its own sake. That <seg xml:id="C09_app59-fThomas_end"/>
-            <seg xml:id="C09_app60-fThomas_start"/>application,<seg xml:id="C09_app60-fThomas_end"/>
-            <seg xml:id="C09_app61-fThomas_start"/>which at first had been a matter of<seg xml:id="C09_app61-fThomas_end"/>
-            <seg xml:id="C09_app62-fThomas_start"/>duty<seg xml:id="C09_app62-fThomas_end"/>
-            <seg xml:id="C09_app63-fThomas_start"/>and<seg xml:id="C09_app63-fThomas_end"/>
-            <seg xml:id="C09_app64-fThomas_start"/>resolution, now<seg xml:id="C09_app64-fThomas_end"/>
-            <seg xml:id="C09_app65-fThomas_start"/>became so ardent and<seg xml:id="C09_app65-fThomas_end"/>
-            <seg xml:id="C09_app66-fThomas_start"/>eager,<seg xml:id="C09_app66-fThomas_end"/>that the stars often <seg xml:id="C09_app68-fThomas_start"/>disappeared<seg xml:id="C09_app68-fThomas_end"/>in the light of morning <seg xml:id="C09_app70-fThomas_start"/>whilst<seg xml:id="C09_app70-fThomas_end"/>I was yet <seg xml:id="C09_app72-fThomas_start"/>engaged in my<seg xml:id="C09_app72-fThomas_end"/>
-            <seg xml:id="C09_app73-fThomas_start"/>laboratory. <p th:eID="novel1_letter4_chapter3_div4_div3_p1"/>
-            <seg xml:id="C09_app73-fThomas_end"/>
-            <p th:sID="novel1_letter4_chapter3_div4_div3_p2"/> As I applied so closely, it may be easily conceived that <seg xml:id="C09_app75-fThomas_start"/>I improved ra<pb xml:id="F1818_v1_092" n="080"/>pidly.<seg xml:id="C09_app75-fThomas_end"/>My ardour was indeed the astonishment of the <seg xml:id="C09_app77-fThomas_start"/>students;<seg xml:id="C09_app77-fThomas_end"/>and my <seg xml:id="C09_app79-fThomas_start"/>proficiency,<seg xml:id="C09_app79-fThomas_end"/>that of the <seg xml:id="C09_app81-fThomas_start"/>masters.<seg xml:id="C09_app81-fThomas_end"/>Professor Krempe often asked <seg xml:id="C09_app83-fThomas_start"/>me,<seg xml:id="C09_app83-fThomas_end"/>with a sly <seg xml:id="C09_app85-fThomas_start"/>smile,<seg xml:id="C09_app85-fThomas_end"/>how Cornelius Agrippa went <seg xml:id="C09_app87-fThomas_start"/>on? whilst<seg xml:id="C09_app87-fThomas_end"/>M. <seg xml:id="C09_app89-fThomas_start"/>Waldman<seg xml:id="C09_app89-fThomas_end"/>expressed the most heartfelt exultation in my progress. Two years passed in this  <seg xml:id="C09_app92-fThomas_start"/>manner,<seg xml:id="C09_app92-fThomas_end"/>during which I paid no visit to Geneva, but <seg xml:id="C09_app94-fThomas_start"/>was<seg xml:id="C09_app94-fThomas_end"/>
-            <seg xml:id="C09_app95-fThomas_start"/>engaged,<seg xml:id="C09_app95-fThomas_end"/>heart and <seg xml:id="C09_app97-fThomas_start"/>soul,<seg xml:id="C09_app97-fThomas_end"/>in the pursuit of some <seg xml:id="C09_app99-fThomas_start"/>discoveries,<seg xml:id="C09_app99-fThomas_end"/>which I hoped to make. <seg xml:id="C09_app101-fThomas_start"/>None but those who have experienced<seg xml:id="C09_app101-fThomas_end"/>
-            <seg xml:id="C09_app102-fThomas_start"/>them<seg xml:id="C09_app102-fThomas_end"/>can conceive of the enticements of <seg xml:id="C09_app104-fThomas_start"/>science.<seg xml:id="C09_app104-fThomas_end"/>In other studies you go as far as others have <seg xml:id="C09_app106-fThomas_start"/>gone<seg xml:id="C09_app106-fThomas_end"/>before <seg xml:id="C09_app108-fThomas_start"/>you,<seg xml:id="C09_app108-fThomas_end"/>and there is nothing more to <seg xml:id="C09_app110-fThomas_start"/>know;<seg xml:id="C09_app110-fThomas_end"/>but in a scientific pursuit <seg xml:id="C09_app112-fThomas_start"/>there is continual food for discovery and wonder. A mind of<seg xml:id="C09_app112-fThomas_end"/>
-            <seg xml:id="C09_app113-fThomas_start"/>moderate<seg xml:id="C09_app113-fThomas_end"/>
-            <seg xml:id="C09_app114-fThomas_start"/>capacity, which<seg xml:id="C09_app114-fThomas_end"/>closely pursues one <seg xml:id="C09_app116-fThomas_start"/>study,<seg xml:id="C09_app116-fThomas_end"/>must infallibly arrive at great proficiency in <seg xml:id="C09_app118-fThomas_start"/>that study; and I,<seg xml:id="C09_app118-fThomas_end"/>who <seg xml:id="C09_app120-fThomas_start"/>con<pb xml:id="F1818_v1_093" n="081"/>tinually<seg xml:id="C09_app120-fThomas_end"/>
-            <seg xml:id="C09_app121-fThomas_start"/>sought the attainment of<seg xml:id="C09_app121-fThomas_end"/>one  <seg xml:id="C09_app123-fThomas_start"/>object<seg xml:id="C09_app123-fThomas_end"/>
-            <seg xml:id="C09_app124-fThomas_start"/>of pursuit,<seg xml:id="C09_app124-fThomas_end"/>and was <seg xml:id="C09_app126-fThomas_start"/>solely wrapt<seg xml:id="C09_app126-fThomas_end"/>up <seg xml:id="C09_app128-fThomas_start"/>in<seg xml:id="C09_app128-fThomas_end"/>
-            <seg xml:id="C09_app129-fThomas_start"/>this,<seg xml:id="C09_app129-fThomas_end"/>improved so <seg xml:id="C09_app131-fThomas_start"/>rapidly, that,<seg xml:id="C09_app131-fThomas_end"/>at the end of <seg xml:id="C09_app133-fThomas_start"/>two<seg xml:id="C09_app133-fThomas_end"/>
-            <seg xml:id="C09_app134-fThomas_start"/>years,<seg xml:id="C09_app134-fThomas_end"/>I made <seg xml:id="C09_app136-fThomas_start"/>some<seg xml:id="C09_app136-fThomas_end"/>
-            <seg xml:id="C09_app137-fThomas_start"/>discoveries in the improvement of some chemical<seg xml:id="C09_app137-fThomas_end"/>
-            <seg xml:id="C09_app138-fThomas_start"/>instruments,<seg xml:id="C09_app138-fThomas_end"/>which procured me great esteem and admiration at the university. <seg xml:id="C09_app140-fThomas_start"/>When I had<seg xml:id="C09_app140-fThomas_end"/>arrived at this <seg xml:id="C09_app142-fThomas_start"/>point, and<seg xml:id="C09_app142-fThomas_end"/>
-            <seg xml:id="C09_app143-fThomas_start"/>had become as well acquainted with the theory and practice of natural philosophy as depended on the lessons of any of the professors at Ingolstadt, my residence<seg xml:id="C09_app143-fThomas_end"/>there being no longer conducive to my  <seg xml:id="C09_app146-fThomas_start"/>improvements,<seg xml:id="C09_app146-fThomas_end"/>I thought of returning to my friends and <seg xml:id="C09_app148-fThomas_start"/>my native town, when an incident happened that protracted my stay. <p th:eID="novel1_letter4_chapter3_div4_div3_p2"/>
-            <p th:sID="novel1_letter4_chapter3_div4_div3_p3"/> One of<seg xml:id="C09_app148-fThomas_end"/>
-            <seg xml:id="C09_app149-fThomas_start"/>the phænomena<seg xml:id="C09_app149-fThomas_end"/>which had <seg xml:id="C09_app151-fThomas_start"/>peculiarly attracted my attention was the structure of the human<seg xml:id="C09_app151-fThomas_end"/>
-            <seg xml:id="C09_app152-fThomas_start"/>frame, and, indeed,<seg xml:id="C09_app152-fThomas_end"/>any animal endued with life. <seg xml:id="C09_app154-fThomas_start"/>Whence,<seg xml:id="C09_app154-fThomas_end"/>I often asked <seg xml:id="C09_app156-fThomas_start"/>myself,<seg xml:id="C09_app156-fThomas_end"/>did <seg xml:id="C09_app158-fThomas_start"/>the<seg xml:id="C09_app158-fThomas_end"/>
-            <pb xml:id="F1818_v1_094" n="082"/>principle of life <seg xml:id="C09_app160-fThomas_start"/>proceed?<seg xml:id="C09_app160-fThomas_end"/>It was a bold question, and one <seg xml:id="C09_app162-fThomas_start"/>which has ever been considered as a<seg xml:id="C09_app162-fThomas_end"/>
-            <seg xml:id="C09_app163-fThomas_start"/>mystery; yet with<seg xml:id="C09_app163-fThomas_end"/>how many things are we <seg xml:id="C09_app165-fThomas_start"/>upon<seg xml:id="C09_app165-fThomas_end"/>the brink of becoming <seg xml:id="C09_app167-fThomas_start"/>acquainted,<seg xml:id="C09_app167-fThomas_end"/>if cowardice or carelessness did not restrain <seg xml:id="C09_app169-fThomas_start"/>our<seg xml:id="C09_app169-fThomas_end"/>
-            <seg xml:id="C09_app170-fThomas_start"/>inquiries.<seg xml:id="C09_app170-fThomas_end"/>I revolved these circumstances in my <seg xml:id="C09_app172-fThomas_start"/>mind,<seg xml:id="C09_app172-fThomas_end"/>and determined <seg xml:id="C09_app174-fThomas_start"/>thenceforth to apply myself more particularly to<seg xml:id="C09_app174-fThomas_end"/>
-            <seg xml:id="C09_app175-fThomas_start"/>those branches<seg xml:id="C09_app175-fThomas_end"/>of natural philosophy which <seg xml:id="C09_app177-fThomas_start"/>relate to<seg xml:id="C09_app177-fThomas_end"/>
-            <seg xml:id="C09_app178-fThomas_start"/>physiology.<seg xml:id="C09_app178-fThomas_end"/>
-            <seg xml:id="C09_app179-fThomas_start"/>
-            <add place="margin">The event of these enquiries interested my understanding, I may say my imagination, until I was exalted to a kind of transport. And indeed </add> Unless I had been animated by an almost supernatural enthusiasm, my application to this study would have been<seg xml:id="C09_app179-fThomas_end"/>
-            <seg xml:id="C09_app180-fThomas_start"/>irksome,<seg xml:id="C09_app180-fThomas_end"/>and almost intolerable. To examine the causes of <seg xml:id="C09_app182-fThomas_start"/>life,<seg xml:id="C09_app182-fThomas_end"/>we must first have <seg xml:id="C09_app184-fThomas_start"/>recourse to death.<seg xml:id="C09_app184-fThomas_end"/>
-            <seg xml:id="C09_app185-fThomas_start"/>I became acquainted with the science of<seg xml:id="C09_app185-fThomas_end"/>
-            <seg xml:id="C09_app186-fThomas_start"/>anatomy:<seg xml:id="C09_app186-fThomas_end"/>but this was not <seg xml:id="C09_app188-fThomas_start"/>sufficient;<seg xml:id="C09_app188-fThomas_end"/>I must also observe the natural decay and corruption of the human body. In my education my father had taken the <pb xml:id="F1818_v1_095" n="083"/>greatest precautions that my mind should <seg xml:id="C09_app190-fThomas_start"/>be impressed<seg xml:id="C09_app190-fThomas_end"/>
-            <seg xml:id="C09_app191-fThomas_start"/>with no<seg xml:id="C09_app191-fThomas_end"/>supernatural horrors. I do not ever remember <seg xml:id="C09_app193-fThomas_start"/>to have<seg xml:id="C09_app193-fThomas_end"/>trembled at <seg xml:id="C09_app195-fThomas_start"/>a<seg xml:id="C09_app195-fThomas_end"/>tale of <seg xml:id="C09_app197-fThomas_start"/>superstition,<seg xml:id="C09_app197-fThomas_end"/>or to have feared the apparition of a <seg xml:id="C09_app199-fThomas_start"/>spirit.<seg xml:id="C09_app199-fThomas_end"/>Darkness had no effect upon my <seg xml:id="C09_app201-fThomas_start"/>fancy;<seg xml:id="C09_app201-fThomas_end"/>and a <seg xml:id="C09_app203-fThomas_start"/>church-yard<seg xml:id="C09_app203-fThomas_end"/>was to me merely <seg xml:id="C09_app205-fThomas_start"/>the receptacle of<seg xml:id="C09_app205-fThomas_end"/>
-            <seg xml:id="C09_app206-fThomas_start"/>bodies deprived of<seg xml:id="C09_app206-fThomas_end"/>
-            <seg xml:id="C09_app207-fThomas_start"/>life, which,<seg xml:id="C09_app207-fThomas_end"/>from being the seat of beauty <seg xml:id="C09_app209-fThomas_start"/>and strength, had become<seg xml:id="C09_app209-fThomas_end"/>food for the worm. <seg xml:id="C09_app211-fThomas_start"/>Now I was<seg xml:id="C09_app211-fThomas_end"/>
-            <seg xml:id="C09_app212-fThomas_start"/>led<seg xml:id="C09_app212-fThomas_end"/>to examine the  <seg xml:id="C09_app214-fThomas_start"/>cause and progress of this<seg xml:id="C09_app214-fThomas_end"/>
-            <seg xml:id="C09_app215-fThomas_start"/>decay,<seg xml:id="C09_app215-fThomas_end"/>and forced to spend days and nights in vaults and <seg xml:id="C09_app217-fThomas_start"/>charnel houses.<seg xml:id="C09_app217-fThomas_end"/>My attention was fixed upon every <seg xml:id="C09_app219-fThomas_start"/>object<seg xml:id="C09_app219-fThomas_end"/>
-            <seg xml:id="C09_app220-fThomas_start"/>the most insupportable to the delicacy of the human feelings.<seg xml:id="C09_app220-fThomas_end"/>
-            <seg xml:id="C09_app221-fThomas_start"/>I saw how the fine form of<seg xml:id="C09_app221-fThomas_end"/>
-            <seg xml:id="C09_app222-fThomas_start"/>man<seg xml:id="C09_app222-fThomas_end"/>
-            <seg xml:id="C09_app223-fThomas_start"/>was<seg xml:id="C09_app223-fThomas_end"/>degraded and  <seg xml:id="C09_app225-fThomas_start"/>wasted;<seg xml:id="C09_app225-fThomas_end"/>I beheld the corruption of death succeed to the blooming cheek of <seg xml:id="C09_app227-fThomas_start"/>life;<seg xml:id="C09_app227-fThomas_end"/>I saw how the  <seg xml:id="C09_app230-fThomas_start"/>worm<seg xml:id="C09_app230-fThomas_end"/>inherited the wonders of the eye and brain. I <pb xml:id="F1818_v1_096" n="084"/>paused, <seg xml:id="C09_app232-fThomas_start"/>examining<seg xml:id="C09_app232-fThomas_end"/>and <seg xml:id="C09_app234-fThomas_start"/>analysing<seg xml:id="C09_app234-fThomas_end"/>all the minutiæ of <seg xml:id="C09_app236-fThomas_start"/>causation,<seg xml:id="C09_app236-fThomas_end"/>as exemplified in the change from life to death, <seg xml:id="C09_app238-fThomas_start"/>and death<seg xml:id="C09_app238-fThomas_end"/>to life, <seg xml:id="C09_app240-fThomas_start"/>until<seg xml:id="C09_app240-fThomas_end"/>from the midst of this darkness a sudden light broke in upon <seg xml:id="C09_app242-fThomas_start"/>me—a<seg xml:id="C09_app242-fThomas_end"/>light so brilliant and <seg xml:id="C09_app244-fThomas_start"/>wondrous,<seg xml:id="C09_app244-fThomas_end"/>yet so <seg xml:id="C09_app246-fThomas_start"/>simple,<seg xml:id="C09_app246-fThomas_end"/>that while <seg xml:id="C09_app248-fThomas_start"/>I<seg xml:id="C09_app248-fThomas_end"/>became dizzy with the immensity of the prospect which it <seg xml:id="C09_app250-fThomas_start"/>illustrated,<seg xml:id="C09_app250-fThomas_end"/>I was <seg xml:id="C09_app252-fThomas_start"/>surprised<seg xml:id="C09_app252-fThomas_end"/>that <seg xml:id="C09_app254-fThomas_start"/>among so many men of<seg xml:id="C09_app254-fThomas_end"/>
-            <seg xml:id="C09_app255-fThomas_start"/>genius,<seg xml:id="C09_app255-fThomas_end"/>who had <seg xml:id="C09_app257-fThomas_start"/>directed their inquiries towards<seg xml:id="C09_app257-fThomas_end"/>the same <seg xml:id="C09_app259-fThomas_start"/>science, that I alone should be reserved to<seg xml:id="C09_app259-fThomas_end"/>discover <seg xml:id="C09_app261-fThomas_start"/>so<seg xml:id="C09_app261-fThomas_end"/>
-            <seg xml:id="C09_app262-fThomas_start"/>difficulty and labour. <seg xml:id="C09_app262-fThomas_end"/>
-            <seg xml:id="C09_app263-fThomas_start"/>secret. <p th:eID="novel1_letter4_chapter3_div4_div3_p3"/>
+            <seg th:eID="C09_app4-fThomas"/>
+            <seg th:sID="C09_app5-fThomas"/>
+        F<hi th:sID="novel1_letter4_chapter3_div4_div3_p1_hi1"/>ROM<hi th:eID="novel1_letter4_chapter3_div4_div3_p1_hi1"/>
+            <seg th:eID="C09_app5-fThomas"/>
+    this day natural 
+        <seg th:sID="C09_app7-fThomas"/>
+        philosophy,
+        <seg th:eID="C09_app7-fThomas"/>
+    and particularly 
+        <seg th:sID="C09_app9-fThomas"/>
+        chemistry, in the most comprehensive sense of the term, became
+        <seg th:eID="C09_app9-fThomas"/>
+    nearly my sole  
+        <seg th:sID="C09_app12-fThomas"/>
+        occupation.
+        <seg th:eID="C09_app12-fThomas"/>
+    I read with ardour 
+        <seg th:sID="C09_app14-fThomas"/>
+        those
+        <seg th:eID="C09_app14-fThomas"/>
+            <seg th:sID="C09_app15-fThomas"/>
+        works,
+        <seg th:eID="C09_app15-fThomas"/>
+    so full of genius and 
+        <seg th:sID="C09_app17-fThomas"/>
+        discrimination,
+        <seg th:eID="C09_app17-fThomas"/>
+    which modern 
+        <seg th:sID="C09_app19-fThomas"/>
+        inquirers have written
+        <seg th:eID="C09_app19-fThomas"/>
+    on these 
+        <seg th:sID="C09_app21-fThomas"/>
+        subjects.
+        <seg th:eID="C09_app21-fThomas"/>
+    I attended the lectures, and cultivated the 
+        <seg th:sID="C09_app23-fThomas"/>
+        acquaintance,
+        <seg th:eID="C09_app23-fThomas"/>
+    of the men of science of the university; and I found even in 
+        <seg th:sID="C09_app25-fThomas"/>
+        M.
+        <seg th:eID="C09_app25-fThomas"/>
+    Krempe a great deal of sound sense and real 
+        <seg th:sID="C09_app27-fThomas"/>
+        information, combined,
+        <seg th:eID="C09_app27-fThomas"/>
+    it is 
+        <seg th:sID="C09_app29-fThomas"/>
+        true,
+        <seg th:eID="C09_app29-fThomas"/>
+    with a repulsive 
+        <seg th:sID="C09_app31-fThomas"/>
+        physiognomy
+        <seg th:eID="C09_app31-fThomas"/>
+    and manners, but not on that account the less valuable. In M. Waldman I found <pb xmlns="" xml:id="F1818_v1_091" n="079"/>a true friend. His gentleness was never tinged by 
+        <seg th:sID="C09_app33-fThomas"/>
+        dogmatism;
+        <seg th:eID="C09_app33-fThomas"/>
+    and his instructions were given with an air of frankness and good 
+        <seg th:sID="C09_app35-fThomas"/>
+        nature,
+        <seg th:eID="C09_app35-fThomas"/>
+    that banished every idea of  
+        <seg th:sID="C09_app38-fThomas"/>
+        pedantry.
+        <seg th:eID="C09_app38-fThomas"/>
+            <seg th:sID="C09_app39-fThomas"/>
+        It
+        <seg th:eID="C09_app39-fThomas"/>
+            <seg th:sID="C09_app40-fThomas"/>
+        was, perhaps,
+        <seg th:eID="C09_app40-fThomas"/>
+            <seg th:sID="C09_app41-fThomas"/>
+        the amiable character of this man that
+        <seg th:eID="C09_app41-fThomas"/>
+            <seg th:sID="C09_app42-fThomas"/>
+        inclined
+        <seg th:eID="C09_app42-fThomas"/>
+            <seg th:sID="C09_app43-fThomas"/>
+        me more to
+        <seg th:eID="C09_app43-fThomas"/>
+            <seg th:sID="C09_app44-fThomas"/>
+        that branch of
+        <seg th:eID="C09_app44-fThomas"/>
+            <seg th:sID="C09_app45-fThomas"/>
+        natural philosophy which he
+        <seg th:eID="C09_app45-fThomas"/>
+            <seg th:sID="C09_app46-fThomas"/>
+        professed,
+        <seg th:eID="C09_app46-fThomas"/>
+            <seg th:sID="C09_app47-fThomas"/>
+        than an intrinsic love for the science itself. But this
+        <seg th:eID="C09_app47-fThomas"/>
+            <seg th:sID="C09_app48-fThomas"/>
+        state of mind had place
+        <seg th:eID="C09_app48-fThomas"/>
+            <seg th:sID="C09_app49-fThomas"/>
+        only in the first steps towards
+        <seg th:eID="C09_app49-fThomas"/>
+            <seg th:sID="C09_app50-fThomas"/>
+        knowledge:
+        <seg th:eID="C09_app50-fThomas"/>
+            <seg th:sID="C09_app51-fThomas"/>
+        the more fully
+        <seg th:eID="C09_app51-fThomas"/>
+            <seg th:sID="C09_app52-fThomas"/>
+        I entered 
+        <seg th:eID="C09_app52-fThomas"/>
+            <seg th:sID="C09_app53-fThomas"/>
+        into
+        <seg th:eID="C09_app53-fThomas"/>
+            <seg th:sID="C09_app54-fThomas"/>
+        the science,
+        <seg th:eID="C09_app54-fThomas"/>
+            <seg th:sID="C09_app55-fThomas"/>
+        the more
+        <seg th:eID="C09_app55-fThomas"/>
+            <seg th:sID="C09_app56-fThomas"/>
+        exclusively
+        <seg th:eID="C09_app56-fThomas"/>
+            <seg th:sID="C09_app57-fThomas"/>
+        I
+        <seg th:eID="C09_app57-fThomas"/>
+            <seg th:sID="C09_app58-fThomas"/>
+        pursued
+        <seg th:eID="C09_app58-fThomas"/>
+            <seg th:sID="C09_app59-fThomas"/>
+        it for its own sake. That 
+        <seg th:eID="C09_app59-fThomas"/>
+            <seg th:sID="C09_app60-fThomas"/>
+        application,
+        <seg th:eID="C09_app60-fThomas"/>
+            <seg th:sID="C09_app61-fThomas"/>
+        which at first had been a matter of
+        <seg th:eID="C09_app61-fThomas"/>
+            <seg th:sID="C09_app62-fThomas"/>
+        duty
+        <seg th:eID="C09_app62-fThomas"/>
+            <seg th:sID="C09_app63-fThomas"/>
+        and
+        <seg th:eID="C09_app63-fThomas"/>
+            <seg th:sID="C09_app64-fThomas"/>
+        resolution, now
+        <seg th:eID="C09_app64-fThomas"/>
+            <seg th:sID="C09_app65-fThomas"/>
+        became so ardent and
+        <seg th:eID="C09_app65-fThomas"/>
+            <seg th:sID="C09_app66-fThomas"/>
+        eager,
+        <seg th:eID="C09_app66-fThomas"/>
+    that the stars often 
+        <seg th:sID="C09_app68-fThomas"/>
+        disappeared
+        <seg th:eID="C09_app68-fThomas"/>
+    in the light of morning 
+        <seg th:sID="C09_app70-fThomas"/>
+        whilst
+        <seg th:eID="C09_app70-fThomas"/>
+    I was yet 
+        <seg th:sID="C09_app72-fThomas"/>
+        engaged in my
+        <seg th:eID="C09_app72-fThomas"/>
+            <seg th:sID="C09_app73-fThomas"/>
+        laboratory. <p th:eID="novel1_letter4_chapter3_div4_div3_p1"/>
+            <seg th:eID="C09_app73-fThomas"/>
+            <p th:sID="novel1_letter4_chapter3_div4_div3_p2"/> As I applied so closely, it may be easily conceived that 
+        <seg th:sID="C09_app75-fThomas"/>
+        I improved ra<pb xmlns="" xml:id="F1818_v1_092" n="080"/>pidly.
+        <seg th:eID="C09_app75-fThomas"/>
+    My ardour was indeed the astonishment of the 
+        <seg th:sID="C09_app77-fThomas"/>
+        students;
+        <seg th:eID="C09_app77-fThomas"/>
+    and my 
+        <seg th:sID="C09_app79-fThomas"/>
+        proficiency,
+        <seg th:eID="C09_app79-fThomas"/>
+    that of the 
+        <seg th:sID="C09_app81-fThomas"/>
+        masters.
+        <seg th:eID="C09_app81-fThomas"/>
+    Professor Krempe often asked 
+        <seg th:sID="C09_app83-fThomas"/>
+        me,
+        <seg th:eID="C09_app83-fThomas"/>
+    with a sly 
+        <seg th:sID="C09_app85-fThomas"/>
+        smile,
+        <seg th:eID="C09_app85-fThomas"/>
+    how Cornelius Agrippa went 
+        <seg th:sID="C09_app87-fThomas"/>
+        on? whilst
+        <seg th:eID="C09_app87-fThomas"/>
+    M. 
+        <seg th:sID="C09_app89-fThomas"/>
+        Waldman
+        <seg th:eID="C09_app89-fThomas"/>
+    expressed the most heartfelt exultation in my progress. Two years passed in this  
+        <seg th:sID="C09_app92-fThomas"/>
+        manner,
+        <seg th:eID="C09_app92-fThomas"/>
+    during which I paid no visit to Geneva, but 
+        <seg th:sID="C09_app94-fThomas"/>
+        was
+        <seg th:eID="C09_app94-fThomas"/>
+            <seg th:sID="C09_app95-fThomas"/>
+        engaged,
+        <seg th:eID="C09_app95-fThomas"/>
+    heart and 
+        <seg th:sID="C09_app97-fThomas"/>
+        soul,
+        <seg th:eID="C09_app97-fThomas"/>
+    in the pursuit of some 
+        <seg th:sID="C09_app99-fThomas"/>
+        discoveries,
+        <seg th:eID="C09_app99-fThomas"/>
+    which I hoped to make. 
+        <seg th:sID="C09_app101-fThomas"/>
+        None but those who have experienced
+        <seg th:eID="C09_app101-fThomas"/>
+            <seg th:sID="C09_app102-fThomas"/>
+        them
+        <seg th:eID="C09_app102-fThomas"/>
+    can conceive of the enticements of 
+        <seg th:sID="C09_app104-fThomas"/>
+        science.
+        <seg th:eID="C09_app104-fThomas"/>
+    In other studies you go as far as others have 
+        <seg th:sID="C09_app106-fThomas"/>
+        gone
+        <seg th:eID="C09_app106-fThomas"/>
+    before 
+        <seg th:sID="C09_app108-fThomas"/>
+        you,
+        <seg th:eID="C09_app108-fThomas"/>
+    and there is nothing more to 
+        <seg th:sID="C09_app110-fThomas"/>
+        know;
+        <seg th:eID="C09_app110-fThomas"/>
+    but in a scientific pursuit 
+        <seg th:sID="C09_app112-fThomas"/>
+        there is continual food for discovery and wonder. A mind of
+        <seg th:eID="C09_app112-fThomas"/>
+            <seg th:sID="C09_app113-fThomas"/>
+        moderate
+        <seg th:eID="C09_app113-fThomas"/>
+            <seg th:sID="C09_app114-fThomas"/>
+        capacity, which
+        <seg th:eID="C09_app114-fThomas"/>
+    closely pursues one 
+        <seg th:sID="C09_app116-fThomas"/>
+        study,
+        <seg th:eID="C09_app116-fThomas"/>
+    must infallibly arrive at great proficiency in 
+        <seg th:sID="C09_app118-fThomas"/>
+        that study; and I,
+        <seg th:eID="C09_app118-fThomas"/>
+    who 
+        <seg th:sID="C09_app120-fThomas"/>
+        con<pb xmlns="" xml:id="F1818_v1_093" n="081"/>tinually
+        <seg th:eID="C09_app120-fThomas"/>
+            <seg th:sID="C09_app121-fThomas"/>
+        sought the attainment of
+        <seg th:eID="C09_app121-fThomas"/>
+    one  
+        <seg th:sID="C09_app123-fThomas"/>
+        object
+        <seg th:eID="C09_app123-fThomas"/>
+            <seg th:sID="C09_app124-fThomas"/>
+        of pursuit,
+        <seg th:eID="C09_app124-fThomas"/>
+    and was 
+        <seg th:sID="C09_app126-fThomas"/>
+        solely wrapt
+        <seg th:eID="C09_app126-fThomas"/>
+    up 
+        <seg th:sID="C09_app128-fThomas"/>
+        in
+        <seg th:eID="C09_app128-fThomas"/>
+            <seg th:sID="C09_app129-fThomas"/>
+        this,
+        <seg th:eID="C09_app129-fThomas"/>
+    improved so 
+        <seg th:sID="C09_app131-fThomas"/>
+        rapidly, that,
+        <seg th:eID="C09_app131-fThomas"/>
+    at the end of 
+        <seg th:sID="C09_app133-fThomas"/>
+        two
+        <seg th:eID="C09_app133-fThomas"/>
+            <seg th:sID="C09_app134-fThomas"/>
+        years,
+        <seg th:eID="C09_app134-fThomas"/>
+    I made 
+        <seg th:sID="C09_app136-fThomas"/>
+        some
+        <seg th:eID="C09_app136-fThomas"/>
+            <seg th:sID="C09_app137-fThomas"/>
+        discoveries in the improvement of some chemical
+        <seg th:eID="C09_app137-fThomas"/>
+            <seg th:sID="C09_app138-fThomas"/>
+        instruments,
+        <seg th:eID="C09_app138-fThomas"/>
+    which procured me great esteem and admiration at the university. 
+        <seg th:sID="C09_app140-fThomas"/>
+        When I had
+        <seg th:eID="C09_app140-fThomas"/>
+    arrived at this 
+        <seg th:sID="C09_app142-fThomas"/>
+        point, and
+        <seg th:eID="C09_app142-fThomas"/>
+            <seg th:sID="C09_app143-fThomas"/>
+        had become as well acquainted with the theory and practice of natural philosophy as depended on the lessons of any of the professors at Ingolstadt, my residence
+        <seg th:eID="C09_app143-fThomas"/>
+    there being no longer conducive to my  
+        <seg th:sID="C09_app146-fThomas"/>
+        improvements,
+        <seg th:eID="C09_app146-fThomas"/>
+    I thought of returning to my friends and 
+        <seg th:sID="C09_app148-fThomas"/>
+        my native town, when an incident happened that protracted my stay. <p th:eID="novel1_letter4_chapter3_div4_div3_p2"/>
+            <p th:sID="novel1_letter4_chapter3_div4_div3_p3"/> One of
+        <seg th:eID="C09_app148-fThomas"/>
+            <seg th:sID="C09_app149-fThomas"/>
+        the phænomena
+        <seg th:eID="C09_app149-fThomas"/>
+    which had 
+        <seg th:sID="C09_app151-fThomas"/>
+        peculiarly attracted my attention was the structure of the human
+        <seg th:eID="C09_app151-fThomas"/>
+            <seg th:sID="C09_app152-fThomas"/>
+        frame, and, indeed,
+        <seg th:eID="C09_app152-fThomas"/>
+    any animal endued with life. 
+        <seg th:sID="C09_app154-fThomas"/>
+        Whence,
+        <seg th:eID="C09_app154-fThomas"/>
+    I often asked 
+        <seg th:sID="C09_app156-fThomas"/>
+        myself,
+        <seg th:eID="C09_app156-fThomas"/>
+    did 
+        <seg th:sID="C09_app158-fThomas"/>
+        the
+        <seg th:eID="C09_app158-fThomas"/>
+            <pb xmlns="" xml:id="F1818_v1_094" n="082"/>principle of life 
+        <seg th:sID="C09_app160-fThomas"/>
+        proceed?
+        <seg th:eID="C09_app160-fThomas"/>
+    It was a bold question, and one 
+        <seg th:sID="C09_app162-fThomas"/>
+        which has ever been considered as a
+        <seg th:eID="C09_app162-fThomas"/>
+            <seg th:sID="C09_app163-fThomas"/>
+        mystery; yet with
+        <seg th:eID="C09_app163-fThomas"/>
+    how many things are we 
+        <seg th:sID="C09_app165-fThomas"/>
+        upon
+        <seg th:eID="C09_app165-fThomas"/>
+    the brink of becoming 
+        <seg th:sID="C09_app167-fThomas"/>
+        acquainted,
+        <seg th:eID="C09_app167-fThomas"/>
+    if cowardice or carelessness did not restrain 
+        <seg th:sID="C09_app169-fThomas"/>
+        our
+        <seg th:eID="C09_app169-fThomas"/>
+            <seg th:sID="C09_app170-fThomas"/>
+        inquiries.
+        <seg th:eID="C09_app170-fThomas"/>
+    I revolved these circumstances in my 
+        <seg th:sID="C09_app172-fThomas"/>
+        mind,
+        <seg th:eID="C09_app172-fThomas"/>
+    and determined 
+        <seg th:sID="C09_app174-fThomas"/>
+        thenceforth to apply myself more particularly to
+        <seg th:eID="C09_app174-fThomas"/>
+            <seg th:sID="C09_app175-fThomas"/>
+        those branches
+        <seg th:eID="C09_app175-fThomas"/>
+    of natural philosophy which 
+        <seg th:sID="C09_app177-fThomas"/>
+        relate to
+        <seg th:eID="C09_app177-fThomas"/>
+            <seg th:sID="C09_app178-fThomas"/>
+        physiology.
+        <seg th:eID="C09_app178-fThomas"/>
+            <seg th:sID="C09_app179-fThomas"/>
+            <add xmlns="" place="margin">The event of these enquiries interested my understanding, I may say my imagination, until I was exalted to a kind of transport. And indeed </add> Unless I had been animated by an almost supernatural enthusiasm, my application to this study would have been
+        <seg th:eID="C09_app179-fThomas"/>
+            <seg th:sID="C09_app180-fThomas"/>
+        irksome,
+        <seg th:eID="C09_app180-fThomas"/>
+    and almost intolerable. To examine the causes of 
+        <seg th:sID="C09_app182-fThomas"/>
+        life,
+        <seg th:eID="C09_app182-fThomas"/>
+    we must first have 
+        <seg th:sID="C09_app184-fThomas"/>
+        recourse to death.
+        <seg th:eID="C09_app184-fThomas"/>
+            <seg th:sID="C09_app185-fThomas"/>
+        I became acquainted with the science of
+        <seg th:eID="C09_app185-fThomas"/>
+            <seg th:sID="C09_app186-fThomas"/>
+        anatomy:
+        <seg th:eID="C09_app186-fThomas"/>
+    but this was not 
+        <seg th:sID="C09_app188-fThomas"/>
+        sufficient;
+        <seg th:eID="C09_app188-fThomas"/>
+    I must also observe the natural decay and corruption of the human body. In my education my father had taken the <pb xmlns="" xml:id="F1818_v1_095" n="083"/>greatest precautions that my mind should 
+        <seg th:sID="C09_app190-fThomas"/>
+        be impressed
+        <seg th:eID="C09_app190-fThomas"/>
+            <seg th:sID="C09_app191-fThomas"/>
+        with no
+        <seg th:eID="C09_app191-fThomas"/>
+    supernatural horrors. I do not ever remember 
+        <seg th:sID="C09_app193-fThomas"/>
+        to have
+        <seg th:eID="C09_app193-fThomas"/>
+    trembled at 
+        <seg th:sID="C09_app195-fThomas"/>
+        a
+        <seg th:eID="C09_app195-fThomas"/>
+    tale of 
+        <seg th:sID="C09_app197-fThomas"/>
+        superstition,
+        <seg th:eID="C09_app197-fThomas"/>
+    or to have feared the apparition of a 
+        <seg th:sID="C09_app199-fThomas"/>
+        spirit.
+        <seg th:eID="C09_app199-fThomas"/>
+    Darkness had no effect upon my 
+        <seg th:sID="C09_app201-fThomas"/>
+        fancy;
+        <seg th:eID="C09_app201-fThomas"/>
+    and a 
+        <seg th:sID="C09_app203-fThomas"/>
+        church-yard
+        <seg th:eID="C09_app203-fThomas"/>
+    was to me merely 
+        <seg th:sID="C09_app205-fThomas"/>
+        the receptacle of
+        <seg th:eID="C09_app205-fThomas"/>
+            <seg th:sID="C09_app206-fThomas"/>
+        bodies deprived of
+        <seg th:eID="C09_app206-fThomas"/>
+            <seg th:sID="C09_app207-fThomas"/>
+        life, which,
+        <seg th:eID="C09_app207-fThomas"/>
+    from being the seat of beauty 
+        <seg th:sID="C09_app209-fThomas"/>
+        and strength, had become
+        <seg th:eID="C09_app209-fThomas"/>
+    food for the worm. 
+        <seg th:sID="C09_app211-fThomas"/>
+        Now I was
+        <seg th:eID="C09_app211-fThomas"/>
+            <seg th:sID="C09_app212-fThomas"/>
+        led
+        <seg th:eID="C09_app212-fThomas"/>
+    to examine the  
+        <seg th:sID="C09_app214-fThomas"/>
+        cause and progress of this
+        <seg th:eID="C09_app214-fThomas"/>
+            <seg th:sID="C09_app215-fThomas"/>
+        decay,
+        <seg th:eID="C09_app215-fThomas"/>
+    and forced to spend days and nights in vaults and 
+        <seg th:sID="C09_app217-fThomas"/>
+        charnel houses.
+        <seg th:eID="C09_app217-fThomas"/>
+    My attention was fixed upon every 
+        <seg th:sID="C09_app219-fThomas"/>
+        object
+        <seg th:eID="C09_app219-fThomas"/>
+            <seg th:sID="C09_app220-fThomas"/>
+        the most insupportable to the delicacy of the human feelings.
+        <seg th:eID="C09_app220-fThomas"/>
+            <seg th:sID="C09_app221-fThomas"/>
+        I saw how the fine form of
+        <seg th:eID="C09_app221-fThomas"/>
+            <seg th:sID="C09_app222-fThomas"/>
+        man
+        <seg th:eID="C09_app222-fThomas"/>
+            <seg th:sID="C09_app223-fThomas"/>
+        was
+        <seg th:eID="C09_app223-fThomas"/>
+    degraded and  
+        <seg th:sID="C09_app225-fThomas"/>
+        wasted;
+        <seg th:eID="C09_app225-fThomas"/>
+    I beheld the corruption of death succeed to the blooming cheek of 
+        <seg th:sID="C09_app227-fThomas"/>
+        life;
+        <seg th:eID="C09_app227-fThomas"/>
+    I saw how the  
+        <seg th:sID="C09_app230-fThomas"/>
+        worm
+        <seg th:eID="C09_app230-fThomas"/>
+    inherited the wonders of the eye and brain. I <pb xmlns="" xml:id="F1818_v1_096" n="084"/>paused, 
+        <seg th:sID="C09_app232-fThomas"/>
+        examining
+        <seg th:eID="C09_app232-fThomas"/>
+    and 
+        <seg th:sID="C09_app234-fThomas"/>
+        analysing
+        <seg th:eID="C09_app234-fThomas"/>
+    all the minutiæ of 
+        <seg th:sID="C09_app236-fThomas"/>
+        causation,
+        <seg th:eID="C09_app236-fThomas"/>
+    as exemplified in the change from life to death, 
+        <seg th:sID="C09_app238-fThomas"/>
+        and death
+        <seg th:eID="C09_app238-fThomas"/>
+    to life, 
+        <seg th:sID="C09_app240-fThomas"/>
+        until
+        <seg th:eID="C09_app240-fThomas"/>
+    from the midst of this darkness a sudden light broke in upon 
+        <seg th:sID="C09_app242-fThomas"/>
+        me—a
+        <seg th:eID="C09_app242-fThomas"/>
+    light so brilliant and 
+        <seg th:sID="C09_app244-fThomas"/>
+        wondrous,
+        <seg th:eID="C09_app244-fThomas"/>
+    yet so 
+        <seg th:sID="C09_app246-fThomas"/>
+        simple,
+        <seg th:eID="C09_app246-fThomas"/>
+    that while 
+        <seg th:sID="C09_app248-fThomas"/>
+        I
+        <seg th:eID="C09_app248-fThomas"/>
+    became dizzy with the immensity of the prospect which it 
+        <seg th:sID="C09_app250-fThomas"/>
+        illustrated,
+        <seg th:eID="C09_app250-fThomas"/>
+    I was 
+        <seg th:sID="C09_app252-fThomas"/>
+        surprised
+        <seg th:eID="C09_app252-fThomas"/>
+    that 
+        <seg th:sID="C09_app254-fThomas"/>
+        among so many men of
+        <seg th:eID="C09_app254-fThomas"/>
+            <seg th:sID="C09_app255-fThomas"/>
+        genius,
+        <seg th:eID="C09_app255-fThomas"/>
+    who had 
+        <seg th:sID="C09_app257-fThomas"/>
+        directed their inquiries towards
+        <seg th:eID="C09_app257-fThomas"/>
+    the same 
+        <seg th:sID="C09_app259-fThomas"/>
+        science, that I alone should be reserved to
+        <seg th:eID="C09_app259-fThomas"/>
+    discover 
+        <seg th:sID="C09_app261-fThomas"/>
+        so
+        <seg th:eID="C09_app261-fThomas"/>
+            <seg th:sID="C09_app262-fThomas"/>
+        difficulty and labour. 
+        <seg th:eID="C09_app262-fThomas"/>
+            <seg th:sID="C09_app263-fThomas"/>
+        secret. <p th:eID="novel1_letter4_chapter3_div4_div3_p3"/>
             <p th:sID="novel1_letter4_chapter3_div4_div3_p4"/>
-            <seg xml:id="C09_app263-fThomas_end"/>
-            <seg xml:id="C09_app264-fThomas_start"/>Remember,<seg xml:id="C09_app264-fThomas_end"/>I am <seg xml:id="C09_app266-fThomas_start"/>not recording the<seg xml:id="C09_app266-fThomas_end"/>
-            <seg xml:id="C09_app267-fThomas_start"/>vision<seg xml:id="C09_app267-fThomas_end"/>
-            <seg xml:id="C09_app268-fThomas_start"/>of a<seg xml:id="C09_app268-fThomas_end"/>
-            <seg xml:id="C09_app269-fThomas_start"/>madman.<seg xml:id="C09_app269-fThomas_end"/>The sun does not more certainly shine in the <seg xml:id="C09_app271-fThomas_start"/>heavens,<seg xml:id="C09_app271-fThomas_end"/>than that <seg xml:id="C09_app273-fThomas_start"/>which<seg xml:id="C09_app273-fThomas_end"/>I now <seg xml:id="C09_app275-fThomas_start"/>affirm<seg xml:id="C09_app275-fThomas_end"/>is true. Some miracle might have produced <seg xml:id="C09_app277-fThomas_start"/>it, yet the stages of the<seg xml:id="C09_app277-fThomas_end"/>discovery were distinct and probable. After days and nights of incredible <seg xml:id="C09_app279-fThomas_start"/>labour<seg xml:id="C09_app279-fThomas_end"/>and  <seg xml:id="C09_app281-fThomas_start"/>fatigue,<seg xml:id="C09_app281-fThomas_end"/>
-            <pb xml:id="F1818_v1_097" n="085"/>I succeeded in discovering the cause of generation and <seg xml:id="C09_app283-fThomas_start"/>life; nay,<seg xml:id="C09_app283-fThomas_end"/>more, I <seg xml:id="C09_app285-fThomas_start"/>became<seg xml:id="C09_app285-fThomas_end"/>myself capable of bestowing animation upon lifeless matter. <p th:eID="novel1_letter4_chapter3_div4_div3_p4"/>
+            <seg th:eID="C09_app263-fThomas"/>
+            <seg th:sID="C09_app264-fThomas"/>
+        Remember,
+        <seg th:eID="C09_app264-fThomas"/>
+    I am 
+        <seg th:sID="C09_app266-fThomas"/>
+        not recording the
+        <seg th:eID="C09_app266-fThomas"/>
+            <seg th:sID="C09_app267-fThomas"/>
+        vision
+        <seg th:eID="C09_app267-fThomas"/>
+            <seg th:sID="C09_app268-fThomas"/>
+        of a
+        <seg th:eID="C09_app268-fThomas"/>
+            <seg th:sID="C09_app269-fThomas"/>
+        madman.
+        <seg th:eID="C09_app269-fThomas"/>
+    The sun does not more certainly shine in the 
+        <seg th:sID="C09_app271-fThomas"/>
+        heavens,
+        <seg th:eID="C09_app271-fThomas"/>
+    than that 
+        <seg th:sID="C09_app273-fThomas"/>
+        which
+        <seg th:eID="C09_app273-fThomas"/>
+    I now 
+        <seg th:sID="C09_app275-fThomas"/>
+        affirm
+        <seg th:eID="C09_app275-fThomas"/>
+    is true. Some miracle might have produced 
+        <seg th:sID="C09_app277-fThomas"/>
+        it, yet the stages of the
+        <seg th:eID="C09_app277-fThomas"/>
+    discovery were distinct and probable. After days and nights of incredible 
+        <seg th:sID="C09_app279-fThomas"/>
+        labour
+        <seg th:eID="C09_app279-fThomas"/>
+    and  
+        <seg th:sID="C09_app281-fThomas"/>
+        fatigue,
+        <seg th:eID="C09_app281-fThomas"/>
+            <pb xmlns="" xml:id="F1818_v1_097" n="085"/>I succeeded in discovering the cause of generation and 
+        <seg th:sID="C09_app283-fThomas"/>
+        life; nay,
+        <seg th:eID="C09_app283-fThomas"/>
+    more, I 
+        <seg th:sID="C09_app285-fThomas"/>
+        became
+        <seg th:eID="C09_app285-fThomas"/>
+    myself capable of bestowing animation upon lifeless matter. <p th:eID="novel1_letter4_chapter3_div4_div3_p4"/>
             <p th:sID="novel1_letter4_chapter3_div4_div3_p5"/>
-            <seg xml:id="C09_app287-fThomas_start"/>The<seg xml:id="C09_app287-fThomas_end"/>
-            <seg xml:id="C09_app288-fThomas_start"/>astonishment<seg xml:id="C09_app288-fThomas_end"/>which I  <seg xml:id="C09_app291-fThomas_start"/>had<seg xml:id="C09_app291-fThomas_end"/>at first experienced on this discovery soon gave place to delight and rapture. <seg xml:id="C09_app293-fThomas_start"/>After so much<seg xml:id="C09_app293-fThomas_end"/>
-            <seg xml:id="C09_app294-fThomas_start"/>time spent in painful<seg xml:id="C09_app294-fThomas_end"/>
-            <seg xml:id="C09_app295-fThomas_start"/>labour,<seg xml:id="C09_app295-fThomas_end"/>to arrive at  <seg xml:id="C09_app298-fThomas_start"/>once<seg xml:id="C09_app298-fThomas_end"/>at the <seg xml:id="C09_app300-fThomas_start"/>summit<seg xml:id="C09_app300-fThomas_end"/>of my  <seg xml:id="C09_app302-fThomas_start"/>desires,<seg xml:id="C09_app302-fThomas_end"/>was the most gratifying <seg xml:id="C09_app304-fThomas_start"/>consummation of my toils.<seg xml:id="C09_app304-fThomas_end"/>But this discovery was so great and <seg xml:id="C09_app306-fThomas_start"/>overwhelming,<seg xml:id="C09_app306-fThomas_end"/>that <seg xml:id="C09_app308-fThomas_start"/>all the steps<seg xml:id="C09_app308-fThomas_end"/>
-            <seg xml:id="C09_app309-fThomas_start"/>by which I had been<seg xml:id="C09_app309-fThomas_end"/>progressively led to it were  <seg xml:id="C09_app311-fThomas_start"/>obliterated,<seg xml:id="C09_app311-fThomas_end"/>and I  <seg xml:id="C09_app314-fThomas_start"/>beheld<seg xml:id="C09_app314-fThomas_end"/>only the result. What had been the study and desire of the  <seg xml:id="C09_app316-fThomas_start"/>wisest men since the creation of the<seg xml:id="C09_app316-fThomas_end"/>
-            <seg xml:id="C09_app317-fThomas_start"/>world,<seg xml:id="C09_app317-fThomas_end"/>was now <seg xml:id="C09_app319-fThomas_start"/>within<seg xml:id="C09_app319-fThomas_end"/>my  <seg xml:id="C09_app321-fThomas_start"/>grasp.<seg xml:id="C09_app321-fThomas_end"/>Not that, like a magic <seg xml:id="C09_app323-fThomas_start"/>scene,<seg xml:id="C09_app323-fThomas_end"/>it all opened upon me at <seg xml:id="C09_app325-fThomas_start"/>once:<seg xml:id="C09_app325-fThomas_end"/>the <seg xml:id="C09_app327-fThomas_start"/>information I had obtained was<seg xml:id="C09_app327-fThomas_end"/>
-            <seg xml:id="C09_app328-fThomas_start"/>of a nature<seg xml:id="C09_app328-fThomas_end"/>rather  <seg xml:id="C09_app330-fThomas_start"/>to<seg xml:id="C09_app330-fThomas_end"/>direct my  <seg xml:id="C09_app332-fThomas_start"/>endeavours<seg xml:id="C09_app332-fThomas_end"/>so soon as I should point them towards <pb xml:id="F1818_v1_098" n="086"/>the object of my search, than to exhibit that object already accomplished. I was like the Arabian  <seg xml:id="C09_app335-fThomas_start"/>who had been buried with the dead, and found a passage to<seg xml:id="C09_app335-fThomas_end"/>
-            <seg xml:id="C09_app336-fThomas_start"/>life<seg xml:id="C09_app336-fThomas_end"/>aided only by one <seg xml:id="C09_app338-fThomas_start"/>glimmering,<seg xml:id="C09_app338-fThomas_end"/>and seemingly <seg xml:id="C09_app340-fThomas_start"/>ineffectual,<seg xml:id="C09_app340-fThomas_end"/>light. <p th:eID="novel1_letter4_chapter3_div4_div3_p5"/>
-            <p th:sID="novel1_letter4_chapter3_div4_div3_p6"/> I see by your <seg xml:id="C09_app342-fThomas_start"/>eagerness,<seg xml:id="C09_app342-fThomas_end"/>and the wonder and hope which your eyes express, my friend, that you expect to be informed of the <seg xml:id="C09_app344-fThomas_start"/>secret with which I am<seg xml:id="C09_app344-fThomas_end"/>
-            <seg xml:id="C09_app345-fThomas_start"/>acquainted;<seg xml:id="C09_app345-fThomas_end"/>that cannot <seg xml:id="C09_app347-fThomas_start"/>be:<seg xml:id="C09_app347-fThomas_end"/>listen patiently <seg xml:id="C09_app349-fThomas_start"/>until<seg xml:id="C09_app349-fThomas_end"/>the end of my <seg xml:id="C09_app351-fThomas_start"/>story,<seg xml:id="C09_app351-fThomas_end"/>and you will easily perceive why I am reserved upon that  <seg xml:id="C09_app354-fThomas_start"/>subject.<seg xml:id="C09_app354-fThomas_end"/>I will not lead you on,  <seg xml:id="C09_app357-fThomas_start"/>unguarded and ardent as I then was, to your<seg xml:id="C09_app357-fThomas_end"/>
-            <seg xml:id="C09_app358-fThomas_start"/>destruction and infallible misery. Learn from me, if not by my<seg xml:id="C09_app358-fThomas_end"/>
-            <seg xml:id="C09_app359-fThomas_start"/>precepts,<seg xml:id="C09_app359-fThomas_end"/>at least by my example, how dangerous is the acquirement of <seg xml:id="C09_app361-fThomas_start"/>knowledge,<seg xml:id="C09_app361-fThomas_end"/>and how much happier that man is who believes his <pb xml:id="F1818_v1_099" n="087"/>native town <seg xml:id="C09_app363-fThomas_start"/>to be the world,<seg xml:id="C09_app363-fThomas_end"/>than he <seg xml:id="C09_app365-fThomas_start"/>who<seg xml:id="C09_app365-fThomas_end"/>aspires to become greater than his nature <seg xml:id="C09_app367-fThomas_start"/>will allow.<seg xml:id="C09_app367-fThomas_end"/>
-            <seg xml:id="C09_app368-fThomas_start"/>
+            <seg th:sID="C09_app287-fThomas"/>
+        The
+        <seg th:eID="C09_app287-fThomas"/>
+            <seg th:sID="C09_app288-fThomas"/>
+        astonishment
+        <seg th:eID="C09_app288-fThomas"/>
+    which I  
+        <seg th:sID="C09_app291-fThomas"/>
+        had
+        <seg th:eID="C09_app291-fThomas"/>
+    at first experienced on this discovery soon gave place to delight and rapture. 
+        <seg th:sID="C09_app293-fThomas"/>
+        After so much
+        <seg th:eID="C09_app293-fThomas"/>
+            <seg th:sID="C09_app294-fThomas"/>
+        time spent in painful
+        <seg th:eID="C09_app294-fThomas"/>
+            <seg th:sID="C09_app295-fThomas"/>
+        labour,
+        <seg th:eID="C09_app295-fThomas"/>
+    to arrive at  
+        <seg th:sID="C09_app298-fThomas"/>
+        once
+        <seg th:eID="C09_app298-fThomas"/>
+    at the 
+        <seg th:sID="C09_app300-fThomas"/>
+        summit
+        <seg th:eID="C09_app300-fThomas"/>
+    of my  
+        <seg th:sID="C09_app302-fThomas"/>
+        desires,
+        <seg th:eID="C09_app302-fThomas"/>
+    was the most gratifying 
+        <seg th:sID="C09_app304-fThomas"/>
+        consummation of my toils.
+        <seg th:eID="C09_app304-fThomas"/>
+    But this discovery was so great and 
+        <seg th:sID="C09_app306-fThomas"/>
+        overwhelming,
+        <seg th:eID="C09_app306-fThomas"/>
+    that 
+        <seg th:sID="C09_app308-fThomas"/>
+        all the steps
+        <seg th:eID="C09_app308-fThomas"/>
+            <seg th:sID="C09_app309-fThomas"/>
+        by which I had been
+        <seg th:eID="C09_app309-fThomas"/>
+    progressively led to it were  
+        <seg th:sID="C09_app311-fThomas"/>
+        obliterated,
+        <seg th:eID="C09_app311-fThomas"/>
+    and I  
+        <seg th:sID="C09_app314-fThomas"/>
+        beheld
+        <seg th:eID="C09_app314-fThomas"/>
+    only the result. What had been the study and desire of the  
+        <seg th:sID="C09_app316-fThomas"/>
+        wisest men since the creation of the
+        <seg th:eID="C09_app316-fThomas"/>
+            <seg th:sID="C09_app317-fThomas"/>
+        world,
+        <seg th:eID="C09_app317-fThomas"/>
+    was now 
+        <seg th:sID="C09_app319-fThomas"/>
+        within
+        <seg th:eID="C09_app319-fThomas"/>
+    my  
+        <seg th:sID="C09_app321-fThomas"/>
+        grasp.
+        <seg th:eID="C09_app321-fThomas"/>
+    Not that, like a magic 
+        <seg th:sID="C09_app323-fThomas"/>
+        scene,
+        <seg th:eID="C09_app323-fThomas"/>
+    it all opened upon me at 
+        <seg th:sID="C09_app325-fThomas"/>
+        once:
+        <seg th:eID="C09_app325-fThomas"/>
+    the 
+        <seg th:sID="C09_app327-fThomas"/>
+        information I had obtained was
+        <seg th:eID="C09_app327-fThomas"/>
+            <seg th:sID="C09_app328-fThomas"/>
+        of a nature
+        <seg th:eID="C09_app328-fThomas"/>
+    rather  
+        <seg th:sID="C09_app330-fThomas"/>
+        to
+        <seg th:eID="C09_app330-fThomas"/>
+    direct my  
+        <seg th:sID="C09_app332-fThomas"/>
+        endeavours
+        <seg th:eID="C09_app332-fThomas"/>
+    so soon as I should point them towards <pb xmlns="" xml:id="F1818_v1_098" n="086"/>the object of my search, than to exhibit that object already accomplished. I was like the Arabian  
+        <seg th:sID="C09_app335-fThomas"/>
+        who had been buried with the dead, and found a passage to
+        <seg th:eID="C09_app335-fThomas"/>
+            <seg th:sID="C09_app336-fThomas"/>
+        life
+        <seg th:eID="C09_app336-fThomas"/>
+    aided only by one 
+        <seg th:sID="C09_app338-fThomas"/>
+        glimmering,
+        <seg th:eID="C09_app338-fThomas"/>
+    and seemingly 
+        <seg th:sID="C09_app340-fThomas"/>
+        ineffectual,
+        <seg th:eID="C09_app340-fThomas"/>
+    light. <p th:eID="novel1_letter4_chapter3_div4_div3_p5"/>
+            <p th:sID="novel1_letter4_chapter3_div4_div3_p6"/> I see by your 
+        <seg th:sID="C09_app342-fThomas"/>
+        eagerness,
+        <seg th:eID="C09_app342-fThomas"/>
+    and the wonder and hope which your eyes express, my friend, that you expect to be informed of the 
+        <seg th:sID="C09_app344-fThomas"/>
+        secret with which I am
+        <seg th:eID="C09_app344-fThomas"/>
+            <seg th:sID="C09_app345-fThomas"/>
+        acquainted;
+        <seg th:eID="C09_app345-fThomas"/>
+    that cannot 
+        <seg th:sID="C09_app347-fThomas"/>
+        be:
+        <seg th:eID="C09_app347-fThomas"/>
+    listen patiently 
+        <seg th:sID="C09_app349-fThomas"/>
+        until
+        <seg th:eID="C09_app349-fThomas"/>
+    the end of my 
+        <seg th:sID="C09_app351-fThomas"/>
+        story,
+        <seg th:eID="C09_app351-fThomas"/>
+    and you will easily perceive why I am reserved upon that  
+        <seg th:sID="C09_app354-fThomas"/>
+        subject.
+        <seg th:eID="C09_app354-fThomas"/>
+    I will not lead you on,  
+        <seg th:sID="C09_app357-fThomas"/>
+        unguarded and ardent as I then was, to your
+        <seg th:eID="C09_app357-fThomas"/>
+            <seg th:sID="C09_app358-fThomas"/>
+        destruction and infallible misery. Learn from me, if not by my
+        <seg th:eID="C09_app358-fThomas"/>
+            <seg th:sID="C09_app359-fThomas"/>
+        precepts,
+        <seg th:eID="C09_app359-fThomas"/>
+    at least by my example, how dangerous is the acquirement of 
+        <seg th:sID="C09_app361-fThomas"/>
+        knowledge,
+        <seg th:eID="C09_app361-fThomas"/>
+    and how much happier that man is who believes his <pb xmlns="" xml:id="F1818_v1_099" n="087"/>native town 
+        <seg th:sID="C09_app363-fThomas"/>
+        to be the world,
+        <seg th:eID="C09_app363-fThomas"/>
+    than he 
+        <seg th:sID="C09_app365-fThomas"/>
+        who
+        <seg th:eID="C09_app365-fThomas"/>
+    aspires to become greater than his nature 
+        <seg th:sID="C09_app367-fThomas"/>
+        will allow.
+        <seg th:eID="C09_app367-fThomas"/>
+            <seg th:sID="C09_app368-fThomas"/>
             <p th:eID="novel1_letter4_chapter3_div4_div3_p6"/>
-            <p th:sID="novel1_letter4_chapter3_div4_div3_p7"/> When I found<seg xml:id="C09_app368-fThomas_end"/>so astonishing a  power placed  <seg xml:id="C09_app372-fThomas_start"/>within<seg xml:id="C09_app372-fThomas_end"/>my  <seg xml:id="C09_app374-fThomas_start"/>hands,<seg xml:id="C09_app374-fThomas_end"/>I hesitated a long time concerning the <seg xml:id="C09_app376-fThomas_start"/>manner in which<seg xml:id="C09_app376-fThomas_end"/>I should  <seg xml:id="C09_app378-fThomas_start"/>employ<seg xml:id="C09_app378-fThomas_end"/>it. Although I  <seg xml:id="C09_app380-fThomas_start"/>possessed the capacity of bestowing<seg xml:id="C09_app380-fThomas_end"/>
-            <seg xml:id="C09_app381-fThomas_start"/>animation,<seg xml:id="C09_app381-fThomas_end"/>yet <seg xml:id="C09_app383-fThomas_start"/>to<seg xml:id="C09_app383-fThomas_end"/>
-            <seg xml:id="C09_app384-fThomas_start"/>prepare<seg xml:id="C09_app384-fThomas_end"/>a  <seg xml:id="C09_app386-fThomas_start"/>frame<seg xml:id="C09_app386-fThomas_end"/>
-            <seg xml:id="C09_app387-fThomas_start"/>for the<seg xml:id="C09_app387-fThomas_end"/>
-            <seg xml:id="C09_app388-fThomas_start"/>reception of<seg xml:id="C09_app388-fThomas_end"/>
-            <seg xml:id="C09_app389-fThomas_start"/>it,<seg xml:id="C09_app389-fThomas_end"/>with all its intricacies of <seg xml:id="C09_app391-fThomas_start"/>fibres, muscles,<seg xml:id="C09_app391-fThomas_end"/>and <seg xml:id="C09_app393-fThomas_start"/>veins,<seg xml:id="C09_app393-fThomas_end"/>still remained a work of inconceivable <seg xml:id="C09_app395-fThomas_start"/>difficulty and labour.<seg xml:id="C09_app395-fThomas_end"/>I doubted at first whether I should attempt the creation of a <seg xml:id="C09_app397-fThomas_start"/>being like<seg xml:id="C09_app397-fThomas_end"/>
-            <seg xml:id="C09_app398-fThomas_start"/>myself<seg xml:id="C09_app398-fThomas_end"/>or one of simpler organization; <seg xml:id="C09_app400-fThomas_start"/>but my imagination was too much exalted by my first success to permit me to doubt of my<seg xml:id="C09_app400-fThomas_end"/>
-            <seg xml:id="C09_app401-fThomas_start"/>ability to<seg xml:id="C09_app401-fThomas_end"/>
-            <seg xml:id="C09_app402-fThomas_start"/>give life<seg xml:id="C09_app402-fThomas_end"/>
-            <seg xml:id="C09_app403-fThomas_start"/>to<seg xml:id="C09_app403-fThomas_end"/>
-            <seg xml:id="C09_app404-fThomas_start"/>an animal<seg xml:id="C09_app404-fThomas_end"/>as complex and wonderful as man.  <seg xml:id="C09_app406-fThomas_start"/>The materials at present within my command<seg xml:id="C09_app406-fThomas_end"/>hardly appeared adequate to so  <seg xml:id="C09_app408-fThomas_start"/>arduous<seg xml:id="C09_app408-fThomas_end"/>an <pb xml:id="F1818_v1_100" n="088"/>undertaking; <seg xml:id="C09_app410-fThomas_start"/>but I doubted not that I should<seg xml:id="C09_app410-fThomas_end"/>
-            <seg xml:id="C09_app411-fThomas_start"/>ultimately<seg xml:id="C09_app411-fThomas_end"/>succeed. <seg xml:id="C09_app413-fThomas_start"/>I prepared myself for a multitude of<seg xml:id="C09_app413-fThomas_end"/>
-            <seg xml:id="C09_app414-fThomas_start"/>reverses;<seg xml:id="C09_app414-fThomas_end"/>my operations <seg xml:id="C09_app416-fThomas_start"/>might<seg xml:id="C09_app416-fThomas_end"/>be <seg xml:id="C09_app418-fThomas_start"/>incessantly baffled,<seg xml:id="C09_app418-fThomas_end"/>and at last my work be <seg xml:id="C09_app420-fThomas_start"/>imperfect:<seg xml:id="C09_app420-fThomas_end"/>yet, when I considered the improvement <seg xml:id="C09_app422-fThomas_start"/>which<seg xml:id="C09_app422-fThomas_end"/>every day takes place in science and  <seg xml:id="C09_app424-fThomas_start"/>mechanics,<seg xml:id="C09_app424-fThomas_end"/>I was encouraged to <seg xml:id="C09_app426-fThomas_start"/>hope<seg xml:id="C09_app426-fThomas_end"/>
-            <seg xml:id="C09_app427-fThomas_start"/>my present<seg xml:id="C09_app427-fThomas_end"/>attempts would  <seg xml:id="C09_app429-fThomas_start"/>at least<seg xml:id="C09_app429-fThomas_end"/>
-            <seg xml:id="C09_app430-fThomas_start"/>lay the foundations of future<seg xml:id="C09_app430-fThomas_end"/>
-            <seg xml:id="C09_app431-fThomas_start"/>success. Nor<seg xml:id="C09_app431-fThomas_end"/>could I consider <seg xml:id="C09_app433-fThomas_start"/>the magnitude and<seg xml:id="C09_app433-fThomas_end"/>
-            <seg xml:id="C09_app434-fThomas_start"/>complexity<seg xml:id="C09_app434-fThomas_end"/>of my plan  <seg xml:id="C09_app436-fThomas_start"/>as any argument of its<seg xml:id="C09_app436-fThomas_end"/>
-            <seg xml:id="C09_app437-fThomas_start"/>impracticability.<seg xml:id="C09_app437-fThomas_end"/>It was with these feelings <seg xml:id="C09_app439-fThomas_start"/>that<seg xml:id="C09_app439-fThomas_end"/>I began the creation of a human being. As the  <seg xml:id="C09_app441-fThomas_start"/>minuteness<seg xml:id="C09_app441-fThomas_end"/>of the parts  <seg xml:id="C09_app443-fThomas_start"/>formed<seg xml:id="C09_app443-fThomas_end"/>a great  <seg xml:id="C09_app445-fThomas_start"/>hindrance<seg xml:id="C09_app445-fThomas_end"/>to my <seg xml:id="C09_app447-fThomas_start"/>speed,<seg xml:id="C09_app447-fThomas_end"/>I resolved, contrary to my first intention, to make <seg xml:id="C09_app449-fThomas_start"/>the being<seg xml:id="C09_app449-fThomas_end"/>
-            <seg xml:id="C09_app450-fThomas_start"/>of a gigantic stature; that is to<seg xml:id="C09_app450-fThomas_end"/>
-            <seg xml:id="C09_app451-fThomas_start"/>say,<seg xml:id="C09_app451-fThomas_end"/>about <seg xml:id="C09_app453-fThomas_start"/>eight feet in height, and proportionably large.<seg xml:id="C09_app453-fThomas_end"/>
-            <seg xml:id="C09_app454-fThomas_start"/>After having formed this<seg xml:id="C09_app454-fThomas_end"/>
-            <seg xml:id="C09_app455-fThomas_start"/>de<pb xml:id="F1818_v1_101" n="089"/>termination,<seg xml:id="C09_app455-fThomas_end"/>and having spent some months in <seg xml:id="C09_app457-fThomas_start"/>successfully collecting and arranging<seg xml:id="C09_app457-fThomas_end"/>my materials, I began. <p th:eID="novel1_letter4_chapter3_div4_div3_p7"/>
-            <p th:sID="novel1_letter4_chapter3_div4_div3_p8"/> No one can conceive  <seg xml:id="C09_app459-fThomas_start"/>the variety of feelings which<seg xml:id="C09_app459-fThomas_end"/>
-            <seg xml:id="C09_app460-fThomas_start"/>bore<seg xml:id="C09_app460-fThomas_end"/>me <seg xml:id="C09_app462-fThomas_start"/>onwards, like a hurricane, in the first enthusiasm of success.<seg xml:id="C09_app462-fThomas_end"/>Life and death appeared to me ideal bounds, which I should first break <seg xml:id="C09_app464-fThomas_start"/>through,<seg xml:id="C09_app464-fThomas_end"/>and pour a torrent of light into our dark world. A new <seg xml:id="C09_app466-fThomas_start"/>species<seg xml:id="C09_app466-fThomas_end"/>would bless me as its <seg xml:id="C09_app468-fThomas_start"/>creator<seg xml:id="C09_app468-fThomas_end"/>and source; many happy and excellent  <seg xml:id="C09_app470-fThomas_start"/>natures<seg xml:id="C09_app470-fThomas_end"/>would owe their  <seg xml:id="C09_app472-fThomas_start"/>being<seg xml:id="C09_app472-fThomas_end"/>to me.  <seg xml:id="C09_app474-fThomas_start"/>No father could claim the gratitude of his child<seg xml:id="C09_app474-fThomas_end"/>
-            <seg xml:id="C09_app475-fThomas_start"/>so completely as I should deserve<seg xml:id="C09_app475-fThomas_end"/>
-            <seg xml:id="C09_app476-fThomas_start"/>their’s. Pursuing<seg xml:id="C09_app476-fThomas_end"/>these <seg xml:id="C09_app478-fThomas_start"/>reflections,<seg xml:id="C09_app478-fThomas_end"/>I <seg xml:id="C09_app480-fThomas_start"/>thought,<seg xml:id="C09_app480-fThomas_end"/>that if I could bestow <seg xml:id="C09_app482-fThomas_start"/>animation<seg xml:id="C09_app482-fThomas_end"/>upon  <seg xml:id="C09_app484-fThomas_start"/>lifeless<seg xml:id="C09_app484-fThomas_end"/>
-            <seg xml:id="C09_app485-fThomas_start"/>matter,<seg xml:id="C09_app485-fThomas_end"/>I might in process of time (although I now found it impossible) renew life where death had apparently devoted the body to corruption. <p th:eID="novel1_letter4_chapter3_div4_div3_p8"/>
+            <p th:sID="novel1_letter4_chapter3_div4_div3_p7"/> When I found
+        <seg th:eID="C09_app368-fThomas"/>
+    so astonishing a  power placed  
+        <seg th:sID="C09_app372-fThomas"/>
+        within
+        <seg th:eID="C09_app372-fThomas"/>
+    my  
+        <seg th:sID="C09_app374-fThomas"/>
+        hands,
+        <seg th:eID="C09_app374-fThomas"/>
+    I hesitated a long time concerning the 
+        <seg th:sID="C09_app376-fThomas"/>
+        manner in which
+        <seg th:eID="C09_app376-fThomas"/>
+    I should  
+        <seg th:sID="C09_app378-fThomas"/>
+        employ
+        <seg th:eID="C09_app378-fThomas"/>
+    it. Although I  
+        <seg th:sID="C09_app380-fThomas"/>
+        possessed the capacity of bestowing
+        <seg th:eID="C09_app380-fThomas"/>
+            <seg th:sID="C09_app381-fThomas"/>
+        animation,
+        <seg th:eID="C09_app381-fThomas"/>
+    yet 
+        <seg th:sID="C09_app383-fThomas"/>
+        to
+        <seg th:eID="C09_app383-fThomas"/>
+            <seg th:sID="C09_app384-fThomas"/>
+        prepare
+        <seg th:eID="C09_app384-fThomas"/>
+    a  
+        <seg th:sID="C09_app386-fThomas"/>
+        frame
+        <seg th:eID="C09_app386-fThomas"/>
+            <seg th:sID="C09_app387-fThomas"/>
+        for the
+        <seg th:eID="C09_app387-fThomas"/>
+            <seg th:sID="C09_app388-fThomas"/>
+        reception of
+        <seg th:eID="C09_app388-fThomas"/>
+            <seg th:sID="C09_app389-fThomas"/>
+        it,
+        <seg th:eID="C09_app389-fThomas"/>
+    with all its intricacies of 
+        <seg th:sID="C09_app391-fThomas"/>
+        fibres, muscles,
+        <seg th:eID="C09_app391-fThomas"/>
+    and 
+        <seg th:sID="C09_app393-fThomas"/>
+        veins,
+        <seg th:eID="C09_app393-fThomas"/>
+    still remained a work of inconceivable 
+        <seg th:sID="C09_app395-fThomas"/>
+        difficulty and labour.
+        <seg th:eID="C09_app395-fThomas"/>
+    I doubted at first whether I should attempt the creation of a 
+        <seg th:sID="C09_app397-fThomas"/>
+        being like
+        <seg th:eID="C09_app397-fThomas"/>
+            <seg th:sID="C09_app398-fThomas"/>
+        myself
+        <seg th:eID="C09_app398-fThomas"/>
+    or one of simpler organization; 
+        <seg th:sID="C09_app400-fThomas"/>
+        but my imagination was too much exalted by my first success to permit me to doubt of my
+        <seg th:eID="C09_app400-fThomas"/>
+            <seg th:sID="C09_app401-fThomas"/>
+        ability to
+        <seg th:eID="C09_app401-fThomas"/>
+            <seg th:sID="C09_app402-fThomas"/>
+        give life
+        <seg th:eID="C09_app402-fThomas"/>
+            <seg th:sID="C09_app403-fThomas"/>
+        to
+        <seg th:eID="C09_app403-fThomas"/>
+            <seg th:sID="C09_app404-fThomas"/>
+        an animal
+        <seg th:eID="C09_app404-fThomas"/>
+    as complex and wonderful as man.  
+        <seg th:sID="C09_app406-fThomas"/>
+        The materials at present within my command
+        <seg th:eID="C09_app406-fThomas"/>
+    hardly appeared adequate to so  
+        <seg th:sID="C09_app408-fThomas"/>
+        arduous
+        <seg th:eID="C09_app408-fThomas"/>
+    an <pb xmlns="" xml:id="F1818_v1_100" n="088"/>undertaking; 
+        <seg th:sID="C09_app410-fThomas"/>
+        but I doubted not that I should
+        <seg th:eID="C09_app410-fThomas"/>
+            <seg th:sID="C09_app411-fThomas"/>
+        ultimately
+        <seg th:eID="C09_app411-fThomas"/>
+    succeed. 
+        <seg th:sID="C09_app413-fThomas"/>
+        I prepared myself for a multitude of
+        <seg th:eID="C09_app413-fThomas"/>
+            <seg th:sID="C09_app414-fThomas"/>
+        reverses;
+        <seg th:eID="C09_app414-fThomas"/>
+    my operations 
+        <seg th:sID="C09_app416-fThomas"/>
+        might
+        <seg th:eID="C09_app416-fThomas"/>
+    be 
+        <seg th:sID="C09_app418-fThomas"/>
+        incessantly baffled,
+        <seg th:eID="C09_app418-fThomas"/>
+    and at last my work be 
+        <seg th:sID="C09_app420-fThomas"/>
+        imperfect:
+        <seg th:eID="C09_app420-fThomas"/>
+    yet, when I considered the improvement 
+        <seg th:sID="C09_app422-fThomas"/>
+        which
+        <seg th:eID="C09_app422-fThomas"/>
+    every day takes place in science and  
+        <seg th:sID="C09_app424-fThomas"/>
+        mechanics,
+        <seg th:eID="C09_app424-fThomas"/>
+    I was encouraged to 
+        <seg th:sID="C09_app426-fThomas"/>
+        hope
+        <seg th:eID="C09_app426-fThomas"/>
+            <seg th:sID="C09_app427-fThomas"/>
+        my present
+        <seg th:eID="C09_app427-fThomas"/>
+    attempts would  
+        <seg th:sID="C09_app429-fThomas"/>
+        at least
+        <seg th:eID="C09_app429-fThomas"/>
+            <seg th:sID="C09_app430-fThomas"/>
+        lay the foundations of future
+        <seg th:eID="C09_app430-fThomas"/>
+            <seg th:sID="C09_app431-fThomas"/>
+        success. Nor
+        <seg th:eID="C09_app431-fThomas"/>
+    could I consider 
+        <seg th:sID="C09_app433-fThomas"/>
+        the magnitude and
+        <seg th:eID="C09_app433-fThomas"/>
+            <seg th:sID="C09_app434-fThomas"/>
+        complexity
+        <seg th:eID="C09_app434-fThomas"/>
+    of my plan  
+        <seg th:sID="C09_app436-fThomas"/>
+        as any argument of its
+        <seg th:eID="C09_app436-fThomas"/>
+            <seg th:sID="C09_app437-fThomas"/>
+        impracticability.
+        <seg th:eID="C09_app437-fThomas"/>
+    It was with these feelings 
+        <seg th:sID="C09_app439-fThomas"/>
+        that
+        <seg th:eID="C09_app439-fThomas"/>
+    I began the creation of a human being. As the  
+        <seg th:sID="C09_app441-fThomas"/>
+        minuteness
+        <seg th:eID="C09_app441-fThomas"/>
+    of the parts  
+        <seg th:sID="C09_app443-fThomas"/>
+        formed
+        <seg th:eID="C09_app443-fThomas"/>
+    a great  
+        <seg th:sID="C09_app445-fThomas"/>
+        hindrance
+        <seg th:eID="C09_app445-fThomas"/>
+    to my 
+        <seg th:sID="C09_app447-fThomas"/>
+        speed,
+        <seg th:eID="C09_app447-fThomas"/>
+    I resolved, contrary to my first intention, to make 
+        <seg th:sID="C09_app449-fThomas"/>
+        the being
+        <seg th:eID="C09_app449-fThomas"/>
+            <seg th:sID="C09_app450-fThomas"/>
+        of a gigantic stature; that is to
+        <seg th:eID="C09_app450-fThomas"/>
+            <seg th:sID="C09_app451-fThomas"/>
+        say,
+        <seg th:eID="C09_app451-fThomas"/>
+    about 
+        <seg th:sID="C09_app453-fThomas"/>
+        eight feet in height, and proportionably large.
+        <seg th:eID="C09_app453-fThomas"/>
+            <seg th:sID="C09_app454-fThomas"/>
+        After having formed this
+        <seg th:eID="C09_app454-fThomas"/>
+            <seg th:sID="C09_app455-fThomas"/>
+        de<pb xmlns="" xml:id="F1818_v1_101" n="089"/>termination,
+        <seg th:eID="C09_app455-fThomas"/>
+    and having spent some months in 
+        <seg th:sID="C09_app457-fThomas"/>
+        successfully collecting and arranging
+        <seg th:eID="C09_app457-fThomas"/>
+    my materials, I began. <p th:eID="novel1_letter4_chapter3_div4_div3_p7"/>
+            <p th:sID="novel1_letter4_chapter3_div4_div3_p8"/> No one can conceive  
+        <seg th:sID="C09_app459-fThomas"/>
+        the variety of feelings which
+        <seg th:eID="C09_app459-fThomas"/>
+            <seg th:sID="C09_app460-fThomas"/>
+        bore
+        <seg th:eID="C09_app460-fThomas"/>
+    me 
+        <seg th:sID="C09_app462-fThomas"/>
+        onwards, like a hurricane, in the first enthusiasm of success.
+        <seg th:eID="C09_app462-fThomas"/>
+    Life and death appeared to me ideal bounds, which I should first break 
+        <seg th:sID="C09_app464-fThomas"/>
+        through,
+        <seg th:eID="C09_app464-fThomas"/>
+    and pour a torrent of light into our dark world. A new 
+        <seg th:sID="C09_app466-fThomas"/>
+        species
+        <seg th:eID="C09_app466-fThomas"/>
+    would bless me as its 
+        <seg th:sID="C09_app468-fThomas"/>
+        creator
+        <seg th:eID="C09_app468-fThomas"/>
+    and source; many happy and excellent  
+        <seg th:sID="C09_app470-fThomas"/>
+        natures
+        <seg th:eID="C09_app470-fThomas"/>
+    would owe their  
+        <seg th:sID="C09_app472-fThomas"/>
+        being
+        <seg th:eID="C09_app472-fThomas"/>
+    to me.  
+        <seg th:sID="C09_app474-fThomas"/>
+        No father could claim the gratitude of his child
+        <seg th:eID="C09_app474-fThomas"/>
+            <seg th:sID="C09_app475-fThomas"/>
+        so completely as I should deserve
+        <seg th:eID="C09_app475-fThomas"/>
+            <seg th:sID="C09_app476-fThomas"/>
+        their’s. Pursuing
+        <seg th:eID="C09_app476-fThomas"/>
+    these 
+        <seg th:sID="C09_app478-fThomas"/>
+        reflections,
+        <seg th:eID="C09_app478-fThomas"/>
+    I 
+        <seg th:sID="C09_app480-fThomas"/>
+        thought,
+        <seg th:eID="C09_app480-fThomas"/>
+    that if I could bestow 
+        <seg th:sID="C09_app482-fThomas"/>
+        animation
+        <seg th:eID="C09_app482-fThomas"/>
+    upon  
+        <seg th:sID="C09_app484-fThomas"/>
+        lifeless
+        <seg th:eID="C09_app484-fThomas"/>
+            <seg th:sID="C09_app485-fThomas"/>
+        matter,
+        <seg th:eID="C09_app485-fThomas"/>
+    I might in process of time (although I now found it impossible) renew life where death had apparently devoted the body to corruption. <p th:eID="novel1_letter4_chapter3_div4_div3_p8"/>
             <p th:sID="novel1_letter4_chapter3_div4_div3_p9"/>
-            <pb xml:id="F1818_v1_102" n="090"/>These thoughts supported my <seg xml:id="C09_app487-fThomas_start"/>spirits,<seg xml:id="C09_app487-fThomas_end"/>while I pursued my <seg xml:id="C09_app489-fThomas_start"/>undertaking with unremitting<seg xml:id="C09_app489-fThomas_end"/>
-            <seg xml:id="C09_app490-fThomas_start"/>ardour.<seg xml:id="C09_app490-fThomas_end"/>My cheek <seg xml:id="C09_app492-fThomas_start"/>had grown<seg xml:id="C09_app492-fThomas_end"/>pale with study, and  <seg xml:id="C09_app494-fThomas_start"/>my person<seg xml:id="C09_app494-fThomas_end"/>
-            <seg xml:id="C09_app495-fThomas_start"/>had become<seg xml:id="C09_app495-fThomas_end"/>emaciated <seg xml:id="C09_app497-fThomas_start"/>with<seg xml:id="C09_app497-fThomas_end"/>confinement. <seg xml:id="C09_app499-fThomas_start"/>Sometimes,<seg xml:id="C09_app499-fThomas_end"/>on the very brink of <seg xml:id="C09_app501-fThomas_start"/>certainty,<seg xml:id="C09_app501-fThomas_end"/>I <seg xml:id="C09_app503-fThomas_start"/>failed;<seg xml:id="C09_app503-fThomas_end"/>yet <seg xml:id="C09_app505-fThomas_start"/>still I<seg xml:id="C09_app505-fThomas_end"/>clung to the hope which the next day or the <seg xml:id="C09_app507-fThomas_start"/>next hour might<seg xml:id="C09_app507-fThomas_end"/>
-            <seg xml:id="C09_app508-fThomas_start"/>realize.<seg xml:id="C09_app508-fThomas_end"/>One secret which I alone <seg xml:id="C09_app510-fThomas_start"/>possessed<seg xml:id="C09_app510-fThomas_end"/>was the hope to which I  <seg xml:id="C09_app512-fThomas_start"/>had dedicated myself;<seg xml:id="C09_app512-fThomas_end"/>and the moon gazed on my midnight <seg xml:id="C09_app514-fThomas_start"/>labours, while,<seg xml:id="C09_app514-fThomas_end"/>with unrelaxed and breathless <seg xml:id="C09_app516-fThomas_start"/>eagerness,<seg xml:id="C09_app516-fThomas_end"/>I pursued nature to her <seg xml:id="C09_app518-fThomas_start"/>hiding places.<seg xml:id="C09_app518-fThomas_end"/>Who shall <seg xml:id="C09_app520-fThomas_start"/>conceive<seg xml:id="C09_app520-fThomas_end"/>the horrors of my secret  <seg xml:id="C09_app523-fThomas_start"/>toil,<seg xml:id="C09_app523-fThomas_end"/>as I dabbled among the unhallowed damps of the grave, or tortured the living <seg xml:id="C09_app525-fThomas_start"/>animal to animate<seg xml:id="C09_app525-fThomas_end"/>
-            <seg xml:id="C09_app526-fThomas_start"/>the<seg xml:id="C09_app526-fThomas_end"/>lifeless clay?  <seg xml:id="C09_app528-fThomas_start"/>My limbs now<seg xml:id="C09_app528-fThomas_end"/>
-            <seg xml:id="C09_app529-fThomas_start"/>tremble,<seg xml:id="C09_app529-fThomas_end"/>and my eyes swim with the <seg xml:id="C09_app531-fThomas_start"/>remembrance;<seg xml:id="C09_app531-fThomas_end"/>but then a <seg xml:id="C09_app533-fThomas_start"/>resistless,<seg xml:id="C09_app533-fThomas_end"/>and <seg xml:id="C09_app535-fThomas_start"/>almost<seg xml:id="C09_app535-fThomas_end"/>
-            <seg xml:id="C09_app536-fThomas_start"/>frantic<seg xml:id="C09_app536-fThomas_end"/>
-            <seg xml:id="C09_app537-fThomas_start"/>impulse,<seg xml:id="C09_app537-fThomas_end"/>urged me <seg xml:id="C09_app539-fThomas_start"/>forward;<seg xml:id="C09_app539-fThomas_end"/>I seemed to <pb xml:id="F1818_v1_103" n="091"/>have lost all soul or sensation but for <seg xml:id="C09_app541-fThomas_start"/>this one pursuit. It was indeed but<seg xml:id="C09_app541-fThomas_end"/>a passing <seg xml:id="C09_app543-fThomas_start"/>trance,<seg xml:id="C09_app543-fThomas_end"/>that only made me feel with renewed acuteness <seg xml:id="C09_app545-fThomas_start"/>so soon<seg xml:id="C09_app545-fThomas_end"/>
-            <seg xml:id="C09_app546-fThomas_start"/>as,<seg xml:id="C09_app546-fThomas_end"/>the unnatural <seg xml:id="C09_app548-fThomas_start"/>stimulus ceasing<seg xml:id="C09_app548-fThomas_end"/>to operate, <seg xml:id="C09_app550-fThomas_start"/>I had returned to my old habits. I collected bones from<seg xml:id="C09_app550-fThomas_end"/>
-            <seg xml:id="C09_app551-fThomas_start"/>charnel houses; and disturbed,<seg xml:id="C09_app551-fThomas_end"/>with profane <seg xml:id="C09_app553-fThomas_start"/>fingers, the tremendous<seg xml:id="C09_app553-fThomas_end"/>secrets of the human frame. In a solitary <seg xml:id="C09_app555-fThomas_start"/>chamber, or<seg xml:id="C09_app555-fThomas_end"/>rather <seg xml:id="C09_app557-fThomas_start"/>cell,<seg xml:id="C09_app557-fThomas_end"/>at the top of the <seg xml:id="C09_app559-fThomas_start"/>house,<seg xml:id="C09_app559-fThomas_end"/>and <seg xml:id="C09_app561-fThomas_start"/>separated from all the<seg xml:id="C09_app561-fThomas_end"/>other <seg xml:id="C09_app563-fThomas_start"/>apartments<seg xml:id="C09_app563-fThomas_end"/>by a gallery and <seg xml:id="C09_app565-fThomas_start"/>staircase,<seg xml:id="C09_app565-fThomas_end"/>I <seg xml:id="C09_app567-fThomas_start"/>kept my workshop of filthy<seg xml:id="C09_app567-fThomas_end"/>
-            <seg xml:id="C09_app568-fThomas_start"/>creation;<seg xml:id="C09_app568-fThomas_end"/>my <seg xml:id="C09_app570-fThomas_start"/>eyeballs<seg xml:id="C09_app570-fThomas_end"/>were starting from their sockets in attending to the <seg xml:id="C09_app572-fThomas_start"/>details<seg xml:id="C09_app572-fThomas_end"/>of <seg xml:id="C09_app574-fThomas_start"/>my employment. The dissecting room and the<seg xml:id="C09_app574-fThomas_end"/>
-            <seg xml:id="C09_app575-fThomas_start"/>slaughter-house<seg xml:id="C09_app575-fThomas_end"/>furnished many of my <seg xml:id="C09_app577-fThomas_start"/>materials;<seg xml:id="C09_app577-fThomas_end"/>and often did my human nature turn <seg xml:id="C09_app579-fThomas_start"/>with loathing from my occupation, whilst,<seg xml:id="C09_app579-fThomas_end"/>still urged on by an eagerness which perpetually <seg xml:id="C09_app581-fThomas_start"/>increased,<seg xml:id="C09_app581-fThomas_end"/>
-            <pb xml:id="F1818_v1_104" n="092"/>I brought my work  <seg xml:id="C09_app584-fThomas_start"/>near to<seg xml:id="C09_app584-fThomas_end"/>a conclusion. <p th:eID="novel1_letter4_chapter3_div4_div3_p9"/>
-            <p th:sID="novel1_letter4_chapter3_div4_div3_p10"/> The <seg xml:id="C09_app586-fThomas_start"/>summer months passed while I was thus<seg xml:id="C09_app586-fThomas_end"/>
-            <seg xml:id="C09_app587-fThomas_start"/>engaged, heart and soul, in one pursuit. It was a most beautiful<seg xml:id="C09_app587-fThomas_end"/>
-            <seg xml:id="C09_app588-fThomas_start"/>season;<seg xml:id="C09_app588-fThomas_end"/>never did the fields bestow a more plentiful harvest, or the vines <seg xml:id="C09_app590-fThomas_start"/>yield<seg xml:id="C09_app590-fThomas_end"/>a more luxuriant <seg xml:id="C09_app592-fThomas_start"/>vintage:<seg xml:id="C09_app592-fThomas_end"/>but my eyes were <seg xml:id="C09_app594-fThomas_start"/>insensible<seg xml:id="C09_app594-fThomas_end"/>to the charms of  <seg xml:id="C09_app596-fThomas_start"/>nature.<seg xml:id="C09_app596-fThomas_end"/>And the same feelings which <seg xml:id="C09_app598-fThomas_start"/>made<seg xml:id="C09_app598-fThomas_end"/>me  <seg xml:id="C09_app600-fThomas_start"/>neglect the scenes around me caused me also to forget those friends who were so many miles<seg xml:id="C09_app600-fThomas_end"/>
-            <seg xml:id="C09_app601-fThomas_start"/>absent,<seg xml:id="C09_app601-fThomas_end"/>and whom I had not seen for so long a time. I knew <seg xml:id="C09_app603-fThomas_start"/>my silence disquieted<seg xml:id="C09_app603-fThomas_end"/>
-            <seg xml:id="C09_app604-fThomas_start"/>them;<seg xml:id="C09_app604-fThomas_end"/>and I well remembered the words of my <seg xml:id="C09_app606-fThomas_start"/>father:<seg xml:id="C09_app606-fThomas_end"/>“I know that while <seg xml:id="C09_app608-fThomas_start"/>you<seg xml:id="C09_app608-fThomas_end"/>are pleased with <seg xml:id="C09_app610-fThomas_start"/>yourself,<seg xml:id="C09_app610-fThomas_end"/>you <seg xml:id="C09_app612-fThomas_start"/>will<seg xml:id="C09_app612-fThomas_end"/>think of us with <seg xml:id="C09_app614-fThomas_start"/>affection, and<seg xml:id="C09_app614-fThomas_end"/>we shall hear regularly from <seg xml:id="C09_app616-fThomas_start"/>you.<seg xml:id="C09_app616-fThomas_end"/>You must pardon <seg xml:id="C09_app618-fThomas_start"/>me,<seg xml:id="C09_app618-fThomas_end"/>
-            <seg xml:id="C09_app619-fThomas_start"/>if<seg xml:id="C09_app619-fThomas_end"/>I regard <seg xml:id="C09_app621-fThomas_start"/>any interruption<seg xml:id="C09_app621-fThomas_end"/>
-            <seg xml:id="C09_app622-fThomas_start"/>in<seg xml:id="C09_app622-fThomas_end"/>your <seg xml:id="C09_app624-fThomas_start"/>correspondence<seg xml:id="C09_app624-fThomas_end"/>as a proof <seg xml:id="C09_app626-fThomas_start"/>
-            <pb xml:id="F1818_v1_105" n="093"/>that<seg xml:id="C09_app626-fThomas_end"/>your other <seg xml:id="C09_app628-fThomas_start"/>duties<seg xml:id="C09_app628-fThomas_end"/>are equally  <seg xml:id="C09_app630-fThomas_start"/>neglected.” <p th:eID="novel1_letter4_chapter3_div4_div3_p10"/>
+            <pb xmlns="" xml:id="F1818_v1_102" n="090"/>These thoughts supported my 
+        <seg th:sID="C09_app487-fThomas"/>
+        spirits,
+        <seg th:eID="C09_app487-fThomas"/>
+    while I pursued my 
+        <seg th:sID="C09_app489-fThomas"/>
+        undertaking with unremitting
+        <seg th:eID="C09_app489-fThomas"/>
+            <seg th:sID="C09_app490-fThomas"/>
+        ardour.
+        <seg th:eID="C09_app490-fThomas"/>
+    My cheek 
+        <seg th:sID="C09_app492-fThomas"/>
+        had grown
+        <seg th:eID="C09_app492-fThomas"/>
+    pale with study, and  
+        <seg th:sID="C09_app494-fThomas"/>
+        my person
+        <seg th:eID="C09_app494-fThomas"/>
+            <seg th:sID="C09_app495-fThomas"/>
+        had become
+        <seg th:eID="C09_app495-fThomas"/>
+    emaciated 
+        <seg th:sID="C09_app497-fThomas"/>
+        with
+        <seg th:eID="C09_app497-fThomas"/>
+    confinement. 
+        <seg th:sID="C09_app499-fThomas"/>
+        Sometimes,
+        <seg th:eID="C09_app499-fThomas"/>
+    on the very brink of 
+        <seg th:sID="C09_app501-fThomas"/>
+        certainty,
+        <seg th:eID="C09_app501-fThomas"/>
+    I 
+        <seg th:sID="C09_app503-fThomas"/>
+        failed;
+        <seg th:eID="C09_app503-fThomas"/>
+    yet 
+        <seg th:sID="C09_app505-fThomas"/>
+        still I
+        <seg th:eID="C09_app505-fThomas"/>
+    clung to the hope which the next day or the 
+        <seg th:sID="C09_app507-fThomas"/>
+        next hour might
+        <seg th:eID="C09_app507-fThomas"/>
+            <seg th:sID="C09_app508-fThomas"/>
+        realize.
+        <seg th:eID="C09_app508-fThomas"/>
+    One secret which I alone 
+        <seg th:sID="C09_app510-fThomas"/>
+        possessed
+        <seg th:eID="C09_app510-fThomas"/>
+    was the hope to which I  
+        <seg th:sID="C09_app512-fThomas"/>
+        had dedicated myself;
+        <seg th:eID="C09_app512-fThomas"/>
+    and the moon gazed on my midnight 
+        <seg th:sID="C09_app514-fThomas"/>
+        labours, while,
+        <seg th:eID="C09_app514-fThomas"/>
+    with unrelaxed and breathless 
+        <seg th:sID="C09_app516-fThomas"/>
+        eagerness,
+        <seg th:eID="C09_app516-fThomas"/>
+    I pursued nature to her 
+        <seg th:sID="C09_app518-fThomas"/>
+        hiding places.
+        <seg th:eID="C09_app518-fThomas"/>
+    Who shall 
+        <seg th:sID="C09_app520-fThomas"/>
+        conceive
+        <seg th:eID="C09_app520-fThomas"/>
+    the horrors of my secret  
+        <seg th:sID="C09_app523-fThomas"/>
+        toil,
+        <seg th:eID="C09_app523-fThomas"/>
+    as I dabbled among the unhallowed damps of the grave, or tortured the living 
+        <seg th:sID="C09_app525-fThomas"/>
+        animal to animate
+        <seg th:eID="C09_app525-fThomas"/>
+            <seg th:sID="C09_app526-fThomas"/>
+        the
+        <seg th:eID="C09_app526-fThomas"/>
+    lifeless clay?  
+        <seg th:sID="C09_app528-fThomas"/>
+        My limbs now
+        <seg th:eID="C09_app528-fThomas"/>
+            <seg th:sID="C09_app529-fThomas"/>
+        tremble,
+        <seg th:eID="C09_app529-fThomas"/>
+    and my eyes swim with the 
+        <seg th:sID="C09_app531-fThomas"/>
+        remembrance;
+        <seg th:eID="C09_app531-fThomas"/>
+    but then a 
+        <seg th:sID="C09_app533-fThomas"/>
+        resistless,
+        <seg th:eID="C09_app533-fThomas"/>
+    and 
+        <seg th:sID="C09_app535-fThomas"/>
+        almost
+        <seg th:eID="C09_app535-fThomas"/>
+            <seg th:sID="C09_app536-fThomas"/>
+        frantic
+        <seg th:eID="C09_app536-fThomas"/>
+            <seg th:sID="C09_app537-fThomas"/>
+        impulse,
+        <seg th:eID="C09_app537-fThomas"/>
+    urged me 
+        <seg th:sID="C09_app539-fThomas"/>
+        forward;
+        <seg th:eID="C09_app539-fThomas"/>
+    I seemed to <pb xmlns="" xml:id="F1818_v1_103" n="091"/>have lost all soul or sensation but for 
+        <seg th:sID="C09_app541-fThomas"/>
+        this one pursuit. It was indeed but
+        <seg th:eID="C09_app541-fThomas"/>
+    a passing 
+        <seg th:sID="C09_app543-fThomas"/>
+        trance,
+        <seg th:eID="C09_app543-fThomas"/>
+    that only made me feel with renewed acuteness 
+        <seg th:sID="C09_app545-fThomas"/>
+        so soon
+        <seg th:eID="C09_app545-fThomas"/>
+            <seg th:sID="C09_app546-fThomas"/>
+        as,
+        <seg th:eID="C09_app546-fThomas"/>
+    the unnatural 
+        <seg th:sID="C09_app548-fThomas"/>
+        stimulus ceasing
+        <seg th:eID="C09_app548-fThomas"/>
+    to operate, 
+        <seg th:sID="C09_app550-fThomas"/>
+        I had returned to my old habits. I collected bones from
+        <seg th:eID="C09_app550-fThomas"/>
+            <seg th:sID="C09_app551-fThomas"/>
+        charnel houses; and disturbed,
+        <seg th:eID="C09_app551-fThomas"/>
+    with profane 
+        <seg th:sID="C09_app553-fThomas"/>
+        fingers, the tremendous
+        <seg th:eID="C09_app553-fThomas"/>
+    secrets of the human frame. In a solitary 
+        <seg th:sID="C09_app555-fThomas"/>
+        chamber, or
+        <seg th:eID="C09_app555-fThomas"/>
+    rather 
+        <seg th:sID="C09_app557-fThomas"/>
+        cell,
+        <seg th:eID="C09_app557-fThomas"/>
+    at the top of the 
+        <seg th:sID="C09_app559-fThomas"/>
+        house,
+        <seg th:eID="C09_app559-fThomas"/>
+    and 
+        <seg th:sID="C09_app561-fThomas"/>
+        separated from all the
+        <seg th:eID="C09_app561-fThomas"/>
+    other 
+        <seg th:sID="C09_app563-fThomas"/>
+        apartments
+        <seg th:eID="C09_app563-fThomas"/>
+    by a gallery and 
+        <seg th:sID="C09_app565-fThomas"/>
+        staircase,
+        <seg th:eID="C09_app565-fThomas"/>
+    I 
+        <seg th:sID="C09_app567-fThomas"/>
+        kept my workshop of filthy
+        <seg th:eID="C09_app567-fThomas"/>
+            <seg th:sID="C09_app568-fThomas"/>
+        creation;
+        <seg th:eID="C09_app568-fThomas"/>
+    my 
+        <seg th:sID="C09_app570-fThomas"/>
+        eyeballs
+        <seg th:eID="C09_app570-fThomas"/>
+    were starting from their sockets in attending to the 
+        <seg th:sID="C09_app572-fThomas"/>
+        details
+        <seg th:eID="C09_app572-fThomas"/>
+    of 
+        <seg th:sID="C09_app574-fThomas"/>
+        my employment. The dissecting room and the
+        <seg th:eID="C09_app574-fThomas"/>
+            <seg th:sID="C09_app575-fThomas"/>
+        slaughter-house
+        <seg th:eID="C09_app575-fThomas"/>
+    furnished many of my 
+        <seg th:sID="C09_app577-fThomas"/>
+        materials;
+        <seg th:eID="C09_app577-fThomas"/>
+    and often did my human nature turn 
+        <seg th:sID="C09_app579-fThomas"/>
+        with loathing from my occupation, whilst,
+        <seg th:eID="C09_app579-fThomas"/>
+    still urged on by an eagerness which perpetually 
+        <seg th:sID="C09_app581-fThomas"/>
+        increased,
+        <seg th:eID="C09_app581-fThomas"/>
+            <pb xmlns="" xml:id="F1818_v1_104" n="092"/>I brought my work  
+        <seg th:sID="C09_app584-fThomas"/>
+        near to
+        <seg th:eID="C09_app584-fThomas"/>
+    a conclusion. <p th:eID="novel1_letter4_chapter3_div4_div3_p9"/>
+            <p th:sID="novel1_letter4_chapter3_div4_div3_p10"/> The 
+        <seg th:sID="C09_app586-fThomas"/>
+        summer months passed while I was thus
+        <seg th:eID="C09_app586-fThomas"/>
+            <seg th:sID="C09_app587-fThomas"/>
+        engaged, heart and soul, in one pursuit. It was a most beautiful
+        <seg th:eID="C09_app587-fThomas"/>
+            <seg th:sID="C09_app588-fThomas"/>
+        season;
+        <seg th:eID="C09_app588-fThomas"/>
+    never did the fields bestow a more plentiful harvest, or the vines 
+        <seg th:sID="C09_app590-fThomas"/>
+        yield
+        <seg th:eID="C09_app590-fThomas"/>
+    a more luxuriant 
+        <seg th:sID="C09_app592-fThomas"/>
+        vintage:
+        <seg th:eID="C09_app592-fThomas"/>
+    but my eyes were 
+        <seg th:sID="C09_app594-fThomas"/>
+        insensible
+        <seg th:eID="C09_app594-fThomas"/>
+    to the charms of  
+        <seg th:sID="C09_app596-fThomas"/>
+        nature.
+        <seg th:eID="C09_app596-fThomas"/>
+    And the same feelings which 
+        <seg th:sID="C09_app598-fThomas"/>
+        made
+        <seg th:eID="C09_app598-fThomas"/>
+    me  
+        <seg th:sID="C09_app600-fThomas"/>
+        neglect the scenes around me caused me also to forget those friends who were so many miles
+        <seg th:eID="C09_app600-fThomas"/>
+            <seg th:sID="C09_app601-fThomas"/>
+        absent,
+        <seg th:eID="C09_app601-fThomas"/>
+    and whom I had not seen for so long a time. I knew 
+        <seg th:sID="C09_app603-fThomas"/>
+        my silence disquieted
+        <seg th:eID="C09_app603-fThomas"/>
+            <seg th:sID="C09_app604-fThomas"/>
+        them;
+        <seg th:eID="C09_app604-fThomas"/>
+    and I well remembered the words of my 
+        <seg th:sID="C09_app606-fThomas"/>
+        father:
+        <seg th:eID="C09_app606-fThomas"/>
+    “I know that while 
+        <seg th:sID="C09_app608-fThomas"/>
+        you
+        <seg th:eID="C09_app608-fThomas"/>
+    are pleased with 
+        <seg th:sID="C09_app610-fThomas"/>
+        yourself,
+        <seg th:eID="C09_app610-fThomas"/>
+    you 
+        <seg th:sID="C09_app612-fThomas"/>
+        will
+        <seg th:eID="C09_app612-fThomas"/>
+    think of us with 
+        <seg th:sID="C09_app614-fThomas"/>
+        affection, and
+        <seg th:eID="C09_app614-fThomas"/>
+    we shall hear regularly from 
+        <seg th:sID="C09_app616-fThomas"/>
+        you.
+        <seg th:eID="C09_app616-fThomas"/>
+    You must pardon 
+        <seg th:sID="C09_app618-fThomas"/>
+        me,
+        <seg th:eID="C09_app618-fThomas"/>
+            <seg th:sID="C09_app619-fThomas"/>
+        if
+        <seg th:eID="C09_app619-fThomas"/>
+    I regard 
+        <seg th:sID="C09_app621-fThomas"/>
+        any interruption
+        <seg th:eID="C09_app621-fThomas"/>
+            <seg th:sID="C09_app622-fThomas"/>
+        in
+        <seg th:eID="C09_app622-fThomas"/>
+    your 
+        <seg th:sID="C09_app624-fThomas"/>
+        correspondence
+        <seg th:eID="C09_app624-fThomas"/>
+    as a proof 
+        <seg th:sID="C09_app626-fThomas"/>
+            <pb xmlns="" xml:id="F1818_v1_105" n="093"/>that
+        <seg th:eID="C09_app626-fThomas"/>
+    your other 
+        <seg th:sID="C09_app628-fThomas"/>
+        duties
+        <seg th:eID="C09_app628-fThomas"/>
+    are equally  
+        <seg th:sID="C09_app630-fThomas"/>
+        neglected.” <p th:eID="novel1_letter4_chapter3_div4_div3_p10"/>
             <p th:sID="novel1_letter4_chapter3_div4_div3_p11"/>
-            <seg xml:id="C09_app630-fThomas_end"/>I <seg xml:id="C09_app632-fThomas_start"/>knew well therefore what<seg xml:id="C09_app632-fThomas_end"/>
-            <seg xml:id="C09_app633-fThomas_start"/>would be<seg xml:id="C09_app633-fThomas_end"/>
-            <seg xml:id="C09_app634-fThomas_start"/>my father’s feelings;<seg xml:id="C09_app634-fThomas_end"/>but I could not tear my thoughts from my <seg xml:id="C09_app636-fThomas_start"/>employment,<seg xml:id="C09_app636-fThomas_end"/>loathsome in <seg xml:id="C09_app638-fThomas_start"/>itself,<seg xml:id="C09_app638-fThomas_end"/>but which had taken <seg xml:id="C09_app640-fThomas_start"/>an<seg xml:id="C09_app640-fThomas_end"/>irresistible hold of my  <seg xml:id="C09_app643-fThomas_start"/>imagination. I<seg xml:id="C09_app643-fThomas_end"/>
-            <seg xml:id="C09_app644-fThomas_start"/>wished,<seg xml:id="C09_app644-fThomas_end"/>as it <seg xml:id="C09_app646-fThomas_start"/>were,<seg xml:id="C09_app646-fThomas_end"/>to <seg xml:id="C09_app648-fThomas_start"/>procrastinate<seg xml:id="C09_app648-fThomas_end"/>all that related to  my feelings of  <seg xml:id="C09_app651-fThomas_start"/>affection until<seg xml:id="C09_app651-fThomas_end"/>the great <seg xml:id="C09_app653-fThomas_start"/>object,<seg xml:id="C09_app653-fThomas_end"/>which swallowed up every habit of my  <seg xml:id="C09_app656-fThomas_start"/>nature,<seg xml:id="C09_app656-fThomas_end"/>should be <seg xml:id="C09_app658-fThomas_start"/>completed.<seg xml:id="C09_app658-fThomas_end"/>
+            <seg th:eID="C09_app630-fThomas"/>
+    I 
+        <seg th:sID="C09_app632-fThomas"/>
+        knew well therefore what
+        <seg th:eID="C09_app632-fThomas"/>
+            <seg th:sID="C09_app633-fThomas"/>
+        would be
+        <seg th:eID="C09_app633-fThomas"/>
+            <seg th:sID="C09_app634-fThomas"/>
+        my father’s feelings;
+        <seg th:eID="C09_app634-fThomas"/>
+    but I could not tear my thoughts from my 
+        <seg th:sID="C09_app636-fThomas"/>
+        employment,
+        <seg th:eID="C09_app636-fThomas"/>
+    loathsome in 
+        <seg th:sID="C09_app638-fThomas"/>
+        itself,
+        <seg th:eID="C09_app638-fThomas"/>
+    but which had taken 
+        <seg th:sID="C09_app640-fThomas"/>
+        an
+        <seg th:eID="C09_app640-fThomas"/>
+    irresistible hold of my  
+        <seg th:sID="C09_app643-fThomas"/>
+        imagination. I
+        <seg th:eID="C09_app643-fThomas"/>
+            <seg th:sID="C09_app644-fThomas"/>
+        wished,
+        <seg th:eID="C09_app644-fThomas"/>
+    as it 
+        <seg th:sID="C09_app646-fThomas"/>
+        were,
+        <seg th:eID="C09_app646-fThomas"/>
+    to 
+        <seg th:sID="C09_app648-fThomas"/>
+        procrastinate
+        <seg th:eID="C09_app648-fThomas"/>
+    all that related to  my feelings of  
+        <seg th:sID="C09_app651-fThomas"/>
+        affection until
+        <seg th:eID="C09_app651-fThomas"/>
+    the great 
+        <seg th:sID="C09_app653-fThomas"/>
+        object,
+        <seg th:eID="C09_app653-fThomas"/>
+    which swallowed up every habit of my  
+        <seg th:sID="C09_app656-fThomas"/>
+        nature,
+        <seg th:eID="C09_app656-fThomas"/>
+    should be 
+        <seg th:sID="C09_app658-fThomas"/>
+        completed.
+        <seg th:eID="C09_app658-fThomas"/>
             <p th:eID="novel1_letter4_chapter3_div4_div3_p11"/>
-            <p th:sID="novel1_letter4_chapter3_div4_div3_p12"/> I then thought that my father would be <seg xml:id="C09_app660-fThomas_start"/>unjust<seg xml:id="C09_app660-fThomas_end"/>
-            <seg xml:id="C09_app661-fThomas_start"/>if he<seg xml:id="C09_app661-fThomas_end"/>ascribed my neglect to  <seg xml:id="C09_app663-fThomas_start"/>vice,<seg xml:id="C09_app663-fThomas_end"/>or faultiness on my part; but I am now convinced that <seg xml:id="C09_app665-fThomas_start"/>he was<seg xml:id="C09_app665-fThomas_end"/>
-            <seg xml:id="C09_app666-fThomas_start"/>justified<seg xml:id="C09_app666-fThomas_end"/>in conceiving that I should not be altogether free from blame. <seg xml:id="C09_app668-fThomas_start"/>A human being in perfection ought<seg xml:id="C09_app668-fThomas_end"/>always to preserve a  <seg xml:id="C09_app670-fThomas_start"/>calm and peaceful<seg xml:id="C09_app670-fThomas_end"/>
-            <seg xml:id="C09_app671-fThomas_start"/>mind,<seg xml:id="C09_app671-fThomas_end"/>and never to allow passion or <seg xml:id="C09_app673-fThomas_start"/>a<seg xml:id="C09_app673-fThomas_end"/>transitory desire to disturb his tranquillity. <pb xml:id="F1818_v1_106" n="094"/>I do not think that the pursuit of knowledge is <seg xml:id="C09_app675-fThomas_start"/>an<seg xml:id="C09_app675-fThomas_end"/>exception to this rule. If the study to which you apply yourself has a <seg xml:id="C09_app677-fThomas_start"/>tendency to weaken your<seg xml:id="C09_app677-fThomas_end"/>
-            <seg xml:id="C09_app678-fThomas_start"/>affections,<seg xml:id="C09_app678-fThomas_end"/>and to destroy your taste for those simple pleasures in which no alloy can possibly <seg xml:id="C09_app680-fThomas_start"/>mix,<seg xml:id="C09_app680-fThomas_end"/>then that study is certainly <seg xml:id="C09_app682-fThomas_start"/>unlawful,<seg xml:id="C09_app682-fThomas_end"/>that <seg xml:id="C09_app684-fThomas_start"/>is to<seg xml:id="C09_app684-fThomas_end"/>
-            <seg xml:id="C09_app685-fThomas_start"/>say,<seg xml:id="C09_app685-fThomas_end"/>not befitting <seg xml:id="C09_app687-fThomas_start"/>the human mind. If this<seg xml:id="C09_app687-fThomas_end"/>
-            <seg xml:id="C09_app688-fThomas_start"/>rule<seg xml:id="C09_app688-fThomas_end"/>
-            <seg xml:id="C09_app689-fThomas_start"/>were<seg xml:id="C09_app689-fThomas_end"/>
-            <seg xml:id="C09_app690-fThomas_start"/>always<seg xml:id="C09_app690-fThomas_end"/>observed; if no man allowed any pursuit whatsoever to interfere with <seg xml:id="C09_app692-fThomas_start"/>the<seg xml:id="C09_app692-fThomas_end"/>tranquillity <seg xml:id="C09_app694-fThomas_start"/>of<seg xml:id="C09_app694-fThomas_end"/>his domestic  <seg xml:id="C09_app697-fThomas_start"/>affections,<seg xml:id="C09_app697-fThomas_end"/>Greece had <seg xml:id="C09_app699-fThomas_start"/>not<seg xml:id="C09_app699-fThomas_end"/>been <seg xml:id="C09_app701-fThomas_start"/>enslaved;<seg xml:id="C09_app701-fThomas_end"/>Cæsar would have spared his <seg xml:id="C09_app703-fThomas_start"/>country;<seg xml:id="C09_app703-fThomas_end"/>America would have been discovered more <seg xml:id="C09_app705-fThomas_start"/>gradually;<seg xml:id="C09_app705-fThomas_end"/>and the empires of Mexico and Peru had not been destroyed. <p th:eID="novel1_letter4_chapter3_div4_div3_p12"/>
-            <p th:sID="novel1_letter4_chapter3_div4_div3_p13"/> But I forget that I am <seg xml:id="C09_app707-fThomas_start"/>moralizing<seg xml:id="C09_app707-fThomas_end"/>in the most <seg xml:id="C09_app709-fThomas_start"/>interesting<seg xml:id="C09_app709-fThomas_end"/>part of my tale; and your looks remind me to proceed. <p th:eID="novel1_letter4_chapter3_div4_div3_p13"/>
-            <p th:sID="novel1_letter4_chapter3_div4_div3_p14"/> My father made no reproach in his <seg xml:id="C09_app711-fThomas_start"/>
-            <pb xml:id="F1818_v1_107" n="095"/>letters;<seg xml:id="C09_app711-fThomas_end"/>
-            <seg xml:id="C09_app712-fThomas_start"/>and only took notice of my silence by<seg xml:id="C09_app712-fThomas_end"/>
-            <seg xml:id="C09_app713-fThomas_start"/>inquiring<seg xml:id="C09_app713-fThomas_end"/>
-            <seg xml:id="C09_app714-fThomas_start"/>into<seg xml:id="C09_app714-fThomas_end"/>my <seg xml:id="C09_app716-fThomas_start"/>occupations<seg xml:id="C09_app716-fThomas_end"/>
-            <seg xml:id="C09_app717-fThomas_start"/>more particularly than before. Winter, spring,<seg xml:id="C09_app717-fThomas_end"/>and summer passed away during my <seg xml:id="C09_app719-fThomas_start"/>labours;<seg xml:id="C09_app719-fThomas_end"/>but I did not watch the blossom or the expanding leaves—sights which before <seg xml:id="C09_app721-fThomas_start"/>always yielded<seg xml:id="C09_app721-fThomas_end"/>me supreme <seg xml:id="C09_app723-fThomas_start"/>delight, so<seg xml:id="C09_app723-fThomas_end"/>deeply was I  <seg xml:id="C09_app726-fThomas_start"/>engrossed in<seg xml:id="C09_app726-fThomas_end"/>my occupation. The leaves of that year  <seg xml:id="C09_app728-fThomas_start"/>had withered before my work drew near to<seg xml:id="C09_app728-fThomas_end"/>a <seg xml:id="C09_app730-fThomas_start"/>close;<seg xml:id="C09_app730-fThomas_end"/>and now every day <seg xml:id="C09_app732-fThomas_start"/>shewed<seg xml:id="C09_app732-fThomas_end"/>me more plainly how well I had <seg xml:id="C09_app734-fThomas_start"/>succeeded.<seg xml:id="C09_app734-fThomas_end"/>But my enthusiasm was checked by my <seg xml:id="C09_app736-fThomas_start"/>anxiety,<seg xml:id="C09_app736-fThomas_end"/>and I appeared rather like one doomed by slavery to toil in the <seg xml:id="C09_app738-fThomas_start"/>mines,<seg xml:id="C09_app738-fThomas_end"/>or any other <seg xml:id="C09_app740-fThomas_start"/>unwholesome trade,<seg xml:id="C09_app740-fThomas_end"/>than an artist occupied <seg xml:id="C09_app742-fThomas_start"/>by<seg xml:id="C09_app742-fThomas_end"/>his favourite employment. Every <seg xml:id="C09_app744-fThomas_start"/>night<seg xml:id="C09_app744-fThomas_end"/>
-            <seg xml:id="C09_app745-fThomas_start"/>I was oppressed by a slow fever,<seg xml:id="C09_app745-fThomas_end"/>and I became <seg xml:id="C09_app747-fThomas_start"/>nervous<seg xml:id="C09_app747-fThomas_end"/>to a  <seg xml:id="C09_app749-fThomas_start"/>most painful degree;<seg xml:id="C09_app749-fThomas_end"/>
-            <seg xml:id="C09_app750-fThomas_start"/>
-            <del rend="strikethrough">a disease that I regretted the more because I had hitherto en<pb xml:id="F1818_v1_108" n="096"/>joyed most excellent health, and had always boasted of the firmness of my nerves.</del>
-            <add>my voice became broken, my trembling hands almost refused to accomplish their task; I became as timid as a love-sick girl, and alternate tremor and passionate ardour took the place of wholesome sensation and regulated ambition.</add> But<seg xml:id="C09_app750-fThomas_end"/>I believed that exercise and amusement would <seg xml:id="C09_app752-fThomas_start"/>soon<seg xml:id="C09_app752-fThomas_end"/>
-            <seg xml:id="C09_app753-fThomas_start"/>drive away<seg xml:id="C09_app753-fThomas_end"/>
-            <seg xml:id="C09_app754-fThomas_start"/>such symptoms;<seg xml:id="C09_app754-fThomas_end"/>and I promised myself both of <seg xml:id="C09_app756-fThomas_start"/>these,<seg xml:id="C09_app756-fThomas_end"/>when my creation should be <seg xml:id="C09_app758-fThomas_start"/>complete. <p th:eID="novel1_letter4_chapter3_div4_div3_p14"/>
-            <seg xml:id="C09_app758-fThomas_end"/>
-            <milestone unit="chapter" type="end" n="3"/>
-            <seg xml:id="C09_app760-fThomas_start"/>
-            <pb xml:id="F1818_v1_109" n="097"/>
-            <seg xml:id="C09_app760-fThomas_end"/>
+            <p th:sID="novel1_letter4_chapter3_div4_div3_p12"/> I then thought that my father would be 
+        <seg th:sID="C09_app660-fThomas"/>
+        unjust
+        <seg th:eID="C09_app660-fThomas"/>
+            <seg th:sID="C09_app661-fThomas"/>
+        if he
+        <seg th:eID="C09_app661-fThomas"/>
+    ascribed my neglect to  
+        <seg th:sID="C09_app663-fThomas"/>
+        vice,
+        <seg th:eID="C09_app663-fThomas"/>
+    or faultiness on my part; but I am now convinced that 
+        <seg th:sID="C09_app665-fThomas"/>
+        he was
+        <seg th:eID="C09_app665-fThomas"/>
+            <seg th:sID="C09_app666-fThomas"/>
+        justified
+        <seg th:eID="C09_app666-fThomas"/>
+    in conceiving that I should not be altogether free from blame. 
+        <seg th:sID="C09_app668-fThomas"/>
+        A human being in perfection ought
+        <seg th:eID="C09_app668-fThomas"/>
+    always to preserve a  
+        <seg th:sID="C09_app670-fThomas"/>
+        calm and peaceful
+        <seg th:eID="C09_app670-fThomas"/>
+            <seg th:sID="C09_app671-fThomas"/>
+        mind,
+        <seg th:eID="C09_app671-fThomas"/>
+    and never to allow passion or 
+        <seg th:sID="C09_app673-fThomas"/>
+        a
+        <seg th:eID="C09_app673-fThomas"/>
+    transitory desire to disturb his tranquillity. <pb xmlns="" xml:id="F1818_v1_106" n="094"/>I do not think that the pursuit of knowledge is 
+        <seg th:sID="C09_app675-fThomas"/>
+        an
+        <seg th:eID="C09_app675-fThomas"/>
+    exception to this rule. If the study to which you apply yourself has a 
+        <seg th:sID="C09_app677-fThomas"/>
+        tendency to weaken your
+        <seg th:eID="C09_app677-fThomas"/>
+            <seg th:sID="C09_app678-fThomas"/>
+        affections,
+        <seg th:eID="C09_app678-fThomas"/>
+    and to destroy your taste for those simple pleasures in which no alloy can possibly 
+        <seg th:sID="C09_app680-fThomas"/>
+        mix,
+        <seg th:eID="C09_app680-fThomas"/>
+    then that study is certainly 
+        <seg th:sID="C09_app682-fThomas"/>
+        unlawful,
+        <seg th:eID="C09_app682-fThomas"/>
+    that 
+        <seg th:sID="C09_app684-fThomas"/>
+        is to
+        <seg th:eID="C09_app684-fThomas"/>
+            <seg th:sID="C09_app685-fThomas"/>
+        say,
+        <seg th:eID="C09_app685-fThomas"/>
+    not befitting 
+        <seg th:sID="C09_app687-fThomas"/>
+        the human mind. If this
+        <seg th:eID="C09_app687-fThomas"/>
+            <seg th:sID="C09_app688-fThomas"/>
+        rule
+        <seg th:eID="C09_app688-fThomas"/>
+            <seg th:sID="C09_app689-fThomas"/>
+        were
+        <seg th:eID="C09_app689-fThomas"/>
+            <seg th:sID="C09_app690-fThomas"/>
+        always
+        <seg th:eID="C09_app690-fThomas"/>
+    observed; if no man allowed any pursuit whatsoever to interfere with 
+        <seg th:sID="C09_app692-fThomas"/>
+        the
+        <seg th:eID="C09_app692-fThomas"/>
+    tranquillity 
+        <seg th:sID="C09_app694-fThomas"/>
+        of
+        <seg th:eID="C09_app694-fThomas"/>
+    his domestic  
+        <seg th:sID="C09_app697-fThomas"/>
+        affections,
+        <seg th:eID="C09_app697-fThomas"/>
+    Greece had 
+        <seg th:sID="C09_app699-fThomas"/>
+        not
+        <seg th:eID="C09_app699-fThomas"/>
+    been 
+        <seg th:sID="C09_app701-fThomas"/>
+        enslaved;
+        <seg th:eID="C09_app701-fThomas"/>
+    Cæsar would have spared his 
+        <seg th:sID="C09_app703-fThomas"/>
+        country;
+        <seg th:eID="C09_app703-fThomas"/>
+    America would have been discovered more 
+        <seg th:sID="C09_app705-fThomas"/>
+        gradually;
+        <seg th:eID="C09_app705-fThomas"/>
+    and the empires of Mexico and Peru had not been destroyed. <p th:eID="novel1_letter4_chapter3_div4_div3_p12"/>
+            <p th:sID="novel1_letter4_chapter3_div4_div3_p13"/> But I forget that I am 
+        <seg th:sID="C09_app707-fThomas"/>
+        moralizing
+        <seg th:eID="C09_app707-fThomas"/>
+    in the most 
+        <seg th:sID="C09_app709-fThomas"/>
+        interesting
+        <seg th:eID="C09_app709-fThomas"/>
+    part of my tale; and your looks remind me to proceed. <p th:eID="novel1_letter4_chapter3_div4_div3_p13"/>
+            <p th:sID="novel1_letter4_chapter3_div4_div3_p14"/> My father made no reproach in his 
+        <seg th:sID="C09_app711-fThomas"/>
+            <pb xmlns="" xml:id="F1818_v1_107" n="095"/>letters;
+        <seg th:eID="C09_app711-fThomas"/>
+            <seg th:sID="C09_app712-fThomas"/>
+        and only took notice of my silence by
+        <seg th:eID="C09_app712-fThomas"/>
+            <seg th:sID="C09_app713-fThomas"/>
+        inquiring
+        <seg th:eID="C09_app713-fThomas"/>
+            <seg th:sID="C09_app714-fThomas"/>
+        into
+        <seg th:eID="C09_app714-fThomas"/>
+    my 
+        <seg th:sID="C09_app716-fThomas"/>
+        occupations
+        <seg th:eID="C09_app716-fThomas"/>
+            <seg th:sID="C09_app717-fThomas"/>
+        more particularly than before. Winter, spring,
+        <seg th:eID="C09_app717-fThomas"/>
+    and summer passed away during my 
+        <seg th:sID="C09_app719-fThomas"/>
+        labours;
+        <seg th:eID="C09_app719-fThomas"/>
+    but I did not watch the blossom or the expanding leaves—sights which before 
+        <seg th:sID="C09_app721-fThomas"/>
+        always yielded
+        <seg th:eID="C09_app721-fThomas"/>
+    me supreme 
+        <seg th:sID="C09_app723-fThomas"/>
+        delight, so
+        <seg th:eID="C09_app723-fThomas"/>
+    deeply was I  
+        <seg th:sID="C09_app726-fThomas"/>
+        engrossed in
+        <seg th:eID="C09_app726-fThomas"/>
+    my occupation. The leaves of that year  
+        <seg th:sID="C09_app728-fThomas"/>
+        had withered before my work drew near to
+        <seg th:eID="C09_app728-fThomas"/>
+    a 
+        <seg th:sID="C09_app730-fThomas"/>
+        close;
+        <seg th:eID="C09_app730-fThomas"/>
+    and now every day 
+        <seg th:sID="C09_app732-fThomas"/>
+        shewed
+        <seg th:eID="C09_app732-fThomas"/>
+    me more plainly how well I had 
+        <seg th:sID="C09_app734-fThomas"/>
+        succeeded.
+        <seg th:eID="C09_app734-fThomas"/>
+    But my enthusiasm was checked by my 
+        <seg th:sID="C09_app736-fThomas"/>
+        anxiety,
+        <seg th:eID="C09_app736-fThomas"/>
+    and I appeared rather like one doomed by slavery to toil in the 
+        <seg th:sID="C09_app738-fThomas"/>
+        mines,
+        <seg th:eID="C09_app738-fThomas"/>
+    or any other 
+        <seg th:sID="C09_app740-fThomas"/>
+        unwholesome trade,
+        <seg th:eID="C09_app740-fThomas"/>
+    than an artist occupied 
+        <seg th:sID="C09_app742-fThomas"/>
+        by
+        <seg th:eID="C09_app742-fThomas"/>
+    his favourite employment. Every 
+        <seg th:sID="C09_app744-fThomas"/>
+        night
+        <seg th:eID="C09_app744-fThomas"/>
+            <seg th:sID="C09_app745-fThomas"/>
+        I was oppressed by a slow fever,
+        <seg th:eID="C09_app745-fThomas"/>
+    and I became 
+        <seg th:sID="C09_app747-fThomas"/>
+        nervous
+        <seg th:eID="C09_app747-fThomas"/>
+    to a  
+        <seg th:sID="C09_app749-fThomas"/>
+        most painful degree;
+        <seg th:eID="C09_app749-fThomas"/>
+            <seg th:sID="C09_app750-fThomas"/>
+            <del xmlns="" rend="strikethrough">a disease that I regretted the more because I had hitherto en<pb xml:id="F1818_v1_108" n="096"/>joyed most excellent health, and had always boasted of the firmness of my nerves.</del>
+            <add xmlns="">my voice became broken, my trembling hands almost refused to accomplish their task; I became as timid as a love-sick girl, and alternate tremor and passionate ardour took the place of wholesome sensation and regulated ambition.</add> But
+        <seg th:eID="C09_app750-fThomas"/>
+    I believed that exercise and amusement would 
+        <seg th:sID="C09_app752-fThomas"/>
+        soon
+        <seg th:eID="C09_app752-fThomas"/>
+            <seg th:sID="C09_app753-fThomas"/>
+        drive away
+        <seg th:eID="C09_app753-fThomas"/>
+            <seg th:sID="C09_app754-fThomas"/>
+        such symptoms;
+        <seg th:eID="C09_app754-fThomas"/>
+    and I promised myself both of 
+        <seg th:sID="C09_app756-fThomas"/>
+        these,
+        <seg th:eID="C09_app756-fThomas"/>
+    when my creation should be 
+        <seg th:sID="C09_app758-fThomas"/>
+        complete. <p th:eID="novel1_letter4_chapter3_div4_div3_p14"/>
+            <seg th:eID="C09_app758-fThomas"/>
+            <milestone xmlns="" unit="chapter" type="end" n="3"/>
+            <seg th:sID="C09_app760-fThomas"/>
+            <pb xmlns="" xml:id="F1818_v1_109" n="097"/>
+            <seg th:eID="C09_app760-fThomas"/>
          </div>
       </body>
    </text>
