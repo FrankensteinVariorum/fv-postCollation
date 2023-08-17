@@ -2366,7 +2366,7 @@
 	</app>
 	<app>
 		<rdgGrp n="['me,']">
-			<rdg wit="fMS">me,</rdg>
+			<rdg wit="fMS">&lt;longToken&gt;me,&lt;/longToken&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp n="['me:&lt;p-end/&gt; &lt;p-start/&gt;']">
 			<rdg wit="f1818">&lt;longToken&gt;me:&lt;p eID="novel1_letter4_chapter4_div4_div4_p7"/&gt; &lt;p sID="novel1_letter4_chapter4_div4_div4_p8"/&gt;&lt;/longToken&gt;</rdg>
@@ -2435,8 +2435,8 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['lon', '', '&lt;mdel&gt;s&lt;/mdel&gt;', 'es', '', 'ome', 'road', '', '&#34;doth']">
-			<rdg wit="fMS">lon &lt;mod sID="c56-0049__main__d5e10478"/&gt; &lt;mdel&gt;s&lt;/mdel&gt; &lt;sga-add place="intralinear" sID="c56-0049__main__d5e10482"/&gt;es &lt;sga-add eID="c56-0049__main__d5e10482"/&gt;&lt;mod eID="c56-0049__main__d5e10478"/&gt; ome road &lt;milestone spanTo="#a" unit="tei:l"/&gt; &lt;lb n="c56-0049__main__16"/&gt;"doth</rdg>
+		<rdgGrp n="['&lt;w ana=&#34;start&#34;/&gt;lon', '&lt;mdel&gt;s&lt;/mdel&gt;', 'esome&lt;w ana=&#34;end&#34;/&gt;', 'road', '', '&#34;doth']">
+			<rdg wit="fMS">&lt;w ana="start"/&gt;lon&lt;mod sID="c56-0049__main__d5e10478"/&gt; &lt;mdel&gt;s&lt;/mdel&gt; &lt;sga-add place="intralinear" sID="c56-0049__main__d5e10482"/&gt;es&lt;sga-add eID="c56-0049__main__d5e10482"/&gt;&lt;mod eID="c56-0049__main__d5e10478"/&gt;ome&lt;w ana="end"/&gt; road &lt;milestone spanTo="#a" unit="tei:l"/&gt; &lt;lb n="c56-0049__main__16"/&gt;"doth</rdg>
 		</rdgGrp>
 		<rdgGrp n="['lonely', 'road,', '&lt;l/&gt;', '&lt;l/&gt;', 'doth']">
 			<rdg wit="f1818">lonely road, &lt;l eID="novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l1"/&gt; &lt;l sID="novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l2"/&gt; Doth</rdg>
@@ -2566,14 +2566,34 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['tread*.', '&lt;l/&gt;', '&lt;lg/&gt;', '', '&lt;note&gt;* coleridge’s &#34;ancient mariner.&#34; &lt;/note&gt;', '', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'continuing']">
-			<rdg wit="f1818">tread*. &lt;l eID="novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l6"/&gt; &lt;lg eID="novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1"/&gt; &lt;quote eID="novel1_letter4_chapter4_div4_div4_p8_cit1_quote1"/&gt; &lt;note xml:id="novel1_letter4_chapter4_div4_div4_p8_cit1_note1"&gt;* &lt;bibl/&gt;Coleridge’s “Ancient Mariner.”&lt;bibl/&gt; &lt;/note&gt; &lt;cit eID="novel1_letter4_chapter4_div4_div4_p8_cit1"/&gt; &lt;p eID="novel1_letter4_chapter4_div4_div4_p8"/&gt; &lt;p sID="novel1_letter4_chapter4_div4_div4_p9"/&gt; Continuing</rdg>
-			<rdg wit="f1823">tread*. &lt;l eID="novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l6"/&gt; &lt;lg eID="novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1"/&gt; &lt;quote eID="novel1_letter4_chapter4_div4_div4_p8_cit1_quote1"/&gt; &lt;note xml:id="novel1_letter4_chapter4_div4_div4_p8_cit1_note1"&gt;* &lt;bibl/&gt;Coleridge’s “Ancient Mariner.”&lt;bibl/&gt; &lt;/note&gt; &lt;cit eID="novel1_letter4_chapter4_div4_div4_p8_cit1"/&gt; &lt;p eID="novel1_letter4_chapter4_div4_div4_p8"/&gt; &lt;p sID="novel1_letter4_chapter4_div4_div4_p9"/&gt; Continuing</rdg>
-			<rdg wit="fThomas">tread*. &lt;l eID="novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l6"/&gt; &lt;lg eID="novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1"/&gt; &lt;quote eID="novel1_letter4_chapter4_div4_div4_p8_cit1_quote1"/&gt; &lt;note xml:id="novel1_letter4_chapter4_div4_div4_p8_cit1_note1"&gt;* &lt;bibl/&gt;Coleridge’s “Ancient Mariner.”&lt;bibl/&gt; &lt;/note&gt; &lt;cit eID="novel1_letter4_chapter4_div4_div4_p8_cit1"/&gt; &lt;p eID="novel1_letter4_chapter4_div4_div4_p8"/&gt; &lt;p sID="novel1_letter4_chapter4_div4_div4_p9"/&gt; Continuing</rdg>
-			<rdg wit="f1831">tread*. &lt;l eID="novel1_letter4_chapter5_div4_div5_p8_cit1_quote1_lg1_l6"/&gt; &lt;lg eID="novel1_letter4_chapter5_div4_div5_p8_cit1_quote1_lg1"/&gt; &lt;quote eID="novel1_letter4_chapter5_div4_div5_p8_cit1_quote1"/&gt; &lt;note xml:id="novel1_letter4_chapter5_div4_div5_p8_cit1_note1"&gt;* &lt;bibl/&gt;Coleridge’s “Ancient Mariner.”&lt;bibl/&gt; &lt;/note&gt; &lt;cit eID="novel1_letter4_chapter5_div4_div5_p8_cit1"/&gt; &lt;p eID="novel1_letter4_chapter5_div4_div5_p8"/&gt; &lt;p sID="novel1_letter4_chapter5_div4_div5_p9"/&gt; Continuing</rdg>
+		<rdgGrp n="['tread*.', '&lt;l/&gt;', '&lt;lg/&gt;', '', '&lt;note&gt;* coleridge’s &#34;ancient mariner.&#34; &lt;/note&gt;']">
+			<rdg wit="f1818">tread*. &lt;l eID="novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l6"/&gt; &lt;lg eID="novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1"/&gt; &lt;quote eID="novel1_letter4_chapter4_div4_div4_p8_cit1_quote1"/&gt; &lt;note xml:id="novel1_letter4_chapter4_div4_div4_p8_cit1_note1"&gt;* &lt;bibl/&gt;Coleridge’s “Ancient Mariner.”&lt;bibl/&gt; &lt;/note&gt;</rdg>
+			<rdg wit="f1823">tread*. &lt;l eID="novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l6"/&gt; &lt;lg eID="novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1"/&gt; &lt;quote eID="novel1_letter4_chapter4_div4_div4_p8_cit1_quote1"/&gt; &lt;note xml:id="novel1_letter4_chapter4_div4_div4_p8_cit1_note1"&gt;* &lt;bibl/&gt;Coleridge’s “Ancient Mariner.”&lt;bibl/&gt; &lt;/note&gt;</rdg>
+			<rdg wit="fThomas">tread*. &lt;l eID="novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l6"/&gt; &lt;lg eID="novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1"/&gt; &lt;quote eID="novel1_letter4_chapter4_div4_div4_p8_cit1_quote1"/&gt; &lt;note xml:id="novel1_letter4_chapter4_div4_div4_p8_cit1_note1"&gt;* &lt;bibl/&gt;Coleridge’s “Ancient Mariner.”&lt;bibl/&gt; &lt;/note&gt;</rdg>
+			<rdg wit="f1831">tread*. &lt;l eID="novel1_letter4_chapter5_div4_div5_p8_cit1_quote1_lg1_l6"/&gt; &lt;lg eID="novel1_letter4_chapter5_div4_div5_p8_cit1_quote1_lg1"/&gt; &lt;quote eID="novel1_letter4_chapter5_div4_div5_p8_cit1_quote1"/&gt; &lt;note xml:id="novel1_letter4_chapter5_div4_div5_p8_cit1_note1"&gt;* &lt;bibl/&gt;Coleridge’s “Ancient Mariner.”&lt;bibl/&gt; &lt;/note&gt;</rdg>
 		</rdgGrp>
-		<rdgGrp n="['tread.&#34;', '*', 'continueing']">
-			<rdg wit="fMS">tread." &lt;metamark&gt;*&lt;/metamark&gt; &lt;anchor xml:id="c56-0049.01"/&gt;&lt;lb n="c56-0049__main__23"/&gt;Continueing</rdg>
+		<rdgGrp n="['tread.&#34;', &#34;*   _______________  *coleridge's &#34;ancient mariner.&#34;&#34;]">
+			<rdg wit="fMS">tread." &lt;longToken&gt;&lt;metamark&gt;*&lt;/metamark&gt; &lt;anchor xml:id="c56-0049.01"/&gt; &lt;zone type="left_margin" sID="c56-0049__left_margin"/&gt; &lt;metamark&gt;_______________&lt;/metamark&gt; &lt;milestone spanTo="#c56-0049.03" unit="tei:note"/&gt; &lt;metamark&gt;*&lt;/metamark&gt;Coleridge's "Ancient Mariner." &lt;anchor xml:id="c56-0049.03"/&gt;</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['']">
+			<rdg wit="f1818">&lt;cit eID="novel1_letter4_chapter4_div4_div4_p8_cit1"/&gt;</rdg>
+			<rdg wit="f1823">&lt;cit eID="novel1_letter4_chapter4_div4_div4_p8_cit1"/&gt;</rdg>
+			<rdg wit="fThomas">&lt;cit eID="novel1_letter4_chapter4_div4_div4_p8_cit1"/&gt;</rdg>
+			<rdg wit="f1831">&lt;cit eID="novel1_letter4_chapter5_div4_div5_p8_cit1"/&gt;</rdg>
+			<rdg wit="fMS">&lt;zone eID="c56-0049__left_margin"/&gt;&lt;/longToken&gt;</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;', 'continuing']">
+			<rdg wit="f1818">&lt;p eID="novel1_letter4_chapter4_div4_div4_p8"/&gt; &lt;p sID="novel1_letter4_chapter4_div4_div4_p9"/&gt; Continuing</rdg>
+			<rdg wit="f1823">&lt;p eID="novel1_letter4_chapter4_div4_div4_p8"/&gt; &lt;p sID="novel1_letter4_chapter4_div4_div4_p9"/&gt; Continuing</rdg>
+			<rdg wit="fThomas">&lt;p eID="novel1_letter4_chapter4_div4_div4_p8"/&gt; &lt;p sID="novel1_letter4_chapter4_div4_div4_p9"/&gt; Continuing</rdg>
+			<rdg wit="f1831">&lt;p eID="novel1_letter4_chapter5_div4_div5_p8"/&gt; &lt;p sID="novel1_letter4_chapter5_div4_div5_p9"/&gt; Continuing</rdg>
+		</rdgGrp>
+		<rdgGrp n="['continueing']">
+			<rdg wit="fMS">&lt;lb n="c56-0049__main__23"/&gt;Continueing</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -2723,16 +2743,14 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['on']">
-			<rdg wit="f1818">on</rdg>
-			<rdg wit="f1823">on</rdg>
-			<rdg wit="fThomas">on</rdg>
-			<rdg wit="f1831">on</rdg>
-			<rdg wit="fMS">on</rdg>
+		<rdgGrp n="['on', 'the']">
+			<rdg wit="f1818">on the</rdg>
+			<rdg wit="f1823">on the</rdg>
+			<rdg wit="fThomas">on the</rdg>
+			<rdg wit="f1831">on the</rdg>
+			<rdg wit="fMS">on &lt;lb n="c56-0050__main__1"/&gt;the</rdg>
 		</rdgGrp>
 	</app>
-	<app><rdgGrp n="['the']"><rdg wit="f1818">the</rdg><rdg wit="f1823">the</rdg><rdg wit="fThomas">the</rdg><rdg wit="f1831">the</rdg></rdgGrp><rdgGrp n="['_______________', '', '*', &#34;coleridge's&#34;, '&#34;ancient', 'mariner.&#34;', 'the']"><rdg wit="fMS">&lt;metamark&gt;_______________&lt;/metamark&gt; &lt;milestone spanTo="#c56-0049.03" unit="tei:note"/&gt; &lt;metamark&gt;*&lt;/metamark&gt; Coleridge's "Ancient Mariner." &lt;anchor xml:id="c56-0049.03"/&gt;&lt;lb n="c56-0050__main__1"/&gt;the</rdg></rdgGrp></app>
-	
 	<app>
 		<rdgGrp n="['door']">
 			<rdg wit="f1818">door</rdg>
@@ -3442,7 +3460,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['brothers', 'elizabeth', 'said', 'i']">
+		<rdgGrp n="['brothers', 'andelizabeth&#34;', 'said', 'i']">
 			<rdg wit="fMS">brothers &amp;&lt;w ana="start"/&gt;Eliza&lt;lb n="c56-0051__main__14"/&gt;beth&lt;w ana="end"/&gt;" said I</rdg>
 		</rdgGrp>
 		<rdgGrp n="['brothers,', 'and', 'elizabeth.&#34;']">
@@ -4577,32 +4595,12 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['but', 'i', 'was', 'unable', 'to', 'contain']">
-			<rdg wit="f1818">but I was unable to contain</rdg>
-			<rdg wit="f1823">but I was unable to contain</rdg>
-			<rdg wit="fThomas">but I was unable to contain</rdg>
-			<rdg wit="f1831">but I was unable to contain</rdg>
-			<rdg wit="fMS">&lt;lb n="c56-0053__main__8"/&gt;but I was unable to contain</rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['myself']">
-			<rdg wit="fMS">&lt;w ana="start"/&gt;my&lt;lb n="c56-0053__main__9"/&gt;self&lt;w ana="end"/&gt;.</rdg>
-		</rdgGrp>
-		<rdgGrp n="['myself.']">
-			<rdg wit="f1818">myself.</rdg>
-			<rdg wit="f1823">myself.</rdg>
-			<rdg wit="fThomas">myself.</rdg>
-			<rdg wit="f1831">myself.</rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['it', 'was', 'not', 'joy', 'only', 'that', 'possessed']">
-			<rdg wit="f1818">It was not joy only that possessed</rdg>
-			<rdg wit="f1823">It was not joy only that possessed</rdg>
-			<rdg wit="fThomas">It was not joy only that possessed</rdg>
-			<rdg wit="f1831">It was not joy only that possessed</rdg>
-			<rdg wit="fMS">It was not joy only that &lt;w ana="start"/&gt;possess&lt;lb n="c56-0053__main__10"/&gt;ed&lt;w ana="end"/&gt;</rdg>
+		<rdgGrp n="['but', 'i', 'was', 'unable', 'to', 'contain', 'myself.', 'it', 'was', 'not', 'joy', 'only', 'that', 'possessed']">
+			<rdg wit="f1818">but I was unable to contain myself. It was not joy only that possessed</rdg>
+			<rdg wit="f1823">but I was unable to contain myself. It was not joy only that possessed</rdg>
+			<rdg wit="fThomas">but I was unable to contain myself. It was not joy only that possessed</rdg>
+			<rdg wit="f1831">but I was unable to contain myself. It was not joy only that possessed</rdg>
+			<rdg wit="fMS">&lt;lb n="c56-0053__main__8"/&gt;but I was unable to contain &lt;w ana="start"/&gt;my&lt;lb n="c56-0053__main__9"/&gt;self&lt;w ana="end"/&gt;. It was not joy only that &lt;w ana="start"/&gt;possess&lt;lb n="c56-0053__main__10"/&gt;ed&lt;w ana="end"/&gt;</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -6815,4 +6813,4 @@
 			<rdg wit="fMS"/>
 		</rdgGrp>
 	</app>
-</cx:apparatus><!-- 2023-08-15 03:08:44.386528 -->
+</cx:apparatus><!-- 2023-08-17 10:48:14.645954 -->

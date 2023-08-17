@@ -15,9 +15,9 @@
          </publicationStmt>
          <sourceDesc>
             <p>Produced from collation output prepared in batch file processing
-                                    on  2023-08-15 11:33:08.660020 .</p>
+                                    on  2023-08-17 04:38:48.683384 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-15T08:11:25.334055-04:00.</p>
+                                    Variorum spine on 2023-08-17T08:02:58.271012-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -2534,7 +2534,8 @@
                </rdgGrp>
             </app>
             <app xml:id="C27_app243">
-               <rdgGrp n="['agony', 'recognition']" xml:id="C27_app243_rg1">
+               <rdgGrp n="['agony', 'that   &lt;damage type=&#34;inkblot&#34;&gt;fa&lt;/damage&gt;intly reminds of the anguish of   ^  the    recognition.']"
+                        xml:id="C27_app243_rg1">
                   <rdg wit="fMS">agony that &lt;lb n="c57-0120__main__8"/&gt; &lt;damage type="inkblot"&gt;fa&lt;/damage&gt;intly reminds of the anguish of &lt;mod sID="c57-0120__main__d4e22115"/&gt; &lt;sga-add place="sublinear" sID="c57-0120__main__d4e22117"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c57-0120__main__d4e22117"/&gt; &lt;sga-add hand="#pbs" place="superlinear" sID="c57-0120__main__d4e22123"/&gt;the &lt;sga-add eID="c57-0120__main__d4e22123"/&gt; &lt;mod eID="c57-0120__main__d4e22115"/&gt; &lt;w ana="start"/&gt;recogni&lt;lb n="c57-0120__main__9"/&gt;tion&lt;w ana="end"/&gt;.</rdg>
                </rdgGrp>
                <rdgGrp n="['agony,', '', 'that faintly reminds me of the anguish of recognition.']"
@@ -2701,14 +2702,14 @@
                </rdgGrp>
             </app>
             <app xml:id="C27_app259">
-               <rdgGrp n="['exclaimed', 'and', 'have']" xml:id="C27_app259_rg1">
-                  <rdg wit="fMS">&lt;w ana="start"/&gt;exclaim&lt;lb n="c57-0120__main__15"/&gt;ed&lt;w ana="end"/&gt;. And have</rdg>
-               </rdgGrp>
-               <rdgGrp n="['exclaimed,', '&#34;have']" xml:id="C27_app259_rg2">
+               <rdgGrp n="['exclaimed,', '&#34;have']" xml:id="C27_app259_rg1">
                   <rdg wit="f1818">exclaimed, “Have</rdg>
                   <rdg wit="f1823">exclaimed, “Have</rdg>
                   <rdg wit="fThomas">exclaimed, “Have</rdg>
                   <rdg wit="f1831">exclaimed, “Have</rdg>
+               </rdgGrp>
+               <rdgGrp n="['exclaimed.', 'and', 'have']" xml:id="C27_app259_rg2">
+                  <rdg wit="fMS">&lt;w ana="start"/&gt;exclaim&lt;lb n="c57-0120__main__15"/&gt;ed&lt;w ana="end"/&gt;. And have</rdg>
                </rdgGrp>
             </app>
             <app xml:id="C27_app260">
@@ -7391,20 +7392,23 @@
                </rdgGrp>
             </app>
             <app xml:id="C27_app715">
-               <rdgGrp n="['i,', 'while', 'every', 'feature']" xml:id="C27_app715_rg1">
-                  <rdg wit="f1818">I, while every feature</rdg>
-                  <rdg wit="f1823">I, while every feature</rdg>
-                  <rdg wit="fThomas">I, while every feature</rdg>
-                  <rdg wit="f1831">I, while every feature</rdg>
-                  <rdg wit="fMS">I, while every &lt;w ana="start"/&gt;fea&lt;lb n="c57-0126__main__25"/&gt;ture&lt;w ana="end"/&gt;&amp;</rdg>
+               <rdgGrp n="['i,', 'while', 'every']" xml:id="C27_app715_rg1">
+                  <rdg wit="f1818">I, while every</rdg>
+                  <rdg wit="f1823">I, while every</rdg>
+                  <rdg wit="fThomas">I, while every</rdg>
+                  <rdg wit="f1831">I, while every</rdg>
+                  <rdg wit="fMS">I, while every</rdg>
                </rdgGrp>
             </app>
             <app xml:id="C27_app716">
-               <rdgGrp n="['and']" xml:id="C27_app716_rg1">
-                  <rdg wit="f1818">and</rdg>
-                  <rdg wit="f1823">and</rdg>
-                  <rdg wit="fThomas">and</rdg>
-                  <rdg wit="f1831">and</rdg>
+               <rdgGrp n="['feature', 'and']" xml:id="C27_app716_rg1">
+                  <rdg wit="f1818">feature and</rdg>
+                  <rdg wit="f1823">feature and</rdg>
+                  <rdg wit="fThomas">feature and</rdg>
+                  <rdg wit="f1831">feature and</rdg>
+               </rdgGrp>
+               <rdgGrp n="['featureand']" xml:id="C27_app716_rg2">
+                  <rdg wit="fMS">&lt;w ana="start"/&gt;fea&lt;lb n="c57-0126__main__25"/&gt;ture&lt;w ana="end"/&gt;&amp;</rdg>
                </rdgGrp>
             </app>
             <app xml:id="C27_app717">
@@ -7901,7 +7905,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C27_app765">
-               <rdgGrp n="['mournfully']" xml:id="C27_app765_rg1">
+               <rdgGrp n="['son continued he looking mournfully']" xml:id="C27_app765_rg1">
                   <rdg wit="fMS">son continued he looking &lt;w ana="start"/&gt;mourn&lt;lb n="c57-0127__main__18"/&gt;fully&lt;w ana="end"/&gt;</rdg>
                </rdgGrp>
                <rdgGrp n="['son!&#34; said he, looking mournfully']" xml:id="C27_app765_rg2">
@@ -8747,7 +8751,7 @@
                   <rdg wit="fThomas">and speechless,</rdg>
                   <rdg wit="f1831">and speechless,</rdg>
                </rdgGrp>
-               <rdgGrp n="['speechless']" xml:id="C27_app846_rg2">
+               <rdgGrp n="['andspeechless']" xml:id="C27_app846_rg2">
                   <rdg wit="fMS">&amp;&lt;w ana="start"/&gt;speech&lt;lb n="c57-0128__main__26"/&gt;less&lt;w ana="end"/&gt;</rdg>
                </rdgGrp>
             </app>

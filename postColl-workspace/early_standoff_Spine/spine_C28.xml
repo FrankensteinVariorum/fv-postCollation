@@ -15,9 +15,9 @@
          </publicationStmt>
          <sourceDesc>
             <p>Produced from collation output prepared in batch file processing
-                                    on  2023-08-15 11:38:59.340907 .</p>
+                                    on  2023-08-17 04:44:39.178134 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-15T08:11:25.334055-04:00.</p>
+                                    Variorum spine on 2023-08-17T08:02:58.271012-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -1910,20 +1910,17 @@
                </rdgGrp>
             </app>
             <app xml:id="C28_app100">
-               <rdgGrp n="['convalescence', '&lt;del&gt;i&lt;/del&gt;']" xml:id="C28_app100_rg1">
+               <rdgGrp n="['&lt;del&gt;i&lt;/del&gt;']" xml:id="C28_app100_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_chap_15.xml#C28_app100-fMS"/>
                      <witDetail wit="#fMS">
-                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0133.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0133']/tei:zone[@type='main']//tei:line[12],32,49)"/>
-                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(ranceof which I preserved in my) convalescence. I</fv:line_text>
-                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">y conva</fv:resolved_text>
-                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0133.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0133']/tei:zone[@type='main']//tei:line[13],0,12)"/>
-                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">lescence. I</fv:line_text>
-                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">lescence. I</fv:resolved_text>
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0133.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0133']/tei:zone[@type='main']//tei:line[13],10,12)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(lescence.) I</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum"> I</fv:resolved_text>
                      </witDetail>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['convalescence.', 'i']" xml:id="C28_app100_rg2">
+               <rdgGrp n="['i']" xml:id="C28_app100_rg2">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_3_chapter_v.xml#C28_app100-f1818"/>
                   </rdg>
@@ -1957,9 +1954,9 @@
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_chap_15.xml#C28_app102-fMS"/>
                      <witDetail wit="#fMS">
-                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0133.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0133']/tei:zone[@type='main']//tei:line[13],19,34)"/>
-                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(lescence. Iavoided) explanation; I</fv:line_text>
-                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">d explanation; </fv:resolved_text>
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0133.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0133']/tei:zone[@type='main']//tei:line[13],18,33)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(lescence.Iavoided) explanation; I</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">ed explanation;</fv:resolved_text>
                      </witDetail>
                   </rdg>
                </rdgGrp>
