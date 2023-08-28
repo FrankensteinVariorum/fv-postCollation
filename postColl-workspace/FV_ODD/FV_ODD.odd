@@ -1,0 +1,224 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" n="testms">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Frankenstein Variorum ODD</title>
+        <author>Elisa E. Beshero-Bondar</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>TEI Consortium</publisher>
+        <availability status="free">
+          <licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under a
+            Creative Commons Attribution-ShareAlike 3.0 Unported License</licence>
+          <licence target="http://www.opensource.org/licenses/BSD-2-Clause">
+            <p>Copyright 2013 TEI Consortium.</p>
+            <p>All rights reserved.</p>
+            <p>Redistribution and use in source and binary forms, with or without modification, are
+              permitted provided that the following conditions are met:</p>
+            <list>
+              <item>Redistributions of source code must retain the above copyright notice, this list
+                of conditions and the following disclaimer.</item>
+              <item>Redistributions in binary form must reproduce the above copyright notice, this
+                list of conditions and the following disclaimer in the documentation and/or other
+                materials provided with the distribution.</item>
+            </list>
+            <p>This software is provided by the copyright holders and contributors "as is" and any
+              express or implied warranties, including, but not limited to, the implied warranties
+              of merchantability and fitness for a particular purpose are disclaimed. In no event
+              shall the copyright holder or contributors be liable for any direct, indirect,
+              incidental, special, exemplary, or consequential damages (including, but not limited
+              to, procurement of substitute goods or services; loss of use, data, or profits; or
+              business interruption) however caused and on any theory of liability, whether in
+              contract, strict liability, or tort (including negligence or otherwise) arising in any
+              way out of the use of this software, even if advised of the possibility of such
+              damage.</p>
+          </licence>
+          <p>TEI material can be licensed differently depending on the use you intend to make of it.
+            Hence it is made available under both the CC+BY and BSD-2 licences. The CC+BY licence is
+            generally appropriate for usages which treat TEI content as data or documentation. The
+            BSD-2 licence is generally appropriate for usage of TEI content in a software
+            environment. For further information or clarification, please contact the <ref
+              target="mailto:info@tei-c.org">TEI Consortium</ref>.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Written from scratch.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="RomaJS" version="1.0.0" when="2023-08-28T03:04:30.399Z">
+          <desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>TEI for manuscript description</p>
+      <schemaSpec ident="FV_ODD" start="TEI teiCorpus" prefix="tei_" targetLang="en" docLang="en">
+        <moduleRef key="header"/>
+        <moduleRef key="linking"/>
+        <moduleRef key="core"/>
+        <moduleRef key="tei"/>
+        <moduleRef key="textstructure"/>
+        <moduleRef key="namesdates"/>
+        <moduleRef key="transcr"/>
+
+        <moduleRef key="msdescription"/>
+        <moduleRef key="textcrit"
+          include="app lacunaEnd lacunaStart lem listApp listWit rdg rdgGrp variantEncoding wit witDetail witEnd witStart witness"/>
+        <elementSpec ident="sourceDesc" mode="replace">
+          <desc versionDate="2023-08-28" xml:lang="en">describes the source(s) from which an electronic text was derived or generated, typically a
+            bibliographic description in the case of a digitized text, or a phrase such as "born digital"
+            for a text which has no previous existence. In this customization, we are permitting both paragraphs and listBibl elements.</desc>
+          <content>
+            <alternate minOccurs="1" maxOccurs="unbounded">
+              <classRef key="model.pLike" minOccurs="1"
+                maxOccurs="unbounded"/>
+              <classRef key="model.biblLike"/>
+                <classRef key="model.sourceDescPart"/>
+                <classRef key="model.listLike"/>
+            </alternate>
+          </content>
+        </elementSpec>
+        <elementSpec ident="body" mode="replace">
+          <desc versionDate="2023-08-28" xml:lang="en">contains the whole body of a single unitary
+            text, excluding any front or back matter. We are modifying the body element to permit it
+            to contain <gi>seg</gi> and text nodes for representing our re-sequenced version of the
+            Shelley-Godwin Archive files.</desc>
+          <content>
+            <sequence>
+              <classRef key="model.global"
+                minOccurs="0" maxOccurs="unbounded"/>
+              <sequence minOccurs="0">
+                <classRef key="model.divTop"/>
+                <alternate minOccurs="0"
+                  maxOccurs="unbounded">
+                  <elementRef key="seg"/>
+                  <textNode/>
+                  <classRef key="model.global"/>
+                  <classRef key="model.divTop"/>
+                </alternate>
+              </sequence>
+              <sequence minOccurs="0">
+                <classRef key="model.divGenLike"/>
+                <alternate minOccurs="0"
+                  maxOccurs="unbounded">
+                  <classRef key="model.global"/>
+                  <classRef key="model.divGenLike"/>
+                </alternate>
+              </sequence>
+              <alternate>
+                <sequence minOccurs="1"
+                  maxOccurs="unbounded">
+                  <classRef key="model.divLike"/>
+                  <alternate minOccurs="0"
+                    maxOccurs="unbounded">
+                    <classRef key="model.global"/>
+                    <classRef key="model.divGenLike"/>
+                  </alternate>
+                </sequence>
+                <sequence minOccurs="1"
+                  maxOccurs="unbounded">
+                  <classRef key="model.div1Like"/>
+                  <alternate minOccurs="0"
+                    maxOccurs="unbounded">
+                    <classRef key="model.global"/>
+                    <classRef key="model.divGenLike"/>
+                  </alternate>
+                </sequence>
+                <sequence>
+                  <sequence minOccurs="1"
+                    maxOccurs="unbounded">
+                    <alternate minOccurs="1" maxOccurs="1">
+                      <elementRef key="schemaSpec"/>
+                      <classRef key="model.common"/>
+                    </alternate>
+                    <classRef key="model.global"
+                      minOccurs="0" maxOccurs="unbounded"/>
+                  </sequence>
+                  <alternate minOccurs="0">
+                    <sequence minOccurs="1"
+                      maxOccurs="unbounded">
+                      <classRef key="model.divLike"/>
+                      <alternate minOccurs="0"
+                        maxOccurs="unbounded">
+                        <classRef key="model.global"/>
+                        <classRef key="model.divGenLike"/>
+                      </alternate>
+                    </sequence>
+                    <sequence minOccurs="1"
+                      maxOccurs="unbounded">
+                      <classRef key="model.div1Like"/>
+                      <alternate minOccurs="0"
+                        maxOccurs="unbounded">
+                        <classRef key="model.global"/>
+                        <classRef key="model.divGenLike"/>
+                      </alternate>
+                    </sequence>
+                  </alternate>
+                </sequence>
+              </alternate>
+              <sequence minOccurs="0"
+                maxOccurs="unbounded">
+                <classRef key="model.divBottom"/>
+                <classRef key="model.global"
+                  minOccurs="0" maxOccurs="unbounded"/>
+              </sequence>
+            </sequence>
+          </content>
+        </elementSpec>
+        <elementSpec ident="seg" mode="replace">
+          <desc>represents any segmentation of text below the <soCalled>chunk</soCalled> level. In our customization, the <gi>seg</gi> element may appear at any level of the document
+          under the <gi>body</gi> element, and may surround <gi>p</gi> elements or appear inside them. Because the <gi>seg</gi> element is generated to represent a passage of variation,
+          and variation <q>chunks</q> can be larger or smaller than paragraphs, we have restructured the TEI to permit a more flexible encoding.</desc>
+          <content>
+           <alternate> 
+             <macroRef key="macro.paraContent"/>
+            <classRef key="model.pLike"/>
+           </alternate>
+          </content>
+        </elementSpec>
+        
+        <elementSpec ident="witDetail" mode="replace">
+          <desc versionDate="2023-08-28" xml:lang="en">gives further information about a particular witness, or
+          witnesses, to a particular reading. In this customization, we are including elements in the Frankenstein Variorum namespace that 
+          provide information about pointer resolution to the Shelley-Godwin Archive manuscript notebook files.</desc>
+          <content>
+            <alternate maxOccurs="unbounded" minOccurs="0">
+              <textNode/>
+              <elementRef key="line_text"/>
+              <elementRef key="resolved_text"/>
+              <classRef key="model.gLike"/>
+              <classRef key="model.phrase"/>
+              <classRef key="model.global"/>
+              <elementRef key="bibl"/>
+            </alternate>
+          </content>
+        </elementSpec>
+        <elementSpec ident="line_text" ns="https://github.com/FrankensteinVariorum" mode="add"
+          module="textcrit">
+          <desc versionDate="2023-08-28" xml:lang="en">This element stores text from the
+            Shelley-Godwin Archive edition relevant to a particular critical apparatus. It can show
+            text immediately preceding and following a variant passage, as located in the S-GA
+            edition of the Frankenstein manuscript notebook files.</desc>
+          <classes/>
+          <content>
+            <textNode/>
+          </content>
+        </elementSpec>
+        <elementSpec ident="resolved_text" ns="https://github.com/FrankensteinVariorum"
+          mode="add" module="textcrit">
+          <desc versionDate="2023-08-28" xml:lang="en">This element stores resolved text from the
+            Shelley-Godwin Archive edition relevant to a particular critical apparatus, as located
+            in the S-GA edition of the Frankenstein manuscript notebook file.</desc>
+          <classes/>
+          <content>
+            <textNode/>
+          </content>
+        </elementSpec>
+      </schemaSpec>
+    </body>
+  </text>
+</TEI>
