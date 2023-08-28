@@ -261,6 +261,41 @@
             <!-- if we make it model.entryPart.top, then eg <gen> isnt allowd -->
           </content>
         </elementSpec>
+        <elementSpec ident="lg" mode="change">
+          
+        
+          <content>
+            <sequence>
+              <alternate minOccurs="0" maxOccurs="unbounded">
+                <classRef key="model.divTop"/>
+                <classRef key="model.global"/>
+                <elementRef key="seg" minOccurs="0" maxOccurs="unbounded"/>
+              </alternate>      
+              <alternate>
+                <classRef key="model.lLike"/>
+                <classRef key="model.stageLike"/>
+                <classRef key="model.labelLike"/>
+                <classRef key="model.pPart.transcriptional"/>
+                <elementRef key="seg" minOccurs="0" maxOccurs="unbounded"/>
+                <elementRef key="lg"/>
+              </alternate>
+              <alternate minOccurs="0" maxOccurs="unbounded">
+                <classRef key="model.lLike"/>
+                <classRef key="model.stageLike"/>
+                <classRef key="model.labelLike"/>
+                <classRef key="model.pPart.transcriptional"/>
+                <classRef key="model.global"/>
+                <elementRef key="seg" minOccurs="0" maxOccurs="unbounded"/>
+                <elementRef key="lg"/>
+              </alternate>
+              <sequence minOccurs="0" maxOccurs="unbounded">        
+                <classRef key="model.divBottom"/>
+                <elementRef key="seg" minOccurs="0" maxOccurs="unbounded"/>
+                <classRef key="model.global" minOccurs="0" maxOccurs="unbounded"/>
+              </sequence>
+            </sequence>
+          </content>
+        </elementSpec>
       <elementSpec ident="note" mode="change">
         <attList>
           <attDef ident="anchored" mode="replace">

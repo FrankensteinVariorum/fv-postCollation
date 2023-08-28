@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2023-08-28T06:53:21Z. .
+Schema generated from ODD source 2023-08-28T07:01:32Z. .
 TEI Edition: Version 4.4.0. Last updated on
         19th April 2022, revision ff9cc28b0
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0/
@@ -5776,12 +5776,19 @@ relatedItem element must be empty</sch:report>
                <choice>
                   <ref name="tei_model.divTop"/>
                   <ref name="tei_model.global"/>
+                  <zeroOrMore>
+                     <ref name="tei_seg"/>
+                  </zeroOrMore>
                </choice>
             </zeroOrMore>
             <choice>
                <ref name="tei_model.lLike"/>
                <ref name="tei_model.stageLike"/>
                <ref name="tei_model.labelLike"/>
+               <ref name="tei_model.pPart.transcriptional"/>
+               <zeroOrMore>
+                  <ref name="tei_seg"/>
+               </zeroOrMore>
                <ref name="tei_lg"/>
             </choice>
             <zeroOrMore>
@@ -5789,13 +5796,20 @@ relatedItem element must be empty</sch:report>
                   <ref name="tei_model.lLike"/>
                   <ref name="tei_model.stageLike"/>
                   <ref name="tei_model.labelLike"/>
+                  <ref name="tei_model.pPart.transcriptional"/>
                   <ref name="tei_model.global"/>
+                  <zeroOrMore>
+                     <ref name="tei_seg"/>
+                  </zeroOrMore>
                   <ref name="tei_lg"/>
                </choice>
             </zeroOrMore>
             <zeroOrMore>
                <group>
                   <ref name="tei_model.divBottom"/>
+                  <zeroOrMore>
+                     <ref name="tei_seg"/>
+                  </zeroOrMore>
                   <zeroOrMore>
                      <ref name="tei_model.global"/>
                   </zeroOrMore>
