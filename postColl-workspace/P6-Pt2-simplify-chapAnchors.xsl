@@ -63,6 +63,8 @@
         select="current() ! base-uri() ! tokenize(., '/')[last()]"/>
       <xsl:variable name="witness" as="xs:string" select="$filename ! substring-before(., '.xml')"/>
       <xsl:result-document method="xml" indent="yes" href="P6-Pt2-output/{$filename}">
+        <xsl:processing-instruction name="xml-model">href="../FV_ODD/out/FV_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:processing-instruction>
+        <xsl:processing-instruction name="xml-model"> href="../FV_ODD/out/FV_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:processing-instruction>
         <TEI>
           <teiHeader>
             <fileDesc>

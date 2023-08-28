@@ -1,4 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="../FV_ODD/out/FV_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../FV_ODD/out/FV_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -17,7 +19,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-08-27T22:01:52.084824-04:00.</p>
+                                                  2023-08-28T03:09:52.636744-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -465,8 +467,8 @@
     unable to 
          <seg xml:id="C22_app350-fMS">
             <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0056__main__d4e10913">hurt</del> injure
+                 rend="strikethrough"
+                 xml:id="c57-0056__main__d4e10913">hurt</del> injure
         </seg>
          <seg xml:id="C22_app351-fMS">
         anything <lb n="c57-0056__main__6"/>human
@@ -1179,8 +1181,8 @@
     I allowed myself to be borne <lb n="c57-0059__main__27"/>away by 
         <seg xml:id="C22_app605-fMS">
         them &amp; <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0059__main__d4e11754">forg</del>
+                 rend="strikethrough"
+                 xml:id="c57-0059__main__d4e11754">forg</del>
          </seg> 
     forgetting my <lb n="c57-0059__main__28"/>solitude &amp; 
         <seg xml:id="C22_app607-fMS">
@@ -1235,11 +1237,11 @@
                </add>
                <add place="superlinear" xml:id="c57-0060__main__d4e11834">deep &amp; impetuous </add>
             </mod> river – I <lb n="c57-0060__main__5"/>presently discovered that the voices proceeded <lb n="c57-0060__main__6"/>from people who were on the rock which <lb n="c57-0060__main__7"/>formed the roof of the cavern – They spoke a <lb n="c57-0060__main__8"/>language unknown to me – when suddenly <lb n="c57-0060__main__9"/>I heard a noise and saw a <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0060__main__d4e11849">woma</del> young girl <lb n="c57-0060__main__10"/>fall from the precipiece into the river a <lb n="c57-0060__main__11"/>
+                 rend="strikethrough"
+                 xml:id="c57-0060__main__d4e11849">woma</del> young girl <lb n="c57-0060__main__10"/>fall from the precipiece into the river a <lb n="c57-0060__main__11"/>
             <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0060__main__d4e11857">and aloud</del> loud scream followed &amp; all was quiet– <lb n="c57-0060__main__12"/>I rushed from my hiding place &amp; dashing into <lb n="c57-0060__main__13"/>the river rescued the girl &amp; bore her to the <lb n="c57-0060__main__14"/>shore. She was senseless &amp; I endeavoured to <lb n="c57-0060__main__15"/>restore her to life when a man came <w ana="start"/>sudden<lb n="c57-0060__main__16"/>ly<w ana="end"/> from the woods and appeared aghas <delSpan anchor="c57-0060.01"/>
+                 rend="strikethrough"
+                 xml:id="c57-0060__main__d4e11857">and aloud</del> loud scream followed &amp; all was quiet– <lb n="c57-0060__main__12"/>I rushed from my hiding place &amp; dashing into <lb n="c57-0060__main__13"/>the river rescued the girl &amp; bore her to the <lb n="c57-0060__main__14"/>shore. She was senseless &amp; I endeavoured to <lb n="c57-0060__main__15"/>restore her to life when a man came <w ana="start"/>sudden<lb n="c57-0060__main__16"/>ly<w ana="end"/> from the woods and appeared aghas <delSpan anchor="c57-0060.01"/>
          </seg>
          <milestone unit="tei:p-END"/>
          <milestone unit="tei:p-START"/>
@@ -1253,8 +1255,8 @@
     I came to its 
          <seg xml:id="C22_app625-fMS">
             <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0060__main__d4e11884">skirts</del> boundary
+                 rend="strikethrough"
+                 xml:id="c57-0060__main__d4e11884">skirts</del> boundary
         </seg> 
     which <lb n="c57-0060__main__19"/>was skirted a deep &amp; rapid 
         <seg xml:id="C22_app629-fMS">
@@ -1482,19 +1484,19 @@
          <seg xml:id="C22_app715-fMS">
             <del rend="strikethrough" xml:id="c57-0061__main__d4e12081">my wound</del>
             <del next="#c57-0061.05"
-                  rend="strikethrough"
-                  xml:id="c57-0061__main__d4e12084">
+                 rend="strikethrough"
+                 xml:id="c57-0061__main__d4e12084">
                <add hand="#pbs"
-                     next="#c57-0061.06"
-                     place="superlinear"
-                     xml:id="c57-0061__main__d4e12086">a multitude of </add>
+                    next="#c57-0061.06"
+                    place="superlinear"
+                    xml:id="c57-0061__main__d4e12086">a multitude of </add>
             </del>
             <lb n="c57-0061__main__20"/>
             <del rend="strikethrough" xml:id="c57-0061__main__d4e12092">
                <add hand="#pbs"
-                     next="#c57-0061.07"
-                     place="superlinear"
-                     xml:id="c57-0061__main__d4e12094">wounds. </add>
+                    next="#c57-0061.07"
+                    place="superlinear"
+                    xml:id="c57-0061__main__d4e12094">wounds. </add>
             </del>
             <anchor xml:id="c57-0061.08"/>
             <lb n="c57-0061__left_margin__1"/>a

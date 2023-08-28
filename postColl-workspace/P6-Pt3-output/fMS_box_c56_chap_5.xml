@@ -1,4 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="../FV_ODD/out/FV_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../FV_ODD/out/FV_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -17,7 +19,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-08-27T22:01:52.084824-04:00.</p>
+                                                  2023-08-28T03:09:52.636744-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -459,8 +461,8 @@
     I made 
          <seg part="I" xml:id="C09_app134-fMS__I">
             <del next="#c-56.0032.07"
-                  rend="strikethrough"
-                  xml:id="c56-0032__main__d5e6540">one or two</del>
+                 rend="strikethrough"
+                 xml:id="c56-0032__main__d5e6540">one or two</del>
          </seg>
          <add hand="#pbs" place="intralinear" xml:id="c56-0032__main__d5e6543">
             <seg part="F" xml:id="C09_app134-fMS__F">some
@@ -754,9 +756,9 @@
                <mdel>h</mdel>
             </seg>
             <add hand="#pbs"
-                  next="#c56-0034.01"
-                  place="superlinear"
-                  xml:id="c56-0034__main__d5e6956">
+                 next="#c56-0034.01"
+                 place="superlinear"
+                 xml:id="c56-0034__main__d5e6956">
                <seg part="F" xml:id="C09_app217-fMS__F">object
         </seg>
                <seg part="I" xml:id="C09_app218-fMS__I">
@@ -1208,8 +1210,8 @@
                <add hand="#pbs" place="intralinear" xml:id="c56-0036__main__d5e7604">; </add>
             </mod>
             <del next="#c56-0036.09"
-                  rend="strikethrough"
-                  xml:id="c56-0036__main__d5e7608">but you are</del>
+                 rend="strikethrough"
+                 xml:id="c56-0036__main__d5e7608">but you are</del>
          </seg>
          <add hand="#pbs" place="superlinear" xml:id="c56-0036__main__d5e7612">that cannot 
         <seg part="I" xml:id="C09_app344-fMS__I">

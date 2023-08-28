@@ -1,4 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="../FV_ODD/out/FV_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../FV_ODD/out/FV_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -17,7 +19,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-08-27T22:01:52.084824-04:00.</p>
+                                                  2023-08-28T03:09:52.636744-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -557,8 +559,8 @@
          <lb n="c57-0068__main__16"/>any human 
         <seg xml:id="C23_app223-fMS">
             <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0068__main__d4e13490">being</del> creature
+                 rend="strikethrough"
+                 xml:id="c57-0068__main__d4e13490">being</del> creature
         </seg> 
     shall ever see <lb n="c57-0068__main__17"/>us 
         <seg xml:id="C23_app225-fMS">
@@ -1066,9 +1068,9 @@
          <seg part="I" xml:id="C23_app412-fMS__I">
             <del rend="strikethrough" xml:id="c57-0070__main__d4e13969">caused by</del>
             <add hand="#pbs"
-                  next="#c57-0070.06"
-                  place="superlinear"
-                  xml:id="c57-0070__main__d4e13973">of all </add>
+                 next="#c57-0070.06"
+                 place="superlinear"
+                 xml:id="c57-0070__main__d4e13973">of all </add>
             <lb n="c57-0070__main__30"/>
          </seg>
          <add hand="#pbs" place="superlinear" xml:id="c57-0070__main__d4e13978">
@@ -1454,8 +1456,8 @@
         </seg>
          <seg xml:id="C23_app576-fMS">
             <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0072__main__d4e14347">purpos</del> intention of my father in <lb n="c57-0073__main__1"/>coming had been to divert my
+                 rend="strikethrough"
+                 xml:id="c57-0072__main__d4e14347">purpos</del> intention of my father in <lb n="c57-0073__main__1"/>coming had been to divert my
         </seg>
          <seg xml:id="C23_app577-fMS">
         mind

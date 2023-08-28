@@ -1,4 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="../FV_ODD/out/FV_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../FV_ODD/out/FV_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -17,7 +19,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-08-27T22:01:52.084824-04:00.</p>
+                                                  2023-08-28T03:09:52.636744-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -501,8 +503,8 @@
             <lb n="c57-0110__main__11"/>
             <anchor xml:id="c57-0110.02"/>
             <zone corresp="#c57-0110.02"
-                   type="left_margin"
-                   xml:id="c57-0110__left_margin">
+                  type="left_margin"
+                  xml:id="c57-0110__left_margin">
                <lb n="c57-0110__left_margin__1"/>
                <add xml:id="c57-0110__left_margin__d4e20252">reflect: </add>
             </zone>
@@ -649,11 +651,11 @@
     but I 
          <seg part="I" xml:id="C26_app641-fMS__I">
             <del next="#c57-0111.02"
-                  rend="strikethrough"
-                  xml:id="c57-0111__main__d4e20381">never</del>
+                 rend="strikethrough"
+                 xml:id="c57-0111__main__d4e20381">never</del>
             <add next="#c57-0111.03"
-                  place="superlinear"
-                  xml:id="c57-0111__main__d4e20385">did </add>
+                 place="superlinear"
+                 xml:id="c57-0111__main__d4e20385">did </add>
             <lb n="c57-0111__main__12"/>
             <anchor xml:id="c57-0111.04"/>
             <lb n="c57-0111__left_margin__1"/>
@@ -879,19 +881,19 @@
     and the waves 
          <seg xml:id="C26_app723-fMS">
             <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0112__main__d4e20585">th</del> continually <lb n="c57-0112__main__19"/>threatened the safety of my little
+                 rend="strikethrough"
+                 xml:id="c57-0112__main__d4e20585">th</del> continually <lb n="c57-0112__main__19"/>threatened the safety of my little
         </seg>
          <seg xml:id="C26_app724-fMS">
             <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0112__main__d4e20590">boat</del> skiff—
+                 rend="strikethrough"
+                 xml:id="c57-0112__main__d4e20590">boat</del> skiff—
         </seg>
          <lb n="c57-0112__main__20"/>I 
         <seg xml:id="C26_app726-fMS">
             <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0112__main__d4e20596">endeavoure</del> found that the wind
+                 rend="strikethrough"
+                 xml:id="c57-0112__main__d4e20596">endeavoure</del> found that the wind
         </seg>
          <seg xml:id="C26_app727-fMS">
         was<w ana="start"/>north-<lb n="c57-0112__main__21"/>east<w ana="end"/>
@@ -951,8 +953,8 @@
     my only resource was <lb n="c57-0112__main__27"/>to drive before the 
         <seg xml:id="C26_app741-fMS">
         wind – <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0112__main__d4e20666">To be a</del>
+                 rend="strikethrough"
+                 xml:id="c57-0112__main__d4e20666">To be a</del>
          </seg> 
     I confess <lb n="c57-0112__main__28"/>that I felt a few sensations of 
         <seg xml:id="C26_app743-fMS">
@@ -977,8 +979,8 @@
     might be 
          <seg xml:id="C26_app753-fMS">
             <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0112__main__d4e20685">driv</del> driven into <lb n="c57-0112__main__33"/>the wide
+                 rend="strikethrough"
+                 xml:id="c57-0112__main__d4e20685">driv</del> driven into <lb n="c57-0112__main__33"/>the wide
         </seg>
          <seg xml:id="C26_app754-fMS">
         Atlantic
@@ -1442,8 +1444,8 @@
          <seg xml:id="C26_app941-fMS">
             <lb n="c57-0115__main__3"/>
             <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0115__main__d4e21076">My</del> I was exceedingly
+                 rend="strikethrough"
+                 xml:id="c57-0115__main__d4e21076">My</del> I was exceedingly
         </seg>
          <seg xml:id="C26_app942-fMS">
         surprized at

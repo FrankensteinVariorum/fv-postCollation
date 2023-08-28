@@ -1,4 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="../FV_ODD/out/FV_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../FV_ODD/out/FV_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -17,7 +19,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-08-27T22:01:52.084824-04:00.</p>
+                                                  2023-08-28T03:09:52.636744-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -1086,8 +1088,8 @@
         </seg>
          <seg xml:id="C16_app380-fMS">
         horror <del next="#c56-0124.03"
-                  rend="strikethrough"
-                  xml:id="c56-0124__main__d5e25765">determin</del>
+                 rend="strikethrough"
+                 xml:id="c56-0124__main__d5e25765">determin</del>
             <add hand="#pbs" place="superlinear" xml:id="c56-0124__main__d5e25768">I </add>
             <lb n="c56-0124__main__5"/>
             <del rend="strikethrough" xml:id="c56-0124__main__d5e25774">ing</del>
@@ -1469,8 +1471,8 @@
     on 
          <seg part="I" xml:id="C16_app504-fMS__I">
         him <del next="#c56-0125.06"
-                  rend="strikethrough"
-                  xml:id="c56-0125__main__d5e26148">that I</del>
+                 rend="strikethrough"
+                 xml:id="c56-0125__main__d5e26148">that I</del>
             <del rend="strikethrough" xml:id="c56-0125__main__d5e26151">
                <add hand="#pbs" place="superlinear" xml:id="c56-0125__main__d5e26153">and </add>
             </del>
@@ -1595,8 +1597,8 @@
         </seg>
                <seg part="I" xml:id="C16_app552-fMS__I">
                   <add hand="#pbs"
-                        place="superlinear"
-                        xml:id="c56-0126__left_margin__d5e26294">thee </add>
+                       place="superlinear"
+                       xml:id="c56-0126__left_margin__d5e26294">thee </add>
                </seg>
             </add>
          </mod> , <mod xml:id="c56-0126__main__d5e26301">
@@ -1967,8 +1969,8 @@
                </del>
             </mod>
             <del next="#c56-0127.03"
-                  rend="strikethrough"
-                  xml:id="c56-0127__main__d5e26644">hate <add place="intralinear" xml:id="c56-0127__main__d5e26646">s </add> me and i</del>
+                 rend="strikethrough"
+                 xml:id="c56-0127__main__d5e26644">hate <add place="intralinear" xml:id="c56-0127__main__d5e26646">s </add> me and i</del>
             <del rend="unmarked" xml:id="c56-0127__main__d5e26650">f</del>
             <lb n="c56-0127__main__14"/>
          </seg>
@@ -2323,8 +2325,8 @@
             <lb n="c56-0128__main__16"/>
          </seg>
          <add next="#c56-0128.07"
-               place="interlinear"
-               xml:id="c56-0128__main__d5e27052">
+              place="interlinear"
+              xml:id="c56-0128__main__d5e27052">
             <seg part="F" xml:id="C16_app781-fMS__F">Thus
         </seg> 
     I relieve 
@@ -2407,8 +2409,8 @@
          </add>hut 
         <seg xml:id="C16_app815-fMS">
         on <del next="#c56-0128.05"
-                  rend="strikethrough"
-                  xml:id="c56-0128__main__d5e27132">Motan</del>
+                 rend="strikethrough"
+                 xml:id="c56-0128__main__d5e27132">Motan</del>
          </seg>
          <add place="superlinear" xml:id="c56-0128__main__d5e27135">the 
         <seg part="I" xml:id="C16_app817-fMS__I">

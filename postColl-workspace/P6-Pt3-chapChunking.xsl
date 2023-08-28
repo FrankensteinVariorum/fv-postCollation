@@ -83,6 +83,8 @@
                     <xsl:otherwise>
                         <xsl:result-document href="P6-Pt3-output/{current()/@xml:id ! replace(., '\W+', '_')}.xml"
                             method="xml" indent="yes">
+                            <xsl:processing-instruction name="xml-model">href="../FV_ODD/out/FV_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:processing-instruction>
+                            <xsl:processing-instruction name="xml-model"> href="../FV_ODD/out/FV_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:processing-instruction>
                             <TEI xmlns:fv="https://frankensteinvariorum.github.io">
                                 <teiHeader>
                                     <fileDesc>

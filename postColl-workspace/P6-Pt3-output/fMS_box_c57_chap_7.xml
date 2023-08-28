@@ -1,4 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="../FV_ODD/out/FV_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../FV_ODD/out/FV_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -17,7 +19,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-08-27T22:01:52.084824-04:00.</p>
+                                                  2023-08-28T03:09:52.636744-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -32,12 +34,12 @@
                <del rend="strikethrough" xml:id="c57-0045__main__d4e8525">season</del>
                <add place="superlinear" xml:id="c57-0045__main__d4e8528">winter</add>
             </mod> advanced and <del next="#c57-0045.02"
-                  rend="strikethrough"
-                  xml:id="c57-0045__main__d4e8532">it was now about a</del>
+                 rend="strikethrough"
+                 xml:id="c57-0045__main__d4e8532">it was now about a</del>
          </seg>
          <add next="#c57-0045.03"
-               place="superlinear"
-               xml:id="c57-0045__main__d4e8535">and an entire revolution of the 
+              place="superlinear"
+              xml:id="c57-0045__main__d4e8535">and an entire revolution of the 
         <seg part="I" xml:id="C21_app661-fMS__I">
                </seg>
          </add>
@@ -554,8 +556,8 @@
         Germans"– <del rend="strikethrough" xml:id="c57-0047__main__d4e9070">
                <unclear extent="1" unit="chars"/>
             </del> Asked <lb n="c57-0047__main__17"/>De Lacey – <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0047__main__d4e9077">know</del>"No –They are french –But
+                 rend="strikethrough"
+                 xml:id="c57-0047__main__d4e9077">know</del>"No –They are french –But
         </seg> 
     let <lb n="c57-0047__main__18"/>us change the 
         <seg xml:id="C21_app846-fMS">

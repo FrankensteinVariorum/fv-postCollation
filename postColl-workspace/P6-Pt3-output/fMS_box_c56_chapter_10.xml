@@ -1,4 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="../FV_ODD/out/FV_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../FV_ODD/out/FV_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -17,7 +19,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-08-27T22:01:52.084824-04:00.</p>
+                                                  2023-08-28T03:09:52.636744-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -313,9 +315,9 @@
                <del rend="strikethrough" xml:id="c56-0082__main__d5e17187">turns</del>
             </seg>
             <add hand="#pbs"
-                  next="#c56-0082.01"
-                  place="superlinear"
-                  xml:id="c56-0082__main__d5e17190">
+                 next="#c56-0082.01"
+                 place="superlinear"
+                 xml:id="c56-0082__main__d5e17190">
                <seg part="F" xml:id="C13_app577-fMS__F">which
         </seg>
                <seg part="I" xml:id="C13_app578-fMS__I">
@@ -329,12 +331,12 @@
         </seg>
          <seg part="I" xml:id="C13_app579-fMS__I">
             <del next="#c56-0082.03"
-                  rend="strikethrough"
-                  xml:id="c56-0082__main__d5e17202">changing</del>
+                 rend="strikethrough"
+                 xml:id="c56-0082__main__d5e17202">changing</del>
             <add hand="#pbs"
-                  next="#c56-0082.04"
-                  place="superlinear"
-                  xml:id="c56-0082__main__d5e17205">the </add>
+                 next="#c56-0082.04"
+                 place="superlinear"
+                 xml:id="c56-0082__main__d5e17205">the </add>
             <lb n="c56-0082__main__6"/>
          </seg>
          <add hand="#pbs" place="superlinear" xml:id="c56-0082__main__d5e17210">
@@ -409,8 +411,8 @@
          <lb n="c56-0082__main__21"/>As I said 
         <seg xml:id="C13_app604-fMS">
         the <add place="sublinear" xml:id="c56-0082__main__d5e17297">se </add> words <del next="#c56-0082.07"
-                  rend="strikethrough"
-                  xml:id="c56-0082__main__d5e17300">a flash of lightning</del>
+                 rend="strikethrough"
+                 xml:id="c56-0082__main__d5e17300">a flash of lightning</del>
          </seg>
          <add place="superlinear" xml:id="c56-0082__main__d5e17303">I perceived in the gloom 
         <seg part="I" xml:id="C13_app606-fMS__I">
@@ -576,8 +578,8 @@
             <anchor xml:id="c56-0083.03"/>
             <lb n="c56-0083__left_margin__1"/>Nothing </seg>
          <add hand="#pbs"
-               place="superlinear"
-               xml:id="c56-0083__left_margin__d5e17543">
+              place="superlinear"
+              xml:id="c56-0083__left_margin__d5e17543">
             <seg part="F" xml:id="C13_app651-fMS__F">in
         </seg>
          </add>human <lb n="c56-0083__left_margin__2"/>shape could <lb n="c56-0083__left_margin__3"/>have destroyed <lb n="c56-0083__left_margin__4"/>that fair <lb n="c56-0083__left_margin__5"/>child. 
@@ -900,9 +902,9 @@
                <del rend="strikethrough" xml:id="c56-0084__main__d5e17934">mischief</del>
             </seg>
             <add hand="#pbs"
-                  next="#c56-0084.03"
-                  place="superlinear"
-                  xml:id="c56-0084__main__d5e17937">
+                 next="#c56-0084.03"
+                 place="superlinear"
+                 xml:id="c56-0084__main__d5e17937">
                <seg part="F" xml:id="C13_app745-fMS__F">horror
         </seg> 
     such as 
@@ -1061,8 +1063,8 @@
          <seg part="M" xml:id="C13_app794-fMS__M">
             <lb n="c56-0084__main__28"/>
             <del next="#c56-0084.09"
-                  rend="strikethrough"
-                  xml:id="c56-0084__main__d5e18122">which was</del>
+                 rend="strikethrough"
+                 xml:id="c56-0084__main__d5e18122">which was</del>
             <add place="sublinear" xml:id="c56-0084__main__d5e18125">
                <metamark function="insert">^</metamark>
             </add>
@@ -1755,8 +1757,8 @@
                   <add place="superlinear" xml:id="c56-0088__main__d5e18984">
                      <metamark function="displacement" xml:id="c56-0088.01">X</metamark>
                      <zone corresp="#c56-0088.01"
-                            type="left_margin"
-                            xml:id="c56-0088__left_margin">
+                           type="left_margin"
+                           xml:id="c56-0088__left_margin">
                         <delSpan rend="vertical_line" spanTo="#c56-0088.03"/>
                         <addSpan hand="#pbs" spanTo="#c56-0088.02"/>
                         <lb n="c56-0088__left_margin__1"/>After our <lb n="c56-0088__left_margin__2"/>first <lb n="c56-0088__left_margin__3"/>mournful <lb n="c56-0088__left_margin__4"/>greetings <lb n="c56-0088__left_margin__5"/>had past <lb n="c56-0088__left_margin__6"/>I <anchor xml:id="c56-0088.02"/>

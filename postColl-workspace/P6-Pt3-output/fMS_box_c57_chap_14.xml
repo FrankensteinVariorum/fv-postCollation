@@ -1,4 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="../FV_ODD/out/FV_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../FV_ODD/out/FV_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -17,7 +19,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-08-27T22:01:52.084824-04:00.</p>
+                                                  2023-08-28T03:09:52.636744-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -1181,8 +1183,8 @@
          <lb n="c57-0122__main__25"/>I turned 
         <seg xml:id="C27_app436-fMS">
             <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0122__main__d4e22631">fro</del> with
+                 rend="strikethrough"
+                 xml:id="c57-0122__main__d4e22631">fro</del> with
         </seg>
          <seg xml:id="C27_app437-fMS">
         lo <del rend="strikethrough" xml:id="c57-0122__main__d4e22634">o</del> athing

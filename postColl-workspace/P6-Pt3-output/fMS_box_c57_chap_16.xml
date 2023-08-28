@@ -1,4 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="../FV_ODD/out/FV_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../FV_ODD/out/FV_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -17,7 +19,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-08-27T22:01:52.084824-04:00.</p>
+                                                  2023-08-28T03:09:52.636744-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -494,8 +496,8 @@
         </seg>
          <seg xml:id="C29_app372-fMS">
             <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0140__main__d4e25992">erne</del> earnestly
+                 rend="strikethrough"
+                 xml:id="c57-0140__main__d4e25992">erne</del> earnestly
         </seg>
          <seg xml:id="C29_app373-fMS">
         entreat of you &amp;<lb n="c57-0140__main__8"/>I
@@ -578,8 +580,8 @@
          <lb n="c57-0140__main__20"/>The 
         <seg xml:id="C29_app404-fMS">
         calm <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0140__main__d4e26062">hower</del> however
+                 rend="strikethrough"
+                 xml:id="c57-0140__main__d4e26062">hower</del> however
         </seg> 
     which <lb n="c57-0140__main__21"/>I now enjoyed did not 
         <seg xml:id="C29_app406-fMS">
@@ -622,8 +624,8 @@
     Her gentle <lb n="c57-0140__main__31"/>voice would 
         <seg xml:id="C29_app426-fMS">
         sooth <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0140__main__d4e26101">m</del>
+                 rend="strikethrough"
+                 xml:id="c57-0140__main__d4e26101">m</del>
          </seg> 
     when 
          <seg xml:id="C29_app428-fMS">
@@ -632,8 +634,8 @@
          <lb n="c57-0140__main__32"/>and inspire with 
         <seg xml:id="C29_app432-fMS">
             <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0140__main__d4e26106">earthly</del> human <w ana="start"/>fee<lb n="c57-0140__main__33"/>lings<w ana="end"/> when sunk in
+                 rend="strikethrough"
+                 xml:id="c57-0140__main__d4e26106">earthly</del> human <w ana="start"/>fee<lb n="c57-0140__main__33"/>lings<w ana="end"/> when sunk in
         </seg>
          <seg xml:id="C29_app433-fMS">
         torpor –
@@ -1021,8 +1023,8 @@
             </add>
             <del rend="strikethrough" xml:id="c57-0142__main__d4e26528">
                <add next="#c57-0142.06"
-                     place="superlinear"
-                     xml:id="c57-0142__main__d4e26530">this </add>
+                    place="superlinear"
+                    xml:id="c57-0142__main__d4e26530">this </add>
             </del>
          </mod>
          <mod xml:id="c57-0142__main__d4e26535">
@@ -1431,8 +1433,8 @@
          </mod>the 
         <seg xml:id="C29_app708-fMS">
             <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0144__main__d4e27008">other</del> opposite
+                 rend="strikethrough"
+                 xml:id="c57-0144__main__d4e27008">other</del> opposite
         </seg>
          <seg xml:id="C29_app709-fMS">
             <lb n="c57-0144__main__33"/>banks
@@ -1741,16 +1743,16 @@
          <lb n="c57-0146__main__20"/>which 
         <seg part="I" xml:id="C29_app827-fMS__I">
             <del next="#c57-0146.03"
-                  rend="strikethrough"
-                  xml:id="c57-0146__main__d4e27302">a I</del>
+                 rend="strikethrough"
+                 xml:id="c57-0146__main__d4e27302">a I</del>
             <del next="#c57-0146.04"
-                  rend="strikethrough"
-                  xml:id="c57-0146__main__d4e27305">had forgotten while on the</del>
+                 rend="strikethrough"
+                 xml:id="c57-0146__main__d4e27305">had forgotten while on the</del>
          </seg>
          <add hand="#pbs"
-               next="#c57-0146.05"
-               place="sublinear"
-               xml:id="c57-0146__main__d4e27308">
+              next="#c57-0146.05"
+              place="sublinear"
+              xml:id="c57-0146__main__d4e27308">
             <seg part="F" xml:id="C29_app827-fMS__F">soon were to clasp
         </seg>
             <seg xml:id="C29_app828-fMS">

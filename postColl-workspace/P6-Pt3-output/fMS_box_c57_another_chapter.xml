@@ -1,4 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="../FV_ODD/out/FV_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../FV_ODD/out/FV_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -17,15 +19,15 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-08-27T22:01:52.084824-04:00.</p>
+                                                  2023-08-28T03:09:52.636744-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
          <anchor type="semantic"
-                  subtype="start"
-                  xml:id="fMS_box_c57_another_chapter"/>
+                 subtype="start"
+                 xml:id="fMS_box_c57_another_chapter"/>
          <milestone spanTo="#ci57-0031.11" unit="tei:head"/>
          <add hand="#pbs" xml:id="c57-0031__main__d4e4824">
             <seg part="I" xml:id="C20_app3-fMS__I">
@@ -38,8 +40,8 @@
     elapsed before I 
          <seg part="I" xml:id="C20_app5-fMS__I">
             <del next="#c57-0031.02"
-                  rend="strikethrough"
-                  xml:id="c57-0031__main__d4e4832">became informed</del>
+                 rend="strikethrough"
+                 xml:id="c57-0031__main__d4e4832">became informed</del>
             <lb n="c57-0031__main__3"/>
             <anchor xml:id="c57-0031.03"/>
             <lb n="c57-0031__left_margin__1"/>
@@ -152,8 +154,8 @@
          </mod>of the <lb n="c57-0031__main__16"/>highest distinction. A few months 
         <seg part="I" xml:id="C20_app35-fMS__I">
             <del next="#c57-0031.09"
-                  rend="strikethrough"
-                  xml:id="c57-0031__main__d4e4970">previous</del>
+                 rend="strikethrough"
+                 xml:id="c57-0031__main__d4e4970">previous</del>
          </seg>
          <add hand="#pbs" place="superlinear" xml:id="c57-0031__main__d4e4973">
             <seg part="F" xml:id="C20_app35-fMS__F">before
@@ -197,9 +199,9 @@
                </add>
             </seg>
             <add hand="#pbs"
-                  next="#c57-0031.10"
-                  place="superlinear"
-                  xml:id="c57-0031__main__d4e5009">
+                 next="#c57-0031.10"
+                 place="superlinear"
+                 xml:id="c57-0031__main__d4e5009">
                <seg part="F" xml:id="C20_app44-fMS__F">&amp;
         </seg> 
     refinement of 
@@ -254,8 +256,8 @@
          <seg xml:id="C20_app61-fMS">
             <lb n="c57-0031__main__24"/>
             <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0031__main__d4e5057">li</del> inhabited Paris for many
+                 rend="strikethrough"
+                 xml:id="c57-0031__main__d4e5057">li</del> inhabited Paris for many
         </seg>
          <seg part="I" xml:id="C20_app62-fMS__I">
         years. When his person <lb n="c57-0031__main__25"/>became </seg>
@@ -308,8 +310,8 @@
                <del rend="smear" xml:id="c57-0032__left_margin__d4e5126">than</del>
             </seg>
             <add hand="#pbs"
-                  place="intralinear"
-                  xml:id="c57-0032__left_margin__d4e5129">rather </add>
+                 place="intralinear"
+                 xml:id="c57-0032__left_margin__d4e5129">rather </add>
             <add place="intralinear" xml:id="c57-0032__main__d4e5133">than </add>
          </mod>the crime 
         <seg xml:id="C20_app79-fMS">
@@ -320,8 +322,8 @@
         him<lb n="c57-0032__main__2"/>
             <anchor xml:id="c57-0032.02"/>
             <zone corresp="#c57-0032.02"
-                   type="left_margin"
-                   xml:id="c57-0032__left_margin">
+                  type="left_margin"
+                  xml:id="c57-0032__left_margin">
                <addSpan hand="#pbs" spanTo="#c57-0032.03"/>
                <lb n="c57-0032__left_margin__1"/>had been the <lb n="c57-0032__left_margin__2"/>cause of his <lb n="c57-0032__left_margin__3"/>condemnation<anchor xml:id="c57-0032.03"/>
             </zone>Felix was present at his trial; <del rend="strikethrough" xml:id="c57-0032__main__d4e5155">&amp;</del>
@@ -393,11 +395,11 @@
         </seg>
          <seg xml:id="C20_app98-fMS">
             <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0032__main__d4e5249">li</del>
+                 rend="strikethrough"
+                 xml:id="c57-0032__main__d4e5249">li</del>
             <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0032__main__d4e5252">illuminated</del> lighted the dungeon <lb n="c57-0032__main__11"/>of the unfortunate
+                 rend="strikethrough"
+                 xml:id="c57-0032__main__d4e5252">illuminated</del> lighted the dungeon <lb n="c57-0032__main__11"/>of the unfortunate
         </seg>
          <seg xml:id="C20_app99-fMS">
         Mahometan, who
@@ -634,8 +636,8 @@
          </mod>which <add hand="#pbs" place="superlinear" xml:id="c57-0034__main__d4e5596">city </add>he should <lb n="c57-0034__main__2"/>sail in few hours. He intended to leave his <lb n="c57-0034__main__3"/>daughter 
         <seg xml:id="C20_app206-fMS">
             <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0034__main__d4e5604">to foll</del> under the care of a
+                 rend="strikethrough"
+                 xml:id="c57-0034__main__d4e5604">to foll</del> under the care of a
         </seg>
          <seg xml:id="C20_app207-fMS">
         servant
@@ -649,8 +651,8 @@
          <seg xml:id="C20_app211-fMS">
             <lb n="c57-0034__main__7"/>
             <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0034__main__d4e5618">Lef</del>
+                 rend="strikethrough"
+                 xml:id="c57-0034__main__d4e5618">Lef</del>
             <del rend="strikethrough" xml:id="c57-0034__main__d4e5621">Deserted by her father</del>
          </seg> 
     Safie 
@@ -773,8 +775,8 @@
          <seg xml:id="C20_app257-fMS">
             <lb n="c57-0034__main__26"/>
             <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0034__main__d4e5736">watched</del> nursed her with the most devoted
+                 rend="strikethrough"
+                 xml:id="c57-0034__main__d4e5736">watched</del> nursed her with the most devoted
         </seg>
          <seg xml:id="C20_app258-fMS">
             <lb n="c57-0034__main__27"/>affection
@@ -802,8 +804,8 @@
     and utterly ignorant of <lb n="c57-0035__main__2"/>the customs of the world.– She 
         <seg xml:id="C20_app267-fMS">
         fell <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0035__main__d4e5769">hover</del> however <lb n="c57-0035__main__3"/>in to
+                 rend="strikethrough"
+                 xml:id="c57-0035__main__d4e5769">hover</del> however <lb n="c57-0035__main__3"/>in to
         </seg> 
     good 
          <seg xml:id="C20_app269-fMS">
@@ -902,8 +904,8 @@
             <lb n="c57-0037__main__6"/>
             <del rend="strikethrough" xml:id="c57-0037__main__d4e5934">But crimes were distant</del>
             <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0037__main__d4e5938">But</del>
+                 rend="strikethrough"
+                 xml:id="c57-0037__main__d4e5938">But</del>
             <mod xml:id="c57-0037__main__d4e5941">
                <mdel>a</mdel>
                <add place="intralinear" xml:id="c57-0037__main__d4e5945">A</add>
@@ -962,8 +964,8 @@
     in giving 
          <seg xml:id="C21_app32-fMS">
             <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0037__main__d4e6030">the histor</del> an account <lb n="c57-0037__main__13"/>of the progress of my
+                 rend="strikethrough"
+                 xml:id="c57-0037__main__d4e6030">the histor</del> an account <lb n="c57-0037__main__13"/>of the progress of my
         </seg>
          <seg xml:id="C21_app33-fMS">
         intellect <del rend="strikethrough" xml:id="c57-0037__main__d4e6035">s</del> ,
@@ -971,8 +973,8 @@
     I must not <lb n="c57-0037__main__14"/>omit a circumstance 
         <seg part="I" xml:id="C21_app35-fMS__I">
             <del next="#c57-0037.05"
-                  rend="strikethrough"
-                  xml:id="c57-0037__main__d4e6041">that took</del>
+                 rend="strikethrough"
+                 xml:id="c57-0037__main__d4e6041">that took</del>
          </seg>
          <add hand="#pbs" place="superlinear" xml:id="c57-0037__main__d4e6044">
             <seg part="F" xml:id="C21_app35-fMS__F">which occurred
@@ -1018,8 +1020,8 @@
          <lb n="c57-0037__main__22"/>containing several articles of dress &amp; some <lb n="c57-0037__main__23"/>books. I 
         <seg xml:id="C21_app48-fMS">
             <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0037__main__d4e6086">se</del> eagerly seized the
+                 rend="strikethrough"
+                 xml:id="c57-0037__main__d4e6086">se</del> eagerly seized the
         </seg>
          <seg xml:id="C21_app49-fMS">
         prize &amp;<lb n="c57-0037__main__24"/>returned
@@ -1371,8 +1373,8 @@
          <lb n="c57-0038__main__21"/>whose extinction I 
         <seg xml:id="C21_app148-fMS">
         wept <del next="#c57-0038.05"
-                  rend="strikethrough"
-                  xml:id="c57-0038__main__d4e6500">although I did</del>
+                 rend="strikethrough"
+                 xml:id="c57-0038__main__d4e6500">although I did</del>
          </seg>
          <add hand="#pbs" place="superlinear" xml:id="c57-0038__main__d4e6504">without </add>
          <anchor xml:id="c57-0038.06"/>
@@ -1824,18 +1826,18 @@
             <lb n="c57-0039__left_margin__1"/>
             <del rend="strikethrough" xml:id="c57-0039__left_margin__d4e6979">
                <add hand="#pbs"
-                     next="#c57-0039.07"
-                     xml:id="c57-0039__left_margin__d4e6981">human </add>
+                    next="#c57-0039.07"
+                    xml:id="c57-0039__left_margin__d4e6981">human </add>
             </del>
             <add hand="#pbs"
-                  next="#c57-0039.09"
-                  place="superlinear"
-                  xml:id="c57-0039__left_margin__d4e6985">introduction </add>
+                 next="#c57-0039.09"
+                 place="superlinear"
+                 xml:id="c57-0039__left_margin__d4e6985">introduction </add>
          </seg>
          <add hand="#pbs"
-               next="#c57-0039.10"
-               place="intralinear"
-               xml:id="c57-0039__left_margin__d4e6988">
+              next="#c57-0039.10"
+              place="intralinear"
+              xml:id="c57-0039__left_margin__d4e6988">
             <seg part="F" xml:id="C21_app279-fMS__F">to
         </seg>
             <seg part="I" xml:id="C21_app280-fMS__I">
@@ -1845,8 +1847,8 @@
             <lb n="c57-0039__left_margin__2"/>
             <del rend="strikethrough" xml:id="c57-0039__left_margin__d4e6994">
                <add hand="#pbs"
-                     next="#c57-0039.08"
-                     xml:id="c57-0039__left_margin__d4e6996">intercourse </add>
+                    next="#c57-0039.08"
+                    xml:id="c57-0039__left_margin__d4e6996">intercourse </add>
             </del>
             <lb n="c57-0039__left_margin__3"/>
             <del rend="strikethrough" xml:id="c57-0039__left_margin__d4e7002">
@@ -1854,8 +1856,8 @@
             </del>
          </seg>
          <add hand="#pbs"
-               place="intralinear"
-               xml:id="c57-0039__left_margin__d4e7008">
+              place="intralinear"
+              xml:id="c57-0039__left_margin__d4e7008">
             <seg part="F" xml:id="C21_app280-fMS__F">humanity
         </seg>
          </add>
@@ -2001,8 +2003,8 @@
     I 
          <seg xml:id="C21_app320-fMS">
             <del next="#c57-0040.06"
-                  rend="strikethrough"
-                  xml:id="c57-0040__main__d4e7179">felt my</del>
+                 rend="strikethrough"
+                 xml:id="c57-0040__main__d4e7179">felt my</del>
             <add place="superlinear" xml:id="c57-0040__main__d4e7182">was </add>
             <lb n="c57-0040__main__16"/>
             <del rend="strikethrough" xml:id="c57-0040__main__d4e7188">self</del>
@@ -2021,8 +2023,8 @@
             <seg part="I" xml:id="C21_app323-fMS__I">
                <delSpan rend="strikethrough" spanTo="#c57-0040.10"/>of the <lb n="c57-0040__left_margin__4"/>creation <delSpan anchor="c57-0040.10"/>
                <add hand="#pbs"
-                     place="intralinear"
-                     xml:id="c57-0040__left_margin__d4e7225">in existence </add>
+                    place="intralinear"
+                    xml:id="c57-0040__left_margin__d4e7225">in existence </add>
                <anchor xml:id="c57-0040.09"/>
                <anchor xml:id="c57-0040.08"/>
             </seg>
@@ -2048,8 +2050,8 @@
                <lb n="c57-0040__left_margin__1"/>guarded by the 
         <seg xml:id="C21_app331-fMS">
                   <del instant="true"
-                        rend="strikethrough"
-                        xml:id="c57-0040__left_margin__d4e7262">spe</del>
+                       rend="strikethrough"
+                       xml:id="c57-0040__left_margin__d4e7262">spe</del>
                   <w ana="start"/>es<lb n="c57-0040__left_margin__2"/>pecial<w ana="end"/> care of his
         </seg>
                <seg part="I" xml:id="C21_app332-fMS__I">
@@ -2086,8 +2088,8 @@
     and alone. 
          <seg xml:id="C21_app342-fMS">
             <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0040__main__d4e7303">Oft</del>
+                 rend="strikethrough"
+                 xml:id="c57-0040__main__d4e7303">Oft</del>
             <lb n="c57-0040__main__24"/>Many times I considered Satan <lb n="c57-0040__main__25"/>as
         </seg>
          <seg xml:id="C21_app343-fMS">
@@ -2121,13 +2123,13 @@
     circumstance <lb n="c57-0040__main__31"/>strengthened and confirmed these <lb n="c57-0040__main__32"/>feelings. 
         <seg xml:id="C21_app355-fMS">
             <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0040__main__d4e7336">I had soon a</del> Soon
+                 rend="strikethrough"
+                 xml:id="c57-0040__main__d4e7336">I had soon a</del> Soon
         </seg>
          <seg xml:id="C21_app356-fMS">
             <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0040__main__d4e7339">affe</del>
+                 rend="strikethrough"
+                 xml:id="c57-0040__main__d4e7339">affe</del>
             <w ana="start"/>af<lb n="c57-0040__main__33"/>ter<w ana="end"/> my arrival in the
         </seg>
          <seg xml:id="C21_app357-fMS">
@@ -2490,8 +2492,8 @@
                      </add>
                   </seg>
                   <add hand="#pbs"
-                        place="superlinear"
-                        xml:id="c57-0042__left_margin__d4e7776">
+                       place="superlinear"
+                       xml:id="c57-0042__left_margin__d4e7776">
                      <seg part="F" xml:id="C21_app451-fMS__F">should
         </seg>
                      <seg part="I" xml:id="C21_app452-fMS__I">
@@ -2557,8 +2559,8 @@
     my fate. 
          <seg xml:id="C21_app471-fMS">
             <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0042__main__d4e7865">I wish</del> I postponed <lb n="c57-0042__main__14"/>
+                 rend="strikethrough"
+                 xml:id="c57-0042__main__d4e7865">I wish</del> I postponed <lb n="c57-0042__main__14"/>
             <anchor xml:id="c57-0042.05"/>
             <lb n="c57-0042__left_margin__1"/>
             <add xml:id="c57-0042__left_margin__d4e7876">this attempt </add>for some months
@@ -2591,8 +2593,8 @@
          </mod>
          <seg part="M" xml:id="C21_app478-fMS__M">
             <del next="#c57-0042.07"
-                  rend="strikethrough"
-                  xml:id="c57-0042__main__d4e7902">for it's success</del>
+                 rend="strikethrough"
+                 xml:id="c57-0042__main__d4e7902">for it's success</del>
          </seg>
          <add hand="#pbs" place="superlinear" xml:id="c57-0042__main__d4e7905">
             <seg part="F" xml:id="C21_app478-fMS__F">lest
@@ -2617,8 +2619,8 @@
     that I was unwilling to 
          <seg xml:id="C21_app484-fMS">
             <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0042__main__d4e7932">attempt</del>
+                 rend="strikethrough"
+                 xml:id="c57-0042__main__d4e7932">attempt</del>
             <lb n="c57-0042__main__22"/>commence this
         </seg>
          <seg part="I" xml:id="C21_app485-fMS__I">
@@ -2639,8 +2641,8 @@
          <lb n="c57-0042__main__23"/>a few more months should have <lb n="c57-0042__main__24"/>added to my 
         <seg xml:id="C21_app488-fMS">
             <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0042__main__d4e7951">des</del> wisdom
+                 rend="strikethrough"
+                 xml:id="c57-0042__main__d4e7951">des</del> wisdom
         </seg>
          <milestone unit="tei:p-END"/>
          <milestone unit="tei:p-START"/>
@@ -2681,8 +2683,8 @@
         </seg>
          <seg xml:id="C21_app501-fMS">
             <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0042__main__d4e7997">&amp; en</del> reigned
+                 rend="strikethrough"
+                 xml:id="c57-0042__main__d4e7997">&amp; en</del> reigned
         </seg>
          <seg xml:id="C21_app502-fMS">
         there –
@@ -2871,8 +2873,8 @@
     and <w ana="start"/>cheeri<lb n="c57-0043__main__16"/>ng<w ana="end"/> my 
         <seg xml:id="C21_app554-fMS">
             <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0043__main__d4e8208">d</del> gloom —
+                 rend="strikethrough"
+                 xml:id="c57-0043__main__d4e8208">d</del> gloom —
         </seg> 
     Their angelic 
          <seg xml:id="C21_app556-fMS">
@@ -2972,8 +2974,8 @@
             <del rend="strikethrough" xml:id="c57-0043__main__d4e8298">that</del>
          </seg>
          <add next="#c57-0043.07"
-               place="superlinear"
-               xml:id="c57-0043__main__d4e8302">
+              place="superlinear"
+              xml:id="c57-0043__main__d4e8302">
             <seg part="F" xml:id="C21_app593-fMS__F">this sufferance
         </seg>
          </add>
@@ -3132,8 +3134,8 @@
     at their door were <lb n="c57-0044__main__21"/>never driven 
         <seg xml:id="C21_app645-fMS">
         away – <del instant="true"
-                  rend="strikethrough"
-                  xml:id="c57-0044__main__d4e8474">And I</del>
+                 rend="strikethrough"
+                 xml:id="c57-0044__main__d4e8474">And I</del>
          </seg> 
     I 
          <seg xml:id="C21_app647-fMS">
