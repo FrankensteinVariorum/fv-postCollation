@@ -15,9 +15,9 @@
          </publicationStmt>
          <sourceDesc>
             <p>Produced from collation output prepared in batch file processing
-                                    on  2023-08-17 04:44:39.178134 .</p>
+                                    on  2023-10-07 21:58:02.336689 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-28T03:20:00.540411-04:00.</p>
+                                    Variorum spine on 2023-10-19T17:47:14.485704-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -265,7 +265,7 @@
                   <rdg wit="fThomas">make</rdg>
                   <rdg wit="fMS">make</rdg>
                </rdgGrp>
-               <rdgGrp n="['mkae', '&lt;note resp=&#34;fv-team-ebb&#34;&gt;printer error for the word make.&lt;/note&gt;']"
+               <rdgGrp n="['mkae', '&lt;note resp=%q%fv-team-ebb%q%&gt;printer error for the word make.&lt;/note&gt;']"
                         xml:id="C28_app26_rg2">
                   <rdg wit="f1823">mkae &lt;note resp="FV-Team-ebb"&gt;Printer error for the word make.&lt;/note&gt;</rdg>
                </rdgGrp>
@@ -426,7 +426,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C28_app43">
-               <rdgGrp n="['&lt;w ana=&#34;start&#34;/&gt;o', 'bs', 'ti', 'nate&lt;w ana=&#34;end&#34;/&gt;']"
+               <rdgGrp n="['&lt;w ana=%q%start%q%/&gt;o', 'bs', 'ti', 'nate&lt;w ana=%q%end%q%/&gt;']"
                         xml:id="C28_app43_rg1">
                   <rdg wit="fMS">&lt;w ana="start"/&gt;o &lt;sga-add place="sublinear" sID="c57-0132__main__d4e24608"/&gt;bs &lt;sga-add eID="c57-0132__main__d4e24608"/&gt;ti &lt;lb n="c57-0132__main__21"/&gt;nate&lt;w ana="end"/&gt;</rdg>
                </rdgGrp>
@@ -487,7 +487,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C28_app49">
-               <rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;alas!']" xml:id="C28_app49_rg1">
+               <rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;', '%q%alas!']" xml:id="C28_app49_rg1">
                   <rdg wit="f1818">&lt;p eID="novel1_letter4_chapter21_div4_div23_p2"/&gt; &lt;p sID="novel1_letter4_chapter21_div4_div23_p3"/&gt; “Alas!</rdg>
                   <rdg wit="f1823">&lt;p eID="novel1_letter4_chapter21_div4_div22_p2"/&gt; &lt;p sID="novel1_letter4_chapter21_div4_div22_p3"/&gt; “Alas!</rdg>
                   <rdg wit="fThomas">&lt;p eID="novel1_letter4_chapter21_div4_div23_p2"/&gt; &lt;p sID="novel1_letter4_chapter21_div4_div23_p3"/&gt; “Alas!</rdg>
@@ -507,7 +507,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C28_app51">
-               <rdgGrp n="['father,&#34;']" xml:id="C28_app51_rg1">
+               <rdgGrp n="['father,%q%']" xml:id="C28_app51_rg1">
                   <rdg wit="f1818">father,”</rdg>
                   <rdg wit="f1823">father,”</rdg>
                   <rdg wit="fThomas">father,”</rdg>
@@ -527,7 +527,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C28_app53">
-               <rdgGrp n="['&#34;how']" xml:id="C28_app53_rg1">
+               <rdgGrp n="['%q%how']" xml:id="C28_app53_rg1">
                   <rdg wit="f1818">“how</rdg>
                   <rdg wit="f1823">“how</rdg>
                   <rdg wit="fThomas">“how</rdg>
@@ -772,7 +772,7 @@
                <rdgGrp n="['hand']" xml:id="C28_app77_rg1">
                   <rdg wit="fMS">hand</rdg>
                </rdgGrp>
-               <rdgGrp n="['hands.&#34;']" xml:id="C28_app77_rg2">
+               <rdgGrp n="['hands.%q%']" xml:id="C28_app77_rg2">
                   <rdg wit="f1818">hands.”</rdg>
                   <rdg wit="f1823">hands.”</rdg>
                   <rdg wit="fThomas">hands.”</rdg>
@@ -1231,13 +1231,13 @@
                         xml:id="C28_app120_rg1">
                   <rdg wit="fMS">wonder &lt;lb n="c57-0133__main__22"/&gt;What do you mean, Victor, are you mad?</rdg>
                </rdgGrp>
-               <rdgGrp n="['wonder, &#34;what do you mean, victor? are you mad?']"
+               <rdgGrp n="['wonder, %q%what do you mean, victor? are you mad?']"
                         xml:id="C28_app120_rg2">
                   <rdg wit="f1818">wonder, “What do you mean, Victor? &lt;pb xml:id="F1818_v3_098" n="094"/&gt;are you mad?</rdg>
                   <rdg wit="f1823">wonder, “What do you mean, Victor? &lt;pb xml:id="F1823_v2_455" n="182"/&gt;are you mad?</rdg>
                   <rdg wit="fThomas">wonder, “What do you mean, Victor? &lt;pb xml:id="F1818_v3_098" n="094"/&gt;are you mad?</rdg>
                </rdgGrp>
-               <rdgGrp n="['wonder,', '&#34;my', 'dearest', 'victor,', 'what', 'infatuation', 'is', 'this?']"
+               <rdgGrp n="['wonder,', '%q%my', 'dearest', 'victor,', 'what', 'infatuation', 'is', 'this?']"
                         xml:id="C28_app120_rg3">
                   <rdg wit="f1831">wonder, “My dearest Victor, what infatuation is this?</rdg>
                </rdgGrp>
@@ -1293,7 +1293,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C28_app126">
-               <rdgGrp n="['again.&#34;']" xml:id="C28_app126_rg1">
+               <rdgGrp n="['again.%q%']" xml:id="C28_app126_rg1">
                   <rdg wit="f1818">again.”</rdg>
                   <rdg wit="f1823">again.”</rdg>
                   <rdg wit="fThomas">again.”</rdg>
@@ -1313,7 +1313,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C28_app128">
-               <rdgGrp n="['&#34;i']" xml:id="C28_app128_rg1">
+               <rdgGrp n="['%q%i']" xml:id="C28_app128_rg1">
                   <rdg wit="f1818">“I</rdg>
                   <rdg wit="f1823">“I</rdg>
                   <rdg wit="fThomas">“I</rdg>
@@ -1333,7 +1333,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C28_app130">
-               <rdgGrp n="['mad,&#34;']" xml:id="C28_app130_rg1">
+               <rdgGrp n="['mad,%q%']" xml:id="C28_app130_rg1">
                   <rdg wit="f1818">mad,”</rdg>
                   <rdg wit="f1823">mad,”</rdg>
                   <rdg wit="fThomas">mad,”</rdg>
@@ -1356,7 +1356,7 @@
                <rdgGrp n="['energetically,', 'the']" xml:id="C28_app132_rg1">
                   <rdg wit="fMS">energetically, &lt;lb n="c57-0133__main__26"/&gt;the</rdg>
                </rdgGrp>
-               <rdgGrp n="['energetically;', '&#34;the']" xml:id="C28_app132_rg2">
+               <rdgGrp n="['energetically;', '%q%the']" xml:id="C28_app132_rg2">
                   <rdg wit="f1818">energetically; “the</rdg>
                   <rdg wit="f1823">energetically; “the</rdg>
                   <rdg wit="fThomas">energetically; “the</rdg>
@@ -1540,7 +1540,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C28_app150">
-               <rdgGrp n="['race.&#34;']" xml:id="C28_app150_rg1">
+               <rdgGrp n="['race.%q%']" xml:id="C28_app150_rg1">
                   <rdg wit="f1818">race.”</rdg>
                   <rdg wit="f1823">race.”</rdg>
                   <rdg wit="fThomas">race.”</rdg>
