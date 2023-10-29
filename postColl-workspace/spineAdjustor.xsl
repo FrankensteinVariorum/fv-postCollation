@@ -33,7 +33,7 @@
                                 <principal>Elisa Beshero-Bondar</principal>
                                 <editor>Raffaele Viglianti</editor>
                                 <editor>Yuying Jin</editor>
-                                <respStmt><resp>Assisted in <date>2017-2019</date> by <name>Rikk Mulligan</name>, <name>Scott Weingart</name>, <name>Matthew Lincoln</name>, <name>Jon Klancher</name>, <name>Avery Wiscomb</name> from</resp> <orgName>Carnegie Mellon University.</orgName></respStmt>
+                                <respStmt><resp>Assisted in <date>2017-2019</date> by <name>Rikk Mulligan</name>, <name>Scott Weingart</name>, <name>Matthew Lincoln</name>, <name>Jon Klancher</name>, <name>Avery Wiscomb</name>, and <name>John Quirk</name> from</resp> <orgName>Carnegie Mellon University.</orgName></respStmt>
                                 <respStmt><resp>Assisted in 2020 - 2023 by <name>Nathan Hammer</name>, <name>Rachel Gerzevske</name>, <name>Jacqueline Chan</name> and <name>Mia Borgia</name> from</resp> <orgName>Penn State Erie: The Behrend College.</orgName></respStmt>
                             </titleStmt>
                             <publicationStmt>
@@ -45,14 +45,14 @@
                                 </availability>
                             </publicationStmt>
                             <sourceDesc>
-                                <p>This project digitally compares five versions of the novel <title level="m">Frankenstein</title> prepared between 1816 and 1831.
+                                <p>This <title level="m">Frankenstein Variorum</title> digitally compares five versions of the novel <title level="m">Frankenstein</title> prepared between 1816 and 1831.
                                 <abbr>fMS</abbr> refers to the manuscript notebooks dated roughly 1816 to 1818 and stored in three boxes at the Bodleian library in Oxford, of which our collation represents the material in boxes c56 and c57, representing most of the novel with some gaps.
                                     <abbr>f1818</abbr> refers to the first anonymous publication of Frankenstein in 1818. <abbr>fThomas</abbr> refers to a copy of the 1818 edition left by 
                                     Mary Shelley with her friend Mrs. Thomas in Italy before she left for England after the death of Percy Shelley. This copy contains 
                                     handwritten marginalia indicating edits she would make if there were ever a new edition, and apparently was not available for Mary Shelley to consult later.
                                     <abbr>f1823</abbr> refes to the published edition prepared by William Godwin, the first to feature Mary Wollstonecraft Godwin Shelley’s name as the author. 
-                                    <abbr>f1831</abbr> refers to a heavily revised version prepared by Mary Shelley in 1831 for Bentley's Standard Series of novels. 
-                                    This edition was bound together in one volume with <bibl>Friedrich von Schiller’s <title level="m">The Ghost Seer</title></bibl>.
+                                    <abbr>f1831</abbr> refers to a heavily revised version prepared by Mary Shelley in 1831 for Bentley’s Standard series of novels. 
+                                    This edition was bound together in one volume with <bibl><author>Friedrich von Schiller</author>’s <title level="m">The Ghost Seer</title></bibl>.
                                 </p>
                                 <listBibl>
                                     <bibl xml:id="fMS"><author>Mary Wollstonecraft Shelley</author>, <title level="m">Frankenstein, or the Modern Prometheus</title>. <edition source="digital">Draft Bodleain MS, Abinger c.56 and c.57</edition> in <title>Shelley-Godwin Archive</title>, ed. <editor>Neil Fraistat</editor>, <editor>Elizabeth Denlinger</editor>, <editor>Raffaele Viglianti</editor>. <date from="2013">2013—present</date>, <ptr target="http://shelleygodwinarchive.org/contents/frankenstein/"/>.</bibl>
