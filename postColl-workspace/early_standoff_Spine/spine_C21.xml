@@ -15,9 +15,9 @@
          </publicationStmt>
          <sourceDesc>
             <p>Produced from collation output prepared in batch file processing
-                                    on  2023-10-20 05:12:55.918456 .</p>
+                                    on  2023-10-29 20:27:34.689344 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-10-20T02:19:32.040234-04:00.</p>
+                                    Variorum spine on 2023-10-29T17:29:44.70941-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -347,7 +347,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C21_app23">
-               <rdgGrp n="['me', '–', '&lt;del&gt;and&lt;/del&gt;', '', &#34;&lt;del&gt;i   ^  ardently     &lt;del&gt;'&#34;, 'longed&lt;/del&gt;  ^  desired    &lt;/del&gt;', '&lt;del&gt;to make one&lt;/del&gt;', '', '^']"
+               <rdgGrp n="['me', '–', '&lt;del&gt;and&lt;/del&gt;', '', &#34;&lt;del&gt;i   ^  ardently     &lt;del-inner rend=%q%strikethrough%q% xml:id=%q%c57-0037__main__d4e5993%q%&gt;'&#34;, 'longed&lt;/del-inner&gt;  ^  desired    &lt;/del&gt;', '&lt;del&gt;to make one&lt;/del&gt;', '', '^']"
                         xml:id="C21_app23_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C21_app23-fMS__I"/>
@@ -4249,7 +4249,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xv.xml#C21_app279-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['&lt;del&gt;residence&lt;/del&gt;', '&lt;del&gt; human  &lt;/del&gt;', 'introduction', 'to']"
+               <rdgGrp n="['&lt;delspanstart/&gt;residence&lt;delspanend/&gt;', '&lt;del&gt; human  &lt;/del&gt;', 'introduction', 'to']"
                         xml:id="C21_app279_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C21_app279-fMS__I"/>
@@ -4697,7 +4697,8 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xv.xml#C21_app307-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['awe.', '&lt;del&gt;i', 'deeply', 'lamented']" xml:id="C21_app307_rg2">
+               <rdgGrp n="['awe.', '&lt;delspanstart/&gt;i', 'deeply', 'lamented']"
+                        xml:id="C21_app307_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C21_app307-fMS"/>
                      <witDetail wit="#fMS">
@@ -4724,7 +4725,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xv.xml#C21_app309-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['fall', 'of', 'adam', '&lt;/del&gt;that', '', '&lt;mdel&gt;t&lt;/mdel&gt;', 't', '', 'he', 'picture', 'of', 'an', 'omnipotent', 'god', 'warring', 'with', 'his', 'creatures', 'was', 'capable', 'of']"
+               <rdgGrp n="['fall', 'of', 'adam', '&lt;delspanend/&gt;that', '', '&lt;mdel&gt;t&lt;/mdel&gt;', 't', '', 'he', 'picture', 'of', 'an', 'omnipotent', 'god', 'warring', 'with', 'his', 'creatures', 'was', 'capable', 'of']"
                         xml:id="C21_app309_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C21_app309-fMS"/>
@@ -4948,7 +4949,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C21_app323">
-               <rdgGrp n="['&lt;del&gt;of', 'the', 'creation', '&lt;/del&gt;in', 'existence', '']"
+               <rdgGrp n="['&lt;delspanstart/&gt;of', 'the', 'creation', '&lt;delspanend/&gt;in', 'existence', '']"
                         xml:id="C21_app323_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C21_app323-fMS__I"/>
@@ -6407,7 +6408,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xv.xml#C21_app407-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['and&lt;del&gt;has', 'traced', '&lt;/del&gt;', '&lt;del&gt;conveyed them to&lt;/del&gt;', 'has']"
+               <rdgGrp n="['and&lt;delspanstart/&gt;has', 'traced', '&lt;delspanend/&gt;', '&lt;del&gt;conveyed them to&lt;/del&gt;', 'has']"
                         xml:id="C21_app407_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C21_app407-fMS"/>
@@ -7168,7 +7169,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C21_app458">
-               <rdgGrp n="['deformity', '&lt;del&gt;when', 'they', 'should', 'know', 'my', 'admiration', 'of', 'their', 'virtues.', '&lt;/del&gt;&lt;del&gt;yes', 'i', '', '^', '', '&lt;del&gt; was  &lt;/del&gt;', '', 'mad', 'enough', 'to', '', '^', '', '&lt;del&gt; put  &lt;/del&gt;', '', 'my', 'trust', 'in', 'my', 'own', 'intentions', 'and', 'to', '&lt;/del&gt;could']"
+               <rdgGrp n="['deformity', '&lt;delspanstart/&gt;when', 'they', 'should', 'know', 'my', 'admiration', 'of', 'their', 'virtues.', '&lt;delspanend/&gt;&lt;delspanstart/&gt;yes', 'i', '', '^', '', '&lt;del&gt; was  &lt;/del&gt;', '', 'mad', 'enough', 'to', '', '^', '', '&lt;del&gt; put  &lt;/del&gt;', '', 'my', 'trust', 'in', 'my', 'own', 'intentions', 'and', 'to', '&lt;delspanend/&gt;could']"
                         xml:id="C21_app458_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C21_app458-fMS"/>
@@ -7528,7 +7529,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xv.xml#C21_app479-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['it', 'should', 'not', 'succeed', '&lt;del&gt;that', 'i']"
+               <rdgGrp n="['it', 'should', 'not', 'succeed', '&lt;delspanstart/&gt;that', 'i']"
                         xml:id="C21_app479_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C21_app479-fMS__I"/>
@@ -7545,7 +7546,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C21_app480">
-               <rdgGrp n="['in', 'vain', 'endeavoured', 'to', 'surmount', '&lt;/del&gt;.', 'besides']"
+               <rdgGrp n="['in', 'vain', 'endeavoured', 'to', 'surmount', '&lt;delspanend/&gt;.', 'besides']"
                         xml:id="C21_app480_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C21_app480-fMS"/>
@@ -7824,7 +7825,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C21_app498">
-               <rdgGrp n="['inhabitants', '&lt;del&gt;and', 'also', 'as', 'i', 'soon', 'perceived', 'more', 'plenty', '&lt;/del&gt;and']"
+               <rdgGrp n="['inhabitants', '&lt;delspanstart/&gt;and', 'also', 'as', 'i', 'soon', 'perceived', 'more', 'plenty', '&lt;delspanend/&gt;and']"
                         xml:id="C21_app498_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C21_app498-fMS"/>
@@ -9410,7 +9411,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C21_app602">
-               <rdgGrp n="['me', '&lt;del&gt;and', 'the', 'days', 'became', 'shorter', '&lt;/del&gt;']"
+               <rdgGrp n="['me', '&lt;delspanstart/&gt;and', 'the', 'days', 'became', 'shorter', '&lt;delspanend/&gt;']"
                         xml:id="C21_app602_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C21_app602-fMS"/>
@@ -10268,7 +10269,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xv.xml#C21_app663-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['&lt;del&gt;and i then&lt;/del&gt;', '&lt;del&gt;at', 'that', '&lt;/del&gt;', '&lt;del&gt;time&lt;/del&gt;', 'my']"
+               <rdgGrp n="['&lt;del&gt;and i then&lt;/del&gt;', '&lt;delspanstart/&gt;at', 'that', '&lt;delspanend/&gt;', '&lt;del&gt;time&lt;/del&gt;', 'my']"
                         xml:id="C21_app663_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_chap_7.xml#C21_app663-fMS"/>
@@ -10495,7 +10496,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xv.xml#C21_app677-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['&lt;del&gt;my', 'voice', '', 'although', 'harsh', 'had', 'nothin', '', '&lt;mdel&gt;k&lt;/mdel&gt;', 'g', '', 'terrible', 'in', '', 'it.', '&lt;/del&gt;', '&lt;del&gt;and&lt;/del&gt;', 'i', 'had', 'sagacity', 'enough', 'to']"
+               <rdgGrp n="['&lt;delspanstart/&gt;my', 'voice', '', 'although', 'harsh', 'had', 'nothin', '', '&lt;mdel&gt;k&lt;/mdel&gt;', 'g', '', 'terrible', 'in', '', 'it.', '&lt;delspanend/&gt;', '&lt;del&gt;and&lt;/del&gt;', 'i', 'had', 'sagacity', 'enough', 'to']"
                         xml:id="C21_app677_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_chap_7.xml#C21_app677-fMS"/>
@@ -12811,7 +12812,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xv.xml#C21_app838-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['&lt;del&gt;i', 'am', 'unfortunate', 'and', 'a', 'str', '&lt;/del&gt;', 'i', 'am', 'now', 'going', 'to', 'claim', 'the', 'protection', 'of', 'some', 'friends,', 'whom', 'i', 'sincerely']"
+               <rdgGrp n="['&lt;delspanstart/&gt;i', 'am', 'unfortunate', 'and', 'a', 'str', '&lt;delspanend/&gt;', 'i', 'am', 'now', 'going', 'to', 'claim', 'the', 'protection', 'of', 'some', 'friends,', 'whom', 'i', 'sincerely']"
                         xml:id="C21_app838_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_chap_7.xml#C21_app838-fMS"/>
@@ -12938,12 +12939,12 @@
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_chap_7.xml#C21_app844-fMS"/>
                      <witDetail wit="#fMS">
-                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0047.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0047']/tei:zone[@type='main']//tei:line[16],22,86)"/>
-                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(somehopes." "Arethese) Germans%q%–    Asked De Lacey – know%q%No –They are french –But</fv:line_text>
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0047.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0047']/tei:zone[@type='main']//tei:line[16],22,82)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">(somehopes." "Arethese) Germans"–    Asked De Lacey – know"No –They are french –But</fv:line_text>
                         <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">se Germans"– Asked</fv:resolved_text>
-                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0047.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0047']/tei:zone[@type='main']//tei:line[17],0,43)"/>
-                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">De Lacey – know%q%No –They are french –But</fv:line_text>
-                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">De Lacey – know"No –They are french –But l</fv:resolved_text>
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0047.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0047']/tei:zone[@type='main']//tei:line[17],0,41)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">De Lacey – know"No –They are french –But</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">De Lacey – know"No –They are french –But</fv:resolved_text>
                      </witDetail>
                   </rdg>
                </rdgGrp>
@@ -13420,7 +13421,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xv.xml#C21_app879-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['&lt;del&gt;these', 'dispositions', 'of', 'your', 'friends', 'are', 'kind', '&lt;/del&gt;', 'these', 'friends', 'are', 'good', 'and']"
+               <rdgGrp n="['&lt;delspanstart/&gt;these', 'dispositions', 'of', 'your', 'friends', 'are', 'kind', '&lt;delspanend/&gt;', 'these', 'friends', 'are', 'good', 'and']"
                         xml:id="C21_app879_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_chap_7.xml#C21_app879-fMS"/>
@@ -13968,7 +13969,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C21_app915">
-               <rdgGrp n="['friends', 'tenderly;', '&lt;del&gt;for', 'many', 'months', '&lt;/del&gt;']"
+               <rdgGrp n="['friends', 'tenderly;', '&lt;delspanstart/&gt;for', 'many', 'months', '&lt;delspanend/&gt;']"
                         xml:id="C21_app915_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_chap_7.xml#C21_app915-fMS"/>

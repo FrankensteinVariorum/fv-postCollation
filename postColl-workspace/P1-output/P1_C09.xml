@@ -15,9 +15,9 @@
          </publicationStmt>
          <sourceDesc>
             <p>Produced from collation output prepared in batch file processing
-                                    on  2023-10-20 04:45:56.519627 .</p>
+                                    on  2023-10-29 20:01:32.633092 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-10-20T02:19:32.040234-04:00.</p>
+                                    Variorum spine on 2023-10-29T17:29:44.70941-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -2394,7 +2394,8 @@
                   <rdg wit="fThomas">worm</rdg>
                   <rdg wit="f1831">worm</rdg>
                </rdgGrp>
-               <rdgGrp n="['worm&lt;del&gt;succeeded', 'to', '&lt;/del&gt;']" xml:id="C09_app228_rg2">
+               <rdgGrp n="['worm&lt;delspanstart/&gt;succeeded', 'to', '&lt;delspanend/&gt;']"
+                        xml:id="C09_app228_rg2">
                   <rdg wit="fMS">worm&lt;delSpan rend="strikethrough" spanTo="#c56-0034.03"/&gt;&lt;w ana="start"/&gt;suc&lt;lb n="c56-0034__main__24"/&gt;ceeded&lt;w ana="end"/&gt; to &lt;delSpan anchor="c56-0034.03"/&gt;&lt;sga-add hand="#pbs" place="superlinear" sID="c56-0034__main__d5e7027"/&gt;</rdg>
                </rdgGrp>
             </app>
@@ -2573,7 +2574,8 @@
                </rdgGrp>
             </app>
             <app xml:id="C09_app246">
-               <rdgGrp n="['&lt;del&gt;it', 'intoxicated', 'me', '&lt;/del&gt;i']" xml:id="C09_app246_rg1">
+               <rdgGrp n="['&lt;delspanstart/&gt;it', 'intoxicated', 'me', '&lt;delspanend/&gt;i']"
+                        xml:id="C09_app246_rg1">
                   <rdg wit="fMS">&lt;delSpan rend="strikethrough" spanTo="#c56-0035.02"/&gt;it &lt;w ana="start"/&gt;intoxica&lt;lb n="c56-0035__main__2"/&gt;ted&lt;w ana="end"/&gt; me &lt;delSpan anchor="c56-0035.02"/&gt;&lt;anchor xml:id="c56-0035.03"/&gt;&lt;lb n="c56-0035__left_margin__1"/&gt;I</rdg>
                </rdgGrp>
                <rdgGrp n="['i']" xml:id="C09_app246_rg2">
@@ -3038,7 +3040,7 @@
                   <rdg wit="fThomas">After so much</rdg>
                   <rdg wit="f1831">After so much</rdg>
                </rdgGrp>
-               <rdgGrp n="['&lt;del&gt;after', 'such', 'painful', 'labour', '&lt;/del&gt;', '^', 'after', 'so', 'much']"
+               <rdgGrp n="['&lt;delspanstart/&gt;after', 'such', 'painful', 'labour', '&lt;delspanend/&gt;', '^', 'after', 'so', 'much']"
                         xml:id="C09_app290_rg2">
                   <rdg wit="fMS">&lt;delSpan rend="strikethrough" spanTo="#c56-0035.08"/&gt;After such &lt;lb n="c56-0035__main__24"/&gt;painful labour &lt;delSpan anchor="c56-0035.08"/&gt;&lt;sga-add place="sublinear" sID="c56-0035__main__d5e7278"/&gt; &lt;metamark function="insert" xml:id="c56-0035.06"&gt;^&lt;/metamark&gt; &lt;lb n="c56-0035__left_margin__1"/&gt;After so much</rdg>
                </rdgGrp>
@@ -3366,7 +3368,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C09_app322">
-               <rdgGrp n="['on', '', '&lt;mdel&gt;e&lt;/mdel&gt;', 'c', '', 'e', '', '&lt;mdel&gt; &lt;/mdel&gt;', '.', '&lt;del&gt;on']"
+               <rdgGrp n="['on', '', '&lt;mdel&gt;e&lt;/mdel&gt;', 'c', '', 'e', '', '&lt;mdel&gt; &lt;/mdel&gt;', '.', '&lt;delspanstart/&gt;on']"
                         xml:id="C09_app322_rg1">
                   <rdg wit="fMS">on &lt;mod sID="c56-0036__main__d5e7439"/&gt; &lt;mdel&gt;e&lt;/mdel&gt; &lt;sga-add place="intralinear" sID="c56-0036__main__d5e7443"/&gt;c &lt;sga-add eID="c56-0036__main__d5e7443"/&gt;&lt;mod eID="c56-0036__main__d5e7439"/&gt; e &lt;mod sID="c56-0036__main__d5e7447"/&gt; &lt;mdel/&gt; &lt;sga-add place="intralinear" sID="c56-0036__main__d5e7454"/&gt;. &lt;sga-add eID="c56-0036__main__d5e7454"/&gt;&lt;mod eID="c56-0036__main__d5e7447"/&gt;&lt;delSpan rend="strikethrough" spanTo="#c56-0036.01"/&gt;on</rdg>
                </rdgGrp>
@@ -3394,7 +3396,7 @@
                   <rdg wit="fThomas">information I had obtained was</rdg>
                   <rdg wit="f1831">information I had obtained was</rdg>
                </rdgGrp>
-               <rdgGrp n="['contrary', '&lt;/del&gt;', '&lt;mdel&gt;t&lt;/mdel&gt;', 't', '', 'he', '&lt;del&gt; &lt;unclear&gt;big&lt;/unclear&gt; &lt;/del&gt;', 'information', 'i', 'had', 'obtained', 'was']"
+               <rdgGrp n="['contrary', '&lt;delspanend/&gt;', '&lt;mdel&gt;t&lt;/mdel&gt;', 't', '', 'he', '&lt;del&gt; &lt;unclear&gt;big&lt;/unclear&gt; &lt;/del&gt;', 'information', 'i', 'had', 'obtained', 'was']"
                         xml:id="C09_app324_rg2">
                   <rdg wit="fMS">contrary &lt;delSpan anchor="c56-0036.01"/&gt;&lt;mod sID="c56-0036__main__d5e7465"/&gt; &lt;mdel&gt;t&lt;/mdel&gt; &lt;sga-add place="intralinear" sID="c56-0036__main__d5e7469"/&gt;T &lt;sga-add eID="c56-0036__main__d5e7469"/&gt;&lt;mod eID="c56-0036__main__d5e7465"/&gt; he &lt;del rend="strikethrough" xml:id="c56-0036__main__d5e7473"&gt; &lt;unclear&gt;big&lt;/unclear&gt; &lt;/del&gt; information &lt;lb n="c56-0036__main__9"/&gt;I had obtained was</rdg>
                </rdgGrp>
@@ -3426,7 +3428,7 @@
                   <rdg wit="fThomas">to</rdg>
                   <rdg wit="f1831">to</rdg>
                </rdgGrp>
-               <rdgGrp n="['&lt;del&gt;one', 'that', 'would', '&lt;/del&gt;', '^', 'to']"
+               <rdgGrp n="['&lt;delspanstart/&gt;one', 'that', 'would', '&lt;delspanend/&gt;', '^', 'to']"
                         xml:id="C09_app327_rg2">
                   <rdg wit="fMS">&lt;delSpan rend="strikethrough" spanTo="#c56-0036.03"/&gt;one that &lt;lb n="c56-0036__main__10"/&gt;would &lt;delSpan anchor="c56-0036.03"/&gt;&lt;sga-add place="sublinear" sID="c56-0036__main__d5e7499"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c56-0036__main__d5e7499"/&gt;&lt;sga-add hand="#pbs" place="superlinear" sID="c56-0036__main__d5e7505"/&gt;to</rdg>
                </rdgGrp>
@@ -3447,7 +3449,7 @@
                   <rdg wit="fThomas">endeavours</rdg>
                   <rdg wit="f1831">endeavours</rdg>
                </rdgGrp>
-               <rdgGrp n="['endeavours.', '', '^', '&lt;del&gt;that', 'than', 'show', 'me', 'the', 'prospect', 'with', 'any', 'precise', 'certainty.', '&lt;/del&gt;', '^']"
+               <rdgGrp n="['endeavours.', '', '^', '&lt;delspanstart/&gt;that', 'than', 'show', 'me', 'the', 'prospect', 'with', 'any', 'precise', 'certainty.', '&lt;delspanend/&gt;', '^']"
                         xml:id="C09_app329_rg2">
                   <rdg wit="fMS">endeavours. &lt;sga-add place="sublinear" sID="c56-0036__main__d5e7511"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c56-0036__main__d5e7511"/&gt;&lt;delSpan rend="strikethough" spanTo="#c56-0036.05"/&gt;that &lt;lb n="c56-0036__main__11"/&gt;than show me the prospect with &lt;lb n="c56-0036__main__12"/&gt;any precise certainty. &lt;delSpan anchor="c56-0036.05"/&gt;&lt;anchor xml:id="c56-0036.06"/&gt;&lt;lb n="c56-0036__left_margin__1"/&gt; &lt;metamark function="displacement"&gt;^&lt;/metamark&gt;</rdg>
                </rdgGrp>
@@ -4234,7 +4236,7 @@
                   <rdg wit="fThomas">The materials at present within my command</rdg>
                   <rdg wit="f1831">The materials at present within my command</rdg>
                </rdgGrp>
-               <rdgGrp n="['', &#34;&lt;del&gt; &lt;del&gt;'&#34;, '', '&lt;unclear&gt;but&lt;/unclear&gt;', '&lt;/del&gt; yet  &lt;/del&gt;', '&lt;del&gt; but  &lt;/del&gt;', '', '&lt;del&gt;when i&lt;/del&gt;', '', '&lt;del&gt;when&lt;/del&gt;', '&lt;del&gt;i&lt;/del&gt;', '', '&lt;del&gt;looked around for&lt;/del&gt;', '&lt;del&gt; considered  &lt;/del&gt;', '', '&lt;del&gt;my&lt;/del&gt;', '&lt;del&gt;materials&lt;/del&gt;', '', '&lt;del&gt;they&lt;/del&gt;', 'the', 'materials', 'at', 'present', 'within', 'my', 'command']"
+               <rdgGrp n="['', &#34;&lt;del&gt; &lt;del-inner rend=%q%overwritten%q% xml:id=%q%c56-0038__main__d5e7935%q%&gt;'&#34;, '', '&lt;unclear&gt;but&lt;/unclear&gt;', '&lt;/del-inner&gt; yet  &lt;/del&gt;', '&lt;del&gt; but  &lt;/del&gt;', '', '&lt;del&gt;when i&lt;/del&gt;', '', '&lt;del&gt;when&lt;/del&gt;', '&lt;del&gt;i&lt;/del&gt;', '', '&lt;del&gt;looked around for&lt;/del&gt;', '&lt;del&gt; considered  &lt;/del&gt;', '', '&lt;del&gt;my&lt;/del&gt;', '&lt;del&gt;materials&lt;/del&gt;', '', '&lt;del&gt;they&lt;/del&gt;', 'the', 'materials', 'at', 'present', 'within', 'my', 'command']"
                         xml:id="C09_app403_rg2">
                   <rdg wit="fMS">&lt;mod sID="c56-0038__main__d5e7931"/&gt; &lt;del next="#c56-0038.03" rend="strikethrough" xml:id="c56-0038__main__d5e7933"&gt; &lt;del-INNER rend="overwritten" xml:id="c56-0038__main__d5e7935"&gt;' &lt;unclear&gt;but&lt;/unclear&gt; &lt;/del-INNER&gt; &lt;sga-add place="intralinear" sID="c56-0038__main__d5e7940"/&gt;Yet &lt;sga-add eID="c56-0038__main__d5e7940"/&gt; &lt;/del&gt; &lt;del rend="strikethrough" xml:id="c56-0038__main__d5e7944"&gt; &lt;sga-add place="superlinear" sID="c56-0038__main__d5e7946"/&gt;But &lt;sga-add eID="c56-0038__main__d5e7946"/&gt; &lt;/del&gt; &lt;mod eID="c56-0038__main__d5e7931"/&gt; &lt;del next="#c56-0038.04" rend="strikethrough" xml:id="c56-0038__main__d5e7951"&gt;when I&lt;/del&gt; &lt;lb n="c56-0038__main__18"/&gt; &lt;del rend="strikethrough" xml:id="c56-0038__main__d5e7957"&gt;when&lt;/del&gt; &lt;del rend="strikethrough" xml:id="c56-0038__main__d5e7960"&gt;I&lt;/del&gt; &lt;mod sID="c56-0038__main__d5e7963"/&gt; &lt;del rend="strikethrough" xml:id="c56-0038__main__d5e7965"&gt;looked around for&lt;/del&gt; &lt;del rend="strikethrough" xml:id="c56-0038__main__d5e7968"&gt; &lt;sga-add place="superlinear" sID="c56-0038__main__d5e7970"/&gt;considered &lt;sga-add eID="c56-0038__main__d5e7970"/&gt; &lt;/del&gt; &lt;mod eID="c56-0038__main__d5e7963"/&gt; &lt;del rend="strikethrough" xml:id="c56-0038__main__d5e7975"&gt;my&lt;/del&gt; &lt;del rend="strikethrough" xml:id="c56-0038__main__d5e7978"&gt;materials&lt;/del&gt; &lt;lb n="c56-0038__main__19"/&gt; &lt;del rend="strikethrough" xml:id="c56-0038__main__d5e7984"&gt;they&lt;/del&gt; &lt;anchor xml:id="c56-0038.05"/&gt;&lt;lb n="c56-0038__left_margin__1"/&gt;The materials &lt;lb n="c56-0038__left_margin__2"/&gt;at present within &lt;anchor xml:id="c56-0038.06"/&gt;&lt;sga-add hand="#pbs" place="superlinear" xml:id="c56-0038.07" sID="c56-0038__main__d5e8000"/&gt;my command</rdg>
                </rdgGrp>
@@ -4310,7 +4312,7 @@
                   <rdg wit="fThomas">I prepared myself for a multitude of</rdg>
                   <rdg wit="f1831">I prepared myself for a multitude of</rdg>
                </rdgGrp>
-               <rdgGrp n="['&lt;del&gt;i', 'allowed', 'that', 'my', 'first', 'attempts', 'might', 'be', 'futile,', 'my', 'operations', 'fail', 'or', 'my', 'work', 'be', 'imperfect,', '&lt;/del&gt;', '&lt;del&gt;but i looked around on&lt;/del&gt;', 'i', 'prepared', 'myself', 'for', 'a', 'multitude', 'of']"
+               <rdgGrp n="['&lt;delspanstart/&gt;i', 'allowed', 'that', 'my', 'first', 'attempts', 'might', 'be', 'futile,', 'my', 'operations', 'fail', 'or', 'my', 'work', 'be', 'imperfect,', '&lt;delspanend/&gt;', '&lt;del&gt;but i looked around on&lt;/del&gt;', 'i', 'prepared', 'myself', 'for', 'a', 'multitude', 'of']"
                         xml:id="C09_app410_rg2">
                   <rdg wit="fMS">&lt;sga-add eID="c56-0038__main__d5e8018"/&gt;&lt;mod eID="c56-0038__main__d5e8008"/&gt;&lt;lb n="c56-0038__main__21"/&gt;&lt;delSpan rend="vertical_line" spanTo="#c56-0038.13"/&gt;I allowed that my first attempts might &lt;lb n="c56-0038__main__22"/&gt;be futile, my operations fail or my work &lt;lb n="c56-0038__main__23"/&gt;be imperfect, &lt;delSpan anchor="c56-0038.13"/&gt; &lt;del rend="strikethrough" xml:id="c56-0038__main__d5e8033"&gt;but I looked around on&lt;/del&gt; &lt;anchor xml:id="c56-0038.08"/&gt;&lt;lb n="c56-0038__left_margin__1"/&gt;I prepared myself &lt;lb n="c56-0038__left_margin__2"/&gt;for a multitude &lt;lb n="c56-0038__left_margin__3"/&gt;of</rdg>
                </rdgGrp>
@@ -4446,7 +4448,7 @@
                   <rdg wit="fThomas">hope</rdg>
                   <rdg wit="f1831">hope</rdg>
                </rdgGrp>
-               <rdgGrp n="['hope', '', '&lt;del&gt;and&lt;/del&gt;', '&lt;del&gt;and', 'altho', 'although', 'i', 'could', 'not', 'hope']"
+               <rdgGrp n="['hope', '', '&lt;del&gt;and&lt;/del&gt;', '&lt;delspanstart/&gt;and', 'altho', 'although', 'i', 'could', 'not', 'hope']"
                         xml:id="C09_app423_rg2">
                   <rdg wit="fMS">hope &lt;sga-add eID="c56-0038__main__d5e8105"/&gt;&lt;lb n="c56-0038__main__27"/&gt; &lt;del rend="strikethrough" xml:id="c56-0038__main__d5e8110"&gt;and&lt;/del&gt; &lt;delSpan rend="strikethrough" spanTo="#c56-0038.16"/&gt;And altho although I could not hope</rdg>
                </rdgGrp>
@@ -4458,7 +4460,7 @@
                   <rdg wit="fThomas">my present</rdg>
                   <rdg wit="f1831">my present</rdg>
                </rdgGrp>
-               <rdgGrp n="['that', '&lt;/del&gt;', 'my', 'present']" xml:id="C09_app424_rg2">
+               <rdgGrp n="['that', '&lt;delspanend/&gt;', 'my', 'present']" xml:id="C09_app424_rg2">
                   <rdg wit="fMS">&lt;lb n="c56-0038__main__28"/&gt;that &lt;delSpan anchor="c56-0038.16"/&gt;&lt;anchor xml:id="c56-0038.14"/&gt; my &lt;sga-add hand="#pbs" place="superlinear" sID="c56-0038__main__d5e8122"/&gt;present</rdg>
                </rdgGrp>
             </app>
@@ -4497,7 +4499,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C09_app428">
-               <rdgGrp n="['success', '', &#34;&lt;del&gt;way perfect  &lt;del&gt;'&#34;, &#34;yet&lt;/del&gt; &lt;del&gt;'&#34;, '', 'but', '&lt;/del&gt;   &lt;/del&gt;', 'nor,']"
+               <rdgGrp n="['success', '', &#34;&lt;del&gt;way perfect  &lt;del-inner rend=%q%strikethrough%q% xml:id=%q%c56-0039__main__d5e8173%q%&gt;'&#34;, &#34;yet&lt;/del-inner&gt; &lt;del-inner rend=%q%strikethrough%q% xml:id=%q%c56-0039__main__d5e8176%q%&gt;'&#34;, '', 'but', '&lt;/del-inner&gt;   &lt;/del&gt;', 'nor,']"
                         xml:id="C09_app428_rg1">
                   <rdg wit="fMS">success &lt;sga-add eID="c56-0038__main__d5e8142"/&gt;&lt;anchor xml:id="c56-0038.17"/&gt;&lt;lb n="c56-0039__main__1"/&gt; &lt;del rend="strikethrough" xml:id="c56-0039__main__d5e8169"&gt;way perfect &lt;mod sID="c56-0039__main__d5e8171"/&gt; &lt;del-INNER rend="strikethrough" xml:id="c56-0039__main__d5e8173"&gt;' yet&lt;/del-INNER&gt; &lt;del-INNER rend="strikethrough" xml:id="c56-0039__main__d5e8176"&gt;' &lt;sga-add place="superlinear" sID="c56-0039__main__d5e8178"/&gt;but &lt;sga-add eID="c56-0039__main__d5e8178"/&gt; &lt;/del-INNER&gt; &lt;mod eID="c56-0039__main__d5e8171"/&gt; &lt;/del&gt; &lt;anchor xml:id="c56-0039.01"/&gt;&lt;lb n="c56-0039__left_margin__1"/&gt;Nor,</rdg>
                </rdgGrp>
@@ -7900,7 +7902,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C09_app751">
-               <rdgGrp n="['when my creation should be  comple  &lt;mdel&gt;et&lt;/mdel&gt; te  &lt;mdel&gt;ed&lt;/mdel&gt;  . &lt;del&gt;i had had t  then determined to  go to geneva as soon as this should be  done and a in the midst of my  family find eve &lt;/del&gt;', '&lt;surface eid=%q%ox-ms_abinger_c56-0044%q%/&gt;']"
+               <rdgGrp n="['when my creation should be  comple  &lt;mdel&gt;et&lt;/mdel&gt; te  &lt;mdel&gt;ed&lt;/mdel&gt;  . &lt;delspanstart/&gt;i had had t  then determined to  go to geneva as soon as this should be  done and a in the midst of my  family find eve &lt;delspanend/&gt;', '&lt;surface eid=%q%ox-ms_abinger_c56-0044%q%/&gt;']"
                         xml:id="C09_app751_rg1">
                   <rdg wit="fMS">when my creation should be &lt;lb n="c56-0044__main__22"/&gt;comple &lt;mod sID="c56-0044__main__d5e9518"/&gt; &lt;mdel&gt;et&lt;/mdel&gt; &lt;sga-add hand="#pbs" place="intralinear" sID="c56-0044__main__d5e9522"/&gt;te &lt;sga-add eID="c56-0044__main__d5e9522"/&gt; &lt;mdel&gt;ed&lt;/mdel&gt; &lt;mod eID="c56-0044__main__d5e9518"/&gt; . &lt;delSpan rend="strikethrough" spanTo="#c56-0044.01"/&gt;I had &lt;sga-add place="superlinear" sID="c56-0044__main__d5e9530"/&gt;had t &lt;sga-add eID="c56-0044__main__d5e9530"/&gt; then determined to &lt;lb n="c56-0044__main__23"/&gt;go to Geneva as soon as this should be &lt;lb n="c56-0044__main__24"/&gt;done and a in the midst of my &lt;lb n="c56-0044__main__25"/&gt;family find eve &lt;delSpan anchor="c56-0044.01"/&gt; &lt;zone eID="c56-0044__main"/&gt; &lt;surface eID="ox-ms_abinger_c56-0044"/&gt;</rdg>
                </rdgGrp>

@@ -15,9 +15,9 @@
          </publicationStmt>
          <sourceDesc>
             <p>Produced from collation output prepared in batch file processing
-                                    on  2023-10-20 04:50:34.287400 .</p>
+                                    on  2023-10-29 20:06:14.082314 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-10-20T02:19:32.040234-04:00.</p>
+                                    Variorum spine on 2023-10-29T17:29:44.70941-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -39,15 +39,15 @@
                         <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0057.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0057']/tei:zone[@type='main']//tei:line[3],0,15)"/>
                         <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">into my hands.</fv:line_text>
                         <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">"spirits I may</fv:resolved_text>
-                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0057.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0057']/tei:zone[@type='main']//tei:line[4],0,22)"/>
-                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">%q%To V. Frankenstien</fv:line_text>
-                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">"one subject; may I n</fv:resolved_text>
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0057.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0057']/tei:zone[@type='main']//tei:line[4],0,20)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">"To V. Frankenstien</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">"one subject; may I</fv:resolved_text>
                         <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0057.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0057']/tei:zone[@type='main']//tei:line[5],0,31)"/>
                         <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">Geneva  Apri l March   18  17—</fv:line_text>
                         <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">I trembled; one subject! What</fv:resolved_text>
-                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0057.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0057']/tei:zone[@type='main']//tei:line[6],0,18)"/>
-                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">%q%My dear Cousin</fv:line_text>
-                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">could it be? Coul</fv:resolved_text>
+                        <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0057.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0057']/tei:zone[@type='main']//tei:line[6],0,16)"/>
+                        <fv:line_text xmlns:fv="https://github.com/FrankensteinVariorum">"My dear Cousin</fv:line_text>
+                        <fv:resolved_text xmlns:fv="https://github.com/FrankensteinVariorum">could it be? Co</fv:resolved_text>
                      </witDetail>
                   </rdg>
                </rdgGrp>
@@ -351,7 +351,7 @@
                <rdgGrp xml:id="C11_app14_rg_empty">
                   <rdg wit="#f1831"/>
                </rdgGrp>
-               <rdgGrp n="['&lt;del&gt;and this makes us all very wretched, as much so nearly as after the death of your dear mother.&lt;/del&gt;', 'and this suspicion fills us with anguish. i perceive that your father &lt;del&gt;conceals&lt;/del&gt; attempts to conceal his fears from me; but cheerfulness has flown from our little circle, only to be restored by a certain assuranance that there is no foundation for our anxiety. at one time']"
+               <rdgGrp n="['&lt;del&gt;and this makes us all very wretched, as much so nearly as after the death of your dear mother.&lt;/del&gt;', 'and this suspicion fills us with anguish. i perceive that your father &lt;del-inner&gt;conceals&lt;/del-inner&gt; attempts to conceal his fears from me; but cheerfulness has flown from our little circle, only to be restored by a certain assuranance that there is no foundation for our anxiety. at one time']"
                         xml:id="C11_app14_rg1">
                   <rdg wit="#fThomas">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_v.xml#C11_app14-fThomas"/>
@@ -786,7 +786,7 @@
                   <rdg wit="#fThomas"/>
                   <rdg wit="#f1823"/>
                </rdgGrp>
-               <rdgGrp n="['', '&lt;del&gt;i&lt;/del&gt; &lt;del&gt;but i entreated him not&lt;/del&gt; &lt;del&gt; to undertake it  &lt;/del&gt; &lt;del&gt;because&lt;/del&gt;   ^  &lt;del&gt; for  &lt;/del&gt;     &lt;del&gt;although&lt;/del&gt; &lt;del&gt;his health is better now  tha  &lt;mdel&gt;t&lt;/mdel&gt; n   it has been since the death  of my beloved aunt, yet  &lt;del&gt;tha&lt;/del&gt; the   fatigue  might have  &lt;/del&gt; &lt;del&gt;make him very ill&lt;/del&gt; &lt;del&gt;and&lt;/del&gt;']"
+               <rdgGrp n="['', '&lt;del&gt;i&lt;/del&gt; &lt;del&gt;but i entreated him not&lt;/del&gt; &lt;del&gt; to undertake it  &lt;/del&gt; &lt;del&gt;because&lt;/del&gt;   ^  &lt;del&gt; for  &lt;/del&gt;     &lt;del&gt;although&lt;/del&gt; &lt;delspanstart/&gt;his health is better now  tha  &lt;mdel&gt;t&lt;/mdel&gt; n   it has been since the death  of my beloved aunt, yet  &lt;del&gt;tha&lt;/del&gt; the   fatigue  might have  &lt;delspanend/&gt; &lt;del&gt;make him very ill&lt;/del&gt; &lt;del&gt;and&lt;/del&gt;']"
                         xml:id="C11_app34_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_ch_v_113.xml#C11_app34-fMS"/>
@@ -3499,7 +3499,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_v.xml#C11_app151-fThomas"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['&lt;del&gt;and', 'if', 'he', 'should', 'become', 'a', 'judge', '&lt;/del&gt;', 'i']"
+               <rdgGrp n="['&lt;delspanstart/&gt;and', 'if', 'he', 'should', 'become', 'a', 'judge', '&lt;delspanend/&gt;', 'i']"
                         xml:id="C11_app151_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_ch_v_113.xml#C11_app151-fMS"/>
@@ -5233,7 +5233,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C11_app244">
-               <rdgGrp n="['', '&lt;del&gt;where&lt;/del&gt; &lt;del&gt;she was taught  all the duties of servant and was very   kindly treated.', '&lt;/del&gt;']"
+               <rdgGrp n="['', '&lt;del&gt;where&lt;/del&gt; &lt;delspanstart/&gt;she was taught  all the duties of servant and was very   kindly treated.', '&lt;delspanend/&gt;']"
                         xml:id="C11_app244_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_ch_v_113.xml#C11_app244-fMS__I"/>
@@ -6384,7 +6384,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_vi.xml#C11_app313-f1831__F"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['&lt;del&gt;', '&lt;del&gt;you did not&lt;/del&gt;', 'observe', 'all', 'this,', 'nor', 'did', 'i', 'at', 'the', 'time', 'but', 'it', 'struck', 'me', 'afterwards', 'when', 'i', 'reflected', 'on', 'the', 'subject.', '&lt;/del&gt;', '&lt;p-end/&gt;', '&lt;p-start/&gt;']"
+               <rdgGrp n="['&lt;delspanstart/&gt;', '&lt;del&gt;you did not&lt;/del&gt;', 'observe', 'all', 'this,', 'nor', 'did', 'i', 'at', 'the', 'time', 'but', 'it', 'struck', 'me', 'afterwards', 'when', 'i', 'reflected', 'on', 'the', 'subject.', '&lt;delspanend/&gt;', '&lt;p-end/&gt;', '&lt;p-start/&gt;']"
                         xml:id="C11_app313_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_ch_v_113.xml#C11_app313-fMS"/>
@@ -7561,7 +7561,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C11_app392">
-               <rdgGrp n="['', 'winter', '&lt;del&gt;that', 'has', 'just', 'passed', '&lt;/del&gt;.']"
+               <rdgGrp n="['', 'winter', '&lt;delspanstart/&gt;that', 'has', 'just', 'passed', '&lt;delspanend/&gt;.']"
                         xml:id="C11_app392_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_ch_v_113.xml#C11_app392-fMS__I"/>

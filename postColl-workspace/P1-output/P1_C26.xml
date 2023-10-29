@@ -15,9 +15,9 @@
          </publicationStmt>
          <sourceDesc>
             <p>Produced from collation output prepared in batch file processing
-                                    on  2023-10-20 05:28:21.212585 .</p>
+                                    on  2023-10-29 20:42:01.740420 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-10-20T02:19:32.040234-04:00.</p>
+                                    Variorum spine on 2023-10-29T17:29:44.70941-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -731,7 +731,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C26_app70">
-               <rdgGrp n="['man', '&lt;del&gt;and', 'who', 'confine', 'her', 'eyes', 'or', 'wishes', '&lt;/del&gt;.']"
+               <rdgGrp n="['man', '&lt;delspanstart/&gt;and', 'who', 'confine', 'her', 'eyes', 'or', 'wishes', '&lt;delspanend/&gt;.']"
                         xml:id="C26_app70_rg1">
                   <rdg wit="fMS">man &lt;delSpan rend="strikethrough" spanTo="#c57-0103.01"/&gt;&amp; who &lt;lb n="c57-0103__main__21"/&gt;confine her eyes or wishes &lt;delSpan anchor="c57-0103.01"/&gt;.</rdg>
                </rdgGrp>
@@ -1229,7 +1229,7 @@
                   <rdg wit="fThomas">casement. A ghastly grin</rdg>
                   <rdg wit="f1831">casement. A ghastly grin</rdg>
                </rdgGrp>
-               <rdgGrp n="['', &#34;&lt;del&gt; &lt;del&gt;'&#34;, '', 'window', '&lt;/del&gt; &lt;/del&gt;', 'casement.', 'a', 'ghastly', 'grin']"
+               <rdgGrp n="['', &#34;&lt;del&gt; &lt;del-inner rend=%q%smear%q% xml:id=%q%c57-0104__left_margin__d4e19140%q%&gt;'&#34;, '', 'window', '&lt;/del-inner&gt; &lt;/del&gt;', 'casement.', 'a', 'ghastly', 'grin']"
                         xml:id="C26_app117_rg2">
                   <rdg wit="fMS">&lt;sga-add eID="c57-0104__main__d4e19127"/&gt;&lt;anchor xml:id="c57-0104.02"/&gt;&lt;lb n="c57-0104__left_margin__1"/&gt;&lt;mod sID="c57-0104__left_margin__d4e19136"/&gt; &lt;del rend="overwritten" xml:id="c57-0104__left_margin__d4e19138"&gt; &lt;del-INNER rend="smear" xml:id="c57-0104__left_margin__d4e19140"&gt;' &lt;sga-add hand="#pbs" sID="c57-0104__left_margin__d4e19142"/&gt;window &lt;sga-add eID="c57-0104__left_margin__d4e19142"/&gt; &lt;/del-INNER&gt; &lt;/del&gt; &lt;sga-add hand="#pbs" place="intralinear" sID="c57-0104__left_margin__d4e19147"/&gt;casement. &lt;sga-add eID="c57-0104__left_margin__d4e19147"/&gt;&lt;mod eID="c57-0104__left_margin__d4e19136"/&gt;&lt;mod eID="c57-0104__main__d4e19122"/&gt;&lt;lb n="c57-0104__main__9"/&gt;A ghastly grin</rdg>
                </rdgGrp>
@@ -4557,7 +4557,7 @@
                   <rdg wit="fThomas">The prospect did</rdg>
                   <rdg wit="f1831">The prospect did</rdg>
                </rdgGrp>
-               <rdgGrp n="['&lt;del&gt;yet', 'when', 'i', 'thought', 'of', 'elizabeth', '&lt;/del&gt;', 'the', 'prospect', 'did']"
+               <rdgGrp n="['&lt;delspanstart/&gt;yet', 'when', 'i', 'thought', 'of', 'elizabeth', '&lt;delspanend/&gt;', 'the', 'prospect', 'did']"
                         xml:id="C26_app438_rg2">
                   <rdg wit="fMS">&lt;delSpan rend="strikethrough" spanTo="#c57-0108.01"/&gt;Yet &lt;lb n="c57-0108__main__27"/&gt;when I thought of Elizabeth &lt;delSpan anchor="c57-0108.01"/&gt; The prospect did</rdg>
                </rdgGrp>
@@ -8745,7 +8745,7 @@
                   <rdg wit="fThomas">misery!</rdg>
                   <rdg wit="f1831">misery!</rdg>
                </rdgGrp>
-               <rdgGrp n="['misery.', '&lt;del&gt;i', 'steered', 'my', 'boat', 'towards', 'the', 'shore', 'and', '&lt;/del&gt;']"
+               <rdgGrp n="['misery.', '&lt;delspanstart/&gt;i', 'steered', 'my', 'boat', 'towards', 'the', 'shore', 'and', '&lt;delspanend/&gt;']"
                         xml:id="C26_app841_rg2">
                   <rdg wit="fMS">&lt;lb n="c57-0113__main__30"/&gt;misery. &lt;delSpan rend="strikethrough" spanTo="#c57-0113.02"/&gt;I steered my boat towards the shore &lt;lb n="c57-0113__main__31"/&gt;and &lt;delSpan anchor="c57-0113.02"/&gt;&lt;anchor xml:id="c57-0113.03"/&gt;&lt;lb n="c57-0113__left_margin__1"/&gt;&lt;sga-add sID="c57-0113__left_margin__d4e20827"/&gt;</rdg>
                </rdgGrp>
@@ -9021,7 +9021,7 @@
                   <rdg wit="fThomas">I at length saw</rdg>
                   <rdg wit="f1831">I at length saw</rdg>
                </rdgGrp>
-               <rdgGrp n="['&lt;del&gt;after', 'sailing', '&lt;/del&gt;', 'i', 'at', 'length', 'saw']"
+               <rdgGrp n="['&lt;delspanstart/&gt;after', 'sailing', '&lt;delspanend/&gt;', 'i', 'at', 'length', 'saw']"
                         xml:id="C26_app868_rg2">
                   <rdg wit="fMS">&lt;delSpan rend="strikethrough" spanTo="#c57-0114.01"/&gt;after &lt;lb n="c57-0114__main__7"/&gt;sailing &lt;delSpan anchor="c57-0114.01"/&gt; I at length saw</rdg>
                </rdgGrp>
@@ -9832,7 +9832,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C26_app946">
-               <rdgGrp n="['th', 'e', '&lt;del&gt;the', 'countenance', 'of', 'this', 'man', 'an', 'his', 'companions', '&lt;/del&gt;', 'frow', '', '^', 'n', '', 'ing']"
+               <rdgGrp n="['th', 'e', '&lt;delspanstart/&gt;the', 'countenance', 'of', 'this', 'man', 'an', 'his', 'companions', '&lt;delspanend/&gt;', 'frow', '', '^', 'n', '', 'ing']"
                         xml:id="C26_app946_rg1">
                   <rdg wit="fMS">th &lt;sga-add place="intralinear" sID="c57-0115__main__d4e21088"/&gt;e &lt;sga-add eID="c57-0115__main__d4e21088"/&gt;&lt;lb n="c57-0115__main__6"/&gt;&lt;delSpan rend="strikethrough" spanTo="#c57-0115.01"/&gt;the countenance of this man an his &lt;lb n="c57-0115__main__7"/&gt;companions &lt;delSpan anchor="c57-0115.01"/&gt; frow &lt;mod sID="c57-0115__main__d4e21100"/&gt;&lt;sga-add sID="c57-0115__main__d4e21102"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c57-0115__main__d4e21102"/&gt;&lt;sga-add place="superlinear" sID="c57-0115__main__d4e21108"/&gt;n &lt;sga-add eID="c57-0115__main__d4e21108"/&gt;&lt;mod eID="c57-0115__main__d4e21100"/&gt; ing</rdg>
                </rdgGrp>
@@ -11009,7 +11009,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C26_app1060">
-               <rdgGrp n="['&lt;del&gt;and', 'strength', 'to', 'suffer', 'me', '&lt;/del&gt;']"
+               <rdgGrp n="['&lt;delspanstart/&gt;and', 'strength', 'to', 'suffer', 'me', '&lt;delspanend/&gt;']"
                         xml:id="C26_app1060_rg1">
                   <rdg wit="fMS">&lt;lb n="c57-0116__main__18"/&gt;&lt;mod sID="c57-0116__main__d4e21386"/&gt;&lt;mod eID="c57-0116__main__d4e21386"/&gt;&lt;delSpan rend="strikethrough" spanTo="#c57-0116.01"/&gt;&amp; strength to suffer &lt;lb n="c57-0116__main__19"/&gt;me &lt;delSpan anchor="c57-0116.01"/&gt;</rdg>
                </rdgGrp>

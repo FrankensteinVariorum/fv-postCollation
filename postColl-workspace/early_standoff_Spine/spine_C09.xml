@@ -15,9 +15,9 @@
          </publicationStmt>
          <sourceDesc>
             <p>Produced from collation output prepared in batch file processing
-                                    on  2023-10-20 04:45:56.519627 .</p>
+                                    on  2023-10-29 20:01:32.633092 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-10-20T02:19:32.040234-04:00.</p>
+                                    Variorum spine on 2023-10-29T17:29:44.70941-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -3991,7 +3991,8 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_iv.xml#C09_app228-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['worm&lt;del&gt;succeeded', 'to', '&lt;/del&gt;']" xml:id="C09_app228_rg2">
+               <rdgGrp n="['worm&lt;delspanstart/&gt;succeeded', 'to', '&lt;delspanend/&gt;']"
+                        xml:id="C09_app228_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_5.xml#C09_app228-fMS__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_5.xml#C09_app228-fMS__F"/>
@@ -4228,7 +4229,8 @@
                </rdgGrp>
             </app>
             <app xml:id="C09_app246">
-               <rdgGrp n="['&lt;del&gt;it', 'intoxicated', 'me', '&lt;/del&gt;i']" xml:id="C09_app246_rg1">
+               <rdgGrp n="['&lt;delspanstart/&gt;it', 'intoxicated', 'me', '&lt;delspanend/&gt;i']"
+                        xml:id="C09_app246_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_5.xml#C09_app246-fMS"/>
                      <witDetail wit="#fMS">
@@ -4925,7 +4927,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_iv.xml#C09_app290-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['&lt;del&gt;after', 'such', 'painful', 'labour', '&lt;/del&gt;', '^', 'after', 'so', 'much']"
+               <rdgGrp n="['&lt;delspanstart/&gt;after', 'such', 'painful', 'labour', '&lt;delspanend/&gt;', '^', 'after', 'so', 'much']"
                         xml:id="C09_app290_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_5.xml#C09_app290-fMS__I"/>
@@ -5395,7 +5397,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C09_app322">
-               <rdgGrp n="['on', '', '&lt;mdel&gt;e&lt;/mdel&gt;', 'c', '', 'e', '', '&lt;mdel&gt; &lt;/mdel&gt;', '.', '&lt;del&gt;on']"
+               <rdgGrp n="['on', '', '&lt;mdel&gt;e&lt;/mdel&gt;', 'c', '', 'e', '', '&lt;mdel&gt; &lt;/mdel&gt;', '.', '&lt;delspanstart/&gt;on']"
                         xml:id="C09_app322_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_5.xml#C09_app322-fMS"/>
@@ -5437,7 +5439,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_iv.xml#C09_app324-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['contrary', '&lt;/del&gt;', '&lt;mdel&gt;t&lt;/mdel&gt;', 't', '', 'he', '&lt;del&gt; &lt;unclear&gt;big&lt;/unclear&gt; &lt;/del&gt;', 'information', 'i', 'had', 'obtained', 'was']"
+               <rdgGrp n="['contrary', '&lt;delspanend/&gt;', '&lt;mdel&gt;t&lt;/mdel&gt;', 't', '', 'he', '&lt;del&gt; &lt;unclear&gt;big&lt;/unclear&gt; &lt;/del&gt;', 'information', 'i', 'had', 'obtained', 'was']"
                         xml:id="C09_app324_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_5.xml#C09_app324-fMS"/>
@@ -5495,7 +5497,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_iv.xml#C09_app327-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['&lt;del&gt;one', 'that', 'would', '&lt;/del&gt;', '^', 'to']"
+               <rdgGrp n="['&lt;delspanstart/&gt;one', 'that', 'would', '&lt;delspanend/&gt;', '^', 'to']"
                         xml:id="C09_app327_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_5.xml#C09_app327-fMS__I"/>
@@ -5526,7 +5528,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_iv.xml#C09_app329-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['endeavours.', '', '^', '&lt;del&gt;that', 'than', 'show', 'me', 'the', 'prospect', 'with', 'any', 'precise', 'certainty.', '&lt;/del&gt;', '^']"
+               <rdgGrp n="['endeavours.', '', '^', '&lt;delspanstart/&gt;that', 'than', 'show', 'me', 'the', 'prospect', 'with', 'any', 'precise', 'certainty.', '&lt;delspanend/&gt;', '^']"
                         xml:id="C09_app329_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_5.xml#C09_app329-fMS"/>
@@ -6719,7 +6721,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_iv.xml#C09_app403-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['', &#34;&lt;del&gt; &lt;del&gt;'&#34;, '', '&lt;unclear&gt;but&lt;/unclear&gt;', '&lt;/del&gt; yet  &lt;/del&gt;', '&lt;del&gt; but  &lt;/del&gt;', '', '&lt;del&gt;when i&lt;/del&gt;', '', '&lt;del&gt;when&lt;/del&gt;', '&lt;del&gt;i&lt;/del&gt;', '', '&lt;del&gt;looked around for&lt;/del&gt;', '&lt;del&gt; considered  &lt;/del&gt;', '', '&lt;del&gt;my&lt;/del&gt;', '&lt;del&gt;materials&lt;/del&gt;', '', '&lt;del&gt;they&lt;/del&gt;', 'the', 'materials', 'at', 'present', 'within', 'my', 'command']"
+               <rdgGrp n="['', &#34;&lt;del&gt; &lt;del-inner rend=%q%overwritten%q% xml:id=%q%c56-0038__main__d5e7935%q%&gt;'&#34;, '', '&lt;unclear&gt;but&lt;/unclear&gt;', '&lt;/del-inner&gt; yet  &lt;/del&gt;', '&lt;del&gt; but  &lt;/del&gt;', '', '&lt;del&gt;when i&lt;/del&gt;', '', '&lt;del&gt;when&lt;/del&gt;', '&lt;del&gt;i&lt;/del&gt;', '', '&lt;del&gt;looked around for&lt;/del&gt;', '&lt;del&gt; considered  &lt;/del&gt;', '', '&lt;del&gt;my&lt;/del&gt;', '&lt;del&gt;materials&lt;/del&gt;', '', '&lt;del&gt;they&lt;/del&gt;', 'the', 'materials', 'at', 'present', 'within', 'my', 'command']"
                         xml:id="C09_app403_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_6.xml#C09_app403-fMS__I"/>
@@ -6843,7 +6845,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_iv.xml#C09_app410-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['&lt;del&gt;i', 'allowed', 'that', 'my', 'first', 'attempts', 'might', 'be', 'futile,', 'my', 'operations', 'fail', 'or', 'my', 'work', 'be', 'imperfect,', '&lt;/del&gt;', '&lt;del&gt;but i looked around on&lt;/del&gt;', 'i', 'prepared', 'myself', 'for', 'a', 'multitude', 'of']"
+               <rdgGrp n="['&lt;delspanstart/&gt;i', 'allowed', 'that', 'my', 'first', 'attempts', 'might', 'be', 'futile,', 'my', 'operations', 'fail', 'or', 'my', 'work', 'be', 'imperfect,', '&lt;delspanend/&gt;', '&lt;del&gt;but i looked around on&lt;/del&gt;', 'i', 'prepared', 'myself', 'for', 'a', 'multitude', 'of']"
                         xml:id="C09_app410_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_6.xml#C09_app410-fMS__I"/>
@@ -7055,7 +7057,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_iv.xml#C09_app423-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['hope', '', '&lt;del&gt;and&lt;/del&gt;', '&lt;del&gt;and', 'altho', 'although', 'i', 'could', 'not', 'hope']"
+               <rdgGrp n="['hope', '', '&lt;del&gt;and&lt;/del&gt;', '&lt;delspanstart/&gt;and', 'altho', 'although', 'i', 'could', 'not', 'hope']"
                         xml:id="C09_app423_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_6.xml#C09_app423-fMS__I"/>
@@ -7086,7 +7088,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_iv.xml#C09_app424-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['that', '&lt;/del&gt;', 'my', 'present']" xml:id="C09_app424_rg2">
+               <rdgGrp n="['that', '&lt;delspanend/&gt;', 'my', 'present']" xml:id="C09_app424_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_6.xml#C09_app424-fMS__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_6.xml#C09_app424-fMS__F"/>
@@ -7158,7 +7160,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C09_app428">
-               <rdgGrp n="['success', '', &#34;&lt;del&gt;way perfect  &lt;del&gt;'&#34;, &#34;yet&lt;/del&gt; &lt;del&gt;'&#34;, '', 'but', '&lt;/del&gt;   &lt;/del&gt;', 'nor,']"
+               <rdgGrp n="['success', '', &#34;&lt;del&gt;way perfect  &lt;del-inner rend=%q%strikethrough%q% xml:id=%q%c56-0039__main__d5e8173%q%&gt;'&#34;, &#34;yet&lt;/del-inner&gt; &lt;del-inner rend=%q%strikethrough%q% xml:id=%q%c56-0039__main__d5e8176%q%&gt;'&#34;, '', 'but', '&lt;/del-inner&gt;   &lt;/del&gt;', 'nor,']"
                         xml:id="C09_app428_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_6.xml#C09_app428-fMS__I"/>
@@ -12279,7 +12281,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C09_app751">
-               <rdgGrp n="['when my creation should be  comple  &lt;mdel&gt;et&lt;/mdel&gt; te  &lt;mdel&gt;ed&lt;/mdel&gt;  . &lt;del&gt;i had had t  then determined to  go to geneva as soon as this should be  done and a in the midst of my  family find eve &lt;/del&gt;', '&lt;surface eid=%q%ox-ms_abinger_c56-0044%q%/&gt;']"
+               <rdgGrp n="['when my creation should be  comple  &lt;mdel&gt;et&lt;/mdel&gt; te  &lt;mdel&gt;ed&lt;/mdel&gt;  . &lt;delspanstart/&gt;i had had t  then determined to  go to geneva as soon as this should be  done and a in the midst of my  family find eve &lt;delspanend/&gt;', '&lt;surface eid=%q%ox-ms_abinger_c56-0044%q%/&gt;']"
                         xml:id="C09_app751_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_6.xml#C09_app751-fMS"/>

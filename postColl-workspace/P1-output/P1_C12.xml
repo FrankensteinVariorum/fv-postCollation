@@ -15,9 +15,9 @@
          </publicationStmt>
          <sourceDesc>
             <p>Produced from collation output prepared in batch file processing
-                                    on  2023-10-20 04:51:15.148679 .</p>
+                                    on  2023-10-29 20:06:53.986300 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-10-20T02:19:32.040234-04:00.</p>
+                                    Variorum spine on 2023-10-29T17:29:44.70941-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -481,7 +481,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C12_app45">
-               <rdgGrp n="['&lt;del&gt;brought', 'on', 'again', '&lt;/del&gt;renewed', '']"
+               <rdgGrp n="['&lt;delspanstart/&gt;brought', 'on', 'again', '&lt;delspanend/&gt;renewed', '']"
                         xml:id="C12_app45_rg1">
                   <rdg wit="fMS">&lt;delSpan rend="strikethrough" spanTo="#c56-0066.02"/&gt;brought on &lt;lb n="c56-0066__main__14"/&gt;again &lt;delSpan anchor="c56-0066.02"/&gt;&lt;sga-add hand="#pbs" place="superlinear" sID="c56-0066__main__d5e13599"/&gt;renewed &lt;sga-add eID="c56-0066__main__d5e13599"/&gt;&lt;anchor xml:id="c56-0066.01"/&gt;</rdg>
                </rdgGrp>
@@ -1008,7 +1008,7 @@
                   <rdg wit="fThomas">What could I do? He meant to</rdg>
                   <rdg wit="f1831">What could I do? He meant to</rdg>
                </rdgGrp>
-               <rdgGrp n="['&lt;del&gt;k&lt;/del&gt;', '&lt;del&gt;kind', 'friend', 'he', 'tortured', 'me', 'without', '&lt;/del&gt;&lt;del&gt;but', 'it', '&lt;/del&gt;', '&lt;del&gt;how cruel is&lt;/del&gt;', 'what', 'could', 'i', 'do?', 'he', 'meant', 'to']"
+               <rdgGrp n="['&lt;del&gt;k&lt;/del&gt;', '&lt;delspanstart/&gt;kind', 'friend', 'he', 'tortured', 'me', 'without', '&lt;delspanend/&gt;&lt;delspanstart/&gt;but', 'it', '&lt;delspanend/&gt;', '&lt;del&gt;how cruel is&lt;/del&gt;', 'what', 'could', 'i', 'do?', 'he', 'meant', 'to']"
                         xml:id="C12_app94_rg2">
                   <rdg wit="fMS">&lt;del rend="strikethrough" xml:id="c56-0067__main__d5e13791"&gt;K&lt;/del&gt; &lt;delSpan rend="strikethrough" spanTo="#c56-0067.02"/&gt;Kind &lt;lb n="c56-0067__main__5"/&gt;friend he tortured me without &lt;delSpan anchor="c56-0067.02"/&gt;&lt;delSpan rend="strikethrough" spanTo="#c56-0067.03"/&gt;but &lt;lb n="c56-0067__main__6"/&gt;it &lt;delSpan anchor="c56-0067.03"/&gt; &lt;del rend="strikethrough" xml:id="c56-0067__main__d5e13807"&gt;How cruel is&lt;/del&gt; What could I do? &lt;lb n="c56-0067__main__7"/&gt;He meant to</rdg>
                </rdgGrp>
@@ -1420,7 +1420,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C12_app134">
-               <rdgGrp n="['', 'docile', '&lt;del&gt;yet&lt;/del&gt;', 'and&lt;del&gt;weak', 'as']"
+               <rdgGrp n="['', 'docile', '&lt;del&gt;yet&lt;/del&gt;', 'and&lt;delspanstart/&gt;weak', 'as']"
                         xml:id="C12_app134_rg1">
                   <rdg wit="fMS">&lt;sga-add eID="c56-0068__main__d5e13985"/&gt;&lt;mod eID="c56-0068__main__d5e13977"/&gt; docile &lt;del rend="strikethrough" xml:id="c56-0068__main__d5e13989"&gt;yet&lt;/del&gt; &lt;sga-add place="superlinear" sID="c56-0068__main__d5e13993"/&gt;&amp;&lt;sga-add eID="c56-0068__main__d5e13993"/&gt;&lt;delSpan rend="strikethrough" spanTo="#c56-0068.02"/&gt;weak &lt;lb n="c56-0068__main__2"/&gt;as</rdg>
                </rdgGrp>
@@ -1447,7 +1447,7 @@
                   <rdg wit="fThomas">condition at that time,</rdg>
                   <rdg wit="f1831">condition at that time,</rdg>
                </rdgGrp>
-               <rdgGrp n="['illness', 'had', 'made', 'me', '&lt;/del&gt;in', 'my', 'then', 'condition']"
+               <rdgGrp n="['illness', 'had', 'made', 'me', '&lt;delspanend/&gt;in', 'my', 'then', 'condition']"
                         xml:id="C12_app136_rg2">
                   <rdg wit="fMS">illness had made me &lt;delSpan anchor="c56-0068.02"/&gt;&lt;anchor xml:id="c56-0068.03"/&gt;&lt;lb n="c56-0068__left_margin__1"/&gt;in my then &lt;lb n="c56-0068__left_margin__2"/&gt;condition</rdg>
                </rdgGrp>
@@ -1570,7 +1570,7 @@
             </app>
             <app xml:id="C12_app148">
                <rdgGrp n="['', '%q%us all– ay']" xml:id="C12_app148_rg1">
-                  <rdg wit="fMS">&lt;lb n="c56-0068__main__8"/&gt; %q%us all– ay</rdg>
+                  <rdg wit="fMS">&lt;lb n="c56-0068__main__8"/&gt; "us all– ay</rdg>
                </rdgGrp>
                <rdgGrp n="['us all. ay,']" xml:id="C12_app148_rg2">
                   <rdg wit="f1823">us all. Ay,</rdg>
@@ -1851,7 +1851,7 @@
             </app>
             <app xml:id="C12_app175">
                <rdgGrp n="['%q%of countenance.—aye, aye,']" xml:id="C12_app175_rg1">
-                  <rdg wit="fMS">&lt;lb n="c56-0068__main__15"/&gt;%q%of countenance.—Aye, Aye,</rdg>
+                  <rdg wit="fMS">&lt;lb n="c56-0068__main__15"/&gt;"of countenance.—Aye, Aye,</rdg>
                </rdgGrp>
                <rdgGrp n="['of countenance.—ay, ay,%q%']" xml:id="C12_app175_rg2">
                   <rdg wit="f1823">of countenance.—Ay, ay,”</rdg>
@@ -2025,7 +2025,7 @@
             </app>
             <app xml:id="C12_app192">
                <rdgGrp n="['know', 'm', '%q%']" xml:id="C12_app192_rg1">
-                  <rdg wit="fMS">know M&lt;shi rend="sup"&gt; &lt;/shi&gt; &lt;lb n="c56-0068__main__21"/&gt;%q%</rdg>
+                  <rdg wit="fMS">know M&lt;shi rend="sup"&gt; &lt;/shi&gt; &lt;lb n="c56-0068__main__21"/&gt;"</rdg>
                </rdgGrp>
                <rdgGrp n="['know,', 'm.']" xml:id="C12_app192_rg2">
                   <rdg wit="f1818">know, M.</rdg>
@@ -4022,7 +4022,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C12_app386">
-               <rdgGrp n="['senses', '', '.', '&lt;del&gt;and', 'now', '&lt;/del&gt;']"
+               <rdgGrp n="['senses', '', '.', '&lt;delspanstart/&gt;and', 'now', '&lt;delspanend/&gt;']"
                         xml:id="C12_app386_rg1">
                   <rdg wit="fMS">senses &lt;sga-add eID="c56-0071__main__d5e14895"/&gt;&lt;mod eID="c56-0071__main__d5e14885"/&gt; . &lt;delSpan spanTo="#c56-0071.03"/&gt;and &lt;lb n="c56-0071__main__17"/&gt;now &lt;delSpan anchor="c56-0071.03"/&gt;</rdg>
                </rdgGrp>
@@ -4118,7 +4118,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C12_app395">
-               <rdgGrp n="['happy', '', '&lt;mdel&gt;so&lt;/mdel&gt;', '&lt;mdel&gt; &lt;/mdel&gt;', '&lt;del&gt;soul', 'was', 'more', 'fitted', 'than', 'mine', 'for', 'feeling', 'delight', '&lt;/del&gt;', '&lt;del&gt;in&lt;/del&gt;']"
+               <rdgGrp n="['happy', '', '&lt;mdel&gt;so&lt;/mdel&gt;', '&lt;mdel&gt; &lt;/mdel&gt;', '&lt;delspanstart/&gt;soul', 'was', 'more', 'fitted', 'than', 'mine', 'for', 'feeling', 'delight', '&lt;delspanend/&gt;', '&lt;del&gt;in&lt;/del&gt;']"
                         xml:id="C12_app395_rg1">
                   <rdg wit="fMS">&lt;lb n="c56-0071__main__20"/&gt;happy &lt;mod sID="c56-0071__main__d5e14934"/&gt; &lt;mdel&gt;so&lt;/mdel&gt; &lt;mdel/&gt; &lt;mod eID="c56-0071__main__d5e14934"/&gt;&lt;delSpan spanTo="#c56-0071.04"/&gt;soul was more fitted than mine &lt;lb n="c56-0071__main__21"/&gt;for feeling delight &lt;delSpan anchor="c56-0071.04"/&gt; &lt;del rend="strikethrough" xml:id="c56-0071__main__d5e14952"&gt;in&lt;/del&gt;</rdg>
                </rdgGrp>
@@ -4613,7 +4613,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C12_app443">
-               <rdgGrp n="['astonishing.', '&lt;del&gt;as', 'we', 'rested', 'during', 'the', 'sultry', 'heat', 'of', 'noon', 'he', 'invented', '&lt;/del&gt;his']"
+               <rdgGrp n="['astonishing.', '&lt;delspanstart/&gt;as', 'we', 'rested', 'during', 'the', 'sultry', 'heat', 'of', 'noon', 'he', 'invented', '&lt;delspanend/&gt;his']"
                         xml:id="C12_app443_rg1">
                   <rdg wit="fMS">astonishing. &lt;delSpan rend="strikethrough" spanTo="#c56-0072.01"/&gt;As we rested during &lt;lb n="c56-0072__main__5"/&gt;the sultry heat of noon he invented &lt;delSpan anchor="c56-0072.01"/&gt;&lt;lb n="c56-0072__main__6"/&gt;his</rdg>
                </rdgGrp>
@@ -4922,7 +4922,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C12_app473">
-               <rdgGrp n="['&lt;del&gt;hilarity&lt;/del&gt;', '&lt;del&gt;unbound', 'ed', '&lt;/del&gt;unbridled', '']"
+               <rdgGrp n="['&lt;del&gt;hilarity&lt;/del&gt;', '&lt;delspanstart/&gt;unbound', 'ed', '&lt;delspanend/&gt;unbridled', '']"
                         xml:id="C12_app473_rg1">
                   <rdg wit="fMS">&lt;del rend="strikethrough" xml:id="c56-0072__main__d5e15195"&gt;hilarity&lt;/del&gt; &lt;delSpan rend="strikethrough" spanTo="#c56-0072.03"/&gt;unbound &lt;lb n="c56-0072__main__18"/&gt;ed &lt;delSpan anchor="c56-0072.03"/&gt;&lt;anchor xml:id="c56-0072.04"/&gt;&lt;lb n="c56-0072__left_margin__1"/&gt;&lt;sga-add sID="c56-0072__left_margin__d5e15211"/&gt;unbridled &lt;sga-add eID="c56-0072__left_margin__d5e15211"/&gt;&lt;anchor xml:id="c56-0072.02"/&gt;</rdg>
                </rdgGrp>
