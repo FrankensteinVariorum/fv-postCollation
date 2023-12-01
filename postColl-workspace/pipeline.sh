@@ -86,7 +86,7 @@ postProcessColl(){
   # rename fMS chapter files
   cd P6-Pt3-output
   mv "fMS_box_c56_chapter.xml" "fMS_box_c56_chapter_3.xml"
-  mv "fMS_box_c57_vol_ii.xml" "fMS_box_c57_vol_ii_chap_1.xml"
+  mv "fMS_box_c57_vol_ii.xml" "fMS_box_c57_vol_ii_chap_i.xml"
   mv "fMS_box_c57_chap.xml" "fMS_box_c57_chap_2.xml"
   cd ..
 
