@@ -8,7 +8,7 @@
     <xsl:output method="xml" indent="yes"/>
     
     <!-- 2024-07-20 ebb Redo the feature structures from svgPrep_LevDists-simplified so you see data for each witness.
-        Throw out the data of EMPTY ms compared to the witnesses.q
+        Throw out the data of EMPTY ms compared to the witnesses.
     -->
     <xsl:variable name="wits" as="xs:string+" select="'fMS', 'f1818', 'f1823', 'fThomas', 'f1831'"/>
     <xsl:template match="/">
