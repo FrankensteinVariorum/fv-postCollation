@@ -43,11 +43,15 @@
             <xsl:variable name="heatMapVal"  select="(($currentApp/f[@name=current()]/fs[@feats='witData']/f[not(@name='fMS_empty')]/@fVal ! number(), 0)[1] * (255 div $maxLevDistance)) ! ceiling(.)"/>
             <g class="{current()}">
            <xsl:choose> 
-               <xsl:when test="current() = 'fMS' and $currentApp/f[@name='fMS']//f/@fVal => distinct-values() = 'null'">
+               <xsl:when test="current() = 'fMS' and $currentApp/f[@name='fMS'][descendant::f/@fVal => distinct-values() = 'null']">
                    <!-- Output nothing for fMS here.  -->
                </xsl:when>
+               <xsl:when test="every $i in ($currentApp//f/@fVal[not(. = 'null')] ! number()) satisfies $i lt 10">
+                   <!-- skip past these  -->
+                   
+               </xsl:when>
               <xsl:otherwise> 
-                  <line x1="{position() * 150}" x2="{position() * 150}" y1="{(count($currentApp/preceding-sibling::fs) + 1) * 100}" y2="{(count($currentApp/preceding-sibling::fs) + 1) * 100 + 100}" stroke-width="100" stroke="rgb({$heatMapVal}, {255 - $heatMapVal}, {255 - $heatMapVal})"/>
+                  <line x1="{position() * 150}" x2="{position() * 150}" y1="{(count($currentApp/preceding-sibling::fs[descendant::f/@fVal[not(. = 'null')] ! number() >= 10]) + 1) * 100}" y2="{(count($currentApp/preceding-sibling::fs) + 1) * 100 + 100}" stroke-width="100" stroke="rgb({$heatMapVal}, {255 - 2*$heatMapVal}, {255 - 2*$heatMapVal})"/>
               </xsl:otherwise>
            </xsl:choose>
             </g>
