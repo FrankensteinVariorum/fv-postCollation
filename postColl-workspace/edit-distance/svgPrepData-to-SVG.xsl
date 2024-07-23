@@ -3,6 +3,9 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" 
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:fv="https://github.com/FrankensteinVariorum"
+    xmlns:ebb="https://ebeshero.github.io"
     exclude-result-prefixes="xs"
     version="3.0">
     <xsl:output method="xml" indent="yes"/>    
@@ -16,6 +19,7 @@
     <xsl:variable name="witLevData" as="document-node()" select="doc('svgPrep-witLevData.xml')"/>
     
     <xsl:variable name="spine" as="document-node()+" select="collection('../standoff_Spine/?select=*.xml')"/>
+   
     
     <!-- Color values for the heatmap need to be on an integer range from 0 to 255, but the max fVal is 4221. So we need to convert from a scale from 0 to 4221 to 0 to 255. Divide 255 by the max lev to get a factor for conversion. -->
     <xsl:variable name="maxLevDistance" select="$witLevData//@fVal[not(. = 'null')] => max()"/>
@@ -33,6 +37,7 @@
     
     <xsl:template match="/">
         <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 1000 53000">
+            <xsl:comment>SPINE TEST: <xsl:value-of select="$spine//tei:ptr/@target[contains(., 'f1823_vol_1_letter_iii')]"/></xsl:comment>
             <g class="outer" transform="translate(50, 50)">        
                 <xsl:apply-templates select="$witLevData//xml/fs[descendant::f/@fVal[not(. = 'null')] ! number() &gt;= 10]"/>
                 <!-- ebb: This uses general comparison to ensure that the whole series of @fVal values must meet the requirement of being greater than or equal to 10. We found that often edits are just 1 to 3 characters of difference, but this visualization is designed to concentrate on lengthier revisions. -->
@@ -49,23 +54,38 @@
         <!-- 2024-07-23 CONTINUE: Apply these to create three columns for this SVG-->
         <g id="{@feats}">
         <xsl:for-each select="$wits">  
+            <xsl:variable name="currentWit" as="xs:string" select="current()"/>
             <xsl:variable name="heatMapVal"  select="(($currentApp/f[@name=current()]/fs[@feats='witData']/f[not(@name='fMS_empty')]/@fVal[not(. = 'null')] ! number() => avg()) * (255 div $maxLevDistance)) ! ceiling(.)"/>
             <!-- This takes the average of the lev distance values given for comparisons with a given witness. -->
             <xsl:variable name="editionRegex" as="xs:string" select="'::.*?#'||current()"/>
             <xsl:comment>Edition Regex: <xsl:value-of select="$editionRegex"/></xsl:comment>
             <xsl:variable name="linkInfo" as="xs:string?" select="($currentApp/f[@name=current()][.//f[@name[contains(., '::')]]]//f/@name ! tokenize(., $editionRegex) ! tokenize(., '::')[starts-with(., 'C')])[last()]"/>
          <xsl:comment>LinkInfo VALUE: <xsl:value-of select="$linkInfo"/></xsl:comment> 
-            <xsl:variable name="linkConstructor" as="xs:string" select="$linkInfo"/>
+            
+            <xsl:variable name="chapterLocation" select="($spine//tei:rdgGrp[@xml:id=$linkInfo and descendant::tei:ptr]//tei:ptr/@target)[not(contains(., 'sga'))][1] ! tokenize(., '2023-variorum-chapters/')[last()] ! substring-before(., '#') ! substring-before(., '.xml')"/>   
+            
+      
+                
+            
+            
+            <!-- 2024-07-23 ebb: The above code for retrieving chapterLocation info isn't matching properly in the spine files to pull  ptr/@target att values within the specific witness for some reason. So we're taking the first available ptr/@target for the moment. 
+                Some XPath filters we want: 
+                [substring-after(@wit, '#') = current()]/tei:ptr/@target ! tokenize(., '2023-variorum-chapters/')[last()] ! substring-before(., '#') ! substring-before(., '.xml') -->
+            
+            <xsl:comment><xsl:value-of select="$currentWit"/> SPINE CHAPTER LOCATION: <xsl:value-of select="$chapterLocation"/></xsl:comment>
+            
+            
+            <xsl:variable name="linkConstructor" as="xs:string" select="'https://frankensteinvariorum.org/viewer/'||$chapterLocation ! tokenize(., '_') ! substring-after(., 'f')||'/'||$chapterLocation ! substring-after(., '_')||'/#'||$linkInfo ! substring-before(., '_rg')"/>
             <!-- SAMPLE LINK TO FV: https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_i/#C24_app15 -->
               
-            <g class="{current()}" xlink:href="{$linkConstructor}">
+            <g class="{current()}">
            <xsl:choose> 
                <xsl:when test="current() = 'fMS' and $currentApp/f[@name='fMS'][descendant::f/@fVal => distinct-values() = 'null']">
                    <!-- Output nothing for fMS here because it's missing at this point.   -->
                </xsl:when>
              
               <xsl:otherwise> 
-                  <line x1="{position() * 150}" x2="{position() * 150}" y1="{$yPos}" y2="{$yPos + 30}" stroke-width="100" stroke="rgb({$heatMapVal}, {255 - 2*$heatMapVal}, {255 - 2*$heatMapVal})">
+                  <line x1="{position() * 150}" x2="{position() * 150}" y1="{$yPos}" y2="{$yPos + 30}" stroke-width="100" stroke="rgb({$heatMapVal}, {255 - 2*$heatMapVal}, {255 - 2*$heatMapVal})" xlink:href="{$linkConstructor}">
                       <title><xsl:value-of select="translate($currentApp/@feats, '_', ' ')"/></title>            
                   </line>
                <!--   <text x="{position() * 150}" y="{$yPos + 15}" text-anchor="middle"><xsl:value-of select="translate($currentApp/@feats, '_', ' ')"/></text> -->
