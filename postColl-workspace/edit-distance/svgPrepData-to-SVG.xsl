@@ -29,29 +29,36 @@
     <xsl:variable name="colorArray" as="xs:string+" select="($color_MS, $color_1818, $color_Thom, $color_1823,$color_1831)"/>
     
     <xsl:template match="/">
-        <svg width="1000" height="2000000" viewBox="0 0 1000 2000000">
+        <svg width="100%" height="100%" viewBox="0 0 1000 53000">
             <g class="outer" transform="translate(50, 50)">        
-               <xsl:apply-templates select="$witLevData//xml/fs"/>
+                <xsl:apply-templates select="$witLevData//xml/fs[descendant::f/@fVal[not(. = 'null')] ! number() &gt;= 10]"/>
+                <!-- ebb: This uses general comparison to ensure that the whole series of @fVal values must meet the requirement of being greater than or equal to 10. We found that often edits are just 1 to 3 characters of difference, but this visualization is designed to concentrate on lengthier revisions. -->
             </g>
         </svg>
     </xsl:template>
     <xsl:template match="xml/fs">
         <xsl:variable name="currentApp" as="element()" select="current()"/>
-        
+        <xsl:variable name="yPos" select="(count($currentApp/preceding-sibling::fs[descendant::f/@fVal[not(. = 'null')] ! number() &gt;= 10]) + 1) * 30"/>
+        <!-- ebb: The next variables control for column position in the SVG -->
+        <xsl:variable name="cu_pos" select="position()"/>
+        <xsl:variable name="vertPos" as="xs:integer" select="$cu_pos mod 11"/>
+        <xsl:variable name="columnPos" as="xs:decimal" select="(floor($cu_pos div 11) + 1) * 500"/>
+        <!-- 2024-07-23 CONTINUE: Apply these to create three columns for this SVG-->
         <g id="{@feats}">
         <xsl:for-each select="$wits">  
-            <xsl:variable name="heatMapVal"  select="(($currentApp/f[@name=current()]/fs[@feats='witData']/f[not(@name='fMS_empty')]/@fVal ! number(), 0)[1] * (255 div $maxLevDistance)) ! ceiling(.)"/>
+            <xsl:variable name="heatMapVal"  select="(($currentApp/f[@name=current()]/fs[@feats='witData']/f[not(@name='fMS_empty')]/@fVal[not(. = 'null')] ! number() => avg()) * (255 div $maxLevDistance)) ! ceiling(.)"/>
+            <!-- This takes the average of the lev distance values given for comparisons with a given witness. -->
             <g class="{current()}">
            <xsl:choose> 
                <xsl:when test="current() = 'fMS' and $currentApp/f[@name='fMS'][descendant::f/@fVal => distinct-values() = 'null']">
-                   <!-- Output nothing for fMS here.  -->
+                   <!-- Output nothing for fMS here because it's missing at this point.   -->
                </xsl:when>
-               <xsl:when test="every $i in ($currentApp//f/@fVal[not(. = 'null')] ! number()) satisfies $i lt 10">
-                   <!-- skip past these  -->
-                   
-               </xsl:when>
+             
               <xsl:otherwise> 
-                  <line x1="{position() * 150}" x2="{position() * 150}" y1="{(count($currentApp/preceding-sibling::fs[descendant::f/@fVal[not(. = 'null')] ! number() >= 10]) + 1) * 100}" y2="{(count($currentApp/preceding-sibling::fs) + 1) * 100 + 100}" stroke-width="100" stroke="rgb({$heatMapVal}, {255 - 2*$heatMapVal}, {255 - 2*$heatMapVal})"/>
+                  <line x1="{position() * 150}" x2="{position() * 150}" y1="{$yPos}" y2="{$yPos + 30}" stroke-width="100" stroke="rgb({$heatMapVal}, {255 - 2*$heatMapVal}, {255 - 2*$heatMapVal})">
+                      <title><xsl:value-of select="translate($currentApp/@feats, '_', ' ')"/></title>            
+                  </line>
+               <!--   <text x="{position() * 150}" y="{$yPos + 15}" text-anchor="middle"><xsl:value-of select="translate($currentApp/@feats, '_', ' ')"/></text> -->
               </xsl:otherwise>
            </xsl:choose>
             </g>
