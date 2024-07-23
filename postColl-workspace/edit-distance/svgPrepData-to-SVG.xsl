@@ -2,6 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" 
     xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
     exclude-result-prefixes="xs"
     version="3.0">
     <xsl:output method="xml" indent="yes"/>    
@@ -13,6 +14,8 @@
     
     <!-- This document stores witness variation data in XML. -->
     <xsl:variable name="witLevData" as="document-node()" select="doc('svgPrep-witLevData.xml')"/>
+    
+    <xsl:variable name="spine" as="document-node()+" select="collection('../standoff_Spine/?select=*.xml')"/>
     
     <!-- Color values for the heatmap need to be on an integer range from 0 to 255, but the max fVal is 4221. So we need to convert from a scale from 0 to 4221 to 0 to 255. Divide 255 by the max lev to get a factor for conversion. -->
     <xsl:variable name="maxLevDistance" select="$witLevData//@fVal[not(. = 'null')] => max()"/>
@@ -29,7 +32,7 @@
     <xsl:variable name="colorArray" as="xs:string+" select="($color_MS, $color_1818, $color_Thom, $color_1823,$color_1831)"/>
     
     <xsl:template match="/">
-        <svg width="100%" height="100%" viewBox="0 0 1000 53000">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 1000 53000">
             <g class="outer" transform="translate(50, 50)">        
                 <xsl:apply-templates select="$witLevData//xml/fs[descendant::f/@fVal[not(. = 'null')] ! number() &gt;= 10]"/>
                 <!-- ebb: This uses general comparison to ensure that the whole series of @fVal values must meet the requirement of being greater than or equal to 10. We found that often edits are just 1 to 3 characters of difference, but this visualization is designed to concentrate on lengthier revisions. -->
@@ -48,7 +51,14 @@
         <xsl:for-each select="$wits">  
             <xsl:variable name="heatMapVal"  select="(($currentApp/f[@name=current()]/fs[@feats='witData']/f[not(@name='fMS_empty')]/@fVal[not(. = 'null')] ! number() => avg()) * (255 div $maxLevDistance)) ! ceiling(.)"/>
             <!-- This takes the average of the lev distance values given for comparisons with a given witness. -->
-            <g class="{current()}">
+            <xsl:variable name="editionRegex" as="xs:string" select="'::.*?#'||current()"/>
+            <xsl:comment>Edition Regex: <xsl:value-of select="$editionRegex"/></xsl:comment>
+            <xsl:variable name="linkInfo" as="xs:string?" select="($currentApp/f[@name=current()][.//f[@name[contains(., '::')]]]//f/@name ! tokenize(., $editionRegex) ! tokenize(., '::')[starts-with(., 'C')])[last()]"/>
+         <xsl:comment>LinkInfo VALUE: <xsl:value-of select="$linkInfo"/></xsl:comment> 
+            <xsl:variable name="linkConstructor" as="xs:string" select="$linkInfo"/>
+            <!-- SAMPLE LINK TO FV: https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_i/#C24_app15 -->
+              
+            <g class="{current()}" xlink:href="{$linkConstructor}">
            <xsl:choose> 
                <xsl:when test="current() = 'fMS' and $currentApp/f[@name='fMS'][descendant::f/@fVal => distinct-values() = 'null']">
                    <!-- Output nothing for fMS here because it's missing at this point.   -->
