@@ -6,7 +6,7 @@
     xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:fv="https://github.com/FrankensteinVariorum"
     xmlns:ebb="https://ebeshero.github.io"
-    exclude-result-prefixes="xs"
+    exclude-result-prefixes="xs fv ebb tei"
     version="3.0">
     <xsl:output method="xml" indent="yes"/>    
     <!-- 2024-07-21 This XSLT should generate 5 long side-by-side rectangles for each of the 5 versions. 
@@ -23,54 +23,51 @@
     
     <!-- Color values for the heatmap need to be on an integer range from 0 to 255, but the max fVal is 4221. So we need to convert from a scale from 0 to 4221 to 0 to 255. Divide 255 by the max lev to get a factor for conversion. -->
     <xsl:variable name="maxLevDistance" select="$witLevData//@fVal[not(. = 'null')] => max()"/>
-
-    
-    <!-- EDITION WITNESS BASE COLORS IN RGB-
-        Question: HOW am I going to meaningfully introduce variance for comparison? Maybe I should pick one of these colors and run with varying intensity of one or two values. 
-        -->
-    <xsl:variable name="color_MS" as="xs:string" select="'rgb(133, 126, 230)'"/> <!-- purple -->
-    <xsl:variable name="color_1818" as="xs:string" select="'rgb(254, 178, 122)'"/> <!-- orange -->
-    <xsl:variable name="color_Thom" as="xs:string" select="'rgb(226, 121, 189)'"/>  <!-- pink -->
-    <xsl:variable name="color_1823" as="xs:string" select="'rgb(114, 187, 194)'"/>  <!-- green -->
-    <xsl:variable name="color_1831" as="xs:string" select="'rgb(219, 82, 107)'"/>  <!-- red  -->
-    <xsl:variable name="colorArray" as="xs:string+" select="($color_MS, $color_1818, $color_Thom, $color_1823,$color_1831)"/>
     
     <xsl:template match="/">
-        <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 1000 53000">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 1000 7500">
             <xsl:comment>SPINE TEST: <xsl:value-of select="$spine//tei:ptr/@target[contains(., 'f1823_vol_1_letter_iii')]"/></xsl:comment>
             <g class="outer" transform="translate(50, 50)">        
-                <xsl:apply-templates select="$witLevData//xml/fs[descendant::f/@fVal[not(. = 'null')] ! number() &gt;= 10]"/>
-                <!-- ebb: This uses general comparison to ensure that the whole series of @fVal values must meet the requirement of being greater than or equal to 10. We found that often edits are just 1 to 3 characters of difference, but this visualization is designed to concentrate on lengthier revisions. -->
+                <xsl:apply-templates select="$witLevData//xml/fs[descendant::f/@fVal[not(. = 'null')] ! number() &gt;= 50]"/>
+                <!-- ebb: This uses general comparison to ensure that the whole series of @fVal values must meet the requirement of being greater than or equal to 50. 
+                    We found that often edits are just 1 to 3 characters of difference, but this visualization is designed to concentrate on lengthier revisions. 
+                    NOTE: The yPos variable defined below MUST MATCH the xsl:apply-templates selection here, if we wish to change the values displayed in the heatmap. 
+                -->
             </g>
         </svg>
     </xsl:template>
     <xsl:template match="xml/fs">
         <xsl:variable name="currentApp" as="element()" select="current()"/>
-        <xsl:variable name="yPos" select="(count($currentApp/preceding-sibling::fs[descendant::f/@fVal[not(. = 'null')] ! number() &gt;= 10]) + 1) * 30"/>
-        <!-- ebb: The next variables control for column position in the SVG -->
-        <xsl:variable name="cu_pos" select="position()"/>
-        <xsl:variable name="vertPos" as="xs:integer" select="$cu_pos mod 11"/>
-        <xsl:variable name="columnPos" as="xs:decimal" select="(floor($cu_pos div 11) + 1) * 500"/>
-        <!-- 2024-07-23 CONTINUE: Apply these to create three columns for this SVG-->
+        <xsl:variable name="yPos" select="(count($currentApp/preceding-sibling::fs[descendant::f/@fVal[not(. = 'null')] ! number() &gt;= 50]) + 1) * 30"/>
+        <!-- ebb: IMPORTANT: The yPos variable MUST MATCH xsl:apply-templates in the previous template. 
+            These are both currently set to plot only passages where the edit distance is higher than 50 in order to keep the heatmap concise. -->
+
         <g id="{@feats}">
         <xsl:for-each select="$wits">  
             <xsl:variable name="currentWit" as="xs:string" select="current()"/>
-            <xsl:variable name="heatMapVal"  select="(($currentApp/f[@name=current()]/fs[@feats='witData']/f[not(@name='fMS_empty')]/@fVal[not(. = 'null')] ! number() => avg()) * (255 div $maxLevDistance)) ! ceiling(.)"/>
-            <!-- This takes the average of the lev distance values given for comparisons with a given witness. -->
+            <xsl:variable name="heatMapVal"  select="(($currentApp/f[@name=current()]/fs[@feats='witData']/f[not(@name='fMS_empty')]/@fVal[not(. = 'null')] ! number() => avg()) * (127 div $maxLevDistance)) ! ceiling(.)"/>
+            <!-- This takes the average of the lev distance values given for comparisons with a given witness, and maps it to a scale of 255 for rgb plotting. 
+                Changes to try: Try making it the max() instead of the avg() distance value. Is that more interesting? Or less accurate? I preferred the average of all the values for displaying a single value
+                representing a witnesses difference from all the others.
+                2024-07-30 ebb: I'm redoing this to start from a base grey value of rgb(128,128,128). So I'm scaling the heatmap values on a basis of 55 instead of 255. We'll add this heatmap value to a base 
+                of 200 in the Red category, and leave Blue and Green at 200.  (55 + 200 = 255, or the max possible red, which will be for our max edit distance value.)
+            -->
             <xsl:variable name="editionRegex" as="xs:string" select="'::.*?#'||current()"/>
             <xsl:comment>Edition Regex: <xsl:value-of select="$editionRegex"/></xsl:comment>
             <xsl:variable name="linkInfo" as="xs:string?" select="($currentApp/f[@name=current()][.//f[@name[contains(., '::')]]]//f/@name ! tokenize(., $editionRegex) ! tokenize(., '::')[starts-with(., 'C')])[last()]"/>
          <xsl:comment>LinkInfo VALUE: <xsl:value-of select="$linkInfo"/></xsl:comment> 
             
             <xsl:variable name="chapterLocation" select="($spine//tei:rdgGrp[@xml:id=$linkInfo and descendant::tei:ptr]//tei:ptr/@target)[not(contains(., 'sga'))][1] ! tokenize(., '2023-variorum-chapters/')[last()] ! substring-before(., '#') ! substring-before(., '.xml')"/>   
-            
-      
+            <!-- 2024-07-23 ebb: The above code for retrieving chapterLocation info isn't matching properly in the spine files. 
+                It is reaching into the correct rdGrp, but I cannot create a filter to pull ptr/@target att values for the specific witness for some reason: possibly a namespace issue. XPath predicates are failing to retrieve anything when 
+                seeking the current witness within the given rdgGrp. Instead, just to retrieve a link to the correct location in ANY of the editions, I reached successfully for the FIRST available link that doesn't contain sga. 
+                So we're taking the first available ptr/@target : 
+                ($spine//tei:rdgGrp[@xml:id=$linkInfo and descendant::tei:ptr]//tei:ptr/@target)[not(contains(., 'sga'))][1] 
                 
-            
-            
-            <!-- 2024-07-23 ebb: The above code for retrieving chapterLocation info isn't matching properly in the spine files to pull  ptr/@target att values within the specific witness for some reason. So we're taking the first available ptr/@target for the moment. 
-                Some XPath filters we want: 
-                [substring-after(@wit, '#') = current()]/tei:ptr/@target ! tokenize(., '2023-variorum-chapters/')[last()] ! substring-before(., '#') ! substring-before(., '.xml') -->
+                The [not(contains, 'sga')] filter just eliminates ptr elements nested deep in the rdgGrp that point into the Shelley-Godwin Archive.  
+                
+                Some XPath filters we want to retrieve the correct witness, but that don't work:
+                $spin/tei:rdgGrp[@xml:id=$linkInfo/tei:rdg[substring-after(@wit, '#') = current()]/tei:ptr/@target ! tokenize(., '2023-variorum-chapters/')[last()] ! substring-before(., '#') ! substring-before(., '.xml') -->
             
             <xsl:comment><xsl:value-of select="$currentWit"/> SPINE CHAPTER LOCATION: <xsl:value-of select="$chapterLocation"/></xsl:comment>
             
@@ -81,14 +78,16 @@
             <g class="{current()}">
            <xsl:choose> 
                <xsl:when test="current() = 'fMS' and $currentApp/f[@name='fMS'][descendant::f/@fVal => distinct-values() = 'null']">
-                   <!-- Output nothing for fMS here because it's missing at this point.   -->
+                   <!-- Output nothing for fMS here because it's missing at this point: This will allow us to see the gap. -->
                </xsl:when>
              
               <xsl:otherwise> 
-                  <line x1="{position() * 150}" x2="{position() * 150}" y1="{$yPos}" y2="{$yPos + 30}" stroke-width="100" stroke="rgb({$heatMapVal}, {255 - 2*$heatMapVal}, {255 - 2*$heatMapVal})" xlink:href="{$linkConstructor}">
+                 
+                  <a xlink:href="{$linkConstructor}">
+                      <line x1="{position() * 150}" x2="{position() * 150}" y1="{$yPos}" y2="{$yPos + 30}" stroke-width="100" stroke="rgb({200 + $heatMapVal}, {200 - $heatMapVal}, {200 - $heatMapVal})">
                       <title><xsl:value-of select="translate($currentApp/@feats, '_', ' ')"/></title>            
                   </line>
-               <!--   <text x="{position() * 150}" y="{$yPos + 15}" text-anchor="middle"><xsl:value-of select="translate($currentApp/@feats, '_', ' ')"/></text> -->
+               <!--   <text x="{position() * 150}" y="{$yPos + 15}" text-anchor="middle"><xsl:value-of select="translate($currentApp/@feats, '_', ' ')"/></text> --></a>
               </xsl:otherwise>
            </xsl:choose>
             </g>
