@@ -47,27 +47,14 @@
             <xsl:variable name="currentWit" as="xs:string" select="current()"/>
             <xsl:variable name="heatMapVal"  select="(($currentApp/f[@name=current()]/fs[@feats='witData']/f[not(@name='fMS_empty')]/@fVal[not(. = 'null')] ! number() => avg()) * (127 div $maxLevDistance)) ! ceiling(.)"/>
             <!-- This takes the average of the lev distance values given for comparisons with a given witness, and maps it to a scale of 255 for rgb plotting. 
-                Changes to try: Try making it the max() instead of the avg() distance value. Is that more interesting? Or less accurate? I preferred the average of all the values for displaying a single value
-                representing a witnesses difference from all the others.
-                2024-07-30 ebb: I'm redoing this to start from a base grey value of rgb(128,128,128). So I'm scaling the heatmap values on a basis of 55 instead of 255. We'll add this heatmap value to a base 
-                of 200 in the Red category, and leave Blue and Green at 200.  (55 + 200 = 255, or the max possible red, which will be for our max edit distance value.)
+                2024-07-30 ebb: I'm redoing this to start from a base grey value of rgb(200,200,200). So I'm scaling the heatmap values on a basis of 127 (half of 255). We'll add this heatmap value to a base of 200 in the Red category, and leave Blue and Green at 200.  (55 + 200 = 255, or the max possible red, which will be for our max edit distance value. The values fit in the rgb 255 range allowing good red accents for highest edit distances. )
             -->
-            <xsl:variable name="editionRegex" as="xs:string" select="'::.*?#'||current()"/>
+            <xsl:variable name="editionRegex" as="xs:string" select="'::[^C]*?#'||current()"/>
             <xsl:comment>Edition Regex: <xsl:value-of select="$editionRegex"/></xsl:comment>
-            <xsl:variable name="linkInfo" as="xs:string?" select="($currentApp/f[@name=current()][.//f[@name[contains(., '::')]]]//f/@name ! tokenize(., $editionRegex) ! tokenize(., '::')[starts-with(., 'C')])[last()]"/>
+            <xsl:variable name="linkInfo" as="xs:string?" select="($currentApp/f[@name=current()][.//f[@name[contains(., '::')]]]//f/@name ! tokenize(., $editionRegex)[1])[last()] ! tokenize(., '::')[last()]"/>
          <xsl:comment>LinkInfo VALUE: <xsl:value-of select="$linkInfo"/></xsl:comment> 
             
-            <xsl:variable name="chapterLocation" select="($spine//tei:rdgGrp[@xml:id=$linkInfo and descendant::tei:ptr]//tei:ptr/@target)[not(contains(., 'sga'))][1] ! tokenize(., '2023-variorum-chapters/')[last()] ! substring-before(., '#') ! substring-before(., '.xml')"/>   
-            <!-- 2024-07-23 ebb: The above code for retrieving chapterLocation info isn't matching properly in the spine files. 
-                It is reaching into the correct rdGrp, but I cannot create a filter to pull ptr/@target att values for the specific witness for some reason: possibly a namespace issue. XPath predicates are failing to retrieve anything when 
-                seeking the current witness within the given rdgGrp. Instead, just to retrieve a link to the correct location in ANY of the editions, I reached successfully for the FIRST available link that doesn't contain sga. 
-                So we're taking the first available ptr/@target : 
-                ($spine//tei:rdgGrp[@xml:id=$linkInfo and descendant::tei:ptr]//tei:ptr/@target)[not(contains(., 'sga'))][1] 
-                
-                The [not(contains, 'sga')] filter just eliminates ptr elements nested deep in the rdgGrp that point into the Shelley-Godwin Archive.  
-                
-                Some XPath filters we want to retrieve the correct witness, but that don't work:
-                $spin/tei:rdgGrp[@xml:id=$linkInfo/tei:rdg[substring-after(@wit, '#') = current()]/tei:ptr/@target ! tokenize(., '2023-variorum-chapters/')[last()] ! substring-before(., '#') ! substring-before(., '.xml') -->
+          <xsl:variable name="chapterLocation" select="($spine//tei:rdgGrp[@xml:id=$linkInfo and descendant::tei:ptr]/tei:rdg[substring-after(@wit, '#') = $currentWit]/tei:ptr/@target)[not(contains(., 'sga'))][1] ! tokenize(., '2023-variorum-chapters/')[last()] ! substring-before(., '#') ! substring-before(., '.xml')"/> 
             
             <xsl:comment><xsl:value-of select="$currentWit"/> SPINE CHAPTER LOCATION: <xsl:value-of select="$chapterLocation"/></xsl:comment>
             
@@ -84,7 +71,7 @@
               <xsl:otherwise> 
                  
                   <a xlink:href="{$linkConstructor}">
-                      <line x1="{position() * 150}" x2="{position() * 150}" y1="{$yPos}" y2="{$yPos + 30}" stroke-width="100" stroke="rgb({200 + $heatMapVal}, {200 - $heatMapVal}, {200 - $heatMapVal})">
+                      <line x1="{position() * 150}" x2="{position() * 150}" y1="{$yPos}" y2="{$yPos + 30}" stroke-width="100" stroke="rgb({200 + $heatMapVal}, {200 - $heatMapVal * 2}, {200 - $heatMapVal * 2})">
                       <title><xsl:value-of select="translate($currentApp/@feats, '_', ' ')"/></title>            
                   </line>
                <!--   <text x="{position() * 150}" y="{$yPos + 15}" text-anchor="middle"><xsl:value-of select="translate($currentApp/@feats, '_', ' ')"/></text> --></a>
