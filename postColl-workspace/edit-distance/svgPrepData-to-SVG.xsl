@@ -59,20 +59,23 @@
             <xsl:comment><xsl:value-of select="$currentWit"/> SPINE CHAPTER LOCATION: <xsl:value-of select="$chapterLocation"/></xsl:comment>
             
             
-            <xsl:variable name="linkConstructor" as="xs:string" select="'https://frankensteinvariorum.org/viewer/'||$chapterLocation ! tokenize(., '_') ! substring-after(., 'f')||'/'||$chapterLocation ! substring-after(., '_')||'/#'||$linkInfo ! substring-before(., '_rg')"/>
+            <xsl:variable name="linkConstructor" as="xs:string" select="'https://frankensteinvariorum.org/viewer/'||$chapterLocation ! tokenize(., '_') ! substring-after(., 'f') ! translate(., 'rom', '')||'/'||$chapterLocation ! substring-after(., '_')||'/#'||$linkInfo ! substring-before(., '_rg')"/>
             <!-- SAMPLE LINK TO FV: https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_i/#C24_app15 -->
               
             <g class="{current()}">
            <xsl:choose> 
-               <xsl:when test="current() = 'fMS' and $currentApp/f[@name='fMS'][descendant::f/@fVal => distinct-values() = 'null']">
-                   <!-- Output nothing for fMS here because it's missing at this point: This will allow us to see the gap. -->
+              <xsl:when test="current() = 'fMS' and $currentApp/f[@name='fMS'][descendant::f/@fVal => distinct-values() = 'null']">
+          
+                   <!-- Output nothing for fMS here because it's missing at this point: This will allow us to see the gap.
+                   2024-07-31 ebb: THIS MAY BE PROBLEMATIC: investigate how we're representing other witnesses like 1831 when they are null.
+                   -->
                </xsl:when>
              
               <xsl:otherwise> 
                  
                   <a xlink:href="{$linkConstructor}">
                       <line x1="{position() * 150}" x2="{position() * 150}" y1="{$yPos}" y2="{$yPos + 30}" stroke-width="100" stroke="rgb({200 + $heatMapVal}, {200 - $heatMapVal * 2}, {200 - $heatMapVal * 2})">
-                      <title><xsl:value-of select="translate($currentApp/@feats, '_', ' ')"/></title>            
+                      <title><xsl:value-of select="translate($chapterLocation, '_', ' ') ! substring(., 2)"/></title>            
                   </line>
                <!--   <text x="{position() * 150}" y="{$yPos + 15}" text-anchor="middle"><xsl:value-of select="translate($currentApp/@feats, '_', ' ')"/></text> --></a>
               </xsl:otherwise>
