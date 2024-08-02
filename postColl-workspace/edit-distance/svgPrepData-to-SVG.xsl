@@ -58,9 +58,9 @@
             
             <xsl:comment><xsl:value-of select="$currentWit"/> SPINE CHAPTER LOCATION: <xsl:value-of select="$chapterLocation"/></xsl:comment>
             
-            <xsl:variable name="linkConstructor" as="xs:string" select="'https://frankensteinvariorum.org/viewer/'||$chapterLocation ! tokenize(., '_')[1] ! substring-after(., 'f') ! replace(., '(rom)', '')||'/'||$chapterLocation ! substring-after(., '_')||'/#'||$linkInfo ! substring-before(., '_rg')"/>
-<!-- 2024-08-02 ebb: $linkConstructor is now repaired so that it properly handles all MS and Thomas links without problems. There are a small cluster of MS apps in C08 labelled 'MSrom' in the spine files. This linkConstructor variable corrects for those without harming the Thomas links.  -->
-            <!-- SAMPLE LINK TO FV: https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_i/#C24_app15 -->
+            <xsl:variable name="linkConstructor" as="xs:string" select="'https://frankensteinvariorum.org/viewer/'||$chapterLocation ! tokenize(., '_')[1] ! substring-after(., 'f') ||'/'||$chapterLocation ! substring-after(., '_')||'/#'||$linkInfo ! substring-before(., '_rg')"/>
+<!-- PROPERLY WORKING for chapter link construction by selecting only the first token of $chapterLocation. (Thanks, yxj!) ('MSrom' was coming from substring-after(., 'f') in one unique location.)  -->          
+                   <!-- SAMPLE LINK TO FV: https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_i/#C24_app15 -->
               
             <g class="{current()}">
            <xsl:choose> 
