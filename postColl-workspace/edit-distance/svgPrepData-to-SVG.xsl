@@ -54,19 +54,22 @@
             <xsl:variable name="linkInfo" as="xs:string?" select="($currentApp/f[@name=current()][.//f[@name[contains(., '::')]]]//f/@name ! tokenize(., $editionRegex)[1])[last()] ! tokenize(., '::')[last()]"/>
          <xsl:comment>LinkInfo VALUE: <xsl:value-of select="$linkInfo"/></xsl:comment> 
             
+            <xsl:variable name="parentRdgGrp" select="$spine//tei:rdgGrp[@xml:id=$linkInfo]"/> <!-- Access the rdgGrp to reach shared normalized tokens in @n. --> 
+            
+         <!--   <xsl:comment>READINGGRP tokens: <xsl:value-of select="$parentRdgGrp/@n"/></xsl:comment> -->
+            
           <xsl:variable name="chapterLocation" select="($spine//tei:rdgGrp[@xml:id=$linkInfo and descendant::tei:ptr]/tei:rdg[substring-after(@wit, '#') = $currentWit]/tei:ptr/@target)[not(contains(., 'sga'))][1] ! tokenize(., '2023-variorum-chapters/')[last()] ! substring-before(., '#') ! substring-before(., '.xml')"/> 
             
             <xsl:comment><xsl:value-of select="$currentWit"/> SPINE CHAPTER LOCATION: <xsl:value-of select="$chapterLocation"/></xsl:comment>
             
-            
-            <xsl:variable name="linkConstructor" as="xs:string" select="'https://frankensteinvariorum.org/viewer/'||$chapterLocation ! tokenize(., '_')[1] ! substring-after(., 'f') ! replace(., '(rom)', '')||'/'||$chapterLocation ! substring-after(., '_')||'/#'||$linkInfo ! substring-before(., '_rg')"/>
-         
-            <!-- SAMPLE LINK TO FV: https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_i/#C24_app15 -->
+            <xsl:variable name="linkConstructor" as="xs:string" select="'https://frankensteinvariorum.org/viewer/'||$chapterLocation ! tokenize(., '_')[1] ! substring-after(., 'f') ||'/'||$chapterLocation ! substring-after(., '_')||'/#'||$linkInfo ! substring-before(., '_rg')"/>
+<!-- PROPERLY WORKING for chapter link construction by selecting only the first token of $chapterLocation. (Thanks, yxj!) ('MSrom' was coming from substring-after(., 'f') in one unique location.)  -->          
+                   <!-- SAMPLE LINK TO FV: https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_i/#C24_app15 -->
               
             <g class="{current()}">
            <xsl:choose> 
-              <xsl:when test="current() = 'fMS' and $currentApp/f[@name='fMS'][descendant::f/@fVal => distinct-values() = 'null']">
-          
+<!--              <xsl:when test="current() = 'fMS' and $currentApp/f[@name='fMS'][descendant::f/@fVal => distinct-values() = 'null']">-->
+               <xsl:when test="$linkInfo ! tokenize(., '_')[last()] = 'empty'">
                    <!-- Output nothing for fMS here because it's missing at this point: This will allow us to see the gap.
                    2024-07-31 ebb: THIS MAY BE PROBLEMATIC: investigate how we're representing other witnesses like 1831 when they are null.
                    -->
@@ -76,9 +79,30 @@
                  
                   <a xlink:href="{$linkConstructor}">
                       <line x1="{position() * 150}" x2="{position() * 150}" y1="{$yPos}" y2="{$yPos + 30}" stroke-width="100" stroke="rgb({200 + $heatMapVal}, {200 - $heatMapVal * 2}, {200 - $heatMapVal * 2})">
-                      <title><xsl:value-of select="translate($chapterLocation, '_', ' ') ! substring(., 2)"/></title>            
+<!--                      <title><xsl:value-of select="translate($chapterLocation, '_', ' ') ! substring(., 2)"/></title>-->
+                          <title><xsl:value-of select="translate($chapterLocation, '_', ' ') ! substring(., 2) || ' ' || $linkInfo ! substring-before(., '_rg')"/>
+                              <!-- 2024-08-02 ebb: 
+    Marking chapter divisions: 
+    Look in rdgGrp @n for:
+    "preface"
+    "letter"
+    "ch" 
+    "chap"
+    "walton in cont" (is this tokenized?)
+
+    -->
+    <xsl:if test="$parentRdgGrp/@n[matches(., '(preface|letter|ch|continuation)')]">                           
+<xsl:text>: </xsl:text>
+                  <xsl:value-of select="$parentRdgGrp/@n ! tokenize(., ''',''') => string-join(' ') "/>
+  </xsl:if> 
+                          </title>
                   </line>
                <!--   <text x="{position() * 150}" y="{$yPos + 15}" text-anchor="middle"><xsl:value-of select="translate($currentApp/@feats, '_', ' ')"/></text> --></a>
+                  <!-- $parentRdgGrp/@n[matches(., 'chapter')] and -->
+                  <xsl:if test="$currentWit = 'f1818' and $parentRdgGrp/@n[contains(., 'letter')]">        
+                      <line class="chapLine" x1="50" x2="{position() * 150}" y1="{$yPos}" y2="{$yPos}" stroke="black" stroke-width="5"/>      
+                  
+                  </xsl:if>              
               </xsl:otherwise>
            </xsl:choose>
             </g>
