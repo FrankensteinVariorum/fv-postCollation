@@ -77,7 +77,7 @@
                   <a xlink:href="{$linkConstructor}">
                       <line x1="{position() * 150}" x2="{position() * 150}" y1="{$yPos}" y2="{$yPos + 30}" stroke-width="100" stroke="rgb({200 + $heatMapVal}, {200 - $heatMapVal * 2}, {200 - $heatMapVal * 2})">
 <!--                      <title><xsl:value-of select="translate($chapterLocation, '_', ' ') ! substring(., 2)"/></title>-->
-                          <title><xsl:value-of select="translate($chapterLocation, '_', ' ') ! substring(., 2) || ' ' || $linkInfo"/></title>
+                          <title><xsl:value-of select="translate($chapterLocation, '_', ' ') ! substring(., 2) || ' ' || $linkInfo ! substring-before(., '_rg')"/></title>
                   </line>
                <!--   <text x="{position() * 150}" y="{$yPos + 15}" text-anchor="middle"><xsl:value-of select="translate($currentApp/@feats, '_', ' ')"/></text> --></a>
               </xsl:otherwise>
