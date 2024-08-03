@@ -31,8 +31,8 @@
     </xsl:template>
     <xsl:template match="f">
         <xsl:choose>
-            <xsl:when test="matches(@name, 'rg_empty::.*?#fMS')">
-                <f name="fMS_empty" fVal="null"/>
+            <xsl:when test="matches(@name, 'rg_empty::.*?#f')">
+                <f name="witness_empty" fVal="null"/>
             </xsl:when>
             <xsl:otherwise>
                 <f name="{@name}" fVal="{@fVal}"/>
