@@ -91,10 +91,9 @@
     "walton in cont" (is this tokenized?)
 
     -->
-    <xsl:if test="$parentRdgGrp/@n[matches(., '(preface|letter|ch|continuation)')]">                           
-<xsl:text>: </xsl:text>
-                  <xsl:value-of select="$parentRdgGrp/@n ! tokenize(., ''',''') => string-join(' ') "/>
-  </xsl:if> 
+                            
+<xsl:text>: </xsl:text> <!-- ebb: Here outputing a short string of the normalized tokens at this point -->
+                              <xsl:value-of select="$parentRdgGrp/@n ! replace(., '[\[\]]', '') ! replace(., '[''], ['']', ' ') ! replace(., '^['']', '') ! replace(., '['']$', '') ! replace(., '(&lt;.+?&gt;)', '') ! replace(., '%q%', '''') ! substring(., 1, 80) "/>
                           </title>
                   </line>
                <!--   <text x="{position() * 150}" y="{$yPos + 15}" text-anchor="middle"><xsl:value-of select="translate($currentApp/@feats, '_', ' ')"/></text> --></a>
