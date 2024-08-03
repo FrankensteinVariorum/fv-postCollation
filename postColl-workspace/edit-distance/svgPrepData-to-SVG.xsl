@@ -19,7 +19,6 @@
     <xsl:variable name="witLevData" as="document-node()" select="doc('svgPrep-witLevData.xml')"/>
     
     <xsl:variable name="spine" as="document-node()+" select="collection('../standoff_Spine/?select=*.xml')"/>
-   
     
     <!-- Color values for the heatmap need to be on an integer range from 0 to 255, but the max fVal is 4221. So we need to convert from a scale from 0 to 4221 to 0 to 255. Divide 255 by the max lev to get a factor for conversion. -->
     <xsl:variable name="maxLevDistance" select="$witLevData//@fVal[not(. = 'null')] => max()"/>
@@ -47,31 +46,28 @@
             <xsl:variable name="currentWit" as="xs:string" select="current()"/>
             <xsl:variable name="heatMapVal"  select="(($currentApp/f[@name=current()]/fs[@feats='witData']/f[not(@name='witness_empty')]/@fVal[not(. = 'null')] ! number() => avg()) * (127 div $maxLevDistance)) ! ceiling(.)"/>
             <!-- This takes the average of the lev distance values given for comparisons with a given witness, and maps it to a scale of 255 for rgb plotting. 
-                2024-07-30 ebb: I'm redoing this to start from a base grey value of rgb(200,200,200). So I'm scaling the heatmap values on a basis of 127 (half of 255). We'll add this heatmap value to a base of 200 in the Red category, and leave Blue and Green at 200.  (55 + 200 = 255, or the max possible red, which will be for our max edit distance value. The values fit in the rgb 255 range allowing good red accents for highest edit distances. )
+                2024-07-30 ebb: I've prepared this to start from a base grey value of rgb(200,200,200). So I'm scaling the heatmap values on a basis of 127 (half of 255). We'll add this heatmap value to a base of 200 in the Red category, and leave Blue and Green at 200.  (55 + 200 = 255, or the max possible red, which will be for our max edit distance value. The values fit in the rgb 255 range allowing good red accents for highest edit distances. )
             -->
             <xsl:variable name="editionRegex" as="xs:string" select="'::[^C]*?#'||current()"/>
             <xsl:comment>Edition Regex: <xsl:value-of select="$editionRegex"/></xsl:comment>
             <xsl:variable name="linkInfo" as="xs:string?" select="($currentApp/f[@name=current()][.//f[@name[contains(., '::')]]]//f/@name ! tokenize(., $editionRegex)[1])[last()] ! tokenize(., '::')[last()]"/>
          <xsl:comment>LinkInfo VALUE: <xsl:value-of select="$linkInfo"/></xsl:comment> 
             
-            <xsl:variable name="parentRdgGrp" select="$spine//tei:rdgGrp[@xml:id=$linkInfo]"/> <!-- Access the rdgGrp to reach shared normalized tokens in @n. --> 
-            
-         <!--   <xsl:comment>READINGGRP tokens: <xsl:value-of select="$parentRdgGrp/@n"/></xsl:comment> -->
+            <xsl:variable name="parentRdgGrp" select="$spine//tei:rdgGrp[@xml:id=$linkInfo]"/> 
+            <!-- This variable accesses the rdgGrp to reach shared normalized tokens in @n. --> 
+           
             
           <xsl:variable name="chapterLocation" select="($spine//tei:rdgGrp[@xml:id=$linkInfo and descendant::tei:ptr]/tei:rdg[substring-after(@wit, '#') = $currentWit]/tei:ptr/@target)[not(contains(., 'sga'))][1] ! tokenize(., '2023-variorum-chapters/')[last()] ! substring-before(., '#') ! substring-before(., '.xml')"/> 
             
             <xsl:comment><xsl:value-of select="$currentWit"/> SPINE CHAPTER LOCATION: <xsl:value-of select="$chapterLocation"/></xsl:comment>
             
-            <xsl:variable name="linkConstructor" as="xs:string" select="'https://frankensteinvariorum.org/viewer/'||$chapterLocation ! tokenize(., '_')[1] ! substring-after(., 'f') ||'/'||$chapterLocation ! substring-after(., '_')||'/#'||$linkInfo ! substring-before(., '_rg')"/>
-<!-- PROPERLY WORKING for chapter link construction by selecting only the first token of $chapterLocation. (Thanks, yxj!) ('MSrom' was coming from substring-after(., 'f') in one unique location.)  -->          
+            <xsl:variable name="linkConstructor" as="xs:string" select="'https://frankensteinvariorum.org/viewer/'||$chapterLocation ! tokenize(., '_')[1] ! substring-after(., 'f') ||'/'||$chapterLocation ! substring-after(., '_')||'/#'||$linkInfo ! substring-before(., '_rg')"/>      
                    <!-- SAMPLE LINK TO FV: https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_i/#C24_app15 -->
               
             <g class="{current()}">
            <xsl:choose> 
-<!--              <xsl:when test="current() = 'fMS' and $currentApp/f[@name='fMS'][descendant::f/@fVal => distinct-values() = 'null']">-->
                <xsl:when test="$linkInfo ! tokenize(., '_')[last()] = 'empty'">
-                   <!-- Output nothing for fMS here because it's missing at this point: This will allow us to see the gap.
-                   2024-07-31 ebb: THIS MAY BE PROBLEMATIC: investigate how we're representing other witnesses like 1831 when they are null.
+                   <!-- Output nothing for any witness that is missing at this point: This will allow us to see a gap in the heatmap for this witness.
                    -->
                </xsl:when>
              
@@ -79,26 +75,15 @@
                  
                   <a xlink:href="{$linkConstructor}">
                       <line x1="{position() * 150}" x2="{position() * 150}" y1="{$yPos}" y2="{$yPos + 30}" stroke-width="100" stroke="rgb({200 + $heatMapVal}, {200 - $heatMapVal * 2}, {200 - $heatMapVal * 2})">
-<!--                      <title><xsl:value-of select="translate($chapterLocation, '_', ' ') ! substring(., 2)"/></title>-->
                           <title><xsl:value-of select="translate($chapterLocation, '_', ' ') ! substring(., 2) || ' ' || $linkInfo ! substring-before(., '_rg')"/>
-                              <!-- 2024-08-02 ebb: 
-    Marking chapter divisions: 
-    Look in rdgGrp @n for:
-    "preface"
-    "letter"
-    "ch" 
-    "chap"
-    "walton in cont" (is this tokenized?)
-
-    -->
+                      
                             
-<xsl:text>: </xsl:text> <!-- ebb: Here outputing a short string of the normalized tokens at this point -->
+<xsl:text>: </xsl:text> <!-- ebb: Here we are outputting a short string of the normalized tokens at this point as part of the mouse-over tooltip.-->
                               <xsl:value-of select="$parentRdgGrp/@n ! replace(., '[\[\]]', '') ! replace(., '[''], ['']', ' ') ! replace(., '^['']', '') ! replace(., '['']$', '') ! replace(., '(&lt;.+?&gt;)', '') ! replace(., '%q%', '''') ! substring(., 1, 80) "/>
                           </title>
                   </line>
-               <!--   <text x="{position() * 150}" y="{$yPos + 15}" text-anchor="middle"><xsl:value-of select="translate($currentApp/@feats, '_', ' ')"/></text> --></a>
-                  <!-- $parentRdgGrp/@n[matches(., 'chapter')] and -->
-                        
+              </a>
+          
               </xsl:otherwise>
            </xsl:choose>
             </g>
