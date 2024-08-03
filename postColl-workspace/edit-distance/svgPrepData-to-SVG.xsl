@@ -26,7 +26,7 @@
     
     <xsl:template match="/">
         <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 1000 7500">
-            <xsl:comment>SPINE TEST: <xsl:value-of select="$spine//tei:ptr/@target[contains(., 'f1823_vol_1_letter_iii')]"/></xsl:comment>
+          <desc>This is an interactive heatmap visualization of the Frankenstein Variorum edition, designed to draw the reader into the Variorum at moments of intense variation. This version was output on <xsl:value-of select="current-dateTime()"/>.</desc>
             <g class="outer" transform="translate(50, 50)">        
                 <xsl:apply-templates select="$witLevData//xml/fs[descendant::f/@fVal[not(. = 'null')] ! number() &gt;= 50]"/>
                 <!-- ebb: This uses general comparison to ensure that the whole series of @fVal values must meet the requirement of being greater than or equal to 50. 
