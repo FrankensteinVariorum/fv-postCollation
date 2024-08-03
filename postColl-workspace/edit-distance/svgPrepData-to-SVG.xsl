@@ -45,7 +45,7 @@
         <g id="{@feats}">
         <xsl:for-each select="$wits">  
             <xsl:variable name="currentWit" as="xs:string" select="current()"/>
-            <xsl:variable name="heatMapVal"  select="(($currentApp/f[@name=current()]/fs[@feats='witData']/f[not(@name='fMS_empty')]/@fVal[not(. = 'null')] ! number() => avg()) * (127 div $maxLevDistance)) ! ceiling(.)"/>
+            <xsl:variable name="heatMapVal"  select="(($currentApp/f[@name=current()]/fs[@feats='witData']/f[not(@name='witness_empty')]/@fVal[not(. = 'null')] ! number() => avg()) * (127 div $maxLevDistance)) ! ceiling(.)"/>
             <!-- This takes the average of the lev distance values given for comparisons with a given witness, and maps it to a scale of 255 for rgb plotting. 
                 2024-07-30 ebb: I'm redoing this to start from a base grey value of rgb(200,200,200). So I'm scaling the heatmap values on a basis of 127 (half of 255). We'll add this heatmap value to a base of 200 in the Red category, and leave Blue and Green at 200.  (55 + 200 = 255, or the max possible red, which will be for our max edit distance value. The values fit in the rgb 255 range allowing good red accents for highest edit distances. )
             -->
@@ -99,10 +99,7 @@
                   </line>
                <!--   <text x="{position() * 150}" y="{$yPos + 15}" text-anchor="middle"><xsl:value-of select="translate($currentApp/@feats, '_', ' ')"/></text> --></a>
                   <!-- $parentRdgGrp/@n[matches(., 'chapter')] and -->
-                  <xsl:if test="$currentWit = 'f1818' and $parentRdgGrp/@n[contains(., 'letter')]">        
-                      <line class="chapLine" x1="50" x2="{position() * 150}" y1="{$yPos}" y2="{$yPos}" stroke="black" stroke-width="5"/>      
-                  
-                  </xsl:if>              
+                        
               </xsl:otherwise>
            </xsl:choose>
             </g>
