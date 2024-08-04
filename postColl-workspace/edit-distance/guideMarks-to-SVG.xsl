@@ -80,7 +80,7 @@
                </xsl:if>
            </xsl:for-each>
               <xsl:variable name="waltonInCont" as="element()" select="($heatMapSVG//g[@class='fMS'][contains(a/@xlink:href, 'walton_in_continuation')])[1]"/>
-              <line x1="-575" x2="300" y1="{$waltonInCont//line/@y1}"  
+              <line x1="-525" x2="300" y1="{$waltonInCont//line/@y1}"  
                   y2="{$waltonInCont//line/@y1}" stroke-width="5" stroke="black"/>
               <text font-size="6rem" font-variant="small-caps" x="-1050" y="{$waltonInCont//line/@y1 + 15}" style="text-anchor: middle">
                   walton, in continuation
