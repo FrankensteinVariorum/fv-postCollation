@@ -16,7 +16,7 @@ found throughout the Frankenstein Variorum. The heatmap visualization is develop
      * The [standoff_Spine directory](https://github.com/FrankensteinVariorum/fv-postCollation/tree/master/postColl-workspace/standoff_Spine), which contains the fully constructed "spine" files constructed during the postCollation pipeline.
 
 2. To add lines and text labels showing the chapter boundaries of 1818 and 1831 editions on the heatmap, run [guideMarks-to-SVG.xsl](https://github.com/FrankensteinVariorum/fv-postCollation/blob/master/postColl-workspace/edit-distance/guideMarks-to-SVG.xsl).
-   This pulls data from the [editionHeatMap.svg](https://github.com/FrankensteinVariorum/fv-postCollation/blob/master/postColl-workspace/edit-distance/editionHeatMap.svg)** generated in the previous stage, and also the
+   This pulls data from the [editionHeatMap.svg](https://github.com/FrankensteinVariorum/fv-postCollation/blob/master/postColl-workspace/edit-distance/editionHeatMap.svg) generated in the previous stage, and also the
    [standoff_Spine directory](https://github.com/FrankensteinVariorum/fv-postCollation/tree/master/postColl-workspace/standoff_Spine) again. It will output the complete heatmap with guidemarks as **[editionHeatMap-with-Guide.svg](https://github.com/FrankensteinVariorum/fv-postCollation/blob/master/postColl-workspace/edit-distance/editionHeatMap-with-Guide.svg)**.
 
    After generating a new heatmap, it should be incorporated with the edition files in the fv-web repo. The SVG code should be included directly in pages in the Astro site for the links to work. 
