@@ -35,19 +35,13 @@
         <xsl:text>&#10;</xsl:text>
     </xsl:template>
     <xsl:template match="rdgGrp">
-        <!--output rdgGrp identifiers and normalized tokens. If the MS notebook witness is present, flag it with #fMS appended to the rdgGrp xml:id. -->  
-       <!-- <xsl:choose>
-            <xsl:when test="rdg/@wit='fMS'">
-                <xsl:value-of select="@xml:id"/><xsl:text>#fMS&#x9;</xsl:text>
-            </xsl:when>
-            <xsl:otherwise><xsl:value-of select="@xml:id"/></xsl:otherwise></xsl:choose>-->
         <!-- First output the rdgGrp xml:id -->
         <xsl:value-of select="@xml:id"/><xsl:text>::</xsl:text>
         <!-- Now, output the witnesses in the rdgGrp-->
         <xsl:value-of select="string-join(rdg/@wit, ' ')"/>
         <xsl:text>&#x9;</xsl:text>
         
-        <!-- next output the normalized string of the rdg at this point -->
+        <!-- Next, output the normalized string of the rdg at this point -->
         <xsl:variable name="trimmed-nVal" as="xs:string">
             <xsl:choose>
                 <xsl:when test="@n = ['']">
