@@ -27,7 +27,7 @@
        <svg 
            width="100%"
            height="100%"
-           viewBox="0 0 3000 7500">
+           viewBox="0 0 3000 7600">
        <xsl:comment>1831 Chapter locations:
        <xsl:value-of select="string-join($chapterLocs-1831, ', ')"/>
        </xsl:comment>
@@ -39,7 +39,7 @@
            
            <xsl:apply-templates select=".//desc"/>
           
-    <g class="outer" transform="translate(750, 100)"> 
+    <g class="outer" transform="translate(1100, 100)"> 
         <xsl:apply-templates select=".//g[@class='outer']/g"/>
 
        
@@ -65,7 +65,7 @@
                  
                  <xsl:choose>
                      <xsl:when test="current() = ('vol_1_letter_ii', 'vol_2_chapter_vi', 'vol_3_chapter_i')">
-                         <line x1="-575" x2="300" y1="{$nearestMatch//line/@y1}"  
+                         <line x1="-675" x2="300" y1="{$nearestMatch//line/@y1}"  
                              y2="{$nearestMatch//line/@y1}" stroke-width="5" stroke="black"/>
                          <text font-size="6rem" font-variant="small-caps" x="-1000" y="{$nearestMatch//line/@y1 + 15}" style="text-anchor: middle">
                              <xsl:value-of select="current() ! translate(., '_', ' ')"/></text>
