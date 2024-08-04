@@ -71,7 +71,7 @@
                              <xsl:value-of select="current() ! translate(., '_', ' ')"/></text>
                      </xsl:when>
                      <xsl:otherwise>
-                         <line x1="0" x2="300" y1="{$currentYpos}"  
+                         <line x1="30" x2="300" y1="{$currentYpos}"  
                              y2="{$currentYpos}" stroke-width="5" stroke="black"/>
                          <text font-size="6rem" font-variant="small-caps" x="-310" y="{$currentYpos + 15}" style="text-anchor: middle">
                              <xsl:value-of select="current() ! translate(., '_', ' ')"/></text> 
@@ -102,7 +102,7 @@
                    <xsl:choose>
                        <xsl:when test="current() = ('letter_ii', 'chapter_xiv')">
                          
-                           <line x1="1450" x2="750" y1="{$nearestMatch//line/@y1}"  
+                           <line x1="1550" x2="750" y1="{$nearestMatch//line/@y1}"  
                                y2="{$nearestMatch//line/@y1}" stroke-width="5" stroke="black"/>
                            <text font-size="6rem" font-variant="small-caps" x="1800" y="{$nearestMatch//line/@y1 + 15}" style="text-anchor: middle">
                                <xsl:value-of select="current() ! translate(., '_', ' ')"/></text>
@@ -117,7 +117,7 @@
                </xsl:if>
            </xsl:for-each>
            <xsl:variable name="waltonInCont" as="element()" select="($heatMapSVG//g[@class='fMS'][contains(a/@xlink:href, 'walton_in_continuation')])[1]"/>
-           <line x1="1050" x2="750" y1="{$waltonInCont//line/@y1}"  
+           <line x1="1100" x2="750" y1="{$waltonInCont//line/@y1}"  
                y2="{$waltonInCont//line/@y1}" stroke-width="5" stroke="black"/>
            <text font-size="6rem" font-variant="small-caps" x="1600" y="{$waltonInCont//line/@y1 + 15}" style="text-anchor: middle">
                walton, in continuation
