@@ -1,7 +1,11 @@
 # fv-postCollation
 This repository is part of the [Frankenstein Variorum project](https://github.com/FrankensteinVariorum) It contains a workspace for post-processing finalized collation files to prepare the Variorum edition. The pipeline of transformations in this repository yields the edition data incorporated in [our static website for the Frankenstein Variorum project](https://frankensteinvariorum.org/).
 
-The workspace in this repo houses a transformation pipeline to prepare the TEI edition files and the TEI standoff spine for the Frankenstein Variorum. Here is a summary of the files to run in order, which an explanation of each process. We plan to bundle these stages into one or two automated processes when the Variorum development is stable. Before we do that, we need to carefully review each stage described below and remove anything dependent on human intervention between pipeline stages. 
+The workspace in this repo houses a transformation pipeline to prepare the TEI edition files and the TEI standoff spine for the Frankenstein Variorum. Here is a summary of the files to run in order, which an explanation of each process. We plan to bundle these stages into one or two automated processes when the Variorum development is stable. Before we do that, we need to carefully review each stage described below and remove anything dependent on human intervention between pipeline stages.
+
+This workspace *also* houses [the "edit-distance" directory](https://github.com/FrankensteinVariorum/fv-postCollation/tree/master/postColl-workspace/edit-distance) for work with calculating and visualizing pairwise edit-distance calculations for each variant passage in the Variorum. This directory stores work on generating our [interactive summary heatmap visualization in SVG](https://github.com/FrankensteinVariorum/fv-postCollation/blob/master/postColl-workspace/edit-distance/editionHeatMap-with-Guide.svg) of the entire Variorum. The Readme in that directory includes an explanation of the XSLT files and directories required to generate the interactive heatmap.
+
+# Constructing the TEI digital edition after collation: the Pipeline
 
 ## Phase 1: Convert collation data to TEI
 ### Run `P1-bridgeEditionConstructor.xsl`
