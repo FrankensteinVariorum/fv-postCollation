@@ -1,7 +1,7 @@
 # fv-postCollation
 This repository is part of the [Frankenstein Variorum project](https://github.com/FrankensteinVariorum) It contains a workspace for post-processing finalized collation files to prepare the Variorum edition. The pipeline of transformations in this repository yields the edition data incorporated in [our static website for the Frankenstein Variorum project](https://frankensteinvariorum.org/).
 
-The workspace in this repo houses a transformation pipeline to prepare the TEI edition files and the TEI standoff spine for the Frankenstein Variorum. Here is a summary of the files to run in order, which an explanation of each process. Now that development of the pipeline is completed and the files are stable, we have now bundled these stages into an automated shell script. This Readme contains a review of each stage of the process for others to adapt, or for us to modify as needed.
+The workspace in this repo houses a transformation pipeline to prepare the TEI edition files and the TEI standoff spine for the Frankenstein Variorum. This README provides a summary of the files to run in order, with an explanation of each process. We began writing this documentation in 2018 and we have revised it as we fine-tuned the process and evaluated the outputs for problems. Since 2023 the development of the pipeline is completed and the files are stable, so we have now bundled these stages into an automated shell script designed to be run whenever we need to make a correction to the edition and re-run the collation. This documentation now provides detailed review of each stage of the process for others to adapt, or for us to modify as needed.
 
 This workspace *also* houses [the "edit-distance" directory](https://github.com/FrankensteinVariorum/fv-postCollation/tree/master/postColl-workspace/edit-distance) for work with calculating and visualizing pairwise edit-distance calculations for each variant passage in the Variorum. This directory stores work on generating our [interactive summary heatmap visualization in SVG](https://github.com/FrankensteinVariorum/fv-postCollation/blob/master/postColl-workspace/edit-distance/editionHeatMap-with-Guide.svg) of the entire Variorum. The [README for the edit-distance directory](https://github.com/FrankensteinVariorum/fv-postCollation/blob/master/postColl-workspace/edit-distance/README.md) includes an explanation of the XSLT files and directories required to generate the interactive heatmap.
 
@@ -11,13 +11,13 @@ This workspace *also* houses [the "edit-distance" directory](https://github.com/
 ### Run `P1-bridgeEditionConstructor.xsl`
 * **Input:** `collated-data` directory
 * **Output:** `P1-output` directory
-* 2018-06-21 ebb: Bridge Edition Constructor Part 1: This first phase up-converts collation data files to TEI and adds `@xml:ids` to each `<app>` element in the output collation. In the event that the collation process broke apart the self-closed elements into two tags, this stylesheet catches these and restores them to single tags.
+* Bridge Edition Constructor Part 1: This first phase up-converts collation data files to TEI and adds `@xml:ids` to each `<app>` element in the output collation. In the event that the collation process broke apart the self-closed elements into two tags, this stylesheet catches these and restores them to single tags.
 
 ## Phase 2: Generate distinct edition files
 ### Run `P2-bridgeEditionConstructor.xsl`
 * **Input:** `P1-output` directory
 * **Output:** `P2-output` directory
-* 2018-06-21 ebb updated 2018-08-01: Bridge Edition Constructor Part 2: This second phase begins building the output Bridge editions by consuming the `<app>` and `<rdg>` elements to replace them with `<seg>` elements that hold the identifiers of their apps and indication of whether they are portions.
+* Bridge Edition Constructor Part 2: This second phase begins building the output Bridge editions by consuming the `<app>` and `<rdg>` elements to replace them with `<seg>` elements that hold the identifiers of their apps and indication of whether they are portions.
 * This stylesheet does NOT YET generate the spine file. We're deferring that to a later stage when we know where the `<seg>` elements appear in relation to the hierarchy of the edition elements. 
 * We will generate the spine file following the edition files constructed in bridge P5, so that we have the benefit of seeing the `<seg>` elements and where pointers to the editions will need to be multiplied (e.g. converted to a start pointer and an end pointer around a paragraph break). We can then generate pointers to more precise locations. 
 
@@ -33,7 +33,7 @@ This workspace *also* houses [the "edit-distance" directory](https://github.com/
 ### Option 1: Run `P4-raiseBridgeElems.xsl`
 * **Input:** `P3.5-output` directory 
 * **Output:** `P4-output` directory 
-* 2018-07-07 ebb: This stylesheet works to raise "trojan elements" from the inside out, this time over a collection of Frankenstein files output from collation. It also adapts djb's function to process an element node rather than a document node in memory to perform its recursive processing. 
+* This stylesheet works to raise "trojan elements" from the inside out, this time over a collection of Frankenstein files output from collation. It also adapts djb's function to process an element node rather than a document node in memory to perform its recursive processing. 
 
 ### Option 2: Run `P4Sax-raiseBridgeElems.xsl`
 * This is an alternative version of the P4 transformation designed to run in the shell rather than in oXygen. We may wish to use this when working with the full scope of edition files representing the novel from start to end, where oXygen processing may be bogged down.   
@@ -42,7 +42,7 @@ This workspace *also* houses [the "edit-distance" directory](https://github.com/
        java -jar saxon.jar -s:P3.5-output -xsl:P4Sax-raiseBridgeElems.xsl -o:P4-output
 ``  
 * After running this, be sure to rename the output files to begin with `P4_`
-* 2018-07-15 ebb: Bridge Phase 4 raises the hierarchy of elements from the source documents, leaving the seg elements unraised. This stylesheet uses an "inside-out" function to raise the elements from the deepest levels (those with only text nodes between their start and end markers) first. This and other methods to "raise" flattened or "Trojan" elements are documented in https://github.com/djbpitt/raising with thanks to David J. Birnbaum and Michael Sperberg-McQueen for their helpful experiments. 
+* Bridge Phase 4 raises the hierarchy of elements from the source documents, leaving the seg elements unraised. This stylesheet uses an "inside-out" function to raise the elements from the deepest levels (those with only text nodes between their start and end markers) first. This and other methods to "raise" flattened or "Trojan" elements are documented in https://github.com/djbpitt/raising with thanks to David J. Birnbaum and Michael Sperberg-McQueen for their helpful experiments. 
 
 ## Phase 5: Prepare and raise `<seg>` elements for variant passages in each edition
 ### Run `P5-Pt1-SegTrojans.xsl`
@@ -59,7 +59,6 @@ This workspace *also* houses [the "edit-distance" directory](https://github.com/
        * for simple segs with START IDS that have following-sibling ends 
        * for fragmented segs with START IDs. 
        * for segs with END IDs 
-     * **2023-05-21 ebb: Are the next two processing stages necessary?** 
        * for simple segs where end IDS have a preceding-sibling start ID. 
        * for fragmented end IDs that don't have a preceding-sibling start ID.
     
@@ -79,15 +78,15 @@ This workspace *also* houses [the "edit-distance" directory](https://github.com/
 ### Run `P5-Pt3MedialSTARTSegMarkers.xsl`
 * **Input:** `preP5b-output` directory
 * **Output:** `preP5c-output` directory
-* 2018-10-16 ebb: This XSLT plants medial seg START markers to surround multiple element nodes in between fragmented seg start-pairs and end-pairs  
+* This XSLT plants medial seg START markers to surround multiple element nodes in between fragmented seg start-pairs and end-pairs  
 
 ### Run `P5-Pt4MedialENDSegMarkers.xsl`
 * **Input:** `preP5c-output` directory
 * **Output:** `preP5d-output` directory
-* 2018-10-15 ebb: This XSLT plants medial seg END markers to surround multiple element nodes in between fragmented seg start-pairs and end-pairs  
+* This XSLT plants medial seg END markers to surround multiple element nodes in between fragmented seg start-pairs and end-pairs  
 
 ### Run `P5-Pt5raiseSegElems.xsl`
-* 2018-07-30 ebb: Run this with Saxon at command line to raise paired seg markers, using:
+* Run this with Saxon at command line to raise paired seg markers, using:
   ``
     java -jar saxon.jar -s:preP5d-output/ -xsl:P5-Pt5raiseSegElems.xsl -o:P5-output 
   ``    
@@ -141,13 +140,13 @@ java -jar saxon.jar -s:P1-output/ -xsl:P6_SpineGenerator.xsl -o:early_standoff_S
 ### Run `spineAdjustor.xsl` 
 * **Input:** `early_standoff_Spine` directory
 * **Output:** `preLev_standoff_Spine` directory
-* 2018-10-23 ebb: In this stage, we "sew up" the lettered spine sub-chunk files into complete chunks to match their counterpart edition files. 2018-10-25: Also, we're adding hashtags if they're missing in the @wit on rdg.
+*  In this stage, we "sew up" the lettered spine sub-chunk files into complete chunks to match their counterpart edition files. 2018-10-25: Also, we're adding hashtags if they're missing in the @wit on rdg.
 * 2023-07-14: We are no longer breaking the collation units into sub-chunks, so we are editing this out, but adding some new functionality. 
 
 ### Run `edit-distance/extractCollationData.xsl`
 * **Input:** `preLev_standoff_Spine` directory
 * **Output:** `edit-distance/spineData.txt` 
-* 2018-10-21 updated 2019-03-16 ebb: This XSLT reads from the spine files as prepped through P5 of the postCollation pipeline, and it outputs a single tab-separated plain text file, named spineData.txt, with normalized data pulled from each rdgGrp (its @n attribute) in the spine files. The output file will need to be converted to ascii for weighted levenshtein calculations. 
+*  This XSLT reads from the spine files as prepped through P5 of the postCollation pipeline, and it outputs a single tab-separated plain text file, named spineData.txt, with normalized data pulled from each rdgGrp (its @n attribute) in the spine files. The output file will need to be converted to ascii for weighted levenshtein calculations. 
 
 ### Convert `spineData.txt` to ASCII format 
 * This stage is necessary to prepare the variorum data for processing with the numpy library in Python to calculate edit distance values at each variant location. 
