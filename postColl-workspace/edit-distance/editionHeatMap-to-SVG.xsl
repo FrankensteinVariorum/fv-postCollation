@@ -24,9 +24,9 @@
     <xsl:variable name="maxLevDistance" select="$witLevData//@fVal[not(. = 'null')] => max()"/>
     
     <xsl:template match="/">
-        <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 1000 7500">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 3000 7600">
           <desc>This is an interactive heatmap visualization of the Frankenstein Variorum edition, designed to draw the reader into the Variorum at moments of intense variation. This version was output on <xsl:value-of select="current-dateTime()"/>.</desc>
-            <g class="outer" transform="translate(50, 50)">        
+            <g class="outer" transform="translate(1100, 100)">        
                 <xsl:apply-templates select="$witLevData//xml/fs[descendant::f/@fVal[not(. = 'null')] ! number() &gt;= 50]"/>
                 <!-- ebb: This uses general comparison to ensure that the whole series of @fVal values must meet the requirement of being greater than or equal to 50. 
                     We found that often edits are just 1 to 3 characters of difference, but this visualization is designed to concentrate on lengthier revisions. 
@@ -61,7 +61,7 @@
             
             <xsl:comment><xsl:value-of select="$currentWit"/> SPINE CHAPTER LOCATION: <xsl:value-of select="$chapterLocation"/></xsl:comment>
             
-            <xsl:variable name="linkConstructor" as="xs:string" select="'https://frankensteinvariorum.org/viewer/'||$chapterLocation ! tokenize(., '_')[1] ! substring-after(., 'f') ||'/'||$chapterLocation ! substring-after(., '_')||'/#'||$linkInfo ! substring-before(., '_rg')"/>      
+            <xsl:variable name="linkConstructor" as="xs:string" select="'https://frankensteinvariorum.org/viewer/'||$chapterLocation ! tokenize(., '_')[1] ! substring-after(., 'f') ||'/'||$chapterLocation ! substring-after(., '_')||'#'||$linkInfo ! substring-before(., '_rg')"/>      
                    <!-- SAMPLE LINK TO FV: https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_i/#C24_app15 -->
               
             <g class="{current()}">
