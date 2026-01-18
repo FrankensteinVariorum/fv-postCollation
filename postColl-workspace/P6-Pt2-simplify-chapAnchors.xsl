@@ -97,8 +97,9 @@
     </xsl:for-each>
   </xsl:template>
 
-  <xsl:template match="tei:seg[tei:milestone[@unit = 'chapter' or @unit='preface' or @unit='letter'][@type = 'start']]">
+  <xsl:template match="tei:seg[tei:milestone[@unit='preface' or @unit='introduction' or @unit='letter' or @unit = 'chapter'][@type = 'start']]">
     <!--ebb: This template processes Print witness chapter start markers within seg elements. -->
+    <!-- 2026-01-18 ebb: adding @unit='introduction' to now incorporate the 1831 introduction. -->
     <xsl:param name="witness"/>
     <xsl:variable name="chapterMarker" as="element()"
       select="tei:milestone[@unit = 'chapter' or @unit='preface' or @unit='letter'][@type = 'start']"/>
@@ -107,10 +108,10 @@
       <xsl:value-of select="fv:volumeFinder($witness, $chapterMarker)"/>
     </xsl:variable>
 
-    <xsl:variable name="chap_id" as="xs:string" select="tei:milestone[@unit = 'chapter' or @unit='preface' or @unit='letter'][@type = 'start']/following::tei:head[1]/text() ! lower-case(.) ! replace(., '[.,:;]', '') ! tokenize(., ' ') => string-join('_')
+    <xsl:variable name="chap_id" as="xs:string" select="tei:milestone[@unit='preface' or @unit='introduction' or @unit='letter' or @unit = 'chapter'][@type = 'start']/following::tei:head[1]/text() ! lower-case(.) ! replace(., '[.,:;]', '') ! tokenize(., ' ') => string-join('_')
         "/>
 
-    <anchor type="semantic" subtype="{*[local-name()='milestone']/@type}"
+    <anchor type="semantic" subtype="{*[local-name()='milestone']/@type[1]}"
       xml:id="{$witness}{$vol_info}_{$chap_id}"/>
     <xsl:copy select="current()">
       <xsl:copy-of select="current()/@*"/>
