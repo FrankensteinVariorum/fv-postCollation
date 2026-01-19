@@ -8,6 +8,8 @@
         <!-- 2026-01-19 ebb: Renaming this file as the canonical extractCollationData.xsl for use in the pipeline, to faciliate output of the SVG heatmap.
         This XSLT should output data for variance in each reading group for measurement. This version of the XSLT should also output the witnesses present in
         each reading group. 
+        In making this the canonical XSLT file, we are changing the output from spineData-svgPrep.txt to spineData.txt.
+        
         -->
         <!--2018-10-21 updated 2019-03-16 ebb: This XSLT reads from the spine files as prepped through P5 of the postCollation pipeline, and it outputs a single tab-separated plain text file, named spineData.txt, with normalized data pulled from each rdgGrp (its @n attribute) in the spine files. The output file will need to be converted to ascii for weighted levenshtein calculations. 
         Use iconv in the shell (to change curly quotes and other special characters to ASCII format): For a single file:
@@ -17,7 +19,7 @@
         for file in *.txt; do iconv -c -f UTF-8 -t ascii//TRANSLIT "$file" > ../spineDataASCII/"$file"; done
     (On using TRANSLIT with iconv, see https://unix.stackexchange.com/questions/171832/converting-a-utf-8-file-to-ascii-best-effort) 
         -->
-        <xsl:result-document method="text" encoding="UTF-8" href="spineData-svgPrep.txt"> 
+        <xsl:result-document method="text" encoding="UTF-8" href="spineData.txt"> 
             <xsl:for-each select="$spineColl/TEI"> 
                 <xsl:sort select="base-uri(.) ! tokenize(., '/')[last()]"/>
                 <!-- <xsl:variable name="currentSpineFile" as="element()" select="current()"/>
