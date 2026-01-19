@@ -21,7 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <p>Produced from a corpus of collation output files for the Frankenstein Variorum
-                  digital edition on 2026-01-18T19:04:31.159106-05:00.</p>
+                  digital edition on 2026-01-19T00:16:01.444723-05:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -29,9 +29,7 @@
       <body>
          <seg xml:id="C01_app1-f1831">
             </seg>
-         <anchor type="semantic"
-                  subtype="start end start end start"
-                  xml:id="f1831_introduction_preface"/>
+         <anchor type="semantic" subtype="start" xml:id="f1831_introduction_preface"/>
          <seg xml:id="C01_app2-f1831">
             <milestone unit="frontmatter" type="start" n="1"/>
             <include href="../standOff_Includes/1831_frontMatter.xml" parse="xml"/>
@@ -39,7 +37,6 @@
             <milestone unit="introduction" type="start" n="1"/>
             <pb xml:id="F1831_v_009"/>
             <head>INTRODUCTION.</head>
-            <comment text="ebb: centered underscore a few lines below"/>
             <p xml:id="introduction1_p1">The Publishers of the Standard Novels, in selecting “Frankenstein” for one of their series, expressed a wish that I should furnish them with some account of the origin of the story. I am the more willing to comply, because I shall thus give a general answer to the question, so very frequently asked me—“How I, then a young girl, came to think of, and to dilate upon, so very hideous an idea?” It is true that I am very averse to bringing myself forward in print; but as my account will only appear as an appendage to a former production, and as it will be confined to such topics as have connection with my authorship alone, I can scarcely accuse myself of a personal intrusion.</p>
             <p xml:id="introduction1_p2">It is not singular that, as the daughter of two persons of distinguished literary celebrity, I should very early in life have thought of writing. As a child I scribbled; and my favourite pastime, during the hours given me for recreation, was to “write stories.” Still I had a dearer pleasure than this, which was the formation of castles in the air—the indulging in waking dreams—the following up trains of thought, which had for their subject the formation of a succession of imaginary incidents. My dreams were at once more fantastic and agreeable than my writings. In the latter I was a close imitator—rather doing<pb n="vi" xml:id="F1831_v_010"/> as others had done, than putting down the suggestions of my own mind. What I wrote was intended at least for one other eye—my childhood’s companion and friend; but my dreams were all my own; I accounted for them to nobody; they were my refuge when annoyed—my dearest pleasure when free.</p>
             <p xml:id="introduction1_p3">I lived principally in the country as a girl, and passed a considerable time in Scotland. I made occasional visits to the more picturesque parts; but my habitual residence was on the blank and dreary northern shores of the Tay, near Dundee. Blank and dreary on retrospection I call them; they were not so to me then. They were the eyry of freedom, and the pleasant region where unheeded I could commune with the creatures of my fancy. I wrote then—but in a most common-place style. It was beneath the trees of the grounds belonging to our house, or on the bleak sides of the woodless mountains near, that my true compositions, the airy flights of my imagination, were born and fostered. I did not make myself the heroine of my tales. Life appeared to me too common-place an affair as regarded myself. I could not figure to myself that romantic woes or wonderful events would ever be my lot; but I was not confined to my own identity, and I could people the hours with creations far more interesting to me at that age, than my own sensations.</p>
@@ -63,7 +60,6 @@
             <milestone unit="introduction" type="end" n="1"/>
             <milestone unit="preface" type="start" n="1"/>
             <pb xml:id="F1831_v_017"/>
-            <comment text="ebb: this is page unnumbered."/>
             <head>PREFACE.</head>
          </seg>
          <seg part="I" xml:id="C01_app3-f1831__I">
@@ -79,7 +75,7 @@
         the tragic poetry of
         </seg>
             <seg xml:id="C01_app6-f1831">
-        Greece,—Shakspeare,
+        Greece,—Shakspeare <note resp="FV-Team-rm">printer error for Shakespeare</note> ,
         </seg>
             <seg xml:id="C01_app7-f1831">
         in the
@@ -927,7 +923,7 @@
             <p xml:id="novel1_letter4_chapter1_div4_div1_p10">When my father returned from Milan, he found playing with me in the hall of our villa, a child fairer than pictured cherub—a creature who seemed to shed radiance from her looks, and whose form and motions were lighter than the chamois of the hills. The apparition was soon explained. With his permission my mother prevailed on her rustic guardians to yield their charge to her. They were fond of the sweet orphan. Her presence had seemed a blessing to them; but it would be unfair to her to keep her in poverty and want, when Providence afforded her such powerful protection. They consulted their village priest, and the result was, that Elizabeth Lavenza became the inmate of my parents’ house—my more than sister—the beautiful and adored companion of all my occupations and my pleasures.</p>
          </seg>
          <anchor type="collate" xml:id="C08"/>
-         <anchor type="semantic" subtype="end start" xml:id="f1831_chapter_ii"/>
+         <anchor type="semantic" subtype="end" xml:id="f1831_chapter_ii"/>
          <seg part="I" xml:id="C08_app2-f1831__I">
             <p xml:id="novel1_letter4_chapter1_div4_div1_p11">Every one loved Elizabeth. The passionate and almost reverential attachment with which all regarded her became, while I shared it, my pride and my delight. On the evening previous to her being brought to my home, my mother had said playfully,—“I have a pretty present for my Victor—to-morrow he shall have it.” And when, on the morrow, she presented Elizabeth to me as her promised gift, I, with childish seriousness, interpreted her words literally, and looked upon Elizabeth as mine—mine to protect, love, and <pb xml:id="F1831_v_039" n="23"/>cherish. All praises bestowed on her, I received as made to a possession of my own. We called each other familiarly by the name of cousin. No word, no expression could body forth the kind of relation in which she stood to me—my more than sister, since till death she was to be mine only.</p>
             <milestone unit="chapter" type="end" n="1"/>
@@ -1497,6 +1493,7 @@
          <seg xml:id="C08_app481-f1831">
             <milestone unit="chapter" type="end" n="2"/>
          </seg>
+         <anchor type="semantic" subtype="start" xml:id="f1831_chapter_iii"/>
          <milestone unit="chapter" type="start" n="3"/>
          <seg xml:id="C08_app483-f1831">
             <head>CHAPTER III.</head>
@@ -2908,6 +2905,7 @@
             <milestone unit="chapter" type="end" n="3"/>
          </seg>
          <anchor type="collate" xml:id="C09"/>
+         <anchor type="semantic" subtype="start" xml:id="f1831_chapter_iv"/>
          <milestone unit="chapter" type="start" n="4"/>
          <seg xml:id="C09_app3-f1831">
             <head>CHAPTER IV.</head>
@@ -4464,6 +4462,7 @@
          <seg xml:id="C10_app1-f1831">
             <anchor type="collate" xml:id="C10"/>
          </seg>
+         <anchor type="semantic" subtype="start" xml:id="f1831_chapter_v"/>
          <milestone unit="chapter" type="start" n="5"/>
          <seg xml:id="C10_app3-f1831">
             <head>CHAPTER V.</head>
@@ -10244,6 +10243,7 @@
          <seg xml:id="C14_app1-f1831">
             <anchor type="collate" xml:id="C14"/>
          </seg>
+         <anchor type="semantic" subtype="start" xml:id="f1831_chapter_viii"/>
          <milestone unit="chapter" type="start" n="8"/>
          <seg xml:id="C14_app3-f1831">
             <head>CHAPTER VIII.</head>
@@ -12181,6 +12181,7 @@
             <milestone unit="chapter" type="end" n="8"/>
          </seg>
          <anchor type="collate" xml:id="C15"/>
+         <anchor type="semantic" subtype="start" xml:id="f1831_chapter_ix"/>
          <milestone unit="chapter" type="start" n="9"/>
          <seg xml:id="C15_app2-f1831">
             <head>CHAPTER IX.</head>
@@ -13385,6 +13386,7 @@
          <seg xml:id="C16_app2-f1831">
             <anchor type="collate" xml:id="C16"/>
          </seg>
+         <anchor type="semantic" subtype="start" xml:id="f1831_chapter_x"/>
          <milestone unit="chapter" type="start" n="10"/>
          <seg xml:id="C16_app4-f1831">
             <head>CHAPTER X.</head>
@@ -15148,6 +15150,7 @@
          <seg xml:id="C17_app2-f1831">
             <anchor type="collate" xml:id="C17"/>
          </seg>
+         <anchor type="semantic" subtype="start" xml:id="f1831_chapter_xi"/>
          <milestone unit="chapter" type="start" n="11"/>
          <seg xml:id="C17_app4-f1831">
             <head>CHAPTER XI.</head>
@@ -17477,6 +17480,7 @@
          <seg xml:id="C18_app2-f1831">
             <anchor type="collate" xml:id="C18"/>
          </seg>
+         <anchor type="semantic" subtype="start" xml:id="f1831_chapter_xii"/>
          <milestone unit="chapter" type="start" n="12"/>
          <seg xml:id="C18_app4-f1831">
             <head>CHAPTER XII.</head>
@@ -18772,6 +18776,7 @@
             <milestone unit="chapter" type="end" n="13"/>
          </seg>
          <anchor type="collate" xml:id="C20"/>
+         <anchor type="semantic" subtype="start" xml:id="f1831_chapter_xiv"/>
          <milestone unit="chapter" type="start" n="14"/>
          <seg part="I" xml:id="C20_app3-f1831__I">
             <head>CHAPTER XIV.</head>
@@ -19423,6 +19428,7 @@
          <seg xml:id="C21_app2-f1831">
             <anchor type="collate" xml:id="C21"/>
          </seg>
+         <anchor type="semantic" subtype="start" xml:id="f1831_chapter_xv"/>
          <milestone unit="chapter" type="start" n="15"/>
          <seg xml:id="C21_app4-f1831">
             <head>CHAPTER XV.</head>
@@ -25211,6 +25217,7 @@
             <milestone unit="chapter" type="end" n="17"/>
          </seg>
          <anchor type="collate" xml:id="C24"/>
+         <anchor type="semantic" subtype="start" xml:id="f1831_chapter_xviii"/>
          <milestone unit="chapter" type="start" n="18"/>
          <seg part="I" xml:id="C24_app2-f1831__I">
             <head>CHAPTER XVIII.</head>
@@ -26376,7 +26383,7 @@
          <seg part="I" xml:id="C25_app35-f1831__I">
                </seg>
          </p>
-         <anchor type="semantic" subtype="end start" xml:id="f1831_chapter_xix"/>
+         <anchor type="semantic" subtype="end" xml:id="f1831_chapter_xix"/>
          <seg part="F" xml:id="C25_app35-f1831__F">
             <milestone unit="chapter" type="end" n="18"/>
             <milestone unit="chapter" type="start" n="19"/>
@@ -34667,6 +34674,7 @@
             <milestone unit="chapter" type="end" n="22"/>
          </seg>
          <anchor type="collate" xml:id="C30"/>
+         <anchor type="semantic" subtype="start" xml:id="f1831_chapter_xxiii"/>
          <milestone unit="chapter" type="start" n="23"/>
          <pb xml:id="F1831_v_190" n="174"/>
          <seg part="I" xml:id="C30_app2-f1831__I">
@@ -36462,6 +36470,7 @@
          <seg xml:id="C31_app2-f1831">
             <anchor type="collate" xml:id="C31"/>
          </seg>
+         <anchor type="semantic" subtype="start" xml:id="f1831_chapter_xxiv"/>
          <milestone unit="chapter" type="start" n="24"/>
          <seg part="I" xml:id="C31_app4-f1831__I">
             <head>CHAPTER XXIV.</head>

@@ -21,7 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <p>Produced from a corpus of collation output files for the Frankenstein Variorum
-                  digital edition on 2026-01-18T19:04:31.159106-05:00.</p>
+                  digital edition on 2026-01-19T00:16:01.444723-05:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -29,9 +29,7 @@
       <body>
          <seg xml:id="C01_app1-fThomas">
             </seg>
-         <anchor type="semantic"
-                  subtype="start end start"
-                  xml:id="fThomas_vol_1_preface"/>
+         <anchor type="semantic" subtype="start" xml:id="fThomas_vol_1_preface"/>
          <seg xml:id="C01_app2-fThomas">
             <milestone unit="volume" n="1"/>
             <milestone unit="frontmatter" type="start" n="1"/>
@@ -3859,6 +3857,7 @@
          <seg xml:id="C09_app1-fThomas">
             <anchor type="collate" xml:id="C09"/>
          </seg>
+         <anchor type="semantic" subtype="start" xml:id="fThomas_vol_1_chapter_iii"/>
          <milestone unit="chapter" type="start" n="3"/>
          <pb xml:id="F1818_v1_090" n="078"/>
          <seg xml:id="C09_app3-fThomas">
@@ -5499,6 +5498,7 @@
          <seg xml:id="C10_app1-fThomas">
             <anchor type="collate" xml:id="C10"/>
          </seg>
+         <anchor type="semantic" subtype="start" xml:id="fThomas_vol_1_chapter_iv"/>
          <milestone unit="chapter" type="start" n="4"/>
          <seg xml:id="C10_app3-fThomas">
             <head>CHAPTER IV.</head>
@@ -11994,6 +11994,7 @@
          <seg xml:id="C14_app1-fThomas">
             <anchor type="collate" xml:id="C14"/>
          </seg>
+         <anchor type="semantic" subtype="start" xml:id="fThomas_vol_1_chapter_vii"/>
          <milestone unit="chapter" type="start" n="7"/>
          <seg xml:id="C14_app3-fThomas">
             <head>CHAPTER VII.</head>
@@ -14314,6 +14315,7 @@
             <milestone unit="frontmatter" type="end" n="2"/>
          </seg>
          <anchor type="collate" xml:id="C15"/>
+         <anchor type="semantic" subtype="start" xml:id="fThomas_vol_2_chapter_i"/>
          <milestone unit="chapter" type="start" n="8"/>
          <seg xml:id="C15_app2-fThomas">
             <head>CHAPTER I.</head>
@@ -21465,6 +21467,7 @@
          <seg xml:id="C20_app1-fThomas">
             <anchor type="collate" xml:id="C20"/>
          </seg>
+         <anchor type="semantic" subtype="start" xml:id="fThomas_vol_2_chapter_vi"/>
          <milestone unit="chapter" type="start" n="13"/>
          <pb xml:id="F1818_v2_088" n="084"/>
          <seg part="I" xml:id="C20_app3-fThomas__I">
@@ -28156,6 +28159,7 @@
             <milestone unit="frontmatter" type="end" n="3"/>
          </seg>
          <anchor type="collate" xml:id="C24"/>
+         <anchor type="semantic" subtype="start" xml:id="fThomas_vol_3_chapter_i"/>
          <milestone unit="chapter" type="start" n="17"/>
          <seg part="I" xml:id="C24_app2-fThomas__I">
             <head>CHAPTER I.</head>
@@ -29593,9 +29597,7 @@
          <seg part="I" xml:id="C25_app35-fThomas__I">
                </seg>
          </p>
-         <anchor type="semantic"
-                  subtype="end start"
-                  xml:id="fThomas_vol_3_chapter_ii"/>
+         <anchor type="semantic" subtype="end" xml:id="fThomas_vol_3_chapter_ii"/>
          <seg part="F" xml:id="C25_app35-fThomas__F">
             <milestone unit="chapter" type="end" n="17"/>
             <milestone unit="chapter" type="start" n="18"/>
@@ -38257,6 +38259,7 @@
             <milestone unit="chapter" type="end" n="21"/>
          </seg>
          <anchor type="collate" xml:id="C30"/>
+         <anchor type="semantic" subtype="start" xml:id="fThomas_vol_3_chapter_vi"/>
          <milestone unit="chapter" type="start" n="22"/>
          <pb xml:id="F1818_v3_120" n="116"/>
          <seg part="I" xml:id="C30_app2-fThomas__I">
