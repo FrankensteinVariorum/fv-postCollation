@@ -12,7 +12,7 @@ found throughout the Frankenstein Variorum. The heatmap visualization is develop
      * a file specially prepared for processing the heatmap: [svgPrep-witLevData.xml](https://github.com/FrankensteinVariorum/fv-postCollation/blob/master/postColl-workspace/edit-distance/svgPrep-witLevData.xml)
      If updating the edition files in a way that updates the spine and hotspots, this source file will need to be updated before generating the heatmap. It depends on:
           * [FV_LevDists-simplified.xml](https://github.com/FrankensteinVariorum/fv-postCollation/blob/master/postColl-workspace/edit-distance/FV_LevDists-simplified.xml)
-          * [svgPrep-refactor.xsl](https://github.com/FrankensteinVariorum/fv-postCollation/blob/master/postColl-workspace/edit-distance/svgPrep-refactor.xsl): Run this over FV_LevDists-simplified.xml and output svgPrep-witLeveData.xml.
+          * [svgPrep-refactor.xsl](https://github.com/FrankensteinVariorum/fv-postCollation/blob/master/postColl-workspace/edit-distance/svgPrep-refactor.xsl): Run this over FV_LevDists-simplified.xml and output svgPrep-witLevData.xml.
      * The [standoff_Spine directory](https://github.com/FrankensteinVariorum/fv-postCollation/tree/master/postColl-workspace/standoff_Spine), which contains the fully constructed "spine" files constructed during the postCollation pipeline.
 
 2. To add lines and text labels showing the chapter boundaries of 1818 and 1831 editions on the heatmap, run [guideMarks-to-SVG.xsl](https://github.com/FrankensteinVariorum/fv-postCollation/blob/master/postColl-workspace/edit-distance/guideMarks-to-SVG.xsl).
