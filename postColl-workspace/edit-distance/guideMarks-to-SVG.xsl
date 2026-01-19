@@ -65,12 +65,20 @@
                  
                  <xsl:choose>
                      <xsl:when test="current() = 'vol_1_preface'">
-                         <line x1="50" x2="300" y1="{$nearestMatch//line/@y1 -20}"  
+                         <line x1="75" x2="300" y1="{$nearestMatch//line/@y1 -20}"  
                              y2="{$nearestMatch//line/@y1}" stroke-width="5" stroke="black"/>
                          <text font-size="6rem" font-variant="small-caps" 
-                             x="-100" y="{$nearestMatch//line/@y1 -20}" style="text-anchor: middle">preface</text>
+                             x="-100" y="{$nearestMatch//line/@y1 - 25}" style="text-anchor: middle">preface</text>
                      </xsl:when>
-                     <xsl:when test="current() = ('vol_1_letter_ii', 'vol_2_chapter_vi', 'vol_3_chapter_i')">
+                     <xsl:when test="current() = 'vol_1_letter_ii'">
+                         <line x1="90" x2="300" y1="{$nearestMatch//line/@y1 +40}"  
+                             y2="{$nearestMatch//line/@y1}" stroke-width="5" stroke="black"/>
+                         <text font-size="6rem" font-variant="small-caps" 
+                             x="-200" y="{$nearestMatch//line/@y1 +60}" style="text-anchor: middle">
+                             <xsl:value-of select="current() ! translate(., '_', ' ')"/>
+                         </text>
+                     </xsl:when>
+                     <xsl:when test="current() = ('vol_2_chapter_vi', 'vol_3_chapter_i')">
                          <line x1="-675" x2="300" y1="{$nearestMatch//line/@y1}"  
                              y2="{$nearestMatch//line/@y1}" stroke-width="5" stroke="black"/>
                          <text font-size="6rem" font-variant="small-caps" x="-1000" y="{$nearestMatch//line/@y1 + 15}" style="text-anchor: middle">
@@ -107,13 +115,18 @@
                    
                    <xsl:choose>
                        <xsl:when test="current() = 'introduction_preface'">
-                           <line x1="1000" x2="750" y1="{$nearestMatch//line/@y1 - 15}"  
+                           <line x1="950" x2="750" y1="{$nearestMatch//line/@y1 - 20}"  
                                y2="{$nearestMatch//line/@y1}" stroke-width="5" stroke="black"/>
-                           <text font-size="6rem" font-variant="small-caps" x="1420" y="{$nearestMatch//line/@y1 - 15}" 
+                           <text font-size="6rem" font-variant="small-caps" x="1420" y="{$nearestMatch//line/@y1 - 25}" 
                                style="text-anchor: middle">introduction, preface</text>
                        </xsl:when>
-                       <xsl:when test="current() = ('letter_ii', 'chapter_xiv')">
-                         
+                       <xsl:when test="current() = 'letter_ii'">
+                           <line x1="1050" x2="750" y1="{$nearestMatch//line/@y1 + 40}"  
+                               y2="{$nearestMatch//line/@y1}" stroke-width="5" stroke="black"/>
+                           <text font-size="6rem" font-variant="small-caps" x="1250" y="{$nearestMatch//line/@y1 +60}" 
+                               style="text-anchor: middle">letter ii</text>
+                       </xsl:when>
+                       <xsl:when test="current() = ('chapter_xiv')">
                            <line x1="1550" x2="750" y1="{$nearestMatch//line/@y1}"  
                                y2="{$nearestMatch//line/@y1}" stroke-width="5" stroke="black"/>
                            <text font-size="6rem" font-variant="small-caps" x="1800" y="{$nearestMatch//line/@y1 + 15}" style="text-anchor: middle">
