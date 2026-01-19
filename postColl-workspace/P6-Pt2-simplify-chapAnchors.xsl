@@ -119,7 +119,7 @@
     </xsl:copy>
   </xsl:template>
 
-  <xsl:template match="tei:div/tei:milestone[@unit = 'chapter' and @type = 'start']">
+  <xsl:template match="tei:div/tei:milestone[@unit = 'chapter' and @type = 'star2t']">
     <!--ebb: This template processes top-level Print witness chapter start markers, nested as a child of the div[@type='collate'] element. -->
     <xsl:param name="witness"/>
     <xsl:variable name="chapterMarker" as="element()" select="current()"/>
