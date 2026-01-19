@@ -7,13 +7,13 @@
     <xsl:template match="/">
         <!--2018-10-21 updated 2019-03-16 ebb: This XSLT reads from the spine files as prepped through P5 of the postCollation pipeline, and it outputs a single tab-separated plain text file, named spineData.txt, with normalized data pulled from each rdgGrp (its @n attribute) in the spine files. The output file will need to be converted to ascii for weighted levenshtein calculations. 
         Use iconv in the shell (to change curly quotes and other special characters to ASCII format): For a single file:
-        iconv -c -f UTF-8 -t ascii//TRANSLIT spineData.txt  > spineData-ascii.txt
+        iconv -c -f UTF-8 -t ascii//TRANSLIT spineData-svgPrep.txt  > spineData-svgPrep-ascii.txt
         
         If batch processing a directory of output files to convert to ascii, use something like:
         for file in *.txt; do iconv -c -f UTF-8 -t ascii//TRANSLIT "$file" > ../spineDataASCII/"$file"; done
     (On using TRANSLIT with iconv, see https://unix.stackexchange.com/questions/171832/converting-a-utf-8-file-to-ascii-best-effort) 
         -->
-        <xsl:result-document method="text" encoding="UTF-8" href="spineData.txt"> 
+        <xsl:result-document method="text" encoding="UTF-8" href="spineData-svgPrep.txt"> 
             <xsl:for-each select="$spineColl/TEI"> 
                 <xsl:sort select="base-uri(.) ! tokenize(., '/')[last()]"/>
                 <!-- <xsl:variable name="currentSpineFile" as="element()" select="current()"/>
@@ -35,12 +35,13 @@
         <xsl:text>&#10;</xsl:text>
     </xsl:template>
     <xsl:template match="rdgGrp">
-        <!--output rdgGrp identifiers and normalized tokens. If the MS notebook witness is present, flag it with #fMS appended to the rdgGrp xml:id. -->  
-        <xsl:choose>
-            <xsl:when test="rdg/@wit='fMS'">
-                <xsl:value-of select="@xml:id"/><xsl:text>#fMS&#x9;</xsl:text>
-            </xsl:when>
-            <xsl:otherwise><xsl:value-of select="@xml:id"/><xsl:text>&#x9;</xsl:text></xsl:otherwise></xsl:choose>
+        <!-- First output the rdgGrp xml:id -->
+        <xsl:value-of select="@xml:id"/><xsl:text>::</xsl:text>
+        <!-- Now, output the witnesses in the rdgGrp-->
+        <xsl:value-of select="string-join(rdg/@wit, ' ')"/>
+        <xsl:text>&#x9;</xsl:text>
+        
+        <!-- Next, output the normalized string of the rdg at this point -->
         <xsl:variable name="trimmed-nVal" as="xs:string">
             <xsl:choose>
                 <xsl:when test="@n = ['']">

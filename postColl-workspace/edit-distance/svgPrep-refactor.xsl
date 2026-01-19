@@ -7,7 +7,20 @@
     
     <xsl:output method="xml" indent="yes"/>
     
-    <!-- 2024-07-20 ebb Redo the feature structures from svgPrep_LevDists-simplified so you see data for each witness.
+    <!-- 2024-07-20 and 2026-01-19 ebb Redo the feature structures from svgPrep_LevDists-simplified so you see data for each witness.
+        **Do this by:
+        * running extractCollationData-svgPrep.xsl over preLev_standoff_Spine
+        * convert the spineData.txt to ASCII (following the main Readme in the postCollation repo)
+        * rerun LevenCalc_toXML.py
+        * run LevWeight-Simplification.xsl
+        
+        OR, contemplate just making extractCollationData-svgPrep.xsl the canonical one in the pipeline. 
+        Deos it break anything? 
+        
+        FED UP with the confusion, I venture to say that we should just 
+        rename extractCollationData-svgPrep as the canonical extractCollationData.xsl in the pipeline 
+        and see if anything breaks. Trying that now at 12:12pm EST on 2026-01-19. 
+        
         Throw out the data of EMPTY ms compared to the witnesses.
         Output from this XSLT should be saved as svgPrep-witLevData.xml
     -->
