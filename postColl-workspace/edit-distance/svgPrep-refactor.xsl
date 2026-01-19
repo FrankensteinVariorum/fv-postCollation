@@ -14,13 +14,9 @@
         * rerun LevenCalc_toXML.py
         * run LevWeight-Simplification.xsl
         
-        OR, contemplate just making extractCollationData-svgPrep.xsl the canonical one in the pipeline. 
-        Deos it break anything? 
-        
-        FED UP with the confusion, I venture to say that we should just 
-        rename extractCollationData-svgPrep as the canonical extractCollationData.xsl in the pipeline 
-        and see if anything breaks. Trying that now at 12:12pm EST on 2026-01-19. 
-        
+        OR, just make extractCollationData-svgPrep.xsl the canonical one in the pipeline, so the witness info is available
+        in spineData.txt
+
         Throw out the data of EMPTY ms compared to the witnesses.
         Output from this XSLT should be saved as svgPrep-witLevData.xml
     -->

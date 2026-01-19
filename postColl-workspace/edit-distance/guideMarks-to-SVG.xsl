@@ -64,6 +64,12 @@
                  <xsl:comment> <xsl:value-of select="$nearestMatch//title"/></xsl:comment>
                  
                  <xsl:choose>
+                     <xsl:when test="current() = 'vol_1_preface'">
+                         <line x1="50" x2="300" y1="{$nearestMatch//line/@y1 -20}"  
+                             y2="{$nearestMatch//line/@y1}" stroke-width="5" stroke="black"/>
+                         <text font-size="6rem" font-variant="small-caps" 
+                             x="-100" y="{$nearestMatch//line/@y1 -20}" style="text-anchor: middle">preface</text>
+                     </xsl:when>
                      <xsl:when test="current() = ('vol_1_letter_ii', 'vol_2_chapter_vi', 'vol_3_chapter_i')">
                          <line x1="-675" x2="300" y1="{$nearestMatch//line/@y1}"  
                              y2="{$nearestMatch//line/@y1}" stroke-width="5" stroke="black"/>
@@ -100,6 +106,12 @@
                    <xsl:comment> <xsl:value-of select="$nearestMatch//title"/></xsl:comment>
                    
                    <xsl:choose>
+                       <xsl:when test="current() = 'introduction_preface'">
+                           <line x1="1000" x2="750" y1="{$nearestMatch//line/@y1 - 15}"  
+                               y2="{$nearestMatch//line/@y1}" stroke-width="5" stroke="black"/>
+                           <text font-size="6rem" font-variant="small-caps" x="1420" y="{$nearestMatch//line/@y1 - 15}" 
+                               style="text-anchor: middle">introduction, preface</text>
+                       </xsl:when>
                        <xsl:when test="current() = ('letter_ii', 'chapter_xiv')">
                          
                            <line x1="1550" x2="750" y1="{$nearestMatch//line/@y1}"  
