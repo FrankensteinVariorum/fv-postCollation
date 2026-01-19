@@ -102,7 +102,7 @@
     <!-- 2026-01-18 ebb: adding @unit='introduction' to now incorporate the 1831 introduction. -->
     <xsl:param name="witness"/>
     <xsl:variable name="chapterMarker" as="element()"
-      select="tei:milestone[@unit = 'chapter' or @unit='preface' or @unit='letter'][@type = 'start']"/>
+      select="tei:milestone[@unit='introduction' or @unit='preface' or @unit='letter' or @unit = 'chapter'][@type = 'start']"/>
 
     <xsl:variable name="vol_info" as="xs:string?">
       <xsl:value-of select="fv:volumeFinder($witness, $chapterMarker)"/>
@@ -111,7 +111,7 @@
     <xsl:variable name="chap_id" as="xs:string" select="tei:milestone[@unit='preface' or @unit='introduction' or @unit='letter' or @unit = 'chapter'][@type = 'start']/following::tei:head[1]/text() ! lower-case(.) ! replace(., '[.,:;]', '') ! tokenize(., ' ') => string-join('_')
         "/>
 
-    <anchor type="semantic" subtype="{*[local-name()='milestone']/@type[1]}"
+    <anchor type="semantic" subtype="{(*[local-name()='milestone'])[1]/@type}"
       xml:id="{$witness}{$vol_info}_{$chap_id}"/>
     <xsl:copy select="current()">
       <xsl:copy-of select="current()/@*"/>
@@ -119,7 +119,7 @@
     </xsl:copy>
   </xsl:template>
 
-  <xsl:template match="tei:div/tei:milestone[@unit = 'chapter' and @type = 'star2t']">
+  <xsl:template match="tei:div/tei:milestone[@unit = 'chapter' and @type = 'start']">
     <!--ebb: This template processes top-level Print witness chapter start markers, nested as a child of the div[@type='collate'] element. -->
     <xsl:param name="witness"/>
     <xsl:variable name="chapterMarker" as="element()" select="current()"/>
