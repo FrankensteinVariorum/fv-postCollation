@@ -102,7 +102,7 @@
     <!-- 2026-01-18 ebb: adding @unit='introduction' to now incorporate the 1831 introduction. -->
     <xsl:param name="witness"/>
     <xsl:variable name="chapterMarker" as="element()"
-      select="tei:milestone[@unit='introduction' or @unit='preface' or @unit='letter' or @unit = 'chapter'][@type = 'start']"/>
+      select="tei:milestone[@unit='preface' or @unit='letter' or @unit = 'chapter'][@type = 'start']"/>
 
     <xsl:variable name="vol_info" as="xs:string?">
       <xsl:value-of select="fv:volumeFinder($witness, $chapterMarker)"/>
@@ -111,7 +111,7 @@
     <xsl:variable name="chap_id" as="xs:string" select="tei:milestone[@unit='preface' or @unit='introduction' or @unit='letter' or @unit = 'chapter'][@type = 'start']/following::tei:head[1]/text() ! lower-case(.) ! replace(., '[.,:;]', '') ! tokenize(., ' ') => string-join('_')
         "/>
 
-    <anchor type="semantic" subtype="{(*[local-name()='milestone'])[1]/@type}"
+    <anchor type="semantic" subtype="{(*[local-name()='milestone']/@type)[1]}"
       xml:id="{$witness}{$vol_info}_{$chap_id}"/>
     <xsl:copy select="current()">
       <xsl:copy-of select="current()/@*"/>
